@@ -1,8 +1,10 @@
 # Governance Proposals — History
 
-This file records every governance proposal submitted to Radix DLT DAO LLC, in sequence. Each entry links to the proposal document and lists the documents it activated or amended.
+This file records every proposal that changed the governance framework — Constitutional and Governance Process proposals that activated, amended, or retired a document in this repository. Each entry links to the proposal document and lists the documents it affected.
 
-Proposals are added when submitted and updated when a vote concludes.
+Treasury, election, signaling, and executable proposals are recorded on-chain and on the governance forum. They are not logged here unless they also produce a document change in this repository.
+
+Entries are added when a proposal is submitted and updated when a vote concludes.
 
 ---
 
