@@ -23,6 +23,12 @@ This document does NOT define:
 
 ---
 
+## 2.5 Proposal Eligibility
+
+Any token holder may submit a proposal. No minimum holding, prior registration, or approval from any DAO body is required to submit. This right flows directly from token holder sovereignty as established in the Charter §4.1.
+
+---
+
 ## 3. Proposal Lifecycle
 
 All proposals follow this lifecycle:
