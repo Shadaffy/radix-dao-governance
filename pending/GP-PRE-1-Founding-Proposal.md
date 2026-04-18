@@ -159,6 +159,7 @@ The RAC may disburse these funds at its discretion for DAO establishment purpose
 - Legal formation costs and Registered Agent fees
 - Compliance filings and legal counsel
 - Initial infrastructure, tooling, and operational setup
+- Ongoing minor operational expenses during Phase 1 (filing fees, minor subscriptions, tooling renewals, postage, and similar out-of-pocket costs), subject to the Phase 1 operational sub-cap defined below
 
 Terms:
 
@@ -166,6 +167,18 @@ Terms:
 - The grant is one-time and non-renewable; any continuation requires a standard Treasury & Budget proposal
 - RAC members may not direct establishment funds to themselves; any personal expense recovery must appear as a named line item in the spending report
 - RAC must publish a consolidated spending report to the governance forum within **90 days of the DAO's legal formation date**, listing all disbursements, recipients, purposes, and amounts
+
+**Phase 1 Operational Expenses Sub-Cap**
+
+Of the total grant, no more than [OPERATIONAL SUB-CAP] USDC may be used for ongoing operational expenses (as distinct from one-time formation costs). Within this sub-cap, disbursements are subject to a monthly ceiling of [MONTHLY OPERATIONAL CAP] USDC. Unused monthly ceiling does not roll over.
+
+Additional conditions for this category:
+
+- Each disbursement requires a simple majority RAC vote before commitment
+- Supporting documentation (invoice, receipt, or equivalent) must be retained
+- All disbursements must be disclosed to the governance forum within 72 hours, including amount, payee, purpose, and vote record
+- RAC members may not direct operational funds to themselves (consistent with the personal expense restriction above)
+- Operational expense disbursements are included in the consolidated spending report
 
 ---
 
@@ -217,7 +230,8 @@ Terms:
 | Grant amount | [ESTABLISHMENT GRANT AMOUNT] USDC |
 | Recipient | Radix Accountability Council (RAC) |
 | Cost model | Fixed grant — RAC discretion within approved scope |
-| Purpose | Legal formation, compliance, initial infrastructure and tooling |
+| Purpose | Legal formation, compliance, initial infrastructure, tooling, and ongoing minor operational expenses during Phase 1 (sub-capped) |
+| Phase 1 Operational Sub-Cap | [OPERATIONAL SUB-CAP] USDC total; [MONTHLY OPERATIONAL CAP] USDC/month ceiling; unused monthly ceiling lapses |
 | Authorization | Effective from date this proposal is accepted by token holder vote |
 | Reporting | Consolidated spending report within 90 days of legal formation |
 
