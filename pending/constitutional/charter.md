@@ -6,6 +6,13 @@
 
 The Radix DAO ("the DAO") was established to ensure that the Radix ecosystem is governed by those who have a stake in its future — its community of token holders — rather than any single organisation or authority.
 
+The DAO's mission encompasses:
+
+* Education and research in decentralized ledger technology and its applications
+* Development and management of blockchain protocols, distributed systems, and open-source cryptographic software
+* Advancement of cryptographic systems for public benefit
+* Governance of decentralized networks and protocols
+
 The DAO exists to:
 
 * Steward and allocate resources for the long-term benefit of the Radix ecosystem
