@@ -23,6 +23,7 @@ A YES vote on GP-PRE-1 means you are approving all of the documents listed below
 | Conflict of Interest Policy | Governance | [governance/conflict-of-interest-policy.md](governance/conflict-of-interest-policy.md) |
 | Code of Conduct | Governance | [governance/code-of-conduct.md](governance/code-of-conduct.md) |
 | Legal Wrapper & Representation | Governance | [governance/legal-wrapper-and-representation.md](governance/legal-wrapper-and-representation.md) |
+| Transition Governance Framework | Transition | [transition/transition-governance-framework.md](transition/transition-governance-framework.md) |
 
 ---
 

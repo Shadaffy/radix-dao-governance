@@ -36,6 +36,7 @@ Proposals are added when submitted and updated when a vote concludes.
 | Conflict of Interest Policy | `governance/conflict-of-interest-policy.md` |
 | Code of Conduct | `governance/code-of-conduct.md` |
 | Legal Wrapper & Representation | `governance/legal-wrapper-and-representation.md` |
+| Transition Governance Framework | `transition/transition-governance-framework.md` |
 
 ---
 
