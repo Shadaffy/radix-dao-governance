@@ -1,10 +1,10 @@
-# Radix Network DAO Charter
+# Radix DAO Charter
 
 ---
 
 ## 1. Purpose
 
-The Radix Network DAO ("the DAO") was established to ensure that the Radix ecosystem is governed by those who have a stake in its future — its community of token holders — rather than any single organisation or authority.
+The Radix DAO ("the DAO") was established to ensure that the Radix ecosystem is governed by those who have a stake in its future — its community of token holders — rather than any single organisation or authority.
 
 The DAO exists to:
 
@@ -166,7 +166,7 @@ The DAO's assets and income exist to advance its purpose — not to enrich its m
 
 This principle is not merely a legal constraint. It is a statement of intent: the DAO is a steward, not a vehicle for extraction.
 
-Detailed definitions and constraints are specified in the **Legal Wrapper & Representation** document, including the governing law and legal entity structure applicable to the DAO.
+Permitted exceptions are specified in the **Legal Wrapper & Representation** document. The governing law and legal entity structure of the DAO are defined in the **Operating Agreement** Art I.
 
 ---
 

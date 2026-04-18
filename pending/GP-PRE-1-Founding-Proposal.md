@@ -53,7 +53,7 @@ The DAO has developed a comprehensive governance framework over an extended draf
 Without this proposal passing:
 
 * No legal entity exists; the DAO cannot hold assets, enter contracts, or represent itself in any legal capacity
-* The 10 Phase 1 governance documents have no binding force — they are aspirational drafts, not operative rules
+* The 11 Phase 1 governance documents have no binding force — they are aspirational drafts, not operative rules
 * Delegates have no formally ratified authority; their actions have no legal standing on behalf of the community
 * The Transition Governance Framework does not activate; the RAC has no authorized transitional authority
 * The DAO cannot proceed to any post-registration action (BOIR, asset transfer, Working Group establishment)
@@ -76,7 +76,7 @@ This proposal enacts four inseparable founding actions:
 
 #### Element 1 — Governance Framework Adoption
 
-Formally adopt the following 10 documents as the Phase 1 governance framework of Radix DLT DAO LLC. Upon entity registration, these documents immediately have binding force under Operating Agreement §12.4 as adopted governance policies:
+Formally adopt the following 11 documents as the Phase 1 governance framework of Radix DLT DAO LLC. Upon entity registration, these documents immediately have binding force under Operating Agreement §12.4 as adopted governance policies:
 
 | Document | Purpose |
 |---|---|
@@ -89,7 +89,8 @@ Formally adopt the following 10 documents as the Phase 1 governance framework of
 | RAC Mandate | Authority and limits of the Accountability Council |
 | Conflict of Interest Policy | Disclosure and recusal obligations for all role holders |
 | Code of Conduct | Behavioral standards for all DAO participants |
-| Legal Wrapper & Representation | Legal entity structure and real-world representation |
+| Legal Wrapper & Representation | Compliance obligations, UBO/BOIR rules, and regulatory response protocols |
+| Governance Maintenance & Upgrade Framework | Rules for amending, versioning, and classifying governance documents — active from day one to govern any changes to this Phase 1 document set |
 
 Note: These documents are adopted as governance framework via GP-PRE-1. Their formal adoption as binding subordinate operational policies of the LLC (per OA §12.4) is the subject of GP-1 (Entity Activation Package), which opens immediately post-registration.
 
@@ -151,7 +152,7 @@ This authority is subject to the explicit limitations in TGF §6, expires after 
 
 #### Element 5 — Establishment Grant Authorization
 
-Authorize a fixed establishment grant of **[ESTABLISHMENT GRANT AMOUNT] XRD (approximately [USD EQUIVALENT] USDC)** to the RAC, effective from the date this proposal is accepted by token holder vote.
+Authorize a fixed establishment grant of [ESTABLISHMENT GRANT AMOUNT] USDC to the RAC, effective from the date this proposal is accepted by token holder vote.
 
 The RAC may disburse these funds at its discretion for DAO establishment purposes, including:
 
@@ -174,21 +175,21 @@ Terms:
 |---|---|
 | Certificate of Formation | New document — executed and filed with MIDAO upon vote passage |
 | Operating Agreement | New document — executed and filed with MIDAO upon vote passage |
-| All 10 Phase 1 governance documents | Status changes from "draft" to "adopted governance framework" |
+| All 11 Phase 1 governance documents | Status changes from "draft" to "adopted governance framework" |
 | Transition Governance Framework | Status changes from "draft" to "authorized and active from registration date" |
 
 ---
 
 ## 6. Expected Outcomes
 
-* All 10 Phase 1 governance documents are formally adopted and govern DAO operations from the date of entity registration
+* All 11 Phase 1 governance documents are formally adopted and govern DAO operations from the date of entity registration
 * Legal Signatory files Certificate of Formation with MIDAO on the business day following vote passage
 * Radix DLT DAO LLC comes into legal existence as a Marshall Islands Non-Profit DAO LLC
 * Formation confirmation published to governance forum within 72 hours of registration, including: entity name, formation date, Registered Agent confirmation, Delegate Roster, multi-sig wallet address
 * Founding Delegate roster is publicly ratified and confirmed; KYC-completing Delegates assume their functions
 * RAC Phase 1 transitional authority is formally authorized by token holder vote; commences from registration date
-* DAO can proceed to the three simultaneous post-registration proposals (GP-1, GP-2, GP-3) immediately upon registration
-* Establishment grant of [ESTABLISHMENT GRANT AMOUNT] XRD (approximately [USD EQUIVALENT] USDC) is available to RAC from the date this proposal is accepted; consolidated spending report published within 90 days of legal formation
+* DAO can proceed to the first post-registration proposal (GP-1) immediately upon registration
+* Establishment grant of [ESTABLISHMENT GRANT AMOUNT] USDC is available to RAC from the date this proposal is accepted; consolidated spending report published within 90 days of legal formation
 
 ---
 
@@ -213,7 +214,7 @@ Terms:
 
 | Field | Value |
 |---|---|
-| Grant amount | [ESTABLISHMENT GRANT AMOUNT] XRD (approximately [USD EQUIVALENT] USDC) |
+| Grant amount | [ESTABLISHMENT GRANT AMOUNT] USDC |
 | Recipient | Radix Accountability Council (RAC) |
 | Cost model | Fixed grant — RAC discretion within approved scope |
 | Purpose | Legal formation, compliance, initial infrastructure and tooling |
@@ -229,14 +230,14 @@ Terms:
 | Step | Action | Responsible Party | Target Date |
 |---|---|---|---|
 | 1 | Vote passes (≥66% YES, ≥10% quorum) | Token holders | Upon vote close |
-| 2 | Legal Signatory executes Certificate of Formation and Operating Agreement | Legal Signatory | Business day following vote close |
-| 3 | Legal Signatory files formation documents with MIDAO Directory Services | Legal Signatory | Business day following vote close |
+| 2 | Legal Signatory executes Certificate of Formation and Operating Agreement | Legal Signatory | Business week following vote close |
+| 3 | Legal Signatory files formation documents with MIDAO Directory Services | Legal Signatory | Business week following vote close |
 | 4 | Registered Agent confirms entity registration | MIDAO Directory Services | Upon filing |
 | 5 | Formation confirmation published to governance forum | RAC / Legal Signatory | Within 72 hours of registration |
 | 6 | Delegate Roster, multi-sig wallet address, and KYC confirmations published | RAC | Within 72 hours of registration |
 | 7 | Transition Governance Framework formally active | RAC (records on forum) | Upon registration |
 | 7a | Establishment grant made available to RAC | Authorized Signers | Upon proposal acceptance |
-| 8 | Three simultaneous TCs open (GP-1, GP-2, GP-3) | Governance Operator | Business day following registration |
+| 8 | GP-1 TC opens | Governance Operator | Business day following published formation confirmation |
 
 ### 9.2 Success Metrics
 
@@ -244,7 +245,7 @@ Terms:
 * Formation documents executed and filed; Registered Agent confirms
 * Formation confirmation post published to governance forum with all required information
 * Delegate functions logged on-chain and published
-* All three post-registration TCs (GP-1, GP-2, GP-3) open within one business day of registration
+* GP-1 TC opens within one business day of registration
 
 ### 9.3 Reporting Obligations
 
@@ -274,7 +275,7 @@ No RAC member may be the sole drafter of the Delegate roster without community r
 
 **Known dependencies:**
 
-* **GP-PRE-1 → GP-1, GP-2, GP-3:** All three post-registration proposals (Days 37–57) depend on this proposal passing. If GP-PRE-1 fails, the 7-day cooldown applies before resubmission.
+* **GP-PRE-1 → GP-1:** GP-1 (Entity Activation Package) depends on this proposal passing. If GP-PRE-1 fails, the 7-day cooldown applies before resubmission.
 * **Consultation V2 identifiers:** The exact values of `packageAddress`, `componentAddress`, and `adminBadgeAddress` must be confirmed and inserted into the Certificate of Formation and Operating Agreement before this proposal is formally submitted. The placeholders in §5.2 Element 2 are resolved before the TC opens.
 * **Governance system continuity:** GP-PRE-1 runs on the community's Consultation V2 deployment — the same system used for all proposals before and after registration. What changes at registration is not the tool but the legal standing: from registration onward, votes are acts of the legal entity Radix DLT DAO LLC, governed by the DAO's own Proposal & Voting Framework.
 
@@ -285,13 +286,13 @@ No RAC member may be the sole drafter of the Delegate roster without community r
 | Document | Relevance |
 |---|---|
 | `Transition/Activation-Roadmap-Optimised.md` | Phase 1 sequencing and timing; GP-PRE-1 definition |
-| `Transition/Transition-Governance-Framework.md` | TGF §3.1 (10 Phase 1 documents), §5 (RAC transitional authority), §6 (limitations), §11 (expiry) |
+| `Transition/Transition-Governance-Framework.md` | TGF §3.1 (11 Phase 1 documents), §5 (RAC transitional authority), §6 (limitations), §11 (expiry) |
 | `Legal/Formation/Certificate-of-Formation.md` | Formation document authorized for filing by Element 2 |
 | `Legal/Formation/Operating-Agreement.md` | Operating agreement authorized for filing by Element 2; §1.4 (smart contract identifiers), Article V (Delegate functions), §12.4 (policy adoption) |
 | `Charter/charter.md` | Constitutional authority; highest governing document |
 | `Parameters/DAO-Parameters-Registry.md` | §6A (Authorized Signers parameters — 5 signers, 3-of-5 / 4-of-5 thresholds) |
 | `Governance-Processes/Roles/RAC-Mandate.md` | RAC authority and limitations; conflict of interest rules |
-| `Legal/Policy/Legal-Wrapper-and-Representation.md` | Legal entity structure and Delegate roles |
+| `governance/legal-wrapper-and-representation.md` | Compliance obligations, UBO/BOIR rules, and regulatory response protocols |
 
 ---
 

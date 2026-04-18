@@ -1,14 +1,6 @@
 # Radix DLT DAO LLC — Operating Agreement
 
-> **Status: Pre-adoption draft — not yet operative.**
->
-> This document has not been formally adopted by Governance Proposal. It is the proposed Operating Agreement for Radix DLT DAO LLC, published for transparency and community review. Formal adoption requires a Governance Proposal vote (Governance Process category, ≥60% approval, ≥7% quorum).
->
-> Until adopted, governance operations proceed under the Transition Governance Framework and the 10 Phase 1 active documents. The **Certificate of Formation** (`Legal/Formation/Certificate-of-Formation.md`) is the sole operative formation instrument at this time.
->
-> Sections marked `[ORIGINAL DRAFT]` reproduce content from the formation document RFC. Sections marked `[AMENDED]` or `[NEW]` reflect changes agreed during framework integration. These markers will be removed upon formal adoption.
->
-> Source RFC: https://radixtalk.com/t/rfc-draft-formation-documents-for-marshall-islands-dao-llc/2270
+> **Pre-adoption notice:** This is the proposed Operating Agreement submitted for community adoption as part of GP-PRE-1. It becomes operative upon passage of that Constitutional Proposal.
 
 ---
 
@@ -63,6 +55,8 @@ The governance system is implemented using the Consultation V2 platform (`github
 | Owner Badge | `[adminBadgeAddress — to be recorded at formation]` | Authorization token held by Governance Operators to elevate Temperature Checks to Governance Proposals |
 | Treasury Multisig | `[multisigAddress — to be recorded at formation]` | Multi-signature account holding Company treasury assets |
 
+These identifiers shall be inserted by the Legal Signatory within 72 hours of entity formation and the record updated per §10.2. The Governance Operator shall notify the Registered Agent of the recorded identifiers within 14 days of formation. No separate Governance Proposal is required solely to record the initial identifiers at formation; the adoption of this Agreement by GP-PRE-1 constitutes sufficient authorization for the Legal Signatory to complete this record.
+
 ---
 
 ## Article II — Purpose
@@ -90,69 +84,59 @@ No income, assets, or profits of the Company shall be distributed to Members. Al
 
 ## Article III — Continuity
 
-### §3.1 Formation Purpose [AMENDED]
-
+### §3.1 Formation Purpose
 The Company is formed to receive and manage assets — including from the Founding Transferor and subsequent Asset Transferors — in order to continue and support the advancement of decentralized ledger technology consistent with the purposes set forth in Article II.
 
-### §3.2 Continuity Statement Authority [AMENDED]
+### §3.2 Continuity Statement Authority
+The Legal Signatory (§5.3(c)) is authorized to execute a standalone continuity statement on behalf of the Company in substantially the form required by the Founding Transferor, or in such other form as a Governance Proposal may approve for any subsequent Asset Transferor. Each executed continuity statement must be publicly recorded.
 
-The Legal Signatories (§5.3(c)) are authorized to execute a standalone continuity statement on behalf of the Company in substantially the form required by the Founding Transferor, or in such other form as a Governance Proposal may approve for any subsequent Asset Transferor. Each executed continuity statement must be publicly recorded.
-
-### §3.3 Received Assets Liability Limitation [NEW]
-
+### §3.3 Received Assets Liability Limitation
 The Company receives assets from Asset Transferors in good-faith reliance on the representations made by the transferring party. No Member or Delegate shall be personally liable for claims, obligations, or liabilities arising from the nature, title, encumbrances, or defects of assets received from any Asset Transferor, provided that the Member or Delegate acted in good faith and in accordance with this Agreement and applicable Governance Proposals. This limitation applies to the personal liability of Members and Delegates and does not limit the Company's own liability as a legal entity.
 
 ---
 
 ## Article IV — Membership
 
-### §4.1 Membership Criteria [AMENDED]
-
+### §4.1 Membership Criteria
 Membership is open to any person or entity that holds governance tokens. A person or entity becomes a Member upon acquiring governance tokens. Membership Interests are not independently transferable.
 
-### §4.2 Membership Termination [ORIGINAL DRAFT]
+### §4.2 Membership Termination
+Membership terminates when a Member holds no governance tokens (regardless of delegated voting power) and has no active votes recorded on the Governance smart contract.
 
-Membership terminates when a Member holds no voting assets (governance tokens or delegated voting power) and has no active votes recorded on the Governance smart contract.
-
-### §4.3 Membership Rights [ORIGINAL DRAFT]
-
+### §4.3 Membership Rights
 Members exercise governance rights through the Governance smart contract. On-chain governance decisions constitute legally binding decisions of the LLC membership.
 
-### §4.4 No Economic Rights [ORIGINAL DRAFT]
-
+### §4.4 No Economic Rights
 Membership confers governance participation rights only. Members have no economic ownership interest in the Company's assets and no right to share in income, profits, or distributions.
 
-### §4.5 Standard of Conduct — Members [ORIGINAL DRAFT]
-
+### §4.5 Standard of Conduct — Members
 Members shall act in good faith and in the best interests of the Radix Network ecosystem per §709 of the DAO Act. No Member has any fiduciary duty to the Company or any other Member beyond the implied contractual covenant of good faith and fair dealing, as permitted by §709 of the Marshall Islands DAO Act.
 
 ### §4.6 UBO Compliance
 
 Any Member exceeding 25% of total eligible voting power is classified as an Ultimate Beneficial Owner (UBO) and is subject to mandatory KYC obligations in accordance with the operational policies adopted under §12.4 and the Marshall Islands DAO Act.
 
-### §4.7 Member Liability Limitation [ORIGINAL DRAFT]
-
+### §4.7 Member Liability Limitation
 No Member is personally liable for the debts, obligations, or liabilities of the Company solely by reason of membership or serving as a Delegate.
 
 ---
 
 ## Article V — Delegated Functions
 
-### §5.1 Member-Managed Structure [ORIGINAL DRAFT]
-
+### §5.1 Member-Managed Structure
 The Company does not have managers, directors, officers, or trustees. Management is vested in the Members collectively per §708 of the Marshall Islands DAO Act. Operational functions are performed by Delegates elected by Governance Proposal.
 
-### §5.2 Election of Delegates [ORIGINAL DRAFT]
-
+### §5.2 Election of Delegates
 Delegates (minimum 3, maximum 7 Members) are elected by Governance Proposal. Delegates allocate the Delegated Functions among themselves in accordance with §5.3. All Delegates are subject to KYC verification before assuming their function.
 
-### §5.3 Delegated Functions [ORIGINAL DRAFT]
+The Treasury Signing function (§5.3(a)) must be held by exactly 5 Delegates to support the signing thresholds defined in DAO Parameters §6A. The Governance Proposal establishing or modifying the Delegate roster must identify which 5 Delegates hold Treasury Signing. Where the total Delegate count differs from 5, the remaining Delegates hold non-treasury functions only.
 
+### §5.3 Delegated Functions
 The following functions are delegated to elected Delegates:
 
 **(a) Treasury Signing**
 
-Execute treasury transactions via multi-signature wallet. Treasury Signers may only sign transactions authorized by a Governance Proposal. In an emergency, Treasury Signers may act to preserve assets or services, subject to GP ratification within 30 days.
+Execute treasury transactions via multi-signature wallet. Treasury Signers may only sign transactions authorized by a Governance Proposal. In an emergency, Treasury Signers may act to preserve assets or services, subject to GP ratification within 30 days of the emergency action being taken.
 
 **(b) Governance Operations**
 
@@ -170,21 +154,18 @@ Act as Registered Agent liaison; file the annual Beneficial Owner Information Re
 
 Manage social media accounts, GitHub repositories, domain names, and other Web2 assets using an enterprise password manager. The Web2 Custodian may not transfer domain ownership or delete repositories without a Governance Proposal.
 
-### §5.4 Governance Oversight Indemnification [NEW]
+### §5.4 Governance Oversight Indemnification
+The Company shall indemnify any Member performing a DAO-mandated governance oversight function — including but not limited to accountability review, governance process monitoring, emergency governance coordination, and compliance verification — against claims arising from the good-faith performance of that function, on the same terms as §11.3 applies to Delegates. This indemnification applies to oversight functions recognized in the operational policies adopted under §12.4. For the purposes of this section, a "DAO-mandated governance oversight function" means a function explicitly assigned by Governance Proposal or defined in an operational policy adopted under §12.4, and does not extend to unilateral or self-appointed oversight activities.
 
-The Company shall indemnify any Member performing a DAO-mandated governance oversight function — including but not limited to accountability review, governance process monitoring, emergency governance coordination, and compliance verification — against claims arising from the good-faith performance of that function, on the same terms as §11.3 applies to Delegates. This indemnification applies to oversight functions recognized in the operational policies adopted under §12.4.
-
-### §5.5 Removal and Replacement [AMENDED]
-
+### §5.5 Removal and Replacement
 Any Delegate may be removed by Governance Proposal. If a Delegate vacates their function, the remaining Delegates may appoint a temporary replacement from among the Members, subject to GP ratification within 30 days.
 
 **Legal Signatory continuity.** If the Legal Signatory Delegate is unavailable, conflicted, or unresponsive for more than 24 hours in circumstances requiring time-critical legal action, the Compliance Liaison Delegate is authorised to act as interim Legal Signatory for protective or time-critical purposes only. Any action taken under this provision must be disclosed to the governance forum within 24 hours and is subject to GP ratification within 30 days.
 
-### §5.6 Standard of Conduct — Delegates [ORIGINAL DRAFT]
-
+### §5.6 Standard of Conduct — Delegates
 Delegates shall act in good faith with diligence, accountability, and transparency per §709 of the DAO Act and §216 of the Non-Profit Act. Delegates shall disclose conflicts of interest and recuse themselves from decisions where a material conflict exists. No Delegate has any fiduciary duty beyond good faith and the obligations of their assigned Delegated Function, as permitted by §709 of the Marshall Islands DAO Act.
 
-**Primary law obligation.** In performing their Delegated Function, each Delegate's primary legal obligation is to the laws of the Republic of the Marshall Islands and this Agreement. Where a Delegate receives a demand, order, or regulatory inquiry from a foreign jurisdiction that conflicts with a DAO-approved decision or with this Agreement, the Delegate shall seek DAO-authorized legal counsel before compliance and, where legally possible under Marshall Islands law, treat DAO authorization as a condition of compliance. This is an obligation of conduct within the Delegate's assigned function; it does not create a fiduciary duty beyond what is stated in this section. This obligation does not prevent a Delegate from taking protective action necessary to avoid criminal liability, provided they notify RAC immediately in accordance with Legal Wrapper §14A.
+**Primary law obligation.** In performing their Delegated Function, each Delegate's primary legal obligation is to the laws of the Republic of the Marshall Islands and this Agreement. Where a Delegate receives a demand, order, or regulatory inquiry from a foreign jurisdiction that conflicts with a DAO-approved decision or with this Agreement, the Delegate shall seek DAO-authorized legal counsel before compliance and, where legally possible under Marshall Islands law, treat DAO authorization as a condition of compliance. This is an obligation of conduct within the Delegate's assigned function; it does not create a fiduciary duty beyond what is stated in this section. This obligation does not prevent a Delegate from taking protective action necessary to avoid criminal liability, provided they notify RAC immediately in accordance with the Regulatory Demand Disclosure Protocol in **Legal Wrapper §8**.
 
 ---
 
@@ -222,14 +203,13 @@ The DAO Parameters Registry may be updated by Governance Proposal. Updates to go
 
 ### §6.5 Result Determination and Recording
 
-The RAC (as defined in the operational policies adopted under §12.4) is responsible for formally determining the outcome of each vote and publishing the official result within the window specified in **DAO Parameters §3.5**.
+The RAC (the Radix Accountability Council — the governance oversight body whose mandate and composition are defined in the RAC Mandate operational policy adopted under §12.4; at a minimum, a body of 3–7 Members elected by Governance Proposal to perform governance integrity and compliance verification functions) is responsible for formally determining the outcome of each vote and publishing the official result within the window specified in **DAO Parameters §3.5**.
 
 The determination procedure — including quorum verification, approval threshold calculation, winner determination for multi-option votes, and weighted allocation computation — is defined in the **Proposal & Voting Framework §6.5** (operational policy). The on-chain record on the Governance Platform is the authoritative source for raw vote data; the RAC's published result is the authoritative determination of outcome.
 
 A veto challenge mechanism allows token holders to contest results that violate the Charter or governance rules, within the window and conditions defined in **DAO Parameters §4** and the **Proposal & Voting Framework §8** (operational policy).
 
-### §6.6 Smart Contract Changes [ORIGINAL DRAFT]
-
+### §6.6 Smart Contract Changes
 Changes to the Governance or Treasury smart contracts require:
 
 * (a) an RFC published to the community forum for a minimum 7-day review period
@@ -248,13 +228,12 @@ Signing thresholds are defined in **DAO Parameters §6A**: standard transactions
 
 Treasury Signers may only execute transactions that have been authorized by a Governance Proposal or that fall within a budget explicitly approved by a prior Governance Proposal. Record-keeping and audit requirements for treasury transactions are defined in the **Execution & Treasury Actions Policy** (operational policy).
 
-### §7.2 Authorized Expenditures [AMENDED]
-
+### §7.2 Authorized Expenditures
 Treasury expenditures require prior authorization by Governance Proposal, except:
 
 * Routine operational costs within DAO-approved budgets
 * Emergency expenditures under §5.3(a) subject to GP ratification within 30 days
-* Indemnification payments and expense advancements required under §11.3 and §5.4, subject to GP ratification within 30 days
+* Indemnification payments and expense advancements required under §11.3 and §5.4 — no prior GP authorization is required; Treasury Signers may execute these directly, subject to GP ratification within 30 days of payment
 
 ---
 
@@ -277,7 +256,7 @@ KYC verification is required for all persons reportable under §8.1, in two tier
 * **KYC Tier 1 (Delegate KYC):** All Delegates must complete KYC verification through the DAO's designated KYC provider before assuming any Delegated Function. Annual reverification is required each January per MIDAO requirements.
 * **KYC Tier 2 (UBO KYC):** Any Member reaching the 25% UBO threshold must complete KYC within 14 days of crossing the threshold and notify the Compliance Liaison. Annual reverification applies.
 
-Thresholds, KYC provider selection, and the full UBO monitoring obligations of the Compliance Liaison are defined in **Legal Wrapper §7A** and **DAO Parameters §8** (operational policies). The Compliance Liaison maintains KYC records confidentially with the Registered Agent in accordance with Marshall Islands law.
+Thresholds, KYC provider selection, and the full UBO monitoring obligations of the Compliance Liaison are defined in **Legal Wrapper §3** and **DAO Parameters §8** (operational policies). The Compliance Liaison maintains KYC records confidentially with the Registered Agent in accordance with Marshall Islands law.
 
 ### §8.3 Sanctions Screening
 
@@ -292,24 +271,21 @@ The Compliance Liaison is responsible for maintaining the Company's good standin
 * updating the Registered Agent record when smart contract identifiers change (§1.4)
 * ensuring the BOIR on file with the Registered Agent is current at all times
 
-Failure to maintain entity standing is a material governance failure and must be reported to the Members via the governance forum within 48 hours of the Compliance Liaison becoming aware of the issue.
+Failure to maintain entity standing is a material governance failure and must be reported to the Members via the governance forum within 48 hours of the Compliance Liaison becoming aware of the issue. If the Compliance Liaison is unavailable or is the source of the failure, the Legal Signatory shall assume the reporting and remediation obligation under this section and notify the RAC immediately.
 
 ---
 
 ## Article IX — Dissolution
 
-### §9.1 Dissolution Events [ORIGINAL DRAFT]
-
+### §9.1 Dissolution Events
 The Company shall be dissolved upon:
 
 * (a) a Governance Proposal with ≥80% approval and ≥20% quorum of Members
-* (b) expiry of term, if any
-* (c) events specified in the smart contracts or this Agreement
-* (d) a Registrar order if the Company is no longer lawful or no longer under natural person control
-* (e) voluntary resignation of all Members
+* (b) events specified in the smart contracts or this Agreement
+* (c) a Registrar order if the Company is no longer lawful or no longer under natural person control
+* (d) voluntary resignation of all Members
 
-### §9.2 Asset Disposition on Dissolution [AMENDED]
-
+### §9.2 Asset Disposition on Dissolution
 On dissolution, the Company's remaining assets shall not be distributed to Members. Remaining assets shall be transferred to a successor entity approved by Governance Proposal. A successor entity qualifies only if it meets all of the following criteria:
 
 * **(a)** it is organized on a non-profit or non-distribution basis under applicable law, such that its assets cannot be distributed to its own members for personal gain
@@ -318,12 +294,11 @@ On dissolution, the Company's remaining assets shall not be distributed to Membe
 * **(d)** it commits to applying received assets toward ecosystem development, open-source software, public education, or equivalent public-benefit activities consistent with the purposes in Article II
 * **(e)** it is approved by a Governance Proposal with ≥80% approval and ≥20% quorum
 
-Prior to executing any asset transfer upon dissolution, the Legal Signatories shall provide written notice to any primary Asset Transferor that contributed material assets to the Company, giving that party 30 days to submit written comment to the governance forum. Such comments shall be published and available to Members before the dissolution GP vote concludes. Asset Transferors have no veto right; this notification obligation is a transparency measure only.
+Prior to executing any asset transfer upon dissolution, the Legal Signatory shall provide written notice to any primary Asset Transferor that contributed material assets to the Company, giving that party 30 days to submit written comment to the governance forum. Such comments shall be published and available to Members before the dissolution GP vote concludes. Asset Transferors have no veto right; this notification obligation is a transparency measure only.
 
-The Legal Signatories shall execute a statement of dissolution in the prescribed form upon completion of the asset transfer.
+The Legal Signatory shall execute a statement of dissolution in the prescribed form upon completion of the asset transfer.
 
-### §9.3 Asset Provenance Record [NEW]
-
+### §9.3 Asset Provenance Record
 Prior to any dissolution asset transfer, the Company shall publish a public accounting of all assets held, their provenance (including all assets received from any Asset Transferor), and their proposed disposition. This record must be published to the governance forum before the dissolution GP vote concludes.
 
 ---
@@ -352,24 +327,20 @@ The Governance Operator shall record each amendment to this Agreement with:
 
 All amendment records are maintained in the governance repository and are publicly accessible. The version of this Agreement in effect at any given time is the version whose effective date is most recent as of that date.
 
-### §10.3 Emergency Amendments [ORIGINAL DRAFT]
-
-Emergency amendments to this Agreement may be adopted by unanimous written consent of the Delegates, subject to ratification by Governance Proposal within 30 days. Emergency amendments that are not ratified within 30 days are void and of no effect.
+### §10.3 Emergency Amendments
+Emergency amendments to this Agreement may be adopted by unanimous written consent of the Delegates, subject to ratification by Governance Proposal within 30 days. Emergency amendments that are not ratified within 30 days are void and of no effect. For the purposes of this section, "written consent" means a signed statement from each Delegate published to the DAO governance forum, or a transaction signed by each Delegate's KYC-verified wallet address, or a signed instrument delivered to the Legal Signatory — all three forms are equally valid.
 
 ---
 
 ## Article XI — Disputes and Liability
 
-### §11.1 Dispute Resolution [ORIGINAL DRAFT]
+### §11.1 Dispute Resolution
+Disputes shall first be referred to the Compliance Liaison for mediation. Where the Compliance Liaison is a party to, or has a material conflict of interest in, the dispute, the RAC shall serve as first-stage mediator in place of the Compliance Liaison. If unresolved within 30 days, the mediating party may raise a Governance Proposal directly for the Members to decide, bypassing the Temperature Check stage. If any party is not satisfied with the GP outcome, or if the dispute is not suitable for community vote, it shall be settled by binding arbitration under the International Arbitration Rules of the ICDR (International Centre for Dispute Resolution), seated in the Republic of the Marshall Islands, conducted in English, by a sole arbitrator.
 
-Disputes shall first be referred to the Compliance Liaison for mediation. If unresolved within 30 days, the Compliance Liaison may raise a Governance Proposal directly for the Members to decide, bypassing the Temperature Check stage. If any party is not satisfied with the GP outcome, or if the dispute is not suitable for community vote, it shall be settled by binding arbitration under the International Arbitration Rules of the ICDR (International Centre for Dispute Resolution), seated in the Republic of the Marshall Islands, conducted in English, by a sole arbitrator.
-
-### §11.2 Governing Law [ORIGINAL DRAFT]
-
+### §11.2 Governing Law
 This Agreement is governed by the laws of the Republic of the Marshall Islands.
 
-### §11.3 Liability and Indemnification [AMENDED]
-
+### §11.3 Liability and Indemnification
 **Limitation of Liability.** No Member or Delegate is personally liable for the debts, obligations, or liabilities of the Company solely by reason of membership or service, or for acts of the smart contracts executed as authorized by this Agreement.
 
 **Indemnification.** To the fullest extent permitted by applicable law, the Company shall indemnify, defend, and hold harmless each Delegate and each Member performing a DAO-mandated governance oversight function (including RAC members acting within their mandate) against any claims, liabilities, damages, losses, costs, and expenses (including reasonable legal fees) arising from or relating to the good-faith performance of their Delegated Function or governance oversight role.
@@ -388,7 +359,7 @@ This Agreement is governed by the laws of the Republic of the Marshall Islands.
 
 Written notice posted to the DAO's designated governance forum constitutes valid and sufficient notice for all internal governance matters under this Agreement, including proposals, disclosures, and regulatory announcements to Members.
 
-Legal notices to the Company (including service of process, regulatory correspondence, and formal demands) must be served at the address of the Registered Agent identified in §1.2. The Compliance Liaison shall forward any such notice to the Delegates and publish notice of receipt to the governance forum within 48 hours.
+Legal notices to the Company (including service of process, regulatory correspondence, and formal demands) must be served at the address of the Registered Agent identified in §1.2. The Compliance Liaison shall forward any such notice to the Delegates and publish notice of receipt to the governance forum within 48 hours, in accordance with the Regulatory Demand Disclosure Protocol defined in the **Legal Wrapper §8**.
 
 ### §12.2 Severability
 
@@ -398,17 +369,14 @@ If any provision of this Agreement is held to be invalid, illegal, or unenforcea
 
 This Agreement, together with the operational policies adopted by the Members under §12.4, constitutes the entire agreement of the Members with respect to the governance, operation, and management of the Company. It supersedes all prior agreements, representations, or understandings relating to the same subject matter. In the event of conflict between this Agreement and any operational policy adopted under §12.4, this Agreement prevails.
 
-### §12.4 Operational Policies [ORIGINAL DRAFT]
-
+### §12.4 Operational Policies
 The Members may, by Governance Proposal, adopt operational policies, procedures, and guidelines that supplement this Agreement. Such documents are subordinate to this Agreement and may be amended or revoked by Governance Proposal. The governance framework documents adopted as operational policies are listed in the most recent Governance Proposal activating them.
 
 ---
 
 ## Execution
 
-This Agreement shall be deemed adopted upon approval by the required Governance Proposal (Governance Process category, ≥60% approval, ≥7% quorum). Upon adoption, it shall be executed by the Legal Signatories as authorized by that proposal, and the on-chain governance record of the approving proposal shall constitute the adoption evidence.
-
-*This section is prospective. As of the current repository state, the adoption Governance Proposal has not yet been passed. See the status header at the top of this document.*
+This Agreement shall be deemed adopted upon approval of GP-PRE-1 as a Constitutional Proposal (≥66% YES approval and ≥10% quorum, as defined in DAO Parameters §3.2–3.3). Upon adoption, it shall be executed by the Legal Signatory as authorized by that proposal, and the on-chain governance record of the approving proposal shall constitute the adoption evidence.
 
 ---
 

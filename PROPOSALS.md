@@ -27,6 +27,7 @@ Proposals are added when submitted and updated when a vote concludes.
 | Charter | `constitutional/charter.md` |
 | Operating Agreement | `legal/operating-agreement.md` |
 | Certificate of Formation | `legal/certificate-of-formation.md` |
+| BOIR Template | `legal/BOIR-Template.md` |
 | DAO Parameters Registry | `parameters/dao-parameters-registry.md` |
 | Proposal & Voting Framework | `governance/proposal-and-voting-framework.md` |
 | Execution & Treasury Actions Policy | `governance/execution-and-treasury-actions-policy.md` |
@@ -36,6 +37,7 @@ Proposals are added when submitted and updated when a vote concludes.
 | Conflict of Interest Policy | `governance/conflict-of-interest-policy.md` |
 | Code of Conduct | `governance/code-of-conduct.md` |
 | Legal Wrapper & Representation | `governance/legal-wrapper-and-representation.md` |
+| Governance Maintenance & Upgrade Framework | `governance/governance-maintenance-and-upgrade-framework.md` |
 | Transition Governance Framework | `transition/transition-governance-framework.md` |
 
 ---

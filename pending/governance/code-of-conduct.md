@@ -4,7 +4,7 @@
 
 ## 1. Scope
 
-This document defines the behavioral standards expected of all participants in the Radix Network DAO, including:
+This document defines the behavioral standards expected of all participants in the Radix DAO, including:
 
 * Token holders participating in governance
 * Working Group members and contributors

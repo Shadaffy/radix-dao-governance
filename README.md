@@ -43,10 +43,12 @@ See [PROPOSALS.md](PROPOSALS.md) for the full record of proposals, what each one
 When two documents conflict, the following order applies (highest to lowest):
 
 1. Marshall Islands law
-2. Operating Agreement
-3. Charter
-4. Governance policies
+2. Charter
+3. Operating Agreement (on matters the OA does not delegate to governance policy)
+4. Governance policies (on matters expressly delegated by the OA)
 5. DAO Parameters Registry
+
+*Note: The Charter prevails over the Operating Agreement as a governance matter. Where the OA expressly delegates a matter to governance policy (e.g. "as defined in operational policies adopted under §12.4"), the relevant governance policy controls. Where the OA and a governance policy conflict on a matter the OA does not delegate, the OA prevails. See Governance Maintenance & Upgrade Framework §3.1 for the full conflict resolution rules.*
 
 ---
 

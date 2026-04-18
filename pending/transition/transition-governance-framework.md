@@ -38,7 +38,7 @@ The DAO operates under a **phased governance activation model**:
 
 #### Phase 1 — Minimum Viable Governance (0–12 months)
 
-* 10 core documents active and enforceable from launch
+* 11 core documents active and enforceable from launch
 * RAC and Authorized Signers appointed as founding act
 * Asset transfer from the Founding Transferor completed
 * Governance decisions possible from launch; Working Groups not operational at launch — established by governance vote after initial RAC and Authorized Signer appointment (activity-triggered within Phase 1; see §3 and §10)
@@ -96,7 +96,7 @@ The governance framework activates in three phases. Complexity is introduced del
 
 ---
 
-### 3.1 Phase 1 — Fully Active from Launch (10 documents)
+### 3.1 Phase 1 — Fully Active from Launch (11 documents)
 
 These documents are in force and enforceable from the first day of DAO operations:
 
@@ -111,7 +111,8 @@ These documents are in force and enforceable from the first day of DAO operation
 | RAC Mandate | Authority and limits of the Accountability Council |
 | Conflict of Interest Policy | Disclosure and recusal obligations for all role holders |
 | Code of Conduct | Behavioral standards for all DAO participants |
-| Legal Wrapper & Representation | Legal entity structure and real-world representation |
+| Legal Wrapper & Representation | Compliance obligations, UBO/BOIR rules, and regulatory response protocols |
+| Governance Maintenance & Upgrade Framework | Rules for how governance documents are amended, versioned, and classified — required from day one to govern any changes to the Phase 1 document set |
 
 ---
 
@@ -124,7 +125,6 @@ These documents activate when the DAO begins the relevant activity. They do not 
 | Token Delegation Policy | When the governance platform supports delegation |
 | Election & Role Governance Policy | Before the first role term expires and elections are needed |
 | Governance Continuity Framework | Before the first signer or RAC term ends |
-| Governance Maintenance & Upgrade Framework | Before the first governance document amendment is proposed |
 | Dispute Resolution & Arbitration Policy | Before the first formal dispute is escalated to the RAC |
 | Open Source & IP Policy | Before the first grant or RFP with deliverables is issued |
 | Source Code Stewardship Policy | Before the first grant or RFP with code deliverables is issued (activates alongside Open Source & IP Policy) |
@@ -366,7 +366,7 @@ After Phase 1 (12 months):
 
 ### 11.1 Core Document Continuity
 
-Expiry of transitional delegated authority under §11 does **not** affect the active status of the 10 Phase 1 documents listed in §3.1. Those documents were activated at launch and remain in force until explicitly superseded or amended by a governance vote. Authority expiry and document activation are independent.
+Expiry of transitional delegated authority under §11 does **not** affect the active status of the 11 Phase 1 documents listed in §3.1. Those documents were activated at launch and remain in force until explicitly superseded or amended by a governance vote. Authority expiry and document activation are independent.
 
 ### 11.2 Role Holder Tenure Continuity
 
@@ -384,7 +384,7 @@ This separation ensures that Phase 1 expiry does not inadvertently create vacanc
 
 If Phase 1 completion criteria (§10) have not been certified by a governance vote before the 12-month expiry, the DAO enters a **Governance Remediation Period**:
 
-* The 10 core documents remain fully active (per §11.1)
+* The 11 core documents remain fully active (per §11.1)
 * The RAC retains only its permanent core mandate as defined in the RAC Mandate — all transitional delegated authority under §5 lapses on schedule without extension
 * Within **30 days of expiry**, the RAC must publish a Remediation Report to the governance forum identifying which §10 criteria remain unmet and a proposed resolution timeline
 * The community must vote within **60 days of expiry** on one of the following:
@@ -392,7 +392,7 @@ If Phase 1 completion criteria (§10) have not been certified by a governance vo
   * **Option A — Authority Extension:** A time-limited extension of RAC transitional authority (≥60% approval, ≥7% quorum), with a specific remediation plan and hard deadline attached. Maximum extension: 6 months, non-renewable without a new governance vote.
   * **Option B — Conditional Phase 2 Entry:** A declaration of Phase 2 entry (≥60% approval, ≥7% quorum) with unmet §10 criteria formally recorded as governance obligations, to be resolved within the first 90 days of Phase 2.
 
-* If neither option passes within 60 days of expiry, the DAO continues to operate under the 10 core documents without transitional authority. Standard governance rules apply. Any token holder may raise a new proposal to resolve the governance state.
+* If neither option passes within 60 days of expiry, the DAO continues to operate under the 11 core documents without transitional authority. Standard governance rules apply. Any token holder may raise a new proposal to resolve the governance state.
 
 ---
 
