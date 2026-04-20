@@ -267,7 +267,7 @@ Lead operational Working Groups within the scope and budget approved by their WG
 **Defined In**
 - DAO Parameters §7 (WG parameters: 2–3 stewards per WG, 6-month terms)
 - Proposal & Voting Framework §4.6 (election process for WG Stewards)
-- Charter §4.2 (Working Groups as delegated bodies)
+- Charter §4.2 (Working Groups as chartered bodies)
 - Respective WG Charter (primary operational authority, once adopted)
 
 **Appointment**
@@ -277,7 +277,7 @@ DAO Election Proposal (Proposal & Voting Framework §4.6), per each WG Charter. 
 6 months (DAO Parameters §7). Renewal per the Elections & Role Governance Policy (Phase 2 activation-triggered). Maximum 4 consecutive terms (DAO Parameters §6B).
 
 **Removal**
-DAO vote. Specific procedure defined in the applicable WG Charter and Elections & Role Governance Policy (Phase 2 activation-triggered).
+DAO vote. Specific procedure defined in the applicable WG Charter and Elections & Role Governance Policy (Phase 2 activation-triggered). Until that policy is active, removal follows the standard DAO vote process and the Transition Governance Framework §5.
 
 **Policies That Apply**
 - Respective WG Charter — primary mandate, authority, and accountability (when adopted)
@@ -360,6 +360,4 @@ This registry will be updated when each WG Charter is adopted by governance vote
 
 ## 5. Amendments
 
-This document may be updated via a Governance Process proposal.
-
-Amendment procedures and classification requirements are defined in the **Governance Maintenance & Upgrade Framework**.
+_Amendment procedures and classification requirements are defined in the **Governance Maintenance & Upgrade Framework**._

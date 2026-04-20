@@ -12,12 +12,6 @@ This document defines how governance documents are:
 
 ---
 
-## 2. Guiding Principle
-
-> Governance must be adaptable without compromising integrity.
-
----
-
 ## 3. Document Hierarchy
 
 Governance documents follow this hierarchy:
@@ -148,6 +142,6 @@ All changes must be:
 
 ---
 
-## 11. Guiding Principle
+## 11. Amendments
 
-> Governance evolves through **clear rules**, not ad-hoc decisions.
+Changes to this framework follow the same process defined within it. A change that affects amendment thresholds or the document hierarchy is a Major Change (§4.3) and requires a Constitutional proposal.

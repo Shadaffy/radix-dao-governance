@@ -13,16 +13,6 @@ This document defines:
 
 ---
 
-## 2. Out of Scope
-
-This document does NOT define:
-
-* Treasury management rules (see Treasury Policy)
-* Execution authority (see Execution Policy)
-* Emergency actions (see Emergency Policy)
-
----
-
 ## 2.5 Proposal Eligibility
 
 Any token holder may submit a proposal. No minimum holding, prior registration, or approval from any DAO body is required to submit. This right flows directly from token holder sovereignty as established in the Charter §4.1.
@@ -136,7 +126,7 @@ A Signaling proposal using Approval Voting (§6.2.2) is published listing all el
 Each shortlisted candidate is put to a separate Standard (YES/NO/ABSTAIN) proposal (§6.2.1). A candidate is confirmed if they meet the quorum and approval threshold for Election proposals (DAO Parameters §3.2–3.3). Stage 2 proposals may run concurrently.
 
 **Fallback**
-If a shortlisted candidate fails Stage 2, the next-highest candidate from Stage 1 is automatically advanced to a replacement confirmation vote. This continues until all seats are filled or the shortlist is exhausted. If the shortlist is exhausted, remaining vacancies follow the vacancy handling process in the Elections & Role Governance Policy §11.
+If a shortlisted candidate fails Stage 2, the next-highest candidate from Stage 1 is automatically advanced to a replacement confirmation vote. This continues until all seats are filled or the shortlist is exhausted. If the shortlist is exhausted, remaining vacancies follow the vacancy handling process in the Elections & Role Governance Policy §11. Until that policy is active, remaining vacancies are handled by the RAC under its interim authority per the **Transition Governance Framework §5**.
 
 ---
 
@@ -306,7 +296,7 @@ Any token holder may file a veto challenge, provided the minimum participation t
 ### 8.5 Limitations
 
 * Cannot be used to block proposals based on policy disagreement
-* Repeated frivolous filings may result in sanctions per Dispute Resolution Policy
+* Repeated frivolous filings may result in sanctions under the **Code of Conduct §4** and, once active, the Dispute Resolution & Arbitration Policy
 * Cannot be used after the 48-hour window has closed
 
 ---
@@ -315,16 +305,13 @@ Any token holder may file a veto challenge, provided the minimum participation t
 
 ### 9.1 Failed Proposals
 
-* Cannot be immediately resubmitted
+Failed proposals may not be resubmitted until the applicable cooldown period has elapsed. Cooldown periods are defined in **DAO Parameters §3.4**.
 
 ---
 
 ### 9.2 Exception
 
-Resubmission is allowed if:
-
-* Proposal failed due to technical issue
-* Minor corrections are made
+A proposal may be resubmitted without cooldown only if it failed due to a technical issue with the governance platform and the resubmission makes no change to the proposal's intent, category, or budget. Substantive revisions require the standard cooldown.
 
 ---
 
@@ -353,12 +340,13 @@ Exceptions allowed only under defined confidentiality rules.
 
 ## 12. Execution Handoff
 
-Approved proposals are forwarded to:
+Once a proposal passes, the execution handoff proceeds as follows:
 
-* Execution mechanisms (on-chain or off-chain)
-* Relevant Working Groups
-
-Execution rules are defined in the Execution Policy.
+1. The RAC publishes the official result (§6.5).
+2. The veto window closes with no valid veto filed, or any veto challenge is resolved in favour of the proposal (§8; DAO Parameters §4).
+3. The pre-execution hold elapses (DAO Parameters §9).
+4. The RAC or named executor confirms execution readiness and notifies the relevant execution body (Treasury Signers, Working Group, or smart contract).
+5. Execution follows the workflow defined in **Execution & Treasury Actions Policy §9**.
 
 ---
 
@@ -375,4 +363,4 @@ The following are defined separately and may be updated:
 
 ## 14. Amendments
 
-This framework may be updated via governance proposals.
+_Amendment procedures and classification requirements are defined in the **Governance Maintenance & Upgrade Framework**._

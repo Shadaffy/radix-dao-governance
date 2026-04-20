@@ -13,16 +13,6 @@ This document defines:
 
 ---
 
-## 2. Out of Scope
-
-This document does NOT define:
-
-* How proposals are approved (see Proposal & Voting Framework)
-* Emergency actions (see Emergency Policy)
-* Governance structure (see Charter)
-
----
-
 ## 3. Execution Principles
 
 All execution must follow these principles:
@@ -120,22 +110,7 @@ The RAC may not act as both executor and compliance verifier for the same role. 
 
 ## 6. Treasury Structure
 
-### 6.1 Multi-Account Model
-
-The treasury may consist of:
-
-* Multiple wallets/accounts
-* Segmented by purpose (operations, grants, reserves, etc.)
-
----
-
-### 6.2 Custody Requirements
-
-Treasury systems must:
-
-* Use secure access controls (e.g., multisig)
-* Be auditable
-* Support transparency
+Treasury structure — including multi-account segmentation, multisig thresholds, custody requirements, and audit obligations — is defined in **DAO Parameters §6.2** and **§6A**. Signer-specific security requirements are defined in **Treasury Signers Rules §16**.
 
 ---
 
@@ -298,11 +273,12 @@ The RAC is responsible for:
 
 ## 12. Execution Failure
 
-If execution fails:
+If execution of an approved proposal fails or cannot be completed:
 
-* Issue must be reported
-* Root cause identified
-* Remediation proposed
+1. The executor reports the failure to the RAC within **24 hours** of identifying the blocker.
+2. The RAC publishes a disclosure to the governance forum within **48 hours** of notification, including the nature of the failure and any immediate mitigation steps.
+3. If the failure cannot be resolved operationally within the execution window, the RAC schedules a Governance Process proposal for community review and remediation within **14 days** of disclosure.
+4. If the failure involves a security event or threat to treasury assets, the **Emergency & Safeguards Policy §4** applies and takes precedence over this procedure.
 
 ---
 
@@ -358,4 +334,4 @@ Defined separately:
 
 ## 18. Amendments
 
-This policy may be updated via governance.
+_Amendment procedures and classification requirements are defined in the **Governance Maintenance & Upgrade Framework**._

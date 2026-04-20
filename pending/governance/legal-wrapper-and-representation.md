@@ -76,16 +76,7 @@ Failure to complete required KYC upon crossing the 25% threshold may result in:
 
 ## 4. Custody & Asset Control
 
-The DAO must maintain secure custody systems:
-
-* Multi-signature control required
-* Institutional-grade custody preferred
-
-Custody arrangements must:
-
-* Be auditable
-* Protect against unauthorized access
-* Support operational needs
+Treasury custody requirements — including multisig thresholds, account segmentation, and the annual audit obligation — are defined in **DAO Parameters §6.2** and **§6A**. Signer-specific security and key management requirements are defined in **Treasury Signers Rules §16**.
 
 ---
 
@@ -170,11 +161,4 @@ The following topics are defined in the documents listed and are not restated he
 
 ## 10. Amendments
 
-This document may be updated via governance proposals.
-
----
-
-## 11. Guiding Principle
-
-> The legal structure exists to **enable the DAO**,
-> not to control it.
+_Amendment procedures and classification requirements are defined in the **Governance Maintenance & Upgrade Framework**._

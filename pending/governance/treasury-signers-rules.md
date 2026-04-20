@@ -40,6 +40,8 @@ Treasury Signers may not:
 * act outside approved mandates
 * withhold execution for political reasons
 
+These restrictions apply to the exercise of the Treasury Signing function and do not govern conduct in any other role the same person may simultaneously hold.
+
 ---
 
 ## 4. Core Principles
@@ -150,7 +152,7 @@ Any refusal or delay must be documented and reported.
 
 ## 9A. Selective Obstruction
 
-A documented pattern of delaying or refusing process verification, or selectively enforcing governance rules without documented grounds on record, constitutes misconduct independent of the inactivity clause (DAO Parameters §6B). RAC members may flag this pattern in Treasury Signers; community members may trigger a misconduct review via Governance Process proposal.
+A documented pattern of delaying or refusing process verification, or selectively enforcing governance rules without documented grounds on record, constitutes misconduct independent of the inactivity clause (DAO Parameters §6B). RAC members may flag this pattern in Treasury Signers; community members may trigger a misconduct review via Governance Process proposal. This provision is enforced under the **Code of Conduct §6** (see also the parallel provision at RAC Mandate §11A).
 
 ---
 
@@ -298,7 +300,6 @@ Treasury Signers acting in good faith within their authorized mandate are indemn
 
 ---
 
-## 20. Guiding Principle
+## 20. Amendments
 
-> Treasury Signers execute the DAO’s will.
-> They do not substitute their own.
+_Amendment procedures and classification requirements are defined in the **Governance Maintenance & Upgrade Framework**._

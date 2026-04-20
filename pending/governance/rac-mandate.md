@@ -46,17 +46,7 @@ The RAC **must not**:
 
 ## 5. Emergency Powers
 
-The RAC may take temporary action **only when**:
-
-* There is an imminent security risk
-* Treasury assets are at risk
-* Critical infrastructure is compromised
-
-Such actions must:
-
-* Be strictly limited in scope and duration
-* Be publicly disclosed after resolution
-* Be subject to post-hoc DAO review
+Emergency authority — including permitted actions, tiers, approval thresholds, and disclosure obligations — is defined in the **Emergency & Safeguards Policy §5–6**.
 
 ---
 
@@ -78,9 +68,7 @@ Such actions must:
 
 ## 8. Conflict of Interest
 
-* RAC members must disclose conflicts of interest
-* Members must recuse themselves from related decisions
-* RAC membership does not prohibit participation in DAO activities, provided conflicts are managed transparently
+RAC members are subject to the **Conflict of Interest Policy**, including the heightened obligations defined in CoI Policy §8 (majority-conflict escalation, prohibition on holding positions at entities under RAC review).
 
 ---
 
@@ -100,16 +88,9 @@ The RAC operates **on behalf of the DAO** and remains fully subordinate to:
 
 ---
 
-## 11. Guiding Principle
-
-> The RAC acts as a **referee of governance**, ensuring that rules are followed—
-> not as a player determining outcomes.
-
----
-
 ## 11A. Selective Obstruction
 
-A documented pattern by a RAC member of delaying governance process verification, or selectively enforcing rules without documented grounds on record, constitutes misconduct independent of the inactivity clause (DAO Parameters §6B). Any RAC member may flag this pattern in another member. Any community member may trigger a misconduct review via Governance Process proposal.
+A documented pattern by a RAC member of delaying governance process verification, or selectively enforcing rules without documented grounds on record, constitutes misconduct independent of the inactivity clause (DAO Parameters §6B). Any RAC member may flag this pattern in another member. Any community member may trigger a misconduct review via Governance Process proposal. This provision is enforced under the **Code of Conduct §6** (see also the parallel provision at Treasury Signers Rules §9A).
 
 ---
 

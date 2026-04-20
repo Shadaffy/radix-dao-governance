@@ -174,7 +174,7 @@ This provision is intended to ensure transparency during and after the transitio
 RAC members are subject to heightened obligations given their oversight role:
 
 * A RAC member with a conflict on any matter the RAC is adjudicating must recuse from that specific determination
-* If a conflict affects a majority of RAC members on a given matter, it must be escalated to a community governance vote per the **Dispute Resolution & Arbitration Policy**
+* If a conflict affects a majority of RAC members on a given matter, it must be escalated to a community governance vote. Once the Dispute Resolution & Arbitration Policy is active, that policy governs escalation. Until then, escalation follows the Transition Governance Framework §6.2 (community challenge by Governance Process proposal).
 * RAC members must not hold positions at entities currently under RAC review
 
 ---
@@ -210,14 +210,12 @@ The accused person is given the opportunity to respond before a finding is issue
 ## 11. Relationship to Other Policies
 
 * **Code of Conduct** — Disclosure failures and self-dealing are also Code of Conduct violations
-* **Elections & Role Governance Policy §5, §15** — Eligibility requirements and conflict disclosures at nomination
+* **Elections & Role Governance Policy §5, §15** — Eligibility requirements and conflict disclosures at nomination. Until that policy is active, the Transition Governance Framework §5 governs.
 * **Treasury Signers Rules** — Conflict obligations for signers acting on treasury transactions
-* **Dispute Resolution & Arbitration Policy** — Escalation path for contested recusal determinations
+* **Dispute Resolution & Arbitration Policy** — Escalation path for contested recusal determinations. Until that policy is active, escalation uses the Transition Governance Framework §6.2 (community challenge by Governance Process proposal).
 
 ---
 
 ## 12. Amendments
 
-This policy may be updated via a Governance Process proposal.
-
-Amendment procedures and classification requirements are defined in the **Governance Maintenance & Upgrade Framework**.
+_Amendment procedures and classification requirements are defined in the **Governance Maintenance & Upgrade Framework**._

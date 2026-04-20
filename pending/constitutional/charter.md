@@ -93,15 +93,15 @@ Token holders are the ultimate decision-making authority of the DAO. All governa
 
 ---
 
-### 4.2 Delegated Bodies
+### 4.2 Established Bodies
 
-The DAO may establish delegated bodies, including:
+The DAO may establish chartered bodies, including:
 
 * Accountability Council (RAC)
 * Working Groups
 * Committees
 
-Such bodies operate within defined mandates, remain subordinate to DAO governance at all times, and may be removed or replaced by DAO vote. Delegation is a matter of operational necessity, not a transfer of authority.
+Such bodies operate within defined mandates, remain subordinate to DAO governance at all times, and may be removed or replaced by DAO vote. Establishing such bodies is a matter of operational necessity, not a transfer of authority.
 
 ---
 
@@ -149,9 +149,7 @@ All persons holding formal roles with delegated or elevated decision-making auth
 
 Token holders exercising ordinary governance voting rights are not subject to mandatory disclosure or recusal obligations under the Conflict of Interest Policy, but are encouraged to act in the DAO's best interest.
 
-The Accountability Council (RAC) is not a Delegate body under the Operating Agreement. Delegates perform operational functions under the Operating Agreement. The RAC performs oversight and governance integrity functions.
-
-The RAC's responsibilities and constraints are defined in the **RAC Mandate**. Disclosure and recusal obligations are defined in the **Conflict of Interest Policy**.
+The RAC is an oversight body, not an operational Delegate under the Operating Agreement. Its responsibilities and constraints are defined in the **RAC Mandate**. Disclosure and recusal obligations are defined in the **Conflict of Interest Policy**.
 
 ---
 
@@ -201,7 +199,7 @@ Notwithstanding the above, the following provisions may not be amended, reduced,
 
 2. **Minimum Constitutional quorum floor** — the quorum threshold for Constitutional proposals may not be reduced below **7%** of eligible voting power by any proposal, including a Constitutional proposal. Any proposal purporting to do so is void and may not be executed.
 
-3. **RAC scope constraint** — no governance proposal may grant the RAC unilateral authority to override a valid DAO vote outcome or permanently alter governance rules without a subsequent community approval process.
+3. **Governance sovereignty constraint** — no governance proposal may grant any body or person unilateral authority to override a valid DAO vote outcome or permanently alter governance rules without a subsequent community approval process.
 
 ---
 

@@ -14,15 +14,6 @@ This document defines:
 
 ---
 
-## 2. Out of Scope
-
-This document does NOT define:
-
-* Normal governance processes (see Proposal & Voting Framework)
-* Standard execution (see Execution Policy)
-
----
-
 ## 3. Guiding Principles
 
 Emergency powers must be:
@@ -225,10 +216,11 @@ Must be:
 
 ## 17. Failure to Act
 
-If RAC fails to act during an emergency:
+If the RAC fails to act within the emergency response window (DAO Parameters §10):
 
-* DAO may initiate emergency governance procedures
-* Responsibility may be reviewed
+1. Any token holder may file a Governance Process proposal to initiate emergency governance procedures and compel a response.
+2. The Governance Continuity Framework fallback chain (§4.1) activates, allowing surviving RAC members, then the Governance & Legal WG, then token holders to perform the minimum actions required to stabilize the situation.
+3. Any RAC member's failure to act during a declared emergency is treated as misconduct and subject to review under the **Code of Conduct §6** and potential removal under **RAC Mandate §9**.
 
 ---
 
@@ -245,11 +237,4 @@ Defined separately:
 
 ## 19. Amendments
 
-This policy may be updated via governance.
-
----
-
-## 20. Guiding Principle
-
-> Emergency powers exist to **protect the DAO**,
-> not to replace its governance.
+_Amendment procedures and classification requirements are defined in the **Governance Maintenance & Upgrade Framework**._

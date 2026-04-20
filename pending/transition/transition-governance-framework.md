@@ -260,12 +260,7 @@ All authority remains ultimately with the DAO.
 
 ### 6.1 Conflict of Interest
 
-RAC members with a personal, financial, or organizational conflict of interest in a transitional decision must:
-
-* disclose the conflict prior to the decision
-* recuse themselves from the relevant vote
-
-Conflict of interest rules are defined in full in the **RAC Mandate**.
+Conflict of interest obligations for RAC members during Phase 1 are defined in the **Conflict of Interest Policy §2–4** and **§8**, and are not modified by this framework.
 
 ---
 

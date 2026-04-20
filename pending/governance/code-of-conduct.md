@@ -91,6 +91,7 @@ The following constitute serious violations:
 * **Fraud** — submitting false information in proposals, grant applications, or role applications
 * **Doxxing** — publicly revealing private information about participants without consent
 * **Retaliation** — taking adverse action against participants who report misconduct or raise governance concerns in good faith
+* **Selective obstruction** — a documented pattern of delaying governance process steps or selectively enforcing rules without documented grounds, when carried out by a role-holder in the exercise of their duties (see RAC Mandate §11A; Treasury Signers Rules §9A)
 
 ---
 
@@ -181,7 +182,7 @@ Any participant subject to a sanction may appeal the determination by:
 * Submitting a written appeal to the RAC within **14 days** of the finding
 * Requesting that the appeal be reviewed by a panel that excludes any RAC members involved in the original finding
 
-If the RAC is unable to form an impartial panel, the appeal may be escalated to a community governance vote per the **Dispute Resolution & Arbitration Policy**.
+If the RAC is unable to form an impartial panel, the appeal may be escalated to a community governance vote. Once the Dispute Resolution & Arbitration Policy is active, that policy governs escalation; until then, escalation uses the Transition Governance Framework §6.2.
 
 ---
 
@@ -212,6 +213,4 @@ In the event of conflict between this Code and another policy, the more specific
 
 ## 9. Amendments
 
-This document may be updated via a Governance Process proposal.
-
-Amendment procedures and classification requirements are defined in the **Governance Maintenance & Upgrade Framework**.
+_Amendment procedures and classification requirements are defined in the **Governance Maintenance & Upgrade Framework**._

@@ -274,28 +274,6 @@ Quorum is measured as a percentage of eligible voting power. Eligible voting pow
 
 ---
 
-## 11. Amendment Rules
+## 11. Amendments
 
-This registry may be updated via governance proposals.
-
-Changes are classified as:
-
-* Minor (parameter adjustment)
-* Major (structural change)
-
----
-
-## 12. Versioning
-
-Each update must include:
-
-* Version number
-* Change log
-* Effective date
-
----
-
-## 13. Guiding Principle
-
-> Parameters should enable flexibility without compromising
-> the integrity and security of governance.
+_Amendment procedures, change classification (minor parameter adjustment vs. major structural change), and versioning requirements are defined in the **Governance Maintenance & Upgrade Framework §4–6**._
