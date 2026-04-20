@@ -85,7 +85,7 @@ Formally adopt the following 11 documents as the Phase 1 governance framework of
 | Proposal & Voting Framework | How decisions are proposed, voted on, and recorded |
 | Execution & Treasury Actions Policy | How approved decisions are executed and funds moved |
 | Emergency & Safeguards Policy | Response to security events and critical failures |
-| Authorized Signers Rules | Operational rules for those executing treasury actions |
+| Treasury Signers Rules | Operational rules for those executing treasury actions |
 | RAC Mandate | Authority and limits of the Accountability Council |
 | Conflict of Interest Policy | Disclosure and recusal obligations for all role holders |
 | Code of Conduct | Behavioral standards for all DAO participants |
@@ -127,7 +127,7 @@ Confirm the following founding Delegate roster and their function assignments pe
 | [Name / on-chain address] | Compliance Liaison | [Confirmed / Pending] |
 | [Name / on-chain address] | Web2 Custodian | [Confirmed / Pending] |
 
-Note: A single Delegate may hold multiple non-conflicting functions per OA Article V. The DAO Parameters Registry §6A establishes 5 Authorized Signers for Treasury Signing — the exact roster is confirmed here and published to the governance forum before the Temperature Check opens.
+Note: A single Delegate may hold multiple non-conflicting functions per OA Article V. The DAO Parameters Registry §6A establishes 5 Treasury Signers for Treasury Signing — the exact roster is confirmed here and published to the governance forum before the Temperature Check opens.
 
 If any listed Delegate has not completed KYC by the time the vote opens, their appointment is conditional and does not take effect until KYC is confirmed and published to the governance forum.
 
@@ -250,7 +250,7 @@ Additional conditions for this category:
 | 5 | Formation confirmation published to governance forum | RAC / Legal Signatory | Within 72 hours of registration |
 | 6 | Delegate Roster, multi-sig wallet address, and KYC confirmations published | RAC | Within 72 hours of registration |
 | 7 | Transition Governance Framework formally active | RAC (records on forum) | Upon registration |
-| 7a | Establishment grant made available to RAC | Authorized Signers | Upon proposal acceptance |
+| 7a | Establishment grant made available to RAC | Treasury Signers | Upon proposal acceptance |
 | 8 | GP-1 TC opens | Governance Operator | Business day following published formation confirmation |
 
 ### 9.2 Success Metrics
@@ -304,7 +304,7 @@ No RAC member may be the sole drafter of the Delegate roster without community r
 | `Legal/Formation/Certificate-of-Formation.md` | Formation document authorized for filing by Element 2 |
 | `Legal/Formation/Operating-Agreement.md` | Operating agreement authorized for filing by Element 2; §1.4 (smart contract identifiers), Article V (Delegate functions), §12.4 (policy adoption) |
 | `Charter/charter.md` | Constitutional authority; highest governing document |
-| `Parameters/DAO-Parameters-Registry.md` | §6A (Authorized Signers parameters — 5 signers, 3-of-5 / 4-of-5 thresholds) |
+| `Parameters/DAO-Parameters-Registry.md` | §6A (Treasury Signers parameters — 5 signers, 3-of-5 / 4-of-5 thresholds) |
 | `Governance-Processes/Roles/RAC-Mandate.md` | RAC authority and limitations; conflict of interest rules |
 | `governance/legal-wrapper-and-representation.md` | Compliance obligations, UBO/BOIR rules, and regulatory response protocols |
 

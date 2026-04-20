@@ -8,7 +8,7 @@ This document defines the behavioral standards expected of all participants in t
 
 * Token holders participating in governance
 * Working Group members and contributors
-* Elected and appointed role-holders (RAC members, Authorized Signers, WG Leads)
+* Elected and appointed role-holders (RAC members, Treasury Signers, WG Leads)
 * Contractors and vendors acting on behalf of the DAO
 * Any person participating in DAO-affiliated forums, channels, or events
 

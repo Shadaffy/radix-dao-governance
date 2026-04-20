@@ -1,12 +1,12 @@
-# Authorized Signers Operational Rules
+# Treasury Signers Operational Rules
 
 ---
 
 ## 1. Purpose
 
-This document defines the operational rules for Authorized Signers.
+This document defines the operational rules for Treasury Signers.
 
-Authorized Signers are responsible for carrying out approved treasury and legal actions on behalf of the DAO, within strictly limited authority.
+Treasury Signers are responsible for carrying out approved treasury actions on behalf of the DAO, within strictly limited authority.
 
 They are execution agents, not decision-makers.
 
@@ -23,16 +23,16 @@ These rules apply to:
 
 ---
 
-## 3. Role of Authorized Signers
+## 3. Role of Treasury Signers
 
-Authorized Signers may:
+Treasury Signers may:
 
 * execute treasury transfers approved by governance
 * sign agreements authorized by governance
 * operate approved custody systems
 * perform administrative actions needed to maintain DAO operations
 
-Authorized Signers may not:
+Treasury Signers may not:
 
 * make strategic decisions
 * approve new spending
@@ -66,7 +66,7 @@ All signer actions must be auditable and attributable.
 
 ## 5. Eligibility
 
-Authorized Signers must:
+Treasury Signers must:
 
 * be approved through DAO governance
 * satisfy required KYC / legal checks where applicable
@@ -78,7 +78,7 @@ Authorized Signers must:
 
 ## 6. Appointment
 
-Authorized Signers are appointed by DAO vote.
+Treasury Signers are appointed by DAO vote.
 
 Appointment proposals must include:
 
@@ -92,7 +92,7 @@ Appointment proposals must include:
 
 ## 7. Removal
 
-Authorized Signers may be removed by DAO vote at any time.
+Treasury Signers may be removed by DAO vote at any time.
 
 Immediate suspension may occur through emergency procedures where:
 
@@ -104,7 +104,7 @@ Immediate suspension may occur through emergency procedures where:
 
 ## 8. Execution Duties
 
-Authorized Signers must:
+Treasury Signers must:
 
 * execute valid approved actions within the required time window
 * confirm receipt of execution requests
@@ -132,7 +132,7 @@ Requests that are missing required fields must not be executed. Signers must not
 
 ## 9. Refusal or Delay
 
-Authorized Signers may refuse or delay execution only when:
+Treasury Signers may refuse or delay execution only when:
 
 * the request is outside approved authority
 * the request conflicts with a passed proposal
@@ -150,7 +150,7 @@ Any refusal or delay must be documented and reported.
 
 ## 9A. Selective Obstruction
 
-A documented pattern of delaying or refusing process verification, or selectively enforcing governance rules without documented grounds on record, constitutes misconduct independent of the inactivity clause (DAO Parameters §6B). RAC members may flag this pattern in Authorized Signers; community members may trigger a misconduct review via Governance Process proposal.
+A documented pattern of delaying or refusing process verification, or selectively enforcing governance rules without documented grounds on record, constitutes misconduct independent of the inactivity clause (DAO Parameters §6B). RAC members may flag this pattern in Treasury Signers; community members may trigger a misconduct review via Governance Process proposal.
 
 ---
 
@@ -174,7 +174,7 @@ Where possible:
 
 ## 12. Recordkeeping
 
-Authorized Signers must maintain records of:
+Treasury Signers must maintain records of:
 
 * execution requests
 * signed transactions
@@ -186,7 +186,7 @@ Authorized Signers must maintain records of:
 
 ## 13. Reporting
 
-Authorized Signers must contribute to:
+Treasury Signers must contribute to:
 
 * routine treasury reporting
 * incident reporting
@@ -198,7 +198,7 @@ Sensitive operational details may remain confidential where necessary for securi
 
 ## 14. Conflicts of Interest
 
-Authorized Signers are subject to the disclosure and recusal obligations defined in the **Conflict of Interest Policy §2–4**, which is the authoritative source for conflict of interest rules across all role-holders.
+Treasury Signers are subject to the disclosure and recusal obligations defined in the **Conflict of Interest Policy §2–4**, which is the authoritative source for conflict of interest rules across all role-holders.
 
 In addition, the following execution-specific rule applies: a signer must not approve execution of a payment or agreement that directly benefits them. If such a payment is required by a passed proposal, the signer must recuse themselves from signing, disclose the conflict, and ensure another signer handles the execution.
 
@@ -206,7 +206,7 @@ In addition, the following execution-specific rule applies: a signer must not ap
 
 ## 15. Availability and Continuity
 
-Authorized Signers must remain reasonably available to support DAO operations.
+Treasury Signers must remain reasonably available to support DAO operations.
 
 **Standard availability:**
 
@@ -245,7 +245,7 @@ Authorized Signers must remain reasonably available to support DAO operations.
 
 ## 16. Security Requirements
 
-Authorized Signers must:
+Treasury Signers must:
 
 * use secure devices and authentication methods
 * follow custody and key-management procedures
@@ -256,7 +256,7 @@ Authorized Signers must:
 
 ## 17. Emergency Actions
 
-In emergencies, Authorized Signers may execute urgent protective actions only when:
+In emergencies, Treasury Signers may execute urgent protective actions only when:
 
 * properly triggered under the Emergency & Safeguards Policy
 * required thresholds are met
@@ -294,11 +294,11 @@ These rules are governed by the laws of the Republic of the Marshall Islands (Op
 
 ## 19A. Indemnification
 
-Authorized Signers acting in good faith within their authorized mandate are indemnified by the Company in accordance with Operating Agreement §11.3. The Company shall advance reasonable legal expenses to any Authorized Signer facing claims arising from their role, subject to the conditions and exclusions stated in Operating Agreement §11.3. Authorized Signers are encouraged to review §11.3 of the Operating Agreement directly for the full scope of protections and exclusions.
+Treasury Signers acting in good faith within their authorized mandate are indemnified by the Company in accordance with Operating Agreement §11.3. The Company shall advance reasonable legal expenses to any Treasury Signer facing claims arising from their role, subject to the conditions and exclusions stated in Operating Agreement §11.3. Treasury Signers are encouraged to review §11.3 of the Operating Agreement directly for the full scope of protections and exclusions.
 
 ---
 
 ## 20. Guiding Principle
 
-> Authorized Signers execute the DAO’s will.
+> Treasury Signers execute the DAO’s will.
 > They do not substitute their own.

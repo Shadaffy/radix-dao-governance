@@ -219,7 +219,7 @@ Changes to the Governance or Treasury smart contracts require:
 
 The Company's treasury assets are held in the multi-signature account identified in §1.4. All treasury transactions require multi-signature authorization from the Members holding the Treasury Signing function (§5.3(a)).
 
-Signing thresholds are defined in **DAO Parameters §6A**: standard transactions require a minimum of 3-of-5 Treasury Signers; transactions classified as high-risk require 4-of-5. The classification of transaction types and the full operational rules governing treasury execution — including acknowledgement windows, execution windows, and conflict disclosure requirements — are defined in the **Execution & Treasury Actions Policy** and the **Authorized Signers Operational Rules** (operational policies).
+Signing thresholds are defined in **DAO Parameters §6A**: standard transactions require a minimum of 3-of-5 Treasury Signers; transactions classified as high-risk require 4-of-5. The classification of transaction types and the full operational rules governing treasury execution — including acknowledgement windows, execution windows, and conflict disclosure requirements — are defined in the **Execution & Treasury Actions Policy** and the **Treasury Signers Operational Rules** (operational policies).
 
 Treasury Signers may only execute transactions that have been authorized by a Governance Proposal or that fall within a budget explicitly approved by a prior Governance Proposal. Record-keeping and audit requirements for treasury transactions are defined in the **Execution & Treasury Actions Policy** (operational policy).
 

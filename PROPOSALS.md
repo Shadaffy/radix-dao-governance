@@ -34,7 +34,7 @@ Entries are added when a proposal is submitted and updated when a vote concludes
 | Proposal & Voting Framework | `governance/proposal-and-voting-framework.md` |
 | Execution & Treasury Actions Policy | `governance/execution-and-treasury-actions-policy.md` |
 | Emergency & Safeguards Policy | `governance/emergency-and-safeguards-policy.md` |
-| Authorized Signers Rules | `governance/authorized-signers-rules.md` |
+| Treasury Signers Rules | `governance/treasury-signers-rules.md` |
 | RAC Mandate | `governance/rac-mandate.md` |
 | Conflict of Interest Policy | `governance/conflict-of-interest-policy.md` |
 | Code of Conduct | `governance/code-of-conduct.md` |

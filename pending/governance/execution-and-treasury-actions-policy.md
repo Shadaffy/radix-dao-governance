@@ -66,7 +66,7 @@ Must follow governance-approved instructions.
 Execution may be carried out by:
 
 * Smart contracts (automated)
-* Authorized signers (e.g., multisig)
+* Treasury signers (e.g., multisig)
 * Working Groups (within mandate)
 
 ---
@@ -87,19 +87,19 @@ Execution may be carried out by:
 
 ---
 
-### 5.3 Role of Authorized Signers
+### 5.3 Role of Treasury Signers
 
-Authorized Signers are responsible for carrying out treasury and legal execution actions approved by governance.
+Treasury Signers are responsible for carrying out treasury execution actions approved by governance.
 
 They:
 * execute approved actions within defined time limits
 * operate under multi-signature controls
-* may refuse or delay execution only on the grounds defined in **Authorized Signers Rules §9**
+* may refuse or delay execution only on the grounds defined in **Treasury Signers Rules §9**
 * remain accountable to DAO governance
 
 Where RAC determines that a refusal is invalid, or where a proposal remains unexecuted beyond the 10-business-day backstop window defined in the Governance Continuity Framework §4.2, RAC may instruct remaining signers to proceed with execution directly.
 
-Detailed operational rules are defined in the Authorized Signers Operational Rules.
+Detailed operational rules are defined in the Treasury Signers Operational Rules.
 
 ---
 
@@ -184,13 +184,13 @@ All treasury payments must be initiated against a payment document:
 
 * **Monthly claim** — submitted by a private individual. Must include: provider name and wallet address, service description matching the approved proposal, amount, and period covered. No registration details required.
 
-RAC verifies each payment document against the approved proposal before Authorized Signers release payment. Verification confirms: (a) the document matches the approved service and fee, (b) the period claimed has not already been paid, (c) the total does not exceed the authorized commitment.
+RAC verifies each payment document against the approved proposal before Treasury Signers release payment. Verification confirms: (a) the document matches the approved service and fee, (b) the period claimed has not already been paid, (c) the total does not exceed the authorized commitment.
 
 ---
 
 ### 7.5 Standing Service Authorization
 
-A governance vote authorizing a recurring fixed-rate service (Model B) constitutes a standing authorization for the full approved term. Authorized Signers may release payment each period upon receipt of a verified claim or invoice without a new governance vote.
+A governance vote authorizing a recurring fixed-rate service (Model B) constitutes a standing authorization for the full approved term. Treasury Signers may release payment each period upon receipt of a verified claim or invoice without a new governance vote.
 
 Requirements:
 
@@ -215,7 +215,7 @@ All donations must be:
 * Publicly disclosed within **30 days** of receipt, in accordance with the Transparency & Reporting Policy.
 * Recorded in treasury reporting.
 
-Authorized Signers may refuse or return funds if:
+Treasury Signers may refuse or return funds if:
 
 * The source is reasonably suspected to be unlawful or sanctioned.
 * The transfer includes explicit or implicit conditions.
@@ -321,7 +321,7 @@ Actions that cannot be undone (e.g., large transfers) require:
 
 * Clear proposal specification
 * Higher scrutiny during review
-* Mandatory pre-execution hold — Authorized Signers must not initiate execution of any Treasury / Budget or Executable proposal until the veto window has fully closed (per **DAO Parameters §9**). High-risk actions (requiring 4-of-5 signers) must additionally observe the extended hold defined in **DAO Parameters §9**. Signers who execute before the hold period expires are in breach of their duties under the Authorized Signers Rules regardless of whether a veto is filed.
+* Mandatory pre-execution hold — Treasury Signers must not initiate execution of any Treasury / Budget or Executable proposal until the veto window has fully closed (per **DAO Parameters §9**). High-risk actions (requiring 4-of-5 signers) must additionally observe the extended hold defined in **DAO Parameters §9**. Signers who execute before the hold period expires are in breach of their duties under the Treasury Signers Rules regardless of whether a veto is filed.
 
 ---
 

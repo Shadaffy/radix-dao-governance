@@ -107,9 +107,9 @@ Such bodies operate within defined mandates, remain subordinate to DAO governanc
 
 ### 4.3 Binding Decisions
 
-Governance-approved decisions are binding and executed through on-chain mechanisms and authorized execution entities (Authorized Signers, multisig custody).
+Governance-approved decisions are binding and executed through on-chain mechanisms and authorized execution entities (Treasury Signers, multisig custody).
 
-Execution rules are defined in the **Execution & Treasury Actions Policy** and **Authorized Signers Operational Rules**.
+Execution rules are defined in the **Execution & Treasury Actions Policy** and **Treasury Signers Operational Rules**.
 
 ---
 

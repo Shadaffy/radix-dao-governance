@@ -18,7 +18,8 @@ A YES vote on GP-PRE-1 means you are approving all of the documents listed below
 | Proposal & Voting Framework | Governance | [governance/proposal-and-voting-framework.md](governance/proposal-and-voting-framework.md) |
 | Execution & Treasury Actions Policy | Governance | [governance/execution-and-treasury-actions-policy.md](governance/execution-and-treasury-actions-policy.md) |
 | Emergency & Safeguards Policy | Governance | [governance/emergency-and-safeguards-policy.md](governance/emergency-and-safeguards-policy.md) |
-| Authorized Signers Rules | Governance | [governance/authorized-signers-rules.md](governance/authorized-signers-rules.md) |
+| Treasury Signers Rules | Governance | [governance/treasury-signers-rules.md](governance/treasury-signers-rules.md) |
+| Roles Registry | Governance | [governance/roles-registry.md](governance/roles-registry.md) |
 | RAC Mandate | Governance | [governance/rac-mandate.md](governance/rac-mandate.md) |
 | Conflict of Interest Policy | Governance | [governance/conflict-of-interest-policy.md](governance/conflict-of-interest-policy.md) |
 | Code of Conduct | Governance | [governance/code-of-conduct.md](governance/code-of-conduct.md) |

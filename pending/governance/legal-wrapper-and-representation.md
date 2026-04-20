@@ -91,7 +91,7 @@ Custody arrangements must:
 
 ## 5. Confidential Information
 
-Authorized Signer identities are **publicly disclosed** as part of the election and appointment process, in accordance with the Elections & Role Governance Policy.
+Treasury Signer identities are **publicly disclosed** as part of the election and appointment process, in accordance with the Elections & Role Governance Policy.
 
 The following operational details may remain confidential:
 
@@ -161,7 +161,7 @@ The following topics are defined in the documents listed and are not restated he
 | Non-distribution principle | Operating Agreement §2.2; Charter §10 |
 | Asset lock and wind-down | Operating Agreement §9.2–9.3; Charter §11 |
 | Delegate structure, Delegated Functions, indemnification | Operating Agreement Art V |
-| Authorized Signers operational rules | Authorized Signers Rules |
+| Treasury Signers operational rules | Treasury Signers Rules |
 | Membership and token holder rights | Operating Agreement Art IV |
 | Continuity statement authority | Operating Agreement §3.2 |
 | Governing law and dispute resolution | Operating Agreement §11.1 |

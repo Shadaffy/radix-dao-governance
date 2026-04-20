@@ -157,20 +157,20 @@ Quorum is measured as a percentage of eligible voting power. Eligible voting pow
 
 ---
 
-## 6A. Authorized Signers Parameters
+## 6A. Treasury Signers Parameters
 
 | Parameter                       | Value                           | Description                                           |
 | ------------------------------- | ------------------------------- | ----------------------------------------------------- |
-| Number of Authorized Signers    | 5                               | Total signer pool                                     |
+| Number of Treasury Signers    | 5                               | Total signer pool                                     |
 | Minimum Signing Threshold       | 3 of 5                          | Minimum approvals required for standard actions       |
 | High-Risk Signing Threshold     | 4 of 5                          | Minimum approvals required for high-risk actions      |
 | Signer Term Length              | 6 months                        | Standard appointment term                             |
 | Max Execution Window            | 5 business days                 | Time allowed to execute an approved action            |
 | Max Acknowledgement Window      | 2 business days                 | Time allowed to acknowledge a valid execution request |
 | Emergency Execution Window      | ASAP, within 24 hours           | Required response time during emergencies             |
-| Required Availability Standard  | Respond within 2 business days  | Minimum expected responsiveness during active periods; declared unavailability periods are excluded (see Authorized Signers Rules §15) |
+| Required Availability Standard  | Respond within 2 business days  | Minimum expected responsiveness during active periods; declared unavailability periods are excluded (see Treasury Signers Rules §15) |
 | Key Rotation Review Interval    | Every 6 months                  | Frequency of key / access review                      |
-| Max Unexcused Inactivity Period | 21 days                         | Inactivity threshold before replacement review; declared unavailability periods are excluded (see §6B and Authorized Signers Rules §15) |
+| Max Unexcused Inactivity Period | 21 days                         | Inactivity threshold before replacement review; declared unavailability periods are excluded (see §6B and Treasury Signers Rules §15) |
 | Signer Replacement Window       | 21 days                         | Time to fill a vacant signer seat                     |
 | Allowed Unilateral Actions      | None unless explicitly approved | Default rule for signer authority                     |
 | Conflict Disclosure Requirement | Mandatory                       | Public or confidential as appropriate                 |
@@ -191,7 +191,7 @@ Quorum is measured as a percentage of eligible voting power. Eligible voting pow
 | Nomination Period                   | 5-7 days  | Time allowed for candidate submissions   |
 | Minimum Participation for Elections | Gov quorum| Quorum requirement                       |
 | Removal Vote Threshold              | ≥ 50% YES | Required support to remove a role holder |
-| Inactivity Threshold                | 21 days   | Time before inactivity review; declared unavailability periods are excluded. **"Inactivity"** means: no response to governance execution requests, no participation in any multisig signing actions, and no communication with the RAC within the threshold period. Passive activities (reading updates, monitoring forums) do not constitute activity. Declared unavailability periods (per Authorized Signers Rules §15) are excluded from inactivity counting. |
+| Inactivity Threshold                | 21 days   | Time before inactivity review; declared unavailability periods are excluded. **"Inactivity"** means: no response to governance execution requests, no participation in any multisig signing actions, and no communication with the RAC within the threshold period. Passive activities (reading updates, monitoring forums) do not constitute activity. Declared unavailability periods (per Treasury Signers Rules §15) are excluded from inactivity counting. |
 | Replacement Election Trigger Time   | 7 days    | Time before election must start          |
 | Replacement Completion Time         | 21 days   | Max time to fill vacancy                 |
 | Max Concurrent Roles per Individual | 2         | Limits role concentration                |
@@ -246,7 +246,7 @@ Quorum is measured as a percentage of eligible voting power. Eligible voting pow
 
 | Parameter                 | Value          |
 | ------------------------- | -------------- |
-| Pre-Execution Hold        | 48 hours after vote close (mandatory) — Authorized Signers may not initiate execution of any Treasury / Budget or Executable proposal until the veto window (§4) has fully closed |
+| Pre-Execution Hold        | 48 hours after vote close (mandatory) — Treasury Signers may not initiate execution of any Treasury / Budget or Executable proposal until the veto window (§4) has fully closed |
 | High-Risk Execution Delay | 24 hours additional after the pre-execution hold (mandatory) — applies to transactions classified as high-risk (4-of-5 signing threshold per §6A); total minimum 72 hours after vote close |
 
 ---

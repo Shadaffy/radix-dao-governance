@@ -29,7 +29,7 @@ The RAC may:
 * Trigger defined governance processes (e.g., emergency procedures, veto processes where applicable)
 * Execute DAO-approved actions where explicitly authorized
 * Take **temporary emergency actions** within defined limits
-* Instruct remaining Authorized Signers to execute a passed proposal under the forced-execution backstop (Governance Continuity Framework §4.2) when the 10-business-day window from veto window close has elapsed with no valid hold on record
+* Instruct remaining Treasury Signers to execute a passed proposal under the forced-execution backstop (Governance Continuity Framework §4.2) when the 10-business-day window from veto window close has elapsed with no valid hold on record
 
 ---
 

@@ -92,7 +92,7 @@ The RAC may:
 
 The RAC may move treasury assets to the pre-approved emergency safe address only (DAO Parameters §6.1). Assets may not be moved to any other address under emergency authority. Until an emergency safe address has been designated by Treasury & Budget proposal and recorded in DAO Parameters §6.1, Tier 2 asset movement is not available.
 
-**Requires:** ≥2/3 RAC members + 75% approval threshold AND immediate notification to all Authorized Signers within 1 hour AND community disclosure within 6 hours.
+**Requires:** ≥2/3 RAC members + 75% approval threshold AND immediate notification to all Treasury Signers within 1 hour AND community disclosure within 6 hours.
 **Spend limit:** The $5,000 emergency spend limit (DAO Parameters §6.1) applies to new disbursements under emergency authority. Tier 2 protective transfers to the pre-approved address are not subject to the spend cap but are constrained to that address.
 **Ratification:** Emergency asset movement is subject to the mandatory 14-day ratification vote (§10).
 

@@ -39,9 +39,9 @@ The DAO operates under a **phased governance activation model**:
 #### Phase 1 — Minimum Viable Governance (0–12 months)
 
 * 11 core documents active and enforceable from launch
-* RAC and Authorized Signers appointed as founding act
+* RAC and Treasury Signers appointed as founding act
 * Asset transfer from the Founding Transferor completed
-* Governance decisions possible from launch; Working Groups not operational at launch — established by governance vote after initial RAC and Authorized Signer appointment (activity-triggered within Phase 1; see §3 and §10)
+* Governance decisions possible from launch; Working Groups not operational at launch — established by governance vote after initial RAC and Treasury Signer appointment (activity-triggered within Phase 1; see §3 and §10)
 * Voting power includes XRD and LSU (converted to XRD-equivalent at snapshot) from launch
 * Complexity added as specific operational needs arise (see §3)
 
@@ -107,7 +107,7 @@ These documents are in force and enforceable from the first day of DAO operation
 | Proposal & Voting Framework | How decisions are proposed, voted on, and recorded |
 | Execution & Treasury Actions Policy | How approved decisions are executed and funds moved |
 | Emergency & Safeguards Policy | Response to security events and critical failures |
-| Authorized Signers Rules | Operational rules for those executing treasury actions |
+| Treasury Signers Rules | Operational rules for those executing treasury actions |
 | RAC Mandate | Authority and limits of the Accountability Council |
 | Conflict of Interest Policy | Disclosure and recusal obligations for all role holders |
 | Code of Conduct | Behavioral standards for all DAO participants |
@@ -225,7 +225,7 @@ The RAC may, in the absence of a relevant Working Group:
 
 * Publish and administer RFPs for operational work within a DAO-approved budget
 * Select contributors and confirm engagements
-* Manage delivery and authorise milestone payments to Authorized Signers
+* Manage delivery and authorise milestone payments to Treasury Signers
 
 **Conditions**
 
@@ -282,7 +282,7 @@ If the proposal passes, the DAO's decision supersedes the RAC action. The RAC mu
 Execution during Phase 1 follows standard governance structure:
 
 * Working Groups coordinate execution
-* Authorized Signers execute treasury and legal actions
+* Treasury Signers execute treasury actions
 * RAC verifies compliance and supports continuity
 
 The RAC does not directly control treasury execution.
@@ -370,7 +370,7 @@ Expiry of transitional delegated authority under §11 does **not** affect the ac
 
 ### 11.2 Role Holder Tenure Continuity
 
-Expiry of transitional delegated authority does **not** affect the tenure or term renewal rights of constituted role holders (RAC members and Authorized Signers carried forward from the predecessor organization). Their role tenure runs on a separate track from their transitional authority:
+Expiry of transitional delegated authority does **not** affect the tenure or term renewal rights of constituted role holders (RAC members and Treasury Signers carried forward from the predecessor organization). Their role tenure runs on a separate track from their transitional authority:
 
 * Transitional authority expires on the Phase 1 schedule defined in §11
 * Role tenure continues subject to the term lengths and renewal rules defined in the Elections & Role Governance Policy §9

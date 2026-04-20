@@ -125,7 +125,7 @@ All governance changes must clearly specify their classification and comply with
 
 ### 4.6 Election Proposals
 
-Selection of candidates for DAO roles: RAC members, Working Group Stewards, Strategic Coordination WG members, and Authorized Signers.
+Selection of candidates for DAO roles: RAC members, Working Group Stewards, Strategic Coordination WG members, and Treasury Signers.
 
 Elections follow a two-stage process:
 

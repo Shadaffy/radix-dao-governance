@@ -21,7 +21,7 @@ It defines:
 This policy applies to all individuals exercising decision-making authority within the DAO, including:
 
 * RAC members
-* Authorized Signers
+* Treasury Signers
 * Working Group Stewards and members with budget or execution authority
 * Strategic Coordination WG members
 * Any contractor or advisor acting in a decision-making capacity on behalf of the DAO
@@ -211,7 +211,7 @@ The accused person is given the opportunity to respond before a finding is issue
 
 * **Code of Conduct** — Disclosure failures and self-dealing are also Code of Conduct violations
 * **Elections & Role Governance Policy §5, §15** — Eligibility requirements and conflict disclosures at nomination
-* **Authorized Signers Rules** — Conflict obligations for signers acting on treasury transactions
+* **Treasury Signers Rules** — Conflict obligations for signers acting on treasury transactions
 * **Dispute Resolution & Arbitration Policy** — Escalation path for contested recusal determinations
 
 ---
