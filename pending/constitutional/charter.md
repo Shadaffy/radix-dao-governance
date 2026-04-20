@@ -49,7 +49,7 @@ Authority ultimately resides with the community of token holders. No individual,
 
 ### 3.2 Transparency
 
-Governance actions must be publicly visible and auditable. The community can only hold the DAO to account if it can see what is happening and why. Temporary confidentiality is permitted only where necessary to mitigate security risks, prevent exploitation, or fulfill legal or contractual obligations — and all such actions must be disclosed retrospectively.
+Governance actions must be publicly visible and auditable. The community can only hold the DAO to account if it can see what is happening and why. Temporary confidentiality is permitted only where necessary to mitigate security risks, prevent exploitation, or fulfill legal or contractual obligations — and all such actions must be disclosed retrospectively, within the timelines defined in **Execution & Treasury Actions Policy §10.1**.
 
 ---
 

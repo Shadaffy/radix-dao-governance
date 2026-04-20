@@ -94,7 +94,7 @@ Authorized Signers are responsible for carrying out treasury and legal execution
 They:
 * execute approved actions within defined time limits
 * operate under multi-signature controls
-* may refuse execution only on defined procedural, legal, or security grounds
+* may refuse or delay execution only on the grounds defined in **Authorized Signers Rules §9**
 * remain accountable to DAO governance
 
 Where RAC determines that a refusal is invalid, or where a proposal remains unexecuted beyond the 10-business-day backstop window defined in the Governance Continuity Framework §4.2, RAC may instruct remaining signers to proceed with execution directly.
@@ -321,7 +321,7 @@ Actions that cannot be undone (e.g., large transfers) require:
 
 * Clear proposal specification
 * Higher scrutiny during review
-* Mandatory pre-execution hold — Authorized Signers must not initiate execution of any Treasury / Budget or Executable proposal until the veto window has fully closed (48 hours after vote close, per DAO Parameters §9). High-risk actions (requiring 4-of-5 signers) must additionally observe the extended 72-hour hold defined in DAO Parameters §9. Signers who execute before the hold period expires are in breach of their duties under the Authorized Signers Rules regardless of whether a veto is filed.
+* Mandatory pre-execution hold — Authorized Signers must not initiate execution of any Treasury / Budget or Executable proposal until the veto window has fully closed (per **DAO Parameters §9**). High-risk actions (requiring 4-of-5 signers) must additionally observe the extended hold defined in **DAO Parameters §9**. Signers who execute before the hold period expires are in breach of their duties under the Authorized Signers Rules regardless of whether a veto is filed.
 
 ---
 

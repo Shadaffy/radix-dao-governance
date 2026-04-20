@@ -131,6 +131,8 @@ The DAO affirms that:
 
 This statement must be publicly recorded. The Legal Signatory Delegate is authorized to execute a formal continuity statement in the form required by any Asset Transferor, as provided in Operating Agreement §3.2.
 
+Dissolution transfer procedures — including the written notice obligation to primary Asset Transferors before any dissolution asset transfer is executed — are defined in **Operating Agreement §9.2–9.3**.
+
 ---
 
 ## 8. Regulatory Demand Disclosure Protocol

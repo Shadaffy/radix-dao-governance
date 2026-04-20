@@ -294,7 +294,7 @@ Any token holder may file a veto challenge, provided the minimum participation t
 
 ### 8.4 Process
 
-1. A veto challenge must be filed via the governance interface within **48 hours** of the vote closing (see DAO Parameters §4)
+1. A veto challenge must be filed via the governance interface within the veto window defined in **DAO Parameters §4**
 2. The filing must cite the specific Charter section or governance rule being violated
 3. The RAC reviews the challenge and issues a determination within **48 hours** of filing:
    - If the RAC determines the proposal violates governance rules, the proposal is **halted** pending a corrective resubmission

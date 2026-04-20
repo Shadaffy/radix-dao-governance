@@ -198,13 +198,9 @@ Sensitive operational details may remain confidential where necessary for securi
 
 ## 14. Conflicts of Interest
 
-Authorized Signers must:
+Authorized Signers are subject to the disclosure and recusal obligations defined in the **Conflict of Interest Policy §2–4**, which is the authoritative source for conflict of interest rules across all role-holders.
 
-* disclose actual and potential conflicts
-* recuse themselves from relevant execution decisions where feasible
-* avoid self-dealing
-
-A signer must not approve execution of a payment or agreement that directly benefits them. If such a payment is required by a passed proposal, the signer must recuse themselves from signing, disclose the conflict, and ensure another signer handles the execution.
+In addition, the following execution-specific rule applies: a signer must not approve execution of a payment or agreement that directly benefits them. If such a payment is required by a passed proposal, the signer must recuse themselves from signing, disclose the conflict, and ensure another signer handles the execution.
 
 ---
 

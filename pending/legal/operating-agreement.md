@@ -73,12 +73,7 @@ The Company is organized exclusively for charitable and educational purposes wit
 
 ### §2.2 Non-Distribution Constraint
 
-No income, assets, or profits of the Company shall be distributed to Members. All assets and income must be applied solely toward the purposes set out in §2.1 and the operational policies adopted under §12.4. The following are permitted consistent with applicable law and adopted operational policies:
-
-* reasonable and proper remuneration to any Member, Delegate, or service provider for services rendered to the Company;
-* interest at a reasonable and proper rate on money lent by any Member or Delegate;
-* reasonable and proper rent for premises provided by any Member or Delegate;
-* reimbursement of legitimate out-of-pocket expenses properly incurred.
+No income, assets, or profits of the Company shall be distributed to Members. All assets and income must be applied solely toward the purposes set out in §2.1 and the operational policies adopted under §12.4. Permitted exceptions to this constraint are defined in **Legal Wrapper & Representation §2**, which is designated under the Charter §10 as the authoritative source for the permitted exception list.
 
 ---
 
@@ -136,7 +131,7 @@ The following functions are delegated to elected Delegates:
 
 **(a) Treasury Signing**
 
-Execute treasury transactions via multi-signature wallet. Treasury Signers may only sign transactions authorized by a Governance Proposal. In an emergency, Treasury Signers may act to preserve assets or services, subject to GP ratification within 30 days of the emergency action being taken.
+Execute treasury transactions via multi-signature wallet. Treasury Signers may only sign transactions authorized by a Governance Proposal. In an emergency, Treasury Signers may act to preserve assets or services, subject to GP ratification within the period specified in the **Emergency & Safeguards Policy §10**.
 
 **(b) Governance Operations**
 
@@ -309,9 +304,9 @@ Prior to any dissolution asset transfer, the Company shall publish a public acco
 
 This Agreement may be amended by Governance Proposal. Amendments are classified as follows:
 
-**(a) Constitutional Amendments** — changes to Articles I (Formation), II (Purpose), III (Continuity), IV (Membership), or XI (Disputes and Liability), and changes to the Charter. Constitutional Amendments require a Constitutional Proposal with ≥66% YES approval and ≥10% quorum, as defined in **DAO Parameters §3.2–3.3**.
+**(a) Constitutional Amendments** — changes to Articles I (Formation), II (Purpose), III (Continuity), IV (Membership), or XI (Disputes and Liability), and changes to the Charter. Constitutional Amendments require a Constitutional Proposal, with quorum and approval thresholds as defined in **DAO Parameters §3.2–3.3**.
 
-**(b) Governance Amendments** — changes to Articles V (Delegated Functions) through XII (General Provisions). Governance Amendments require a Governance Process Proposal with ≥60% YES approval and ≥7% quorum, as defined in **DAO Parameters §3.2–3.3**.
+**(b) Governance Amendments** — changes to Articles V (Delegated Functions) through XII (General Provisions). Governance Amendments require a Governance Process Proposal, with quorum and approval thresholds as defined in **DAO Parameters §3.2–3.3**.
 
 The classification of any proposed amendment and the document versioning requirements are governed by the **Governance Maintenance & Upgrade Framework** (operational policy). In case of conflict between this Article and the Governance Maintenance & Upgrade Framework on questions of classification, this Article prevails.
 

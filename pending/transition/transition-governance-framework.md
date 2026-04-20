@@ -58,7 +58,7 @@ The DAO operates under a **phased governance activation model**:
 * Phase 3 policies brought to governance vote for formal enforcement
 * Reduced RAC delegated authority as formal processes replace transitional coordination
 
-Entry into Phase 2 requires a **Governance Process proposal** (≥60% approval, ≥7% quorum) confirming that Phase 1 completion criteria (§10) are substantially met.
+Entry into Phase 2 requires a **Governance Process proposal** (thresholds per **DAO Parameters §3.2–3.3**) confirming that Phase 1 completion criteria (§10) are substantially met.
 
 **Phase 2 Mandate: Reputation System**
 
@@ -351,7 +351,7 @@ Phase 1 is considered complete when all of the following minimum conditions are 
 
 ---
 
-Entry into Phase 2 is confirmed when a **Governance Process proposal** (≥60% approval, ≥7% quorum) affirms that the above conditions are met. The proposal must include a checklist attestation prepared by the RAC and reviewed by the Governance & Legal Working Group.
+Entry into Phase 2 is confirmed when a **Governance Process proposal** (thresholds per **DAO Parameters §3.2–3.3**) affirms that the above conditions are met. The proposal must include a checklist attestation prepared by the RAC and reviewed by the Governance & Legal Working Group.
 
 ---
 
@@ -360,7 +360,7 @@ Entry into Phase 2 is confirmed when a **Governance Process proposal** (≥60% a
 After Phase 1 (12 months):
 
 * All transitional delegated authority expires
-* Any extension must be explicitly approved by a **Governance Process proposal** (≥60% approval, ≥7% quorum) submitted no later than 30 days before expiry
+* Any extension must be explicitly approved by a **Governance Process proposal** (thresholds per **DAO Parameters §3.2–3.3**) submitted no later than 30 days before expiry
 
 ---
 
@@ -389,8 +389,8 @@ If Phase 1 completion criteria (§10) have not been certified by a governance vo
 * Within **30 days of expiry**, the RAC must publish a Remediation Report to the governance forum identifying which §10 criteria remain unmet and a proposed resolution timeline
 * The community must vote within **60 days of expiry** on one of the following:
 
-  * **Option A — Authority Extension:** A time-limited extension of RAC transitional authority (≥60% approval, ≥7% quorum), with a specific remediation plan and hard deadline attached. Maximum extension: 6 months, non-renewable without a new governance vote.
-  * **Option B — Conditional Phase 2 Entry:** A declaration of Phase 2 entry (≥60% approval, ≥7% quorum) with unmet §10 criteria formally recorded as governance obligations, to be resolved within the first 90 days of Phase 2.
+  * **Option A — Authority Extension:** A time-limited extension of RAC transitional authority (thresholds per **DAO Parameters §3.2–3.3**), with a specific remediation plan and hard deadline attached. Maximum extension: 6 months, non-renewable without a new governance vote.
+  * **Option B — Conditional Phase 2 Entry:** A declaration of Phase 2 entry (thresholds per **DAO Parameters §3.2–3.3**) with unmet §10 criteria formally recorded as governance obligations, to be resolved within the first 90 days of Phase 2.
 
 * If neither option passes within 60 days of expiry, the DAO continues to operate under the 11 core documents without transitional authority. Standard governance rules apply. Any token holder may raise a new proposal to resolve the governance state.
 
