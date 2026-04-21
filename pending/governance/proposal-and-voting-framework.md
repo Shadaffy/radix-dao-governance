@@ -205,7 +205,7 @@ The vote type determines how voters express preferences and how results are dete
 
 ### 6.3 Quorum
 
-A proposal is valid only if quorum is met.
+A proposal is valid only if quorum is met. Quorum is measured by total voting power cast — Yes, No, and Abstain votes all count toward the quorum threshold. Abstain counts toward quorum but not toward the approval calculation (§6.2.1).
 
 Quorum thresholds are defined in DAO Parameters and may vary by proposal type.
 
