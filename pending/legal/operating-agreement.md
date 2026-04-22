@@ -364,10 +364,26 @@ If any provision of this Agreement is held to be invalid, illegal, or unenforcea
 
 ### §12.3 Entire Agreement
 
-This Agreement, together with the operational policies adopted by the Members under §12.4, constitutes the entire agreement of the Members with respect to the governance, operation, and management of the Company. It supersedes all prior agreements, representations, or understandings relating to the same subject matter. In the event of conflict between this Agreement and any operational policy adopted under §12.4, this Agreement prevails.
+This Agreement, together with the Charter and the operational policies adopted by the Members under §12.4, constitutes the complete governance framework of the Company with respect to the governance, operation, and management of the Company. It supersedes all prior agreements, representations, or understandings relating to the same subject matter.
+
+The Charter is incorporated by reference and recognized as the supreme internal governance document of the DAO for all matters of governance principle, structural authority, and community sovereignty. This Agreement explicitly subordinates itself to the Charter on such matters, subject to the priority rules established in §12.5.
+
+In the event of conflict between this Agreement and any operational policy adopted under §12.4, this Agreement prevails. In the event of conflict between this Agreement and the Charter, §12.5 governs.
 
 ### §12.4 Operational Policies
-The Members may, by Governance Proposal, adopt operational policies, procedures, and guidelines that supplement this Agreement. Such documents are subordinate to this Agreement and may be amended or revoked by Governance Proposal. The governance framework documents adopted as operational policies are listed in the most recent Governance Proposal activating them.
+The Members may, by Governance Proposal, adopt operational policies, procedures, and guidelines that supplement this Agreement. Such documents are subordinate to this Agreement and the Charter, and may be amended or revoked by Governance Proposal. A provision of an operational policy that conflicts with this Agreement or the Charter is void to the extent of the conflict. The governance framework documents adopted as operational policies are listed in the most recent Governance Proposal activating them.
+
+### §12.5 Document Hierarchy
+
+The Company's governance documents rank in the following order of precedence for conflict resolution purposes:
+
+**(a) Marshall Islands law and Articles of Organization.** Marshall Islands law (including 52 MIRC Ch. 3 and 52 MIRC Ch. 7) and the Company's Articles of Organization are supreme by operation of law. No provision of this Agreement, the Charter, or any operational policy may override a mandatory provision of Marshall Islands law or the Articles of Organization. Where a provision of this Agreement or the Charter restates a mandatory statutory provision, that provision is binding by force of law.
+
+**(b) This Agreement — on statutory and registration matters.** This Agreement is the Company's registered legal entity document. Where this Agreement and the Charter conflict on a matter that Marshall Islands law requires to be governed by an operating agreement — including without limitation entity formation, member admission and termination, liability of Members, dissolution, statutory compliance obligations, and KYC and reporting requirements under the DAO Act — this Agreement prevails.
+
+**(c) The Charter — on internal governance matters.** The Charter is the supreme internal governance document of the DAO for all matters not reserved to this Agreement by paragraph (b) above. The Charter prevails over this Agreement on matters of governance principle, community sovereignty, structural authority, and the operation of governance bodies, proposals, and processes. This Agreement explicitly grants the Charter this authority and recognizes all governance documents as deriving their legitimacy from the Charter.
+
+**(d) Operational policies.** Operational policies adopted under §12.4 are subordinate to both this Agreement and the Charter. A provision of an operational policy that conflicts with this Agreement or the Charter is void to the extent of the conflict.
 
 ---
 

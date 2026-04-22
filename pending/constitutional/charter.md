@@ -179,7 +179,7 @@ Permitted exceptions are specified in the **Legal Wrapper & Representation** doc
 
 Should the DAO ever be dissolved, its remaining assets must be transferred to an entity with substantially similar objectives, as defined in the Operating Agreement §9.2. No assets may be distributed to token holders or members upon dissolution.
 
-The criteria for qualifying as a successor entity, the process for community selection of that entity, and the notification obligations to Asset Transferors are defined in the **Operating Agreement §9.2**. In the event of any conflict between this Charter and the Operating Agreement on the question of successor entity criteria, the Operating Agreement prevails as the registered legal entity document.
+The criteria for qualifying as a successor entity, the process for community selection of that entity, and the notification obligations to Asset Transferors are defined in the **Operating Agreement §9.2**. The successor entity criteria and dissolution asset disposition rules are defined in Operating Agreement §9.2. Where this Charter and the Operating Agreement conflict on the mechanics of dissolution and asset disposition, the Operating Agreement prevails — dissolution mechanics are matters Marshall Islands law requires to be governed by the operating agreement, and the Operating Agreement is therefore authoritative on this question in accordance with the general hierarchy established in Charter §13 and Operating Agreement §12.5.
 
 The DAO's resources were entrusted to it for the benefit of the Radix ecosystem. That purpose does not end with the DAO's existence.
 
@@ -205,7 +205,14 @@ Notwithstanding the above, the following provisions may not be amended, reduced,
 
 ## 13. Scope
 
-This Charter defines the DAO's purpose, authority, principles, and structural guarantees. It is the highest governance document in the DAO's framework. All other governance documents derive their authority from it and must be consistent with it.
+This Charter defines the DAO's purpose, authority, principles, and structural guarantees. Within the DAO's internal governance framework, it is the supreme governance document: all operational policies and governance bodies derive their authority from it and must be consistent with it.
+
+The Charter's authority as supreme internal governance document is explicitly recognized and granted by the Operating Agreement §12.5. That authority operates within the following boundaries, which are stated here for transparency and must be read consistently with Operating Agreement §12.5:
+
+- **Marshall Islands law and the Articles of Organization** are supreme by operation of law. This Charter does not and cannot override any mandatory provision of Marshall Islands law or the Company's Articles of Organization.
+- **The Operating Agreement prevails** over this Charter on matters that Marshall Islands law requires to be governed by an operating agreement — including entity formation, member liability, dissolution mechanics, and statutory compliance obligations.
+- **This Charter prevails** over the Operating Agreement on all other matters of internal DAO governance, including governance principles, community sovereignty, structural authority, and the operation of governance bodies.
+- **All operational policies** are subordinate to this Charter. A provision of an operational policy that conflicts with this Charter is void to the extent of the conflict.
 
 Operational, technical, and procedural details are defined in the DAO's policy library — a set of governance documents that give effect to the principles and authority established here. Where any policy conflicts with this Charter, this Charter prevails.
 
