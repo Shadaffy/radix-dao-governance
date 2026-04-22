@@ -22,7 +22,9 @@ For the purposes of this Agreement, the following terms have the meanings given 
 
 **"Governance Proposal"** or **"GP"** means a formal governance vote conducted through the Governance smart contract in accordance with the operational policies adopted under §12.4.
 
-**"Member"** means any person or entity that holds governance tokens, in accordance with §4.1.
+**"Governance Tokens"** means the token types designated as eligible for membership and voting under the **DAO Parameters Registry §8**, as amended by Governance Proposal. At formation, Governance Tokens consist of XRD and Liquid Staking Units (LSUs) on the Radix Network, with LSUs converted to their XRD equivalent at the relevant snapshot.
+
+**"Member"** means any person or entity that holds Governance Tokens, in accordance with §4.1.
 
 **"Temperature Check"** or **"TC"** means a preliminary community sentiment poll conducted before a Governance Proposal is elevated.
 
@@ -93,10 +95,10 @@ The Company receives assets from Asset Transferors in good-faith reliance on the
 ## Article IV — Membership
 
 ### §4.1 Membership Criteria
-Membership is open to any person or entity that holds governance tokens. A person or entity becomes a Member upon acquiring governance tokens. Membership Interests are not independently transferable.
+A person or entity becomes a Member, and holds Membership Interest, upon acquiring Governance Tokens. Membership Interests are not independently transferable.
 
 ### §4.2 Membership Termination
-Membership terminates when a Member holds no governance tokens (regardless of delegated voting power) and has no active votes recorded on the Governance smart contract.
+Membership terminates when a Member holds no Governance Tokens (regardless of delegated voting power) and has no active votes recorded on the Governance smart contract.
 
 ### §4.3 Membership Rights
 Members exercise governance rights through the Governance smart contract. On-chain governance decisions constitute legally binding decisions of the LLC membership.
