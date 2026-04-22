@@ -30,7 +30,13 @@ A YES vote on GP-PRE-1 means you are approving all of the documents listed below
 
 ## Document precedence (highest to lowest)
 
-Marshall Islands law → Operating Agreement → Charter → Governance policies → DAO Parameters Registry
+1. Marshall Islands law and Articles of Organization
+2. Operating Agreement — on statutory and registration matters (entity formation, member liability, dissolution, KYC)
+2. Charter — on all other internal governance matters (principles, community sovereignty, governance bodies)
+3. Governance policies
+4. DAO Parameters Registry
+
+The Charter and Operating Agreement occupy the same tier but govern different domains. The Charter is the community's governance constitution — adopted by token holder vote and designed to remain stable across legal jurisdictions. The Operating Agreement is the legal wrapper for the current Marshall Islands incorporation. If the DAO ever redomiciles, the Charter travels unchanged with the community; a new legal wrapper is drafted for the new jurisdiction.
 
 ---
 

@@ -366,7 +366,7 @@ If any provision of this Agreement is held to be invalid, illegal, or unenforcea
 
 This Agreement, together with the Charter and the operational policies adopted by the Members under §12.4, constitutes the complete governance framework of the Company with respect to the governance, operation, and management of the Company. It supersedes all prior agreements, representations, or understandings relating to the same subject matter.
 
-The Charter is incorporated by reference and recognized as the supreme internal governance document of the DAO for all matters of governance principle, structural authority, and community sovereignty. This Agreement explicitly subordinates itself to the Charter on such matters, subject to the priority rules established in §12.5.
+The Charter is incorporated by reference and recognized as the supreme internal governance document of the DAO for all matters of governance principle, structural authority, and community sovereignty. This Agreement explicitly subordinates itself to the Charter on such matters, subject to the priority rules established in §12.5. The Charter is designed to remain stable across legal jurisdictions — adopted by the community independently of any particular legal wrapper. This Agreement's recognition of Charter authority reflects that design intent; any future legal wrapper adopted upon redomicilation would be expected to do the same.
 
 In the event of conflict between this Agreement and any operational policy adopted under §12.4, this Agreement prevails. In the event of conflict between this Agreement and the Charter, §12.5 governs.
 

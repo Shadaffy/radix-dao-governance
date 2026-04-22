@@ -205,9 +205,9 @@ Notwithstanding the above, the following provisions may not be amended, reduced,
 
 ## 13. Scope
 
-This Charter defines the DAO's purpose, authority, principles, and structural guarantees. Within the DAO's internal governance framework, it is the supreme governance document: all operational policies and governance bodies derive their authority from it and must be consistent with it.
+This Charter is the DAO's governance constitution — adopted by token holder vote and designed to remain stable across legal jurisdictions. Its authority derives from the community that adopted it, not from any particular legal wrapper. All operational policies and governance bodies derive their authority from it and must be consistent with it.
 
-The Charter's authority as supreme internal governance document is explicitly recognized and granted by the Operating Agreement §12.5. That authority operates within the following boundaries, which are stated here for transparency and must be read consistently with Operating Agreement §12.5:
+This design is intentional: if the DAO ever redomiciles to a different legal jurisdiction, this Charter travels unchanged with the community, and the new legal wrapper for the new jurisdiction would similarly recognize it. The Operating Agreement enforces this authority within Marshall Islands law (§12.5). The Charter's authority within the current legal structure operates within the following boundaries, which must be read consistently with Operating Agreement §12.5:
 
 - **Marshall Islands law and the Articles of Organization** are supreme by operation of law. This Charter does not and cannot override any mandatory provision of Marshall Islands law or the Company's Articles of Organization.
 - **The Operating Agreement prevails** over this Charter on matters that Marshall Islands law requires to be governed by an operating agreement — including entity formation, member liability, dissolution mechanics, and statutory compliance obligations.
