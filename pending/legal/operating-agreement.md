@@ -124,7 +124,7 @@ No Member is personally liable for the debts, obligations, or liabilities of the
 The Company does not have managers, directors, officers, or trustees. Management is vested in the Members collectively per §708 of the Marshall Islands DAO Act. Operational functions are performed by Delegates elected by Governance Proposal.
 
 ### §5.2 Election of Delegates
-Delegates (minimum 3, maximum 7 Members) are elected by Governance Proposal. Delegates allocate the Delegated Functions among themselves in accordance with §5.3. All Delegates are subject to KYC verification before assuming their function.
+Delegates (minimum 5, maximum 7 Members) are elected by Governance Proposal. Delegates allocate the non-Treasury Delegated Functions among themselves in accordance with §5.3. All Delegates are subject to KYC verification before assuming their function.
 
 The Treasury Signing function (§5.3(a)) must be held by exactly 5 Delegates to support the signing thresholds defined in DAO Parameters §6A. The Governance Proposal establishing or modifying the Delegate roster must identify which 5 Delegates hold Treasury Signing. Where the total Delegate count differs from 5, the remaining Delegates hold non-treasury functions only.
 
