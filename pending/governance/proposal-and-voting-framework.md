@@ -117,16 +117,22 @@ All governance changes must clearly specify their classification and comply with
 
 Selection of candidates for DAO roles: RAC members, Working Group Stewards, Strategic Coordination WG members, and Treasury Signers.
 
-Elections follow a two-stage process:
+**Phase 1 — Two-Stage Election**
+
+During Phase 1, before Majority Judgment tooling is available, elections follow a two-stage process:
 
 **Stage 1 — Shortlisting (Approval Voting)**
-A Signaling proposal using Approval Voting (§6.2.2) is published listing all eligible nominees. Voters may select up to the number of open seats (see DAO Parameters §6B). The top candidates by total voting power — up to the shortlist size defined in DAO Parameters §6B — advance to Stage 2. The Stage 1 result is procedurally binding.
+A Signaling proposal using Approval Voting (§6.2.2) is published listing all eligible nominees. Voters may select any number of nominees they approve. The top candidates by total voting power — up to the shortlist size defined in DAO Parameters §6B — advance to Stage 2. The Stage 1 result is procedurally binding.
 
 **Stage 2 — Confirmation (Standard Vote)**
-Each shortlisted candidate is put to a separate Standard (YES/NO/ABSTAIN) proposal (§6.2.1). A candidate is confirmed if they meet the quorum and approval threshold for Election proposals (DAO Parameters §3.2–3.3). Stage 2 proposals may run concurrently.
+Each shortlisted candidate is put to a separate Standard (YES/NO/ABSTAIN) proposal (§6.2.1). A candidate is confirmed if they meet the quorum and approval threshold defined by the DAO parameters "Election Stage 2 Quorum" and "Election Stage 2 Approval Threshold" in DAO Parameters §6B. Stage 2 proposals may run concurrently.
 
 **Fallback**
 If a shortlisted candidate fails Stage 2, the next-highest candidate from Stage 1 is automatically advanced to a replacement confirmation vote. This continues until all seats are filled or the shortlist is exhausted. If the shortlist is exhausted, remaining vacancies follow the vacancy handling process in the Elections & Role Governance Policy §11. Until that policy is active, remaining vacancies are handled by the RAC under its interim authority per the **Transition Governance Framework §5**.
+
+**Phase 2 — Majority Judgment**
+
+When Majority Judgment tooling is available, elections switch to a single-stage Majority Judgment vote (§6.2.4). Voters assign a grade to each candidate; the top candidates by median grade fill the open seats. The two-stage process and its fallback are superseded once the RAC confirms activation. The shortlist multiplier and Stage 2 parameters in DAO Parameters §6B apply only to Phase 1 elections.
 
 ---
 
@@ -194,11 +200,22 @@ The vote type determines how voters express preferences and how results are dete
 
 ---
 
-#### 6.2.4 Elections
+#### 6.2.4 Majority Judgment
 
-* Applies to: Election Proposals (§4.6)
-* Stage 1 uses Approval Voting (§6.2.2) for shortlisting
-* Stage 2 uses Standard voting (§6.2.1) for confirmation
+* Applies to: Election Proposals (§4.6) — Phase 2, once tooling is available
+* Voters assign a grade to each candidate from a defined scale (see DAO Parameters §3.5)
+* The winner is the candidate with the highest median grade across all voter submissions
+* In multi-seat elections, the top candidates by median grade fill all open seats
+* Tie-break: one ballot showing the tied candidates' median grade is removed from each tied candidate in turn; repeat until the tie is broken
+* Majority Judgment activates in Phase 2; the RAC confirms activation by publishing a notice to the governance forum when the required tooling is in place
+
+---
+
+#### 6.2.5 Elections (Phase 1)
+
+* Applies to: Election Proposals (§4.6) during Phase 1, before Majority Judgment tooling is available
+* Stage 1 uses Approval Voting (§6.2.2) for shortlisting — voters may select any number of nominees
+* Stage 2 uses Standard voting (§6.2.1) for confirmation of each shortlisted candidate
 * Full procedure defined in §4.6 and Elections & Role Governance Policy §7
 
 ---

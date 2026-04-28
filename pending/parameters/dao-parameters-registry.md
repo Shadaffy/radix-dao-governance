@@ -197,7 +197,7 @@ Quorum is measured as a percentage of eligible voting power. Eligible voting pow
 | Max Concurrent Roles per Individual | 2         | Limits role concentration                |
 | Conflict Disclosure Requirement     | Mandatory | Required for all roles                   |
 | Election Shortlist Multiplier       | 2×        | Stage 1 shortlist slots per open seat (e.g. 3 seats → top 6 advance to Stage 2) |
-| Election Stage 1 Max Selections     | Equal to number of open seats | Maximum options a voter may select in the Stage 1 Approval Voting proposal |
+| Election Stage 1 Max Selections     | Unrestricted | Voters may approve any number of nominees in the Stage 1 Approval Voting proposal |
 | Election Stage 2 Quorum             | 7% (Governance Process) | Quorum required for each Stage 2 confirmation vote |
 | Election Stage 2 Approval Threshold | ≥ 60% YES (Governance Process) | Approval required for each Stage 2 confirmation vote |
 
