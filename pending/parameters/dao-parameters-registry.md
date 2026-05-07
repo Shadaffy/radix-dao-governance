@@ -34,7 +34,8 @@ This registry defines:
 
 | Parameter               | Value    | Description                           |
 | ----------------------- | -------- | ------------------------------------- |
-| Draft Discussion Period | ≥5 days  | Minimum time for community discussion on the RAC-designated platform |
+| Draft Discussion Period | ≥5 days  | Minimum time for community discussion on the RAC-designated platform. Does not apply to Election proposals; see Election Nomination & Discussion Window below. |
+| Election Nomination & Discussion Window | 7–10 days | Combined nomination and community discussion period for Election proposals. Nominations open at the start of this window; community discussion runs concurrently. Replaces the separate Draft Discussion and Nomination Period for elections. After this window closes, the Temperature Check opens immediately. |
 | Temperature Check Voting Period | 5–7 days | Duration of the TC vote for Constitutional, Governance Process, Treasury/Budget, and Executable proposals |
 | Temperature Check Voting Period (Short) | ≥1 day | Duration of the TC vote for Election proposals and multi-option Approval Voting polls |
 | DAO Proposal Voting Period | 5–7 days | Duration of the binding DAO Proposal vote |
@@ -84,8 +85,8 @@ Quorum is measured as a percentage of eligible voting power. Eligible voting pow
 
 | Parameter | Value | Description |
 | --------- | ----- | ----------- |
-| Approval Voting: Maximum Options | 8 | Maximum number of selectable options per GP |
-| Approval Voting: Minimum Winner Threshold | ≥ 30% of total votes cast | Minimum voting power an option must receive to be declared winner |
+| Approval Voting: Maximum Options | 8 | Maximum number of options on the ballot per multi-option Executable proposal (§4.4). Does not apply to election shortlisting; election ballots list all eligible nominees (§6B). |
+| Approval Voting: Minimum Winner Threshold | ≥ 30% of total votes cast | Minimum voting power an option must receive to be declared winner. Applies to multi-option Executable proposals (§4.4). Does not apply to election Stage 1 shortlisting; Stage 1 ranks candidates by total voting power only (§4.5). |
 | Weighted Allocation: Maximum Options | 12 | Maximum number of options per Treasury / Budget allocation GP |
 | Weighted Allocation: Minimum Option Weight | 5% | Options receiving less than this share of total distributed weight are excluded; weight redistributed proportionally |
 | Majority Judgment: Grade Scale | Excellent / Very Good / Good / Acceptable / Poor | Standard five-grade scale for election votes |
@@ -189,7 +190,7 @@ Quorum is measured as a percentage of eligible voting power. Eligible voting pow
 | Challenge Filing Threshold          | 0.1% of eligible voting power | Minimum holding required to file a valid challenge notice; verified against the most recent governance snapshot |
 | Consecutive Renewal Cap             | 4 terms (2 years maximum continuous service) | After 4 consecutive terms in the same role, a standard election is mandatory; successful re-election resets the count to 1 |
 | Election Voting Duration            | 5-7 days  | Length of election voting                |
-| Nomination Period                   | 5-7 days  | Time allowed for candidate submissions   |
+| Nomination Period                   | 7–10 days (concurrent with Discussion; see §3.1) | Nominations open at the start of the Nomination & Discussion Window and close when the window closes. Governed by the combined window parameter in §3.1. |
 | Minimum Participation for Elections | Gov quorum| Quorum requirement                       |
 | Removal Vote Threshold              | ≥ 50% YES | Required support to remove a role holder |
 | Inactivity Threshold                | 21 days   | Time before inactivity review; declared unavailability periods are excluded. **"Inactivity"** means: no response to governance execution requests, no participation in any multisig signing actions, and no communication with the RAC within the threshold period. Passive activities (reading updates, monitoring forums) do not constitute activity. Declared unavailability periods (per Treasury Signers Rules §15) are excluded from inactivity counting. |

@@ -106,20 +106,20 @@ All governance changes must clearly specify their classification and comply with
 
 Selection of candidates for DAO roles: RAC members, Working Group Stewards, Strategic Coordination WG members, and Treasury Signers.
 
-Election proposals use the standard three-stage pipeline (§3) with a compressed 1-day Temperature Check (DAO Parameters §3.1).
+Election proposals use a modified version of the standard pipeline (§3): the Draft Discussion and Nomination Period are merged into a single combined Nomination & Discussion Window (DAO Parameters §3.1 and §6B), and the Temperature Check is compressed to a minimum of 1 day (DAO Parameters §3.1). The election pipeline is therefore: Nomination & Discussion Window → Temperature Check → Stage 1 Shortlisting → Stage 2 Confirmation.
 
 **Phase 1 — Two-Stage Election**
 
 During Phase 1, before Majority Judgment tooling is available, elections follow a two-stage process:
 
 **Stage 1 — Shortlisting (Approval Voting)**
-An Approval Voting poll (§6.2.2) is published listing all eligible nominees. Voters may select any number of nominees they approve. The top candidates by total voting power — up to the shortlist size defined in DAO Parameters §6B — advance to Stage 2. The Stage 1 result is procedurally binding.
+An Approval Voting poll (§6.2.2) is published listing all eligible nominees. Voters may select any number of nominees they approve. The top candidates by total voting power — up to the shortlist size defined in DAO Parameters §6B — advance to Stage 2. The Stage 1 result is procedurally binding. Stage 1 has no separate quorum requirement; the Temperature Check result is sufficient. The minimum winner threshold (DAO Parameters §3.5) does not apply; candidates are ranked by total voting power only. If two or more candidates are tied in voting power for the last available shortlist slot, all tied candidates are included in the shortlist; the shortlist size is expanded by the number of additional tied candidates.
 
 **Stage 2 — Confirmation (Standard Vote)**
 Each shortlisted candidate is put to a separate Standard (YES/NO/ABSTAIN) proposal (§6.2.1). A candidate is confirmed if they meet the quorum and approval threshold defined by the DAO parameters "Election Stage 2 Quorum" and "Election Stage 2 Approval Threshold" in DAO Parameters §6B. Stage 2 proposals may run concurrently.
 
 **Fallback**
-If a shortlisted candidate fails Stage 2, the next-highest candidate from Stage 1 is automatically advanced to a replacement confirmation vote. This continues until all seats are filled or the shortlist is exhausted. If the shortlist is exhausted, remaining vacancies follow the vacancy handling process in the Elections & Role Governance Policy §11. Until that policy is active, remaining vacancies are handled by the RAC under its interim authority per the **Transition Governance Framework §5**.
+If a shortlisted candidate fails Stage 2, the next-highest ranked candidate from the full Stage 1 result is automatically advanced to a replacement confirmation vote, regardless of whether they were in the initial shortlist batch. This continues until all seats are filled or all Stage 1 candidates have been through Stage 2 and failed. If all Stage 1 candidates are exhausted, remaining vacancies follow the vacancy handling process in the Elections & Role Governance Policy §11. Until that policy is active, remaining vacancies are handled by the RAC under its interim authority per the **Transition Governance Framework §5**. Where Stage 2 confirmation votes run concurrently, the RAC opens any fallback confirmation vote only after all concurrent Stage 2 votes for that election have closed. The timing rules for fallback votes will be formalised in the Elections & Role Governance Policy; until that policy is active, the RAC determines the timing.
 
 **Phase 2 — Majority Judgment**
 
@@ -175,10 +175,9 @@ The vote type determines how voters express preferences and how results are dete
 #### 6.2.2 Approval Voting
 
 * Applies to: Election shortlisting (§4.5) and multi-option Executable proposals (§4.4)
-* Voters may select any number of options from a defined list (maximum per DAO Parameters §3.5)
+* Voters may select any number of options from a defined list. For multi-option Executable proposals, the ballot is capped at 8 options (DAO Parameters §3.5). For election shortlisting, the ballot lists all eligible nominees and selections are unrestricted (DAO Parameters §6B).
 * Each selected option receives the voter's full voting power
-* Result: the option with the highest total voting power wins, provided it meets the minimum winner threshold defined in DAO Parameters §3.5
-* If no option meets the threshold, the proposal fails; the proposer may resubmit with revised options after the standard cooldown
+* Result: the option with the highest total voting power wins. For multi-option Executable proposals, the winner must meet the minimum winner threshold (DAO Parameters §3.5); if no option meets the threshold, the proposal fails and the proposer may resubmit after the standard cooldown. For election Stage 1 shortlisting, the minimum winner threshold does not apply — the top candidates by total voting power advance to Stage 2 (§4.5).
 
 ---
 
