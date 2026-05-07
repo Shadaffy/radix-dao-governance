@@ -34,15 +34,16 @@ This registry defines:
 
 | Parameter               | Value    | Description                           |
 | ----------------------- | -------- | ------------------------------------- |
-| Draft Discussion Period | 5–7 days | Minimum time for community discussion |
-| Review Period           | 2–3 days | Time between submission and voting    |
-| Voting Period           | 5–7 days | Duration of voting                    |
+| Draft Discussion Period | ≥5 days  | Minimum time for community discussion on the RAC-designated platform |
+| Temperature Check Voting Period | 5–7 days | Duration of the TC vote for Constitutional, Governance Process, Treasury/Budget, and Executable proposals |
+| Temperature Check Voting Period (Short) | ≥1 day | Duration of the TC vote for Election proposals and multi-option Approval Voting polls |
+| DAO Proposal Voting Period | 5–7 days | Duration of the binding DAO Proposal vote |
 
 ---
 
 ### 3.2 Quorum Requirements
 
-Quorum is measured as a percentage of eligible voting power. Eligible voting power includes liquid XRD holdings and LSU holdings converted to their XRD equivalent at the time of the voting snapshot.
+Quorum is measured as a percentage of eligible voting power. Eligible voting power is determined at the voting snapshot and includes all sources listed in §8A — at minimum liquid XRD holdings and LSU holdings converted to their XRD equivalent (the constitutional floor per Charter §12.1 item 4).
 
 | Proposal Type      | Quorum                      |
 | ------------------ | --------------------------- |
@@ -50,7 +51,7 @@ Quorum is measured as a percentage of eligible voting power. Eligible voting pow
 | Governance Process | 7%                     |
 | Treasury / Budget  | 7%                     |
 | Executable         | 5%                     |
-| Signaling          | 3%                     |
+| Temperature Check (TC) | 3%                 |
 
 **Absolute Participation Floor (Treasury / Budget proposals):** In addition to the percentage quorum above, a Treasury / Budget proposal requires a minimum of 50 unique voting addresses. Both conditions must be met. This floor is not subject to the Governance Continuity Fallback (§9A).
 
@@ -64,7 +65,7 @@ Quorum is measured as a percentage of eligible voting power. Eligible voting pow
 | Governance Process | ≥ 60% YES |
 | Treasury / Budget  | ≥ 50% YES |
 | Executable         | ≥ 50% YES |
-| Signaling          | ≥ 50% YES |
+| Temperature Check (TC) | ≥ 50% YES |
 
 ---
 
@@ -75,7 +76,7 @@ Quorum is measured as a percentage of eligible voting power. Eligible voting pow
 | Failed Proposal        | 7 days      |
 | Minor Fix Resubmission | No cooldown |
 | Major Resubmission     | 7 days      |
-| Per-Proposer Treasury Submission Limit | 1 Treasury & Budget proposal per rolling 30-day period per wallet address. A second submission within the window requires prior RAC notification and acknowledgement posted to the governance forum before the proposal enters the review period. |
+| Per-Proposer Treasury Submission Limit | 1 Treasury & Budget proposal per rolling 30-day period per wallet address. A second submission within the window requires prior RAC notification and acknowledgement posted to the governance forum before the TC voting period opens. |
 
 ---
 
@@ -97,7 +98,7 @@ Quorum is measured as a percentage of eligible voting power. Eligible voting pow
 | Parameter                  | Value              |
 | -------------------------- | ------------------ |
 | Veto Window                | 48 hours post-vote |
-| Minimum Participation      | 3% quorum (XRD and LSU-equivalent combined) |
+| Minimum Participation      | 3% quorum of eligible voting power (all sources per §8A) |
 | Optional Stake Requirement | None               |
 
 ---
@@ -186,7 +187,7 @@ Quorum is measured as a percentage of eligible voting power. Eligible voting pow
 | Auto-Renewal                        | Yes — unless challenged | Incumbent role holders are automatically renewed at term end unless a challenge is filed or the role holder declines (see Election & Role Governance Policy §9) |
 | Term Renewal Challenge Window       | 14 days (opens 21 days before expiry, closes 7 days before expiry) | Period during which an eligible token holder may file a unilateral challenge notice to trigger a new election |
 | Challenge Filing Threshold          | 0.1% of eligible voting power | Minimum holding required to file a valid challenge notice; verified against the most recent governance snapshot |
-| Consecutive Renewal Cap             | 4 terms (2 years maximum continuous service) | After 4 consecutive terms in the same role, a standard two-stage election is mandatory; successful re-election resets the count to 1 |
+| Consecutive Renewal Cap             | 4 terms (2 years maximum continuous service) | After 4 consecutive terms in the same role, a standard election is mandatory; successful re-election resets the count to 1 |
 | Election Voting Duration            | 5-7 days  | Length of election voting                |
 | Nomination Period                   | 5-7 days  | Time allowed for candidate submissions   |
 | Minimum Participation for Elections | Gov quorum| Quorum requirement                       |
@@ -233,12 +234,33 @@ Quorum is measured as a percentage of eligible voting power. Eligible voting pow
 
 | Parameter | Value | Description |
 | --------- | ----- | ----------- |
-| Voting Basis | XRD holdings and LSU (converted to XRD-equivalent via snapshot) | — |
+| Voting Basis | XRD and LSU (constitutional floor, entrenched per Charter §12.1 item 4) plus RAC-governed supplementary sources as listed in §8A below | — |
 | LSU Inclusion | Active (Phase 1) — snapshot-based XRD conversion | — |
 | Delegation | Disabled — not yet supported by the governance platform | — |
 | Sybil Resistance | Not active | — |
 | UBO KYC Threshold | >25% of eligible voting power | Triggers mandatory KYC under Marshall Islands DAO Act; annual BOIR filing required Jan 1–Mar 31 |
 | Compensation KYC Requirement | Required before first payment | Applies to all compensated contributors, contractors, and grant recipients (Standard and Strategic) |
+
+---
+
+## 8A. Eligible Voting Power Sources
+
+| Tier | Source | How to change |
+|---|---|---|
+| 1 — Constitutional floor | Liquid XRD | Constitutional Proposal (66% approval, 10% quorum) — cannot be removed |
+| 1 — Constitutional floor | LSU → XRD-equivalent at snapshot | Constitutional Proposal (66% approval, 10% quorum) — cannot be removed |
+| 2 — RAC-governed | LSULP → XRD-equivalent at snapshot | RAC routine decision + 30-day notice |
+| 2 — RAC-governed | Fungible LP pool units (Ociswap, CaviarNine, DefiPlaza) | RAC routine decision + 30-day notice |
+| 2 — RAC-governed | Ociswap precision pools (V1 and V2) | RAC routine decision + 30-day notice |
+| 2 — RAC-governed | CaviarNine shape pools | RAC routine decision + 30-day notice |
+
+**Rules for RAC changes to Tier 2 sources:**
+
+- Any change must specify an `effectiveFrom` date at least 30 days in the future, ensuring no active proposal is caught between source configurations.
+- The RAC must publish the change to the governance forum and notify token holders at least 30 days before `effectiveFrom`.
+- The standard 48-hour DAO veto window (§4) applies to all RAC source-list decisions.
+- Adding a new source requires a written rationale demonstrating that the source represents genuine XRD-network economic alignment.
+- Removing a Tier 2 source follows the same process as adding one.
 
 ---
 
