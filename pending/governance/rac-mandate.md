@@ -30,6 +30,7 @@ The RAC may:
 * Execute DAO-approved actions where explicitly authorized
 * Take **temporary emergency actions** within defined limits
 * Instruct remaining Treasury Signers to execute a passed proposal under the forced-execution backstop (Governance Continuity Framework §4.2) when the 10-business-day window from veto window close has elapsed with no valid hold on record
+* Maintain the Tier 2 voting power source register (DAO Parameters §8A), including adding or removing supplementary sources by routine decision, subject to the 30-day advance notice and `effectiveFrom` requirements defined there
 
 ---
 
@@ -111,4 +112,4 @@ The RAC may not delegate this responsibility to a Working Group during Phase 1. 
 
 ## 11B. Community Accountability Hearing
 
-A Signaling proposal meeting the standard 3% quorum threshold may request a formal RAC accountability hearing on a specific matter. The RAC is obligated to publish a public written response within 7 days addressing the specific concerns raised. Failure to respond within 7 days is treated as a process breach subject to dispute escalation (DAO Parameters §6C). The written response must be posted to the governance forum and linked in the RAC's next periodic report.
+A Temperature Check meeting the standard 3% quorum threshold may request a formal RAC accountability hearing on a specific matter. The RAC is obligated to publish a public written response within 7 days addressing the specific concerns raised. Failure to respond within 7 days is treated as a process breach subject to dispute escalation (DAO Parameters §6C). The written response must be posted to the governance forum and linked in the RAC's next periodic report.

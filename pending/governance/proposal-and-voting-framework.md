@@ -21,40 +21,34 @@ Any token holder may submit a proposal. No minimum holding, prior registration, 
 
 ## 3. Proposal Lifecycle
 
-All proposals follow this lifecycle:
+All proposals follow a three-stage pipeline:
 
-### 3.1 Draft Stage
+### 3.1 Stage 1 — Draft Discussion
 
-* Idea introduced publicly (e.g., forum, RadixTalk)
-* Open discussion and feedback
-
----
-
-### 3.2 Formal Submission
-
-* Proposal submitted via governance interface
-* Must include required fields (see Section 5)
+* Idea introduced publicly on the RAC-designated discussion platform
+* Open community discussion and feedback
+* Minimum duration defined in DAO Parameters §3.1
 
 ---
 
-### 3.3 Review Period
+### 3.2 Stage 2 — Temperature Check (TC)
 
-* Minimum review period before voting
-* Community discussion continues
-
----
-
-### 3.4 Voting Period
-
-* Token holders vote
-* Voting power determined by snapshot
+* Mandatory YES / NO poll submitted to the governance platform after Draft Discussion concludes
+* Assesses community support before a binding vote is opened
+* Vote type: Temperature Check Vote (§6.2.6) — YES / NO only, no Abstain
+* Quorum: 3% of eligible voting power (DAO Parameters §3.2)
+* Passes on simple majority (≥50% YES of votes cast)
+* A failed TC resets the standard 7-day cooldown (DAO Parameters §3.4) before a new TC may be submitted for the same proposal
+* Duration defined in DAO Parameters §3.1
 
 ---
 
-### 3.5 Outcome
+### 3.3 Stage 3 — DAO Proposal
 
-* Passed → moves to execution
-* Failed → cooldown applies
+* Formal binding proposal elevated by the Governance Operator from a passed TC via the Owner Badge
+* Must include all required fields (see §5)
+* Category determines vote type, quorum, and approval threshold (§4; DAO Parameters §3.2–3.3)
+* Passed → moves to execution; Failed → standard cooldown applies
 
 ---
 
@@ -102,27 +96,24 @@ All governance changes must clearly specify their classification and comply with
 * Technical or operational changes
 * On-chain or system execution
 
+**Multi-option Approval Voting polls** are a sub-type of Executable proposals for cases where the community must choose between several defined options rather than a binary question. They use Approval Voting (§6.2.2) rather than the Standard vote type. A shortened 1-day Temperature Check applies (DAO Parameters §3.1). The result is advisory unless the proposal text mandates execution of the winning option.
+
 > **Phase 1 note:** In Phase 1, no standing Working Groups or funded operational bodies exist. Any Executable proposal that requires compensated work — including fixed-rate service delivery — must include a Treasury & Budget component specifying the cost arrangement and receiving party. Such combined proposals are evaluated against Treasury & Budget quorum and approval thresholds (the more stringent of the two proposal types). Executable proposals with zero cost may proceed under Executable thresholds.
 
 ---
 
-### 4.5 Signaling Proposals
-
-* Non-binding decisions
-* Community sentiment
-
----
-
-### 4.6 Election Proposals
+### 4.5 Election Proposals
 
 Selection of candidates for DAO roles: RAC members, Working Group Stewards, Strategic Coordination WG members, and Treasury Signers.
+
+Election proposals use the standard three-stage pipeline (§3) with a compressed 1-day Temperature Check (DAO Parameters §3.1).
 
 **Phase 1 — Two-Stage Election**
 
 During Phase 1, before Majority Judgment tooling is available, elections follow a two-stage process:
 
 **Stage 1 — Shortlisting (Approval Voting)**
-A Signaling proposal using Approval Voting (§6.2.2) is published listing all eligible nominees. Voters may select any number of nominees they approve. The top candidates by total voting power — up to the shortlist size defined in DAO Parameters §6B — advance to Stage 2. The Stage 1 result is procedurally binding.
+An Approval Voting poll (§6.2.2) is published listing all eligible nominees. Voters may select any number of nominees they approve. The top candidates by total voting power — up to the shortlist size defined in DAO Parameters §6B — advance to Stage 2. The Stage 1 result is procedurally binding.
 
 **Stage 2 — Confirmation (Standard Vote)**
 Each shortlisted candidate is put to a separate Standard (YES/NO/ABSTAIN) proposal (§6.2.1). A candidate is confirmed if they meet the quorum and approval threshold defined by the DAO parameters "Election Stage 2 Quorum" and "Election Stage 2 Approval Threshold" in DAO Parameters §6B. Stage 2 proposals may run concurrently.
@@ -147,7 +138,7 @@ All proposals must include:
 * Risks and trade-offs
 * Budget (if applicable)
 * Execution plan (if applicable)
-* **Executor commitment declaration** *(required for all Executable and combined Executable + Treasury proposals)* — Named executor(s) must be identified by name and wallet address, and must have confirmed in writing (forum post or signed statement) that they accept the execution responsibility before the proposal enters the Review Period. Where the proposer is also the executor, this must be declared as a conflict of interest.
+* **Executor commitment declaration** *(required for all Executable and combined Executable + Treasury proposals)* — Named executor(s) must be identified by name and wallet address, and must have confirmed in writing (forum post or signed statement) that they accept the execution responsibility before the TC voting period opens. Where the proposer is also the executor, this must be declared as a conflict of interest.
 * **Cumulative recipient disclosure** (Treasury & Budget proposals only): total disbursements to the same recipient, entity, or affiliated group over the trailing 90 days. The RAC verifies this field before opening the veto window. A missing or materially incorrect disclosure is valid grounds for a veto filing (Charter / rule violation: failure to meet required proposal content).
 
 ---
@@ -159,8 +150,10 @@ All proposals must include:
 * Voting power is determined at a fixed snapshot
 * Snapshot occurs at start of voting period
 * Measured in XRD-equivalent units; eligible holdings include:
-  * Liquid XRD held directly
-  * LSU (Liquid Staking Units) — converted to XRD equivalent based on the LSU redemption rate at the time of the snapshot
+  * Eligible holdings are defined in two tiers (DAO Parameters §8A):
+    * **Tier 1 — Constitutional floor (always eligible):** Liquid XRD held directly; LSU converted to XRD-equivalent via the LSU redemption rate at snapshot
+    * **Tier 2 — RAC-governed supplementary sources:** LSULP and DEX pool positions as listed in the RAC-maintained register (DAO Parameters §8A)
+  * Changes to Tier 2 sources follow the RAC process defined in DAO Parameters §8A
 
 ---
 
@@ -181,7 +174,7 @@ The vote type determines how voters express preferences and how results are dete
 
 #### 6.2.2 Approval Voting
 
-* Applies to: Signaling proposals with multiple options
+* Applies to: Election shortlisting (§4.5) and multi-option Executable proposals (§4.4)
 * Voters may select any number of options from a defined list (maximum per DAO Parameters §3.5)
 * Each selected option receives the voter's full voting power
 * Result: the option with the highest total voting power wins, provided it meets the minimum winner threshold defined in DAO Parameters §3.5
@@ -202,7 +195,7 @@ The vote type determines how voters express preferences and how results are dete
 
 #### 6.2.4 Majority Judgment
 
-* Applies to: Election Proposals (§4.6) — Phase 2, once tooling is available
+* Applies to: Election Proposals (§4.5) — Phase 2, once tooling is available
 * Voters assign a grade to each candidate from a defined scale (see DAO Parameters §3.5)
 * The winner is the candidate with the highest median grade across all voter submissions
 * In multi-seat elections, the top candidates by median grade fill all open seats
@@ -213,16 +206,25 @@ The vote type determines how voters express preferences and how results are dete
 
 #### 6.2.5 Elections (Phase 1)
 
-* Applies to: Election Proposals (§4.6) during Phase 1, before Majority Judgment tooling is available
+* Applies to: Election Proposals (§4.5) during Phase 1, before Majority Judgment tooling is available
 * Stage 1 uses Approval Voting (§6.2.2) for shortlisting — voters may select any number of nominees
 * Stage 2 uses Standard voting (§6.2.1) for confirmation of each shortlisted candidate
-* Full procedure defined in §4.6 and Elections & Role Governance Policy §7
+* Full procedure defined in §4.5 and Elections & Role Governance Policy §7
+
+---
+
+#### 6.2.6 Temperature Check Vote (YES / NO)
+
+* Applies to: The Temperature Check stage (§3.2) for all proposal types
+* Voters cast one of two options: Yes or No. There is no Abstain option.
+* Quorum is measured by total voting power cast (YES + NO only)
+* Result: TC passes if the YES share of votes cast meets the TC approval threshold (≥50% YES; see DAO Parameters §3.3)
 
 ---
 
 ### 6.3 Quorum
 
-A proposal is valid only if quorum is met. Quorum is measured by total voting power cast — Yes, No, and Abstain votes all count toward the quorum threshold. Abstain counts toward quorum but not toward the approval calculation (§6.2.1).
+A proposal is valid only if quorum is met. Quorum is measured by total voting power cast — Yes, No, and Abstain votes all count toward the quorum threshold. Abstain counts toward quorum but not toward the approval calculation (§6.2.1). For Temperature Check votes (§6.2.6), there is no Abstain option; quorum is measured by YES + NO votes only.
 
 Quorum thresholds are defined in DAO Parameters and may vary by proposal type.
 
@@ -235,7 +237,7 @@ Approval thresholds vary by proposal type:
 * Constitutional: supermajority required
 * Governance: higher threshold
 * Treasury: standard majority
-* Signaling: simple majority
+* Temperature Check (TC): simple majority — YES / NO only, no Abstain (see §6.2.6)
 
 Exact thresholds defined in DAO Parameters.
 

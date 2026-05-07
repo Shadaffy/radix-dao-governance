@@ -201,6 +201,8 @@ Notwithstanding the above, the following provisions may not be amended, reduced,
 
 3. **Governance sovereignty constraint** — no governance proposal may grant any body or person unilateral authority to override a valid DAO vote outcome or permanently alter governance rules without a subsequent community approval process.
 
+4. **Minimum voting power source floor** — XRD (liquid holdings) and LSU (Liquid Staking Units, converted to XRD-equivalent at snapshot) shall always be recognised as eligible voting power sources for all DAO governance votes. This floor may not be reduced or removed by any proposal, including a Constitutional proposal.
+
 ---
 
 ## 13. Scope
