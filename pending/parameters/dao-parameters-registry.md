@@ -90,7 +90,7 @@ Quorum is measured as a percentage of eligible voting power. Eligible voting pow
 | Weighted Allocation: Maximum Options | 12 | Maximum number of options per Treasury / Budget allocation GP |
 | Weighted Allocation: Minimum Option Weight | 5% | Options receiving less than this share of total distributed weight are excluded; weight redistributed proportionally |
 | Majority Judgment: Grade Scale | Excellent / Very Good / Good / Acceptable / Poor | Standard five-grade scale for election votes |
-| Result Publication Window | Within 48 hours of vote close | Deadline for RAC to publish the official outcome, quorum calculation, threshold applied, and winner determination; aligned with the veto window (§4) which runs concurrently |
+| Result Publication Window | Within 48 hours of vote close | Deadline for RAC to publish the official outcome, quorum calculation, threshold applied, and winner determination; the veto window (§4) opens upon publication |
 
 ---
 
@@ -98,7 +98,7 @@ Quorum is measured as a percentage of eligible voting power. Eligible voting pow
 
 | Parameter                  | Value              |
 | -------------------------- | ------------------ |
-| Veto Window                | 48 hours post-vote |
+| Veto Window                | 48 hours from RAC result publication |
 | Minimum Participation      | 3% quorum of eligible voting power (all sources per §8A) |
 | Optional Stake Requirement | None               |
 
@@ -269,8 +269,8 @@ Quorum is measured as a percentage of eligible voting power. Eligible voting pow
 
 | Parameter                 | Value          |
 | ------------------------- | -------------- |
-| Pre-Execution Hold        | 48 hours after vote close (mandatory) — Treasury Signers may not initiate execution of any Treasury / Budget or Executable proposal until the veto window (§4) has fully closed |
-| High-Risk Execution Delay | 24 hours additional after the pre-execution hold (mandatory) — applies to transactions classified as high-risk (4-of-5 signing threshold per §6A); total minimum 72 hours after vote close |
+| Pre-Execution Hold        | 48 hours after RAC result publication (mandatory) — Treasury Signers may not initiate execution of any Treasury / Budget or Executable proposal until the veto window (§4) has fully closed |
+| High-Risk Execution Delay | 24 hours additional after the pre-execution hold (mandatory) — applies to transactions classified as high-risk (4-of-5 signing threshold per §6A); total minimum 72 hours after RAC result publication |
 
 ---
 
