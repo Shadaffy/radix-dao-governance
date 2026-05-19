@@ -58,7 +58,7 @@ If the Compliance Liaison role is vacant or the holder is incapacitated, the RAC
 
 ## 3. Identity and Confidentiality of Role-Holders
 
-Role-holder identities — including Members, Delegates, RAC members, and Treasury Signers — are **publicly disclosed** as part of the election and appointment process, in accordance with the **Election & Role Governance Policy**.
+Role-holder identities — including Members, Delegates, RAC members, and Treasury Signers — are **publicly disclosed** as part of the election and appointment process, in accordance with the **Elections & Role Governance Policy**.
 
 The following operational details may remain confidential:
 

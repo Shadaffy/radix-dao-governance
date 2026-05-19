@@ -15,8 +15,8 @@ All definitions, authority limits, and obligations remain in their source docume
 | Role | Defined In | Appointed By | Term | Primary Policy Documents |
 |------|-----------|--------------|------|--------------------------|
 | **Governance Participants** | OA §4.2; Charter §4.1 | Token acquisition | Indefinite (while holding tokens) | Charter; Proposal & Voting Framework §6–8; DAO Parameters §8 |
-| **Transition RAC Members** *(Transition Period only)* | OA Article XIII; Charter §8A.2 | GP-PRE-1 ratification | Until Permanent RAC seating | OA Article XIII; Charter §8A; Emergency Policy §5–6 |
-| **Permanent RAC Members** | RAC Mandate; OA §6.5, §4.1; Charter §8, §8A | Two-stage DAO Election | 6 months (§6B) | RAC Mandate; Emergency Policy §5–6; CoI Policy §8 |
+| **Transition RAC Members** *(Transition Period only)* | OA Article XIII | GP-PRE-1 ratification | Until Permanent RAC seating | OA Article XIII; Emergency Policy §5–6 |
+| **Permanent RAC Members** | RAC Mandate; OA §13.7, §4.1; Charter §8 | Two-stage DAO Election | 6 months (§6B) | RAC Mandate; Elections Policy; Emergency Policy §5–6; CoI Policy §8 |
 | **Members (legal)** | OA §4.1 | Admission via RAC seat or Delegate function | While holding qualifying role | OA Article IV |
 | **Delegates — Treasury Signers** | Treasury Signers Rules; OA §5.3(a) | DAO Election Proposal | 6 months (§6B) | Treasury Signers Rules; Execution Policy §5.3; DAO Parameters §6A |
 | **Delegate — Governance Operator** | OA §5.3(b) | DAO Election Proposal | 6 months (§6B) | OA Art V; Proposal & Voting Framework; DAO Parameters §3–3.5 |
@@ -70,13 +70,12 @@ Governance Participants exercising ordinary voting rights are **not** subject to
 ### 2.2 Transition RAC Members *(Transition Period only)*
 
 **Authority & Scope**
-The Transition RAC is a temporary implementation authority constituted for the limited purpose of implementing the Transition Period. Its mandate is strictly limited to formation activities — entity formation, initial BOIR filing, treasury multisig establishment, asset transfer from the Founding Transferor, KYC, election of the Permanent RAC, and handover. It is not a general governance authority and may not override decisions made by Governance Participants on the Governance Platform (OA §13.3; Charter §8A.1).
+The Transition RAC is a temporary implementation authority constituted for the limited purpose of implementing the Transition Period. Its mandate is strictly limited to formation activities — entity formation, initial BOIR filing, treasury multisig establishment, asset transfer from the Founding Transferor, KYC, election of the Permanent RAC, and handover. It is not a general governance authority and may not override decisions made by Governance Participants on the Governance Platform (OA §13.3; §13.3A).
 
 Transition RAC members hold legal Membership in the LLC under OA §4.1(a) during the Transition Period.
 
 **Defined In**
-- Operating Agreement Article XIII (constitution, mandate, treasury authority, sunset)
-- Charter §8A (transition governance principles, internal process)
+- Operating Agreement Article XIII (constitution, mandate, internal process, treasury authority, sunset)
 
 **Appointment**
 Ratified by GP-PRE-1 (founding proposal) as five named persons. All must complete KYC Tier 1 verification before the founding vote opens.
@@ -91,7 +90,7 @@ Individual members may be removed by Governance Proposal in accordance with stan
 - Operating Agreement Article XIII — primary authority and limits
 - Operating Agreement §13.4 — treasury signer authority during Transition Period (3-of-5 / 4-of-5)
 - Operating Agreement §13.6 — indemnification continuity
-- Charter §8A — transition governance principles, internal process, transparency
+- Operating Agreement §13.3A — transition governance internal process and transparency
 - Emergency & Safeguards Policy §5–6 — emergency authority
 - Conflict of Interest Policy §8 — heightened obligations for RAC members
 - Code of Conduct §3–6 — behavioral standards
@@ -110,13 +109,14 @@ Permanent RAC members hold legal Membership in the LLC under OA §4.1(a) for the
 
 **Defined In**
 - RAC Mandate §1–12 (primary definition, authority, limitations)
+- Operating Agreement §13.7 (constitution following Transition Period)
 - Operating Agreement §6.5 (result determination role)
 - Operating Agreement §4.1 (legal Membership)
 - Charter §8 (governance integrity function)
-- Charter §8A.3–8A.7 (composition, election, eligibility, role, reporting)
+- Elections & Role Governance Policy (composition, eligibility, nomination, election procedure, reporting)
 
 **Appointment**
-Two-stage Election Proposal process (Proposal & Voting Framework §4.6): Stage 1 shortlisting by Approval Voting, Stage 2 confirmation by standard vote. The first Permanent RAC election is conducted during the Transition Period under the Election & Role Governance Policy and is the endpoint of the Transition Period.
+Two-stage Election Proposal process (Proposal & Voting Framework §4.6): Stage 1 shortlisting by Approval Voting, Stage 2 confirmation by standard vote. The first Permanent RAC election is conducted during the Transition Period under the Elections & Role Governance Policy and is the endpoint of the Transition Period.
 
 **Term & Renewal**
 6 months (DAO Parameters §5.1). Auto-renewed unless a challenge is filed during the challenge window (DAO Parameters §6B). Maximum 4 consecutive terms in the same role (DAO Parameters §6B).
@@ -127,7 +127,7 @@ DAO vote at any time (RAC Mandate §9). Emergency suspension possible under Emer
 **Policies That Apply**
 - RAC Mandate — primary authority, limitations, emergency powers, accountability
 - Operating Agreement §4.1 — legal Membership status
-- Charter §8A — composition, election, eligibility, process-guardian role, reporting
+- Elections & Role Governance Policy — composition, eligibility, nomination, election procedure
 - Emergency & Safeguards Policy §5–6 — RAC emergency authority and thresholds
 - Proposal & Voting Framework §6.5 — result determination procedure
 - DAO Parameters §5.1 — composition (3–7 members, 6-month term)
@@ -319,10 +319,10 @@ Lead operational Working Groups within the scope and budget approved by their WG
 DAO Election Proposal (Proposal & Voting Framework §4.6), per each WG Charter. Working Group Framework is active from formation; individual WG Charters are adopted by governance vote when each WG is established.
 
 **Term & Renewal**
-6 months (DAO Parameters §7). Renewal per the Election & Role Governance Policy. Maximum 4 consecutive terms (DAO Parameters §6B).
+6 months (DAO Parameters §7). Renewal per the Elections & Role Governance Policy. Maximum 4 consecutive terms (DAO Parameters §6B).
 
 **Removal**
-DAO vote. Specific procedure defined in the applicable WG Charter and Election & Role Governance Policy.
+DAO vote. Specific procedure defined in the applicable WG Charter and Elections & Role Governance Policy.
 
 **Policies That Apply**
 - Working Group Framework — operational rules for all WGs
@@ -372,7 +372,7 @@ This table shows which governance documents apply to each role. References indic
 
 | Policy Document | Governance Participants | RAC Members (Transition & Permanent) | Treasury Signers | Delegates | WG Stewards | Contributors |
 |----------------|--------------|-------------|-------------------|-----------|-------------|--------------|
-| **Charter** | All (§4.1) | §8, §8A, §12.1 | §4.3 | Art IV–V | §4.2 | — |
+| **Charter** | All (§4.1) | §8, §12.1 | §4.3 | §4.2 | §4.2 | — |
 | **Operating Agreement** | §4.2, §4.3 | §4.1, §6.5, Art XIII | §5.3(a), §7, §13.4, §11.3 | §5.2–5.6, §4.1 | — | — |
 | **Proposal & Voting Framework** | §6–8 (voters) | §6.5 (result determination) | §8.4 (veto window) | §4.6 (election) | §4.6 (election) | — |
 | **RAC Mandate** | — (subject to) | §1–12 (primary, Permanent RAC) | §3 (subject to) | §3 (subject to) | §3 (subject to) | — |
@@ -385,7 +385,7 @@ This table shows which governance documents apply to each role. References indic
 | **DAO Parameters Registry** | §8 (voting power) | §5.1–5.2 | §6A, §6B, §9 | §6B | §6B, §7 | — |
 | **Governance Maintenance & Upgrade Framework** | (voters on amendments) | (enforces process) | — | — | — | — |
 | **Working Group Framework** | — | (oversight) | — | — | (primary operational rules) | — |
-| **Election & Role Governance Policy** | (voters in elections) | (elected via this policy) | (elected via this policy) | (elected via this policy) | (elected via this policy) | — |
+| **Elections & Role Governance Policy** | (voters in elections) | (elected via this policy) | (elected via this policy) | (elected via this policy) | (elected via this policy) | — |
 
 ---
 

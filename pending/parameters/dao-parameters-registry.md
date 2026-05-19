@@ -113,7 +113,7 @@ Quorum is measured as a percentage of eligible voting power. Eligible voting pow
 | Parameter                        | Value                                                                  |
 | -------------------------------- | ---------------------------------------------------------------------- |
 | Transition RAC Members           | Exactly 5 (named in GP-PRE-1; constituted under Operating Agreement Article XIII) |
-| Permanent RAC Members            | Between 5 and 7 (set per election; defined in Charter §8A.3 and Operating Agreement §6.5) |
+| Permanent RAC Members            | Between 5 and 7 (set per election; defined in RAC Mandate §7 and Operating Agreement §13.7) |
 | Term Length (Permanent RAC)      | 6 months                                                               |
 | Routine Decision Quorum          | Simple majority (more than half of seated members)                     |
 | Routine Decision Approval        | Simple majority YES                                                    |
@@ -156,7 +156,7 @@ Quorum is measured as a percentage of eligible voting power. Eligible voting pow
 | ------------------------- | ----------- |
 | Multi-account Requirement | Yes         |
 | Multisig Threshold        | See §6A: 3-of-5 standard, 4-of-5 high-risk |
-| Audit Requirement         | Mandatory — an independent treasury audit is required annually. The RAC is responsible for scoping the audit and bringing an auditor appointment to governance for approval. The first audit process must be initiated within the Phase 1 completion window (see Activation Roadmap). |
+| Audit Requirement         | Mandatory — an independent treasury audit is required annually. The RAC is responsible for scoping the audit and bringing an auditor appointment to governance for approval. The first audit process must be initiated within the first 12 months of entity formation. |
 
 ---
 
@@ -186,7 +186,7 @@ Quorum is measured as a percentage of eligible voting power. Eligible voting pow
 | Parameter                           | Value     | Description                              |
 | ----------------------------------- | --------- | ---------------------------------------- |
 | Standard Term Length                | 6 months  | Default role duration                    |
-| Auto-Renewal                        | Yes — unless challenged | Incumbent role holders are automatically renewed at term end unless a challenge is filed or the role holder declines (see Election & Role Governance Policy §9) |
+| Auto-Renewal                        | Yes — unless challenged | Incumbent role holders are automatically renewed at term end unless a challenge is filed or the role holder declines (see Elections & Role Governance Policy §9) |
 | Term Renewal Challenge Window       | 14 days (opens 21 days before expiry, closes 7 days before expiry) | Period during which an eligible Governance Participant may file a unilateral challenge notice to trigger a new election |
 | Challenge Filing Threshold          | 0.1% of eligible voting power | Minimum holding required to file a valid challenge notice; verified against the most recent governance snapshot |
 | Consecutive Renewal Cap             | 4 terms (2 years maximum continuous service) | After 4 consecutive terms in the same role, a standard election is mandatory; successful re-election resets the count to 1 |
@@ -237,7 +237,7 @@ Quorum is measured as a percentage of eligible voting power. Eligible voting pow
 | Parameter | Value | Description |
 | --------- | ----- | ----------- |
 | Voting Basis | XRD and LSU (constitutional floor, entrenched per Charter §12.1 item 4) plus RAC-governed supplementary sources as listed in §8A below | — |
-| LSU Inclusion | Active (Phase 1) — snapshot-based XRD conversion | — |
+| LSU Inclusion | Active — snapshot-based XRD conversion | — |
 | Delegation | Disabled — not yet supported by the governance platform | — |
 | Sybil Resistance | Not active | — |
 | UBO KYC Threshold | >25% of eligible voting power | Triggers mandatory KYC under Marshall Islands DAO Act; annual BOIR filing required Jan 1–Mar 31 |

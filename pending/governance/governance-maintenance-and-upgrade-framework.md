@@ -14,33 +14,14 @@ This document defines how governance documents are:
 
 ## 3. Document Hierarchy
 
-Governance documents follow this hierarchy:
-
-1. Charter (highest authority)
-2. Governance Policies
-3. DAO Parameters Registry
-
-If conflicts arise between governance documents:
-
-* higher-level documents prevail
-
----
+The Company's document hierarchy is defined in **Operating Agreement §12.5** and restated constitutionally in **Charter §13**. This Framework is an operational policy and is subordinate to both.
 
 ### 3.1 Legal Formation Documents
 
-The Formation Documents (Operating Agreement, Certificate of Formation, BOIR Template, Asset Transfer Agreement, IP Schedule, and Continuity Statement) are legal instruments filed with the Registered Agent. The Operating Agreement is the Company's primary legal instrument.
+The Formation Documents (Operating Agreement, Certificate of Formation, BOIR Template, Asset Transfer Agreement, IP Schedule, and Continuity Statement) are legal instruments filed with the Registered Agent. They may be amended only by the process specified in **Operating Agreement Article X**:
 
-Conflict resolution under the OA-first hierarchy (Operating Agreement §12.5 and Charter §13):
-
-* **Operating Agreement prevails** over the Charter and all operational policies in the event of conflict
-* **Charter prevails** over all operational policies in the event of conflict
-* **Where the Operating Agreement expressly delegates** a matter to governance policy (e.g., "as defined in the operational policies adopted under §12.4"), the governance policy controls that matter
-* **All operational policies** (including this Framework, the Compliance Operations Policy, Treasury Signers Rules, RAC Mandate, and others) are subordinate to both the Operating Agreement and the Charter
-
-Formation Documents may be amended only by the process specified in the Operating Agreement (Article X):
-
-* Changes to Articles I (Formation), II (Purpose), III (Continuity), IV (Membership and Governance Participation), XI (Disputes and Liability), or XIII (Transition Period), and changes to the Charter, require a **Constitutional proposal** (≥66% YES, ≥10% quorum)
-* Changes to Articles V (Delegated Functions) through XII (General Provisions) require a **Governance Process proposal** (≥60% YES, ≥7% quorum)
+* **Constitutional Amendments** (≥66% YES, ≥10% quorum) — changes to Articles I (Formation), II (Purpose), III (Continuity), IV (Membership and Governance Participation), XI (Disputes and Liability), XIII (Transition Period), and changes to the Charter
+* **Governance Amendments** (≥60% YES, ≥7% quorum) — changes to Articles V (Delegated Functions) through XII (General Provisions)
 
 ---
 

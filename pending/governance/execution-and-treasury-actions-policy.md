@@ -132,7 +132,7 @@ Treasury actions must NOT:
 * Exceed approved budgets
 * Deviate from proposal intent
 * Be executed without proper authorization
-* Be paid to any recipient whose KYC/AML compliance status is unknown or unverified, where KYC is required under the **Contributor Compensation Policy §3.5**, **Grant Program Policy §4**, or **Operating Agreement §8.2**
+* Be paid to any recipient whose KYC/AML compliance status is unknown or unverified, where KYC is required under the **Contributor Compensation Policy §3.5** or **Operating Agreement §8.2**
 
 ---
 
@@ -187,7 +187,7 @@ The DAO may receive and hold unsolicited, unconditional donations without prior 
 
 All donations must be:
 
-* Publicly disclosed within **30 days** of receipt, in accordance with the Transparency & Reporting Policy.
+* Publicly disclosed on the governance forum within **30 days** of receipt, identifying the source (or, where the source is anonymous, that the donation was anonymous) and the amount.
 * Recorded in treasury reporting.
 
 Treasury Signers may refuse or return funds if:
@@ -208,6 +208,8 @@ Each approved budget must include:
 * Maximum allocation
 * Timeframe
 
+Personnel-cost rules — Steward and contributor rates, RFP thresholds, KYC prerequisites for payment, and expense reimbursement — are defined in the **Contributor Compensation Policy**. Working Group authority over its own budget is set in the **Working Group Framework §7** and is subject to the variance limits in §7.1 of that framework.
+
 ---
 
 ### 8.1 Spending Within Budget
@@ -215,7 +217,7 @@ Each approved budget must include:
 Working Groups may:
 
 * Allocate funds within approved limits
-* Issue RFPs and pay contributors
+* Issue RFPs and pay contributors per the **Contributor Compensation Policy**
 
 ---
 

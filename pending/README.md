@@ -26,6 +26,14 @@ A YES vote on GP-PRE-1 means you are approving all of the documents listed below
 | Code of Conduct | Governance | [governance/code-of-conduct.md](governance/code-of-conduct.md) |
 | Compliance Operations Policy | Governance | [governance/compliance-operations-policy.md](governance/compliance-operations-policy.md) |
 | Governance Maintenance & Upgrade Framework | Governance | [governance/governance-maintenance-and-upgrade-framework.md](governance/governance-maintenance-and-upgrade-framework.md) |
+| Working Group Framework | Governance | [governance/working-group-framework.md](governance/working-group-framework.md) |
+| Elections & Role Governance Policy | Governance | [governance/elections-and-role-governance-policy.md](governance/elections-and-role-governance-policy.md) |
+| Governance Continuity Framework | Governance | [governance/governance-continuity-framework.md](governance/governance-continuity-framework.md) |
+| Dispute Resolution & Arbitration Policy | Governance | [governance/dispute-resolution-and-arbitration-policy.md](governance/dispute-resolution-and-arbitration-policy.md) |
+| Contributor Compensation Policy | Governance | [governance/contributor-compensation-policy.md](governance/contributor-compensation-policy.md) |
+| Contributor Onboarding and Offboarding | Governance | [governance/contributor-onboarding-and-offboarding.md](governance/contributor-onboarding-and-offboarding.md) |
+| Source Code Stewardship Policy | Governance | [governance/source-code-stewardship-policy.md](governance/source-code-stewardship-policy.md) |
+| Open Source & Intellectual Property Policy | Governance | [governance/open-source-and-ip-policy.md](governance/open-source-and-ip-policy.md) |
 
 ---
 

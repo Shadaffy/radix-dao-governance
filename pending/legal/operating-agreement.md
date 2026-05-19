@@ -36,7 +36,7 @@ For the purposes of this Agreement, the following terms have the meanings given 
 
 **"Temperature Check"** or **"TC"** means a preliminary community sentiment poll conducted before a Governance Proposal is elevated.
 
-**"Transition Period"** means the period commencing on the date the Company is formed under §1.1 and ending on the date the Permanent RAC is seated following the election conducted under the Charter and the Election & Role Governance Policy. The Transition Period is a formation period only; full governance under this Agreement and the operational policies adopted under §12.4 is operative from the date of formation.
+**"Transition Period"** means the period commencing on the date the Company is formed under §1.1 and ending on the date the Permanent RAC is seated following the election conducted under the Charter and the Elections & Role Governance Policy. The Transition Period is a formation period only; full governance under this Agreement and the operational policies adopted under §12.4 is operative from the date of formation.
 
 **"Transition RAC"** means the temporary Transition Radix Accountability Council constituted under this Agreement for the limited purpose of implementing the Transition Period, including completion of the formation of the Company, establishment of the Transition Treasury and related control architecture, satisfaction of initial compliance and onboarding requirements, receipt and safeguarding of assets, rights and control positions transferred to the Company, and implementation of the handover to the Permanent RAC. The Transition RAC is a temporary implementation authority only and has no continuing or general governance authority except as expressly set out in this Agreement. The constitution and mandate of the Transition RAC are set out in Article XIII.
 
@@ -419,7 +419,7 @@ If any provision of this Agreement is held to be invalid, illegal, or unenforcea
 
 This Agreement, together with the Charter and the operational policies adopted under §12.4, constitutes the complete governance framework of the Company with respect to the governance, operation, and management of the Company. It supersedes all prior agreements, representations, or understandings relating to the same subject matter.
 
-The Charter is the governance constitution of the DAO, containing the principles, structural authority, and detailed governance framework adopted by the community. This Agreement recognizes the Charter and incorporates it by reference, subject to the priority rules established in §12.5. The Charter is designed to remain stable across legal jurisdictions; this Agreement gives the Charter legal effect within the Marshall Islands legal structure.
+The Charter is the governance constitution of the DAO, containing the principles, structural authority, and entrenched provisions adopted by the community. This Agreement recognizes the Charter and incorporates it by reference, subject to the priority rules established in §12.5. The Charter is designed to remain stable across legal jurisdictions; this Agreement gives the Charter legal effect within the Marshall Islands legal structure.
 
 In the event of conflict between this Agreement and the Charter, this Agreement prevails. In the event of conflict between this Agreement and any operational policy adopted under §12.4, this Agreement prevails.
 
@@ -434,7 +434,7 @@ The Company's governance documents rank in the following order of precedence for
 
 **(b) This Agreement.** This Agreement is the Company's primary legal instrument and the registered legal entity document of the Company. It prevails over the Charter and all operational policies in the event of conflict. The Charter and all operational policies derive their legal force from the recognition given to them in this Agreement.
 
-**(c) The Charter.** The Charter is the governance constitution of the DAO, subordinate to this Agreement but prevailing over all operational policies. Where the Charter and an operational policy conflict, the Charter prevails. The Charter contains the governance principles, structural authority, detailed framework for the Permanent RAC, and the detailed governance rules referenced by this Agreement.
+**(c) The Charter.** The Charter is the governance constitution of the DAO, subordinate to this Agreement but prevailing over all operational policies. Where the Charter and an operational policy conflict, the Charter prevails. The Charter contains the governance principles, structural authority, and entrenched provisions of the DAO.
 
 **(d) Operational policies.** Operational policies adopted under §12.4 are subordinate to both this Agreement and the Charter. A provision of an operational policy that conflicts with this Agreement or the Charter is void to the extent of the conflict.
 
@@ -444,7 +444,7 @@ The Company's governance documents rank in the following order of precedence for
 
 ### §13.1 Recognition of the Transition Period
 
-The Company recognizes a Transition Period commencing on the date of formation and ending on the date the Permanent RAC is seated following the election conducted under the Charter and the Election & Role Governance Policy. The Transition Period is a formation period only. The full governance framework — including this Agreement, the Charter, and the operational policies adopted under §12.4 — is operative from the date of formation. Standard on-chain governance under §4.3 and Article VI proceeds from formation, in parallel with the Transition RAC's formation activities under this Article.
+The Company recognizes a Transition Period commencing on the date of formation and ending on the date the Permanent RAC is seated following the election conducted under the Charter and the Elections & Role Governance Policy. The Transition Period is a formation period only. The full governance framework — including this Agreement, the Charter, and the operational policies adopted under §12.4 — is operative from the date of formation. Standard on-chain governance under §4.3 and Article VI proceeds from formation, in parallel with the Transition RAC's formation activities under this Article.
 
 ### §13.2 Constitution of the Transition RAC
 
@@ -461,10 +461,20 @@ The Transition RAC's mandate is strictly limited to the following formation-peri
 * **(c)** Establishment of the Treasury Multisig and recording of the multisig identifier under §1.4;
 * **(d)** Receipt and safeguarding of assets, rights, and control positions transferred to the Company from the Founding Transferor, in accordance with Article III and an Asset Transfer Agreement approved under §3.2;
 * **(e)** Satisfaction of initial compliance and onboarding requirements, including KYC for Transition RAC members and initial Delegates;
-* **(f)** Coordination of the election of the Permanent RAC under the Charter and the Election & Role Governance Policy;
+* **(f)** Coordination of the election of the Permanent RAC under the Charter and the Elections & Role Governance Policy;
 * **(g)** Implementation of the handover to the Permanent RAC upon its seating.
 
 The Transition RAC may not exercise any general executive, treasury-allocation, or policy-making authority beyond what is expressly set out above. All other governance decisions during the Transition Period are made by Governance Participants through the on-chain governance system under §4.3 and Article VI.
+
+### §13.3A Transition RAC Internal Process
+
+**(a) Decision rule.** Transition RAC decisions on matters within its mandate require a simple majority of seated Transition RAC members.
+
+**(b) Non-delegation.** The Transition RAC may not delegate its core formation functions under §13.3 to any other body. Coordination with Working Groups, contributors, or external counsel is permitted; final decisions on the formation mandate remain with the Transition RAC.
+
+**(c) Transparency.** All Transition RAC actions taken under §13.3 must be publicly reported to the governance forum within 72 hours of the action, including the action taken, the justification, the members who participated, and the outcome. Decisions and their justifications must be recorded and disclosed accordingly.
+
+**(d) No override of standard governance.** The Transition RAC may not override, suppress, or delay any decision made by Governance Participants through the on-chain governance system under §4.3 and Article VI.
 
 ### §13.4 Treasury Signer Authority During the Transition Period
 
@@ -490,7 +500,7 @@ Indemnification under §11.3 and §5.4 covers acts taken by Transition RAC membe
 
 ### §13.7 Permanent RAC
 
-The Permanent RAC is constituted following the Transition Period in accordance with the Charter and the Election & Role Governance Policy. The Permanent RAC members are admitted as Members of the Company under §4.1(a) upon seating. The composition, election procedure, mandate, and reporting obligations of the Permanent RAC are governed by the Charter and the **RAC Mandate** (operational policy). The Permanent RAC is the standing governance-process oversight body of the Company and is not, unless expressly stated otherwise, a general executive, treasury-management, or policy-making authority.
+The Permanent RAC is constituted following the Transition Period in accordance with the **Elections & Role Governance Policy** (operational policy). The Permanent RAC members are admitted as Members of the Company under §4.1(a) upon seating. The composition (between five and seven members), election procedure, mandate, and reporting obligations of the Permanent RAC are governed by the **RAC Mandate** and the **Elections & Role Governance Policy**. The Permanent RAC is the standing governance-process oversight body of the Company and is not, unless expressly stated otherwise, a general executive, treasury-management, or policy-making authority.
 
 ---
 

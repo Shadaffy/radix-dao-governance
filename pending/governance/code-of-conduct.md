@@ -54,7 +54,7 @@ All participants must:
 All participants must:
 
 * Disclose relevant affiliations, financial interests, or conflicts when participating in governance decisions in a decision-making role — mandatory disclosure obligations and their scope are defined in the **Conflict of Interest Policy §2**; Governance Participants exercising ordinary voting rights are encouraged but not required to disclose
-* Accept the applicable KYC/AML compliance process before receiving any grant, compensation, or other disbursement from the DAO (see **Contributor Compensation Policy §3.5** and **Grant Program Policy §4**)
+* Accept the applicable KYC/AML compliance process before receiving any compensation or other disbursement from the DAO (see **Contributor Compensation Policy §3.5** and **Operating Agreement §8.2**)
 * Not impersonate other participants or misrepresent their identity or role
 * Not act under multiple identities (Sybil behavior) to artificially amplify influence
 
@@ -66,7 +66,7 @@ All participants must:
 
 * Not misappropriate, waste, or redirect DAO resources for unauthorized purposes
 * Not exploit governance processes or smart contract vulnerabilities to extract unauthorized value
-* Report known vulnerabilities responsibly (see **Security Disclosure & Bug Bounty Policy**)
+* Report known vulnerabilities responsibly through the disclosure process defined in the **Source Code Stewardship Policy §6**
 
 ---
 

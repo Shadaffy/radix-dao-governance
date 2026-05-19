@@ -70,7 +70,7 @@ All governance documents are recognised by and given legal force by the Operatin
 
 ### 5.1 Current State
 
-The Radix community operates its own on-chain governance through the community-deployed Consultation V2 system (software donated by the Founding Transferor and deployed by the community at its own cost). No legal entity called Radix DLT DAO LLC yet exists. The Phase 1 governance documents exist as finalized drafts but have not been formally adopted. No Delegate roster has been ratified by token holder vote. The RAC has no formally authorized transitional authority.
+The Radix community operates its own on-chain governance through the community-deployed Consultation V2 system (software donated by the Founding Transferor and deployed by the community at its own cost). No legal entity called Radix DLT DAO LLC yet exists. The governance framework exists as finalized drafts but has not been formally adopted. No Delegate roster has been ratified by token holder vote. The RAC has no formally authorized transitional authority.
 
 ### 5.2 Proposed Change
 
@@ -104,9 +104,13 @@ Formally adopt the following documents as the governance framework of Radix DLT 
 | Compliance Operations Policy | Operational compliance practice |
 | Governance Maintenance & Upgrade Framework | Rules for amending, versioning, and classifying governance documents |
 | Working Group Framework | Rules for establishing and operating Working Groups (active from formation; individual WG Charters activate when each WG is established by vote) |
-| Election & Role Governance Policy | Election procedures — required for the Permanent RAC election that ends the Transition Period |
+| Elections & Role Governance Policy | Election procedures — required for the Permanent RAC election that ends the Transition Period |
 | Governance Continuity Framework | Continuity and fallback procedures — required from formation |
 | Dispute Resolution & Arbitration Policy | Dispute handling procedures — required from formation |
+| Contributor Compensation Policy | Cost models, payment procedures, and compensation governance for contributors |
+| Contributor Onboarding and Offboarding | Procedures for onboarding contributors and handling role transitions |
+| Source Code Stewardship Policy | Standards for managing, reviewing, and releasing source code and software assets held by the DAO |
+| Open Source & Intellectual Property Policy | IP ownership, licensing, and contribution requirements for DAO-funded or DAO-received work |
 
 All listed documents are operative from the date of entity formation. No separate activation vote is required.
 
@@ -145,7 +149,7 @@ Constitute the Transition RAC under Operating Agreement Article XIII with the fo
 
 The Transition RAC's mandate is strictly limited to the formation functions in OA §13.3. It is not a general governance authority and may not override decisions made by Governance Participants through the on-chain governance system.
 
-The Transition RAC mandate sunsets automatically upon the seating of the Permanent RAC, elected through the community-run two-stage election conducted under the Election & Role Governance Policy and Charter §8A.
+The Transition RAC mandate sunsets automatically upon the seating of the Permanent RAC, elected through the community-run two-stage election conducted under the Elections & Role Governance Policy.
 
 ---
 
@@ -221,7 +225,7 @@ Upon the Permanent RAC's seating, any unspent Establishment Grant funds remain i
 * Transition RAC's narrow formation mandate (OA §13.3) commences from registration date
 * Standard on-chain governance is operative from registration in parallel with the Transition RAC's formation work
 * Establishment Grant of [ESTABLISHMENT GRANT AMOUNT] USDC is available to Transition RAC from the date this proposal is accepted; consolidated spending report published within 90 days of legal formation
-* Permanent RAC election is run during the Transition Period under the Election & Role Governance Policy; upon Permanent RAC seating, Transition RAC mandate sunsets and Transition Period ends
+* Permanent RAC election is run during the Transition Period under the Elections & Role Governance Policy; upon Permanent RAC seating, Transition RAC mandate sunsets and Transition Period ends
 
 ---
 
@@ -285,7 +289,7 @@ Upon the Permanent RAC's seating, any unspent Establishment Grant funds remain i
 
 * Formation confirmation published within 72 hours of registration (one-time)
 * Any KYC conditional appointments resolved and published within 14 days of entity registration
-* Transition RAC publishes accountability reports per Charter §8A.1 (72-hour reporting of actions)
+* Transition RAC publishes accountability reports per Operating Agreement §13.3A (72-hour reporting of actions)
 * Transition RAC publishes consolidated Establishment Grant spending report within 90 days of legal formation, listing all disbursements, recipients, purposes, and amounts
 
 ---
@@ -320,7 +324,7 @@ No RAC member may be the sole drafter of the Delegate roster without community r
 |---|---|
 | `legal/certificate-of-formation.md` | Formation document authorised for filing by Element 2 |
 | `legal/operating-agreement.md` | Primary legal instrument authorised for filing by Element 2; Article IV (Membership and Governance Participation), Article V (Delegate functions), Article XIII (Transition Period and Transition RAC), §12.5 (document hierarchy) |
-| `constitutional/charter.md` | Governance constitution; §8A (transition governance and Permanent RAC framework) |
+| `constitutional/charter.md` | Governance constitution |
 | `parameters/dao-parameters-registry.md` | §6A (Treasury Signers parameters — 5 signers, 3-of-5 / 4-of-5 thresholds), §6B (Elections & Roles parameters) |
 | `governance/rac-mandate.md` | Permanent RAC authority and limitations |
 | `governance/compliance-operations-policy.md` | Operational compliance practice |

@@ -1,6 +1,6 @@
 # Radix DAO Permanent RAC Mandate
 
-> **Scope of this document.** This Mandate governs the **Permanent RAC**, the standing governance-process oversight body of the Company, constituted following the Transition Period in accordance with **Operating Agreement §13.7** and **Charter §8A**. The Transition RAC and its limited formation-period authority are governed by Operating Agreement Article XIII.
+> **Scope of this document.** This Mandate governs the **Permanent RAC**, the standing governance-process oversight body of the Company, constituted following the Transition Period in accordance with **Operating Agreement §13.7** and the **Elections & Role Governance Policy**. The Transition RAC and its limited formation-period authority are governed by Operating Agreement Article XIII.
 
 ## 1. Purpose
 
@@ -58,16 +58,17 @@ Emergency authority — including permitted actions, tiers, approval thresholds,
 
 * All RAC actions must be publicly recorded
 * Any deviations from standard process must be justified and disclosed
-* The RAC must provide periodic reports to the DAO
+* The RAC must publish a **quarterly accountability report** covering all RAC actions taken during the quarter, deviations from standard process, and emerging risks
+* The RAC must publish a determination of the outcome of each governance vote within the window specified in DAO Parameters §3.5
 
 ---
 
 ## 7. Composition & Selection
 
-* Permanent RAC members are elected by Governance Proposal in accordance with the **Election & Role Governance Policy** and the eligibility, nomination, and election rules set out in **Charter §8A**
+* Permanent RAC members are elected by Governance Proposal in accordance with the **Elections & Role Governance Policy**, which governs eligibility, nomination, and election procedures
 * Composition: between 5 and 7 persons
 * No permanent or externally appointed seats exist
-* Members serve fixed terms (defined in the Election & Role Governance Policy)
+* Members serve fixed terms (defined in the Elections & Role Governance Policy)
 * Upon election, Permanent RAC members are admitted as legal Members of the LLC under **Operating Agreement §4.1**. This Membership is a legal compliance structure and does not alter the process-guardian role defined in this Mandate
 * A Permanent RAC member may simultaneously hold a Delegate function under Operating Agreement Article V, subject to the role-concentration limits in **DAO Parameters §6B** and the recusal obligations of the **Conflict of Interest Policy**
 
