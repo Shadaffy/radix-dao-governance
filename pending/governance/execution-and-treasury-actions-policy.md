@@ -102,7 +102,7 @@ Every approved proposal that creates a paid role must designate an executing bod
 
 **When the RAC is the designated executor:**
 
-The RAC must publicly document the selection process and publish its selection decision to the governance forum for a 7-day acknowledgement period before the engagement is binding. During this period, any token holder may file a veto challenge under the standard veto mechanism (Proposal & Voting Framework §8) on the grounds that the selection does not comply with the approved proposal.
+The RAC must publicly document the selection process and publish its selection decision to the governance forum for a 7-day acknowledgement period before the engagement is binding. During this period, any Governance Participant may file a veto challenge under the standard veto mechanism (Proposal & Voting Framework §8) on the grounds that the selection does not comply with the approved proposal.
 
 The RAC may not act as both executor and compliance verifier for the same role. Where the RAC executes a hire, compliance verification responsibility passes to the DAO via the acknowledgement period above.
 
@@ -132,7 +132,7 @@ Treasury actions must NOT:
 * Exceed approved budgets
 * Deviate from proposal intent
 * Be executed without proper authorization
-* Be paid to any recipient whose KYC/AML compliance status is unknown or unverified, where KYC is required under the **Contributor Compensation Policy §3.5**, **Grant Program Policy §4**, or **Legal Wrapper §3**
+* Be paid to any recipient whose KYC/AML compliance status is unknown or unverified, where KYC is required under the **Contributor Compensation Policy §3.5**, **Grant Program Policy §4**, or **Operating Agreement §8.2**
 
 ---
 

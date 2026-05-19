@@ -112,8 +112,9 @@ Quorum is measured as a percentage of eligible voting power. Eligible voting pow
 
 | Parameter                        | Value                                                                  |
 | -------------------------------- | ---------------------------------------------------------------------- |
-| Members                          | 5 minimum (exact count ≥5, set by initial Constitutional Proposal before Phase 1 launch; may only be reduced below 5 by Constitutional Proposal) |
-| Term Length                      | 6 months                                                               |
+| Transition RAC Members           | Exactly 5 (named in GP-PRE-1; constituted under Operating Agreement Article XIII) |
+| Permanent RAC Members            | Between 5 and 7 (set per election; defined in Charter §8A.3 and Operating Agreement §6.5) |
+| Term Length (Permanent RAC)      | 6 months                                                               |
 | Routine Decision Quorum          | Simple majority (more than half of seated members)                     |
 | Routine Decision Approval        | Simple majority YES                                                    |
 | Seat Vacancy Definition          | A seat is immediately vacated upon: (a) confirmed death notified by a pre-registered emergency contact; (b) written resignation; or (c) written declaration from a pre-registered emergency contact that the member is medically incapacitated and unable to perform their function. Vacated seats are excluded from quorum calculations immediately upon notification. |
@@ -186,7 +187,7 @@ Quorum is measured as a percentage of eligible voting power. Eligible voting pow
 | ----------------------------------- | --------- | ---------------------------------------- |
 | Standard Term Length                | 6 months  | Default role duration                    |
 | Auto-Renewal                        | Yes — unless challenged | Incumbent role holders are automatically renewed at term end unless a challenge is filed or the role holder declines (see Election & Role Governance Policy §9) |
-| Term Renewal Challenge Window       | 14 days (opens 21 days before expiry, closes 7 days before expiry) | Period during which an eligible token holder may file a unilateral challenge notice to trigger a new election |
+| Term Renewal Challenge Window       | 14 days (opens 21 days before expiry, closes 7 days before expiry) | Period during which an eligible Governance Participant may file a unilateral challenge notice to trigger a new election |
 | Challenge Filing Threshold          | 0.1% of eligible voting power | Minimum holding required to file a valid challenge notice; verified against the most recent governance snapshot |
 | Consecutive Renewal Cap             | 4 terms (2 years maximum continuous service) | After 4 consecutive terms in the same role, a standard election is mandatory; successful re-election resets the count to 1 |
 | Election Voting Duration            | 5-7 days  | Length of election voting                |
@@ -225,7 +226,7 @@ Quorum is measured as a percentage of eligible voting power. Eligible voting pow
 
 | Parameter           | Value    |
 | ------------------- | -------- |
-| Stewards per WG     | 2–3      |
+| Stewards per WG     | 1–3      |
 | Term Length         | 6 months |
 | Reporting Frequency | Monthly  |
 
@@ -258,7 +259,7 @@ Quorum is measured as a percentage of eligible voting power. Eligible voting pow
 **Rules for RAC changes to Tier 2 sources:**
 
 - Any change must specify an `effectiveFrom` date at least 30 days in the future, ensuring no active proposal is caught between source configurations.
-- The RAC must publish the change to the governance forum and notify token holders at least 30 days before `effectiveFrom`.
+- The RAC must publish the change to the governance forum and notify Governance Participants at least 30 days before `effectiveFrom`.
 - The standard 48-hour DAO veto window (§4) applies to all RAC source-list decisions.
 - Adding a new source requires a written rationale demonstrating that the source represents genuine XRD-network economic alignment.
 - Removing a Tier 2 source follows the same process as adding one.

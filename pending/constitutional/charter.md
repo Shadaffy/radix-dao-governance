@@ -97,11 +97,13 @@ Token holders are the ultimate decision-making authority of the DAO. All governa
 
 The DAO may establish chartered bodies, including:
 
-* Accountability Council (RAC)
+* Accountability Council (RAC) — constituted as the Transition RAC during the Transition Period and as the Permanent RAC thereafter
 * Working Groups
 * Committees
 
 Such bodies operate within defined mandates, remain subordinate to DAO governance at all times, and may be removed or replaced by DAO vote. Establishing such bodies is a matter of operational necessity, not a transfer of authority.
+
+**Legal Membership and the RAC.** Under the Operating Agreement, members of the Transition RAC and the Permanent RAC, together with elected Delegates, constitute the legal Members of the LLC. This Membership is a legal compliance structure required by the Marshall Islands DAO Act; it does not alter the governance authority of those persons under this Charter. Governance authority is exercised through the on-chain governance system by Governance Participants under **Operating Agreement §4.3**, regardless of whether participants hold formal Membership.
 
 ---
 
@@ -145,11 +147,85 @@ These mechanisms are defined in the **Dispute Resolution & Arbitration Policy**,
 
 The DAO maintains an Accountability Council (RAC) to ensure that governance processes are followed and decisions are executed correctly. The RAC acts as a guardian of process — not a decision-making authority — and operates within a strictly defined mandate.
 
+During the Transition Period, the RAC is constituted as the **Transition RAC** under Operating Agreement Article XIII, with a narrow formation mandate. Following the Transition Period, the RAC is constituted as the **Permanent RAC** through the election process defined in this Charter and the Election & Role Governance Policy. The Permanent RAC is the standing governance-process oversight body of the Company and is not, unless expressly stated otherwise, a general executive, treasury-management, or policy-making authority.
+
+Members of the Permanent RAC hold legal Membership in the LLC under Operating Agreement §4.1. This Membership is a legal compliance structure; it is not a source of governance authority beyond the RAC Mandate defined in this Charter and the operational policies. Permanent RAC members may simultaneously hold a Delegate function under Operating Agreement Article V, subject to the role-concentration limits in the **DAO Parameters Registry §6B** and the recusal obligations of the **Conflict of Interest Policy**.
+
 All persons holding formal roles with delegated or elevated decision-making authority are subject to disclosure and recusal obligations as defined in the Conflict of Interest Policy.
 
-Token holders exercising ordinary governance voting rights are not subject to mandatory disclosure or recusal obligations under the Conflict of Interest Policy, but are encouraged to act in the DAO's best interest.
+Governance Participants exercising ordinary governance voting rights are not subject to mandatory disclosure or recusal obligations under the Conflict of Interest Policy, but are encouraged to act in the DAO's best interest.
 
 The RAC is an oversight body, not an operational Delegate under the Operating Agreement. Its responsibilities and constraints are defined in the **RAC Mandate**. Disclosure and recusal obligations are defined in the **Conflict of Interest Policy**.
+
+---
+
+## 8A. Transition Governance and the Permanent RAC
+
+This section governs the transition from formation to standing governance and the detailed framework of the Permanent RAC. The constitutional authority for the Transition Period itself is set out in **Operating Agreement Article XIII**; this section provides the governance principles and detailed framework that complement it.
+
+### 8A.1 Transition Governance Principles
+
+The Transition Period is a formation period, not a governance phase. The following principles apply throughout:
+
+* **Standard governance is operative from formation.** Governance Participants exercise full governance rights under Operating Agreement §4.3 from the date of entity formation. The Transition Period does not delay or constrain on-chain governance.
+* **Transition RAC mandate is narrow.** The Transition RAC's authority is limited to the formation functions enumerated in Operating Agreement §13.3. It is not a general governing authority.
+* **No override of standard governance.** The Transition RAC may not override, suppress, or delay any decision made by Governance Participants through the on-chain governance system.
+* **Transparency.** All Transition RAC actions must be publicly reported to the governance forum within 72 hours of the action, including action taken, justification, members who participated, and outcome.
+
+### 8A.2 Transition RAC Internal Process
+
+Transition RAC decisions on matters within its mandate require a simple majority of seated Transition RAC members. Decisions and their justifications must be recorded and disclosed in accordance with §8A.1.
+
+The Transition RAC may not delegate its core formation functions to any other body. Coordination with Working Groups, contributors, or external counsel is permitted; final decisions on the formation mandate remain with the Transition RAC.
+
+### 8A.3 Permanent RAC — Composition and Election
+
+The Permanent RAC consists of between 5 and 7 persons elected by Governance Proposal in accordance with the **Election & Role Governance Policy** (operational policy). Permanent RAC members hold legal Membership in the LLC under Operating Agreement §4.1 for the duration of their seat.
+
+The first Permanent RAC election is conducted by the Transition RAC during the Transition Period using the two-stage election process defined in the Election & Role Governance Policy (Approval Voting in Stage 1, confirmation in Stage 2). The Transition Period ends and the Transition RAC's mandate sunsets upon the seating of the Permanent RAC.
+
+### 8A.4 Candidate Eligibility
+
+Candidates for the Permanent RAC must:
+
+* Be Governance Participants of the Company in their own right or have demonstrated active engagement in the Radix governance ecosystem;
+* Complete KYC verification (Tier 1) before assuming a seat;
+* Have no disqualifying conflict of interest as defined in the **Conflict of Interest Policy**;
+* Not be subject to applicable sanctions;
+* Not hold more than one other DAO role that would exceed the role-concentration limit in the **DAO Parameters Registry §6B**.
+
+Former Transition RAC members are eligible to stand as candidates for the Permanent RAC on the same basis as any other eligible candidate. Service on the Transition RAC creates no automatic right to a Permanent RAC seat and no preferential treatment in the election.
+
+### 8A.5 Nomination Process
+
+Nominations open at the start of the Election Nomination & Discussion Window (DAO Parameters §3.1) and close when the window ends. Any eligible candidate may self-nominate or be nominated by any Governance Participant during this window. Nominations must include a candidate statement, conflict of interest disclosure, and confirmation of KYC commitment.
+
+### 8A.6 Process-Guardian Role
+
+The Permanent RAC's role is to guard the governance process — not to govern. Its specific functions are defined in the **RAC Mandate** (operational policy) and include:
+
+* Verifying that proposals meet formal submission requirements;
+* Determining the outcome of votes and publishing official results;
+* Monitoring treasury operations for compliance with approved decisions;
+* Coordinating responses to emergencies and governance failures;
+* Flagging inconsistencies, risks, or violations to the community.
+
+The Permanent RAC may not:
+
+* Override or invalidate a valid governance decision;
+* Block or suppress proposals arbitrarily;
+* Make unilateral strategic or treasury decisions outside approved mandates;
+* Introduce new rules without governance approval.
+
+### 8A.7 Reporting and Accountability
+
+The Permanent RAC must publish:
+
+* A determination of the outcome of each governance vote within the window specified in DAO Parameters §3.5;
+* A quarterly accountability report covering all RAC actions, deviations from standard process, and emerging risks;
+* A response within 7 days to any community accountability hearing requested under the RAC Mandate.
+
+Permanent RAC members may be removed by Governance Proposal at any time, in accordance with the **Election & Role Governance Policy**.
 
 ---
 
@@ -167,21 +243,21 @@ Detailed procedures are defined in the **Emergency & Safeguards Policy**, the **
 
 ## 10. Non-Distribution Principle
 
-The DAO's assets and income exist to advance its purpose — not to enrich its members. All resources must be applied to the benefit of the Radix ecosystem. No distributions may be made to token holders or members except as expressly permitted under the **Legal Wrapper & Representation** document — including reasonable compensation for genuine services rendered, interest at a reasonable rate on loans made by members, reasonable rent for premises provided by members, and reimbursement of legitimate out-of-pocket expenses.
+The DAO's assets and income exist to advance its purpose — not to enrich its participants. All resources must be applied to the benefit of the Radix ecosystem. No distributions may be made to Governance Participants, Members, or Delegates except as expressly permitted under **Operating Agreement §2.2** — including reasonable compensation for genuine services rendered, interest at a reasonable rate on loans made by any Member, Delegate, or Governance Participant, reasonable rent for premises provided by any Member, Delegate, or Governance Participant, and reimbursement of legitimate out-of-pocket expenses.
 
 This principle is not merely a legal constraint. It is a statement of intent: the DAO is a steward, not a vehicle for extraction.
 
-Permitted exceptions are specified in the **Legal Wrapper & Representation** document. The governing law and legal entity structure of the DAO are defined in the **Operating Agreement** Art I.
+Permitted exceptions are specified in **Operating Agreement §2.2**. Operational procedures for administering these exceptions are defined in the **Compliance Operations Policy**. The governing law and legal entity structure of the DAO are defined in the **Operating Agreement** Article I.
 
 ---
 
 ## 11. Asset Lock and Wind-Down
 
-Should the DAO ever be dissolved, its remaining assets must be transferred to an entity with substantially similar objectives, as defined in the Operating Agreement §9.2. No assets may be distributed to token holders or members upon dissolution.
+Should the DAO ever be dissolved, its remaining assets must be transferred to an entity with substantially similar objectives. No assets may be distributed to token holders, Governance Participants, Members, or Delegates upon dissolution.
 
-The criteria for qualifying as a successor entity, the process for community selection of that entity, and the notification obligations to Asset Transferors are defined in the **Operating Agreement §9.2**. The successor entity criteria and dissolution asset disposition rules are defined in Operating Agreement §9.2. Where this Charter and the Operating Agreement conflict on the mechanics of dissolution and asset disposition, the Operating Agreement prevails — dissolution mechanics are matters Marshall Islands law requires to be governed by the operating agreement, and the Operating Agreement is therefore authoritative on this question in accordance with the general hierarchy established in Charter §13 and Operating Agreement §12.5.
+This is a binding constitutional commitment. The DAO's resources were entrusted to it for the benefit of the Radix ecosystem; that purpose does not end with the DAO's existence.
 
-The DAO's resources were entrusted to it for the benefit of the Radix ecosystem. That purpose does not end with the DAO's existence.
+The mechanics of dissolution — including dissolution events, voting thresholds, successor entity criteria, notification obligations, and the asset provenance record — are governed by **Operating Agreement §9**. This Charter establishes the principle; the Operating Agreement governs its execution.
 
 ---
 
@@ -189,7 +265,7 @@ The DAO's resources were entrusted to it for the benefit of the Radix ecosystem.
 
 This Charter may be amended through DAO governance using a Constitutional proposal. It is a living document — it should evolve as the DAO matures — but changes to it require the highest level of community deliberation and approval.
 
-Amendment procedures and document versioning requirements are defined in the **Governance Maintenance & Upgrade Framework**. Voting mechanics are defined in the **Proposal & Voting Framework**. During Phase 1, where the Governance Maintenance & Upgrade Framework is not yet active, amendment mechanics are governed by the **Transition Governance Framework** and the **Proposal & Voting Framework**.
+Amendment procedures and document versioning requirements are defined in the **Governance Maintenance & Upgrade Framework**. Voting mechanics are defined in the **Proposal & Voting Framework**.
 
 ### 12.1 Entrenched Provisions
 
@@ -207,15 +283,17 @@ Notwithstanding the above, the following provisions may not be amended, reduced,
 
 ## 13. Scope
 
-This Charter is the DAO's governance constitution — adopted by token holder vote and designed to remain stable across legal jurisdictions. Its authority derives from the community that adopted it, not from any particular legal wrapper. All operational policies and governance bodies derive their authority from it and must be consistent with it.
+This Charter is the DAO's governance constitution. It contains the principles, structural authority, and detailed governance framework that the community has adopted to govern itself. It is designed to remain stable across legal jurisdictions — adopted by the community independently of any particular legal wrapper, and recognized by whichever legal entity the community uses to give its decisions legal effect.
 
-This design is intentional: if the DAO ever redomiciles to a different legal jurisdiction, this Charter travels unchanged with the community, and the new legal wrapper for the new jurisdiction would similarly recognize it. The Operating Agreement enforces this authority within Marshall Islands law (§12.5). The Charter's authority within the current legal structure operates within the following boundaries, which must be read consistently with Operating Agreement §12.5:
+Within the Marshall Islands legal structure, this Charter is incorporated by reference into the Operating Agreement and given legal effect by it. The Operating Agreement is the Company's primary legal instrument; this Charter is the DAO's governance constitution. The two documents are designed to work together, with the following hierarchy:
 
 - **Marshall Islands law and the Articles of Organization** are supreme by operation of law. This Charter does not and cannot override any mandatory provision of Marshall Islands law or the Company's Articles of Organization.
-- **The Operating Agreement prevails** over this Charter on matters that Marshall Islands law requires to be governed by an operating agreement — including entity formation, member liability, dissolution mechanics, and statutory compliance obligations.
-- **This Charter prevails** over the Operating Agreement on all other matters of internal DAO governance, including governance principles, community sovereignty, structural authority, and the operation of governance bodies.
-- **All operational policies** are subordinate to this Charter. A provision of an operational policy that conflicts with this Charter is void to the extent of the conflict.
+- **The Operating Agreement** is the Company's primary legal instrument and prevails over this Charter in the event of conflict. This Charter and all operational policies derive their legal force from the recognition given to them in the Operating Agreement.
+- **This Charter** is subordinate to the Operating Agreement but prevails over all operational policies. Where this Charter and an operational policy conflict, this Charter prevails.
+- **All operational policies** are subordinate to both the Operating Agreement and this Charter. A provision of an operational policy that conflicts with this Charter or the Operating Agreement is void to the extent of the conflict.
 
-Operational, technical, and procedural details are defined in the DAO's policy library — a set of governance documents that give effect to the principles and authority established here. Where any policy conflicts with this Charter, this Charter prevails.
+This hierarchy is intentional. The Operating Agreement is the legally registered instrument that courts, regulators, and counterparties look to; it must be supreme in legal terms. This Charter is the document that the community has agreed binds it as a constitutional matter. The Operating Agreement gives the Charter legal effect and recognizes its authority over the operational policy library, while reserving statutory and registration matters to itself.
 
-**Document Activation During Transition:** This Charter describes the DAO's intended complete governance framework. Not all referenced documents are in force from the first day of operations. The activation status of each governance document — and the phased schedule under which documents become enforceable — is governed by the **Transition Governance Framework**. Where a referenced policy is not yet active, the Transition Governance Framework defines the applicable interim rules and the RAC's delegated authority.
+Operational, technical, and procedural details are defined in the DAO's policy library — a set of governance documents that give effect to the principles and authority established here.
+
+**Document Activation:** All governance documents adopted in the founding governance act of the Company are operative from the date of formation. The Transition Period, defined in **Operating Agreement Article XIII**, is a formation period during which a Transition RAC implements entity formation, asset transfer, and the election of the Permanent RAC. Full governance under this Charter and the operational policies adopted under Operating Agreement §12.4 operates from formation, in parallel with the Transition RAC's formation activities.

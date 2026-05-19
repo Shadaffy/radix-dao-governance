@@ -11,32 +11,33 @@ A YES vote on GP-PRE-1 means you are approving all of the documents listed below
 | Document | Category | File |
 |---|---|---|
 | GP-PRE-1: Founding Proposal | Proposal | [GP-PRE-1-Founding-Proposal.md](GP-PRE-1-Founding-Proposal.md) |
-| Charter | Constitutional | [constitutional/charter.md](constitutional/charter.md) |
-| Operating Agreement | Formation | [legal/operating-agreement.md](legal/operating-agreement.md) |
+| Operating Agreement | Formation (primary legal instrument) | [legal/operating-agreement.md](legal/operating-agreement.md) |
+| Charter | Constitutional (governance constitution) | [constitutional/charter.md](constitutional/charter.md) |
 | Certificate of Formation | Formation | [legal/certificate-of-formation.md](legal/certificate-of-formation.md) |
+| BOIR Template | Formation | [legal/BOIR-Template.md](legal/BOIR-Template.md) |
 | DAO Parameters Registry | Parameters | [parameters/dao-parameters-registry.md](parameters/dao-parameters-registry.md) |
 | Proposal & Voting Framework | Governance | [governance/proposal-and-voting-framework.md](governance/proposal-and-voting-framework.md) |
 | Execution & Treasury Actions Policy | Governance | [governance/execution-and-treasury-actions-policy.md](governance/execution-and-treasury-actions-policy.md) |
 | Emergency & Safeguards Policy | Governance | [governance/emergency-and-safeguards-policy.md](governance/emergency-and-safeguards-policy.md) |
 | Treasury Signers Rules | Governance | [governance/treasury-signers-rules.md](governance/treasury-signers-rules.md) |
 | Roles Registry | Governance | [governance/roles-registry.md](governance/roles-registry.md) |
-| RAC Mandate | Governance | [governance/rac-mandate.md](governance/rac-mandate.md) |
+| RAC Mandate (Permanent RAC) | Governance | [governance/rac-mandate.md](governance/rac-mandate.md) |
 | Conflict of Interest Policy | Governance | [governance/conflict-of-interest-policy.md](governance/conflict-of-interest-policy.md) |
 | Code of Conduct | Governance | [governance/code-of-conduct.md](governance/code-of-conduct.md) |
-| Legal Wrapper & Representation | Governance | [governance/legal-wrapper-and-representation.md](governance/legal-wrapper-and-representation.md) |
-| Transition Governance Framework | Transition | [transition/transition-governance-framework.md](transition/transition-governance-framework.md) |
+| Compliance Operations Policy | Governance | [governance/compliance-operations-policy.md](governance/compliance-operations-policy.md) |
+| Governance Maintenance & Upgrade Framework | Governance | [governance/governance-maintenance-and-upgrade-framework.md](governance/governance-maintenance-and-upgrade-framework.md) |
 
 ---
 
 ## Document precedence (highest to lowest)
 
 1. Marshall Islands law and Articles of Organization
-2. Operating Agreement — on statutory and registration matters (entity formation, member liability, dissolution, KYC)
-2. Charter — on all other internal governance matters (principles, community sovereignty, governance bodies)
-3. Governance policies
-4. DAO Parameters Registry
+2. **Operating Agreement** — primary legal instrument; prevails over the Charter and all operational policies
+3. **Charter** — governance constitution; subordinate to the OA but prevails over all operational policies
+4. **Operational policies** — subordinate to both the OA and the Charter
+5. **DAO Parameters Registry** — within the operational policy tier; values updated by Governance Proposal
 
-The Charter and Operating Agreement occupy the same tier but govern different domains. The Charter is the community's governance constitution — adopted by token holder vote and designed to remain stable across legal jurisdictions. The Operating Agreement is the legal wrapper for the current Marshall Islands incorporation. If the DAO ever redomiciles, the Charter travels unchanged with the community; a new legal wrapper is drafted for the new jurisdiction.
+The Operating Agreement is the Company's primary legal instrument under Marshall Islands law. The Charter is the DAO's governance constitution, recognized by and incorporated into the Operating Agreement and designed to remain stable across legal jurisdictions. The Operating Agreement gives the Charter legal effect; if the DAO ever redomiciles, the Charter travels with the community and a new legal wrapper would similarly recognize it.
 
 ---
 

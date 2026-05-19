@@ -28,19 +28,19 @@ If conflicts arise between governance documents:
 
 ### 3.1 Legal Formation Documents
 
-The Formation Documents (Operating Agreement, Certificate of Formation, BOIR Template, Asset Transfer Agreement, IP Schedule, and Continuity Statement) are legal instruments filed with the Registered Agent. They are not governance policies within the hierarchy above and are not subordinate to governance policy documents.
+The Formation Documents (Operating Agreement, Certificate of Formation, BOIR Template, Asset Transfer Agreement, IP Schedule, and Continuity Statement) are legal instruments filed with the Registered Agent. The Operating Agreement is the Company's primary legal instrument.
 
-Conflict resolution between layers:
+Conflict resolution under the OA-first hierarchy (Operating Agreement §12.5 and Charter §13):
 
-* Where the Operating Agreement expressly delegates a matter to governance policy (e.g., "as defined in the operational policies adopted under §12.4"), the governance policy controls that matter.
-* Where the Operating Agreement and a governance policy conflict on a matter the Operating Agreement does not delegate, the Operating Agreement prevails.
-* The Charter prevails over both. No governance policy or formation document may contradict the Charter.
-* The Legal Wrapper complements the Charter and governance documents; it does not override governance authority but enables real-world execution of DAO decisions. Where the Legal Wrapper and a governance policy conflict, the RAC shall flag the conflict for governance resolution.
+* **Operating Agreement prevails** over the Charter and all operational policies in the event of conflict
+* **Charter prevails** over all operational policies in the event of conflict
+* **Where the Operating Agreement expressly delegates** a matter to governance policy (e.g., "as defined in the operational policies adopted under §12.4"), the governance policy controls that matter
+* **All operational policies** (including this Framework, the Compliance Operations Policy, Treasury Signers Rules, RAC Mandate, and others) are subordinate to both the Operating Agreement and the Charter
 
 Formation Documents may be amended only by the process specified in the Operating Agreement (Article X):
 
-* Changes to Articles I–IV or XI require a **Constitutional proposal** (≥66% YES, ≥10% quorum)
-* Changes to Articles V–XII require a **Governance Process proposal** (≥60% YES, ≥7% quorum)
+* Changes to Articles I (Formation), II (Purpose), III (Continuity), IV (Membership and Governance Participation), XI (Disputes and Liability), or XIII (Transition Period), and changes to the Charter, require a **Constitutional proposal** (≥66% YES, ≥10% quorum)
+* Changes to Articles V (Delegated Functions) through XII (General Provisions) require a **Governance Process proposal** (≥60% YES, ≥7% quorum)
 
 ---
 

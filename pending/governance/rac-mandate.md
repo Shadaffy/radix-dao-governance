@@ -1,16 +1,18 @@
-# Radix DAO Accountability Council (RAC) Mandate
+# Radix DAO Permanent RAC Mandate
+
+> **Scope of this document.** This Mandate governs the **Permanent RAC**, the standing governance-process oversight body of the Company, constituted following the Transition Period in accordance with **Operating Agreement §13.7** and **Charter §8A**. The Transition RAC and its limited formation-period authority are governed by Operating Agreement Article XIII.
 
 ## 1. Purpose
 
-The Accountability Council (RAC) exists to **ensure the integrity, continuity, and correct execution of DAO governance processes**.
+The Permanent RAC exists to **ensure the integrity, continuity, and correct execution of DAO governance processes**.
 
-The RAC acts as a **guardian of process**, not a decision-making authority.
+The Permanent RAC acts as a **guardian of process**, not a decision-making authority. It is not, unless expressly stated otherwise in this Mandate or the Operating Agreement, a general executive, treasury-management, or policy-making authority.
 
 ---
 
 ## 2. Core Function
 
-The RAC is responsible for:
+The Permanent RAC is responsible for:
 
 * Ensuring that governance processes are followed correctly
 * Verifying that approved proposals are executed as intended
@@ -23,7 +25,7 @@ The RAC is responsible for:
 
 ## 3. Scope of Authority
 
-The RAC may:
+The Permanent RAC may:
 
 * Validate whether proposals meet formal submission requirements
 * Trigger defined governance processes (e.g., emergency procedures, veto processes where applicable)
@@ -36,12 +38,13 @@ The RAC may:
 
 ## 4. Explicit Limitations
 
-The RAC **must not**:
+The Permanent RAC **must not**:
 
-* Override or invalidate a valid DAO vote
+* Override or invalidate a valid governance decision recorded on the Governance Platform
 * Block or suppress proposals arbitrarily
 * Make unilateral strategic or treasury decisions outside approved mandates
 * Introduce new rules without governance approval
+* Exercise general executive, treasury-management, or policy-making authority beyond the express functions in this Mandate
 
 ---
 
@@ -61,9 +64,12 @@ Emergency authority — including permitted actions, tiers, approval thresholds,
 
 ## 7. Composition & Selection
 
-* RAC members are selected through DAO governance
+* Permanent RAC members are elected by Governance Proposal in accordance with the **Election & Role Governance Policy** and the eligibility, nomination, and election rules set out in **Charter §8A**
+* Composition: between 5 and 7 persons
 * No permanent or externally appointed seats exist
-* Members serve fixed terms (defined in process docs)
+* Members serve fixed terms (defined in the Election & Role Governance Policy)
+* Upon election, Permanent RAC members are admitted as legal Members of the LLC under **Operating Agreement §4.1**. This Membership is a legal compliance structure and does not alter the process-guardian role defined in this Mandate
+* A Permanent RAC member may simultaneously hold a Delegate function under Operating Agreement Article V, subject to the role-concentration limits in **DAO Parameters §6B** and the recusal obligations of the **Conflict of Interest Policy**
 
 ---
 
@@ -82,34 +88,34 @@ RAC members are subject to the **Conflict of Interest Policy**, including the he
 
 ## 10. Relationship to the DAO
 
-The RAC operates **on behalf of the DAO** and remains fully subordinate to:
+The Permanent RAC operates **on behalf of the DAO** and remains fully subordinate to:
 
-* Token-holder governance
+* Governance Participant authority exercised through the on-chain governance system (Operating Agreement §4.3)
 * Approved governance processes
 
 ---
 
 ## 11A. Selective Obstruction
 
-A documented pattern by a RAC member of delaying governance process verification, or selectively enforcing rules without documented grounds on record, constitutes misconduct independent of the inactivity clause (DAO Parameters §6B). Any RAC member may flag this pattern in another member. Any community member may trigger a misconduct review via Governance Process proposal. This provision is enforced under the **Code of Conduct §6** (see also the parallel provision at Treasury Signers Rules §9A).
-
----
-
-## 12. Phase 1 Responsibilities
-
-The RAC carries the following specific responsibilities during the Phase 1 activation window (through Day 58+ completion):
-
-**Treasury Audit Framework — mandatory Phase 1 deliverable:**
-
-* Define the scope, criteria, and frequency for the DAO's mandatory annual independent treasury audit (DAO Parameters §6.2)
-* Identify and assess candidate audit providers
-* Bring an auditor appointment proposal to governance for approval — this must be initiated within the Phase 1 completion window
-* Ensure the appointed auditor has access to sufficient treasury records and on-chain transaction history to conduct a meaningful first audit
-
-The RAC may not delegate this responsibility to a Working Group during Phase 1. Once a Treasury & Finance Working Group is operational, the RAC may transfer ongoing audit coordination to that body, subject to a formal handoff recorded in the RAC's quarterly delegation status report.
+A documented pattern by a Permanent RAC member of delaying governance process verification, or selectively enforcing rules without documented grounds on record, constitutes misconduct independent of the inactivity clause (DAO Parameters §6B). Any Permanent RAC member may flag this pattern in another member. Any Governance Participant may trigger a misconduct review via Governance Process proposal. This provision is enforced under the **Code of Conduct §6** (see also the parallel provision at Treasury Signers Rules §9A).
 
 ---
 
 ## 11B. Community Accountability Hearing
 
-A Temperature Check meeting the standard 3% quorum threshold may request a formal RAC accountability hearing on a specific matter. The RAC is obligated to publish a public written response within 7 days addressing the specific concerns raised. Failure to respond within 7 days is treated as a process breach subject to dispute escalation (DAO Parameters §6C). The written response must be posted to the governance forum and linked in the RAC's next periodic report.
+A Temperature Check meeting the standard 3% quorum threshold may request a formal Permanent RAC accountability hearing on a specific matter. The Permanent RAC is obligated to publish a public written response within 7 days addressing the specific concerns raised. Failure to respond within 7 days is treated as a process breach subject to dispute escalation (DAO Parameters §6C). The written response must be posted to the governance forum and linked in the Permanent RAC's next periodic report.
+
+---
+
+## 12. Early-Term Responsibilities
+
+The Permanent RAC carries the following specific responsibilities in the period immediately following its constitution:
+
+**Treasury Audit Framework — mandatory early deliverable:**
+
+* Define the scope, criteria, and frequency for the DAO's mandatory annual independent treasury audit (DAO Parameters §6.2)
+* Identify and assess candidate audit providers
+* Bring an auditor appointment proposal to governance for approval — this must be initiated within the first quarter of the Permanent RAC's term
+* Ensure the appointed auditor has access to sufficient treasury records and on-chain transaction history to conduct a meaningful first audit
+
+The Permanent RAC may not delegate this responsibility to a Working Group until that Working Group is constituted and operational. Once a Treasury & Finance Working Group is operational, the Permanent RAC may transfer ongoing audit coordination to that body, subject to a formal handoff recorded in the Permanent RAC's quarterly accountability report.

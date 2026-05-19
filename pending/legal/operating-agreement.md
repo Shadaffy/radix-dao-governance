@@ -12,21 +12,33 @@ For the purposes of this Agreement, the following terms have the meanings given 
 
 **"Company"** means Radix DLT DAO LLC, a Marshall Islands Non-Profit DAO LLC.
 
-**"Delegate"** means a Member elected by Governance Proposal to perform one or more Delegated Functions under Article V.
+**"Delegate"** means a person elected by Governance Proposal to perform one or more Delegated Functions under Article V.
 
 **"Delegated Function"** means any of the five operational functions described in §5.3.
 
 **"Founding Transferor"** means the entity that transferred the initial founding assets to the Company at or following formation, as identified in the Continuity Statement executed under §3.2. The identity of the Founding Transferor is recorded in the Continuity Statement and is not required to be named in this Agreement.
 
-**"Asset Transferor"** or **"Grantor"** means any entity — including the Founding Transferor — that transfers assets or grants funds to the Company under a formal Asset Transfer Agreement or a Governance Proposal approved by the Members.
+**"Asset Transferor"** or **"Grantor"** means any entity — including the Founding Transferor — that transfers assets or grants funds to the Company under a formal Asset Transfer Agreement or a Governance Proposal approved through the on-chain governance system.
 
-**"Governance Proposal"** or **"GP"** means a formal governance vote conducted through the Governance smart contract in accordance with the operational policies adopted under §12.4.
+**"Governance Participant"** means any person or entity that holds Governance Tokens and participates in the Company's on-chain governance system, in accordance with §4.2. Governance Participants exercise binding decision-making rights delegated to them under this Agreement, but are not legal Members of the Company unless they have separately been admitted to Membership under §4.1.
 
-**"Governance Tokens"** means the token types designated as eligible for membership and voting under the **DAO Parameters Registry §8**, as amended by Governance Proposal. At formation, Governance Tokens consist of XRD and Liquid Staking Units (LSUs) on the Radix Network, with LSUs converted to their XRD equivalent at the relevant snapshot.
+**"Governance Platform"** means the on-chain governance system identified in §1.4, through which the Company conducts its governance.
 
-**"Member"** means any person or entity that holds Governance Tokens, in accordance with §4.1.
+**"Governance Proposal"** or **"GP"** means a formal governance vote conducted through the Governance Platform in accordance with the operational policies adopted under §12.4.
+
+**"Governance Tokens"** means the token types designated as eligible for governance participation and voting under the **DAO Parameters Registry §8**, as amended by Governance Proposal. At formation, Governance Tokens consist of XRD and Liquid Staking Units (LSUs) on the Radix Network, with LSUs converted to their XRD equivalent at the relevant snapshot.
+
+**"Member"** means a person who has been admitted to membership in the Company in accordance with this Agreement and whose membership has not ceased or been terminated in accordance with this Agreement. For the avoidance of doubt, holding a Governance Token, participating in the Company's on-chain governance, contributing to the protocol, or otherwise participating in the wider Radix community shall not, of itself, constitute admission as a Member of the Company unless and until the conditions for admission expressly set out in this Agreement and, where applicable, the Charter have been satisfied. Admission and the legal status of Membership are governed by §4.1.
+
+**"Membership"** means the legal status of being admitted as a Member of the Company in accordance with this Agreement.
+
+**"Permanent RAC"** means the Permanent Radix Accountability Council constituted following the Transition Period in accordance with this Agreement and the Charter, as the standing governance-process oversight body of the Company. The Permanent RAC is the guardian of the governance process and constitutional order of the Company and is not, unless expressly stated otherwise, a general executive, treasury-management or policy-making authority. The composition, election, and detailed mandate of the Permanent RAC are governed by the Charter and the operational policies adopted under §12.4.
 
 **"Temperature Check"** or **"TC"** means a preliminary community sentiment poll conducted before a Governance Proposal is elevated.
+
+**"Transition Period"** means the period commencing on the date the Company is formed under §1.1 and ending on the date the Permanent RAC is seated following the election conducted under the Charter and the Election & Role Governance Policy. The Transition Period is a formation period only; full governance under this Agreement and the operational policies adopted under §12.4 is operative from the date of formation.
+
+**"Transition RAC"** means the temporary Transition Radix Accountability Council constituted under this Agreement for the limited purpose of implementing the Transition Period, including completion of the formation of the Company, establishment of the Transition Treasury and related control architecture, satisfaction of initial compliance and onboarding requirements, receipt and safeguarding of assets, rights and control positions transferred to the Company, and implementation of the handover to the Permanent RAC. The Transition RAC is a temporary implementation authority only and has no continuing or general governance authority except as expressly set out in this Agreement. The constitution and mandate of the Transition RAC are set out in Article XIII.
 
 ---
 
@@ -75,7 +87,17 @@ The Company is organized exclusively for charitable and educational purposes wit
 
 ### §2.2 Non-Distribution Constraint
 
-No income, assets, or profits of the Company shall be distributed to Members. All assets and income must be applied solely toward the purposes set out in §2.1 and the operational policies adopted under §12.4. Permitted exceptions to this constraint are defined in **Legal Wrapper & Representation §2**, which is designated under the Charter §10 as the authoritative source for the permitted exception list.
+No income, assets, or profits of the Company shall be distributed to Members, Delegates, or Governance Participants by virtue of their respective status. All assets and income must be applied solely toward the purposes set out in §2.1 and the operational policies adopted under §12.4.
+
+**Permitted exceptions.** Notwithstanding the constraint above, the following exceptions are permitted and do not constitute prohibited distributions:
+
+* **(a)** Reasonable compensation for genuine services rendered to the Company;
+* **(b)** Interest at a reasonable rate on money lent to the Company by any Member, Delegate, or Governance Participant;
+* **(c)** Reasonable rent for premises or assets provided to the Company by any Member, Delegate, or Governance Participant;
+* **(d)** Reimbursement of legitimate out-of-pocket expenses properly incurred on behalf of the Company;
+* **(e)** Indemnification payments and expense advancements made in accordance with §11.3 and §5.4.
+
+None of the permitted exceptions creates any beneficial ownership interest in the Company's assets. Operational procedures for administering these exceptions — including documentation, eligibility verification, and disclosure — are defined in the **Compliance Operations Policy** (operational policy).
 
 ---
 
@@ -92,39 +114,63 @@ The Company receives assets from Asset Transferors in good-faith reliance on the
 
 ---
 
-## Article IV — Membership
+## Article IV — Membership and Governance Participation
 
-### §4.1 Membership Criteria
-A person or entity becomes a Member, and holds Membership Interest, upon acquiring Governance Tokens. Membership Interests are not independently transferable.
+This Article establishes two distinct categories of participation in the Company: formal legal **Membership** (§4.1) and **Governance Participation** (§4.2). Each category carries its own rights, obligations, and standards of conduct. A person may hold Membership, Governance Participation, both, or neither; the categories are independent.
 
-### §4.2 Membership Termination
-Membership terminates when a Member holds no Governance Tokens (regardless of delegated voting power) and has no active votes recorded on the Governance smart contract.
+### §4.1 Membership
 
-### §4.3 Membership Rights
-Members exercise governance rights through the Governance smart contract. On-chain governance decisions constitute legally binding decisions of the LLC membership.
+**(a) Admission.** A person becomes a Member of the Company only by admission in accordance with this Agreement. During the Transition Period, Membership is held by the five Transition RAC members identified in Article XIII. Following the seating of the Permanent RAC, Membership is held by the Permanent RAC members and the Delegates elected under Article V.
+
+**(b) No automatic Membership from token holding.** Holding a Governance Token, participating in the Company's on-chain governance, contributing to the protocol, or otherwise participating in the wider Radix community shall not, of itself, constitute admission as a Member of the Company.
+
+**(c) Membership Interest.** Each Member holds a Membership Interest by virtue of admission. Membership Interests are not independently transferable and confer no economic rights (§4.4).
+
+**(d) Termination.** Membership terminates automatically upon the Member ceasing to hold the role by virtue of which Membership was conferred (cessation of Transition RAC membership during the Transition Period; cessation of Permanent RAC seat or Delegate function thereafter), upon resignation, or upon removal by Governance Proposal. A person whose Membership terminates retains any Governance Participation rights they hold by virtue of token ownership.
+
+### §4.2 Governance Participation
+
+**(a) Right of participation.** Any person or entity holding Governance Tokens is a Governance Participant. Governance Participation is acquired upon acquiring Governance Tokens and ceases when the holder no longer holds any Governance Tokens and has no active votes recorded on the Governance Platform.
+
+**(b) Exercise of governance rights.** Governance Participants exercise governance rights through the Governance Platform in accordance with this Agreement, the Charter, and the operational policies adopted under §12.4. Governance rights include the right to submit Temperature Checks, propose Governance Proposals, and vote on Temperature Checks and Governance Proposals.
+
+**(c) Voting power.** Each Governance Participant's voting power is proportional to their eligible Governance Token holdings determined at the snapshot taken at the start of each vote, in accordance with §6.3 and the **DAO Parameters Registry §8**.
+
+**(d) Relationship to Membership.** Governance Participation does not confer Membership. A Governance Participant who is not a Member exercises governance rights solely by virtue of the delegation set out in §4.3.
+
+### §4.3 Binding Effect of On-Chain Governance Decisions
+
+Governance authority of the Company is vested in the Governance Participants and is exercised through the Governance Platform. The Company hereby delegates to the Governance Platform the authority to record and determine governance decisions of the Company in accordance with this Agreement and the operational policies adopted under §12.4.
+
+On-chain governance outcomes recorded by the Governance Platform, having satisfied the quorum and approval thresholds applicable to their proposal category, constitute legally binding decisions of the Company. Such decisions bind the Company, its Members, its Delegates, and its Governance Participants, and shall be given full legal effect under this Agreement and the laws of the Republic of the Marshall Islands, regardless of whether the persons participating in such governance hold formal Membership in the Company at the time of the decision.
+
+This delegation of governance authority is a foundational provision of this Agreement, intended to give effect to the algorithmic management model contemplated by the Marshall Islands DAO Act. No amendment to this section may be effected other than by a Constitutional Amendment passed in accordance with §10.1(a).
 
 ### §4.4 No Economic Rights
-Membership confers governance participation rights only. Members have no economic ownership interest in the Company's assets and no right to share in income, profits, or distributions.
+Neither Membership nor Governance Participation confers economic ownership in the Company's assets or any right to share in income, profits, or distributions. Membership and Governance Participation confer participation rights only, subject to the permitted exceptions to the non-distribution principle set out in §2.2.
 
-### §4.5 Standard of Conduct — Members
-Members shall act in good faith and in the best interests of the Radix Network ecosystem per §709 of the DAO Act. No Member has any fiduciary duty to the Company or any other Member beyond the implied contractual covenant of good faith and fair dealing, as permitted by §709 of the Marshall Islands DAO Act.
+### §4.5 Standard of Conduct
+
+**(a) Members.** Members shall act in good faith and in the best interests of the Radix Network ecosystem per §709 of the Marshall Islands DAO Act. No Member has any fiduciary duty to the Company or any other Member beyond the implied contractual covenant of good faith and fair dealing, as permitted by §709 of the Marshall Islands DAO Act.
+
+**(b) Governance Participants.** Governance Participants shall act in good faith when exercising their governance rights. Governance Participants have no fiduciary duty to the Company or to other Governance Participants by virtue of their participation, beyond the implied covenant of good faith and fair dealing.
 
 ### §4.6 UBO Compliance
 
-Any Member exceeding 25% of total eligible voting power is classified as an Ultimate Beneficial Owner (UBO) and is subject to mandatory KYC obligations in accordance with the operational policies adopted under §12.4 and the Marshall Islands DAO Act.
+Any Governance Participant — whether or not also a Member — whose eligible voting power exceeds 25% of total eligible voting power is classified as an Ultimate Beneficial Owner (UBO) and is subject to mandatory KYC obligations in accordance with the operational policies adopted under §12.4 and the Marshall Islands DAO Act. UBO classification follows the statutory test of voting power or actual control and is not contingent on Membership status.
 
-### §4.7 Member Liability Limitation
-No Member is personally liable for the debts, obligations, or liabilities of the Company solely by reason of membership or serving as a Delegate.
+### §4.7 Liability Limitation
+No Member, Delegate, or Governance Participant is personally liable for the debts, obligations, or liabilities of the Company solely by reason of their Membership, Delegated Function, or Governance Participation, or for acts of the Governance Platform executed as authorized by this Agreement.
 
 ---
 
 ## Article V — Delegated Functions
 
-### §5.1 Member-Managed Structure
-The Company does not have managers, directors, officers, or trustees. Management is vested in the Members collectively per §708 of the Marshall Islands DAO Act. Operational functions are performed by Delegates elected by Governance Proposal.
+### §5.1 Algorithmic Management Structure
+The Company does not have managers, directors, officers, or trustees in the conventional sense. Management is vested in the Governance Participants collectively, exercising binding governance authority through the Governance Platform under §4.3 and consistent with §708 of the Marshall Islands DAO Act on algorithmic management. Operational functions are performed by Delegates elected by Governance Proposal. Upon election and following the Transition Period, Delegates are admitted to Membership by virtue of their role per §4.1(a).
 
 ### §5.2 Election of Delegates
-Delegates (minimum 5, maximum 7 Members) are elected by Governance Proposal. Delegates allocate the non-Treasury Delegated Functions among themselves in accordance with §5.3. All Delegates are subject to KYC verification before assuming their function.
+Delegates (minimum 5, maximum 7 persons) are elected by Governance Proposal. Delegates allocate the non-Treasury Delegated Functions among themselves in accordance with §5.3. All Delegates are subject to KYC verification before assuming their function. A Delegate may simultaneously hold a Permanent RAC seat, subject to the role-concentration limits set out in the **DAO Parameters Registry §6B** and the recusal obligations of the **Conflict of Interest Policy**.
 
 The Treasury Signing function (§5.3(a)) must be held by exactly 5 Delegates to support the signing thresholds defined in DAO Parameters §6A. The Governance Proposal establishing or modifying the Delegate roster must identify which 5 Delegates hold Treasury Signing. Where the total Delegate count differs from 5, the remaining Delegates hold non-treasury functions only.
 
@@ -152,17 +198,17 @@ Act as Registered Agent liaison; file the annual Beneficial Owner Information Re
 Manage social media accounts, GitHub repositories, domain names, and other Web2 assets using an enterprise password manager. The Web2 Custodian may not transfer domain ownership or delete repositories without a Governance Proposal.
 
 ### §5.4 Governance Oversight Indemnification
-The Company shall indemnify any Member performing a DAO-mandated governance oversight function — including but not limited to accountability review, governance process monitoring, emergency governance coordination, and compliance verification — against claims arising from the good-faith performance of that function, on the same terms as §11.3 applies to Delegates. This indemnification applies to oversight functions recognized in the operational policies adopted under §12.4. For the purposes of this section, a "DAO-mandated governance oversight function" means a function explicitly assigned by Governance Proposal or defined in an operational policy adopted under §12.4, and does not extend to unilateral or self-appointed oversight activities.
+The Company shall indemnify any person performing a DAO-mandated governance oversight function — including but not limited to accountability review, governance process monitoring, emergency governance coordination, and compliance verification — against claims arising from the good-faith performance of that function, on the same terms as §11.3 applies to Delegates. This indemnification applies to oversight functions recognized in the operational policies adopted under §12.4. For the purposes of this section, a "DAO-mandated governance oversight function" means a function explicitly assigned by Governance Proposal or defined in an operational policy adopted under §12.4, and does not extend to unilateral or self-appointed oversight activities.
 
 ### §5.5 Removal and Replacement
-Any Delegate may be removed by Governance Proposal. If a Delegate vacates their function, the remaining Delegates may appoint a temporary replacement from among the Members, subject to GP ratification within 30 days.
+Any Delegate may be removed by Governance Proposal. If a Delegate vacates their function, the remaining Delegates may appoint a temporary replacement from among eligible Governance Participants, subject to GP ratification within 30 days.
 
 **Legal Signatory continuity.** If the Legal Signatory Delegate is unavailable, conflicted, or unresponsive for more than 24 hours in circumstances requiring time-critical legal action, the Compliance Liaison Delegate is authorised to act as interim Legal Signatory for protective or time-critical purposes only. Any action taken under this provision must be disclosed to the governance forum within 24 hours and is subject to GP ratification within 30 days.
 
 ### §5.6 Standard of Conduct — Delegates
 Delegates shall act in good faith with diligence, accountability, and transparency per §709 of the DAO Act and §216 of the Non-Profit Act. Delegates shall disclose conflicts of interest and recuse themselves from decisions where a material conflict exists. No Delegate has any fiduciary duty beyond good faith and the obligations of their assigned Delegated Function, as permitted by §709 of the Marshall Islands DAO Act.
 
-**Primary law obligation.** In performing their Delegated Function, each Delegate's primary legal obligation is to the laws of the Republic of the Marshall Islands and this Agreement. Where a Delegate receives a demand, order, or regulatory inquiry from a foreign jurisdiction that conflicts with a DAO-approved decision or with this Agreement, the Delegate shall seek DAO-authorized legal counsel before compliance and, where legally possible under Marshall Islands law, treat DAO authorization as a condition of compliance. This is an obligation of conduct within the Delegate's assigned function; it does not create a fiduciary duty beyond what is stated in this section. This obligation does not prevent a Delegate from taking protective action necessary to avoid criminal liability, provided they notify RAC immediately in accordance with the Regulatory Demand Disclosure Protocol in **Legal Wrapper §8**.
+**Primary law obligation.** In performing their Delegated Function, each Delegate's primary legal obligation is to the laws of the Republic of the Marshall Islands and this Agreement. Where a Delegate receives a demand, order, or regulatory inquiry from a foreign jurisdiction that conflicts with a DAO-approved decision or with this Agreement, the Delegate shall seek DAO-authorized legal counsel before compliance and, where legally possible under Marshall Islands law, treat DAO authorization as a condition of compliance. This is an obligation of conduct within the Delegate's assigned function; it does not create a fiduciary duty beyond what is stated in this section. This obligation does not prevent a Delegate from taking protective action necessary to avoid criminal liability, provided they notify RAC immediately in accordance with the Regulatory Demand Disclosure Protocol in the **Compliance Operations Policy §5**.
 
 ---
 
@@ -170,9 +216,9 @@ Delegates shall act in good faith with diligence, accountability, and transparen
 
 ### §6.1 On-Chain Governance System
 
-The Company conducts its governance through the on-ledger governance system identified in §1.4 (the "Governance Platform"). The Governance Platform is the authoritative record of all Temperature Checks, Governance Proposals, votes cast, and results determined.
+The Company conducts its governance through the Governance Platform identified in §1.4. The Governance Platform is the authoritative record of all Temperature Checks, Governance Proposals, votes cast, and results determined.
 
-On-chain governance outcomes recorded by the Governance Platform constitute legally binding decisions of the LLC membership under §4.3 of this Agreement and §708 of the Marshall Islands DAO Act.
+On-chain governance outcomes recorded by the Governance Platform constitute legally binding decisions of the Company under §4.3 of this Agreement and §708 of the Marshall Islands DAO Act. Such decisions bind the Company, its Members, its Delegates, and its Governance Participants regardless of whether participating persons hold formal Membership at the time of the decision.
 
 The Governance Operator (§5.3(b)) administers the Governance Platform using the Owner Badge (§1.4). The Governance Operator acts only within the limits of Governance Proposals and the operational policies adopted under §12.4.
 
@@ -188,7 +234,7 @@ The Governance Operator may not elevate a Temperature Check to a Governance Prop
 
 ### §6.3 Voting Power and Snapshot
 
-Each Member's voting power is determined at a snapshot taken at the start of each Governance Proposal's voting period. Voting power is proportional to eligible token holdings; one token equals one vote.
+Each Governance Participant's voting power is determined at a snapshot taken at the start of each Governance Proposal's voting period. Voting power is proportional to eligible Governance Token holdings; one token equals one vote.
 
 Eligible holdings and the snapshot methodology — including treatment of Liquid Staking Units (LSUs) and delegated voting power — are defined in the **DAO Parameters Registry §8** (operational policy). Parameters governing eligible assets may be updated by Governance Proposal.
 
@@ -200,11 +246,11 @@ The DAO Parameters Registry may be updated by Governance Proposal. Updates to go
 
 ### §6.5 Result Determination and Recording
 
-The RAC (the Radix Accountability Council — the governance oversight body whose mandate and composition are defined in the RAC Mandate operational policy adopted under §12.4; at a minimum, a body of 3–7 Members elected by Governance Proposal to perform governance integrity and compliance verification functions) is responsible for formally determining the outcome of each vote and publishing the official result within the window specified in **DAO Parameters §3.5**.
+The RAC (the Radix Accountability Council — the governance oversight body, constituted as the Transition RAC during the Transition Period under Article XIII and as the Permanent RAC thereafter under the Charter; in either form, a body of persons elected by Governance Proposal to perform governance integrity and compliance verification functions) is responsible for formally determining the outcome of each vote and publishing the official result within the window specified in **DAO Parameters §3.5**.
 
 The determination procedure — including quorum verification, approval threshold calculation, winner determination for multi-option votes, and weighted allocation computation — is defined in the **Proposal & Voting Framework §6.5** (operational policy). The on-chain record on the Governance Platform is the authoritative source for raw vote data; the RAC's published result is the authoritative determination of outcome.
 
-A veto challenge mechanism allows token holders to contest results that violate the Charter or governance rules, within the window and conditions defined in **DAO Parameters §4** and the **Proposal & Voting Framework §8** (operational policy).
+A veto challenge mechanism allows Governance Participants to contest results that violate the Charter or governance rules, within the window and conditions defined in **DAO Parameters §4** and the **Proposal & Voting Framework §8** (operational policy).
 
 ### §6.6 Smart Contract Changes
 Changes to the Governance or Treasury smart contracts require:
@@ -242,18 +288,25 @@ The Compliance Liaison (§5.3(d)) shall file a Beneficial Owner Information Repo
 
 * **Initial BOIR:** at formation
 * **Annual BOIR:** between January 1 and March 31 of each calendar year
-* **Updated BOIR:** within 30 days of any material change in beneficial ownership or the Delegate roster
+* **Updated BOIR:** within 30 days of any material change in beneficial ownership, in the Delegate roster, or in the composition of the Transition RAC or Permanent RAC
 
-The BOIR must identify all Delegates (who qualify as beneficial owners by virtue of actual control under DAO Act §702(r)) and any Member holding 25% or more of eligible voting power (UBO threshold). The procedure, required fields, and declaration requirements are defined in the **BOIR Template** maintained in the governance repository.
+The BOIR must identify:
+
+* All Delegates (who qualify as beneficial owners by virtue of actual control under DAO Act §702(r));
+* During the Transition Period, all Transition RAC members (who qualify as beneficial owners by virtue of holding Membership and acting as the formation authority);
+* Following the Transition Period, all Permanent RAC members (who qualify as beneficial owners by virtue of holding Membership);
+* Any Governance Participant — whether or not also a Member — holding 25% or more of eligible voting power (UBO threshold).
+
+BOIR identification follows the statutory tests of voting power and actual control, and is not contingent on Membership status. The procedure, required fields, and declaration requirements are defined in the **BOIR Template** maintained in the governance repository.
 
 ### §8.2 KYC Maintenance
 
 KYC verification is required for all persons reportable under §8.1, in two tiers:
 
-* **KYC Tier 1 (Delegate KYC):** All Delegates must complete KYC verification through the DAO's designated KYC provider before assuming any Delegated Function. Annual reverification is required each January per MIDAO requirements.
-* **KYC Tier 2 (UBO KYC):** Any Member reaching the 25% UBO threshold must complete KYC within 14 days of crossing the threshold and notify the Compliance Liaison. Annual reverification applies.
+* **KYC Tier 1 (Role-Holder KYC):** All Delegates and all members of the Transition RAC and Permanent RAC must complete KYC verification through the DAO's designated KYC provider before assuming their function or seat. Annual reverification is required each January per MIDAO requirements.
+* **KYC Tier 2 (UBO KYC):** Any Governance Participant reaching the 25% UBO threshold must complete KYC within 14 days of crossing the threshold and notify the Compliance Liaison. Annual reverification applies.
 
-Thresholds, KYC provider selection, and the full UBO monitoring obligations of the Compliance Liaison are defined in **Legal Wrapper §3** and **DAO Parameters §8** (operational policies). The Compliance Liaison maintains KYC records confidentially with the Registered Agent in accordance with Marshall Islands law.
+Thresholds, KYC provider selection, and the full UBO monitoring obligations of the Compliance Liaison are defined in the **Compliance Operations Policy** and **DAO Parameters §8** (operational policies). The Compliance Liaison maintains KYC records confidentially with the Registered Agent in accordance with Marshall Islands law.
 
 ### §8.3 Sanctions Screening
 
@@ -306,7 +359,7 @@ Prior to any dissolution asset transfer, the Company shall publish a public acco
 
 This Agreement may be amended by Governance Proposal. Amendments are classified as follows:
 
-**(a) Constitutional Amendments** — changes to Articles I (Formation), II (Purpose), III (Continuity), IV (Membership), or XI (Disputes and Liability), and changes to the Charter. Constitutional Amendments require a Constitutional Proposal, with quorum and approval thresholds as defined in **DAO Parameters §3.2–3.3**.
+**(a) Constitutional Amendments** — changes to Articles I (Formation), II (Purpose), III (Continuity), IV (Membership and Governance Participation), XI (Disputes and Liability), or XIII (Transition Period), and changes to the Charter. Constitutional Amendments require a Constitutional Proposal, with quorum and approval thresholds as defined in **DAO Parameters §3.2–3.3**.
 
 **(b) Governance Amendments** — changes to Articles V (Delegated Functions) through XII (General Provisions). Governance Amendments require a Governance Process Proposal, with quorum and approval thresholds as defined in **DAO Parameters §3.2–3.3**.
 
@@ -356,7 +409,7 @@ This Agreement is governed by the laws of the Republic of the Marshall Islands.
 
 Written notice posted to the DAO's designated governance forum constitutes valid and sufficient notice for all internal governance matters under this Agreement, including proposals, disclosures, and regulatory announcements to Members.
 
-Legal notices to the Company (including service of process, regulatory correspondence, and formal demands) must be served at the address of the Registered Agent identified in §1.2. The Compliance Liaison shall forward any such notice to the Delegates and publish notice of receipt to the governance forum within 48 hours, in accordance with the Regulatory Demand Disclosure Protocol defined in the **Legal Wrapper §8**.
+Legal notices to the Company (including service of process, regulatory correspondence, and formal demands) must be served at the address of the Registered Agent identified in §1.2. The Compliance Liaison shall forward any such notice to the Delegates and publish notice of receipt to the governance forum within 48 hours, in accordance with the Regulatory Demand Disclosure Protocol defined in the **Compliance Operations Policy §5**.
 
 ### §12.2 Severability
 
@@ -364,14 +417,14 @@ If any provision of this Agreement is held to be invalid, illegal, or unenforcea
 
 ### §12.3 Entire Agreement
 
-This Agreement, together with the Charter and the operational policies adopted by the Members under §12.4, constitutes the complete governance framework of the Company with respect to the governance, operation, and management of the Company. It supersedes all prior agreements, representations, or understandings relating to the same subject matter.
+This Agreement, together with the Charter and the operational policies adopted under §12.4, constitutes the complete governance framework of the Company with respect to the governance, operation, and management of the Company. It supersedes all prior agreements, representations, or understandings relating to the same subject matter.
 
-The Charter is incorporated by reference and recognized as the supreme internal governance document of the DAO for all matters of governance principle, structural authority, and community sovereignty. This Agreement explicitly subordinates itself to the Charter on such matters, subject to the priority rules established in §12.5. The Charter is designed to remain stable across legal jurisdictions — adopted by the community independently of any particular legal wrapper. This Agreement's recognition of Charter authority reflects that design intent; any future legal wrapper adopted upon redomicilation would be expected to do the same.
+The Charter is the governance constitution of the DAO, containing the principles, structural authority, and detailed governance framework adopted by the community. This Agreement recognizes the Charter and incorporates it by reference, subject to the priority rules established in §12.5. The Charter is designed to remain stable across legal jurisdictions; this Agreement gives the Charter legal effect within the Marshall Islands legal structure.
 
-In the event of conflict between this Agreement and any operational policy adopted under §12.4, this Agreement prevails. In the event of conflict between this Agreement and the Charter, §12.5 governs.
+In the event of conflict between this Agreement and the Charter, this Agreement prevails. In the event of conflict between this Agreement and any operational policy adopted under §12.4, this Agreement prevails.
 
 ### §12.4 Operational Policies
-The Members may, by Governance Proposal, adopt operational policies, procedures, and guidelines that supplement this Agreement. Such documents are subordinate to this Agreement and the Charter, and may be amended or revoked by Governance Proposal. A provision of an operational policy that conflicts with this Agreement or the Charter is void to the extent of the conflict. The governance framework documents adopted as operational policies are listed in the most recent Governance Proposal activating them.
+Operational policies, procedures, and guidelines may be adopted by Governance Proposal to supplement this Agreement and the Charter. Such documents are subordinate to this Agreement and the Charter, and may be amended or revoked by Governance Proposal. A provision of an operational policy that conflicts with this Agreement or the Charter is void to the extent of the conflict. The governance framework documents adopted as operational policies are listed in the most recent Governance Proposal activating them.
 
 ### §12.5 Document Hierarchy
 
@@ -379,11 +432,65 @@ The Company's governance documents rank in the following order of precedence for
 
 **(a) Marshall Islands law and Articles of Organization.** Marshall Islands law (including 52 MIRC Ch. 3 and 52 MIRC Ch. 7) and the Company's Articles of Organization are supreme by operation of law. No provision of this Agreement, the Charter, or any operational policy may override a mandatory provision of Marshall Islands law or the Articles of Organization. Where a provision of this Agreement or the Charter restates a mandatory statutory provision, that provision is binding by force of law.
 
-**(b) This Agreement — on statutory and registration matters.** This Agreement is the Company's registered legal entity document. Where this Agreement and the Charter conflict on a matter that Marshall Islands law requires to be governed by an operating agreement — including without limitation entity formation, member admission and termination, liability of Members, dissolution, statutory compliance obligations, and KYC and reporting requirements under the DAO Act — this Agreement prevails.
+**(b) This Agreement.** This Agreement is the Company's primary legal instrument and the registered legal entity document of the Company. It prevails over the Charter and all operational policies in the event of conflict. The Charter and all operational policies derive their legal force from the recognition given to them in this Agreement.
 
-**(c) The Charter — on internal governance matters.** The Charter is the supreme internal governance document of the DAO for all matters not reserved to this Agreement by paragraph (b) above. The Charter prevails over this Agreement on matters of governance principle, community sovereignty, structural authority, and the operation of governance bodies, proposals, and processes. This Agreement explicitly grants the Charter this authority and recognizes all governance documents as deriving their legitimacy from the Charter.
+**(c) The Charter.** The Charter is the governance constitution of the DAO, subordinate to this Agreement but prevailing over all operational policies. Where the Charter and an operational policy conflict, the Charter prevails. The Charter contains the governance principles, structural authority, detailed framework for the Permanent RAC, and the detailed governance rules referenced by this Agreement.
 
 **(d) Operational policies.** Operational policies adopted under §12.4 are subordinate to both this Agreement and the Charter. A provision of an operational policy that conflicts with this Agreement or the Charter is void to the extent of the conflict.
+
+---
+
+## Article XIII — Transition Period
+
+### §13.1 Recognition of the Transition Period
+
+The Company recognizes a Transition Period commencing on the date of formation and ending on the date the Permanent RAC is seated following the election conducted under the Charter and the Election & Role Governance Policy. The Transition Period is a formation period only. The full governance framework — including this Agreement, the Charter, and the operational policies adopted under §12.4 — is operative from the date of formation. Standard on-chain governance under §4.3 and Article VI proceeds from formation, in parallel with the Transition RAC's formation activities under this Article.
+
+### §13.2 Constitution of the Transition RAC
+
+The Transition RAC is constituted with five members, identified in the Governance Proposal authorizing this Agreement (GP-PRE-1). All Transition RAC members are admitted as Members of the Company under §4.1(a) upon entity formation, and all are subject to KYC verification (§8.2) before assuming their seats.
+
+The Transition RAC has no continuing or general governance authority except as expressly set out in this Article.
+
+### §13.3 Mandate of the Transition RAC
+
+The Transition RAC's mandate is strictly limited to the following formation-period functions:
+
+* **(a)** Completion of the formation of the Company, including filing of the Certificate of Formation and Operating Agreement with the Registered Agent and recording of smart contract identifiers under §1.4;
+* **(b)** Initial Beneficial Owner Information Report (BOIR) filing under §8.1;
+* **(c)** Establishment of the Treasury Multisig and recording of the multisig identifier under §1.4;
+* **(d)** Receipt and safeguarding of assets, rights, and control positions transferred to the Company from the Founding Transferor, in accordance with Article III and an Asset Transfer Agreement approved under §3.2;
+* **(e)** Satisfaction of initial compliance and onboarding requirements, including KYC for Transition RAC members and initial Delegates;
+* **(f)** Coordination of the election of the Permanent RAC under the Charter and the Election & Role Governance Policy;
+* **(g)** Implementation of the handover to the Permanent RAC upon its seating.
+
+The Transition RAC may not exercise any general executive, treasury-allocation, or policy-making authority beyond what is expressly set out above. All other governance decisions during the Transition Period are made by Governance Participants through the on-chain governance system under §4.3 and Article VI.
+
+### §13.4 Treasury Signer Authority During the Transition Period
+
+During the Transition Period, the Treasury Signing function (§5.3(a)) is held by the five Transition RAC members. Treasury transactions require signing thresholds as set out in §7.1 and the **DAO Parameters Registry §6A**:
+
+* Standard transactions: 3-of-5 Treasury Signers;
+* High-risk transactions and protected matters: 4-of-5 Treasury Signers.
+
+The classification of high-risk transactions and protected matters is governed by the **Execution & Treasury Actions Policy** and the **Treasury Signers Operational Rules**.
+
+### §13.5 Sunset and Handover
+
+Upon the seating of the Permanent RAC:
+
+* **(a)** The mandate of the Transition RAC expires automatically and immediately;
+* **(b)** Membership held by Transition RAC members by virtue of their Transition RAC role terminates, save where any such person also holds Membership by virtue of a Permanent RAC seat or Delegate function;
+* **(c)** All formation records, KYC records, asset transfer documentation, and treasury control materials are transferred to the Permanent RAC and the relevant Delegates;
+* **(d)** The Treasury Multisig signer set is reconstituted as required to reflect the elected Treasury Signing Delegates under §5.2.
+
+### §13.6 Continuity of Indemnification
+
+Indemnification under §11.3 and §5.4 covers acts taken by Transition RAC members during the Transition Period and survives the sunset of the Transition RAC. No transition or handover under this Article shall diminish the indemnification protections of any person for acts taken in good-faith performance of their Transition RAC role.
+
+### §13.7 Permanent RAC
+
+The Permanent RAC is constituted following the Transition Period in accordance with the Charter and the Election & Role Governance Policy. The Permanent RAC members are admitted as Members of the Company under §4.1(a) upon seating. The composition, election procedure, mandate, and reporting obligations of the Permanent RAC are governed by the Charter and the **RAC Mandate** (operational policy). The Permanent RAC is the standing governance-process oversight body of the Company and is not, unless expressly stated otherwise, a general executive, treasury-management, or policy-making authority.
 
 ---
 

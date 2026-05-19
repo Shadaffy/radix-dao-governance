@@ -15,7 +15,7 @@ This document defines:
 
 ## 2.5 Proposal Eligibility
 
-Any token holder may submit a proposal. No minimum holding, prior registration, or approval from any DAO body is required to submit. This right flows directly from token holder sovereignty as established in the Charter §4.1.
+Any Governance Participant may submit a proposal. No minimum holding, prior registration, or approval from any DAO body is required to submit. This right flows directly from Governance Participant sovereignty as established in the Charter §4.1 and Operating Agreement §4.3.
 
 ---
 
@@ -119,11 +119,11 @@ An Approval Voting poll (§6.2.2) is published listing all eligible nominees. Vo
 Each shortlisted candidate is put to a separate Standard (YES/NO/ABSTAIN) proposal (§6.2.1). A candidate is confirmed if they meet the quorum and approval threshold defined by the DAO parameters "Election Stage 2 Quorum" and "Election Stage 2 Approval Threshold" in DAO Parameters §6B. Stage 2 proposals may run concurrently.
 
 **Fallback**
-If a shortlisted candidate fails Stage 2, the next-highest ranked candidate from the full Stage 1 result is automatically advanced to a replacement confirmation vote, regardless of whether they were in the initial shortlist batch. This continues until all seats are filled or all Stage 1 candidates have been through Stage 2 and failed. If all Stage 1 candidates are exhausted, remaining vacancies follow the vacancy handling process in the Elections & Role Governance Policy §11. Until that policy is active, remaining vacancies are handled by the RAC under its interim authority per the **Transition Governance Framework §5**. Where Stage 2 confirmation votes run concurrently, the RAC opens any fallback confirmation vote only after all concurrent Stage 2 votes for that election have closed. The timing rules for fallback votes will be formalised in the Elections & Role Governance Policy; until that policy is active, the RAC determines the timing.
+If a shortlisted candidate fails Stage 2, the next-highest ranked candidate from the full Stage 1 result is automatically advanced to a replacement confirmation vote, regardless of whether they were in the initial shortlist batch. This continues until all seats are filled or all Stage 1 candidates have been through Stage 2 and failed. If all Stage 1 candidates are exhausted, remaining vacancies follow the vacancy handling process in the Elections & Role Governance Policy §11. Where Stage 2 confirmation votes run concurrently, the RAC opens any fallback confirmation vote only after all concurrent Stage 2 votes for that election have closed.
 
-**Phase 2 — Majority Judgment**
+**Future — Majority Judgment**
 
-When Majority Judgment tooling is available, elections switch to a single-stage Majority Judgment vote (§6.2.4). Voters assign a grade to each candidate; the top candidates by median grade fill the open seats. The two-stage process and its fallback are superseded once the RAC confirms activation. The shortlist multiplier and Stage 2 parameters in DAO Parameters §6B apply only to Phase 1 elections.
+When Majority Judgment tooling is available, elections switch to a single-stage Majority Judgment vote (§6.2.4). Voters assign a grade to each candidate; the top candidates by median grade fill the open seats. The two-stage process and its fallback are superseded once the RAC confirms activation. The shortlist multiplier and Stage 2 parameters in DAO Parameters §6B apply only to the two-stage election model that operates until Majority Judgment activation.
 
 ---
 
@@ -296,7 +296,7 @@ Disagreement with the policy substance of a proposal is not grounds for veto.
 
 ### 8.3 Who May File
 
-Any token holder may file a veto challenge, provided the minimum participation threshold is met (see DAO Parameters §4).
+Any Governance Participant may file a veto challenge, provided the minimum participation threshold is met (see DAO Parameters §4).
 
 ---
 

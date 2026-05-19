@@ -1,10 +1,10 @@
-# GP-PRE-1: Founding Proposal — Governance Adoption, Entity Formation, Delegate Ratification, and Transition Authorization
+# GP-PRE-1: Founding Proposal — Single Founding Act of Radix DLT DAO LLC
 
 ---
 
-> **Governance system note:** This proposal is submitted through the **community's own Consultation V2 governance system** — the on-chain governance tool the community deployed independently, using software donated by the Founding Transferor. The community operates this system in its own right; it does not run through or depend on the Founding Transferor's governance. Radix DLT DAO LLC does not yet legally exist as an entity, but the community already governs itself on-chain. This is the founding act — the community vote that brings the legal entity into existence and gives the governance framework formal legal standing. All thresholds and quorum requirements are as stated below.
+> **Governance system note:** This proposal is submitted through the **community's own Consultation V2 governance system** — the on-chain governance tool the community deployed independently, using software donated by the Founding Transferor. The community operates this system in its own right; it does not run through or depend on the Founding Transferor's governance. Radix DLT DAO LLC does not yet legally exist as an entity, but the community already governs itself on-chain. This is the founding act — the single community vote that brings the legal entity into existence, adopts the complete governance framework, and authorises the Transition Period. All thresholds and quorum requirements are as stated below.
 >
-> **Read alongside:** `Transition/Activation-Roadmap-Optimised.md` (Phase 1 — pre-registration) and `Transition/Transition-Governance-Framework.md`.
+> **Single founding vote.** All adopted documents are operative from the moment the Operating Agreement is filed with MIDAO. No separate post-registration activation proposal is required.
 
 ---
 
@@ -12,21 +12,23 @@
 
 | Field | Value |
 |---|---|
-| **Title** | Founding Proposal — Governance Adoption, Entity Formation, Delegate Ratification, and Transition Authorization |
+| **Title** | Founding Proposal — Single Founding Act of Radix DLT DAO LLC |
 | **Proposal ID** | GP-PRE-1 |
 | **Category** | Constitutional |
 | **Change Classification** | Major |
-| **Author(s)** | Radix Accountability Council (RAC) / Founding Delegates |
+| **Author(s)** | Transition Radix Accountability Council (Transition RAC) |
 | **Submission Date** | [To be confirmed] |
 | **Voting Start (expected)** | [Following the 7-day Temperature Check period] |
 | **Linked Forum Thread** | [To be published with the Temperature Check] |
-| **Administering Working Group** | N/A — Working Groups do not yet exist; RAC administers |
+| **Administering Working Group** | N/A — Working Groups not yet established; Transition RAC administers |
 
 ---
 
 ## 2. Summary
 
-This proposal is the founding act of Radix DLT DAO LLC. It adopts the complete Phase 1 governance framework as formally binding, authorizes the Legal Signatory to file the Certificate of Formation and Operating Agreement with MIDAO Directory Services (Marshall Islands), confirms the founding Delegate roster and function assignments, and activates the Transition Governance Framework — commencing the RAC's Phase 1 transitional authority from the date of entity registration. All four elements are inseparable and constitute the community's mandate to bring the DAO into legal existence. This proposal additionally authorizes a fixed establishment grant to the RAC, enabling operational expenditure for DAO establishment purposes from the date this proposal is accepted without requiring a separate treasury proposal.
+This proposal is the **single founding act** of Radix DLT DAO LLC. It adopts the complete governance framework as formally binding, authorises the Legal Signatory to file the Certificate of Formation and Operating Agreement with MIDAO Directory Services (Marshall Islands), constitutes the Transition RAC for the Transition Period, confirms the founding Delegate roster, and authorises a fixed Establishment Grant to the Transition RAC. All elements are inseparable and constitute the community's mandate to bring the DAO into legal existence.
+
+Following adoption and formation, the full governance framework is operative from the date of registration with MIDAO. Standard on-chain governance proceeds from formation; the Transition RAC operates in parallel under its narrow formation mandate (Operating Agreement Article XIII) until the Permanent RAC is seated through the community-run election.
 
 ---
 
@@ -48,17 +50,19 @@ This proposal creates the legal entity and governance structure from which all f
 
 ## 4. Rationale
 
-The DAO has developed a comprehensive governance framework over an extended drafting and review period. That framework — comprising the Charter, governance policies, legal formation documents, and transition rules — is ready for adoption. What remains is the community's formal mandate to bring it into legal existence.
+The DAO has developed a comprehensive governance framework over an extended drafting and review period. That framework — comprising the Charter, the Operating Agreement, and the operational policy library — is ready for adoption under an OA-first legal structure. What remains is the community's formal mandate to bring it into legal existence.
 
 Without this proposal passing:
 
 * No legal entity exists; the DAO cannot hold assets, enter contracts, or represent itself in any legal capacity
-* The 11 Phase 1 governance documents have no binding force — they are aspirational drafts, not operative rules
+* The governance documents have no binding force — they are aspirational drafts, not operative rules
 * Delegates have no formally ratified authority; their actions have no legal standing on behalf of the community
-* The Transition Governance Framework does not activate; the RAC has no authorized transitional authority
-* The DAO cannot proceed to any post-registration action (BOIR, asset transfer, Working Group establishment)
+* The Transition RAC has no constituted authority to undertake formation activities
+* The DAO cannot proceed to any post-registration action (BOIR, asset transfer, Permanent RAC election)
 
-The four elements in this proposal are voted as a single act because they are genuinely inseparable. Framework adoption without entity formation authorization is meaningless. Entity formation authorization without framework adoption creates a shell entity with no governance. Delegate ratification without framework adoption confers authority with no governing rules. Transition Governance Framework authorization without entity formation has nothing to activate. The community votes on the founding of the DAO as a unified act.
+The elements in this proposal are voted as a single act because they are genuinely inseparable. Framework adoption without entity formation authorisation is meaningless. Entity formation authorisation without framework adoption creates a shell entity with no governance. Delegate and Transition RAC ratification without framework adoption confers authority with no governing rules. The community votes on the founding of the DAO as a unified act.
+
+All governance documents are recognised by and given legal force by the Operating Agreement itself, which is filed at formation. No separate post-registration activation vote is required for the framework to become operative.
 
 ---
 
@@ -70,29 +74,41 @@ The Radix community operates its own on-chain governance through the community-d
 
 ### 5.2 Proposed Change
 
-This proposal enacts four inseparable founding actions:
+This proposal enacts the following inseparable founding actions:
 
 ---
 
 #### Element 1 — Governance Framework Adoption
 
-Formally adopt the following 11 documents as the Phase 1 governance framework of Radix DLT DAO LLC. Upon entity registration, these documents immediately have binding force under Operating Agreement §12.4 as adopted governance policies:
+Formally adopt the following documents as the governance framework of Radix DLT DAO LLC. Upon entity formation, the Operating Agreement is filed with the Registered Agent and becomes the Company's primary legal instrument. The Charter and all listed operational policies become operative as adopted governance documents from the date of formation, with the Charter recognised under OA §12.3 and operational policies adopted under OA §12.4.
+
+**Constitutional documents:**
+
+| Document | Role |
+|---|---|
+| Operating Agreement | Primary legal instrument of the Company |
+| Charter | Governance constitution of the DAO (subordinate to the Operating Agreement) |
+
+**Operational policies — active from formation:**
 
 | Document | Purpose |
 |---|---|
-| Charter | Constitutional authority and 7 founding principles |
 | DAO Parameters Registry | All numerical thresholds, durations, and limits |
 | Proposal & Voting Framework | How decisions are proposed, voted on, and recorded |
 | Execution & Treasury Actions Policy | How approved decisions are executed and funds moved |
 | Emergency & Safeguards Policy | Response to security events and critical failures |
 | Treasury Signers Rules | Operational rules for those executing treasury actions |
-| RAC Mandate | Authority and limits of the Accountability Council |
+| RAC Mandate | Authority and limits of the Permanent RAC |
 | Conflict of Interest Policy | Disclosure and recusal obligations for all role holders |
-| Code of Conduct | Behavioral standards for all DAO participants |
-| Legal Wrapper & Representation | Compliance obligations, UBO/BOIR rules, and regulatory response protocols |
-| Governance Maintenance & Upgrade Framework | Rules for amending, versioning, and classifying governance documents — active from day one to govern any changes to this Phase 1 document set |
+| Code of Conduct | Behavioural standards for all DAO participants |
+| Compliance Operations Policy | Operational compliance practice |
+| Governance Maintenance & Upgrade Framework | Rules for amending, versioning, and classifying governance documents |
+| Working Group Framework | Rules for establishing and operating Working Groups (active from formation; individual WG Charters activate when each WG is established by vote) |
+| Election & Role Governance Policy | Election procedures — required for the Permanent RAC election that ends the Transition Period |
+| Governance Continuity Framework | Continuity and fallback procedures — required from formation |
+| Dispute Resolution & Arbitration Policy | Dispute handling procedures — required from formation |
 
-Note: These documents are adopted as governance framework via GP-PRE-1. Their formal adoption as binding subordinate operational policies of the LLC (per OA §12.4) is the subject of GP-1 (Entity Activation Package), which opens immediately post-registration.
+All listed documents are operative from the date of entity formation. No separate activation vote is required.
 
 ---
 
@@ -115,70 +131,72 @@ The Legal Signatory is authorized to make minor administrative corrections (form
 
 ---
 
-#### Element 3 — Founding Delegate Roster Ratification
+#### Element 3 — Transition RAC Constitution
 
-Confirm the following founding Delegate roster and their function assignments per Operating Agreement Article V. All listed Delegates must have completed KYC Tier 1 verification before this vote opens.
+Constitute the Transition RAC under Operating Agreement Article XIII with the following five members. All members must have completed KYC Tier 1 verification before this vote opens. Upon entity formation, all five are admitted as legal Members of the Company under OA §4.1.
 
-| Delegate | Function(s) | KYC Status |
+| Transition RAC Member | On-chain Address | KYC Status |
 |---|---|---|
-| [Name / on-chain address] | Treasury Signing | [Confirmed / Pending] |
+| [Name 1] | [Address] | [Confirmed / Pending] |
+| [Name 2] | [Address] | [Confirmed / Pending] |
+| [Name 3] | [Address] | [Confirmed / Pending] |
+| [Name 4] | [Address] | [Confirmed / Pending] |
+| [Name 5] | [Address] | [Confirmed / Pending] |
+
+The Transition RAC's mandate is strictly limited to the formation functions in OA §13.3. It is not a general governance authority and may not override decisions made by Governance Participants through the on-chain governance system.
+
+The Transition RAC mandate sunsets automatically upon the seating of the Permanent RAC, elected through the community-run two-stage election conducted under the Election & Role Governance Policy and Charter §8A.
+
+---
+
+#### Element 4 — Founding Delegate Roster
+
+Confirm the following founding Delegate roster and their function assignments per Operating Agreement Article V. The Treasury Signing function is held by the five Transition RAC members during the Transition Period (OA §13.4); non-treasury Delegate functions are allocated as follows. All Delegates must have completed KYC Tier 1 verification before this vote opens.
+
+| Delegate | Function | KYC Status |
+|---|---|---|
 | [Name / on-chain address] | Governance Operations | [Confirmed / Pending] |
 | [Name / on-chain address] | Legal Signatory | [Confirmed / Pending] |
 | [Name / on-chain address] | Compliance Liaison | [Confirmed / Pending] |
 | [Name / on-chain address] | Web2 Custodian | [Confirmed / Pending] |
 
-Note: A single Delegate may hold multiple non-conflicting functions per OA Article V. The DAO Parameters Registry §6A establishes 5 Treasury Signers for Treasury Signing — the exact roster is confirmed here and published to the governance forum before the Temperature Check opens.
+Note: A single Delegate may hold multiple non-conflicting functions per OA Article V, subject to the 2-role maximum in DAO Parameters §6B. Treasury Signing is held by the five Transition RAC members during the Transition Period; following the Permanent RAC election, Treasury Signing is reallocated per OA §13.5 to the elected Treasury Signing Delegates.
 
 If any listed Delegate has not completed KYC by the time the vote opens, their appointment is conditional and does not take effect until KYC is confirmed and published to the governance forum.
 
 ---
 
-#### Element 4 — Transition Governance Framework Authorization
-
-Confirm that the Transition Governance Framework (`Transition/Transition-Governance-Framework.md`) is hereby authorized, and that the RAC's Phase 1 transitional authority (as defined in TGF §5) commences from the date of entity registration.
-
-The scope of transitional authority is as defined in TGF §5.1–5.4:
-
-* Facilitate asset transfer and custody setup
-* Support operational bootstrapping
-* Resolve minor governance ambiguities
-* Coordinate urgent operational decisions (48-hour harm threshold)
-* Act as interim execution body where no Working Group exists (within DAO-approved budgets)
-* Exercise emergency authority per Emergency & Safeguards Policy
-
-This authority is subject to the explicit limitations in TGF §6, expires after 12 months per TGF §11, and is fully subject to community challenge and override under TGF §6.2.
-
----
-
 #### Element 5 — Establishment Grant Authorization
 
-Authorize a fixed establishment grant of [ESTABLISHMENT GRANT AMOUNT] USDC to the RAC, effective from the date this proposal is accepted by token holder vote.
+Authorise a fixed Establishment Grant of [ESTABLISHMENT GRANT AMOUNT] USDC to the Transition RAC, effective from the date this proposal is accepted by Governance Participant vote.
 
-The RAC may disburse these funds at its discretion for DAO establishment purposes, including:
+The Transition RAC may disburse these funds at its discretion for DAO establishment purposes, including:
 
 - Legal formation costs and Registered Agent fees
 - Compliance filings and legal counsel
 - Initial infrastructure, tooling, and operational setup
-- Ongoing minor operational expenses during Phase 1 (filing fees, minor subscriptions, tooling renewals, postage, and similar out-of-pocket costs), subject to the Phase 1 operational sub-cap defined below
+- Ongoing minor operational expenses during the Transition Period (filing fees, minor subscriptions, tooling renewals, postage, and similar out-of-pocket costs), subject to the operational sub-cap defined below
 
 Terms:
 
-- RAC may pay providers directly without a per-transaction governance vote
+- Transition RAC may pay providers directly without a per-transaction governance vote
 - The grant is one-time and non-renewable; any continuation requires a standard Treasury & Budget proposal
-- RAC members may not direct establishment funds to themselves; any personal expense recovery must appear as a named line item in the spending report
-- RAC must publish a consolidated spending report to the governance forum within **90 days of the DAO's legal formation date**, listing all disbursements, recipients, purposes, and amounts
+- Transition RAC members may not direct establishment funds to themselves; any personal expense recovery must appear as a named line item in the spending report
+- Transition RAC must publish a consolidated spending report to the governance forum within **90 days of the DAO's legal formation date**, listing all disbursements, recipients, purposes, and amounts
 
-**Phase 1 Operational Expenses Sub-Cap**
+**Transition Period Operational Expenses Sub-Cap**
 
 Of the total grant, no more than [OPERATIONAL SUB-CAP] USDC may be used for ongoing operational expenses (as distinct from one-time formation costs). Within this sub-cap, disbursements are subject to a monthly ceiling of [MONTHLY OPERATIONAL CAP] USDC. Unused monthly ceiling does not roll over.
 
 Additional conditions for this category:
 
-- Each disbursement requires a simple majority RAC vote before commitment
+- Each disbursement requires a simple majority Transition RAC vote before commitment
 - Supporting documentation (invoice, receipt, or equivalent) must be retained
 - All disbursements must be disclosed to the governance forum within 72 hours, including amount, payee, purpose, and vote record
-- RAC members may not direct operational funds to themselves (consistent with the personal expense restriction above)
+- Transition RAC members may not direct operational funds to themselves (consistent with the personal expense restriction above)
 - Operational expense disbursements are included in the consolidated spending report
+
+Upon the Permanent RAC's seating, any unspent Establishment Grant funds remain in the Company treasury and are subject to standard treasury governance.
 
 ---
 
@@ -187,22 +205,23 @@ Additional conditions for this category:
 | Document | Change |
 |---|---|
 | Certificate of Formation | New document — executed and filed with MIDAO upon vote passage |
-| Operating Agreement | New document — executed and filed with MIDAO upon vote passage |
-| All 11 Phase 1 governance documents | Status changes from "draft" to "adopted governance framework" |
-| Transition Governance Framework | Status changes from "draft" to "authorized and active from registration date" |
+| Operating Agreement | New document — executed and filed with MIDAO upon vote passage; becomes Company's primary legal instrument upon filing |
+| Charter | Status changes from "draft" to "adopted governance constitution" upon entity formation |
+| Operational policies (full list in §5.2 Element 1) | Status changes from "draft" to "operational policy adopted under OA §12.4" upon entity formation |
 
 ---
 
 ## 6. Expected Outcomes
 
-* All 11 Phase 1 governance documents are formally adopted and govern DAO operations from the date of entity registration
-* Legal Signatory files Certificate of Formation with MIDAO on the business day following vote passage
+* The complete governance framework is operative from the date of entity registration
+* Legal Signatory files Certificate of Formation and Operating Agreement with MIDAO on the business day following vote passage
 * Radix DLT DAO LLC comes into legal existence as a Marshall Islands Non-Profit DAO LLC
-* Formation confirmation published to governance forum within 72 hours of registration, including: entity name, formation date, Registered Agent confirmation, Delegate Roster, multi-sig wallet address
-* Founding Delegate roster is publicly ratified and confirmed; KYC-completing Delegates assume their functions
-* RAC Phase 1 transitional authority is formally authorized by token holder vote; commences from registration date
-* DAO can proceed to the first post-registration proposal (GP-1) immediately upon registration
-* Establishment grant of [ESTABLISHMENT GRANT AMOUNT] USDC is available to RAC from the date this proposal is accepted; consolidated spending report published within 90 days of legal formation
+* Formation confirmation published to governance forum within 72 hours of registration, including: entity name, formation date, Registered Agent confirmation, Transition RAC roster, Delegate roster, multi-sig wallet address
+* Transition RAC is constituted with five members admitted as legal Members; Delegate roster publicly ratified
+* Transition RAC's narrow formation mandate (OA §13.3) commences from registration date
+* Standard on-chain governance is operative from registration in parallel with the Transition RAC's formation work
+* Establishment Grant of [ESTABLISHMENT GRANT AMOUNT] USDC is available to Transition RAC from the date this proposal is accepted; consolidated spending report published within 90 days of legal formation
+* Permanent RAC election is run during the Transition Period under the Election & Role Governance Policy; upon Permanent RAC seating, Transition RAC mandate sunsets and Transition Period ends
 
 ---
 
@@ -211,13 +230,13 @@ Additional conditions for this category:
 | Risk | Likelihood | Impact | Mitigation |
 |---|---|---|---|
 | Vote fails to meet 66% threshold | Medium | High | Extended TC period (7 days) surfaces objections early; address during TC before vote opens |
-| Vote fails to meet 10% quorum | Medium | High | Community education and mobilization campaign during TC; outreach to large token holders |
-| Delegate KYC incomplete by vote | Low | Medium | KYC must be initiated immediately upon RAC election; SumSub expedited processing available; conditional appointment mechanism handles late completion |
-| Consultation V2 identifiers not confirmed before TC opens | Low | High | Governance Operator retrieves identifiers immediately upon RAC election; blockers escalate to RAC immediately |
+| Vote fails to meet 10% quorum | Medium | High | Community education and mobilization campaign during TC; outreach to large Governance Participants |
+| Delegate KYC incomplete by vote | Low | Medium | KYC must be initiated immediately upon RAC ratification; SumSub expedited processing available; conditional appointment mechanism handles late completion |
+| Consultation V2 identifiers not confirmed before TC opens | Low | High | Governance Operator retrieves identifiers; blockers escalate to Transition RAC immediately |
 | Contentious delegate appointment | Medium | Medium | Community discussion during TC; if specific appointment is contested, that seat may be left vacant pending a follow-on confirmation vote (does not block entity formation) |
 | MIDAO processing delay post-vote | Low | Low | Engage MIDAO and confirm processing time before the TC opens; pre-submit administrative checklist |
-| Community concerns about RAC transitional authority scope | Medium | Low | TGF §6 explicit limitations published prominently; challenge mechanism (TGF §6.2) clearly communicated |
-| Establishment grant overspent or misused | Low | Medium | Grant is fixed and one-time; RAC members cannot pay themselves; consolidated spending report published within 90 days and subject to community scrutiny |
+| Community concerns about Transition RAC authority scope | Medium | Low | Operating Agreement §13.3 narrow mandate published prominently; standard governance challenge mechanisms apply throughout the Transition Period |
+| Establishment grant overspent or misused | Low | Medium | Grant is fixed and one-time; Transition RAC members cannot pay themselves; consolidated spending report published within 90 days and subject to community scrutiny |
 
 ---
 
@@ -228,11 +247,11 @@ Additional conditions for this category:
 | Field | Value |
 |---|---|
 | Grant amount | [ESTABLISHMENT GRANT AMOUNT] USDC |
-| Recipient | Radix Accountability Council (RAC) |
-| Cost model | Fixed grant — RAC discretion within approved scope |
-| Purpose | Legal formation, compliance, initial infrastructure, tooling, and ongoing minor operational expenses during Phase 1 (sub-capped) |
-| Phase 1 Operational Sub-Cap | [OPERATIONAL SUB-CAP] USDC total; [MONTHLY OPERATIONAL CAP] USDC/month ceiling; unused monthly ceiling lapses |
-| Authorization | Effective from date this proposal is accepted by token holder vote |
+| Recipient | Transition RAC |
+| Cost model | Fixed grant — Transition RAC discretion within approved scope |
+| Purpose | Legal formation, compliance, initial infrastructure, tooling, and ongoing minor operational expenses during the Transition Period (sub-capped) |
+| Transition Period Operational Sub-Cap | [OPERATIONAL SUB-CAP] USDC total; [MONTHLY OPERATIONAL CAP] USDC/month ceiling; unused monthly ceiling lapses |
+| Authorization | Effective from date this proposal is accepted by Governance Participant vote |
 | Reporting | Consolidated spending report within 90 days of legal formation |
 
 ---
@@ -243,30 +262,31 @@ Additional conditions for this category:
 
 | Step | Action | Responsible Party | Target Date |
 |---|---|---|---|
-| 1 | Vote passes (≥66% YES, ≥10% quorum) | Token holders | Upon vote close |
+| 1 | Vote passes (≥66% YES, ≥10% quorum) | Governance Participants | Upon vote close |
 | 2 | Legal Signatory executes Certificate of Formation and Operating Agreement | Legal Signatory | Business week following vote close |
 | 3 | Legal Signatory files formation documents with MIDAO Directory Services | Legal Signatory | Business week following vote close |
 | 4 | Registered Agent confirms entity registration | MIDAO Directory Services | Upon filing |
-| 5 | Formation confirmation published to governance forum | RAC / Legal Signatory | Within 72 hours of registration |
-| 6 | Delegate Roster, multi-sig wallet address, and KYC confirmations published | RAC | Within 72 hours of registration |
-| 7 | Transition Governance Framework formally active | RAC (records on forum) | Upon registration |
-| 7a | Establishment grant made available to RAC | Treasury Signers | Upon proposal acceptance |
-| 8 | GP-1 TC opens | Governance Operator | Business day following published formation confirmation |
+| 5 | Formation confirmation published to governance forum | Transition RAC / Legal Signatory | Within 72 hours of registration |
+| 6 | Transition RAC roster, Delegate roster, multi-sig wallet address, and KYC confirmations published | Transition RAC | Within 72 hours of registration |
+| 7 | Establishment Grant made available to Transition RAC | Treasury Signers | Upon proposal acceptance |
+| 8 | Permanent RAC election launched (Nomination & Discussion Window opens) | Transition RAC / Governance Operator | Within first half of Transition Period |
+| 9 | Permanent RAC seated; Transition RAC mandate sunsets | Governance Participants (election) | Endpoint of Transition Period |
 
 ### 9.2 Success Metrics
 
 * Radix DLT DAO LLC appears in Marshall Islands entity registry
 * Formation documents executed and filed; Registered Agent confirms
 * Formation confirmation post published to governance forum with all required information
-* Delegate functions logged on-chain and published
-* GP-1 TC opens within one business day of registration
+* Transition RAC and Delegate functions logged on-chain and published
+* Permanent RAC election conducted and Permanent RAC seated within the Transition Period
+* All governance documents operative from formation
 
 ### 9.3 Reporting Obligations
 
 * Formation confirmation published within 72 hours of registration (one-time)
 * Any KYC conditional appointments resolved and published within 14 days of entity registration
-* RAC publishes first quarterly delegation status report within 90 days of registration (TGF §9)
-* RAC publishes consolidated establishment grant spending report within 90 days of legal formation, listing all disbursements, recipients, purposes, and amounts
+* Transition RAC publishes accountability reports per Charter §8A.1 (72-hour reporting of actions)
+* Transition RAC publishes consolidated Establishment Grant spending report within 90 days of legal formation, listing all disbursements, recipients, purposes, and amounts
 
 ---
 
@@ -289,9 +309,8 @@ No RAC member may be the sole drafter of the Delegate roster without community r
 
 **Known dependencies:**
 
-* **GP-PRE-1 → GP-1:** GP-1 (Entity Activation Package) depends on this proposal passing. If GP-PRE-1 fails, the 7-day cooldown applies before resubmission.
 * **Consultation V2 identifiers:** The exact values of `packageAddress`, `componentAddress`, and `adminBadgeAddress` must be confirmed and inserted into the Certificate of Formation and Operating Agreement before this proposal is formally submitted. The placeholders in §5.2 Element 2 are resolved before the TC opens.
-* **Governance system continuity:** GP-PRE-1 runs on the community's Consultation V2 deployment — the same system used for all proposals before and after registration. What changes at registration is not the tool but the legal standing: from registration onward, votes are acts of the legal entity Radix DLT DAO LLC, governed by the DAO's own Proposal & Voting Framework.
+* **Governance system continuity:** GP-PRE-1 runs on the community's Consultation V2 deployment — the same system used for all proposals before and after registration. What changes at registration is not the tool but the legal standing: from registration onward, on-chain governance outcomes constitute legally binding decisions of Radix DLT DAO LLC under Operating Agreement §4.3.
 
 ---
 
@@ -299,22 +318,21 @@ No RAC member may be the sole drafter of the Delegate roster without community r
 
 | Document | Relevance |
 |---|---|
-| `Transition/Activation-Roadmap-Optimised.md` | Phase 1 sequencing and timing; GP-PRE-1 definition |
-| `Transition/Transition-Governance-Framework.md` | TGF §3.1 (11 Phase 1 documents), §5 (RAC transitional authority), §6 (limitations), §11 (expiry) |
-| `Legal/Formation/Certificate-of-Formation.md` | Formation document authorized for filing by Element 2 |
-| `Legal/Formation/Operating-Agreement.md` | Operating agreement authorized for filing by Element 2; §1.4 (smart contract identifiers), Article V (Delegate functions), §12.4 (policy adoption) |
-| `Charter/charter.md` | Constitutional authority; highest governing document |
-| `Parameters/DAO-Parameters-Registry.md` | §6A (Treasury Signers parameters — 5 signers, 3-of-5 / 4-of-5 thresholds) |
-| `Governance-Processes/Roles/RAC-Mandate.md` | RAC authority and limitations; conflict of interest rules |
-| `governance/legal-wrapper-and-representation.md` | Compliance obligations, UBO/BOIR rules, and regulatory response protocols |
+| `legal/certificate-of-formation.md` | Formation document authorised for filing by Element 2 |
+| `legal/operating-agreement.md` | Primary legal instrument authorised for filing by Element 2; Article IV (Membership and Governance Participation), Article V (Delegate functions), Article XIII (Transition Period and Transition RAC), §12.5 (document hierarchy) |
+| `constitutional/charter.md` | Governance constitution; §8A (transition governance and Permanent RAC framework) |
+| `parameters/dao-parameters-registry.md` | §6A (Treasury Signers parameters — 5 signers, 3-of-5 / 4-of-5 thresholds), §6B (Elections & Roles parameters) |
+| `governance/rac-mandate.md` | Permanent RAC authority and limitations |
+| `governance/compliance-operations-policy.md` | Operational compliance practice |
+| `governance/treasury-signers-rules.md` | Treasury Signer operational rules including custody standards |
 
 ---
 
 ## 13. Voting Options
 
-Token holders will vote on this proposal with the following options:
+Governance Participants will vote on this proposal with the following options:
 
-- **YES** — Approve the founding act as written: adopt the governance framework, authorize entity formation, ratify the Delegate roster, and activate the Transition Governance Framework.
+- **YES** — Approve the founding act as written: adopt the Operating Agreement, Charter, and operational policy library; authorise entity formation; constitute the Transition RAC; ratify the Delegate roster; authorise the Establishment Grant.
 - **NO** — Reject the proposal. Entity formation does not proceed. The 7-day cooldown period applies before resubmission.
 - **ABSTAIN** — Participate in quorum without expressing a directional preference.
 

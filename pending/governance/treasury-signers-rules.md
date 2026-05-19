@@ -164,6 +164,35 @@ No signer may act unilaterally where multi-signature approval is required.
 
 ---
 
+## 10A. Custody and Asset Control Standards
+
+### 10A.1 Account Architecture
+
+Treasury assets are held in the multi-signature account identified in **Operating Agreement §1.4**. The signing threshold structure is defined in **DAO Parameters §6A** (3-of-5 standard, 4-of-5 high-risk).
+
+The Company may, by Governance Proposal, segment treasury assets across multiple accounts (e.g., operational treasury, reserve treasury, grants pool) provided each account remains subject to multi-signature control and the same threshold structure. Account segmentation must be recorded with the Registered Agent under Operating Agreement §1.4.
+
+### 10A.2 Annual Treasury Audit
+
+The Company shall undergo an annual independent treasury audit as defined in **DAO Parameters §6.2**. The Permanent RAC is responsible for defining audit scope, selecting the auditor by Governance Proposal, and ensuring the auditor has access to sufficient treasury records and on-chain transaction history (see **RAC Mandate §12**).
+
+### 10A.3 Custody Provider Selection
+
+Where the multisig is operated through a third-party custody platform or service, selection and changes to the provider require Governance Proposal approval. The Treasury Signers may evaluate providers and bring recommendations to governance, but may not unilaterally change the custody provider.
+
+### 10A.4 Key Management Standards
+
+Treasury Signers must maintain:
+
+* Hardware-backed key storage where technically feasible
+* Documented key generation and backup procedures
+* Recovery procedures that do not introduce single points of failure
+* Logged participation in key rotation reviews (every 6 months per DAO Parameters §6A)
+
+Specific key management procedures may remain confidential where necessary for operational security, consistent with the **Compliance Operations Policy §3**.
+
+---
+
 ## 11. Separation of Duties
 
 Where possible:
@@ -282,13 +311,14 @@ Failure to comply with these rules may result in:
 
 These rules operate alongside:
 
+* Operating Agreement (Articles V, VII, XIII)
 * Charter
-* Legal Wrapper & Representation
+* Compliance Operations Policy
 * Execution & Treasury Actions Policy
 * Emergency & Safeguards Policy
 * DAO Parameters Registry
 
-If a conflict arises, the Charter and approved governance decisions prevail.
+If a conflict arises, the Operating Agreement prevails, followed by the Charter, then approved governance decisions (see Operating Agreement §12.5).
 
 These rules are governed by the laws of the Republic of the Marshall Islands (Operating Agreement §11.2). Disputes arising under these rules are subject to the dispute resolution procedure in Operating Agreement §11.1.
 

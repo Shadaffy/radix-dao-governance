@@ -6,9 +6,9 @@
 
 This document defines the behavioral standards expected of all participants in the Radix DAO, including:
 
-* Token holders participating in governance
+* Governance Participants (token holders participating in governance)
 * Working Group members and contributors
-* Elected and appointed role-holders (RAC members, Treasury Signers, WG Leads)
+* Elected and appointed role-holders (RAC members, Delegates, Treasury Signers, WG Leads)
 * Contractors and vendors acting on behalf of the DAO
 * Any person participating in DAO-affiliated forums, channels, or events
 
@@ -53,7 +53,7 @@ All participants must:
 
 All participants must:
 
-* Disclose relevant affiliations, financial interests, or conflicts when participating in governance decisions in a decision-making role — mandatory disclosure obligations and their scope are defined in the **Conflict of Interest Policy §2**; token holders exercising ordinary voting rights are encouraged but not required to disclose
+* Disclose relevant affiliations, financial interests, or conflicts when participating in governance decisions in a decision-making role — mandatory disclosure obligations and their scope are defined in the **Conflict of Interest Policy §2**; Governance Participants exercising ordinary voting rights are encouraged but not required to disclose
 * Accept the applicable KYC/AML compliance process before receiving any grant, compensation, or other disbursement from the DAO (see **Contributor Compensation Policy §3.5** and **Grant Program Policy §4**)
 * Not impersonate other participants or misrepresent their identity or role
 * Not act under multiple identities (Sybil behavior) to artificially amplify influence
@@ -167,9 +167,9 @@ Sanctions are proportionate to the severity and circumstances of the violation. 
 
 The practical enforceability of sanctions depends on whether the sanctioned participant has completed KYC verification:
 
-* **KYC-verified participants** (compensated contributors, grant recipients, UBO token holders): Sanctions are bound to the participant's verified identity and are not limited to specific wallet addresses or pseudonyms. A sanctioned individual may not circumvent a suspension or exclusion by operating under a different wallet or account. Any future KYC verification submitted by a sanctioned individual will be cross-checked against the sanctions record.
+* **KYC-verified participants** (compensated contributors, grant recipients, UBO Governance Participants): Sanctions are bound to the participant's verified identity and are not limited to specific wallet addresses or pseudonyms. A sanctioned individual may not circumvent a suspension or exclusion by operating under a different wallet or account. Any future KYC verification submitted by a sanctioned individual will be cross-checked against the sanctions record.
 
-* **Non-KYC participants** (ordinary token holders operating pseudonymously): Sanctions are wallet- and account-based. The DAO acknowledges this limits enforceability. Where serious sanctions are imposed on a pseudonymous participant, the RAC may require KYC verification as a condition of any future grant application, compensated engagement, or formal governance role, effectively making KYC the gateway to continued participation beyond ordinary token voting.
+* **Non-KYC participants** (ordinary Governance Participants operating pseudonymously): Sanctions are wallet- and account-based. The DAO acknowledges this limits enforceability. Where serious sanctions are imposed on a pseudonymous participant, the RAC may require KYC verification as a condition of any future grant application, compensated engagement, or formal governance role, effectively making KYC the gateway to continued participation beyond ordinary token voting.
 
 The RAC maintains a sanctions record alongside the KYC register. KYC providers engaged by the DAO must be instructed to flag applicants appearing on the sanctions record.
 
@@ -182,7 +182,7 @@ Any participant subject to a sanction may appeal the determination by:
 * Submitting a written appeal to the RAC within **14 days** of the finding
 * Requesting that the appeal be reviewed by a panel that excludes any RAC members involved in the original finding
 
-If the RAC is unable to form an impartial panel, the appeal may be escalated to a community governance vote. Once the Dispute Resolution & Arbitration Policy is active, that policy governs escalation; until then, escalation uses the Transition Governance Framework §6.2.
+If the RAC is unable to form an impartial panel, the appeal may be escalated to a community governance vote under the **Dispute Resolution & Arbitration Policy**.
 
 ---
 

@@ -8,7 +8,7 @@
 >
 > **Maintained by:** Compliance Liaison Delegate
 >
-> **Confidentiality:** This report is maintained confidentially with the Registered Agent and is not published to the DAO community. The existence of beneficial ownership records and the fact of KYC completion may be disclosed as required by law. (Legal Wrapper §3.3)
+> **Confidentiality:** This report is maintained confidentially with the Registered Agent and is not published to the DAO community. The existence of beneficial ownership records and the fact of KYC completion may be disclosed as required by law. (Compliance Operations Policy §2.3)
 >
 > **Warning:** Submission of false beneficial ownership information is unlawful under DAO Act §712(4) and may result in civil and criminal penalties.
 
@@ -26,16 +26,17 @@
 
 **Who must be reported (§712, §702(r)):**
 
-Report **both** of the following categories. At least one record must always be present:
+Report **all** of the following categories. At least one record must always be present:
 
-1. **UBO Members** — any Member (token holder) holding 25% or more of total eligible voting power (Legal Wrapper §3)
-2. **Delegates** — all Members currently holding a Delegated Function under Operating Agreement §5.3, regardless of voting power. Delegates always qualify as beneficial owners because they hold "actual, effective, or sufficient responsibility or control" within the meaning of §702(r).
+1. **UBO Governance Participants** — any Governance Participant (whether or not also a Member) holding 25% or more of total eligible voting power (Operating Agreement §4.6; Compliance Operations Policy §2)
+2. **Delegates** — all persons currently holding a Delegated Function under Operating Agreement §5.3, regardless of voting power. Delegates always qualify as beneficial owners because they hold "actual, effective, or sufficient responsibility or control" within the meaning of §702(r).
+3. **RAC Members** — during the Transition Period, all five Transition RAC members (who hold legal Membership under Operating Agreement §4.1 and act as the formation authority); following the Transition Period, all Permanent RAC members (who hold legal Membership under Operating Agreement §4.1).
 
-> **Note:** In a distributed token governance system, it is expected that no token holder will typically reach the 25% UBO threshold. In that case, the Delegate roster constitutes the complete BOIR. The report must still be filed — a nil return (no reportable beneficial owners) is not permissible; Delegates are always reportable.
+> **Note:** In a distributed token governance system, it is expected that no Governance Participant will typically reach the 25% UBO threshold. In that case, the Delegate roster and RAC roster together constitute the complete BOIR. The report must still be filed — a nil return (no reportable beneficial owners) is not permissible; Delegates and RAC members are always reportable.
 
 **KYC verification:**
 
-All persons listed in this report must have completed KYC verification through the DAO's designated KYC provider (currently: SumSub) before being listed. KYC must be reverified annually in January as required by MIDAO. Do not list any person whose KYC is expired or unverified.
+All persons listed in this report must have completed KYC verification through the DAO's designated KYC provider (currently: SumSub) before being listed. KYC must be reverified annually in January as required by MIDAO. Do not list any person whose KYC is expired or unverified. KYC tier obligations are defined in Operating Agreement §8.2.
 
 **Record retention:**
 
@@ -69,13 +70,13 @@ Retain a copy of each filed BOIR and supporting KYC records for a minimum of **5
 
 ---
 
-## Section 3 — Beneficial Member Records
+## Section 3 — Beneficial Owner Records
 
 Complete one record per reportable person. Attach additional pages if needed.
 
 ---
 
-### Record [N] — Beneficial Member
+### Record [N] — Beneficial Owner
 
 | Field | Value |
 |---|---|
@@ -92,8 +93,9 @@ Complete one record per reportable person. Attach additional pages if needed.
 
 **Basis for inclusion** (tick all that apply):
 
-☐ UBO Member — holds ≥25% of total eligible voting power
+☐ UBO Governance Participant — holds ≥25% of total eligible voting power
 ☐ Delegate — holds a Delegated Function under Operating Agreement §5.3 (actual/effective control)
+☐ RAC member — holds legal Membership under Operating Agreement §4.1 by virtue of serving on the Transition RAC or Permanent RAC
 
 **Delegated Function(s) held** (if Delegate):
 
@@ -110,7 +112,7 @@ Complete one record per reportable person. Attach additional pages if needed.
 | | |
 | | |
 
-**If UBO Member — voting power at time of filing:**
+**If UBO Governance Participant — voting power at time of filing:**
 
 | Field | Value |
 |---|---|
@@ -146,9 +148,9 @@ Complete this roster for all current Delegates regardless of whether each appear
 
 ## Section 5 — UBO Threshold Monitoring Log
 
-Record any Members who crossed, approached, or fell below the 25% UBO threshold during the reporting period. Entries are required regardless of whether KYC was completed.
+Record any Governance Participants who crossed, approached, or fell below the 25% UBO threshold during the reporting period. Entries are required regardless of whether KYC was completed.
 
-| Member Wallet (pseudonymous if unverified) | Event | Date | Approx. Voting Power | KYC Completed | Action Taken |
+| Wallet (pseudonymous if unverified) | Event | Date | Approx. Voting Power | KYC Completed | Action Taken |
 |---|---|---|---|---|---|
 | | Crossed 25% threshold | | | ☐ Yes ☐ No | |
 | | Fell below 25% threshold | | | — | |
@@ -156,7 +158,7 @@ Record any Members who crossed, approached, or fell below the 25% UBO threshold 
 
 If no threshold events occurred during the reporting period, state:
 
-> **"No Member crossed or approached the 25% UBO threshold during the reporting period [Year]. Monitoring was conducted by the Compliance Liaison on a [frequency] basis."**
+> **"No Governance Participant crossed or approached the 25% UBO threshold during the reporting period [Year]. Monitoring was conducted by the Compliance Liaison on a [frequency] basis."**
 
 ---
 
@@ -168,8 +170,10 @@ If no threshold events occurred during the reporting period, state:
 |---|---|---|---|
 | New Delegate elected | | | GP No.: |
 | Delegate removed / resigned | | | |
-| New UBO Member identified | | | |
-| UBO Member fell below threshold | | | |
+| New RAC member elected | | | GP No.: |
+| RAC member removed / resigned | | | |
+| New UBO Governance Participant identified | | | |
+| UBO Governance Participant fell below threshold | | | |
 | KYC expired and reverified | | | |
 | Name / address change | | | |
 | Passport renewal | | | |
@@ -226,7 +230,8 @@ Complete before filing.
 | Item | Confirmed |
 |---|---|
 | All Delegates listed in Section 3 with full details | ☐ |
-| All UBO Members (≥25%) listed in Section 3 | ☐ |
+| All RAC members (Transition or Permanent) listed in Section 3 with full details | ☐ |
+| All UBO Governance Participants (≥25%) listed in Section 3 | ☐ |
 | All Section 3 persons have current, verified KYC | ☐ |
 | Section 4 Delegate roster matches current GP election records | ☐ |
 | Exactly 5 Treasury Signers listed and KYC verified | ☐ |

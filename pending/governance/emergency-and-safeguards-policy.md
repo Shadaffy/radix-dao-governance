@@ -46,7 +46,7 @@ An emergency is a situation where immediate action is required to prevent:
 
 The Accountability Council (RAC) is authorized to act during emergencies.
 
-When the RAC cannot meet quorum due to deaths or incapacitations, the fallback chain defined in the Governance Continuity Framework §4.1 applies: surviving RAC members (Tier 1), then the Governance & Legal WG (Tier 2), then token holders (Tier 3). Fallback authority is strictly scoped to activation and appointment actions — it does not extend to the full emergency powers held by a functioning RAC.
+When the RAC cannot meet quorum due to deaths or incapacitations, the fallback chain defined in the Governance Continuity Framework §4.1 applies: surviving RAC members (Tier 1), then the Governance & Legal WG (Tier 2), then Governance Participants (Tier 3). Fallback authority is strictly scoped to activation and appointment actions — it does not extend to the full emergency powers held by a functioning RAC.
 
 ---
 
@@ -218,8 +218,8 @@ Must be:
 
 If the RAC fails to act within the emergency response window (DAO Parameters §10):
 
-1. Any token holder may file a Governance Process proposal to initiate emergency governance procedures and compel a response.
-2. The Governance Continuity Framework fallback chain (§4.1) activates, allowing surviving RAC members, then the Governance & Legal WG, then token holders to perform the minimum actions required to stabilize the situation.
+1. Any Governance Participant may file a Governance Process proposal to initiate emergency governance procedures and compel a response.
+2. The Governance Continuity Framework fallback chain (§4.1) activates, allowing surviving RAC members, then the Governance & Legal WG, then Governance Participants to perform the minimum actions required to stabilize the situation.
 3. Any RAC member's failure to act during a declared emergency is treated as misconduct and subject to review under the **Code of Conduct §6** and potential removal under **RAC Mandate §9**.
 
 ---
