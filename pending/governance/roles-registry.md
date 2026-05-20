@@ -74,8 +74,11 @@ The Transition RAC is a temporary implementation authority constituted for the l
 
 Transition RAC members hold legal Membership in the LLC under OA §4.1(a) during the Transition Period.
 
+Under **OA §13.2**, Transition RAC members hold the Treasury Signing Delegated Function (§5.3(a)) per §13.4 and are treated as Delegates in respect of that function for the purposes of Article V (KYC, conflict disclosure, standard of conduct), §10.3 (Emergency Amendments — written consent of the Delegates), and the indemnification provisions of §11.3 and §5.4. Article XIII-specific procedures — including the §13.3A decision rule and the §13.5 sunset and handover — prevail over the corresponding Delegate procedures in Article V.
+
 **Defined In**
 - Operating Agreement Article XIII (constitution, mandate, internal process, treasury authority, sunset)
+- Operating Agreement §13.2 (treated as Delegates for Article V purposes)
 
 **Appointment**
 Ratified by GP-PRE-1 (founding proposal) as five named persons. All must complete KYC Tier 1 verification before the founding vote opens.
@@ -105,7 +108,7 @@ Subject to CoI Policy §2–4 and the heightened RAC obligations in CoI Policy �
 **Authority & Scope**
 The Permanent RAC is the standing governance-process oversight body — guardian of process, not a decision-making authority. It may: verify proposal compliance, formally determine vote outcomes, trigger emergency procedures, flag violations, instruct signers to execute under the forced-execution backstop, and receive regulatory escalations. It may not override valid governance decisions, make unilateral strategic decisions, or block proposals without grounds. It is not, unless expressly stated, a general executive, treasury-management, or policy-making authority (RAC Mandate §1–4; Charter §8).
 
-Permanent RAC members hold legal Membership in the LLC under OA §4.1(a) for the duration of their seat. A Permanent RAC member may simultaneously hold a Delegate function under OA Article V, subject to the 2-role maximum in DAO Parameters §6B and the recusal obligations of the Conflict of Interest Policy.
+Permanent RAC members hold legal Membership in the LLC under OA §4.1(a) for the duration of their seat. A Permanent RAC member may simultaneously hold a Delegate function under OA Article V. At small DAO scale this is the default expected model; as the DAO grows and additional capacity becomes available, separation between RAC oversight and Delegate execution is preferred. Both configurations are valid and the choice is made by Governance Proposal when the Delegate roster is established (OA §5.2). The 2-role maximum in DAO Parameters §6B and the recusal obligations of the Conflict of Interest Policy apply in either configuration.
 
 **Defined In**
 - RAC Mandate §1–12 (primary definition, authority, limitations)
@@ -130,7 +133,7 @@ DAO vote at any time (RAC Mandate §9). Emergency suspension possible under Emer
 - Elections & Role Governance Policy — composition, eligibility, nomination, election procedure
 - Emergency & Safeguards Policy §5–6 — RAC emergency authority and thresholds
 - Proposal & Voting Framework §6.5 — result determination procedure
-- DAO Parameters §5.1 — composition (3–7 members, 6-month term)
+- DAO Parameters §5.1 — composition (5–7 members, minimum 5; 6-month term; adjustable by Governance Process proposal)
 - DAO Parameters §5.2 — emergency thresholds (≥2/3 quorum, ≥75% approval)
 - DAO Parameters §6B — term, renewal, removal thresholds
 - Conflict of Interest Policy §8 — heightened obligations for RAC members
@@ -144,6 +147,16 @@ Subject to heightened obligations (CoI Policy §8):
 - Must declare transaction-level conflicts before each relevant determination (CoI Policy §4.3)
 - Must recuse from any matter where they have a material conflict (CoI Policy §5)
 - If a majority of RAC members are conflicted on a matter, it escalates to community governance vote (CoI Policy §8)
+
+---
+
+### About the Delegate Rows (§2.4–§2.8)
+
+The five entries below are **Delegated Functions** defined in OA §5.3, not necessarily five distinct persons. Under OA §5.2 and **Conflict of Interest Policy §3.5** (Delegated Function Consolidation), a single Delegate may hold multiple Delegated Functions, provided the structural-conflict safeguards in CoI §3.5 are observed for the combinations identified there (Compliance Liaison + Treasury Signing; Governance Operator + Treasury Signing; Legal Signatory + Treasury Signing).
+
+For the role-concentration cap in **DAO Parameters §6B**, a Delegate counts as **one seat** regardless of how many Delegated Functions the Delegate holds.
+
+The total number of elected Delegates is set per election by Governance Proposal within the bounds of **DAO Parameters §6B** (Delegate Count Minimum = 5, Maximum = 12). The minimum may not fall below the number required to staff the Treasury Signing roster under §6A: exactly 5 Delegates must hold Treasury Signing (OA §5.2). Where the total Delegate count exceeds 5, the additional Delegates hold non-Treasury functions only.
 
 ---
 
@@ -178,9 +191,11 @@ DAO vote at any time (Treasury Signers Rules §7). Immediate emergency suspensio
 - Code of Conduct §3–6 — behavioral standards
 - Operating Agreement §8.2 — KYC requirement before assuming function
 - Operating Agreement §11.3 — indemnification (see also Treasury Signers Rules §19A)
+- Elections & Role Governance Policy §11 — vacancy handling and replacement election procedure
+- Governance Continuity Framework §4.2 — Signer Failure procedures and interim coverage (prevails over OA §5.5 where a vacancy creates immediate operational risk, e.g., signer count falling below execution quorum)
 
 **Conflict of Interest & Disclosure**
-Subject to CoI Policy §2–4. In addition, an execution-specific rule applies: a signer must not approve execution of a payment or agreement that directly benefits them; they must recuse, disclose, and ensure another signer executes (Treasury Signers Rules §14).
+Subject to CoI Policy §2–4. In addition, an execution-specific rule applies: a signer must not approve execution of a payment or agreement that directly benefits them; they must recuse, disclose, and ensure another signer executes (Treasury Signers Rules §14). Where the same Delegate also holds Compliance Liaison, Governance Operator, or Legal Signatory functions, the structural-conflict safeguards in **CoI Policy §3.5** (Delegated Function Consolidation) apply.
 
 ---
 
@@ -205,11 +220,12 @@ DAO vote at any time (OA §5.5).
 - Operating Agreement Art V — Delegate structure, standard of conduct (§5.6), removal (§5.5)
 - Proposal & Voting Framework — TC elevation, GP administration
 - DAO Parameters §3–3.5 — governance parameter values maintained by this role
+- Elections & Role Governance Policy §11 — vacancy handling and replacement election procedure
 - Conflict of Interest Policy §2–4 — disclosure and recusal obligations
 - Code of Conduct §3–6 — behavioral standards
 
 **Conflict of Interest & Disclosure**
-Subject to CoI Policy §2–4 and OA §5.6 (standard of conduct for Delegates: good faith, diligence, conflict disclosure, recusal where material conflict exists).
+Subject to CoI Policy §2–4 and OA §5.6 (standard of conduct for Delegates: good faith, diligence, conflict disclosure, recusal where material conflict exists). Where the same Delegate also holds Treasury Signing, **CoI Policy §3.5** (Delegated Function Consolidation) requires transaction-level disclosure when elevating a TC and executing the resulting treasury action.
 
 ---
 
@@ -237,11 +253,12 @@ DAO vote at any time (OA §5.5).
 - Operating Agreement §5.5 — continuity rules (interim Legal Signatory; 24-hour disclosure requirement)
 - Operating Agreement §9.2–9.3 — dissolution notice obligation and asset provenance record
 - Compliance Operations Policy §5 — regulatory demand disclosure protocol (notify RAC within 24 hours)
+- Elections & Role Governance Policy §11 — vacancy handling and replacement election procedure
 - Conflict of Interest Policy §2–4 — disclosure and recusal obligations
 - Code of Conduct §3–6 — behavioral standards
 
 **Conflict of Interest & Disclosure**
-Subject to CoI Policy §2–4 and OA §5.6.
+Subject to CoI Policy §2–4 and OA §5.6. Where the same Delegate also holds Treasury Signing, **CoI Policy §3.5** (Delegated Function Consolidation) requires transaction-level disclosure when signing the underlying contract and executing the related treasury payment.
 
 ---
 
@@ -268,10 +285,12 @@ DAO vote at any time (OA §5.5).
 - Compliance Operations Policy §2 — UBO identification, threshold monitoring, BOIR onboarding procedures, confidentiality
 - DAO Parameters §8 — UBO threshold (>25% of eligible voting power)
 - Conflict of Interest Policy §2–4 — disclosure and recusal obligations
+- Conflict of Interest Policy §3.5 — Delegated Function Consolidation safeguards (where the Delegate also holds Treasury Signing, an independent KYC verification is required for the Delegate themselves)
+- Elections & Role Governance Policy §11 — vacancy handling and replacement election procedure
 - Code of Conduct §3–6 — behavioral standards
 
 **Conflict of Interest & Disclosure**
-Subject to CoI Policy §2–4 and OA §5.6.
+Subject to CoI Policy §2–4 and OA §5.6. Where the same Delegate also holds Treasury Signing, **CoI Policy §3.5** requires the Delegate's own KYC verification to be performed by the RAC (with the conflicted Delegate excluded) or by an independent verifier appointed by the RAC, with the record referenced in the RAC's next quarterly accountability report.
 
 ---
 
@@ -295,6 +314,7 @@ DAO vote at any time (OA §5.5).
 **Policies That Apply**
 - Operating Agreement §5.3(e) — scope and constraints of the function
 - Compliance Operations Policy §4 — credential and Web2 asset security standards
+- Elections & Role Governance Policy §11 — vacancy handling and replacement election procedure
 - Conflict of Interest Policy §2–4 — disclosure and recusal obligations
 - Code of Conduct §3–6 — behavioral standards
 

@@ -113,7 +113,7 @@ Quorum is measured as a percentage of eligible voting power. Eligible voting pow
 | Parameter                        | Value                                                                  |
 | -------------------------------- | ---------------------------------------------------------------------- |
 | Transition RAC Members           | Exactly 5 (named in GP-PRE-1; constituted under Operating Agreement Article XIII) |
-| Permanent RAC Members            | Between 5 and 7 (set per election; defined in RAC Mandate §7 and Operating Agreement §13.7) |
+| Permanent RAC Members            | Between 5 and 7 (set per election; defined in RAC Mandate §7). Adjustable by Governance Process proposal; minimum 5. |
 | Term Length (Permanent RAC)      | 6 months                                                               |
 | Routine Decision Quorum          | Simple majority (more than half of seated members)                     |
 | Routine Decision Approval        | Simple majority YES                                                    |
@@ -197,7 +197,9 @@ Quorum is measured as a percentage of eligible voting power. Eligible voting pow
 | Inactivity Threshold                | 21 days   | Time before inactivity review; declared unavailability periods are excluded. **"Inactivity"** means: no response to governance execution requests, no participation in any multisig signing actions, and no communication with the RAC within the threshold period. Passive activities (reading updates, monitoring forums) do not constitute activity. Declared unavailability periods (per Treasury Signers Rules §15) are excluded from inactivity counting. |
 | Replacement Election Trigger Time   | 7 days    | Time before election must start          |
 | Replacement Completion Time         | 21 days   | Max time to fill vacancy                 |
-| Max Concurrent Roles per Individual | 2         | Limits role concentration                |
+| Delegate Count — Minimum            | 5         | Minimum total Delegates; bounded below by the 5 Treasury Signers required under §6A. May not fall below 5 while the Treasury Signing roster requires 5 holders. |
+| Delegate Count — Maximum            | 12        | Maximum total Delegates. Adjustable by Governance Process proposal. Set above 7 to allow growth past the founding configuration; reduce to 7 if the DAO prefers a tighter roster. |
+| Max Concurrent Roles per Individual | 2         | Limits role concentration. A "role" is an elected or appointed position: a RAC seat, a Delegate seat (regardless of how many Delegated Functions the Delegate holds), a Working Group Steward seat, or a Strategic Coordination WG seat. Delegated Functions held by a single Delegate do not multiply the role count. |
 | Conflict Disclosure Requirement     | Mandatory | Required for all roles                   |
 | Election Shortlist Multiplier       | 2×        | Stage 1 shortlist slots per open seat (e.g. 3 seats → top 6 advance to Stage 2) |
 | Election Stage 1 Max Selections     | Unrestricted | Voters may approve any number of nominees in the Stage 1 Approval Voting proposal |

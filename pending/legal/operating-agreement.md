@@ -170,9 +170,11 @@ No Member, Delegate, or Governance Participant is personally liable for the debt
 The Company does not have managers, directors, officers, or trustees in the conventional sense. Management is vested in the Governance Participants collectively, exercising binding governance authority through the Governance Platform under §4.3 and consistent with §708 of the Marshall Islands DAO Act on algorithmic management. Operational functions are performed by Delegates elected by Governance Proposal. Upon election and following the Transition Period, Delegates are admitted to Membership by virtue of their role per §4.1(a).
 
 ### §5.2 Election of Delegates
-Delegates (minimum 5, maximum 7 persons) are elected by Governance Proposal. Delegates allocate the non-Treasury Delegated Functions among themselves in accordance with §5.3. All Delegates are subject to KYC verification before assuming their function. A Delegate may simultaneously hold a Permanent RAC seat, subject to the role-concentration limits set out in the **DAO Parameters Registry §6B** and the recusal obligations of the **Conflict of Interest Policy**.
+Delegates are elected by Governance Proposal. The minimum and maximum Delegate counts are defined in **DAO Parameters §6B**; the minimum may not fall below the number required to staff the Treasury Signing roster under §6A (currently 5). Delegates allocate the non-Treasury Delegated Functions among themselves in accordance with §5.3. A single Delegate may hold multiple Delegated Functions where the combination does not create a structural conflict of interest; specific combinations and their safeguards are governed by the **Conflict of Interest Policy §3.5**. All Delegates are subject to KYC verification before assuming their function.
 
-The Treasury Signing function (§5.3(a)) must be held by exactly 5 Delegates to support the signing thresholds defined in DAO Parameters §6A. The Governance Proposal establishing or modifying the Delegate roster must identify which 5 Delegates hold Treasury Signing. Where the total Delegate count differs from 5, the remaining Delegates hold non-treasury functions only.
+A Delegate may simultaneously hold a Permanent RAC seat. Where the DAO is operating at small scale, holding both is expected and constitutes the default model; as the DAO grows and additional capacity becomes available, separation between RAC oversight and Delegate execution is preferred. Both configurations are valid and the choice is made by Governance Proposal when the Delegate roster is established. The role-concentration limits in **DAO Parameters §6B** and the recusal obligations of the **Conflict of Interest Policy** apply in either configuration.
+
+The Treasury Signing function (§5.3(a)) must be held by exactly 5 Delegates to support the signing thresholds defined in DAO Parameters §6A. The Governance Proposal establishing or modifying the Delegate roster must identify which 5 Delegates hold Treasury Signing. Where the total Delegate count exceeds 5, the additional Delegates hold non-Treasury functions only.
 
 ### §5.3 Delegated Functions
 The following functions are delegated to elected Delegates:
@@ -201,7 +203,7 @@ Manage social media accounts, GitHub repositories, domain names, and other Web2 
 The Company shall indemnify any person performing a DAO-mandated governance oversight function — including but not limited to accountability review, governance process monitoring, emergency governance coordination, and compliance verification — against claims arising from the good-faith performance of that function, on the same terms as §11.3 applies to Delegates. This indemnification applies to oversight functions recognized in the operational policies adopted under §12.4. For the purposes of this section, a "DAO-mandated governance oversight function" means a function explicitly assigned by Governance Proposal or defined in an operational policy adopted under §12.4, and does not extend to unilateral or self-appointed oversight activities.
 
 ### §5.5 Removal and Replacement
-Any Delegate may be removed by Governance Proposal. If a Delegate vacates their function, the remaining Delegates may appoint a temporary replacement from among eligible Governance Participants, subject to GP ratification within 30 days.
+Any Delegate may be removed by Governance Proposal. If a Delegate vacates their function, the remaining Delegates may appoint a temporary replacement from among eligible Governance Participants to provide interim coverage pending the formal replacement election conducted under the **Elections & Role Governance Policy §11**. Interim appointments are subject to GP ratification within 30 days and terminate automatically upon the elected successor taking up their seat. Where the vacancy creates an immediate operational risk (for example, Treasury Signers falling below execution quorum), the **Governance Continuity Framework §4.2** governs interim coverage and prevails over this paragraph.
 
 **Legal Signatory continuity.** If the Legal Signatory Delegate is unavailable, conflicted, or unresponsive for more than 24 hours in circumstances requiring time-critical legal action, the Compliance Liaison Delegate is authorised to act as interim Legal Signatory for protective or time-critical purposes only. Any action taken under this provision must be disclosed to the governance forum within 24 hours and is subject to GP ratification within 30 days.
 
@@ -257,7 +259,7 @@ Changes to the Governance or Treasury smart contracts require:
 
 * (a) an RFC published to the community forum for a minimum 7-day review period
 * (b) an independent security audit of the proposed changes
-* (c) a Governance Proposal with an enhanced approval threshold as specified in the operational policies
+* (c) a Governance Proposal passing the Constitutional thresholds defined in **DAO Parameters §3.2–3.3** (≥66% YES and ≥10% quorum), regardless of the proposal's other category classification
 
 ---
 
@@ -275,7 +277,7 @@ Treasury Signers may only execute transactions that have been authorized by a Go
 Treasury expenditures require prior authorization by Governance Proposal, except:
 
 * Routine operational costs within DAO-approved budgets
-* Emergency expenditures under §5.3(a) subject to GP ratification within 30 days
+* Emergency expenditures under §5.3(a) subject to GP ratification per the timeline in the **Emergency & Safeguards Policy §10**
 * Indemnification payments and expense advancements required under §11.3 and §5.4 — no prior GP authorization is required; Treasury Signers may execute these directly, subject to GP ratification within 30 days of payment
 
 ---
@@ -330,10 +332,11 @@ Failure to maintain entity standing is a material governance failure and must be
 ### §9.1 Dissolution Events
 The Company shall be dissolved upon:
 
-* (a) a Governance Proposal with ≥80% approval and ≥20% quorum of Members
+* (a) a Governance Proposal with ≥80% approval and ≥20% quorum of eligible voting power
 * (b) events specified in the smart contracts or this Agreement
 * (c) a Registrar order if the Company is no longer lawful or no longer under natural person control
-* (d) voluntary resignation of all Members
+
+Sustained loss of role-holder coverage (resignation or incapacitation of Members) is a governance continuity event under the **Governance Continuity Framework §4.1** and is not, of itself, a dissolution event. Dissolution under (a) remains available where reconstitution under the Governance Continuity Framework is not pursued or has failed.
 
 ### §9.2 Asset Disposition on Dissolution
 On dissolution, the Company's remaining assets shall not be distributed to Members. Remaining assets shall be transferred to a successor entity approved by Governance Proposal. A successor entity qualifies only if it meets all of the following criteria:
@@ -359,9 +362,11 @@ Prior to any dissolution asset transfer, the Company shall publish a public acco
 
 This Agreement may be amended by Governance Proposal. Amendments are classified as follows:
 
-**(a) Constitutional Amendments** — changes to Articles I (Formation), II (Purpose), III (Continuity), IV (Membership and Governance Participation), XI (Disputes and Liability), or XIII (Transition Period), and changes to the Charter. Constitutional Amendments require a Constitutional Proposal, with quorum and approval thresholds as defined in **DAO Parameters §3.2–3.3**.
+**(a) Constitutional Amendments** — changes to Articles I (Formation), II (Purpose), III (Continuity), IV (Membership and Governance Participation), IX (Dissolution), X (Amendments), XI (Disputes and Liability), or XIII (Transition Period), and changes to the Charter. Constitutional Amendments require a Constitutional Proposal, with quorum and approval thresholds as defined in **DAO Parameters §3.2–3.3**.
 
-**(b) Governance Amendments** — changes to Articles V (Delegated Functions) through XII (General Provisions). Governance Amendments require a Governance Process Proposal, with quorum and approval thresholds as defined in **DAO Parameters §3.2–3.3**.
+**(b) Governance Amendments** — changes to Articles V (Delegated Functions), VI (Governance), VII (Treasury), VIII (Compliance), and XII (General Provisions). Governance Amendments require a Governance Process Proposal, with quorum and approval thresholds as defined in **DAO Parameters §3.2–3.3**.
+
+**(c) Entrenched provisions.** Notwithstanding (a) and (b), no amendment to this Agreement or the Charter may weaken, reduce, or remove a provision designated as entrenched in **Charter §12.1**. Any Governance Proposal purporting to do so is void and may not be executed. The RAC shall refuse to publish a result certifying passage of any such proposal, and Treasury Signers shall refuse to execute any consequential treasury action.
 
 The classification of any proposed amendment and the document versioning requirements are governed by the **Governance Maintenance & Upgrade Framework** (operational policy). In case of conflict between this Article and the Governance Maintenance & Upgrade Framework on questions of classification, this Article prevails.
 
@@ -385,7 +390,10 @@ Emergency amendments to this Agreement may be adopted by unanimous written conse
 ## Article XI — Disputes and Liability
 
 ### §11.1 Dispute Resolution
-Disputes shall first be referred to the Compliance Liaison for mediation. Where the Compliance Liaison is a party to, or has a material conflict of interest in, the dispute, the RAC shall serve as first-stage mediator in place of the Compliance Liaison. If unresolved within 30 days, the mediating party may raise a Governance Proposal directly for the Members to decide, bypassing the Temperature Check stage. If any party is not satisfied with the GP outcome, or if the dispute is not suitable for community vote, it shall be settled by binding arbitration under the International Arbitration Rules of the ICDR (International Centre for Dispute Resolution), seated in the Republic of the Marshall Islands, conducted in English, by a sole arbitrator.
+
+Disputes shall be resolved in accordance with the **Dispute Resolution & Arbitration Policy** (operational policy), which defines the escalation ladder from direct resolution through Working Group mediation, RAC procedural review, and ultimately Governance Proposal. Final substantive authority on any dispute rests with Governance Participants under §4.3.
+
+Where a dispute remains unresolved after exhausting the procedures in the Dispute Resolution & Arbitration Policy, or is not suitable for resolution by Governance Proposal (including disputes between the Company and a third party, or matters that cannot be lawfully decided by community vote), it shall be settled by binding arbitration under the International Arbitration Rules of the ICDR (International Centre for Dispute Resolution), seated in the Republic of the Marshall Islands, conducted in English, by a sole arbitrator. The Legal Signatory is authorized to represent the Company in any such arbitration as authorized by Governance Proposal, subject to §5.3(c).
 
 ### §11.2 Governing Law
 This Agreement is governed by the laws of the Republic of the Marshall Islands.
@@ -452,6 +460,8 @@ The Transition RAC is constituted with five members, identified in the Governanc
 
 The Transition RAC has no continuing or general governance authority except as expressly set out in this Article.
 
+During the Transition Period, the Transition RAC members hold the Treasury Signing Delegated Function (§5.3(a)) per §13.4. For the purposes of Article V (KYC, conflict disclosure, standard of conduct), Article X §10.3 (Emergency Amendments — written consent of the Delegates), and the indemnification provisions of §11.3 and §5.4, Transition RAC members are treated as Delegates in respect of that function. Where Article XIII establishes a specific procedure for the Transition RAC — including the decision rule in §13.3A and the sunset and handover in §13.5 — that procedure prevails over the corresponding Delegate procedure in Article V.
+
 ### §13.3 Mandate of the Transition RAC
 
 The Transition RAC's mandate is strictly limited to the following formation-period functions:
@@ -500,7 +510,7 @@ Indemnification under §11.3 and §5.4 covers acts taken by Transition RAC membe
 
 ### §13.7 Permanent RAC
 
-The Permanent RAC is constituted following the Transition Period in accordance with the **Elections & Role Governance Policy** (operational policy). The Permanent RAC members are admitted as Members of the Company under §4.1(a) upon seating. The composition (between five and seven members), election procedure, mandate, and reporting obligations of the Permanent RAC are governed by the **RAC Mandate** and the **Elections & Role Governance Policy**. The Permanent RAC is the standing governance-process oversight body of the Company and is not, unless expressly stated otherwise, a general executive, treasury-management, or policy-making authority.
+The Permanent RAC is constituted following the Transition Period in accordance with the **Elections & Role Governance Policy** (operational policy). The Permanent RAC members are admitted as Members of the Company under §4.1(a) upon seating. The composition of the Permanent RAC is defined in **DAO Parameters §5.1** (minimum 5); the election procedure, mandate, and reporting obligations are governed by the **RAC Mandate** and the **Elections & Role Governance Policy**. The Permanent RAC is the standing governance-process oversight body of the Company and is not, unless expressly stated otherwise, a general executive, treasury-management, or policy-making authority.
 
 ---
 

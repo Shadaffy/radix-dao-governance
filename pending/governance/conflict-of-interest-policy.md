@@ -68,6 +68,20 @@ A conflict may exist where a covered person holds multiple DAO roles whose inter
 
 ---
 
+### 3.5 Delegated Function Consolidation
+
+A single Delegate may hold one or more Delegated Functions under **Operating Agreement §5.3**. No combination is categorically prohibited, but the following combinations carry heightened structural risk and require the additional safeguards stated:
+
+* **Compliance Liaison + Treasury Signing.** Because the Compliance Liaison verifies KYC and sanctions screening for Treasury Signers (OA §5.3(d), §8.2, §8.3), a Delegate holding both functions must have their own KYC verification performed by the RAC (with the conflicted Delegate excluded) or by an independent verifier appointed by the RAC. The verification record must be referenced in the RAC's next quarterly accountability report.
+
+* **Governance Operations + Treasury Signing.** A single Delegate elevating a Temperature Check to a Governance Proposal and then executing the resulting treasury action must declare the dual role at execution. The declaration satisfies the transaction-level disclosure requirement in §4.3.
+
+* **Legal Signatory + Treasury Signing.** Where the same Delegate signs an underlying contract on behalf of the Company and executes the related treasury payment, the dual role must be declared at execution under §4.3.
+
+Other Delegated Function combinations are permitted under the standard disclosure and recusal obligations in this policy. This list may be updated by Governance Process proposal as operational experience identifies new structural conflicts.
+
+---
+
 ## 4. Disclosure Requirements
 
 ### 4.1 Initial Disclosure
