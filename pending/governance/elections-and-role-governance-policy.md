@@ -17,7 +17,7 @@ This policy applies to:
 * Accountability Council (RAC) members
 * Working Group Stewards
 * Strategic Coordination WG members
-* Treasury Signers
+* Delegates holding any Delegated Function (Treasury Signing, Governance Operations, Legal Signatory, Compliance Liaison, Web2 Custodian), as defined in the **Delegate Mandate**
 
 References to "role holders" in this policy mean any person serving in one of the roles above.
 

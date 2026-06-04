@@ -99,6 +99,7 @@ Formally adopt the following documents as the governance framework of Radix DLT 
 | Emergency & Safeguards Policy | Response to security events and critical failures |
 | Treasury Signers Rules | Operational rules for those executing treasury actions |
 | RAC Mandate | Authority and limits of the Permanent RAC |
+| Delegate Mandate | Definition, scope, and operational rules of the Delegates and Delegated Functions |
 | Conflict of Interest Policy | Disclosure and recusal obligations for all role holders |
 | Code of Conduct | Behavioural standards for all DAO participants |
 | Compliance Operations Policy | Operational compliance practice |

@@ -103,6 +103,8 @@ The DAO may establish chartered bodies, including:
 
 Such bodies operate within defined mandates, remain subordinate to DAO governance at all times, and may be removed or replaced by DAO vote. Establishing such bodies is a matter of operational necessity, not a transfer of authority.
 
+The DAO's operational functions are performed by elected **Delegates**, whose Delegated Functions and mandate are defined in the **Delegate Mandate**. Legal Membership in the LLC attaches to the Delegated Functions defined in the Delegate Mandate and to seats on the Accountability Council.
+
 Legal Membership in the LLC is constituted under **Operating Agreement §4.1** and is a compliance structure separate from governance authority, which is exercised by Governance Participants under **Operating Agreement §4.3**.
 
 ---

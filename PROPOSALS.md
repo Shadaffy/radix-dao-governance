@@ -36,6 +36,7 @@ Entries are added when a proposal is submitted and updated when a vote concludes
 | Emergency & Safeguards Policy | `governance/emergency-and-safeguards-policy.md` |
 | Treasury Signers Rules | `governance/treasury-signers-rules.md` |
 | RAC Mandate | `governance/rac-mandate.md` |
+| Delegate Mandate | `governance/delegate-mandate.md` |
 | Conflict of Interest Policy | `governance/conflict-of-interest-policy.md` |
 | Code of Conduct | `governance/code-of-conduct.md` |
 | Legal Wrapper & Representation | `governance/legal-wrapper-and-representation.md` |
