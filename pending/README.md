@@ -2,7 +2,7 @@
 
 This folder contains the documents that will become operative if **GP-PRE-1** passes.
 
-A YES vote on GP-PRE-1 means you are approving all of the documents listed below as the governing framework of Radix DLT DAO LLC.
+A YES vote on GP-PRE-1 means you are approving all of the documents listed below as the governing framework of Radix DAO LLC.
 
 ---
 

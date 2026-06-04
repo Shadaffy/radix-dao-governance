@@ -1,5 +1,5 @@
 # Beneficial Owner Information Report (BOIR)
-## Radix DLT DAO LLC
+## Radix DAO LLC
 
 > **Statutory basis:** Marshall Islands DAO Act, 52 MIRC Ch. 7 — §712 (Beneficial Owner Information Report), §702(r) (definition of beneficial member), §711(1) (record retention)
 > Marshall Islands Non-Profit Entities Act (2020) — §217 (record keeping), §218 (annual filings)
@@ -48,7 +48,7 @@ Retain a copy of each filed BOIR and supporting KYC records for a minimum of **5
 
 | Field | Value |
 |---|---|
-| Entity name | Radix DLT DAO LLC |
+| Entity name | Radix DAO LLC |
 | Entity type | Non-Profit DAO LLC |
 | Jurisdiction | Republic of the Marshall Islands |
 | Formation date | *[Date of formation]* |
@@ -186,7 +186,7 @@ If no changes since last report:
 
 ## Section 7 — Declaration
 
-The undersigned, being duly authorized Delegates of Radix DLT DAO LLC, declare that:
+The undersigned, being duly authorized Delegates of Radix DAO LLC, declare that:
 
 1. The information contained in this report is true, complete, and accurate to the best of our knowledge and belief as of the date of filing.
 2. All persons listed in Section 3 have completed KYC verification through the DAO's designated provider and their details have been verified against identity documents.

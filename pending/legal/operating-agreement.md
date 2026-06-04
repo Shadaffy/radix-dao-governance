@@ -1,4 +1,4 @@
-# Radix DLT DAO LLC — Operating Agreement
+# Radix DAO LLC — Operating Agreement
 
 > **Pre-adoption notice:** This is the proposed Operating Agreement submitted for community adoption as part of GP-PRE-1. It becomes operative upon passage of that Constitutional Proposal.
 
@@ -10,7 +10,7 @@ For the purposes of this Agreement, the following terms have the meanings given 
 
 **"Agreement"** means this Operating Agreement, as amended from time to time by Governance Proposal.
 
-**"Company"** means Radix DLT DAO LLC, a Marshall Islands Non-Profit DAO LLC.
+**"Company"** means Radix DAO LLC, a Marshall Islands Non-Profit DAO LLC.
 
 **"Delegate"** means a person elected by Governance Proposal to perform one or more Delegated Functions under Article V.
 

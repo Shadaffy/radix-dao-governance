@@ -1,8 +1,8 @@
-# GP-PRE-1: Founding Proposal — Single Founding Act of Radix DLT DAO LLC
+# GP-PRE-1: Founding Proposal — Single Founding Act of Radix DAO LLC
 
 ---
 
-> **Governance system note:** This proposal is submitted through the **community's own Consultation V2 governance system** — the on-chain governance tool the community deployed independently, using software donated by the Founding Transferor. The community operates this system in its own right; it does not run through or depend on the Founding Transferor's governance. Radix DLT DAO LLC does not yet legally exist as an entity, but the community already governs itself on-chain. This is the founding act — the single community vote that brings the legal entity into existence, adopts the complete governance framework, and authorises the Transition Period. All thresholds and quorum requirements are as stated below.
+> **Governance system note:** This proposal is submitted through the **community's own Consultation V2 governance system** — the on-chain governance tool the community deployed independently, using software donated by the Founding Transferor. The community operates this system in its own right; it does not run through or depend on the Founding Transferor's governance. Radix DAO LLC does not yet legally exist as an entity, but the community already governs itself on-chain. This is the founding act — the single community vote that brings the legal entity into existence, adopts the complete governance framework, and authorises the Transition Period. All thresholds and quorum requirements are as stated below.
 >
 > **Single founding vote.** All adopted documents are operative from the moment the Operating Agreement is filed with MIDAO. No separate post-registration activation proposal is required.
 
@@ -12,7 +12,7 @@
 
 | Field | Value |
 |---|---|
-| **Title** | Founding Proposal — Single Founding Act of Radix DLT DAO LLC |
+| **Title** | Founding Proposal — Single Founding Act of Radix DAO LLC |
 | **Proposal ID** | GP-PRE-1 |
 | **Category** | Constitutional |
 | **Change Classification** | Major |
@@ -26,7 +26,7 @@
 
 ## 2. Summary
 
-This proposal is the **single founding act** of Radix DLT DAO LLC. It adopts the complete governance framework as formally binding, authorises the Legal Signatory to file the Certificate of Formation and Operating Agreement with MIDAO Directory Services (Marshall Islands), constitutes the Transition RAC for the Transition Period, confirms the founding Delegate roster, and authorises a fixed Establishment Grant to the Transition RAC. All elements are inseparable and constitute the community's mandate to bring the DAO into legal existence.
+This proposal is the **single founding act** of Radix DAO LLC. It adopts the complete governance framework as formally binding, authorises the Legal Signatory to file the Certificate of Formation and Operating Agreement with MIDAO Directory Services (Marshall Islands), constitutes the Transition RAC for the Transition Period, confirms the founding Delegate roster, and authorises a fixed Establishment Grant to the Transition RAC. All elements are inseparable and constitute the community's mandate to bring the DAO into legal existence.
 
 Following adoption and formation, the full governance framework is operative from the date of registration with MIDAO. Standard on-chain governance proceeds from formation; the Transition RAC operates in parallel under its narrow formation mandate (Operating Agreement Article XIII) until the Permanent RAC is seated through the community-run election.
 
@@ -70,7 +70,7 @@ All governance documents are recognised by and given legal force by the Operatin
 
 ### 5.1 Current State
 
-The Radix community operates its own on-chain governance through the community-deployed Consultation V2 system (software donated by the Founding Transferor and deployed by the community at its own cost). No legal entity called Radix DLT DAO LLC yet exists. The governance framework exists as finalized drafts but has not been formally adopted. No Delegate roster has been ratified by token holder vote. The RAC has no formally authorized transitional authority.
+The Radix community operates its own on-chain governance through the community-deployed Consultation V2 system (software donated by the Founding Transferor and deployed by the community at its own cost). No legal entity called Radix DAO LLC yet exists. The governance framework exists as finalized drafts but has not been formally adopted. No Delegate roster has been ratified by token holder vote. The RAC has no formally authorized transitional authority.
 
 ### 5.2 Proposed Change
 
@@ -80,7 +80,7 @@ This proposal enacts the following inseparable founding actions:
 
 #### Element 1 — Governance Framework Adoption
 
-Formally adopt the following documents as the governance framework of Radix DLT DAO LLC. Upon entity formation, the Operating Agreement is filed with the Registered Agent and becomes the Company's primary legal instrument. The Charter and all listed operational policies become operative as adopted governance documents from the date of formation, with the Charter recognised under OA §12.3 and operational policies adopted under OA §12.4.
+Formally adopt the following documents as the governance framework of Radix DAO LLC. Upon entity formation, the Operating Agreement is filed with the Registered Agent and becomes the Company's primary legal instrument. The Charter and all listed operational policies become operative as adopted governance documents from the date of formation, with the Charter recognised under OA §12.3 and operational policies adopted under OA §12.4.
 
 **Constitutional documents:**
 
@@ -121,8 +121,8 @@ All listed documents are operative from the date of entity formation. No separat
 
 Authorize the Legal Signatory to execute and file the following formation documents with MIDAO Directory Services (Registered Agent, Majuro, Marshall Islands) immediately upon vote passage:
 
-* **Certificate of Formation** — incorporating Radix DLT DAO LLC as a Non-Profit DAO LLC under 52 MIRC Ch. 3 and Ch. 7 (Marshall Islands LLC Act and DAO Act), with smart contract identifiers (Consultation V2 `packageAddress`, `componentAddress`, and `adminBadgeAddress`) confirmed and inserted per §1.4 of the Operating Agreement
-* **Operating Agreement** — the foundational legal instrument of Radix DLT DAO LLC, with confirmed smart contract identifiers inserted per §1.4
+* **Certificate of Formation** — incorporating Radix DAO LLC as a Non-Profit DAO LLC under 52 MIRC Ch. 3 and Ch. 7 (Marshall Islands LLC Act and DAO Act), with smart contract identifiers (Consultation V2 `packageAddress`, `componentAddress`, and `adminBadgeAddress`) confirmed and inserted per §1.4 of the Operating Agreement
+* **Operating Agreement** — the foundational legal instrument of Radix DAO LLC, with confirmed smart contract identifiers inserted per §1.4
 
 The Legal Signatory is authorized to make minor administrative corrections (formatting, registered agent details, date insertion) without further governance approval. Any substantive change to the text requires a new proposal.
 
@@ -220,7 +220,7 @@ Upon the Permanent RAC's seating, any unspent Establishment Grant funds remain i
 
 * The complete governance framework is operative from the date of entity registration
 * Legal Signatory files Certificate of Formation and Operating Agreement with MIDAO on the business day following vote passage
-* Radix DLT DAO LLC comes into legal existence as a Marshall Islands Non-Profit DAO LLC
+* Radix DAO LLC comes into legal existence as a Marshall Islands Non-Profit DAO LLC
 * Formation confirmation published to governance forum within 72 hours of registration, including: entity name, formation date, Registered Agent confirmation, Transition RAC roster, Delegate roster, multi-sig wallet address
 * Transition RAC is constituted with five members admitted as legal Members; Delegate roster publicly ratified
 * Transition RAC's narrow formation mandate (OA §13.3) commences from registration date
@@ -279,7 +279,7 @@ Upon the Permanent RAC's seating, any unspent Establishment Grant funds remain i
 
 ### 9.2 Success Metrics
 
-* Radix DLT DAO LLC appears in Marshall Islands entity registry
+* Radix DAO LLC appears in Marshall Islands entity registry
 * Formation documents executed and filed; Registered Agent confirms
 * Formation confirmation post published to governance forum with all required information
 * Transition RAC and Delegate functions logged on-chain and published
@@ -315,7 +315,7 @@ No RAC member may be the sole drafter of the Delegate roster without community r
 **Known dependencies:**
 
 * **Consultation V2 identifiers:** The exact values of `packageAddress`, `componentAddress`, and `adminBadgeAddress` must be confirmed and inserted into the Certificate of Formation and Operating Agreement before this proposal is formally submitted. The placeholders in §5.2 Element 2 are resolved before the TC opens.
-* **Governance system continuity:** GP-PRE-1 runs on the community's Consultation V2 deployment — the same system used for all proposals before and after registration. What changes at registration is not the tool but the legal standing: from registration onward, on-chain governance outcomes constitute legally binding decisions of Radix DLT DAO LLC under Operating Agreement §4.3.
+* **Governance system continuity:** GP-PRE-1 runs on the community's Consultation V2 deployment — the same system used for all proposals before and after registration. What changes at registration is not the tool but the legal standing: from registration onward, on-chain governance outcomes constitute legally binding decisions of Radix DAO LLC under Operating Agreement §4.3.
 
 ---
 
@@ -343,4 +343,4 @@ Governance Participants will vote on this proposal with the following options:
 
 ---
 
-*Submitted on the community's Consultation V2 governance system — deployed and operated by the community independently of the Founding Transferor. Thresholds per the DAO Parameters Registry (Constitutional category: ≥66% YES, ≥10% quorum). The DAO's own Proposal & Voting Framework governs all subsequent proposals from the date of entity registration onward; the governance tool remains the same, and its acts gain formal legal standing as acts of Radix DLT DAO LLC.*
+*Submitted on the community's Consultation V2 governance system — deployed and operated by the community independently of the Founding Transferor. Thresholds per the DAO Parameters Registry (Constitutional category: ≥66% YES, ≥10% quorum). The DAO's own Proposal & Voting Framework governs all subsequent proposals from the date of entity registration onward; the governance tool remains the same, and its acts gain formal legal standing as acts of Radix DAO LLC.*

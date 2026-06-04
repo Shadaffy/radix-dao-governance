@@ -1,6 +1,6 @@
 # Radix DAO — Governance Documents
 
-This repository contains the operative governance documents of **Radix DLT DAO LLC**, a Non-Profit Decentralized Autonomous Organization registered under Marshall Islands law.
+This repository contains the operative governance documents of **Radix DAO LLC**, a Non-Profit Decentralized Autonomous Organization registered under Marshall Islands law.
 
 Everything in this repository is either currently in force or under active consideration for adoption. Nothing here is a draft or historical record — that material is maintained in the [reference library](https://github.com/Shadaffy/radix-dao).
 

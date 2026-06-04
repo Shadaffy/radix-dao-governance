@@ -1,4 +1,4 @@
-# Certificate of Formation — Radix DLT DAO LLC
+# Certificate of Formation — Radix DAO LLC
 
 > **Status:** Working draft for Marshall Islands Registrar filing.
 > To be executed by the incorporator(s) and filed with MIDAO Directory Services, Inc.
@@ -9,7 +9,7 @@
 
 The name of the Limited Liability Company is:
 
-**Radix DLT DAO LLC**
+**Radix DAO LLC**
 
 ---
 
