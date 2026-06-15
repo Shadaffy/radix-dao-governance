@@ -87,6 +87,14 @@ RAC members are subject to the **Conflict of Interest Policy**, including the he
 
 ---
 
+## 9A. Resignation
+
+* A RAC member may resign by written notice. Resignation causes immediate cessation of legal Membership under **Operating Agreement §4.7(b)** (current OA §4.1(d)) and immediate vacancy of the seat under **DAO Parameters §5.1**; the replacement process runs under the **Elections & Role Governance Policy §11**
+* Where a resignation would reduce seated RAC members below the minimum of 5, or active Treasury Signers below the 3-of-5 execution quorum, the **Floor-Protected Resignation** rule in **Elections & Role Governance Policy §11.2** applies: the resignation is permitted but conditioned on the 14-day Floor-Protected Resignation Notice (DAO Parameters §6B), and converts to a continuity event if the member cannot serve that notice
+* Outgoing members remain subject to the handover obligations in **Elections & Role Governance Policy §12**
+
+---
+
 ## 10. Relationship to the DAO
 
 The Permanent RAC operates **on behalf of the DAO** and remains fully subordinate to:

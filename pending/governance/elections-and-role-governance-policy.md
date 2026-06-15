@@ -286,6 +286,16 @@ If a role becomes vacant — through resignation, removal, incapacitation, or en
 | Replacement election must begin | 7 days from vacancy (DAO Parameters §6B) |
 | Replacement election must complete | 21 days from vacancy (DAO Parameters §6B) |
 
+### 11.2 Floor-Protected Resignation
+
+This section applies to any resignation that would reduce **seated RAC members below the minimum of 5** (DAO Parameters §5.1), or — where the resigning member also holds a Treasury Signer role — reduce **active Treasury Signers below the 3-of-5 execution quorum** (DAO Parameters §6A). This is the circumstance contemplated by the Operating Agreement's "where resignation is permitted" qualifier (Operating Agreement §4.7(b); current OA §4.1(d)): such a resignation is permitted, but its effect is conditioned as set out below. A resignation that leaves the body **at or above** the floor is unaffected by this section and takes effect immediately on written notice (DAO Parameters §5.1).
+
+**(a) Notice and overlap.** The resigning member must give the Floor-Protected Resignation Notice (DAO Parameters §6B) to the RAC and the Governance & Legal Working Group. The resignation takes effect on the earlier of (i) a qualified replacement being seated, or (ii) expiry of the notice period. During the notice period the member remains in office, completes handover under §12, and the replacement election begins under §11.1.
+
+**(b) No compelled service.** A member may not be compelled to serve beyond the notice period. If the member declines to serve the notice, becomes inactive (DAO Parameters §6B), or is otherwise unable to act, the seat vacates immediately and the resulting sub-floor condition is escalated as a continuity event under the Governance Continuity Framework §4.1 (RAC) or §4.2 (signers). A vacated seat — and the seat of a member who is inactive during a notice period — is excluded from quorum immediately (DAO Parameters §5.1), so a disengaged member cannot block quorum while notice runs.
+
+**(c) Simultaneous resignations.** Where concurrent resignations would breach the floor, this section applies to each; the floor is protected by the notice overlap in (a) and, failing that, by the continuity escalation in (b).
+
 ---
 
 ## 12. Handover Requirements
