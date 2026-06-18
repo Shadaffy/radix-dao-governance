@@ -8,9 +8,14 @@ Everything in this repository is either currently in force or under active consi
 
 ## Current status
 
-**No documents are yet operative.** The founding proposal (GP-PRE-1) is pending a token holder vote. See the [`pending/`](pending/) folder for the full set of documents this vote will activate.
+**No documents are yet operative.** Under the Operating Agreement the framework is adopted and activated through a **sequence** of community acts, not a single founding vote:
 
-Once GP-PRE-1 passes, the table below will reflect the operative framework.
+1. **GP-PRE-1 — Constitutional Ratification** (pre-formation): the community ratifies the Charter and policy library.
+2. **Formation**: the Transition RAC files the Certificate of Formation and Operating Agreement; the Company is **member-managed** and governance is **advisory**.
+3. **GP-ELECT-1 — Permanent RAC Election** (Activation Condition 7).
+4. **GP-ACTIVATE-1 — Activation Vote**: the Company becomes Algorithmically Governed and governance outcomes become binding.
+
+See the [`pending/`](pending/) folder for the full framework and the proposal sequence. The table below will reflect the operative framework once the Activation Vote passes.
 
 ---
 
@@ -28,7 +33,9 @@ Once GP-PRE-1 passes, the table below will reflect the operative framework.
 
 | Proposal | Status | Documents |
 |---|---|---|
-| [GP-PRE-1: Founding Proposal](pending/GP-PRE-1-Founding-Proposal.md) | Pending vote | [View pending documents →](pending/) |
+| [GP-PRE-1: Constitutional Ratification of the Governance Framework](pending/GP-PRE-1-Framework-Ratification.md) | Ready for review | [View pending documents →](pending/) |
+| [GP-ELECT-1: Permanent RAC Election](pending/GP-ELECT-1-Permanent-RAC-Election.md) | Draft scaffold | [pending/](pending/) |
+| [GP-ACTIVATE-1: Activation Vote](pending/GP-ACTIVATE-1-Activation-Vote.md) | Draft scaffold | [pending/](pending/) |
 
 ---
 
@@ -42,13 +49,13 @@ See [PROPOSALS.md](PROPOSALS.md) for the full record of proposals, what each one
 
 When two documents conflict, the following order applies (highest to lowest):
 
-1. Marshall Islands law
-2. Charter
-3. Operating Agreement (on matters the OA does not delegate to governance policy)
-4. Governance policies (on matters expressly delegated by the OA)
-5. DAO Parameters Registry
+1. Marshall Islands law and the Certificate of Formation
+2. Operating Agreement — the Company's primary legal instrument
+3. Charter — governance constitution; subordinate to the OA but prevails over all operational policies
+4. Operational policies (governance policies) — subordinate to both the OA and the Charter
+5. DAO Parameters Registry — within the operational policy tier
 
-*Note: The Charter prevails over the Operating Agreement as a governance matter. Where the OA expressly delegates a matter to governance policy (e.g. "as defined in operational policies adopted under §12.4"), the relevant governance policy controls. Where the OA and a governance policy conflict on a matter the OA does not delegate, the OA prevails. See Governance Maintenance & Upgrade Framework §3.1 for the full conflict resolution rules.*
+*Note: This is the OA-first hierarchy established by Operating Agreement §11.3 and restated in Charter §13. The Operating Agreement is the legally registered instrument and prevails over the Charter; the Charter and all operational policies derive their legal force from the recognition given to them in the Operating Agreement. Where an operational policy conflicts with the Charter or the OA, it is void to the extent of the conflict. See Governance Maintenance & Upgrade Framework §3.1 for the full conflict-resolution rules.*
 
 ---
 

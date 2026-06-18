@@ -34,7 +34,7 @@ An emergency is a situation where immediate action is required to prevent:
 * Critical failure of network infrastructure
 * Security compromise (e.g., keys, contracts, systems)
 * Severe disruption to DAO operations
-* Governance capture — a passed proposal that would result in material and irreversible misappropriation of treasury assets in a manner that is plainly contrary to the non-distribution principle (Charter §10–11, Operating Agreement §2.2), where the RAC has reasonable grounds to believe the proposal was advanced through coordinated bad-faith token accumulation rather than legitimate community governance
+* Governance capture — a passed proposal that would result in material and irreversible misappropriation of treasury assets in a manner that is plainly contrary to the non-distribution principle (Charter §10–11, Operating Agreement §§3.4–3.5), where the RAC has reasonable grounds to believe the proposal was advanced through coordinated bad-faith token accumulation rather than legitimate community governance
 
 **Governance capture pre-action notice:** Before invoking emergency powers on governance capture grounds, the RAC must publish a public notice to the governance forum stating the specific evidence of bad-faith accumulation. Token holders have 24 hours from that notice to file a Governance Process challenge. If a challenge is filed within that window, the emergency action is suspended pending a fast-track community vote (48-hour voting period, standard Treasury / Budget quorum and approval threshold). If no challenge is filed within 24 hours, the RAC may proceed.
 

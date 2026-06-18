@@ -12,13 +12,13 @@ The scope of this policy is:
 * Operational security for role-holder identity and credentials (§3, §4)
 * Regulatory demand disclosure protocol for Delegates (§5)
 
-Statutory obligations themselves — including BOIR filing schedules, KYC tiers, UBO identification thresholds, and non-distribution exceptions — are set out in the Operating Agreement (Article II, Article VIII) and are not restated here.
+Statutory obligations themselves — including BOIR filing schedules, KYC requirements, UBO identification thresholds, and non-distribution exceptions — are set out in the Operating Agreement (Article III and Article X) and are not restated here.
 
 ---
 
 ## 2. UBO Monitoring and KYC Operations
 
-The 25% UBO threshold, the KYC tier structure, and the Compliance Liaison's filing obligations are defined in **Operating Agreement §4.6, §8.1, and §8.2**. This section sets out the operational procedures by which those obligations are met.
+The 25% UBO statutory test, the BOIR filing obligation, and the KYC requirement are defined in **Operating Agreement §10.2, §10.1, and §10.4** (Article X). This section sets out the operational procedures by which those obligations are met, including the KYC tier structure.
 
 ### 2.1 Threshold Monitoring
 
@@ -83,7 +83,7 @@ Persons managing the Company's Web2 assets and credentials must:
 * Use controlled access systems with audit logging
 * Maintain recovery procedures for credential loss or compromise
 
-Individuals managing credentials may be subject to KYC where required by their Delegated Function. Credential management responsibilities are assigned through the Web2 Custodian Delegated Function (Operating Agreement §5.3(e)).
+Individuals managing credentials may be subject to KYC where required by their Delegated Function. Credential management responsibilities are assigned through the Web2 Custodian Delegated Function (Delegate Mandate; delegated functions are established under Operating Agreement §11.5).
 
 ---
 
@@ -97,9 +97,9 @@ Any Delegate or RAC member who receives a legal demand, order, or regulatory inq
 
 Upon receiving such notification, the RAC immediately escalates to the Governance & Legal Working Group (where operational) and publishes a community notice to the governance forum within 48 hours.
 
-This protocol applies regardless of the jurisdiction from which the demand originates. Each Delegate's primary legal obligation in their Company capacity is to the laws of the Republic of the Marshall Islands and the Operating Agreement (per Operating Agreement §5.6). Where a foreign jurisdiction demand conflicts with this, Delegates and RAC members are expected to seek DAO-authorized legal counsel before compliance and to treat DAO authorization as a condition of compliance where legally possible under Marshall Islands law. This obligation does not prevent a Delegate or RAC member from taking protective action necessary to avoid criminal liability, provided they notify the RAC immediately.
+This protocol applies regardless of the jurisdiction from which the demand originates. Each Delegate's primary legal obligation in their Company capacity is to the laws of the Republic of the Marshall Islands and the Operating Agreement (per the Delegate Mandate and the standard of conduct in Operating Agreement §12.7(d)). Where a foreign jurisdiction demand conflicts with this, Delegates and RAC members are expected to seek DAO-authorized legal counsel before compliance and to treat DAO authorization as a condition of compliance where legally possible under Marshall Islands law. This obligation does not prevent a Delegate or RAC member from taking protective action necessary to avoid criminal liability, provided they notify the RAC immediately.
 
-Where a legal demand is received at the Registered Agent's address, the Compliance Liaison's obligation to forward and disclose within 48 hours (Operating Agreement §12.1) applies in addition to this protocol.
+**Demands received at the Registered Agent.** Where a legal demand, service of process, or regulatory correspondence is received at the Registered Agent's address, the Compliance Liaison must forward it to the Delegates and publish notice of receipt to the governance forum within **48 hours of the Compliance Liaison becoming aware of it**, in addition to this protocol. This forwarding-and-disclosure obligation is an operational compliance duty under this policy (established under Operating Agreement §11.5); the Operating Agreement does not separately provide for it.
 
 ---
 
@@ -109,16 +109,16 @@ The following topics are defined in the documents listed and are not restated he
 
 | Topic | Document |
 |---|---|
-| Legal entity structure, governing law, formation | Operating Agreement Article I |
-| Non-distribution principle and permitted exceptions | Operating Agreement §2.2 |
-| Membership, Governance Participation, on-chain binding mechanism | Operating Agreement Article IV |
-| Delegate structure, Delegated Functions, indemnification | Operating Agreement Article V, §11.3 |
-| BOIR filing obligations, KYC tier structure | Operating Agreement §8.1, §8.2 |
-| Transition Period and Transition RAC mandate | Operating Agreement Article XIII |
-| Treasury custody, multisig thresholds, key management | Operating Agreement §7.1; Treasury Signers Rules §10, §16 |
-| Asset lock and wind-down | Operating Agreement §9; Charter §11 |
-| Continuity statement authority | Operating Agreement §3.2 |
-| Governing law and dispute resolution | Operating Agreement §11.1, §11.2 |
+| Legal entity structure, governing law, formation | Operating Agreement Article II |
+| Non-distribution principle and permitted payments | Operating Agreement §§3.4–3.5 |
+| Membership and Governance Participation (binding effect post-activation §5.7; advisory §§5.8–5.9) | Operating Agreement Article IV and Article V |
+| Delegated Functions, indemnification | Operating Agreement §11.5 (see Delegate Mandate), §12.5 |
+| BOIR filing obligation, KYC requirement | Operating Agreement §10.1, §10.4 |
+| Transition Period and Transition RAC mandate | Operating Agreement Article VI |
+| Treasury custody, multisig thresholds, key management | Operating Agreement §§9.7–9.11; Treasury Signers Rules §10, §16 |
+| Asset lock and wind-down | Operating Agreement Article XIII; Charter §11 |
+| Continuity statement authority | Operating Agreement §9.3 |
+| Governing law and dispute resolution | Operating Agreement Article XIV |
 
 ---
 

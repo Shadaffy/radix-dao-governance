@@ -3,23 +3,28 @@
 > **Scope of this document.** This Mandate is the primary definition of the **Delegates** of the
 > Company and the **Delegated Functions** they perform — the DAO's operational execution roles.
 > It sits alongside the **RAC Mandate**, which governs the DAO's governance-process oversight body.
-> Delegated Functions confer legal Membership and beneficial-owner status; the legal force of those
-> consequences is located in the **Charter** (Membership attachment) and the **Operating Agreement**
-> (algorithmic-management characterization, indemnification, the §709 standard-of-conduct
-> disclaimer, and beneficial-owner reporting). This Mandate defines the roles and their operational
-> rules; the legal instruments give them legal effect.
+> The Delegated Functions are operational and delegated functions established under **Operating
+> Agreement §11.5**. They confer legal Membership and beneficial-owner status; the legal force of
+> those consequences is located in the **Charter** (§4.2, Membership attachment) and the **Operating
+> Agreement** (delegated functions §11.5, indemnification §12.5, the §709 standard-of-conduct
+> disclaimer in §12.7, and beneficial-owner reporting under Article X). This Mandate defines the roles
+> and their operational rules; the legal instruments give them legal effect.
 
 ## 1. Purpose
 
 Delegates perform the Company's defined operational functions on behalf of the DAO. They are
-**execution agents, not decision-makers**: their authority is limited to carrying out decisions made
-by Governance Participants through the on-chain governance system (**Operating Agreement §4.3**) and
-to the specific operational scope of the Delegated Function they hold.
+**execution agents, not decision-makers**: their authority is limited to carrying out validly
+authorized decisions of the Company and to the specific operational scope of the Delegated Function
+they hold. Under the Operating Agreement, binding community governance outcomes take legal effect from
+the **Activation Date** (**Operating Agreement §5.7**); during the **Advisory Governance Period** the
+Company is **member-managed** and authorized decisions are made by the Transition RAC within its
+formation mandate (**Operating Agreement Article VI**), while community governance outcomes are
+advisory (**§§5.8–5.9**).
 
-The Company has no managers, directors, officers, or trustees in the conventional sense. Management
-is vested in the Governance Participants collectively, exercising binding governance authority
-through the Governance Platform consistent with the algorithmic-management model of the Marshall
-Islands DAO Act. Delegates execute; they do not govern.
+The Company is member-managed during the Transition Period and becomes Algorithmically Governed on the
+Activation Date (**Operating Agreement §§8.1, 8.8**), after which binding governance authority is
+exercised by Governance Participants through the Governance Mechanism. In neither phase do Delegates
+govern — they execute.
 
 ---
 
@@ -64,7 +69,9 @@ and compliance filings. Initiate, pursue, settle, or defend legal proceedings as
 Governance Proposal; or, in urgent circumstances where a delay of more than 48 hours would cause
 material and irreversible harm to the Company, take protective legal action subject to Governance
 Proposal ratification within 30 days. Regulatory-demand handling is governed by the **Compliance
-Operations Policy §5**.
+Operations Policy §5**. The Legal Signatory Delegated Function is the Legal Signatory recognised in
+**Operating Agreement §1.15 and §9.2**, and acts only within the authority conferred by the Operating
+Agreement, the Charter, and a valid governance decision.
 
 ### 2.4 Compliance Liaison
 
@@ -94,7 +101,7 @@ in the **Compliance Operations Policy §4**.
 * The Governance Proposal establishing or modifying the Delegate roster must identify which five
   Delegates hold Treasury Signing and how the non-Treasury functions are allocated.
 * All Delegates are subject to KYC verification before assuming their function (**Operating
-  Agreement §8.2**).
+  Agreement §10.4**).
 * A Delegate may simultaneously hold a Permanent RAC seat. Where the DAO is operating at small
   scale, holding both is expected and constitutes the default model; as the DAO grows and additional
   capacity becomes available, separation between RAC oversight and Delegate execution is preferred.
@@ -119,10 +126,11 @@ authorization as a condition of compliance. This does not prevent a Delegate fro
 action necessary to avoid criminal liability, provided they notify the RAC immediately in accordance
 with the Regulatory Demand Disclosure Protocol in the **Compliance Operations Policy §5**.
 
-The fiduciary-duty standard and disclaimer applicable to Delegates (Marshall Islands DAO Act §709)
-is set in the **Operating Agreement** and is not restated here; this Mandate states obligations of
-conduct within each Delegate's assigned function and does not create any fiduciary duty beyond what
-the Operating Agreement provides.
+The fiduciary-duty standard and disclaimer applicable to Delegates (adopted under §709 of the Marshall
+Islands Limited Liability Company Act) is set in **Operating Agreement §12.7** and is not restated
+here; this Mandate states obligations of conduct within each Delegate's assigned function and does not
+create any fiduciary duty beyond what the Operating Agreement provides. Delegates are Covered Persons
+for the purposes of Operating Agreement §12.7 and the indemnification in §12.5.
 
 ---
 
@@ -158,9 +166,9 @@ identification, KYC tiers, and sanctions screening are governed by the **Operati
 compliance article and the **Compliance Operations Policy**.
 
 During the Transition Period, the Treasury Signing function is held by the five Transition RAC
-members, who are treated as Delegates in respect of that function as set out in **Operating
-Agreement Article XIII**. Article XIII-specific procedures prevail over the corresponding procedures
-in this Mandate during that period.
+members, who act as the initial signers in respect of that function as set out in **Operating
+Agreement Article VI and §§9.9–9.11**. Article VI-specific procedures prevail over the corresponding
+procedures in this Mandate during that period.
 
 ---
 
@@ -168,8 +176,8 @@ in this Mandate during that period.
 
 Delegates operate **on behalf of the DAO** and remain fully subordinate to:
 
-* Governance Participant authority exercised through the on-chain governance system (**Operating
-  Agreement §4.3**);
+* Governance Participant authority exercised through the Governance Mechanism — advisory during the
+  Advisory Governance Period and binding from the Activation Date (**Operating Agreement §§5.7–5.9**);
 * approved governance processes; and
 * the Charter, the Operating Agreement, and this Mandate.
 

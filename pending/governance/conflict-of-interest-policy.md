@@ -72,7 +72,7 @@ A conflict may exist where a covered person holds multiple DAO roles whose inter
 
 A single Delegate may hold one or more Delegated Functions, as defined in the **Delegate Mandate §2**. No combination is categorically prohibited, but the following combinations carry heightened structural risk and require the additional safeguards stated:
 
-* **Compliance Liaison + Treasury Signing.** Because the Compliance Liaison verifies KYC and sanctions screening for Treasury Signers (OA §5.3(d), §8.2, §8.3), a Delegate holding both functions must have their own KYC verification performed by the RAC (with the conflicted Delegate excluded) or by an independent verifier appointed by the RAC. The verification record must be referenced in the RAC's next quarterly accountability report.
+* **Compliance Liaison + Treasury Signing.** Because the Compliance Liaison verifies KYC and sanctions screening for Treasury Signers (Delegate Mandate §2.4; Compliance Operations Policy §2–3; OA Article X), a Delegate holding both functions must have their own KYC verification performed by the RAC (with the conflicted Delegate excluded) or by an independent verifier appointed by the RAC. The verification record must be referenced in the RAC's next quarterly accountability report.
 
 * **Governance Operations + Treasury Signing.** A single Delegate elevating a Temperature Check to a Governance Proposal and then executing the resulting treasury action must declare the dual role at execution. The declaration satisfies the transaction-level disclosure requirement in §4.3.
 

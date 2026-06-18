@@ -11,11 +11,13 @@ This document defines:
 * Proposal categories and requirements
 * Safeguards such as veto and resubmission rules
 
+**Binding effect and the Advisory Governance Period.** This framework describes the DAO's governance mechanics. The point at which a passed DAO Proposal becomes a **legally binding decision of the Company** is governed by the Operating Agreement: during the **Advisory Governance Period** (formation to the Activation Date) governance outcomes are **advisory** (OA §§5.8–5.9), save for the three binding community acts in Charter §4A.2 (framework ratification, the Permanent RAC election, and the Activation Vote); from the **Activation Date** they are binding decisions of the Company (OA §5.7). References to a "binding" proposal in this document mean binding within the DAO's governance process and take legal effect on this timeline. The Activation Vote itself runs on the parameters in DAO Parameters §3A.2.
+
 ---
 
 ## 2.5 Proposal Eligibility
 
-Any Governance Participant may submit a proposal. No minimum holding, prior registration, or approval from any DAO body is required to submit. This right flows directly from Governance Participant sovereignty as established in the Charter §4.1 and Operating Agreement §4.3.
+Any Governance Participant may submit a proposal. No minimum holding, prior registration, or approval from any DAO body is required to submit. This right flows directly from Governance Participant sovereignty as established in the Charter §4.1 and the governance participation rights in Operating Agreement Article V (§5.4).
 
 ---
 

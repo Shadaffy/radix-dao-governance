@@ -132,7 +132,7 @@ Treasury actions must NOT:
 * Exceed approved budgets
 * Deviate from proposal intent
 * Be executed without proper authorization
-* Be paid to any recipient whose KYC/AML compliance status is unknown or unverified, where KYC is required under the **Contributor Compensation Policy §3.5** or **Operating Agreement §8.2**
+* Be paid to any recipient whose KYC/AML compliance status is unknown or unverified, where KYC is required under the **Contributor Compensation Policy §3.5** or **Operating Agreement §10.4**
 
 ---
 

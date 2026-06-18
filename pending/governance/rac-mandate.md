@@ -1,6 +1,6 @@
 # Radix DAO Permanent RAC Mandate
 
-> **Scope of this document.** This Mandate governs the **Permanent RAC**, the standing governance-process oversight body of the Company, constituted following the Transition Period in accordance with **Operating Agreement §13.7** and the **Elections & Role Governance Policy**. The Transition RAC and its limited formation-period authority are governed by Operating Agreement Article XIII.
+> **Scope of this document.** This Mandate governs the **Permanent RAC**, the standing governance-process oversight body of the Company, constituted following the Transition Period in accordance with **Operating Agreement Article VII** and the **Elections & Role Governance Policy**. The Transition RAC and its limited formation-period authority are governed by Operating Agreement Article VI.
 
 ## 1. Purpose
 
@@ -33,6 +33,13 @@ The Permanent RAC may:
 * Take **temporary emergency actions** within defined limits
 * Instruct remaining Treasury Signers to execute a passed proposal under the forced-execution backstop (Governance Continuity Framework §4.2) when the 10-business-day window from veto window close has elapsed with no valid hold on record
 * Maintain the Tier 2 voting power source register (DAO Parameters §8A), including adding or removing supplementary sources by routine decision, subject to the 30-day advance notice and `effectiveFrom` requirements defined there
+* Provide or withhold the Permanent RAC's prior written consent, by the majority in **DAO Parameters §3A.4**, to any post-activation amendment of an Entrenched Provision that affects the Permanent RAC's constitutional role, composition, election mechanics, or removal procedure (**Operating Agreement §12.2(d)(iii)**)
+
+---
+
+## 3B. Advisory Governance Period — Acknowledgement of Recognised Outcomes
+
+During the **Advisory Governance Period** (formation to the Activation Date), the RAC — constituted as the **Transition RAC** under Operating Agreement Article VI — must, where an advisory governance outcome meets the recognition thresholds in **DAO Parameters §3A.3**, publish to the Official Venue within **14 days** an acknowledgement of the outcome and, where it determines not to act in accordance with it, a written explanation (**Operating Agreement §5.9**). This is the period referred to in **Charter §4A.1**. Advisory outcomes do not bind the Company during this period (Operating Agreement §§5.8–5.9).
 
 ---
 
@@ -69,8 +76,8 @@ Emergency authority — including permitted actions, tiers, approval thresholds,
 * Composition: between 5 and 7 persons
 * No permanent or externally appointed seats exist
 * Members serve fixed terms (defined in the Elections & Role Governance Policy)
-* Upon election, Permanent RAC members are admitted as legal Members of the LLC under **Operating Agreement §4.1**. This Membership is a legal compliance structure and does not alter the process-guardian role defined in this Mandate
-* A Permanent RAC member may simultaneously hold a Delegate function under Operating Agreement Article V, subject to the role-concentration limits in **DAO Parameters §6B** and the recusal obligations of the **Conflict of Interest Policy**
+* Upon seating, Permanent RAC members are admitted as legal Members of the LLC under **Operating Agreement Article IV (§§4.3, 4.6)**. This Membership is a legal compliance structure and does not alter the process-guardian role defined in this Mandate
+* A Permanent RAC member may simultaneously hold a Delegate function (established under **Operating Agreement §11.5**; see Delegate Mandate), subject to the role-concentration limits in **DAO Parameters §6B** and the recusal obligations of the **Conflict of Interest Policy**
 
 ---
 
@@ -89,7 +96,7 @@ RAC members are subject to the **Conflict of Interest Policy**, including the he
 
 ## 9A. Resignation
 
-* A RAC member may resign by written notice. Resignation causes immediate cessation of legal Membership under **Operating Agreement §4.7(b)** (current OA §4.1(d)) and immediate vacancy of the seat under **DAO Parameters §5.1**; the replacement process runs under the **Elections & Role Governance Policy §11**
+* A RAC member may resign by written notice. Resignation causes cessation of legal Membership under **Operating Agreement §4.7(b)** and immediate vacancy of the seat under **DAO Parameters §5.1**; the replacement process runs under the **Elections & Role Governance Policy §11**
 * Where a resignation would reduce seated RAC members below the minimum of 5, or active Treasury Signers below the 3-of-5 execution quorum, the **Floor-Protected Resignation** rule in **Elections & Role Governance Policy §11.2** applies: the resignation is permitted but conditioned on the 14-day Floor-Protected Resignation Notice (DAO Parameters §6B), and converts to a continuity event if the member cannot serve that notice
 * Outgoing members remain subject to the handover obligations in **Elections & Role Governance Policy §12**
 
@@ -99,7 +106,7 @@ RAC members are subject to the **Conflict of Interest Policy**, including the he
 
 The Permanent RAC operates **on behalf of the DAO** and remains fully subordinate to:
 
-* Governance Participant authority exercised through the on-chain governance system (Operating Agreement §4.3)
+* Governance Participant authority exercised through the Governance Mechanism — advisory during the Advisory Governance Period and binding from the Activation Date (Operating Agreement §§5.7–5.9)
 * Approved governance processes
 
 ---

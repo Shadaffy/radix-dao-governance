@@ -14,14 +14,14 @@ All definitions, authority limits, and obligations remain in their source docume
 
 | Role | Defined In | Appointed By | Term | Primary Policy Documents |
 |------|-----------|--------------|------|--------------------------|
-| **Governance Participants** | OA §4.2; Charter §4.1 | Token acquisition | Indefinite (while holding tokens) | Charter; Proposal & Voting Framework §6–8; DAO Parameters §8 |
-| **Transition RAC Members** *(Transition Period only)* | OA Article XIII | GP-PRE-1 ratification | Until Permanent RAC seating | OA Article XIII; Emergency Policy §5–6 |
-| **Permanent RAC Members** | RAC Mandate; OA §13.7, §4.1; Charter §8 | Two-stage DAO Election | 6 months (§6B) | RAC Mandate; Elections Policy; Emergency Policy §5–6; CoI Policy §8 |
-| **Members (legal)** | OA §4.1 | Admission via RAC seat or Delegate function | While holding qualifying role | OA Article IV |
-| **Delegates — Treasury Signers** | Delegate Mandate §2.1; Treasury Signers Rules | DAO Election Proposal | 6 months (§6B) | Delegate Mandate; Treasury Signers Rules; Execution Policy §5.3; DAO Parameters §6A |
-| **Delegate — Governance Operator** | Delegate Mandate §2.2 | DAO Election Proposal | 6 months (§6B) | Delegate Mandate; Proposal & Voting Framework; DAO Parameters §3–3.5 |
-| **Delegate — Legal Signatory** | Delegate Mandate §2.3 | DAO Election Proposal | 6 months (§6B) | Delegate Mandate; Compliance Operations Policy §5 |
-| **Delegate — Compliance Liaison** | Delegate Mandate §2.4; OA §8 | DAO Election Proposal | 6 months (§6B) | Delegate Mandate; OA §8; Compliance Operations Policy §2 |
+| **Governance Participants** | OA Article V; Charter §4.1 | Token acquisition | Indefinite (while holding tokens) | Charter; Proposal & Voting Framework §6–8; DAO Parameters §8 |
+| **Transition RAC Members** *(Transition Period only)* | OA Article VI | GP-PRE-1 ratification | Until the Activation Date | OA Article VI; Emergency Policy §5–6 |
+| **Permanent RAC Members** | RAC Mandate; OA Article VII, Article IV; Charter §8 | Two-stage DAO Election | 6 months (§6B) | RAC Mandate; Elections Policy; Emergency Policy §5–6; CoI Policy §8 |
+| **Members (legal)** | OA Article IV | Admission via RAC seat or Delegate function | While holding qualifying role | OA Article IV |
+| **Delegates — Treasury Signers** | Delegate Mandate §2.1 (OA §11.5); Treasury Signers Rules | DAO Election Proposal | 6 months (§6B) | Delegate Mandate; Treasury Signers Rules; Execution Policy §5.3; DAO Parameters §6A |
+| **Delegate — Governance Operator** | Delegate Mandate §2.2 (OA §11.5) | DAO Election Proposal | 6 months (§6B) | Delegate Mandate; Proposal & Voting Framework; DAO Parameters §3–3.5 |
+| **Delegate — Legal Signatory** | Delegate Mandate §2.3 (OA §1.15, §9.2) | DAO Election Proposal | 6 months (§6B) | Delegate Mandate; Compliance Operations Policy §5 |
+| **Delegate — Compliance Liaison** | Delegate Mandate §2.4; OA Article X | DAO Election Proposal | 6 months (§6B) | Delegate Mandate; OA Article X; Compliance Operations Policy §2 |
 | **Delegate — Web2 Custodian** | Delegate Mandate §2.5 | DAO Election Proposal | 6 months (§6B) | Delegate Mandate; Compliance Operations Policy §4 |
 | **WG Stewards** | DAO Parameters §7; Proposal & Voting Framework §4.6 | DAO Election Proposal (per WG Charter) | 6 months (§7) | Respective WG Charter; Execution Policy §5.2; CoI Policy §2 |
 | **Contributors / Contractors** | Execution Policy §7.3–7.4; Code of Conduct §3.3 | Working Group (or RAC where no WG exists) | Per engagement | Code of Conduct §3.3; Execution Policy §7 |
@@ -37,28 +37,28 @@ All definitions, authority limits, and obligations remain in their source docume
 ### 2.1 Governance Participants
 
 **Authority & Scope**
-Governance Participants are the ultimate decision-making authority of the DAO. They submit and vote on all governance proposals, may file veto challenges, and can remove any elected role-holder by vote. They hold no economic ownership in DAO assets and are not legal Members of the LLC by virtue of governance participation (OA §4.2; Charter §4.1). On-chain governance outcomes are binding decisions of the Company under OA §4.3.
+Governance Participants are the ultimate decision-making authority of the DAO. They submit and vote on all governance proposals, may file veto challenges, and can remove any elected role-holder by vote. They hold no economic ownership in DAO assets and are not legal Members of the LLC by virtue of governance participation (OA Article V; Charter §4.1). Governance outcomes are **advisory** during the Advisory Governance Period (OA §§5.8–5.9) and become **binding decisions of the Company from the Activation Date** (OA §5.7), save for the three binding community acts during the Transition Period (Charter §4A.2).
 
 **Defined In**
-- Operating Agreement §4.2 (Governance Participation)
-- Operating Agreement §4.3 (binding effect of on-chain decisions)
+- Operating Agreement Article V (Governance Participation and governance effect)
+- Operating Agreement §5.7 (binding effect of governance outcomes after Activation); §§5.8–5.9 (advisory during the Advisory Governance Period)
 - Charter §4.1 (Governance Participant sovereignty)
 
 **Appointment**
 Automatic upon acquiring Governance Tokens. No registration or approval required (Charter §4.1; Proposal & Voting Framework §2.5).
 
 **Term & Renewal**
-Indefinite — continues while holding Governance Tokens (OA §4.2(a)).
+Indefinite — continues while holding Governance Tokens (OA Article V).
 
 **Termination**
-Governance Participation ceases automatically when the holder no longer holds any Governance Tokens and has no active votes recorded on the Governance Platform (OA §4.2(a)).
+Governance Participation ceases automatically when the holder no longer holds any Governance Tokens and has no active votes recorded on the Governance Platform (OA Article V).
 
 **Policies That Apply**
 - Charter — constitutional authority and principles
 - Proposal & Voting Framework §6–8 — voting mechanics, veto mechanism
 - DAO Parameters §8 — voting power basis (XRD and LSU-equivalent)
 - DAO Parameters §4 — veto window and participation threshold
-- Operating Agreement §4.6 — UBO KYC obligation if holding >25% of eligible voting power
+- Operating Agreement §10.2 — UBO statutory test (≥25% of membership interests or voting rights, or actual/effective control)
 - Compliance Operations Policy §2 — UBO monitoring procedures
 - Code of Conduct §3 — behavioral standards for all participants
 
@@ -70,30 +70,30 @@ Governance Participants exercising ordinary voting rights are **not** subject to
 ### 2.2 Transition RAC Members *(Transition Period only)*
 
 **Authority & Scope**
-The Transition RAC is a temporary implementation authority constituted for the limited purpose of implementing the Transition Period. Its mandate is strictly limited to formation activities — entity formation, initial BOIR filing, treasury multisig establishment, asset transfer from the Founding Transferor, KYC, election of the Permanent RAC, and handover. It is not a general governance authority and may not override decisions made by Governance Participants on the Governance Platform (OA §13.3; §13.3A).
+The Transition RAC is a temporary implementation authority constituted for the limited purpose of implementing the Transition Period. Its mandate is strictly limited to formation activities — entity formation, initial BOIR filing, treasury multisig establishment, asset transfer from the Founding Transferor, KYC, election of the Permanent RAC, and handover (OA §6.5). It is not a general governance authority; during the Advisory Governance Period community governance outcomes are advisory and so cannot be "overridden" (OA §§5.8–5.9, §6.7).
 
-Transition RAC members hold legal Membership in the LLC under OA §4.1(a) during the Transition Period.
+Transition RAC members hold legal Membership in the LLC under OA §4.2 during the Transition Period.
 
-Under **OA §13.2**, Transition RAC members hold the Treasury Signing Delegated Function (§5.3(a)) per §13.4 and are treated as Delegates in respect of that function for the purposes of Article V (KYC, conflict disclosure, standard of conduct), §10.3 (Emergency Amendments — written consent of the Delegates), and the indemnification provisions of §11.3 and §5.4. Article XIII-specific procedures — including the §13.3A decision rule and the §13.5 sunset and handover — prevail over the corresponding Delegate procedures in Article V.
+Transition RAC members act as the initial Treasury Signers under **OA §§9.9–9.11** and hold the Treasury Signing Delegated Function (established under §11.5) in that capacity. As Covered Persons they are within the indemnification in §12.5 and the standard of conduct / fiduciary disclaimer in §12.7. Decisions of the Transition RAC are taken by simple majority of seated members (OA §6.6), and the Transition RAC sunsets on the Activation Date (OA §6.10). Where these Article VI procedures apply, they prevail over the corresponding Delegate procedures in the Delegate Mandate.
 
 **Defined In**
-- Operating Agreement Article XIII (constitution, mandate, internal process, treasury authority, sunset)
-- Operating Agreement §13.2 (treated as Delegates for Article V purposes)
+- Operating Agreement Article VI (constitution, mandate, decision rule, limits, sunset)
+- Operating Agreement §§9.9–9.11 (initial signers); §11.5 (Treasury Signing as a delegated function)
 
 **Appointment**
 Ratified by GP-PRE-1 (founding proposal) as five named persons. All must complete KYC Tier 1 verification before the founding vote opens.
 
 **Term**
-From entity formation until the Permanent RAC is seated. The Transition RAC mandate sunsets automatically and immediately on Permanent RAC seating (OA §13.5).
+From entity formation until the Activation Date. The Transition RAC mandate sunsets automatically on the Activation Date, with the Permanent RAC already seated as a precondition to the Activation Vote (OA §6.10; Schedule 5, conditions 6–7).
 
 **Removal**
 Individual members may be removed by Governance Proposal in accordance with standard removal procedures. A replacement is appointed by Governance Proposal.
 
 **Policies That Apply**
-- Operating Agreement Article XIII — primary authority and limits
-- Operating Agreement §13.4 — treasury signer authority during Transition Period (3-of-5 / 4-of-5)
-- Operating Agreement §13.6 — indemnification continuity
-- Operating Agreement §13.3A — transition governance internal process and transparency
+- Operating Agreement Article VI — primary authority and limits
+- Operating Agreement §§9.9–9.11 — treasury signer authority during Transition Period (3-of-5 / 4-of-5)
+- Operating Agreement §12.5(i) — indemnification survival/continuity
+- Operating Agreement §6.8 — transition governance internal process and transparency (detailed in the Charter)
 - Emergency & Safeguards Policy §5–6 — emergency authority
 - Conflict of Interest Policy §8 — heightened obligations for RAC members
 - Code of Conduct §3–6 — behavioral standards
@@ -108,18 +108,18 @@ Subject to CoI Policy §2–4 and the heightened RAC obligations in CoI Policy �
 **Authority & Scope**
 The Permanent RAC is the standing governance-process oversight body — guardian of process, not a decision-making authority. It may: verify proposal compliance, formally determine vote outcomes, trigger emergency procedures, flag violations, instruct signers to execute under the forced-execution backstop, and receive regulatory escalations. It may not override valid governance decisions, make unilateral strategic decisions, or block proposals without grounds. It is not, unless expressly stated, a general executive, treasury-management, or policy-making authority (RAC Mandate §1–4; Charter §8).
 
-Permanent RAC members hold legal Membership in the LLC under OA §4.1(a) for the duration of their seat. A Permanent RAC member may simultaneously hold a Delegate function as defined in the Delegate Mandate. At small DAO scale this is the default expected model; as the DAO grows and additional capacity becomes available, separation between RAC oversight and Delegate execution is preferred. Both configurations are valid and the choice is made by Governance Proposal when the Delegate roster is established (Delegate Mandate §3). The 2-role maximum in DAO Parameters §6B and the recusal obligations of the Conflict of Interest Policy apply in either configuration.
+Permanent RAC members hold legal Membership in the LLC under OA Article IV (§§4.3, 4.6) for the duration of their seat. A Permanent RAC member may simultaneously hold a Delegate function as defined in the Delegate Mandate (established under OA §11.5). At small DAO scale this is the default expected model; as the DAO grows and additional capacity becomes available, separation between RAC oversight and Delegate execution is preferred. Both configurations are valid and the choice is made by Governance Proposal when the Delegate roster is established (Delegate Mandate §3). The 2-role maximum in DAO Parameters §6B and the recusal obligations of the Conflict of Interest Policy apply in either configuration.
 
 **Defined In**
 - RAC Mandate §1–12 (primary definition, authority, limitations)
-- Operating Agreement §13.7 (constitution following Transition Period)
-- Operating Agreement §6.5 (result determination role)
-- Operating Agreement §4.1 (legal Membership)
+- Operating Agreement Article VII (constitution following Transition Period)
+- RAC Mandate §6 (result determination role)
+- Operating Agreement Article IV (legal Membership)
 - Charter §8 (governance integrity function)
 - Elections & Role Governance Policy (composition, eligibility, nomination, election procedure, reporting)
 
 **Appointment**
-Two-stage Election Proposal process (Proposal & Voting Framework §4.6): Stage 1 shortlisting by Approval Voting, Stage 2 confirmation by standard vote. The first Permanent RAC election is conducted during the Transition Period under the Elections & Role Governance Policy and is the endpoint of the Transition Period.
+Two-stage Election Proposal process (Proposal & Voting Framework §4.6): Stage 1 shortlisting by Approval Voting, Stage 2 confirmation by standard vote. The first Permanent RAC election is conducted during the Transition Period under the Elections & Role Governance Policy; the election and seating of at least the minimum number of members is a **precondition to the Activation Vote** (OA Schedule 5, condition 7), not itself the endpoint of the Transition Period — which ends on the Activation Date (OA §1.2).
 
 **Term & Renewal**
 6 months (DAO Parameters §5.1). Auto-renewed unless a challenge is filed during the challenge window (DAO Parameters §6B). Maximum 4 consecutive terms in the same role (DAO Parameters §6B).
@@ -129,7 +129,7 @@ DAO vote at any time (RAC Mandate §9). Emergency suspension possible under Emer
 
 **Policies That Apply**
 - RAC Mandate — primary authority, limitations, emergency powers, accountability
-- Operating Agreement §4.1 — legal Membership status
+- Operating Agreement Article IV — legal Membership status
 - Elections & Role Governance Policy — composition, eligibility, nomination, election procedure
 - Emergency & Safeguards Policy §5–6 — RAC emergency authority and thresholds
 - Proposal & Voting Framework §6.5 — result determination procedure
@@ -163,16 +163,16 @@ The total number of elected Delegates is set per election by Governance Proposal
 ### 2.4 Delegates — Treasury Signers
 
 **Authority & Scope**
-Treasury Signers execute treasury transactions approved by governance. They are execution agents, not decision-makers. They operate a 3-of-5 multisig (4-of-5 for high-risk transactions). During the Transition Period, this function is held by the five Transition RAC members (OA §13.4); thereafter it is held by elected Treasury Signing Delegates. They may refuse or delay execution only on the specific grounds defined in Treasury Signers Rules §9. They may take protective emergency actions when triggered under the Emergency Policy (Treasury Signers Rules §17).
+Treasury Signers execute treasury transactions approved by governance. They are execution agents, not decision-makers. They operate a 3-of-5 multisig (4-of-5 for high-risk transactions). During the Transition Period, this function is held by the five Transition RAC members as the initial signers (OA §§9.9–9.11); thereafter it is held by elected Treasury Signing Delegates. They may refuse or delay execution only on the specific grounds defined in Treasury Signers Rules §9. They may take protective emergency actions when triggered under the Emergency Policy (Treasury Signers Rules §17).
 
 **Defined In**
 - Delegate Mandate §2.1 (Treasury Signing function definition and scope)
 - Treasury Signers Rules §1–20 (operational rules)
-- Operating Agreement §13.4 (Treasury Signing during Transition Period)
+- Operating Agreement §§9.9–9.11 (signers, signer set, and thresholds during the Transition Period)
 - Charter §4.3 (binding decisions executed through Treasury Signers)
 
 **Appointment**
-During Transition Period: held by the five Transition RAC members per OA §13.4. Post-transition: two-stage Election Proposal process (Proposal & Voting Framework §4.6). Exactly 5 signers must be elected to support signing thresholds (Delegate Mandate §3; DAO Parameters §6A). KYC required before assuming function.
+During Transition Period: held by the five Transition RAC members as initial signers per OA §§9.9–9.11. Post-transition: two-stage Election Proposal process (Proposal & Voting Framework §4.6). Exactly 5 signers must be elected to support signing thresholds (Delegate Mandate §3; DAO Parameters §6A). KYC required before assuming function.
 
 **Term & Renewal**
 Post-transition: 6 months (DAO Parameters §6A, §6B). Auto-renewed unless challenged. Maximum 4 consecutive terms (DAO Parameters §6B).
@@ -189,8 +189,8 @@ DAO vote at any time (Treasury Signers Rules §7). Immediate emergency suspensio
 - Emergency & Safeguards Policy §5.1, §8 — emergency execution authority
 - Conflict of Interest Policy §2–4 — disclosure and recusal obligations
 - Code of Conduct §3–6 — behavioral standards
-- Operating Agreement §8.2 — KYC requirement before assuming function
-- Operating Agreement §11.3 — indemnification (see also Treasury Signers Rules §19A)
+- Operating Agreement §10.4 — KYC requirement before assuming function
+- Operating Agreement §12.5 — indemnification (see also Treasury Signers Rules §19A)
 - Elections & Role Governance Policy §11 — vacancy handling and replacement election procedure
 - Governance Continuity Framework §4.2 — Signer Failure procedures and interim coverage (prevails over Delegate Mandate §5 where a vacancy creates immediate operational risk, e.g., signer count falling below execution quorum)
 
@@ -202,13 +202,13 @@ Subject to CoI Policy §2–4. In addition, an execution-specific rule applies: 
 ### 2.5 Delegates — Governance Operator
 
 **Authority & Scope**
-Operates the Governance Platform: elevates approved Temperature Checks to Governance Proposals via the Owner Badge; updates governance parameters per DAO vote; maintains the Governance smart contract. May not elevate a TC that has not met approval conditions, and may not modify, delay, or suppress an eligible elevation without a Governance Proposal (OA §6.2).
+Operates the Governance Platform: elevates approved Temperature Checks to Governance Proposals via the Owner Badge; updates governance parameters per DAO vote; maintains the Governance smart contract. May not elevate a TC that has not met approval conditions, and may not modify, delay, or suppress an eligible elevation without a Governance Proposal (Proposal & Voting Framework §6.2).
 
 **Defined In**
 - Delegate Mandate §2.2 (Governance Operations function definition and scope)
 
 **Appointment**
-DAO Election Proposal (Delegate Mandate §3). One of the elected Delegates. KYC required before assuming function (Delegate Mandate §3; OA §8.2).
+DAO Election Proposal (Delegate Mandate §3). One of the elected Delegates. KYC required before assuming function (Delegate Mandate §3; OA §10.4).
 
 **Term & Renewal**
 6 months (DAO Parameters §6B). Auto-renewed unless challenged. Maximum 4 consecutive terms.
@@ -236,7 +236,7 @@ Signs contracts, continuity statements, and legal instruments as authorized by G
 
 **Defined In**
 - Delegate Mandate §2.3 (Legal Signatory function definition and scope)
-- Operating Agreement §3.2 (continuity statement authority)
+- Operating Agreement §1.15 and §9.2 (Legal Signatory); §9.3 (continuity statement authority)
 
 **Appointment**
 DAO Election Proposal (Delegate Mandate §3). KYC required.
@@ -249,9 +249,9 @@ DAO vote at any time (Delegate Mandate §5).
 
 **Policies That Apply**
 - Delegate Mandate §2.3 — Legal Signatory function scope
-- Operating Agreement §3.2 — continuity statement authority
+- Operating Agreement §1.15, §9.2–9.3 — Legal Signatory authority and continuity statement authority
 - Delegate Mandate §5 — continuity rules (interim Legal Signatory; 24-hour disclosure requirement)
-- Operating Agreement §9.2–9.3 — dissolution notice obligation and asset provenance record
+- Operating Agreement Article XIII — dissolution and asset lock
 - Compliance Operations Policy §5 — regulatory demand disclosure protocol (notify RAC within 24 hours)
 - Elections & Role Governance Policy §11 — vacancy handling and replacement election procedure
 - Conflict of Interest Policy §2–4 — disclosure and recusal obligations
@@ -265,11 +265,11 @@ Subject to CoI Policy §2–4 and the standard of conduct in Delegate Mandate §
 ### 2.7 Delegates — Compliance Liaison
 
 **Authority & Scope**
-Acts as Registered Agent liaison. Files the annual Beneficial Owner Information Report (BOIR). Coordinates KYC for Delegates, RAC members, and UBO Governance Participants. Maintains KYC and sanctions records confidentially with the Registered Agent. Monitors on-chain voting power to identify UBOs approaching the 25% threshold (Compliance Operations Policy §2.1). If unavailable or the source of a compliance failure, the Legal Signatory assumes the reporting obligation (OA §8.4).
+Acts as Registered Agent liaison. Files the annual Beneficial Owner Information Report (BOIR). Coordinates KYC for Delegates, RAC members, and UBO Governance Participants. Maintains KYC and sanctions records confidentially with the Registered Agent. Monitors on-chain voting power to identify UBOs approaching the 25% threshold (Compliance Operations Policy §2.1). If unavailable or the source of a compliance failure, the Legal Signatory assumes the reporting obligation (OA §10.6; Compliance Operations Policy §2.5).
 
 **Defined In**
 - Delegate Mandate §2.4 (Compliance Liaison function definition and scope)
-- Operating Agreement §8.1–8.4 (BOIR filing, KYC, sanctions screening, entity standing)
+- Operating Agreement §§10.1–10.6 (BOIR filing, statutory test, KYC, confidentiality, entity standing)
 
 **Appointment**
 DAO Election Proposal (Delegate Mandate §3). KYC required.
@@ -281,7 +281,7 @@ DAO Election Proposal (Delegate Mandate §3). KYC required.
 DAO vote at any time (Delegate Mandate §5).
 
 **Policies That Apply**
-- Operating Agreement §8.1–8.4 — BOIR (initial, annual, updated), KYC tiers, sanctions screening, entity standing obligations
+- Operating Agreement §§10.1–10.6 — BOIR filing, statutory test, KYC, confidentiality of compliance information, entity standing
 - Compliance Operations Policy §2 — UBO identification, threshold monitoring, BOIR onboarding procedures, confidentiality
 - DAO Parameters §8 — UBO threshold (>25% of eligible voting power)
 - Conflict of Interest Policy §2–4 — disclosure and recusal obligations
@@ -393,7 +393,7 @@ This table shows which governance documents apply to each role. References indic
 | Policy Document | Governance Participants | RAC Members (Transition & Permanent) | Treasury Signers | Delegates | WG Stewards | Contributors |
 |----------------|--------------|-------------|-------------------|-----------|-------------|--------------|
 | **Charter** | All (§4.1) | §8, §12.1 | §4.3 | §4.2 | §4.2 | — |
-| **Operating Agreement** | §4.2, §4.3 | §4.1, §6.5, Art XIII | §7, §13.4, §11.3 | §4.1 | — | — |
+| **Operating Agreement** | Art V (§5.7–5.9) | Art IV, Art VI, Art VII | §§9.7–9.11, §12.5 | §11.5 | — | — |
 | **Proposal & Voting Framework** | §6–8 (voters) | §6.5 (result determination) | §8.4 (veto window) | §4.6 (election) | §4.6 (election) | — |
 | **RAC Mandate** | — (subject to) | §1–12 (primary, Permanent RAC) | §3 (subject to) | §3 (subject to) | §3 (subject to) | — |
 | **Delegate Mandate** | — | (if also Delegate) | §2.1, §3–5 | §1–8 (primary) | — | — |

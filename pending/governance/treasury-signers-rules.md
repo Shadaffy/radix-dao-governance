@@ -168,9 +168,9 @@ No signer may act unilaterally where multi-signature approval is required.
 
 ### 10A.1 Account Architecture
 
-Treasury assets are held in the multi-signature account identified in **Operating Agreement §1.4**. The signing threshold structure is defined in **DAO Parameters §6A** (3-of-5 standard, 4-of-5 high-risk).
+Treasury assets are held in the multi-signature account whose identifier is recorded in **Operating Agreement Schedule 4** (per §11.4). The signing threshold structure is defined in **DAO Parameters §6A** (3-of-5 standard, 4-of-5 high-risk) and is consistent with **Operating Agreement §9.11** (3-of-5 for ordinary transition treasury actions; 4-of-5 for protected matters / high-sensitivity actions). High-risk transactions correspond to the **protected matters** in **Operating Agreement §9.12**.
 
-The Company may, by Governance Proposal, segment treasury assets across multiple accounts (e.g., operational treasury, reserve treasury, grants pool) provided each account remains subject to multi-signature control and the same threshold structure. Account segmentation must be recorded with the Registered Agent under Operating Agreement §1.4.
+The Company may, by Governance Proposal, segment treasury assets across multiple accounts (e.g., operational treasury, reserve treasury, grants pool) provided each account remains subject to multi-signature control and the same threshold structure. Account segmentation must be recorded with the Registered Agent and reflected in the technical identifiers under Operating Agreement §11.4 / Schedule 4.
 
 ### 10A.2 Annual Treasury Audit
 
@@ -318,15 +318,15 @@ These rules operate alongside:
 * Emergency & Safeguards Policy
 * DAO Parameters Registry
 
-If a conflict arises, the Operating Agreement prevails, followed by the Charter, then approved governance decisions (see Operating Agreement §12.5).
+If a conflict arises, the Operating Agreement prevails, followed by the Charter, then approved governance decisions (see Operating Agreement §11.3).
 
-These rules are governed by the laws of the Republic of the Marshall Islands (Operating Agreement §11.2). Disputes arising under these rules are subject to the dispute resolution procedure in Operating Agreement §11.1.
+These rules are governed by the laws of the Republic of the Marshall Islands (Operating Agreement §14.1). Disputes arising under these rules are subject to the dispute resolution procedure in Operating Agreement Article XIV (and the Dispute Resolution & Arbitration Policy as its Tier 1 process).
 
 ---
 
 ## 19A. Indemnification
 
-Treasury Signers acting in good faith within their authorized mandate are indemnified by the Company in accordance with Operating Agreement §11.3. The Company shall advance reasonable legal expenses to any Treasury Signer facing claims arising from their role, subject to the conditions and exclusions stated in Operating Agreement §11.3. Treasury Signers are encouraged to review §11.3 of the Operating Agreement directly for the full scope of protections and exclusions.
+Treasury Signers acting in good faith within their authorized mandate are indemnified by the Company in accordance with Operating Agreement §12.5. The Company shall advance reasonable legal expenses to any Treasury Signer facing claims arising from their role, subject to the conditions and exclusions stated in Operating Agreement §12.5. Treasury Signers are encouraged to review §12.5 of the Operating Agreement directly for the full scope of protections and exclusions.
 
 ---
 

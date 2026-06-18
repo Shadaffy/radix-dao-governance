@@ -27,7 +27,7 @@ This policy applies to disputes involving:
 
 ### 3.1 DAO Sovereignty
 
-Final authority in any dispute rests with Governance Participants, expressed through Governance Proposal. No body — including the RAC — may impose a binding resolution that overrides a Governance Proposal or that pre-empts the right of Governance Participants to decide a matter through the standard pipeline.
+Within the DAO's internal governance, disputes are resolved through Governance Proposal: no body — including the RAC — may impose a binding resolution that overrides a Governance Proposal or that pre-empts the right of Governance Participants to decide a matter through the standard pipeline. This internal process is the **Tier 1 governance/dispute-resolution process** to which **Operating Agreement §14.1A** defers before arbitration. It is not the final legal forum: where the pre-arbitration process is exhausted or an exception under OA §14.1A applies, a dispute is finally resolved by arbitration under **OA §14.2** (LCIA Rules, London seat), with urgent interim relief available from the English High Court under **OA §14.3**. The internal process does not override that arbitration backstop (see §10).
 
 ---
 
@@ -131,7 +131,7 @@ If Level 2 fails, or where the dispute concerns governance process itself, the R
 
 ### Level 4 — DAO Decision
 
-If escalation continues past Level 3, or where Level 3 cannot resolve the matter without overstepping its procedural authority, the dispute is submitted as a Governance Proposal under the Proposal & Voting Framework. Governance Participants decide. This is the final authority and binds all parties.
+If escalation continues past Level 3, or where Level 3 cannot resolve the matter without overstepping its procedural authority, the dispute is submitted as a Governance Proposal under the Proposal & Voting Framework. Governance Participants decide. This is the final authority **within the DAO's internal dispute process** and binds all parties to that process. It does not displace the arbitration backstop in Operating Agreement Article XIV: a matter that cannot lawfully be decided by community vote, or that falls within an exception in OA §14.1A (including disputes with third parties and allegations of wilful misconduct, gross negligence, or fraud), proceeds to arbitration under OA §14.2 rather than being concluded here.
 
 ---
 
@@ -177,9 +177,13 @@ Allegations of misconduct must be supported by evidence and submitted in writing
 
 ---
 
-## 10. Arbitration Limits
+## 10. Arbitration Limits and the Operating Agreement
 
-No entity within the DAO may unilaterally impose a binding substantive outcome on a dispute, override a Governance Proposal, or act as a final judge of the merits outside the governance system. The RAC's procedural-enforcement authority does not extend to substantive determinations beyond what the governance documents already require, and Working Groups have no authority to bind one another beyond the recommendations issued at Level 2. Final substantive authority is Level 4 — Governance Proposal — and that is intentional.
+No entity within the DAO may unilaterally impose a binding substantive outcome on a dispute, override a Governance Proposal, or act as a final judge of the merits outside the governance system. The RAC's procedural-enforcement authority does not extend to substantive determinations beyond what the governance documents already require, and Working Groups have no authority to bind one another beyond the recommendations issued at Level 2. Final substantive authority within the DAO's internal process is Level 4 — Governance Proposal — and that is intentional.
+
+**Relationship to Operating Agreement Article XIV.** This policy is the Tier 1 governance/dispute-resolution process that **Operating Agreement §14.1A** requires parties to use before commencing arbitration. The internal levels in §5 are a **condition precedent** to arbitration, satisfied on the earlier of completion of this process, the elapse of 30 days from submission without resolution, or the written agreement of all disputing parties to proceed (OA §14.1A). Where the condition is satisfied or an OA §14.1A exception applies, the dispute is finally resolved by arbitration under **OA §14.2** (LCIA Rules, London seat, Marshall Islands governing law), with urgent interim relief from the English High Court under **OA §14.3**. Nothing in this policy claims final legal authority over a matter that OA Article XIV commits to arbitration.
+
+**Condition of participation (OA §14.4).** As a condition of participating in the governance system of the Company, each Governance Participant agrees that disputes brought by or against them in that capacity — including disputes arising from the exercise of governance rights, the outcome of any vote or proposal, or the application of the Charter or operational policies to them — shall, as a first resort and to the fullest extent applicable, be submitted to this Tier 1 process before commencing any other legal proceedings or arbitration, without prejudice to the right to arbitrate under OA §14.2 once this process is exhausted or an OA §14.1A exception applies.
 
 ---
 

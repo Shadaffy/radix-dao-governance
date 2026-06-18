@@ -46,7 +46,7 @@ If the RAC cannot meet quorum due to deaths or incapacitations, any single survi
 * Declare a signer continuity event if applicable (see §4.2)
 * Appoint interim signers from the Emergency Signer Reserve (Treasury Signers Rules §15)
 
-Tier 1 scope is strictly limited to these triggering and appointment actions. Appointment of an interim Legal Signatory is explicitly excluded — that function is covered by Operating Agreement §5.5 (the Compliance Liaison is authorised to act as interim Legal Signatory for protective or time-critical purposes). All Tier 1 actions must be publicly disclosed on the governance forum immediately. Interim signer appointments take effect 24 hours after disclosure to allow a community challenge, except where treasury assets are at immediate risk. All Tier 1 actions are subject to GP ratification within 30 days.
+Tier 1 scope is strictly limited to these triggering and appointment actions. Appointment of an interim Legal Signatory is explicitly excluded — that function is covered by Delegate Mandate §5 (the Compliance Liaison is authorised to act as interim Legal Signatory for protective or time-critical purposes). All Tier 1 actions must be publicly disclosed on the governance forum immediately. Interim signer appointments take effect 24 hours after disclosure to allow a community challenge, except where treasury assets are at immediate risk. All Tier 1 actions are subject to GP ratification within 30 days.
 
 **Response — Tier 2 (no RAC members available):**
 
@@ -197,7 +197,7 @@ This framework operates alongside:
 * **Execution & Treasury Actions Policy** — execution mechanics and forced-execution backstop
 * **Treasury Signers Rules §9, §15** — valid refusal grounds and the Emergency Signer Reserve
 * **RAC Mandate** — RAC authority limits, including in continuity events
-* **Operating Agreement §5.5** — Legal Signatory continuity (Compliance Liaison interim authority)
+* **Delegate Mandate §5** — Legal Signatory continuity (Compliance Liaison interim authority)
 * **Working Group Framework §4** — Working Group dissolution
 * **DAO Parameters Registry §6, §6B, §9A** — Governance Reconstitution Limit, replacement timing, and continuity fallback parameters
 

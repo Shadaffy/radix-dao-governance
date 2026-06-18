@@ -77,7 +77,7 @@ In summary, all candidates must:
 * Meet role-specific requirements
 * Be able to fulfil the responsibilities of the role
 
-Compensated roles and any role with treasury signing authority additionally require KYC completion before term start, per Operating Agreement §8.2 and the Contributor Compensation Policy §3.5.
+Compensated roles, any role with treasury signing authority, and any Accountability Council seat (Transition RAC or Permanent RAC) additionally require KYC completion before term start — and, for Permanent RAC members, **before seating** — per Operating Agreement §10.4, §1.24 ("Seated"), and the Contributor Compensation Policy §3.5. The Permanent RAC seat minimum, KYC-before-seating, and fixed election timing for activation are set in DAO Parameters §3A.5.
 
 ---
 
@@ -330,9 +330,9 @@ An individual may hold up to the Max Concurrent Roles per Individual defined in 
 
 ## 17. Founding Provisions
 
-The Transition RAC is constituted by GP-PRE-1 under Operating Agreement Article XIII. Its mandate is limited to the formation tasks listed in OA §13.3 and sunsets automatically on the seating of the Permanent RAC. The Transition RAC's seats are not elected under this policy — they are recited in GP-PRE-1 and admitted to legal Membership on entity formation.
+The Transition RAC is constituted by GP-PRE-1 under Operating Agreement Article VI. Its mandate is limited to the formation tasks listed in OA §6.5 and sunsets automatically on the **Activation Date** (Operating Agreement §6.10), with the Permanent RAC already seated. The Transition RAC's seats are not elected under this policy — they are recited in GP-PRE-1 and admitted to legal Membership on entity formation.
 
-The **first Permanent RAC election** is the first election conducted under this policy. It is run during the Transition Period by the Transition RAC using the procedures in §6–§7 and is the endpoint of the Transition Period.
+The **first Permanent RAC election** is the first election conducted under this policy. It is run during the Transition Period by the Transition RAC using the procedures in §6–§7. The election and the formal **seating** of at least the minimum number of Permanent RAC members (DAO Parameters §3A.5) is a **precondition to the Activation Vote** (Operating Agreement Schedule 5, condition 7), not itself the endpoint of the Transition Period; the Transition Period ends on the Activation Date when the Activation Vote passes (Operating Agreement §1.2). Elected members must be KYC-verified before seating, the Transition RAC must open the election within the deadline in DAO Parameters §3A.5, and seating must complete before the Activation Statement is published (Operating Agreement §8.5).
 
 Former Transition RAC members are eligible to stand as candidates for the Permanent RAC on the same basis as any other eligible candidate. Service on the Transition RAC creates no automatic right to a Permanent RAC seat and no preferential treatment in the election.
 

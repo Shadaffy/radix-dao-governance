@@ -94,6 +94,53 @@ Quorum is measured as a percentage of eligible voting power. Eligible voting pow
 
 ---
 
+## 3A. Activation, Ratification & Transition Parameters
+
+These parameters carry the activation and transition mechanics that the **Charter §4A** and the **Operating Agreement** (Article VIII, Schedule 5, §§5.7–5.9, §12.2) defer to the policy framework. They apply during the Advisory Governance Period (formation to the Activation Date).
+
+### 3A.1 Framework Ratification (Activation Condition 6)
+
+| Parameter | Value | Description |
+| --------- | ----- | ----------- |
+| Ratification Quorum | 10% of eligible voting power | Constitutional-level quorum for the one-time community ratification of the Charter and full policy framework (OA Schedule 5, condition 6) |
+| Ratification Approval | ≥ 66% YES | Constitutional-level approval threshold for ratification |
+| Scope | Charter **and** the full policy library | Ratification covers the entire community-written framework, not the Charter alone |
+
+### 3A.2 Activation Vote (sole binding pre-activation vote)
+
+| Parameter | Value | Description |
+| --------- | ----- | ----------- |
+| Activation Vote Voting Period | 5–7 days | Duration of the binding Activation Vote (OA §8.6) conducted after publication of the Activation Statement |
+| Activation Vote Quorum | 10% of eligible voting power | Constitutional-level quorum |
+| Activation Vote Approval | ≥ 66% YES | Constitutional-level approval |
+| Quorum/Majority Failure | Re-run after the standard failed-proposal cooldown (§3.4) | If the Activation Vote fails to reach quorum or majority, it may be re-initiated after cooldown once the Transition RAC re-confirms the Schedule 5 evidence; the Transition RAC's non-discretionary initiation duty (OA §8.5) continues to apply |
+
+### 3A.3 Advisory-Outcome Recognition Thresholds (OA §5.9)
+
+| Parameter | Value | Description |
+| --------- | ----- | ----------- |
+| Advisory Recognition — Participation | ≥ 7% of eligible voting power | Participation an advisory outcome must reach to be "recognised", triggering the Transition RAC's acknowledgement/explanation duty (OA §5.9; period set in RAC Mandate) |
+| Advisory Recognition — Majority | ≥ 50% YES | Majority required for recognition |
+| Advisory Recognition — Entrenched-Provision amendments (higher threshold) | ≥ 10% participation and ≥ 66% YES | The elevated recognition threshold for an advisory outcome supporting a proposed amendment to an Entrenched Provision during the Transition Period (OA §12.2(c)(ii)) |
+
+### 3A.4 Entrenched-Provision Amendment Thresholds
+
+| Phase | Requirements |
+| ----- | ------------ |
+| During the Transition Period (OA §12.2(c)) | Unanimous affirmative vote of all five **seated** Transition RAC members **and** a concurrent recognised advisory outcome meeting the higher threshold in §3A.3 **and** ≥14 days' prior notice to the registered agent and the Official Venue |
+| Following the Activation Date (OA §12.2(d)) | Quorum **≥ 20%** of eligible voting power (not less than twice the 10% Constitutional quorum); approval **≥ two-thirds** of all Governance Tokens participating; where the amendment affects the Permanent RAC's constitutional role, composition, election mechanics, or removal, the prior written consent of the Permanent RAC by **≥ 2/3 of seated members**; and ≥21 days' prior public disclosure to the Official Venue |
+
+### 3A.5 Permanent RAC Election Gating (Activation Condition 7)
+
+| Parameter | Value | Description |
+| --------- | ----- | ----------- |
+| Minimum Seats for Activation | 5 | Minimum number of Permanent RAC members that must be duly elected and **formally seated** before the Activation Vote (OA Schedule 5, condition 7; §5.1) |
+| KYC Before Seating | Mandatory | Every elected Permanent RAC member must complete KYC Tier 1 verification (Compliance Operations Policy) **before** being seated, satisfying OA §1.24 "Seated" and the §114(1)(d) natural-person-control requirement |
+| Election Initiation Deadline | Within 90 days of framework ratification (Activation Condition 6) | The Transition RAC must open the Permanent RAC election within this fixed window so the election cannot be stalled |
+| Seating Deadline | Before publication of the Activation Statement | Elected members must be seated before the Transition RAC publishes the Activation Statement (OA §8.5) |
+
+---
+
 ## 4. Veto Parameters
 
 | Parameter                  | Value              |
@@ -112,7 +159,7 @@ Quorum is measured as a percentage of eligible voting power. Eligible voting pow
 
 | Parameter                        | Value                                                                  |
 | -------------------------------- | ---------------------------------------------------------------------- |
-| Transition RAC Members           | Exactly 5 (named in GP-PRE-1; constituted under Operating Agreement Article XIII) |
+| Transition RAC Members           | Exactly 5 (named in GP-PRE-1; constituted under Operating Agreement Article VI) |
 | Permanent RAC Members            | Between 5 and 7 (set per election; defined in RAC Mandate §7). Adjustable by Governance Process proposal; minimum 5. |
 | Term Length (Permanent RAC)      | 6 months                                                               |
 | Routine Decision Quorum          | Simple majority (more than half of seated members)                     |
@@ -144,7 +191,7 @@ Quorum is measured as a percentage of eligible voting power. Eligible voting pow
 | Single Transaction Limit           | $12,000 USDC |
 | Emergency Spend Limit              | $5,000 USDC — for operational emergencies (asset security, key rotation, critical infrastructure) |
 | Governance Reconstitution Limit    | $25,000 USDC — available only when a RAC or signer continuity event has been declared under Governance Continuity §4.1 or §4.2; covers emergency election costs, legal filings, and Registered Agent compliance fees; subject to GP ratification within 30 days |
-| Legal Defense Advancement Limit    | $25,000 USDC per legal proceeding — a bridging pool covering immediate legal response costs for one or more Delegates or RAC members named in the same proceeding arising from their role, before a GP can authorize ongoing funding; the $12,000 Single Transaction Limit does not apply within this pool; does not require a declared continuity event; subject to GP ratification within 30 days and the repayment undertaking in OA §11.3 |
+| Legal Defense Advancement Limit    | $25,000 USDC per legal proceeding — a bridging pool covering immediate legal response costs for one or more Delegates or RAC members named in the same proceeding arising from their role, before a GP can authorize ongoing funding; the $12,000 Single Transaction Limit does not apply within this pool; does not require a declared continuity event; subject to GP ratification within 30 days and the repayment undertaking in OA §12.5 |
 | Rolling 30-Day Outflow Cap         | $50,000 USDC or 5% of treasury value (whichever is lower) — maximum total Treasury / Budget disbursements across all passed proposals in any rolling 30-day window. Signers must refuse execution of any proposal that would cause the rolling total to breach this cap and must report the refusal to RAC immediately. Adjustable by Treasury & Budget proposal. |
 | Emergency Safe Address             | To be designated by separate Treasury & Budget proposal before the treasury holds material value. Until designated, Tier 2 emergency asset movement (Emergency & Safeguards Policy §6) is not available. Changes to the designated address require a Treasury & Budget proposal. |
 

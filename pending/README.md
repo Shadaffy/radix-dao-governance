@@ -1,27 +1,55 @@
-# Under Consideration: GP-PRE-1 — Founding Proposal
+# Radix DAO LLC — Governance Framework (Pending Adoption)
 
-This folder contains the documents that will become operative if **GP-PRE-1** passes.
+This folder contains the complete governance framework of **Radix DAO LLC** and the proposals that
+bring it into force. Under the **Operating Agreement** (the master legal instrument), the framework is
+adopted and activated through a **sequence** of community acts — not a single founding vote.
 
-A YES vote on GP-PRE-1 means you are approving all of the documents listed below as the governing framework of Radix DAO LLC.
+The Company is **member-managed** at formation, and community governance is **advisory** until the
+**Activation Vote** passes. Three community votes are binding during this period: the **framework
+ratification**, the **Permanent RAC election**, and the **Activation Vote**.
 
 ---
 
-## What this vote activates
+## The activation sequence
+
+```
+ 1. GP-PRE-1      Constitutional ratification of the framework        (pre-formation)
+      │             Operating Agreement Schedule 5, condition 6
+ 2.   Formation — Transition RAC files the Certificate of Formation + Operating Agreement
+      │             Company exists, MEMBER-MANAGED; Advisory Governance Period begins
+ 3. GP-ELECT-1    Permanent RAC election + seating                    (Schedule 5, condition 7)
+      │
+ 4. GP-ACTIVATE-1 Activation Vote → Activation Date → Algorithmically Governed
+```
+
+| # | Proposal | Status |
+|---|---|---|
+| 1 | [GP-PRE-1: Constitutional Ratification of the Governance Framework](GP-PRE-1-Framework-Ratification.md) | Ready for review |
+| 3 | [GP-ELECT-1: Permanent RAC Election](GP-ELECT-1-Permanent-RAC-Election.md) | ⚠️ Draft scaffold |
+| 4 | [GP-ACTIVATE-1: Activation Vote](GP-ACTIVATE-1-Activation-Vote.md) | ⚠️ Draft scaffold |
+
+A YES vote on **GP-PRE-1** ratifies the framework below as the DAO's governance framework. It does
+**not** form the entity (that mandate is already held by the current RAC) and does **not** activate the
+DAO — community governance becomes binding only on the **Activation Date** (GP-ACTIVATE-1).
+
+---
+
+## What GP-PRE-1 ratifies
+
+The community ratifies the **Charter** (governance constitution) and the **operational policy library**.
+On formation the Operating Agreement recognises and gives legal effect to this framework (OA §11.1,
+§11.2, §11.5; Charter §4A).
 
 | Document | Category | File |
 |---|---|---|
-| GP-PRE-1: Founding Proposal | Proposal | [GP-PRE-1-Founding-Proposal.md](GP-PRE-1-Founding-Proposal.md) |
-| Operating Agreement | Formation (primary legal instrument) | [legal/operating-agreement.md](legal/operating-agreement.md) |
 | Charter | Constitutional (governance constitution) | [constitutional/charter.md](constitutional/charter.md) |
-| Certificate of Formation | Formation | [legal/certificate-of-formation.md](legal/certificate-of-formation.md) |
-| BOIR Template | Formation | [legal/BOIR-Template.md](legal/BOIR-Template.md) |
 | DAO Parameters Registry | Parameters | [parameters/dao-parameters-registry.md](parameters/dao-parameters-registry.md) |
 | Proposal & Voting Framework | Governance | [governance/proposal-and-voting-framework.md](governance/proposal-and-voting-framework.md) |
 | Execution & Treasury Actions Policy | Governance | [governance/execution-and-treasury-actions-policy.md](governance/execution-and-treasury-actions-policy.md) |
 | Emergency & Safeguards Policy | Governance | [governance/emergency-and-safeguards-policy.md](governance/emergency-and-safeguards-policy.md) |
 | Treasury Signers Rules | Governance | [governance/treasury-signers-rules.md](governance/treasury-signers-rules.md) |
-| Roles Registry | Governance | [governance/roles-registry.md](governance/roles-registry.md) |
 | RAC Mandate (Permanent RAC) | Governance | [governance/rac-mandate.md](governance/rac-mandate.md) |
+| Delegate Mandate | Governance | [governance/delegate-mandate.md](governance/delegate-mandate.md) |
 | Conflict of Interest Policy | Governance | [governance/conflict-of-interest-policy.md](governance/conflict-of-interest-policy.md) |
 | Code of Conduct | Governance | [governance/code-of-conduct.md](governance/code-of-conduct.md) |
 | Compliance Operations Policy | Governance | [governance/compliance-operations-policy.md](governance/compliance-operations-policy.md) |
@@ -34,33 +62,55 @@ A YES vote on GP-PRE-1 means you are approving all of the documents listed below
 | Contributor Onboarding and Offboarding | Governance | [governance/contributor-onboarding-and-offboarding.md](governance/contributor-onboarding-and-offboarding.md) |
 | Source Code Stewardship Policy | Governance | [governance/source-code-stewardship-policy.md](governance/source-code-stewardship-policy.md) |
 | Open Source & Intellectual Property Policy | Governance | [governance/open-source-and-ip-policy.md](governance/open-source-and-ip-policy.md) |
+| Roles Registry *(navigation aid, not a source of rules)* | Governance | [governance/roles-registry.md](governance/roles-registry.md) |
+
+---
+
+## Formation & legal instruments
+
+These are executed and filed by the Transition RAC at formation (not "ratified" by the community vote);
+the Operating Agreement is the master instrument that recognises the ratified framework.
+
+| Document | Category | File |
+|---|---|---|
+| Operating Agreement | Primary legal instrument | [legal/operating-agreement.md](legal/operating-agreement.md) |
+| Certificate of Formation | Formation filing | [legal/certificate-of-formation.md](legal/certificate-of-formation.md) |
+| BOIR Template | Compliance filing | [legal/BOIR-Template.md](legal/BOIR-Template.md) |
 
 ---
 
 ## Document precedence (highest to lowest)
 
-1. Marshall Islands law and Articles of Organization
-2. **Operating Agreement** — primary legal instrument; prevails over the Charter and all operational policies
+1. **Marshall Islands law and the Certificate of Formation** — supreme by operation of law
+2. **Operating Agreement** — the Company's primary legal instrument; prevails over the Charter and all policies
 3. **Charter** — governance constitution; subordinate to the OA but prevails over all operational policies
 4. **Operational policies** — subordinate to both the OA and the Charter
 5. **DAO Parameters Registry** — within the operational policy tier; values updated by Governance Proposal
 
-The Operating Agreement is the Company's primary legal instrument under Marshall Islands law. The Charter is the DAO's governance constitution, recognized by and incorporated into the Operating Agreement and designed to remain stable across legal jurisdictions. The Operating Agreement gives the Charter legal effect; if the DAO ever redomiciles, the Charter travels with the community and a new legal wrapper would similarly recognize it.
+The Operating Agreement is the Company's primary legal instrument under Marshall Islands law and gives
+the Charter legal effect (OA §11.1–§11.3; Charter §13). The Charter is the DAO's governance constitution,
+designed to remain stable across legal jurisdictions; if the DAO ever redomiciles, the Charter travels
+with the community and a new legal wrapper would similarly recognise it.
 
 ---
 
 ## Suggested reading order
 
-1. **[GP-PRE-1-Founding-Proposal.md](GP-PRE-1-Founding-Proposal.md)** — what the vote does and why
-2. **[constitutional/charter.md](constitutional/charter.md)** — purpose, principles, and constitutional authority
-3. **[legal/operating-agreement.md](legal/operating-agreement.md)** — the legal entity instrument
-4. **[governance/proposal-and-voting-framework.md](governance/proposal-and-voting-framework.md)** — how future decisions will be made
-5. **[parameters/dao-parameters-registry.md](parameters/dao-parameters-registry.md)** — all numerical thresholds and limits
+1. **[GP-PRE-1-Framework-Ratification.md](GP-PRE-1-Framework-Ratification.md)** — what the ratification vote does, and the activation sequence
+2. **[constitutional/charter.md](constitutional/charter.md)** — purpose, principles, and constitutional authority (see §4A for activation)
+3. **[legal/operating-agreement.md](legal/operating-agreement.md)** — the legal entity instrument (member-managed → Algorithmically Governed)
+4. **[governance/proposal-and-voting-framework.md](governance/proposal-and-voting-framework.md)** — how decisions are made
+5. **[parameters/dao-parameters-registry.md](parameters/dao-parameters-registry.md)** — all numerical thresholds and limits (incl. §3A activation parameters)
 
 ---
 
-## After the vote passes
+## From ratification to activation
 
-These documents move from this folder to the root structure of the repository. This folder will then be updated with the next proposal in the sequence (GP-1, GP-2, GP-3).
+1. **GP-PRE-1 passes** → the framework is the community-ratified governance framework (Activation Condition 6).
+2. **Formation** → the Transition RAC files the Certificate of Formation and Operating Agreement; the Company exists and is member-managed; the Advisory Governance Period begins.
+3. **GP-ELECT-1** → the Permanent RAC is elected and seated (Activation Condition 7).
+4. The Transition RAC publishes the **Activation Statement** once all Schedule 5 conditions are met.
+5. **GP-ACTIVATE-1** (Activation Vote) passes → the **Activation Date**: the Company becomes Algorithmically Governed, governance outcomes become binding, and the Transition RAC sunsets.
 
-The full governance reference library, including working drafts, templates, and activation history, is maintained in the [Radix DAO reference repository](https://github.com/Shadaffy/radix-dao).
+The full governance reference library, including working drafts, templates, and activation history, is
+maintained in the [Radix DAO reference repository](https://github.com/Shadaffy/radix-dao).

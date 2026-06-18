@@ -1,6 +1,6 @@
 # Governance Proposals — History
 
-This file records every proposal that changed the governance framework — Constitutional and Governance Process proposals that activated, amended, or retired a document in this repository. Each entry links to the proposal document and lists the documents it affected.
+This file records every proposal that changed the governance framework — Constitutional and Governance Process proposals that ratified, activated, amended, or retired a document in this repository. Each entry links to the proposal document and lists the documents it affected.
 
 Treasury, election, temperature check, and executable proposals are recorded on-chain and on the governance forum. They are not logged here unless they also produce a document change in this repository.
 
@@ -8,41 +8,60 @@ Entries are added when a proposal is submitted and updated when a vote concludes
 
 ---
 
-## GP-PRE-1 — Founding Proposal
+## The founding sequence
+
+Under the Operating Agreement, the framework is adopted and activated through a sequence of community acts, not a single founding vote. The Company is **member-managed** at formation and community governance is **advisory** until the Activation Vote:
+
+1. **GP-PRE-1 — Constitutional Ratification** (pre-formation) → ratifies the Charter + policy library (Activation Condition 6)
+2. **Formation** → Transition RAC files the Certificate of Formation + Operating Agreement (member-managed)
+3. **GP-ELECT-1 — Permanent RAC Election** → Activation Condition 7
+4. **GP-ACTIVATE-1 — Activation Vote** → Activation Date; the Company becomes Algorithmically Governed and governance outcomes become binding
+
+---
+
+## GP-PRE-1 — Constitutional Ratification of the Governance Framework
 
 | Field | Value |
 |---|---|
-| **Title** | Founding Proposal — Governance Adoption, Entity Formation, Delegate Ratification, and Transition Authorization |
+| **Title** | Constitutional Ratification of the Governance Framework |
 | **Category** | Constitutional |
-| **Threshold** | ≥ 66% YES / ≥ 10% quorum |
-| **Status** | Pending vote |
+| **Threshold** | ≥ 66% YES / ≥ 10% quorum (DAO Parameters §3A.1) |
+| **Status** | Ready for review (pre-formation) |
 | **Submitted** | [To be confirmed] |
 | **Vote opened** | [To be confirmed] |
 | **Vote closed** | — |
 | **Result** | — |
-| **Proposal document** | [pending/GP-PRE-1-Founding-Proposal.md](pending/GP-PRE-1-Founding-Proposal.md) |
+| **Proposal document** | [pending/GP-PRE-1-Framework-Ratification.md](pending/GP-PRE-1-Framework-Ratification.md) |
 
-**Documents this proposal will activate:**
-
-| Document | Location upon activation |
-|---|---|
-| Charter | `constitutional/charter.md` |
-| Operating Agreement | `legal/operating-agreement.md` |
-| Certificate of Formation | `legal/certificate-of-formation.md` |
-| BOIR Template | `legal/BOIR-Template.md` |
-| DAO Parameters Registry | `parameters/dao-parameters-registry.md` |
-| Proposal & Voting Framework | `governance/proposal-and-voting-framework.md` |
-| Execution & Treasury Actions Policy | `governance/execution-and-treasury-actions-policy.md` |
-| Emergency & Safeguards Policy | `governance/emergency-and-safeguards-policy.md` |
-| Treasury Signers Rules | `governance/treasury-signers-rules.md` |
-| RAC Mandate | `governance/rac-mandate.md` |
-| Delegate Mandate | `governance/delegate-mandate.md` |
-| Conflict of Interest Policy | `governance/conflict-of-interest-policy.md` |
-| Code of Conduct | `governance/code-of-conduct.md` |
-| Legal Wrapper & Representation | `governance/legal-wrapper-and-representation.md` |
-| Governance Maintenance & Upgrade Framework | `governance/governance-maintenance-and-upgrade-framework.md` |
-| Transition Governance Framework | `transition/transition-governance-framework.md` |
+**Effect:** ratifies the **Charter** and the **operational policy library** as the DAO's governance framework (Activation Condition 6); recognised and given legal effect by the Operating Agreement on formation (OA §11.1, §11.2, §11.5). Does **not** form the entity or activate the DAO. Documents ratified are listed in [pending/README.md](pending/README.md).
 
 ---
 
-*Subsequent proposals (GP-1, GP-2, GP-3, ...) will be added here as they are submitted.*
+## GP-ELECT-1 — Permanent RAC Election
+
+| Field | Value |
+|---|---|
+| **Title** | Permanent RAC Election (Activation Condition 7) |
+| **Category** | Election (two-stage) |
+| **Status** | Draft scaffold |
+| **Proposal document** | [pending/GP-ELECT-1-Permanent-RAC-Election.md](pending/GP-ELECT-1-Permanent-RAC-Election.md) |
+
+**Effect:** elects and seats the Permanent RAC under the ratified Elections & Role Governance Policy; satisfies Activation Condition 7 and is a precondition to the Activation Vote.
+
+---
+
+## GP-ACTIVATE-1 — Activation Vote
+
+| Field | Value |
+|---|---|
+| **Title** | Activation Vote |
+| **Category** | Constitutional (sole binding pre-activation vote) |
+| **Threshold** | ≥ 66% YES / ≥ 10% quorum (DAO Parameters §3A.2) |
+| **Status** | Draft scaffold |
+| **Proposal document** | [pending/GP-ACTIVATE-1-Activation-Vote.md](pending/GP-ACTIVATE-1-Activation-Vote.md) |
+
+**Effect:** confirms each Activation Condition in Operating Agreement Schedule 5 has been satisfied; on passage sets the Activation Date — the Company becomes Algorithmically Governed (OA §§5.7, 8.8) and the Transition RAC sunsets (OA §6.10).
+
+---
+
+*Subsequent proposals will be added here as they are submitted.*

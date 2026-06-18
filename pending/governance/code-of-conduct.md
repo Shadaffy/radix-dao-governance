@@ -54,7 +54,7 @@ All participants must:
 All participants must:
 
 * Disclose relevant affiliations, financial interests, or conflicts when participating in governance decisions in a decision-making role — mandatory disclosure obligations and their scope are defined in the **Conflict of Interest Policy §2**; Governance Participants exercising ordinary voting rights are encouraged but not required to disclose
-* Accept the applicable KYC/AML compliance process before receiving any compensation or other disbursement from the DAO (see **Contributor Compensation Policy §3.5** and **Operating Agreement §8.2**)
+* Accept the applicable KYC/AML compliance process before receiving any compensation or other disbursement from the DAO (see **Contributor Compensation Policy §3.5** and **Operating Agreement §10.4**)
 * Not impersonate other participants or misrepresent their identity or role
 * Not act under multiple identities (Sybil behavior) to artificially amplify influence
 

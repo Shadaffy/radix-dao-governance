@@ -74,7 +74,7 @@ No compensation may be released to any individual or entity that has not complet
 
 KYC must be completed before the first payment of an engagement. Existing engaged contributors who have not yet completed KYC must do so before their next payment cycle. The RAC maintains a record of KYC-verified payees. Working Group Stewards are responsible for confirming KYC status before authorising any payment from an approved budget.
 
-KYC records are held confidentially and are not published publicly, except where disclosure is required by law. KYC obligations are also reflected in the Operating Agreement §8.2.
+KYC records are held confidentially and are not published publicly, except where disclosure is required by law. KYC obligations are also reflected in the Operating Agreement §10.4.
 
 ---
 
