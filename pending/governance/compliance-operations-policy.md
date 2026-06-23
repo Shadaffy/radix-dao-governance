@@ -99,7 +99,7 @@ Upon receiving such notification, the RAC immediately escalates to the Governanc
 
 This protocol applies regardless of the jurisdiction from which the demand originates. Each Delegate's primary legal obligation in their Company capacity is to the laws of the Republic of the Marshall Islands and the Operating Agreement (per the Delegate Mandate and the standard of conduct in Operating Agreement §12.7(d)). Where a foreign jurisdiction demand conflicts with this, Delegates and RAC members are expected to seek DAO-authorized legal counsel before compliance and to treat DAO authorization as a condition of compliance where legally possible under Marshall Islands law. This obligation does not prevent a Delegate or RAC member from taking protective action necessary to avoid criminal liability, provided they notify the RAC immediately.
 
-**Demands received at the Registered Agent.** Where a legal demand, service of process, or regulatory correspondence is received at the Registered Agent's address, the Compliance Liaison must forward it to the Delegates and publish notice of receipt to the governance forum within **48 hours of the Compliance Liaison becoming aware of it**, in addition to this protocol. This forwarding-and-disclosure obligation is an operational compliance duty under this policy (established under Operating Agreement §11.5); the Operating Agreement does not separately provide for it.
+**Demands received at the Registered Agent.** Where a legal demand, service of process, or regulatory correspondence is received at the Registered Agent's address, the Compliance Liaison must forward it to the Delegates and publish notice of receipt to the Official Venue within **48 hours of the Compliance Liaison becoming aware of it**, in addition to this protocol. This forwarding-and-disclosure obligation gives operational effect to the DAO's notices-and-service framework in **Charter §14** and is an operational compliance duty under this policy (under Operating Agreement §11.5).
 
 ---
 
@@ -119,6 +119,7 @@ The following topics are defined in the documents listed and are not restated he
 | Asset lock and wind-down | Operating Agreement Article XIII; Charter §11 |
 | Continuity statement authority | Operating Agreement §9.3 |
 | Governing law and dispute resolution | Operating Agreement Article XIV |
+| Notices and service framework (constitutional anchor for §5) | Charter §14 |
 
 ---
 

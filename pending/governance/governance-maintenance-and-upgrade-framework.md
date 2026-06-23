@@ -111,7 +111,7 @@ Changes must:
 
 ## 9. Emergency Amendments
 
-The Operating Agreement does not provide an emergency-amendment power; this is an operational procedure established under **Operating Agreement §11.5** and applies **only to documents in the policy library** (the Charter and operational policies), not to the Operating Agreement, the Certificate of Formation, or any other Formation Document, and never to an Entrenched Provision.
+The Operating Agreement does not provide an emergency-amendment power. The emergency-amendment power is established constitutionally by **Charter §12.2**; this section is the operational procedure giving effect to it under **Operating Agreement §11.5**, and applies **only to documents in the policy library** (the Charter and operational policies), not to the Operating Agreement, the Certificate of Formation, or any other Formation Document, and never to an Entrenched Provision.
 
 Where an emergency requires a temporary amendment to a policy-library document before the standard process in §5 can complete, the amendment may be adopted by **unanimous written consent of all Delegates**, subject to Governance Proposal ratification within 30 days. An amendment not ratified within 30 days is void and of no effect. "Written consent" has the meaning given in the **Emergency & Safeguards Policy**, which governs the procedural detail and applies where an emergency action is required before a written-consent process can be completed. An emergency amendment may not weaken, reduce, or remove any entrenched provision (Charter §12.1) or alter the Activation framework (Charter §4A).
 

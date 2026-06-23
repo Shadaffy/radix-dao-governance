@@ -235,6 +235,18 @@ Defined separately:
 
 ---
 
-## 19. Amendments
+## 19. Delegate Written Consent
+
+Where this policy, the **Governance Maintenance & Upgrade Framework §9**, or **Charter §12.2** requires an action by the **written consent of the Delegates**, "written consent" means, for each Delegate, any of the following — all three forms are equally valid:
+
+* a signed statement published by the Delegate to the **Official Venue** (the designated governance forum);
+* a transaction signed by the Delegate's KYC-verified wallet address; or
+* a signed instrument delivered to the **Legal Signatory** (Delegate Mandate; **Operating Agreement §1.15 and §9.2**).
+
+Unanimous written consent requires consent in one of these forms from **every** Delegate then in office. A written-consent action takes effect when the consent of the last required Delegate is given, and is subject to any ratification requirement imposed by the provision that invokes it. Where an emergency requires action before a written-consent process can be completed, the RAC emergency authority in §5–§6 applies instead, subject to the post-emergency ratification and review requirements of this policy.
+
+---
+
+## 20. Amendments
 
 _Amendment procedures and classification requirements are defined in the **Governance Maintenance & Upgrade Framework**._

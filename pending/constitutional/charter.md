@@ -223,6 +223,23 @@ Notwithstanding the above, the following provisions may not be amended, reduced,
 
 ---
 
+### 12.2 Emergency Amendments
+
+Because this Charter is superior to the operational policy library (§13), a power to amend this Charter in an emergency must be established by the Charter itself and cannot be conferred by an operational policy alone. This section establishes that power. The **Governance Maintenance & Upgrade Framework §9** and the **Emergency & Safeguards Policy** carry its operational detail and are subordinate to this section.
+
+Notwithstanding the standard amendment process in §12, where an emergency requires a temporary amendment to a document in the policy framework — this Charter or an operational policy — before that process can complete, the amendment may be adopted by **unanimous written consent of all Delegates**, subject to ratification by Governance Proposal within 30 days. An emergency amendment that is not ratified within 30 days is void and of no effect from the expiry of that period.
+
+This power is strictly limited. An emergency amendment:
+
+1. may amend only this Charter or an operational policy, and may not amend, vary, or suspend the Operating Agreement, the Certificate of Formation, or any other Formation Document;
+2. may not amend, weaken, reduce, or remove any Entrenched Provision (§12.1), and may not alter the Activation framework (§4A);
+3. takes effect only as a temporary measure pending ratification and confers no authority to make a permanent change without the ratifying Governance Proposal required by this section, consistent with the governance-sovereignty constraint (§12.1 item 3); and
+4. must be publicly disclosed on adoption in accordance with the Transparency principle (§3.2).
+
+For the purposes of this section, "written consent" has the meaning given in the **Emergency & Safeguards Policy**.
+
+---
+
 ## 13. Scope
 
 This Charter is the DAO's governance constitution. It contains the principles, structural authority, and entrenched provisions that the community has adopted to govern itself. It is designed to remain stable across legal jurisdictions — adopted by the community independently of any particular legal wrapper, and recognized by whichever legal entity the community uses to give its decisions legal effect.
@@ -241,3 +258,15 @@ Operational, technical, and procedural details are defined in the DAO's policy l
 **Document Activation:** This Charter and the policy framework are ratified by the community through the constitutional ratification vote that forms part of the Activation Conditions (**Operating Agreement Schedule 5, condition 6**), and are recognised and given legal effect by the Operating Agreement as the governance framework of the Company. The Transition Period, defined in **Operating Agreement §1.21 and Article VI**, is a formation period during which a Transition RAC implements entity formation, asset transfer, the constitution of the Permanent RAC, and handover. During that period the Company is **member-managed** and governance outcomes are advisory (§4A.1); **full algorithmic governance under this Charter and the subordinate governance rules recognised under Operating Agreement §§11.2 and 11.5 begins on the Activation Date** (**Operating Agreement §§8.1, 8.8**), not at formation.
 
 > **[COUNSEL FLAG — D-B1]** Draft 3 implements community adoption of the framework as **Schedule 5 condition 6** (a ratification vote forming part of the Activation Conditions), rather than as an upfront adoption at formation that binds the Transition RAC subject to the asset-transfer carve-out (proposed substantive amendment B1). This clause is drafted to match Draft 3 **as written**. If counsel settles the upfront-adoption mechanism and asset-transfer carve-out in the execution version, revise this clause to state that the ratified framework binds the Transition RAC from formation subject to that carve-out, applicable law / Foundation transfer conditions, and the RAC's formation mandate.
+
+---
+
+## 14. Notices and Service
+
+This section establishes the DAO's constitutional framework for notices and service. The Operating Agreement governs the statutory and registration role of the Registered Agent (**Operating Agreement §2.4**); this Charter establishes the principle, and the **Compliance Operations Policy §5** carries the operational procedure and is subordinate to this section.
+
+**Legal notices to the Company** — including service of process, regulatory correspondence, and formal legal demands — are served at the address of the Registered Agent identified under **Operating Agreement §2.4**.
+
+**Internal governance notices** — including proposals, disclosures, advisory acknowledgements, and announcements to Members and Governance Participants — are validly given by publication to the **Official Venue** (**Operating Agreement §1.18**).
+
+Any legal notice, demand, order, or regulatory correspondence received at the Registered Agent must be **forwarded to the Delegates and disclosed to the community** by publication of notice of receipt to the Official Venue. The Compliance Operations Policy §5 carries the operational detail of this obligation, including the 48-hour forwarding-and-disclosure timeframe and the Regulatory Demand Disclosure Protocol.
