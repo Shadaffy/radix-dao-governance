@@ -164,6 +164,23 @@ Response:
 
 ---
 
+### 4.6 Transition RAC Vacancy (Pre-Activation)
+
+The RAC-failure response in §4.1 presumes a **seated body that reconstitutes through an emergency election under the Elections & Role Governance Policy**. The **Transition RAC** is different: its five seats are recited in GP-PRE-1 and fixed in the Operating Agreement (OA §6.3, Schedule 1), and are **not** elected under the Elections Policy. The §4.1 reconstitution route therefore does not directly apply to a Transition RAC seat that vacates before the Activation Date (death, incapacity, or resignation under the Floor-Protected Resignation rule, Elections Policy §11.2).
+
+**Operational response (within existing Operating Agreement authority):**
+
+* The surviving Transition RAC members continue to act. Ordinary formation decisions remain valid under the **simple-majority-of-seated** decision rule in **Operating Agreement §6.6**, which already operates on seated members and is unaffected by a seat falling vacant.
+* Any surviving member must **declare a continuity event** on the Official Venue, and the body must treat restoration of full strength as a priority transition task under its mandate (OA §6.5(g)); a sub-strength state may not be treated as permanent or as a basis to defer the Activation Date (OA §8.3).
+* Where the vacancy also reduces active Treasury Signers below the 3-of-5 execution quorum, the **signer-failure** response in §4.2 applies in addition.
+
+**Limits — matters reserved to the Operating Agreement:**
+
+* **Seat replacement.** Admitting a new member to the Transition RAC (a change to the persons fixed in OA §6.3 / Schedule 1) is a formation matter reserved to the Operating Agreement. This framework cannot itself add or substitute a Transition RAC member. Until the Operating Agreement provides a Transition RAC replacement mechanism, the surviving members continue under OA §6.6, and the gap is recorded for counsel in the OA review notes.
+* **Critical-floor interaction.** The Entrenched-Provision amendment threshold and the Schedule 5 condition-waiver both require the affirmative vote of **all five seated Transition RAC members** (Operating Agreement §12.2(c); DAO Parameters §3A.4). If the Transition RAC falls below five, that threshold cannot be met — which can in turn disable the only formal path to activate where the Permanent RAC election cannot seat the minimum (Elections Policy §17.1–§17.3). This interaction is escalated to the community under Charter §9 and flagged for the Operating-Agreement fix; it cannot be resolved at the policy layer alone.
+
+---
+
 ## 5. Emergency Recovery Actions
 
 In critical failure scenarios, the Emergency & Safeguards Policy may be invoked alongside this framework. The RAC may take temporary stabilizing actions within its defined limits — for example, suspending non-essential treasury execution or pausing a malfunctioning Working Group — while continuity procedures complete. The DAO retains final authority over all such actions, which remain subject to GP ratification within 30 days unless the Emergency & Safeguards Policy specifies otherwise.

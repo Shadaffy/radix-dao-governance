@@ -338,6 +338,20 @@ Former Transition RAC members are eligible to stand as candidates for the Perman
 
 **Interim appointments** under the Governance Continuity Framework (for example, emergency signer appointments from the Emergency Signer Reserve) are not eligible for auto-renewal under §9. A full election under §7 must be held at the end of the appointed term before auto-renewal rights accrue to a holder of that seat.
 
+### 17.1 Failed Founding Election — Re-run
+
+Where the first Permanent RAC election does not result in the formal seating of at least the minimum number of members required for Activation Condition 7 (DAO Parameters §3A.5; §5.1) — whether because the Stage 1 shortlist is exhausted under §7.3 with fewer than the minimum confirmed, or because Stage 2 confirmation votes fail to reach the Election Stage 2 quorum or approval threshold — **the election does not lapse and the Transition Period does not end.** The Transition RAC must **re-run the election** under §6–§7, opening a fresh nomination round within the Replacement Election Trigger Time (DAO Parameters §6B) measured from the failed result, and must continue to do so until at least the minimum number of members is duly elected and seated.
+
+The vacancy-handling procedure in §11 presupposes a seated Permanent RAC and does **not** apply to the founding election; this section governs instead. Where repeated confirmation votes fail for want of participation, the Governance Inactivity fallback (Governance Continuity Framework §4.3; DAO Parameters §9A) applies to those confirmation votes, with extended voting periods and reduced quorum.
+
+### 17.2 Transparency While Activation Condition 7 Is Unmet
+
+A failed founding election is a matter within the Company's own control and is **not** an external dependency under Operating Agreement §8.7. Where Activation Condition 7 remains unsatisfied for longer than the Replacement Completion Time (DAO Parameters §6B) after an election round closes, the Transition RAC must publish a status notice to the Official Venue stating the cause and the plan for the next round, and must update the community at intervals of not less than once every **30 days** for so long as the condition remains unmet. This is the founding-election analogue of the reporting duty in Operating Agreement §8.7 and confers no power to declare or defer the Activation Date (Operating Agreement §8.3).
+
+### 17.3 No Self-Help Lowering of the Minimum
+
+Activation with fewer than the minimum number of seated Permanent RAC members is possible **only** by a formal waiver of Activation Condition 7 under the Schedule 5 Waiver clause, which requires the Entrenched-Provision amendment threshold for the Transition Period (Operating Agreement §12.2(c); DAO Parameters §3A.4), including a concurrent recognised community advisory outcome. The Transition RAC has no authority to lower the minimum or waive the condition on its own, and the emergency-amendment power (Charter §12.2) may not be used for this purpose because it may not alter the Activation framework (Charter §4A).
+
 ---
 
 ## 18. Governance Parameters
