@@ -20,6 +20,7 @@ This framework applies to failures affecting:
 
 * The Accountability Council (RAC)
 * Treasury Signers
+* The Governance Operator and the Owner Badge (operator failure or badge compromise)
 * Working Groups
 * Governance participation (sustained quorum failure)
 * The governance interface itself (interface unavailability)
@@ -62,6 +63,15 @@ Tier 2 authority is granted by this policy and is to be incorporated into the Go
 
 If neither Tier 1 nor Tier 2 can be activated, authority reverts to Governance Participants per Charter §9. An emergency election may be initiated by any Governance Participant via the standard governance forum process.
 
+**Tier 3 during the Advisory Governance Period (pre-Activation):** Before the Activation Date, community governance outcomes are advisory (OA §5.8) and Tier 3 cannot restart binding governance or alter the signer set (signer-control changes are protected matters — OA §§9.11–9.12). Tier 3 action during this period therefore takes the form of an **escalation-and-freeze protocol**:
+
+1. Any Governance Participant may initiate an advisory vote declaring the continuity event and stating the community's requested response; a recognised advisory outcome (DAO Parameters §3A.3) constitutes the community's formal position on the event.
+2. Notice of the event and the advisory outcome must be delivered to the **Registered Agent** and — where the principal asset transfer is pending or in progress — to the **Founding Transferor / Asset Transferor**, with a request to pause any in-flight transfer steps until continuity is restored.
+3. Where a **Legal Signatory** or **Compliance Liaison** remains in office, that Delegate must engage DAO-authorized legal counsel on the Company's standing and options (Compliance Operations Policy §5; Delegate Mandate §5) and report to the Official Venue.
+4. No emergency amendment, signer change, or asset movement may be undertaken under Tier 3 authority during the Advisory Governance Period. The protocol's purpose is to freeze exposure and obtain legal continuity advice, not to reconstitute governance.
+
+The scenario in which no Transition RAC member survives is only partially addressed at the Operating Agreement level: **OA §6.11(e)** permits the Registered Agent to publish notice of the vacancies on the Company's behalf, and the community may identify replacement members by advisory outcome at the elevated recognition threshold (**OA §6.11(b)**), but the seating steps in **OA §6.11(c)** require a written resolution of seated members and therefore cannot complete while no member remains. That residual risk is deliberately assumed by the Transition RAC as a matter of constitutional design; this protocol preserves the community's position pending resolution and confers no authority the Operating Agreement does not recognise.
+
 In all cases:
 
 * Emergency election for permanent RAC replacement must begin within 7 days of the continuity event (DAO Parameters §6B)
@@ -72,9 +82,11 @@ In all cases:
 
 ### 4.2 Signer Failure
 
+> **Phase scope.** This section governs the **post-activation** signer set (5 signers; 3-of-5 standard, 4-of-5 elevated). During the **Transition Period** the signers are the **3 Transition RAC members** (2-of-3 standard; protected matters require unanimity of all seated signers, being not fewer than two — OA §9.11); their continuity is governed by **§4.6**, which applies the mechanics below with the transition thresholds substituted (trigger: fewer than 2 of 3 available; elevation to 4-of-5 is impossible with three signers, so protected matters pause only while fewer than two seated signers remain, pending seat replacement under OA §6.11).
+
 Trigger:
 
-* active Treasury Signers fall below execution quorum (fewer than 3 of 5 available)
+* active Treasury Signers fall below execution quorum (post-activation: fewer than 3 of 5 available; Transition-Period equivalent in §4.6)
 * key compromise confirmed by any signer or the RAC
 * refusal to execute a valid approved action without documented grounds (per Treasury Signers Rules §9)
 
@@ -90,7 +102,7 @@ Response:
 
 **Interim signer appointment (if active signers < 3):**
 
-* The RAC may appoint up to 2 interim signers from the pre-approved Emergency Signer Reserve (maintained by the Governance & Legal Working Group; approved by DAO vote at each annual term cycle — Treasury Signers Rules §15)
+* The RAC may appoint up to 2 interim signers from the pre-approved Emergency Signer Reserve (maintained by the Governance & Legal Working Group; approved by DAO vote at least annually — Treasury Signers Rules §15)
 * Interim signers are subject to the full Treasury Signers Rules
 * The signing threshold for interim-period actions is raised to **4-of-5** (regardless of whether interim or permanent signers hold the seats)
 * Interim appointment must be disclosed to the governance forum within **24 hours** of appointment
@@ -109,6 +121,35 @@ Response:
 
 ---
 
+### 4.2A Governance Operator Failure
+
+The proposal pipeline depends on the Governance Operator elevating eligible Temperature Checks via the Owner Badge (Proposal & Voting Framework §3.3; Delegate Mandate §2.2). Because the removal of a non-compliant Governance Operator itself requires a proposal to pass through that pipeline, operator failure is a continuity event with its own backstop, parallel to the signer forced-execution backstop in §4.2.
+
+Trigger:
+
+* an eligible passed Temperature Check remains unelevated beyond the TC Elevation Window (DAO Parameters §3.1) with no documented grounds on record with the RAC
+* the Governance Operator is unavailable, unresponsive, or refuses to perform an elevation or governance-parameter update required by a valid governance outcome
+* compromise of the Owner Badge or the Governance Operator's keys is confirmed or credibly suspected
+
+Response:
+
+**Elevation backstop:**
+
+* The RAC may formally instruct the Governance Operator to perform the elevation. The instruction must be published to the governance forum within 24 hours of being issued.
+* If the Governance Operator does not comply within the Elevation Backstop Compliance Window (DAO Parameters §3.1), or is unavailable or compromised, the elevation is executed through the Owner Badge recovery or custody arrangement established for the Governance smart contract, by the Treasury Signers at the standard signing threshold for the current phase (DAO Parameters §6A).
+* A backstop elevation is treated as a continuity event for reporting purposes and must be disclosed to the governance forum within 24 hours of execution.
+* Non-compliance with a valid RAC elevation instruction without documented grounds is a breach of duty and grounds for immediate suspension under the Elections & Role Governance Policy §10.3 and removal under §10.
+
+**Badge compromise:**
+
+* A confirmed or credibly suspected compromise of the Owner Badge or the Governance Operator's keys is handled as a key-compromise continuity event: the badge must be rotated or reclaimed through the recovery arrangement, the affected Delegate suspended pending review, and the incident disclosed and reviewed per the Emergency & Safeguards Policy.
+
+**Deployment requirement:**
+
+* The custody and recovery arrangement for the Owner Badge is an implementation decision made when the Governance smart contract is deployed, and is recorded with the technical identifiers (Operating Agreement §11.4 / Schedule 4). Whatever arrangement is chosen, it must provide a mechanism by which an elevation or badge rotation can proceed without the Governance Operator's cooperation, sufficient to give effect to this section. A deployment lacking this capability does not satisfy the Minimum Operational State in §7.
+
+---
+
 ### 4.3 Governance Inactivity
 
 Trigger:
@@ -118,7 +159,7 @@ Trigger:
 Response:
 
 * extended voting periods (double standard duration)
-* reduced quorum threshold (50% of standard quorum, minimum 1%)
+* reduced quorum threshold (50% of standard quorum, minimum 1%) — except that the quorum for Constitutional proposals may not be reduced below the entrenched 7% floor (Charter §12.1 item 2), so the effective reduced Constitutional quorum is 7%
 * activation of fallback governance proposal if reduced quorum is still not met after two additional attempts
 
 The fallback preserves the DAO's decision-making capability during periods of low engagement without abandoning the quorum principle entirely. Thresholds are defined in the **DAO Parameters Registry §9A**.
@@ -166,18 +207,19 @@ Response:
 
 ### 4.6 Transition RAC Vacancy (Pre-Activation)
 
-The RAC-failure response in §4.1 presumes a **seated body that reconstitutes through an emergency election under the Elections & Role Governance Policy**. The **Transition RAC** is different: its five seats are recited in GP-PRE-1 and fixed in the Operating Agreement (OA §6.3, Schedule 1), and are **not** elected under the Elections Policy. The §4.1 reconstitution route therefore does not directly apply to a Transition RAC seat that vacates before the Activation Date (death, incapacity, or resignation under the Floor-Protected Resignation rule, Elections Policy §11.2).
+The RAC-failure response in §4.1 presumes a **seated body that reconstitutes through an emergency election under the Elections & Role Governance Policy**. The **Transition RAC** is different: its three seats are recited in GP-PRE-1 and fixed in the Operating Agreement (OA §6.3, Schedule 1), and are **not** elected under the Elections Policy. A Transition RAC seat that vacates before the Activation Date (death, incapacity, or resignation under the Floor-Protected Resignation rule, Elections Policy §11.2) is instead replaced through the vacancy mechanism in **Operating Agreement §6.11**.
 
-**Operational response (within existing Operating Agreement authority):**
+**Operational response (within Operating Agreement authority):**
 
 * The surviving Transition RAC members continue to act. Ordinary formation decisions remain valid under the **simple-majority-of-seated** decision rule in **Operating Agreement §6.6**, which already operates on seated members and is unaffected by a seat falling vacant.
-* Any surviving member must **declare a continuity event** on the Official Venue, and the body must treat restoration of full strength as a priority transition task under its mandate (OA §6.5(g)); a sub-strength state may not be treated as permanent or as a basis to defer the Activation Date (OA §8.3).
-* Where the vacancy also reduces active Treasury Signers below the 3-of-5 execution quorum, the **signer-failure** response in §4.2 applies in addition.
+* The remaining seated members must, by unanimous written resolution, **declare the seat vacant and publish notice to the Official Venue** (OA §6.11(a)), and must declare a continuity event under this framework. The body must treat restoration of full strength as a priority transition task under its mandate (OA §6.5(g)); a sub-strength state may not be treated as permanent or as a basis to defer the Activation Date (OA §8.3).
+* A replacement member is identified by a **recognised community advisory outcome at the elevated Entrenched-Provision recognition threshold** (OA §6.11(b), §12.2(c)(ii); DAO Parameters §3A.3), and is seated only after satisfying onboarding, compliance, KYC, and acceptance requirements and being recorded in Schedule 1 by written resolution of the then-seated members (OA §6.11(c)). Membership and all signer and signatory rights commence only upon completion of those steps (OA §6.11(d)).
+* Where the vacancy also reduces active Treasury Signers below the 2-of-3 execution quorum, the **signer-failure** response in §4.2 applies in addition (with transition thresholds substituted per the phase-scope note in §4.2).
 
 **Limits — matters reserved to the Operating Agreement:**
 
-* **Seat replacement.** Admitting a new member to the Transition RAC (a change to the persons fixed in OA §6.3 / Schedule 1) is a formation matter reserved to the Operating Agreement. This framework cannot itself add or substitute a Transition RAC member. Until the Operating Agreement provides a Transition RAC replacement mechanism, the surviving members continue under OA §6.6, and the gap is recorded for counsel in the OA review notes.
-* **Critical-floor interaction.** The Entrenched-Provision amendment threshold and the Schedule 5 condition-waiver both require the affirmative vote of **all five seated Transition RAC members** (Operating Agreement §12.2(c); DAO Parameters §3A.4). If the Transition RAC falls below five, that threshold cannot be met — which can in turn disable the only formal path to activate where the Permanent RAC election cannot seat the minimum (Elections Policy §17.1–§17.3). This interaction is escalated to the community under Charter §9 and flagged for the Operating-Agreement fix; it cannot be resolved at the policy layer alone.
+* **Seat replacement authority.** Admitting a new member to the Transition RAC (a change to the persons fixed in OA §6.3 / Schedule 1) remains a formation matter governed exclusively by **OA §6.11**. This framework coordinates the operational response but cannot itself add or substitute a Transition RAC member; the community advisory outcome under OA §6.11(b) *identifies* the replacement — seating occurs only through the OA §6.11(c) steps.
+* **Critical-floor interaction.** The Entrenched-Provision amendment threshold and the Schedule 5 condition-waiver require the unanimous affirmative vote of all seated Transition RAC members, **being not fewer than two** (Operating Agreement §12.2(c)(i); DAO Parameters §3A.4), together with a concurrent recognised advisory outcome at the elevated threshold. Protected-matter signing likewise requires unanimity of all seated signers, **being not fewer than two** (Operating Agreement §§9.11–9.12). A single vacancy therefore suspends neither path: both continue at 2-of-2 among the remaining seated members pending replacement under OA §6.11, and the formal route to activate where the Permanent RAC election cannot seat the minimum (Elections Policy §17.1–§17.3) survives attrition. Only if seated membership falls below **two** do Entrenched-Provision amendments, Schedule 5 waivers, and protected-matter execution pause, until a replacement is seated under OA §6.11. Where **no** seated member remains, OA §6.11(e) provides the Registered Agent notice route, subject to the residual seating limits described in §4.1 (Tier 3).
 
 ---
 

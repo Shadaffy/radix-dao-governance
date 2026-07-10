@@ -1,4 +1,4 @@
-# DRAFT OPERATING AGREEMENT
+# OPERATING AGREEMENT
 
 ## of
 
@@ -6,7 +6,7 @@
 
 ### a Marshall Islands Non-Profit DAO LLC
 
-*[Third Draft – 18 June 2026]*
+*9 July 2026*
 
 ---
 
@@ -20,11 +20,11 @@ The rights of members in a decentralised autonomous organisation may differ mate
 
 WHEREAS, the Radix community approved the creation of a Marshall Islands DAO LLC as the legal entity to support the governance and development of the Radix decentralised protocol and its associated ecosystem;
 
-WHEREAS, the community approved the current five-member RAC to carry forward the transition to that legal DAO LLC during the Transition Period;
+WHEREAS, the community approved the current three-member RAC to carry forward the transition to that legal DAO LLC during the Transition Period;
 
 WHEREAS, the Radix Foundation has required that the recipient entity have constitutional documents with aligned objectives, a non-distribution principle, an asset lock or winding-up provision, and a clearly documented governance structure, together with a continuity statement and appropriate compliance arrangements;
 
-WHEREAS, the parties intend that the current five-member RAC shall operate during the Transition Period as the Transition RAC, being a temporary implementation authority responsible for formation, compliance, treasury setup, asset receipt, continuity arrangements and handover;
+WHEREAS, the parties intend that the current three-member RAC shall operate during the Transition Period as the Transition RAC, being a temporary implementation authority responsible for formation, compliance, treasury setup, asset receipt, continuity arrangements and handover;
 
 WHEREAS, the parties further intend that, after the Transition Period and satisfaction of the Activation Conditions, the Company shall be algorithmically governed through the governance mechanism recognised by this Agreement and the Charter, with the Permanent RAC acting as guardian of the governance process and constitutional order rather than as a manager;
 
@@ -80,7 +80,7 @@ NOW, THEREFORE, the parties agree as follows.
 
 **1.23 "Covered Person"** means any of the following persons, in the exercise of their role in relation to the Company: (i) a Member (whether a Transition RAC member or a Permanent RAC member); (ii) a Governance Participant; (iii) a Transition RAC member or Permanent RAC member; (iv) a Legal Signatory or signer; and (v) any other person acting in an authorised role under this Agreement, the Charter, or a valid governance decision.
 
-**1.24 "Seated"** means, in relation to a member of the Transition RAC or the Permanent RAC, a person who: (a) has been duly appointed or elected to their position on the relevant body; (b) has accepted this Agreement and, where applicable, the Charter, in accordance with clause 4.5; (c) has satisfied all applicable onboarding, compliance, KYC, and eligibility requirements for that role; and (d) has not ceased to hold that position by reason of resignation, removal, disqualification, or cessation of Membership in accordance with clauses 4.7 and 4.8. A person who has voluntarily withdrawn from or resigned their position shall not be treated as Seated.
+**1.24 "Seated"** means, in relation to a member of the Transition RAC or the Permanent RAC, a person who: (a) has been duly appointed or elected to their position on the relevant body; (b) has accepted this Agreement and, where applicable, the Charter, in accordance with clause 4.5; (c) has satisfied all applicable onboarding, compliance, KYC, and eligibility requirements for that role; and (d) has not ceased to hold that position by reason of resignation, removal, disqualification, or cessation of Membership in accordance with clauses 4.7 and 4.8. A person who has formally withdrawn from or resigned their position shall not be treated as Seated.
 
 ---
 
@@ -260,11 +260,11 @@ NOW, THEREFORE, the parties agree as follows.
 
 **6.1 Recognition of the Transition Period.** The Company recognises a Transition Period commencing on the date of formation and ending on the Activation Date.
 
-**6.2 Constitution of the Transition RAC.** The current five-member RAC shall act during the Transition Period as the Transition RAC.
+**6.2 Constitution of the Transition RAC.** The current three-member RAC shall act during the Transition Period as the Transition RAC.
 
-**6.3 Composition.** The Transition RAC shall consist of the current five members approved by the community, as identified in Schedule 1.
+**6.3 Composition.** The Transition RAC shall consist of the three members approved by the community, as identified in Schedule 1.
 
-**6.4 Acceptance and Mandate.** Each of the five members of the Transition RAC identified in Schedule 1 has accepted this Agreement in accordance with clause 4.5 and satisfied the applicable onboarding, eligibility, and KYC requirements. The mandate of the Transition RAC commences upon the date of execution of this Agreement and continues until the Activation Date or earlier termination in accordance with this Agreement.
+**6.4 Acceptance and Mandate.** Each of the three members of the Transition RAC identified in Schedule 1 has accepted this Agreement in accordance with clause 4.5 and satisfied the applicable onboarding, eligibility, and KYC requirements. The mandate of the Transition RAC commences upon the date of execution of this Agreement and continues until the Activation Date or earlier termination in accordance with this Agreement.
 
 **6.5 Mandate of the Transition RAC.** The mandate of the Transition RAC is strictly limited to the following transition-period functions:
 
@@ -293,6 +293,18 @@ NOW, THEREFORE, the parties agree as follows.
 **6.9 Transition Controllers / Founding Transferor-Facing Role.** For Founding Transferor due-diligence and transition purposes, the Transition RAC members may be identified as the natural-person transition controllers of the Company during the Transition Period, without thereby creating any permanent manager status after the Company becomes Algorithmically Governed.
 
 **6.10 Sunset and Handover.** Upon the Activation Date, the mandate of the Transition RAC shall expire automatically save to the extent strictly necessary to complete any residual handover step already approved in accordance with this Agreement and the Charter.
+
+**6.11 Vacancy and Replacement.** If a seat on the Transition RAC becomes vacant before the Activation Date by reason of death, permanent incapacity, resignation, or any other cause, the following procedure shall apply:
+
+(a) the remaining seated Transition RAC members shall, by unanimous written resolution, promptly declare the seat vacant and publish notice of the vacancy to the Official Venue;
+
+(b) a replacement member shall be identified by a recognised community advisory outcome achieving the elevated recognition threshold applicable to Entrenched Provision matters specified in the Charter (being the threshold referred to in clause 12.2(c)(ii));
+
+(c) before being seated, the replacement member shall: (i) satisfy all applicable onboarding, compliance, KYC, and eligibility requirements; (ii) accept this Agreement and, where applicable, the Charter, in accordance with clause 4.5; and (iii) be recorded as a replacement member in Schedule 1 by written resolution of the then-seated Transition RAC members;
+
+(d) Membership and all signer and signatory rights of the replacement member shall commence upon satisfaction of the conditions in clause 6.11(c) and not before; and
+
+(e) where no seated Transition RAC members remain to declare a vacancy, the Registered Agent may publish notice of the vacancy to the Official Venue on behalf of the Company, and the community advisory outcome procedure in clause 6.11(b) shall apply accordingly.
 
 ---
 
@@ -394,9 +406,9 @@ shall not constitute a breach of any obligation of the Transition RAC under this
 
 **9.9 Signers.** The Company shall designate the initial signers for the transition treasury in Schedule 2, by initial written resolutions, or in such confidential implementation record as is authorised under this Agreement and the Charter.
 
-**9.10 Signer Set.** The signer set during the Transition Period may consist of all five Transition RAC members or such subset as is approved in accordance with the Charter and any relevant transfer requirements.
+**9.10 Signer Set.** The signer set during the Transition Period may consist of all three Transition RAC members or such subset as is approved in accordance with the Charter and any relevant transfer requirements.
 
-**9.11 Thresholds.** If the current five Transition RAC members act as the initial signers during the Transition Period, ordinary transition treasury actions shall require a 3-of-5 signing threshold and protected matters or high-sensitivity actions shall require a 4-of-5 signing threshold, subject to any more detailed confidential operational signing process approved under the Charter.
+**9.11 Thresholds.** If the current three Transition RAC members act as the initial signers during the Transition Period, ordinary transition treasury actions shall require a 2-of-3 signing threshold and protected matters or high-sensitivity actions shall require a unanimous signing threshold of all seated Transition RAC members acting as signers, being not fewer than two, subject to any more detailed confidential operational signing process approved under the Charter.
 
 **9.12 Protected Matters.** Protected matters shall include, at minimum:
 
@@ -428,9 +440,9 @@ shall not constitute a breach of any obligation of the Transition RAC under this
 
 **10.2 Statutory Test.** The relevant statutory test is whether a person holds 25% or more of membership interests or voting rights, and if no person does, then who has actual, effective, or sufficient responsibility or control.
 
-**10.3 Role-Holder and Control Analysis.** The existence of a five-member Transition RAC does not mean automatically that all five must be treated as beneficial owners for BOIR purposes. BOIR turns on the statutory test, not on RAC membership alone. There may therefore be a difference between the governance legitimacy of the continuing five-member Transition RAC and the narrower question of which persons in fact exercise actual or effective control for BOIR purposes.
+**10.3 Role-Holder and Control Analysis.** The existence of a three-member Transition RAC does not mean automatically that all three must be treated as beneficial owners for BOIR purposes. BOIR turns on the statutory test, not on RAC membership alone. There may therefore be a difference between the governance legitimacy of the continuing three-member Transition RAC and the narrower question of which persons in fact exercise actual or effective control for BOIR purposes.
 
-**10.4 KYC.** The Company shall collect KYC information for those persons who are required to be KYC'd under applicable law, transfer requirements, custody requirements or the Charter, including, if reasonably possible, all five Transition RAC members during the Transition Period where they are acting as formal transition controllers, signers or other control persons.
+**10.4 KYC.** The Company shall collect KYC information for those persons who are required to be KYC'd under applicable law, transfer requirements, custody requirements or the Charter, including, if reasonably possible, all three Transition RAC members during the Transition Period where they are acting as formal transition controllers, signers or other control persons.
 
 **10.5 Confidentiality of Compliance Information.** KYC, BOIR, signer identity, custody and related compliance information may be maintained and disclosed only to the registered agent, Registrar, Founding Transferor, custody providers, professional advisers, regulators, and other persons lawfully entitled to receive it, and shall not be publicly disclosed except where disclosure is required by law, this Agreement, the Charter, or a valid governance decision adopted in accordance with them.
 
@@ -446,7 +458,7 @@ shall not constitute a breach of any obligation of the Transition RAC under this
 
 **11.3 Hierarchy.** The Republic of Marshall Islands law and the Certificate of Formation prevail by operation of law. Subject thereto, this Agreement prevails over the Charter, and the Charter prevails over any subordinate governance rule or policy.
 
-**11.4 Governance and Technical Identifiers.** The recognised Governance Platform, governance contracts, smart-contract identifiers, treasury wallet identifiers, and any related technical identifiers material to the Governance Mechanism may be recorded in Schedule 4, the Charter, or the recognised governance records of the Company. Such identifiers may be updated in accordance with the Charter and the applicable governance procedures, and the Company may notify the registered agent or such other persons as may be required by law or operational necessity of any such update.
+**11.4 Governance and Technical Identifiers.** The recognised Governance Platform, governance contracts, smart-contract identifiers, treasury wallet identifiers, and any related technical identifiers material to the Governance Mechanism shall be recorded in Schedule 4 of this Agreement. Where those identifiers exist at the date of this Agreement, Schedule 4 shall be completed before execution. Where any identifier first comes into operational use, or any recorded identifier changes, after the date of this Agreement, the Company shall update Schedule 4 accordingly in accordance with clause 12.1 and shall, to the extent required by section 106(2) or section 107 of the DAO Act, notify MIDAO and procure an amendment to the Certificate of Formation to reflect the updated identifier. Such identifiers may further be recorded in the Charter or the recognised governance records of the Company. The Company shall notify the registered agent or such other persons as may be required by law or operational necessity of any update to the identifiers recorded in Schedule 4.
 
 **11.5 Operational and Delegated Functions.** The Charter or subordinate governance rules may establish operational functions, delegated functions, or role-based responsibilities to support the governance, administration, compliance, execution, custody, and maintenance of the Company, provided always that such functions remain subordinate to this Agreement and the Charter and do not alter the constitutional role of the Transition RAC, the Permanent RAC, or the Membership structure except in accordance with a valid amendment to this Agreement where required.
 
@@ -482,9 +494,11 @@ shall not constitute a breach of any obligation of the Transition RAC under this
 
 (vii) clause 6.10 (Sunset and Handover of Transition RAC); and
 
-(viii) such further provisions as are designated as Entrenched Provisions in the Charter,
+(viii) such further provisions as are designated as Entrenched Provisions in the Charter, provided that no such Charter designation shall itself have the status of an Entrenched Provision unless so specified in this Agreement.
 
-provided that no such Charter designation shall itself have the status of an Entrenched Provision unless so specified in this Agreement.
+(ix) the minimum Constitutional quorum floor designated as an Entrenched Provision in the Charter, being the rule that the quorum threshold for Constitutional proposals may not be reduced below 7% of eligible voting power by any proposal, including a Constitutional proposal — any proposal purporting to do so is void and may not be executed; and
+
+(x) the minimum voting power source floor designated as an Entrenched Provision in the Charter, being the rule that XRD (liquid holdings) and LSU (Liquid Staking Units, converted to XRD-equivalent at snapshot) shall always be recognised as eligible voting power sources for all DAO governance votes, and that this floor may not be reduced or removed by any proposal, including a Constitutional proposal.
 
 **(b) Absolute prohibitions during the Transition Period.** During the Transition Period, no amendment shall be made to any Entrenched Provision that would:
 
@@ -500,7 +514,7 @@ Such amendments are prohibited absolutely during the Transition Period and shall
 
 **(c) Elevated threshold during the Transition Period.** Save for the absolutely prohibited amendments in clause 12.2(b), an Entrenched Provision may be amended during the Transition Period only upon:
 
-(i) a unanimous affirmative vote of all seated five members of the Transition RAC;
+(i) a unanimous affirmative vote of all seated Transition RAC members, being not fewer than two;
 
 (ii) a concurrent recognised advisory outcome from the Governance Mechanism in favour of the amendment, meeting the higher recognition threshold specified in the Charter for proposed amendments to Entrenched Provisions; and
 
@@ -570,11 +584,11 @@ Failure by a Covered Person to give timely notice under clause 12.5(e)(i) shall 
 
 **12.7 Fiduciary Duty Disclaimer.**
 
-**(a) Statutory basis.** This clause is adopted pursuant to and in accordance with section 709 of the Marshall Islands Limited Liability Company Act 1996, as applicable to the Company under the Marshall Islands DAO Act 2022 and the DAO Regulations 2024. To the fullest extent permitted by those enactments, the provisions of this clause restrict and, where the law so permits, eliminate the fiduciary duties that any Covered Person might otherwise owe.
+**(a) Statutory basis.** This clause is adopted pursuant to and in accordance with section 109 of the Marshall Islands DAO Act 2022. To the fullest extent permitted by the law, the provisions of this clause restrict and, where the law so permits, eliminate the fiduciary duties that any Covered Person might otherwise owe.
 
 **(b) Covered Persons.** The term "Covered Person" is defined in clause 1.23. For the avoidance of doubt, references to a Covered Person in this clause and in clause 12.5 are to the persons described in clause 1.23 acting in the exercise of their role in relation to the Company.
 
-**(c) Restriction and elimination of fiduciary duties.** To the fullest extent permitted by applicable law, any fiduciary duty — including any duty of loyalty, any duty of care beyond the standard set out in clause 12.7(d), any duty to act in the best interests of other Members or Governance Participants, and any duty to account for personal profit — that a Covered Person might otherwise owe to the Company, to any Member, or to any Governance Participant solely by reason of their status as a Covered Person is hereby restricted and, to the maximum extent the law permits, eliminated.
+**(c) Restriction and elimination of fiduciary duties.** To the fullest extent permitted by applicable law, any fiduciary duty, including any duty of loyalty, any duty of care beyond the standard set out in clause 12.7(d), any duty to act in the best interests of other Members or Governance Participants, and any duty to account for personal profit, that a Covered Person might otherwise owe to the Company, to any Member, or to any Governance Participant solely by reason of their status as a Covered Person is hereby restricted and, to the maximum extent the law permits, eliminated.
 
 **(d) Standard of conduct in substitution.** In lieu of any eliminated or restricted fiduciary duty, each Covered Person shall be required to act:
 
@@ -672,9 +686,42 @@ Any such request shall be determined by the LCIA Court, whose decision shall be 
 
 ---
 
+## EXECUTION
+
+IN WITNESS WHEREOF, each of the undersigned, being a member of the Transition RAC of Radix DAO LLC, executes this Operating Agreement on the date set out below their signature. By signing, each member accepts this Agreement in accordance with clause 4.5(a) and agrees to be bound by its terms as a Member of Radix DAO LLC. The full name and details of each signatory shall be recorded in Schedule 1 by the Transition RAC before execution.
+
+SIGNED by [NAME]
+as a member of the Transition RAC of RADIX DAO LLC:
+
+Signature: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Name (print): \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Date: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+SIGNED by [NAME]
+as a member of the Transition RAC of RADIX DAO LLC:
+
+Signature: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Name (print): \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Date: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+SIGNED by [NAME]
+as a member of the Transition RAC of RADIX DAO LLC:
+
+Signature: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Name (print): \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Date: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+---
+
 ## SCHEDULES
 
-**Schedule 1 — Current Five Members of the Transition RAC**
+**Schedule 1 — Current Three Members of the Transition RAC**
 
 *[To be completed by the Transition RAC]*
 
@@ -692,9 +739,7 @@ Any such request shall be determined by the LCIA Court, whose decision shall be 
 
 **Schedule 5 — Activation Conditions Checklist** *(see below)*
 
-**Schedule 6 — KYC / BOIR Control Analysis Framework**
-
-*[To be completed in accordance with Article X and the registered agent's compliance requirements]*
+**Schedule 6 — KYC / BOIR Control Analysis Framework** *(to be completed)*
 
 ---
 
@@ -712,7 +757,7 @@ The Transition RAC shall use this Schedule as the basis for publishing the Activ
 | 2 | The initial Beneficial Owner Information Report (BOIR) has been filed with the Registrar in accordance with the Marshall Islands DAO Act 2022 | Written confirmation from the registered agent or, where applicable, the Registrar, of successful submission and acceptance of the BOIR | Yes. Registrar; Registered Agent |
 | 3 | KYC has been completed for all persons required to be KYC'd under applicable law, the Asset Transferor's transfer requirements, custody requirements, or the Charter | Written confirmation from the KYC provider or registered agent that all required KYC files are complete, verified, and accepted | Yes. KYC provider; Registered Agent |
 | 4 | The treasury and custody framework has been established, including activation of the transition multi-signature wallet and any approved institutional custody arrangements | Executed custody agreement(s) and written confirmation from the custody provider of activation of the multi-signature wallet and establishment of the approved signer set | Yes. Custody provider |
-| 5 | The Governance Mechanism has been identified and documented, including the recognised governance platform, governance contracts or smart contracts, voting mechanism, and Official Venue(s) | Schedule 4 to this Agreement completed and published to the Official Venue, identifying the relevant technical identifiers | No |
+| 5 | The Governance Mechanism, governance contracts and smart contracts, voting mechanism, and Official Venue(s) have been identified, documented, and recorded in Schedule 4 of this Agreement. The identifiers recorded in Schedule 4 are confirmed as current and accurate as at the Activation Statement date. The recognised governance platform and all Official Venue(s) are operational and publicly accessible to Governance Participants. | (a) Confirmation by the Transition RAC, by written resolution published to the Official Venue, that the identifiers recorded in Schedule 4 remain current, complete, and accurate as at the date of the Activation Statement; (b) publicly accessible Schedule 4, demonstrating that the governance smart contract component address, governance token identifier, governance platform, and Official Venue address(es) are recorded therein; and (c) evidence of operational accessibility of the governance platform and Official Venue(s), including a live URL or equivalent accessible identifier for each Official Venue. | No |
 | 6 | The Charter and the full policy framework of the Company, as prepared and written by the community during the pre-formation process, have been: (a) adopted by the Transition RAC by unanimous written resolution in its capacity as member-manager of the Company; and (b) formally ratified by the community through a constitutional ratification vote conducted through the Governance Mechanism, achieving the ratification threshold specified in the Charter for constitutional matters. | (a) Signed Transition RAC resolution adopting the Charter and full policy framework, published to the Official Venue; (b) Governance Mechanism record of the constitutional ratification vote, showing the participation level achieved, the majority achieved, and confirmation that the applicable ratification threshold was met; and (c) publication of the ratified Charter and full policy framework to the Official Venue. | No |
 | 7 | The Permanent RAC election has been completed under and in accordance with the community-ratified Charter and Elections Policy (condition 6 having been satisfied), and at least the minimum number of Permanent RAC members specified in the Charter have been duly elected by the community through the Governance Mechanism and formally seated. | (a) Governance Mechanism record of the Permanent RAC election, showing the candidates who stood, the participation level achieved, the votes cast, and the identity of each member elected; (b) confirmation that the election was conducted in accordance with the Elections Policy forming part of the ratified Charter; (c) written acceptance of appointment from each elected Permanent RAC member; and (d) publication of the election outcome and the identity of the seated Permanent RAC members to the Official Venue. | No |
 | 8 | The Continuity Statement(s) required under Article IX of this Agreement and the Charter have been duly executed | Executed Continuity Statement(s), made available to the Transition RAC and referenced or recorded in accordance with clause 9.14 of this Agreement | Yes. Asset Transferor / Founding Transferor |
@@ -726,11 +771,3 @@ Where satisfaction of a condition is marked as dependent on a third party (in pa
 ### Waiver
 
 A condition in this Schedule may be formally waived only by a governance decision satisfying the applicable Entrenched Provision amendment threshold set out in clause 12.2(c) of this Agreement during the Transition Period, or clause 12.2(d) following the Activation Date, as applicable. Any purported waiver that does not satisfy the applicable threshold shall be of no force or effect. Any valid waiver shall be recorded in the Activation Statement together with the basis for the waiver and the governance decision authorising it.
-
----
-
-*Flavia Kenyon*
-
-*Barrister*
-
-*18 June 2026*

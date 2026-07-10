@@ -14,7 +14,7 @@ This document defines how governance documents are:
 
 ## 3. Document Hierarchy
 
-The Company's document hierarchy is defined in **Operating Agreement §12.5** and restated constitutionally in **Charter §13**. This Framework is an operational policy and is subordinate to both.
+The Company's document hierarchy is defined in **Operating Agreement §11.3** and restated constitutionally in **Charter §13**. This Framework is an operational policy and is subordinate to both.
 
 ### 3.1 Legal Formation Documents
 
@@ -113,7 +113,7 @@ Changes must:
 
 The Operating Agreement does not provide an emergency-amendment power. The emergency-amendment power is established constitutionally by **Charter §12.2**; this section is the operational procedure giving effect to it under **Operating Agreement §11.5**, and applies **only to documents in the policy library** (the Charter and operational policies), not to the Operating Agreement, the Certificate of Formation, or any other Formation Document, and never to an Entrenched Provision.
 
-Where an emergency requires a temporary amendment to a policy-library document before the standard process in §5 can complete, the amendment may be adopted by **unanimous written consent of all Delegates**, subject to Governance Proposal ratification within 30 days. An amendment not ratified within 30 days is void and of no effect. "Written consent" has the meaning given in the **Emergency & Safeguards Policy**, which governs the procedural detail and applies where an emergency action is required before a written-consent process can be completed. An emergency amendment may not weaken, reduce, or remove any entrenched provision (Charter §12.1) or alter the Activation framework (Charter §4A).
+Where an emergency requires a temporary amendment to a policy-library document before the standard process in §5 can complete, the amendment may be adopted by **unanimous written consent of all Delegates**, subject to Governance Proposal ratification within 30 days. An amendment not ratified within 30 days is void and of no effect. Actions taken under an unratified amendment are subject to the clawback rule in **Charter §12.2 item 5**: any action that would not have been valid under the unamended document must be reported and reviewed under the **Emergency & Safeguards Policy §10**, and any treasury disbursement so made is recoverable unless separately ratified by Governance Proposal. During the Transition Period, "all Delegates" means all seated Transition RAC members and the ratification requirement is satisfied by a recognised advisory outcome (**Charter §12.2**; **DAO Parameters §3A.3**). "Written consent" has the meaning given in the **Emergency & Safeguards Policy**, which governs the procedural detail and applies where an emergency action is required before a written-consent process can be completed. An emergency amendment may not weaken, reduce, or remove any entrenched provision (Charter §12.1) or alter the Activation framework (Charter §4A).
 
 ---
 

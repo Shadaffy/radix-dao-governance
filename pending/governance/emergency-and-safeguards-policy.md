@@ -81,7 +81,7 @@ The RAC may:
 
 ### Tier 2 — Asset Movement
 
-The RAC may move treasury assets to the pre-approved emergency safe address only (DAO Parameters §6.1). Assets may not be moved to any other address under emergency authority. Until an emergency safe address has been designated by Treasury & Budget proposal and recorded in DAO Parameters §6.1, Tier 2 asset movement is not available.
+The RAC may move treasury assets to the pre-approved emergency safe address only (DAO Parameters §6.1). Assets may not be moved to any other address under emergency authority. Until an emergency safe address has been designated and recorded in DAO Parameters §6.1, Tier 2 asset movement is not available. The emergency safe address must be designated **before the Company receives the principal asset transfer**: during the Transition Period by Transition RAC resolution published to the Official Venue (OA §6.5(d)), and thereafter changed only by Treasury & Budget proposal (DAO Parameters §6.1).
 
 **Requires:** ≥2/3 RAC members + 75% approval threshold AND immediate notification to all Treasury Signers within 1 hour AND community disclosure within 6 hours.
 **Spend limit:** The $5,000 emergency spend limit (DAO Parameters §6.1) applies to new disbursements under emergency authority. Tier 2 protective transfers to the pre-approved address are not subject to the spend cap but are constrained to that address.
@@ -243,7 +243,7 @@ Where this policy, the **Governance Maintenance & Upgrade Framework §9**, or **
 * a transaction signed by the Delegate's KYC-verified wallet address; or
 * a signed instrument delivered to the **Legal Signatory** (Delegate Mandate; **Operating Agreement §1.15 and §9.2**).
 
-Unanimous written consent requires consent in one of these forms from **every** Delegate then in office. A written-consent action takes effect when the consent of the last required Delegate is given, and is subject to any ratification requirement imposed by the provision that invokes it. Where an emergency requires action before a written-consent process can be completed, the RAC emergency authority in §5–§6 applies instead, subject to the post-emergency ratification and review requirements of this policy.
+Unanimous written consent requires consent in one of these forms from **every** Delegate then in office. During the Transition Period, when the Delegated Functions are held by the Transition RAC, "every Delegate then in office" means every seated Transition RAC member (Charter §12.2). A written-consent action takes effect when the consent of the last required Delegate is given, and is subject to any ratification requirement imposed by the provision that invokes it. Where an emergency requires action before a written-consent process can be completed, the RAC emergency authority in §5–§6 applies instead, subject to the post-emergency ratification and review requirements of this policy.
 
 ---
 

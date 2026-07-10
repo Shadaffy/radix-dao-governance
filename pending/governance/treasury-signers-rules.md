@@ -168,7 +168,7 @@ No signer may act unilaterally where multi-signature approval is required.
 
 ### 10A.1 Account Architecture
 
-Treasury assets are held in the multi-signature account whose identifier is recorded in **Operating Agreement Schedule 4** (per §11.4). The signing threshold structure is defined in **DAO Parameters §6A** (3-of-5 standard, 4-of-5 high-risk) and is consistent with **Operating Agreement §9.11** (3-of-5 for ordinary transition treasury actions; 4-of-5 for protected matters / high-sensitivity actions). High-risk transactions correspond to the **protected matters** in **Operating Agreement §9.12**.
+Treasury assets are held in the multi-signature account whose identifier is recorded in **Operating Agreement Schedule 4** (per §11.4). The signing threshold structure is defined in **DAO Parameters §6A** and is phase-dependent: during the Transition Period **2-of-3** for ordinary transition treasury actions and, for protected matters / high-sensitivity actions, **unanimity of all seated signers, being not fewer than two** (3-of-3 at full strength), consistent with **Operating Agreement §9.11**; from the Activation Date **3-of-5** standard and **4-of-5** high-risk under the elected Delegate signer set. High-risk transactions correspond to the **protected matters** in **Operating Agreement §9.12**.
 
 The Company may, by Governance Proposal, segment treasury assets across multiple accounts (e.g., operational treasury, reserve treasury, grants pool) provided each account remains subject to multi-signature control and the same threshold structure. Account segmentation must be recorded with the Registered Agent and reflected in the technical identifiers under Operating Agreement §11.4 / Schedule 4.
 
@@ -263,12 +263,12 @@ Treasury Signers must remain reasonably available to support DAO operations.
 
 **Continuity threshold:**
 
-* If the number of available signers falls below **3**, the Governance Continuity Framework §4.2 is automatically triggered, including interim appointment procedures and elevated signing thresholds
+* If the number of available signers falls below the standard signing threshold for the current phase — fewer than **2** during the Transition Period (2-of-3 set) or fewer than **3** post-activation (3-of-5 set) — the Governance Continuity Framework is automatically triggered (§4.2 post-activation; §4.6 during the Transition Period), including interim appointment procedures and elevated signing thresholds
 
 **Emergency Signer Reserve:**
 
 * The Governance & Legal Working Group maintains an Emergency Signer Reserve — a pre-approved list of eligible candidates who may serve as interim signers
-* Reserve membership is approved by DAO vote at each annual signer term cycle
+* Reserve membership is approved by DAO vote at least annually
 * Reserve members are not active signers and hold no signing authority until formally appointed under the Governance Continuity Framework §4.2
 * When the RAC cannot meet quorum, appointment from the Reserve may be made by the Tier 1 or Tier 2 fallback authority defined in the Governance Continuity Framework §4.1; the appointment becomes effective 24 hours after public disclosure on the governance forum
 

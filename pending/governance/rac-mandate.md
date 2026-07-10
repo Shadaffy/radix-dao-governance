@@ -32,6 +32,7 @@ The Permanent RAC may:
 * Execute DAO-approved actions where explicitly authorized
 * Take **temporary emergency actions** within defined limits
 * Instruct remaining Treasury Signers to execute a passed proposal under the forced-execution backstop (Governance Continuity Framework §4.2) when the 10-business-day window from veto window close has elapsed with no valid hold on record
+* Instruct the Governance Operator to elevate an eligible passed Temperature Check under the elevation backstop (Governance Continuity Framework §4.2A) where the TC Elevation Window has elapsed with no documented grounds on record, and trigger backstop execution where the instruction is not complied with
 * Maintain the Tier 2 voting power source register (DAO Parameters §8A), including adding or removing supplementary sources by routine decision, subject to the 30-day advance notice and `effectiveFrom` requirements defined there
 * Provide or withhold the Permanent RAC's prior written consent, by the majority in **DAO Parameters §3A.4**, to any post-activation amendment of an Entrenched Provision that affects the Permanent RAC's constitutional role, composition, election mechanics, or removal procedure (**Operating Agreement §12.2(d)(iii)**)
 
@@ -97,7 +98,7 @@ RAC members are subject to the **Conflict of Interest Policy**, including the he
 ## 9A. Resignation
 
 * A RAC member may resign by written notice. Resignation causes cessation of legal Membership under **Operating Agreement §4.7(b)** and immediate vacancy of the seat under **DAO Parameters §5.1**; the replacement process runs under the **Elections & Role Governance Policy §11**
-* Where a resignation would reduce seated RAC members below the minimum of 5, or active Treasury Signers below the 3-of-5 execution quorum, the **Floor-Protected Resignation** rule in **Elections & Role Governance Policy §11.2** applies: the resignation is permitted but conditioned on the 14-day Floor-Protected Resignation Notice (DAO Parameters §6B), and converts to a continuity event if the member cannot serve that notice
+* Where a resignation would reduce seated members below the applicable RAC floor (Permanent RAC: 5; Transition RAC: 3 — DAO Parameters §5.1), or active Treasury Signers below the applicable execution quorum (post-activation 3-of-5; Transition Period 2-of-3 — DAO Parameters §6A), the **Floor-Protected Resignation** rule in **Elections & Role Governance Policy §11.2** applies: the resignation is permitted but conditioned on the 14-day Floor-Protected Resignation Notice (DAO Parameters §6B), and converts to a continuity event if the member cannot serve that notice. For a **Transition RAC** seat, replacement is reserved to the Operating Agreement (§6.3, Schedule 1) and the resulting vacancy is handled under the **Governance Continuity Framework §4.6** rather than by replacement election
 * Outgoing members remain subject to the handover obligations in **Elections & Role Governance Policy §12**
 
 ---
@@ -135,3 +136,9 @@ The Permanent RAC carries the following specific responsibilities in the period 
 * Ensure the appointed auditor has access to sufficient treasury records and on-chain transaction history to conduct a meaningful first audit
 
 The Permanent RAC may not delegate this responsibility to a Working Group until that Working Group is constituted and operational. Once a Treasury & Finance Working Group is operational, the Permanent RAC may transfer ongoing audit coordination to that body, subject to a formal handoff recorded in the Permanent RAC's quarterly accountability report.
+
+**Governance & Legal Working Group — mandatory early deliverable:**
+
+* Bring the establishment proposal for the **Governance & Legal Working Group** (Working Group Framework §3) to governance within the **first quarter** of the Permanent RAC's term
+* This Working Group holds the Tier 2 fallback authority in the **Governance Continuity Framework §4.1** and maintains the **Emergency Signer Reserve** (Treasury Signers Rules §15); until it is constituted, both functions are unstaffed. Constituting it closes a known continuity gap and takes priority over discretionary workstreams
+* The proposal must include the initial Emergency Signer Reserve process (candidate criteria, KYC readiness, and the schedule for the first Reserve approval vote)

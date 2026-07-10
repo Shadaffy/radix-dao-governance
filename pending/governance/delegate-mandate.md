@@ -6,7 +6,7 @@
 > The Delegated Functions are operational and delegated functions established under **Operating
 > Agreement §11.5**. They confer legal Membership and beneficial-owner status; the legal force of
 > those consequences is located in the **Charter** (§4.2, Membership attachment) and the **Operating
-> Agreement** (delegated functions §11.5, indemnification §12.5, the §709 standard-of-conduct
+> Agreement** (delegated functions §11.5, indemnification §12.5, the DAO Act §109 standard-of-conduct
 > disclaimer in §12.7, and beneficial-owner reporting under Article X). This Mandate defines the roles
 > and their operational rules; the legal instruments give them legal effect.
 
@@ -59,7 +59,14 @@ via the Owner Badge; update governance parameters per Governance Proposal; maint
 smart contract. The Governance Operator may not elevate a Temperature Check that has not met the
 approval conditions, and may not modify, delay, or suppress an eligible elevation without a
 Governance Proposal authorizing the deviation. Elevation and proposal-administration procedure is
-defined in the **Proposal & Voting Framework**.
+defined in the **Proposal & Voting Framework**. The Governance Operator must elevate an eligible
+passed Temperature Check within the TC Elevation Window (**DAO Parameters §3.1**) or record
+documented grounds for the delay with the RAC; an eligible TC left unelevated beyond that window
+triggers the elevation backstop in the **Governance Continuity Framework §4.2A**. The custody and
+recovery arrangement for the Owner Badge is determined at deployment of the Governance smart
+contract and recorded with the technical identifiers (**Operating Agreement §11.4 / Schedule 4**);
+whatever arrangement is chosen must enable an elevation or badge rotation to proceed without the
+Governance Operator's cooperation, sufficient to give effect to that backstop.
 
 ### 2.3 Legal Signatory
 
@@ -126,8 +133,8 @@ authorization as a condition of compliance. This does not prevent a Delegate fro
 action necessary to avoid criminal liability, provided they notify the RAC immediately in accordance
 with the Regulatory Demand Disclosure Protocol in the **Compliance Operations Policy §5**.
 
-The fiduciary-duty standard and disclaimer applicable to Delegates (adopted under §709 of the Marshall
-Islands Limited Liability Company Act) is set in **Operating Agreement §12.7** and is not restated
+The fiduciary-duty standard and disclaimer applicable to Delegates (adopted under §109 of the Marshall
+Islands DAO Act 2022) is set in **Operating Agreement §12.7** and is not restated
 here; this Mandate states obligations of conduct within each Delegate's assigned function and does not
 create any fiduciary duty beyond what the Operating Agreement provides. Delegates are Covered Persons
 for the purposes of Operating Agreement §12.7 and the indemnification in §12.5.
@@ -165,10 +172,13 @@ DAO Act §702(r)) and are reportable on the BOIR regardless of where their funct
 identification, KYC tiers, and sanctions screening are governed by the **Operating Agreement**
 compliance article and the **Compliance Operations Policy**.
 
-During the Transition Period, the Treasury Signing function is held by the five Transition RAC
-members, who act as the initial signers in respect of that function as set out in **Operating
-Agreement Article VI and §§9.9–9.11**. Article VI-specific procedures prevail over the corresponding
-procedures in this Mandate during that period.
+During the Transition Period, the Treasury Signing function is held by the three Transition RAC
+members, who act as the initial signers in respect of that function (**2-of-3** standard;
+protected/high-risk matters require **unanimity of all seated signers, being not fewer than two**)
+as set out in **Operating Agreement Article VI and §§9.10–9.11**. The
+**exactly-five-Delegates** requirement and the 3-of-5 / 4-of-5 thresholds in §3 above take effect on
+the Activation Date, when Treasury Signing passes to the elected Delegates. Article VI-specific
+procedures prevail over the corresponding procedures in this Mandate during the Transition Period.
 
 ---
 

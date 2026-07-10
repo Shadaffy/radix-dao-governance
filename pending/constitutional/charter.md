@@ -219,7 +219,7 @@ Notwithstanding the above, the following provisions may not be amended, reduced,
 
 4. **Minimum voting power source floor** — XRD (liquid holdings) and LSU (Liquid Staking Units, converted to XRD-equivalent at snapshot) shall always be recognised as eligible voting power sources for all DAO governance votes. This floor may not be reduced or removed by any proposal, including a Constitutional proposal.
 
-> **[COUNSEL FLAG — D-A6]** The two governance floors above (the **7% Constitutional quorum floor**, item 2, and the **XRD+LSU voting-source floor**, item 4) currently carry **Charter-level** entrenchment only. The instruction to name them as Entrenched Provisions in **Operating Agreement §12.2** (proposed amendment A6) is **not reflected in Draft 3**, and OA §12.2(a)(viii) provides that a Charter designation does **not** acquire Operating-Agreement-level entrenched status "unless so specified in this Agreement." If counsel adopts A6 in the execution version, these floors gain Operating-Agreement-level backing and this flag can be removed.
+The two governance floors above (the **7% Constitutional quorum floor**, item 2, and the **XRD+LSU voting-source floor**, item 4) are also designated as Entrenched Provisions in the Operating Agreement itself (**Operating Agreement §12.2(a)(ix)–(x)**), so they carry Operating-Agreement-level entrenchment in addition to the Charter-level entrenchment in this section.
 
 ---
 
@@ -229,12 +229,15 @@ Because this Charter is superior to the operational policy library (§13), a pow
 
 Notwithstanding the standard amendment process in §12, where an emergency requires a temporary amendment to a document in the policy framework — this Charter or an operational policy — before that process can complete, the amendment may be adopted by **unanimous written consent of all Delegates**, subject to ratification by Governance Proposal within 30 days. An emergency amendment that is not ratified within 30 days is void and of no effect from the expiry of that period.
 
+During the Transition Period, when the Delegated Functions are held by the Transition RAC (Delegate Mandate §6; **Operating Agreement Article VI**), "unanimous written consent of all Delegates" means the unanimous written consent of all seated Transition RAC members, and the ratification requirement is satisfied by a recognised advisory outcome meeting the standard recognition thresholds (**DAO Parameters §3A.3**).
+
 This power is strictly limited. An emergency amendment:
 
 1. may amend only this Charter or an operational policy, and may not amend, vary, or suspend the Operating Agreement, the Certificate of Formation, or any other Formation Document;
 2. may not amend, weaken, reduce, or remove any Entrenched Provision (§12.1), and may not alter the Activation framework (§4A);
-3. takes effect only as a temporary measure pending ratification and confers no authority to make a permanent change without the ratifying Governance Proposal required by this section, consistent with the governance-sovereignty constraint (§12.1 item 3); and
-4. must be publicly disclosed on adoption in accordance with the Transparency principle (§3.2).
+3. takes effect only as a temporary measure pending ratification and confers no authority to make a permanent change without the ratifying Governance Proposal required by this section, consistent with the governance-sovereignty constraint (§12.1 item 3);
+4. must be publicly disclosed on adoption in accordance with the Transparency principle (§3.2); and
+5. confers no protection on actions taken in reliance on it if ratification fails: where an emergency amendment is not ratified, any action taken under it that would not have been valid under the unamended document must be reported and reviewed under the **Emergency & Safeguards Policy §10**, and any treasury disbursement so made is recoverable by the Company unless separately ratified by Governance Proposal.
 
 For the purposes of this section, "written consent" has the meaning given in the **Emergency & Safeguards Policy**.
 
@@ -256,8 +259,6 @@ This hierarchy is intentional. The Operating Agreement is the legally registered
 Operational, technical, and procedural details are defined in the DAO's policy library — a set of governance documents that give effect to the principles and authority established here.
 
 **Document Activation:** This Charter and the policy framework are ratified by the community through the constitutional ratification vote that forms part of the Activation Conditions (**Operating Agreement Schedule 5, condition 6**), and are recognised and given legal effect by the Operating Agreement as the governance framework of the Company. The Transition Period, defined in **Operating Agreement §1.21 and Article VI**, is a formation period during which a Transition RAC implements entity formation, asset transfer, the constitution of the Permanent RAC, and handover. During that period the Company is **member-managed** and governance outcomes are advisory (§4A.1); **full algorithmic governance under this Charter and the subordinate governance rules recognised under Operating Agreement §§11.2 and 11.5 begins on the Activation Date** (**Operating Agreement §§8.1, 8.8**), not at formation.
-
-> **[COUNSEL FLAG — D-B1]** Draft 3 implements community adoption of the framework as **Schedule 5 condition 6** (a ratification vote forming part of the Activation Conditions), rather than as an upfront adoption at formation that binds the Transition RAC subject to the asset-transfer carve-out (proposed substantive amendment B1). This clause is drafted to match Draft 3 **as written**. If counsel settles the upfront-adoption mechanism and asset-transfer carve-out in the execution version, revise this clause to state that the ratified framework binds the Transition RAC from formation subject to that carve-out, applicable law / Foundation transfer conditions, and the RAC's formation mandate.
 
 ---
 

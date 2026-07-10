@@ -30,7 +30,7 @@ Report **all** of the following categories. At least one record must always be p
 
 1. **UBO Governance Participants** — any Governance Participant (whether or not also a Member) holding 25% or more of total eligible voting power (Operating Agreement §4.6; Compliance Operations Policy §2)
 2. **Delegates** — all persons currently holding a Delegated Function under Operating Agreement §5.3, regardless of voting power. Delegates always qualify as beneficial owners because they hold "actual, effective, or sufficient responsibility or control" within the meaning of §702(r).
-3. **RAC Members** — during the Transition Period, all five Transition RAC members (who hold legal Membership under Operating Agreement §4.1 and act as the formation authority); following the Transition Period, all Permanent RAC members (who hold legal Membership under Operating Agreement §4.1).
+3. **RAC Members** — during the Transition Period, all three Transition RAC members (who hold legal Membership under Operating Agreement §4.1 and act as the formation authority); following the Transition Period, all Permanent RAC members (who hold legal Membership under Operating Agreement §4.1).
 
 > **Note:** In a distributed token governance system, it is expected that no Governance Participant will typically reach the 25% UBO threshold. In that case, the Delegate roster and RAC roster together constitute the complete BOIR. The report must still be filed — a nil return (no reportable beneficial owners) is not permissible; Delegates and RAC members are always reportable.
 
@@ -140,9 +140,10 @@ Complete this roster for all current Delegates regardless of whether each appear
 | 6 | | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ Yes ☐ No | GP No.: |
 | 7 | | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ Yes ☐ No | GP No.: |
 
-**Treasury Signers:** The Operating Agreement (§5.2) requires exactly 5 Delegates to hold the Treasury Signing function to support the 3-of-5 and 4-of-5 multi-signature thresholds defined in DAO Parameters §6A. Confirm exactly 5 are listed above.
+**Treasury Signers:** The signer count is phase-dependent. During the **Transition Period** — when the BOIR is first filed at formation — Treasury Signing is held by the **3 Transition RAC members** (2-of-3 standard / unanimous-of-seated protected, minimum two; Operating Agreement §9.10–9.11). From the **Activation Date**, exactly **5 Delegates** hold the Treasury Signing function to support the 3-of-5 and 4-of-5 multi-signature thresholds defined in DAO Parameters §6A. Confirm the count for the applicable phase.
 
-☐ Confirmed — exactly 5 Treasury Signers listed and KYC verified
+☐ Transition Period — exactly 3 Treasury Signers (the Transition RAC) listed and KYC verified
+☐ Post-Activation — exactly 5 Treasury Signers listed and KYC verified
 
 ---
 

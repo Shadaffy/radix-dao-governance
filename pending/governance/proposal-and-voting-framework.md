@@ -48,6 +48,7 @@ All proposals follow a three-stage pipeline:
 ### 3.3 Stage 3 — DAO Proposal
 
 * Formal binding proposal elevated by the Governance Operator from a passed TC via the Owner Badge
+* The Governance Operator must elevate an eligible passed TC within the TC Elevation Window (DAO Parameters §3.1), or record documented grounds for the delay with the RAC. An eligible TC left unelevated beyond that window triggers the elevation backstop (Governance Continuity Framework §4.2A)
 * Must include all required fields (see §5)
 * Category determines vote type, quorum, and approval threshold (§4; DAO Parameters §3.2–3.3)
 * Passed → moves to execution; Failed → standard cooldown applies
@@ -294,7 +295,7 @@ Disagreement with the policy substance of a proposal is not grounds for veto.
 
 ### 8.3 Who May File
 
-Any Governance Participant may file a veto challenge, provided the minimum participation threshold is met (see DAO Parameters §4).
+Any Governance Participant holding at least the Veto Filing Threshold (DAO Parameters §4 — 0.1% of eligible voting power, verified against the most recent governance snapshot) may file a veto challenge. No aggregate participation or co-signature requirement applies: a single valid filing triggers RAC review under §8.4, which is the substantive filter on veto grounds.
 
 ---
 

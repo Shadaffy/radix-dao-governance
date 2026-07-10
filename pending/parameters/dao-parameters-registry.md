@@ -39,6 +39,8 @@ This registry defines:
 | Temperature Check Voting Period | 5–7 days | Duration of the TC vote for Constitutional, Governance Process, Treasury/Budget, and Executable proposals |
 | Temperature Check Voting Period (Short) | ≥1 day | Duration of the TC vote for Election proposals and multi-option Approval Voting polls |
 | DAO Proposal Voting Period | 5–7 days | Duration of the binding DAO Proposal vote |
+| TC Elevation Window | 5 business days | Maximum time from the close of a passed Temperature Check to its elevation by the Governance Operator, or to documented grounds for delay being recorded with the RAC. Elapse without either triggers the elevation backstop (Governance Continuity Framework §4.2A) |
+| Elevation Backstop Compliance Window | 2 business days | Time for the Governance Operator to comply with a formal RAC elevation instruction before backstop execution proceeds (Governance Continuity Framework §4.2A) |
 
 ---
 
@@ -127,7 +129,7 @@ These parameters carry the activation and transition mechanics that the **Charte
 
 | Phase | Requirements |
 | ----- | ------------ |
-| During the Transition Period (OA §12.2(c)) | Unanimous affirmative vote of all five **seated** Transition RAC members **and** a concurrent recognised advisory outcome meeting the higher threshold in §3A.3 **and** ≥14 days' prior notice to the registered agent and the Official Venue |
+| During the Transition Period (OA §12.2(c)) | Unanimous affirmative vote of all **seated** Transition RAC members, being **not fewer than two** (OA §12.2(c)(i)), **and** a concurrent recognised advisory outcome meeting the higher threshold in §3A.3 **and** ≥14 days' prior notice to the registered agent and the Official Venue |
 | Following the Activation Date (OA §12.2(d)) | Quorum **≥ 20%** of eligible voting power (not less than twice the 10% Constitutional quorum); approval **≥ two-thirds** of all Governance Tokens participating; where the amendment affects the Permanent RAC's constitutional role, composition, election mechanics, or removal, the prior written consent of the Permanent RAC by **≥ 2/3 of seated members**; and ≥21 days' prior public disclosure to the Official Venue |
 
 ### 3A.5 Permanent RAC Election Gating (Activation Condition 7)
@@ -146,7 +148,7 @@ These parameters carry the activation and transition mechanics that the **Charte
 | Parameter                  | Value              |
 | -------------------------- | ------------------ |
 | Veto Window                | 48 hours from RAC result publication |
-| Minimum Participation      | 3% quorum of eligible voting power (all sources per §8A) |
+| Veto Filing Threshold      | 0.1% of eligible voting power (all sources per §8A) held by the filer, verified against the most recent governance snapshot. The RAC's review of the challenge grounds (Proposal & Voting Framework §8.4) is the substantive filter; no aggregate participation requirement applies |
 | Optional Stake Requirement | None               |
 
 ---
@@ -159,7 +161,7 @@ These parameters carry the activation and transition mechanics that the **Charte
 
 | Parameter                        | Value                                                                  |
 | -------------------------------- | ---------------------------------------------------------------------- |
-| Transition RAC Members           | Exactly 5 (named in GP-PRE-1; constituted under Operating Agreement Article VI) |
+| Transition RAC Members           | Exactly 3 (named in GP-PRE-1; constituted under Operating Agreement Article VI) |
 | Permanent RAC Members            | Between 5 and 7 (set per election; defined in RAC Mandate §7). Adjustable by Governance Process proposal; minimum 5. |
 | Term Length (Permanent RAC)      | 6 months                                                               |
 | Routine Decision Quorum          | Simple majority (more than half of seated members)                     |
@@ -193,7 +195,7 @@ These parameters carry the activation and transition mechanics that the **Charte
 | Governance Reconstitution Limit    | $25,000 USDC — available only when a RAC or signer continuity event has been declared under Governance Continuity §4.1 or §4.2; covers emergency election costs, legal filings, and Registered Agent compliance fees; subject to GP ratification within 30 days |
 | Legal Defense Advancement Limit    | $25,000 USDC per legal proceeding — a bridging pool covering immediate legal response costs for one or more Delegates or RAC members named in the same proceeding arising from their role, before a GP can authorize ongoing funding; the $12,000 Single Transaction Limit does not apply within this pool; does not require a declared continuity event; subject to GP ratification within 30 days and the repayment undertaking in OA §12.5 |
 | Rolling 30-Day Outflow Cap         | $50,000 USDC or 5% of treasury value (whichever is lower) — maximum total Treasury / Budget disbursements across all passed proposals in any rolling 30-day window. Signers must refuse execution of any proposal that would cause the rolling total to breach this cap and must report the refusal to RAC immediately. Adjustable by Treasury & Budget proposal. |
-| Emergency Safe Address             | To be designated by separate Treasury & Budget proposal before the treasury holds material value. Until designated, Tier 2 emergency asset movement (Emergency & Safeguards Policy §6) is not available. Changes to the designated address require a Treasury & Budget proposal. |
+| Emergency Safe Address             | Must be designated **before the Company receives the principal asset transfer** (OA Schedule 5, conditions 8–9). During the Transition Period, designation is made by Transition RAC resolution published to the Official Venue, as part of establishing the treasury and custody framework (OA §6.5(d)); thereafter, changes to the designated address require a Treasury & Budget proposal. Until designated, Tier 2 emergency asset movement (Emergency & Safeguards Policy §6) is not available. |
 
 ---
 
@@ -202,12 +204,14 @@ These parameters carry the activation and transition mechanics that the **Charte
 | Parameter                 | Value       |
 | ------------------------- | ----------- |
 | Multi-account Requirement | Yes         |
-| Multisig Threshold        | See §6A: 3-of-5 standard, 4-of-5 high-risk |
+| Multisig Threshold        | See §6A. Post-activation: 3-of-5 standard, 4-of-5 high-risk. Transition Period: 2-of-3 standard; protected/high-risk unanimous among all seated signers, minimum two (3-of-3 at full strength) (3 Transition RAC signers; OA §9.10–9.11) |
 | Audit Requirement         | Mandatory — an independent treasury audit is required annually. The RAC is responsible for scoping the audit and bringing an auditor appointment to governance for approval. The first audit process must be initiated within the first 12 months of entity formation. |
 
 ---
 
 ## 6A. Treasury Signers Parameters
+
+> **Phase scope.** The table below specifies the **post-activation** (permanent) signer set. During the **Transition Period** the signer set is the **3 Transition RAC members** acting as initial signers (Operating Agreement §9.10–9.11): **2-of-3** for standard actions and, for protected / high-risk matters, **unanimity of all seated signers, being not fewer than two** (3-of-3 at full strength), with the continuity floor at fewer than **2** available signers (Treasury Signers Rules §15; Governance Continuity Framework §4.6) and seat replacement under Operating Agreement §6.11. The 5-signer / 3-of-5 / 4-of-5 values below take effect on the **Activation Date**, when Treasury Signing passes to the 5 elected Delegates.
 
 | Parameter                       | Value                           | Description                                           |
 | ------------------------------- | ------------------------------- | ----------------------------------------------------- |
@@ -244,7 +248,7 @@ These parameters carry the activation and transition mechanics that the **Charte
 | Inactivity Threshold                | 21 days   | Time before inactivity review; declared unavailability periods are excluded. **"Inactivity"** means: no response to governance execution requests, no participation in any multisig signing actions, and no communication with the RAC within the threshold period. Passive activities (reading updates, monitoring forums) do not constitute activity. Declared unavailability periods (per Treasury Signers Rules §15) are excluded from inactivity counting. |
 | Replacement Election Trigger Time   | 7 days    | Time before election must start          |
 | Replacement Completion Time         | 21 days   | Max time to fill vacancy                 |
-| Floor-Protected Resignation Notice  | 14 days   | Advance notice a RAC member (or Treasury Signer) must give where their resignation would reduce seated RAC members below the minimum of 5 (§5.1) or active Treasury Signers below the 3-of-5 execution quorum (§6A). During the notice period the member remains in office and the replacement process begins; the resignation takes effect on the earlier of a qualified replacement being seated or notice expiry. If the member cannot or will not serve the notice, the seat vacates immediately and the vacancy is escalated as a continuity event (Governance Continuity Framework §4.1/§4.2). A resignation leaving the body at or above the floor takes effect immediately. Operative rule: Elections & Role Governance Policy §11.2. |
+| Floor-Protected Resignation Notice  | 14 days   | Advance notice a RAC member (or Treasury Signer) must give where their resignation would reduce seated members below the applicable RAC floor (Permanent RAC: 5; Transition RAC: 3 — §5.1) or active Treasury Signers below the applicable execution quorum (post-activation 3-of-5; Transition Period 2-of-3 — §6A). During the notice period the member remains in office and the replacement process begins; the resignation takes effect on the earlier of a qualified replacement being seated or notice expiry. If the member cannot or will not serve the notice, the seat vacates immediately and the vacancy is escalated as a continuity event (Governance Continuity Framework §4.1/§4.2). A resignation leaving the body at or above the floor takes effect immediately. Operative rule: Elections & Role Governance Policy §11.2. |
 | Delegate Count — Minimum            | 5         | Minimum total Delegates; bounded below by the 5 Treasury Signers required under §6A. May not fall below 5 while the Treasury Signing roster requires 5 holders. |
 | Delegate Count — Maximum            | 12        | Maximum total Delegates. Adjustable by Governance Process proposal. Set above 7 to allow growth past the founding configuration; reduce to 7 if the DAO prefers a tighter roster. |
 | Max Concurrent Roles per Individual | 2         | Limits role concentration. A "role" is an elected or appointed position: a RAC seat, a Delegate seat (regardless of how many Delegated Functions the Delegate holds), a Working Group Steward seat, or a Strategic Coordination WG seat. Delegated Functions held by a single Delegate do not multiply the role count. |
@@ -321,7 +325,7 @@ These parameters carry the activation and transition mechanics that the **Charte
 | Parameter                 | Value          |
 | ------------------------- | -------------- |
 | Pre-Execution Hold        | 48 hours after RAC result publication (mandatory) — Treasury Signers may not initiate execution of any Treasury / Budget or Executable proposal until the veto window (§4) has fully closed |
-| High-Risk Execution Delay | 24 hours additional after the pre-execution hold (mandatory) — applies to transactions classified as high-risk (4-of-5 signing threshold per §6A); total minimum 72 hours after RAC result publication |
+| High-Risk Execution Delay | 24 hours additional after the pre-execution hold (mandatory) — applies to transactions classified as high-risk (4-of-5 signing threshold post-activation; unanimous-of-seated, minimum two, during the Transition Period, per §6A); total minimum 72 hours after RAC result publication |
 
 ---
 
@@ -330,7 +334,7 @@ These parameters carry the activation and transition mechanics that the **Charte
 | Parameter | Value | Description |
 |---|---|---|
 | Governance Inactivity Trigger | 3 consecutive quorum failures on the same proposal type | Threshold before reduced quorum activates |
-| Reduced Quorum Threshold | 50% of the standard quorum for that proposal type (minimum 1%) | Applies after inactivity trigger is met |
+| Reduced Quorum Threshold | 50% of the standard quorum for that proposal type (minimum 1%) | Applies after inactivity trigger is met. For Constitutional proposals the reduced quorum may not fall below the entrenched 7% floor (Charter §12.1 item 2); the effective reduced Constitutional quorum is therefore 7% |
 | Extended Voting Period | Double the standard voting duration | Applies alongside reduced quorum during inactivity |
 | Reconstitution Deadline | 30 days after failure event | Maximum time to re-establish a failed role or body |
 

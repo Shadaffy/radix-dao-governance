@@ -80,12 +80,6 @@ A useful mental model:
 
 ---
 
-## The two "Counsel Flag" boxes
-
-You'll see two highlighted **[COUNSEL FLAG]** notes (in §12.1 and §13). These are **not rules** — they are *open notes to the lawyers* recording where the current draft hasn't yet caught up with a proposed change. You can read them as "this part is still being finalised with counsel." They don't affect how the Charter is read today.
-
----
-
 ## If you only remember three things
 
 1. **Power belongs to token holders.** Every body and role is borrowing authority, never owning it (§§2, 4.1).

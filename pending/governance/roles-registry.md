@@ -23,7 +23,7 @@ All definitions, authority limits, and obligations remain in their source docume
 | **Delegate — Legal Signatory** | Delegate Mandate §2.3 (OA §1.15, §9.2) | DAO Election Proposal | 6 months (§6B) | Delegate Mandate; Compliance Operations Policy §5 |
 | **Delegate — Compliance Liaison** | Delegate Mandate §2.4; OA Article X | DAO Election Proposal | 6 months (§6B) | Delegate Mandate; OA Article X; Compliance Operations Policy §2 |
 | **Delegate — Web2 Custodian** | Delegate Mandate §2.5 | DAO Election Proposal | 6 months (§6B) | Delegate Mandate; Compliance Operations Policy §4 |
-| **WG Stewards** | DAO Parameters §7; Proposal & Voting Framework §4.6 | DAO Election Proposal (per WG Charter) | 6 months (§7) | Respective WG Charter; Execution Policy §5.2; CoI Policy §2 |
+| **WG Stewards** | DAO Parameters §7; Proposal & Voting Framework §4.5 | DAO Election Proposal (per WG Charter) | 6 months (§7) | Respective WG Charter; Execution Policy §5.2; CoI Policy §2 |
 | **Contributors / Contractors** | Execution Policy §7.3–7.4; Code of Conduct §3.3 | Working Group (or RAC where no WG exists) | Per engagement | Code of Conduct §3.3; Execution Policy §7 |
 
 *OA = Operating Agreement; CoI Policy = Conflict of Interest Policy; Emergency Policy = Emergency & Safeguards Policy*
@@ -81,17 +81,17 @@ Transition RAC members act as the initial Treasury Signers under **OA §§9.9–
 - Operating Agreement §§9.9–9.11 (initial signers); §11.5 (Treasury Signing as a delegated function)
 
 **Appointment**
-Ratified by GP-PRE-1 (founding proposal) as five named persons. All must complete KYC Tier 1 verification before the founding vote opens.
+Ratified by GP-PRE-1 (founding proposal) as three named persons. All must complete KYC Tier 1 verification before the founding vote opens.
 
 **Term**
 From entity formation until the Activation Date. The Transition RAC mandate sunsets automatically on the Activation Date, with the Permanent RAC already seated as a precondition to the Activation Vote (OA §6.10; Schedule 5, conditions 6–7).
 
 **Removal**
-Individual members may be removed by Governance Proposal in accordance with standard removal procedures. A replacement is appointed by Governance Proposal.
+Individual members may be removed by Governance Proposal in accordance with standard removal procedures. A vacated Transition RAC seat is not refilled by replacement election or appointment — the seats are fixed in the Operating Agreement (§6.3, Schedule 1) — and the vacancy is handled under the Governance Continuity Framework §4.6.
 
 **Policies That Apply**
 - Operating Agreement Article VI — primary authority and limits
-- Operating Agreement §§9.9–9.11 — treasury signer authority during Transition Period (3-of-5 / 4-of-5)
+- Operating Agreement §§9.9–9.11 — treasury signer authority during Transition Period (2-of-3 standard / unanimous-of-seated protected, minimum two)
 - Operating Agreement §12.5(i) — indemnification survival/continuity
 - Operating Agreement §6.8 — transition governance internal process and transparency (detailed in the Charter)
 - Emergency & Safeguards Policy §5–6 — emergency authority
@@ -119,7 +119,7 @@ Permanent RAC members hold legal Membership in the LLC under OA Article IV (§§
 - Elections & Role Governance Policy (composition, eligibility, nomination, election procedure, reporting)
 
 **Appointment**
-Two-stage Election Proposal process (Proposal & Voting Framework §4.6): Stage 1 shortlisting by Approval Voting, Stage 2 confirmation by standard vote. The first Permanent RAC election is conducted during the Transition Period under the Elections & Role Governance Policy; the election and seating of at least the minimum number of members is a **precondition to the Activation Vote** (OA Schedule 5, condition 7), not itself the endpoint of the Transition Period — which ends on the Activation Date (OA §1.2).
+Two-stage Election Proposal process (Proposal & Voting Framework §4.5): Stage 1 shortlisting by Approval Voting, Stage 2 confirmation by standard vote. The first Permanent RAC election is conducted during the Transition Period under the Elections & Role Governance Policy; the election and seating of at least the minimum number of members is a **precondition to the Activation Vote** (OA Schedule 5, condition 7), not itself the endpoint of the Transition Period — which ends on the Activation Date (OA §1.2).
 
 **Term & Renewal**
 6 months (DAO Parameters §5.1). Auto-renewed unless a challenge is filed during the challenge window (DAO Parameters §6B). Maximum 4 consecutive terms in the same role (DAO Parameters §6B).
@@ -163,7 +163,7 @@ The total number of elected Delegates is set per election by Governance Proposal
 ### 2.4 Delegates — Treasury Signers
 
 **Authority & Scope**
-Treasury Signers execute treasury transactions approved by governance. They are execution agents, not decision-makers. They operate a 3-of-5 multisig (4-of-5 for high-risk transactions). During the Transition Period, this function is held by the five Transition RAC members as the initial signers (OA §§9.9–9.11); thereafter it is held by elected Treasury Signing Delegates. They may refuse or delay execution only on the specific grounds defined in Treasury Signers Rules §9. They may take protective emergency actions when triggered under the Emergency Policy (Treasury Signers Rules §17).
+Treasury Signers execute treasury transactions approved by governance. They are execution agents, not decision-makers. During the Transition Period, this function is held by the three Transition RAC members as the initial signers, operating a 2-of-3 multisig (protected/high-risk matters require unanimity of all seated signers, minimum two) per OA §§9.10–9.11; from the Activation Date it is held by the five elected Treasury Signing Delegates operating a 3-of-5 multisig (4-of-5 for high-risk transactions). They may refuse or delay execution only on the specific grounds defined in Treasury Signers Rules §9. They may take protective emergency actions when triggered under the Emergency Policy (Treasury Signers Rules §17).
 
 **Defined In**
 - Delegate Mandate §2.1 (Treasury Signing function definition and scope)
@@ -172,7 +172,7 @@ Treasury Signers execute treasury transactions approved by governance. They are 
 - Charter §4.3 (binding decisions executed through Treasury Signers)
 
 **Appointment**
-During Transition Period: held by the five Transition RAC members as initial signers per OA §§9.9–9.11. Post-transition: two-stage Election Proposal process (Proposal & Voting Framework §4.6). Exactly 5 signers must be elected to support signing thresholds (Delegate Mandate §3; DAO Parameters §6A). KYC required before assuming function.
+During Transition Period: held by the three Transition RAC members as initial signers per OA §§9.10–9.11 (2-of-3 standard / unanimous-of-seated protected, minimum two). Post-transition: two-stage Election Proposal process (Proposal & Voting Framework §4.5). Exactly 5 signers must be elected to support the post-activation 3-of-5 / 4-of-5 thresholds (Delegate Mandate §3; DAO Parameters §6A). KYC required before assuming function.
 
 **Term & Renewal**
 Post-transition: 6 months (DAO Parameters §6A, §6B). Auto-renewed unless challenged. Maximum 4 consecutive terms (DAO Parameters §6B).
@@ -329,14 +329,14 @@ Subject to CoI Policy §2–4 and the standard of conduct in Delegate Mandate §
 Lead operational Working Groups within the scope and budget approved by their WG Charter. Coordinate WG members, manage deliverables, authorize milestone payments to Treasury Signers, and report monthly to the DAO. May not make strategic decisions outside the approved WG mandate.
 
 **Defined In**
-- DAO Parameters §7 (WG parameters: 2–3 stewards per WG, 6-month terms)
-- Proposal & Voting Framework §4.6 (election process for WG Stewards)
+- DAO Parameters §7 (WG parameters: 1–3 stewards per WG, 6-month terms)
+- Proposal & Voting Framework §4.5 (election process for WG Stewards)
 - Charter §4.2 (Working Groups as chartered bodies)
 - Working Group Framework — operational rules (active from formation)
 - Respective WG Charter (primary operational authority, once adopted)
 
 **Appointment**
-DAO Election Proposal (Proposal & Voting Framework §4.6), per each WG Charter. Working Group Framework is active from formation; individual WG Charters are adopted by governance vote when each WG is established.
+DAO Election Proposal (Proposal & Voting Framework §4.5), per each WG Charter. Working Group Framework is active from formation; individual WG Charters are adopted by governance vote when each WG is established.
 
 **Term & Renewal**
 6 months (DAO Parameters §7). Renewal per the Elections & Role Governance Policy. Maximum 4 consecutive terms (DAO Parameters §6B).
@@ -416,7 +416,7 @@ The following Working Group roles are referenced across multiple governance docu
 
 | Working Group | Referenced In | Status |
 |--------------|---------------|--------|
-| **Strategic Coordination WG** | RAC Mandate §2 (Treasury Outflow Alerts); Conflict of Interest Policy §2 (covered persons); Proposal & Voting Framework §4.6 (election) | Charter to be proposed by governance vote |
+| **Strategic Coordination WG** | RAC Mandate §2 (Treasury Outflow Alerts); Conflict of Interest Policy §2 (covered persons); Proposal & Voting Framework §4.5 (election) | Charter to be proposed by governance vote |
 | **Governance & Legal WG** | Emergency & Safeguards Policy §5.1; Compliance Operations Policy §5; Treasury Signers Rules §15; Code of Conduct §6.1; RAC Mandate §12 | Pre-defined responsibilities across multiple documents. Charter to be proposed by governance vote |
 
 The Working Group Framework is active from formation. Until each WG Charter is adopted by governance vote, the corresponding WG does not operate as a chartered body.
