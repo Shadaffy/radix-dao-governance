@@ -62,7 +62,8 @@ On formation the Operating Agreement recognises and gives legal effect to this f
 | Contributor Onboarding and Offboarding | Governance | [governance/contributor-onboarding-and-offboarding.md](governance/contributor-onboarding-and-offboarding.md) |
 | Source Code Stewardship Policy | Governance | [governance/source-code-stewardship-policy.md](governance/source-code-stewardship-policy.md) |
 | Open Source & Intellectual Property Policy | Governance | [governance/open-source-and-ip-policy.md](governance/open-source-and-ip-policy.md) |
-| Roles Registry *(navigation aid, not a source of rules)* | Governance | [governance/roles-registry.md](governance/roles-registry.md) |
+
+*(The [Roles Registry](governance/roles-registry.md) is a navigation aid that maps roles to the documents above; it is not a separate source of rules and is not part of the ratified set.)*
 
 ---
 

@@ -15,7 +15,7 @@ All definitions, authority limits, and obligations remain in their source docume
 | Role | Defined In | Appointed By | Term | Primary Policy Documents |
 |------|-----------|--------------|------|--------------------------|
 | **Governance Participants** | OA Article V; Charter §4.1 | Token acquisition | Indefinite (while holding tokens) | Charter; Proposal & Voting Framework §6–8; DAO Parameters §8 |
-| **Transition RAC Members** *(Transition Period only)* | OA Article VI | GP-PRE-1 ratification | Until the Activation Date | OA Article VI; Emergency Policy §5–6 |
+| **Transition RAC Members** *(Transition Period only)* | OA Article VI | Community founding mandate; named in OA Schedule 1 (§6.3) | Until the Activation Date | OA Article VI; Emergency Policy §5–6 |
 | **Permanent RAC Members** | RAC Mandate; OA Article VII, Article IV; Charter §8 | Two-stage DAO Election | 6 months (§6B) | RAC Mandate; Elections Policy; Emergency Policy §5–6; CoI Policy §8 |
 | **Members (legal)** | OA Article IV | Admission via RAC seat or Delegate function | While holding qualifying role | OA Article IV |
 | **Delegates — Treasury Signers** | Delegate Mandate §2.1 (OA §11.5); Treasury Signers Rules | DAO Election Proposal | 6 months (§6B) | Delegate Mandate; Treasury Signers Rules; Execution Policy §5.3; DAO Parameters §6A |
@@ -81,13 +81,13 @@ Transition RAC members act as the initial Treasury Signers under **OA §§9.9–
 - Operating Agreement §§9.9–9.11 (initial signers); §11.5 (Treasury Signing as a delegated function)
 
 **Appointment**
-Ratified by GP-PRE-1 (founding proposal) as three named persons. All must complete KYC Tier 1 verification before the founding vote opens.
+Constituted under the community's pre-existing founding mandate and named in Operating Agreement Schedule 1 (OA §§6.2–6.4); not appointed or re-approved by GP-PRE-1. All must complete KYC Tier 1 verification before entity formation (OA §6.4).
 
 **Term**
 From entity formation until the Activation Date. The Transition RAC mandate sunsets automatically on the Activation Date, with the Permanent RAC already seated as a precondition to the Activation Vote (OA §6.10; Schedule 5, conditions 6–7).
 
 **Removal**
-Individual members may be removed by Governance Proposal in accordance with standard removal procedures. A vacated Transition RAC seat is not refilled by replacement election or appointment — the seats are fixed in the Operating Agreement (§6.3, Schedule 1) — and the vacancy is handled under the Governance Continuity Framework §4.6.
+The Operating Agreement provides no removal mechanism for Transition RAC members; a seat vacates by death, permanent incapacity, resignation, or other cause (OA §6.11). A vacated seat is not refilled by election under the Elections Policy — a replacement is identified by a recognised community advisory outcome at the elevated recognition threshold and seated under **Operating Agreement §6.11**, with the operational response coordinated under the Governance Continuity Framework §4.6.
 
 **Policies That Apply**
 - Operating Agreement Article VI — primary authority and limits

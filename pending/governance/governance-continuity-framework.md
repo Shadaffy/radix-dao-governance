@@ -207,7 +207,7 @@ Response:
 
 ### 4.6 Transition RAC Vacancy (Pre-Activation)
 
-The RAC-failure response in §4.1 presumes a **seated body that reconstitutes through an emergency election under the Elections & Role Governance Policy**. The **Transition RAC** is different: its three seats are recited in GP-PRE-1 and fixed in the Operating Agreement (OA §6.3, Schedule 1), and are **not** elected under the Elections Policy. A Transition RAC seat that vacates before the Activation Date (death, incapacity, or resignation under the Floor-Protected Resignation rule, Elections Policy §11.2) is instead replaced through the vacancy mechanism in **Operating Agreement §6.11**.
+The RAC-failure response in §4.1 presumes a **seated body that reconstitutes through an emergency election under the Elections & Role Governance Policy**. The **Transition RAC** is different: its three seats carry the community's pre-existing founding mandate and are fixed in the Operating Agreement (OA §6.3, Schedule 1), and are **not** elected under the Elections Policy. A Transition RAC seat that vacates before the Activation Date (death, incapacity, or resignation under the Floor-Protected Resignation rule, Elections Policy §11.2) is instead replaced through the vacancy mechanism in **Operating Agreement §6.11**.
 
 **Operational response (within Operating Agreement authority):**
 
