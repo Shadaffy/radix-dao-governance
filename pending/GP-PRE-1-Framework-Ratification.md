@@ -152,7 +152,7 @@ source of rules.)*
    DAO LLC, satisfying **Activation Condition 6(b)** (community constitutional ratification).
 2. The Transition RAC adopts the framework by **unanimous written resolution** in connection with
    formation, satisfying **Activation Condition 6(a)**, and publishes the ratified framework to the
-   Official Venue (condition 6(c)).
+   Official Venue (Schedule 5 condition 6, evidence item (c)).
 3. The Transition RAC proceeds, under its existing mandate, to form the Company carrying this framework.
 
 **What this proposal does NOT do:**
