@@ -164,6 +164,8 @@ Response:
 
 The fallback preserves the DAO's decision-making capability during periods of low engagement without abandoning the quorum principle entirely. Thresholds are defined in the **DAO Parameters Registry §9A**.
 
+Treasury / Budget proposals and **election proposals** are excluded from this fallback. Election low-turnout is handled instead by the Stage 2 quorum-held-over rerun in the Elections & Role Governance Policy §7.3 (reduced rerun quorum, raised approval threshold, extended voting period).
+
 ---
 
 ### 4.4 Working Group Failure

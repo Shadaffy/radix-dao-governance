@@ -142,15 +142,21 @@ Each shortlisted candidate is put to a separate Standard (YES/NO/ABSTAIN) propos
 
 ---
 
-### 7.3 Fallback
+### 7.3 Fallback and Rerun
 
-If a shortlisted candidate fails their Stage 2 confirmation vote:
+When a Stage 2 confirmation vote closes, each candidate's result is classified as follows (the Stage 2 parameters are in DAO Parameters §6B):
 
-* The next-highest candidate from Stage 1 by total voting power is automatically advanced to a replacement confirmation vote
-* This continues until all seats are filled or the shortlist is exhausted
-* If the shortlist is exhausted without filling all seats, remaining vacancies trigger the vacancy handling process in §11
+* **Confirmed** — the vote reaches the Election Stage 2 Quorum and the YES share meets the Election Stage 2 Approval Threshold. The candidate is eligible to be seated under §7.2.1.
+* **Rejected** — the YES share is below the Election Stage 2 Approval Threshold, **whether or not quorum was met**. The candidate is not elected and does not rerun. A below-threshold result is a rejection regardless of turnout; a quorum shortfall never rescues a candidate the voters declined to confirm.
+* **Quorum-held-over** — the YES share meets the Election Stage 2 Approval Threshold but the vote does not reach the Election Stage 2 Quorum. The candidate is **not** rejected. Their confirmation is re-run once, at the reduced Election Stage 2 Rerun Quorum and the raised Election Stage 2 Rerun Approval Threshold, over the extended Election Stage 2 Rerun Voting Period (DAO Parameters §6B). If the rerun meets both the rerun quorum and the rerun approval threshold, the candidate is confirmed; otherwise the candidate is not elected. No candidate is re-run more than the Max Election Stage 2 Reruns (DAO Parameters §6B).
 
-Where Stage 2 confirmation votes run concurrently, the RAC opens any fallback confirmation vote only after all concurrent Stage 2 votes for that election have closed.
+**Filling remaining seats.** Where a candidate is rejected, or fails their rerun, and seats remain open:
+
+* The next-highest candidate from Stage 1 by total voting power who has not yet had a Stage 2 vote is automatically advanced to a confirmation vote, run at the **standard** Election Stage 2 Quorum and Approval Threshold — a newly advanced candidate has not yet demonstrated majority support and so does not begin at the reduced rerun quorum. An advanced candidate who is quorum-held-over is entitled to the same single rerun.
+* This continues until all seats are filled or no un-voted Stage 1 candidate remains.
+* If no un-voted Stage 1 candidate remains and no permitted rerun is outstanding, remaining vacancies trigger the vacancy handling process in §11 (or, for the founding Permanent RAC election, the re-run procedure in §17.1).
+
+Where Stage 2 confirmation votes run concurrently, the RAC opens any rerun or fallback confirmation vote only after all concurrent Stage 2 votes for that election have closed.
 
 ---
 
@@ -358,7 +364,7 @@ Former Transition RAC members are eligible to stand as candidates for the Perman
 
 Where the first Permanent RAC election does not result in the formal seating of at least the minimum number of members required for Activation Condition 7 (DAO Parameters §3A.5; §5.1) — whether because the Stage 1 shortlist is exhausted under §7.3 with fewer than the minimum confirmed, or because Stage 2 confirmation votes fail to reach the Election Stage 2 quorum or approval threshold — **the election does not lapse and the Transition Period does not end.** The Transition RAC must **re-run the election** under §6–§7, opening a fresh nomination round within the Replacement Election Trigger Time (DAO Parameters §6B) measured from the failed result, and must continue to do so until at least the minimum number of members is duly elected and seated.
 
-The vacancy-handling procedure in §11 presupposes a seated Permanent RAC and does **not** apply to the founding election; this section governs instead. Where repeated confirmation votes fail for want of participation, the Governance Inactivity fallback (Governance Continuity Framework §4.3; DAO Parameters §9A) applies to those confirmation votes, with extended voting periods and reduced quorum.
+The vacancy-handling procedure in §11 presupposes a seated Permanent RAC and does **not** apply to the founding election; this section governs instead. Where a confirmation vote clears the approval threshold but fails for want of participation, the Stage 2 quorum-held-over rerun in §7.3 applies to that candidate (reduced rerun quorum, raised approval threshold, extended voting period); election proposals are excluded from the general Governance Inactivity fallback (DAO Parameters §9A; Governance Continuity Framework §4.3). Where the election still seats fewer than the minimum after all reruns and fallback advancement are exhausted, the Transition RAC re-runs the election under this section.
 
 ### 17.2 Transparency While Activation Condition 7 Is Unmet
 
@@ -389,6 +395,10 @@ The following parameters are defined in DAO Parameters §6B and are authoritativ
 * Election Stage 1 Max Selections
 * Election Stage 2 Quorum
 * Election Stage 2 Approval Threshold
+* Election Stage 2 Rerun Quorum
+* Election Stage 2 Rerun Approval Threshold
+* Election Stage 2 Rerun Voting Period
+* Max Election Stage 2 Reruns
 * Reserve List Validity Period
 
 Changes to these parameters require a Governance Proposal amending the DAO Parameters Registry.

@@ -257,6 +257,10 @@ These parameters carry the activation and transition mechanics that the **Charte
 | Election Stage 1 Max Selections     | Unrestricted | Voters may approve any number of nominees in the Stage 1 Approval Voting proposal |
 | Election Stage 2 Quorum             | 7% (Governance Process) | Quorum required for each Stage 2 confirmation vote |
 | Election Stage 2 Approval Threshold | ≥ 60% YES (Governance Process) | Approval required for each Stage 2 confirmation vote |
+| Election Stage 2 Rerun Quorum       | 5%        | Reduced quorum for the single permitted rerun of a **quorum-held-over** Stage 2 candidate — one who met the Election Stage 2 Approval Threshold in the prior round but missed the Election Stage 2 Quorum (Elections & Role Governance Policy §7.3). Applies only to such candidates; a candidate below the approval threshold is rejected and does not rerun, so a quorum shortfall cannot rescue a rejected candidate. |
+| Election Stage 2 Rerun Approval Threshold | ≥ 75% YES | Raised approval threshold for the reduced-quorum rerun, compensating for the lower quorum with a stronger mandate requirement (Elections & Role Governance Policy §7.3) |
+| Election Stage 2 Rerun Voting Period | Double the standard DAO Proposal Voting Period (§3.1) | Extended voting window for a Stage 2 rerun, giving thin turnout more time to participate |
+| Max Election Stage 2 Reruns         | 1         | A quorum-held-over candidate may be re-run at the reduced rerun quorum at most once; if still short, the seat is filled by fallback advancement or, failing that, the vacancy / founding re-run process (Elections & Role Governance Policy §7.3, §11, §17.1) |
 | Reserve List Validity Period        | 90 days   | Period after an election's completion during which a candidate confirmed at Stage 2 but not seated (Elections & Role Governance Policy §7.2.1) may be seated from the reserve list to fill a same-role vacancy without a replacement election (Elections & Role Governance Policy §7.5). Measured from election completion. |
 
 ---
@@ -340,6 +344,8 @@ These parameters carry the activation and transition mechanics that the **Charte
 | Reconstitution Deadline | 30 days after failure event | Maximum time to re-establish a failed role or body |
 
 **Treasury / Budget exclusion:** Treasury / Budget proposals are excluded from the Governance Continuity Fallback. A Treasury / Budget proposal that fails to meet quorum must be resubmitted with revised scope or timing; the reduced quorum threshold and extended voting period do not apply.
+
+**Elections exclusion:** Election proposals (Stage 1 shortlisting and Stage 2 confirmation votes) are excluded from the Governance Continuity Fallback. Low-turnout handling for elections is governed by the Stage 2 quorum-held-over rerun in the Elections & Role Governance Policy §7.3 — a reduced rerun quorum paired with a **raised** approval threshold (§6B) — not by the reduced quorum threshold in this section.
 
 ---
 
