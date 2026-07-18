@@ -338,10 +338,13 @@ These parameters carry the activation and transition mechanics that the **Charte
 
 | Parameter | Value | Description |
 |---|---|---|
-| Governance Inactivity Trigger | 3 consecutive quorum failures on the same proposal type | Threshold before reduced quorum activates |
+| Governance Inactivity Trigger | 3 consecutive quorum failures on the **same proposal** — the same substantive proposal, resubmitted after each failed attempt | Threshold before reduced quorum activates. The trigger is **per-proposal**, not per-category: three unrelated proposals of the same type failing quorum do **not** place other proposals of that type into reduced-quorum mode. Reduced quorum attaches only to the specific proposal that has failed three times in a row |
 | Reduced Quorum Threshold | 50% of the standard quorum for that proposal type (minimum 1%) | Applies after inactivity trigger is met. For Constitutional proposals the reduced quorum may not fall below the entrenched 7% floor (Charter §12.1 item 2); the effective reduced Constitutional quorum is therefore 7% |
+| Reduced-Quorum Approval Uplift | +15 percentage points | A proposal confirmed **under the reduced quorum** must reach a YES share at least 15 percentage points above its standard approval threshold (Governance Process 60% → 75%; Executable 50% → 65%), compensating the lower quorum with a stronger mandate. Constitutional proposals are unaffected — they retain their standard ≥66% approval and the entrenched 7% quorum floor. Does not apply to a proposal that meets its ordinary quorum |
 | Extended Voting Period | Double the standard voting duration | Applies alongside reduced quorum during inactivity |
 | Reconstitution Deadline | 30 days after failure event | Maximum time to re-establish a failed role or body |
+
+**Reduced-quorum notice:** When the reduced quorum activates for a proposal, the RAC must publish a reduced-quorum activation notice to the Official Venue at the opening of the reduced-quorum voting window, stating that the vote proceeds under reduced quorum and the raised approval threshold (Reduced-Quorum Approval Uplift). The extended (doubled) voting period runs from that notice, giving the wider community time to participate before the vote can finalise.
 
 **Treasury / Budget exclusion:** Treasury / Budget proposals are excluded from the Governance Continuity Fallback. A Treasury / Budget proposal that fails to meet quorum must be resubmitted with revised scope or timing; the reduced quorum threshold and extended voting period do not apply.
 

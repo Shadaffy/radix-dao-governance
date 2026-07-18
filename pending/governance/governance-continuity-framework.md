@@ -154,12 +154,14 @@ Response:
 
 Trigger:
 
-* 3 consecutive quorum failures on the same proposal type (as defined in DAO Parameters §9A)
+* 3 consecutive quorum failures on the **same proposal** — the same substantive proposal, resubmitted after each failed attempt (as defined in DAO Parameters §9A). The trigger is per-proposal: unrelated failures within a category do not place other proposals of that type into reduced-quorum mode
 
 Response:
 
 * extended voting periods (double standard duration)
 * reduced quorum threshold (50% of standard quorum, minimum 1%) — except that the quorum for Constitutional proposals may not be reduced below the entrenched 7% floor (Charter §12.1 item 2), so the effective reduced Constitutional quorum is 7%
+* a raised approval threshold for any proposal confirmed under the reduced quorum (Reduced-Quorum Approval Uplift, DAO Parameters §9A: +15 percentage points above the standard threshold — Governance Process 60% → 75%, Executable 50% → 65%; Constitutional unchanged)
+* a reduced-quorum activation notice, published by the RAC to the Official Venue at the opening of the reduced-quorum voting window, before the extended voting period runs
 * activation of fallback governance proposal if reduced quorum is still not met after two additional attempts
 
 The fallback preserves the DAO's decision-making capability during periods of low engagement without abandoning the quorum principle entirely. Thresholds are defined in the **DAO Parameters Registry §9A**.
