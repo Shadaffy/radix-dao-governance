@@ -202,6 +202,7 @@ The vote type determines how voters express preferences and how results are dete
 * In multi-seat elections, the top candidates by median grade fill all open seats — the median-grade ranking is itself the seating order, so the oversubscribed-confirmation question addressed for the two-stage process in §4.5 and Elections & Role Governance Policy §7.2.1 (seating by Stage 1 power), and the reserve-list mechanism that reuses surplus confirmations (Elections & Role Governance Policy §7.5), do not arise here and are specific to the two-stage process
 * Tie-break: one ballot showing the tied candidates' median grade is removed from each tied candidate in turn; repeat until the tie is broken
 * Majority Judgment activates once the required tooling is in place; the RAC confirms activation by publishing a notice to the governance forum. Until activation, elections use the two-stage process in §6.2.5.
+* Because election proposals are excluded from the Governance Continuity Fallback (DAO Parameters §9A), any proposal activating Majority Judgment must define its own low-turnout / quorum-failure handling (the §7.3 quorum-held-over rerun is two-stage-specific) and may define a Majority Judgment reserve list, so activation cannot leave those gaps unfilled.
 
 ---
 
