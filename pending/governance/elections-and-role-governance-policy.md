@@ -136,7 +136,7 @@ Each shortlisted candidate is put to a separate Standard (YES/NO/ABSTAIN) propos
 
 ### 7.2.1 Seating of Confirmed Candidates
 
-**Seating of confirmed candidates.** Where the number of candidates confirmed at Stage 2 exceeds the number of open seats, seats are filled by confirmed candidates in descending order of total voting power received in Stage 1. Stage 2 confirmation establishes eligibility to be seated; the Stage 1 ranking determines the order of seating. A confirmed candidate who is not seated is not elected to the role.
+**Seating of confirmed candidates.** Where the number of candidates confirmed at Stage 2 exceeds the number of open seats, seats are filled by confirmed candidates in descending order of total voting power received in Stage 1. Stage 2 confirmation establishes eligibility to be seated; the Stage 1 ranking determines the order of seating. A confirmed candidate who is not seated is not elected to the role, without prejudice to §7.5 (Reserve List).
 
 **Ties.** If two or more confirmed candidates are tied in Stage 1 total voting power for the last available seat, the tie is resolved in favour of the candidate with the higher YES-to-total-votes-cast ratio in their Stage 2 confirmation vote. If the tie persists, the RAC conducts a single runoff Approval Voting poll between the tied candidates, using the short Temperature Check period (DAO Parameters §3.1); the candidate with the higher total voting power in the runoff is seated. The Stage 1 tie-expansion rule (Proposal & Voting Framework §4.5), which expands the shortlist when candidates tie for the last shortlist slot, does not apply at the seat boundary, where the number of seats is fixed and cannot be expanded.
 
@@ -157,6 +157,14 @@ Where Stage 2 confirmation votes run concurrently, the RAC opens any fallback co
 ### 7.4 Term Start
 
 Confirmed role holders begin their term on the defined start date following the completion of the election (all Stage 2 confirmation votes for two-stage elections; final result publication for Majority Judgment elections once activated).
+
+---
+
+### 7.5 Reserve List
+
+A candidate confirmed at Stage 2 but not seated under §7.2.1 is placed on a reserve list for the role, ranked by Stage 1 total voting power. If a seat in the same role becomes vacant within the Reserve List Validity Period (DAO Parameters §6B) of the completion of the election, the highest-ranked reserve candidate who confirms continued willingness to serve is seated without a further election, and the replacement election requirement in §11.1 does not apply to that vacancy.
+
+Seating from the reserve list remains subject to all conditions precedent for the role, including KYC verification before seating (Operating Agreement §10.4; DAO Parameters §3A.5 where applicable) and the role-concentration cap (DAO Parameters §6B — Max Concurrent Roles per Individual). If no reserve candidate is available or willing, §11 applies unmodified. The reserve list expires on the earlier of the end of the Reserve List Validity Period measured from election completion or the seating of all listed candidates.
 
 ---
 
@@ -285,7 +293,7 @@ A suspension is provisional, does not constitute a removal finding, and must be 
 
 ## 11. Vacancy Handling
 
-If a role becomes vacant — through resignation, removal, incapacitation, or end-of-term without auto-renewal — the RAC initiates a replacement election under §7 within the Replacement Election Trigger Time defined in DAO Parameters §6B, and the election completes within the Replacement Completion Time. Where the vacancy creates an immediate operational risk (for example, Treasury Signers falling below execution quorum), the Governance Continuity Framework §4.2 governs interim coverage.
+If a role becomes vacant — through resignation, removal, incapacitation, or end-of-term without auto-renewal — the RAC initiates a replacement election under §7 within the Replacement Election Trigger Time defined in DAO Parameters §6B, and the election completes within the Replacement Completion Time, unless a reserve candidate is seated under §7.5, in which case no replacement election is required for that vacancy. Where a reserve list for the role is in effect under §7.5, the RAC first offers the vacant seat to reserve candidates in rank order and initiates a replacement election only if no reserve candidate is available or willing to serve. Where the vacancy creates an immediate operational risk (for example, Treasury Signers falling below execution quorum), the Governance Continuity Framework §4.2 governs interim coverage.
 
 ### 11.1 Time to Replacement
 
@@ -381,6 +389,7 @@ The following parameters are defined in DAO Parameters §6B and are authoritativ
 * Election Stage 1 Max Selections
 * Election Stage 2 Quorum
 * Election Stage 2 Approval Threshold
+* Reserve List Validity Period
 
 Changes to these parameters require a Governance Proposal amending the DAO Parameters Registry.
 

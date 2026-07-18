@@ -257,6 +257,7 @@ These parameters carry the activation and transition mechanics that the **Charte
 | Election Stage 1 Max Selections     | Unrestricted | Voters may approve any number of nominees in the Stage 1 Approval Voting proposal |
 | Election Stage 2 Quorum             | 7% (Governance Process) | Quorum required for each Stage 2 confirmation vote |
 | Election Stage 2 Approval Threshold | ≥ 60% YES (Governance Process) | Approval required for each Stage 2 confirmation vote |
+| Reserve List Validity Period        | 90 days   | Period after an election's completion during which a candidate confirmed at Stage 2 but not seated (Elections & Role Governance Policy §7.2.1) may be seated from the reserve list to fill a same-role vacancy without a replacement election (Elections & Role Governance Policy §7.5). Measured from election completion. |
 
 ---
 
