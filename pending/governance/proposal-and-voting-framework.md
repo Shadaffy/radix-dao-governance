@@ -121,6 +121,9 @@ An Approval Voting poll (§6.2.2) is published listing all eligible nominees. Vo
 **Stage 2 — Confirmation (Standard Vote)**
 Each shortlisted candidate is put to a separate Standard (YES/NO/ABSTAIN) proposal (§6.2.1). A candidate is confirmed if they meet the quorum and approval threshold defined by the DAO parameters "Election Stage 2 Quorum" and "Election Stage 2 Approval Threshold" in DAO Parameters §6B. Stage 2 proposals may run concurrently.
 
+**Seating of confirmed candidates**
+Because the shortlist is larger than the number of open seats (DAO Parameters §6B — Election Shortlist Multiplier), more candidates may be confirmed at Stage 2 than there are seats. Where that occurs, seats are filled by confirmed candidates in descending order of total voting power received in Stage 1: Stage 2 confirmation establishes eligibility to be seated, and the Stage 1 ranking determines the order of seating. If two or more confirmed candidates are tied in Stage 1 total voting power for the last available seat, the tie is resolved in favour of the candidate with the higher YES-to-total-votes-cast ratio in their Stage 2 confirmation vote; if the tie persists, the RAC conducts a single runoff Approval Voting poll between the tied candidates using the short Temperature Check period (DAO Parameters §3.1). The Stage 1 tie-expansion rule above does not apply at the seat boundary, where the number of seats is fixed. A confirmed candidate who is not seated is not elected to the role.
+
 **Fallback**
 If a shortlisted candidate fails Stage 2, the next-highest ranked candidate from the full Stage 1 result is automatically advanced to a replacement confirmation vote, regardless of whether they were in the initial shortlist batch. This continues until all seats are filled or all Stage 1 candidates have been through Stage 2 and failed. If all Stage 1 candidates are exhausted, remaining vacancies follow the vacancy handling process in the Elections & Role Governance Policy §11. Where Stage 2 confirmation votes run concurrently, the RAC opens any fallback confirmation vote only after all concurrent Stage 2 votes for that election have closed.
 
@@ -196,7 +199,7 @@ The vote type determines how voters express preferences and how results are dete
 * Applies to: Election Proposals (§4.5), once tooling is available
 * Voters assign a grade to each candidate from a defined scale (see DAO Parameters §3.5)
 * The winner is the candidate with the highest median grade across all voter submissions
-* In multi-seat elections, the top candidates by median grade fill all open seats
+* In multi-seat elections, the top candidates by median grade fill all open seats — the median-grade ranking is itself the seating order, so the oversubscribed-confirmation question addressed for the two-stage process in §4.5 and Elections & Role Governance Policy §7.2.1 (seating by Stage 1 power) does not arise here and is specific to the two-stage process
 * Tie-break: one ballot showing the tied candidates' median grade is removed from each tied candidate in turn; repeat until the tie is broken
 * Majority Judgment activates once the required tooling is in place; the RAC confirms activation by publishing a notice to the governance forum. Until activation, elections use the two-stage process in §6.2.5.
 

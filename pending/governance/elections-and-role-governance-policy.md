@@ -134,6 +134,14 @@ Each shortlisted candidate is put to a separate Standard (YES/NO/ABSTAIN) propos
 
 ---
 
+### 7.2.1 Seating of Confirmed Candidates
+
+**Seating of confirmed candidates.** Where the number of candidates confirmed at Stage 2 exceeds the number of open seats, seats are filled by confirmed candidates in descending order of total voting power received in Stage 1. Stage 2 confirmation establishes eligibility to be seated; the Stage 1 ranking determines the order of seating. A confirmed candidate who is not seated is not elected to the role.
+
+**Ties.** If two or more confirmed candidates are tied in Stage 1 total voting power for the last available seat, the tie is resolved in favour of the candidate with the higher YES-to-total-votes-cast ratio in their Stage 2 confirmation vote. If the tie persists, the RAC conducts a single runoff Approval Voting poll between the tied candidates, using the short Temperature Check period (DAO Parameters §3.1); the candidate with the higher total voting power in the runoff is seated. The Stage 1 tie-expansion rule (Proposal & Voting Framework §4.5), which expands the shortlist when candidates tie for the last shortlist slot, does not apply at the seat boundary, where the number of seats is fixed and cannot be expanded.
+
+---
+
 ### 7.3 Fallback
 
 If a shortlisted candidate fails their Stage 2 confirmation vote:
