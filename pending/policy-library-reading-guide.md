@@ -29,6 +29,7 @@ The **Charter** is the constitution — it sets the principles and the structure
 | [Proposal & Voting Framework](governance/proposal-and-voting-framework.md) | How a proposal is created, discussed, voted on, and approved — the DAO's core decision-making pipeline. |
 | [Execution & Treasury Actions Policy](governance/execution-and-treasury-actions-policy.md) | How an approved decision is actually carried out, and who is authorised to execute it. |
 | [Treasury Signers Operational Rules](governance/treasury-signers-rules.md) | The rules for the people who move treasury funds — execution agents with strictly limited authority, not decision-makers. |
+| [On-Chain Identifiers & Verification Policy](governance/on-chain-identifiers-and-verification-policy.md) | The public register of the DAO's governance and treasury on-chain addresses — what each one is, how it's used, and a link to verify it on the Radix explorer. |
 
 ## The people and roles
 

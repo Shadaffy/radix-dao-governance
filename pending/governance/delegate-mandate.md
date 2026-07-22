@@ -64,7 +64,7 @@ passed Temperature Check within the TC Elevation Window (**DAO Parameters §3.1*
 documented grounds for the delay with the RAC; an eligible TC left unelevated beyond that window
 triggers the elevation backstop in the **Governance Continuity Framework §4.2A**. The custody and
 recovery arrangement for the Owner Badge is determined at deployment of the Governance smart
-contract and recorded with the technical identifiers (**Operating Agreement §11.4 / Schedule 4**);
+contract and recorded in the **On-Chain Identifiers & Verification Policy §3** (per **Operating Agreement §11.4 / Schedule 4**);
 whatever arrangement is chosen must enable an elevation or badge rotation to proceed without the
 Governance Operator's cooperation, sufficient to give effect to that backstop.
 

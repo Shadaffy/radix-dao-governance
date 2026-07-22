@@ -155,6 +155,14 @@ The treasury is deployed through two principal mechanisms: compensation for cont
 
 ---
 
+## 6A. On-Chain Identifiers and Verification
+
+The DAO operates on public infrastructure, and the identifiers through which its governance and treasury operate must themselves be public. The governance smart contracts, the treasury accounts, and the resources that constitute eligible voting power shall be recorded in an authoritative register that is published to the Official Venue and independently verifiable by any person against the on-chain data.
+
+The register, the rules for how each identifier is configured and used, and the means of verification are carried by the **On-Chain Identifiers & Verification Policy**, which forms part of the DAO's governance framework. That policy is the operational record referred to in **Operating Agreement §11.4**; this Charter establishes the principle of public, verifiable on-chain identifiers, and the policy governs its implementation. No identifier may be relied upon in governance before it has been recorded and made publicly verifiable in accordance with that policy.
+
+---
+
 ## 7. Governance Safeguards
 
 The DAO maintains mechanisms to prevent harmful or malicious actions, resolve disputes, and respond to emergencies. These are not extraordinary measures — they are a permanent and necessary part of a governance system that operates in public, with real assets, and at scale.

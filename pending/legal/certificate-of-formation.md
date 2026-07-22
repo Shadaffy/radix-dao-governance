@@ -61,12 +61,9 @@ The Company has perpetual duration unless dissolved in accordance with the Opera
 
 ## Article VII — Smart Contract Identifiers
 
-The smart contract(s) through which the Company's governance is conducted are identified as follows. These identifiers are recorded with the Registered Agent and updated by Governance Proposal as required:
+The smart contract(s) and account(s) through which the Company's governance and treasury are conducted — including the governance smart-contract component and the treasury multi-signature account — are maintained in the **On-Chain Identifiers & Verification Policy** forming part of the Company's governance framework. That register is published to the Company's Official Venue, carries a public explorer verification link for each identifier, and is the authoritative operational record referenced by Operating Agreement §11.4.
 
-| Function | Smart Contract Identifier |
-|---|---|
-| Governance | *[To be recorded at formation]* |
-| Treasury | *[To be recorded at formation]* |
+The identifiers are recorded with the Registered Agent and are updated in accordance with that policy and Operating Agreement §11.4. Where required by section 106(2) or section 107 of the Marshall Islands DAO Act, the Company shall procure an amendment to this Certificate to reflect any updated identifier.
 
 ---
 

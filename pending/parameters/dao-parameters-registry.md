@@ -195,7 +195,7 @@ These parameters carry the activation and transition mechanics that the **Charte
 | Governance Reconstitution Limit    | $25,000 USDC — available only when a RAC or signer continuity event has been declared under Governance Continuity §4.1 or §4.2; covers emergency election costs, legal filings, and Registered Agent compliance fees; subject to GP ratification within 30 days |
 | Legal Defense Advancement Limit    | $25,000 USDC per legal proceeding — a bridging pool covering immediate legal response costs for one or more Delegates or RAC members named in the same proceeding arising from their role, before a GP can authorize ongoing funding; the $12,000 Single Transaction Limit does not apply within this pool; does not require a declared continuity event; subject to GP ratification within 30 days and the repayment undertaking in OA §12.5 |
 | Rolling 30-Day Outflow Cap         | $50,000 USDC or 5% of treasury value (whichever is lower) — maximum total Treasury / Budget disbursements across all passed proposals in any rolling 30-day window. Signers must refuse execution of any proposal that would cause the rolling total to breach this cap and must report the refusal to RAC immediately. Adjustable by Treasury & Budget proposal. |
-| Emergency Safe Address             | Must be designated **before the Company receives the principal asset transfer** (OA Schedule 5, conditions 8–9). During the Transition Period, designation is made by Transition RAC resolution published to the Official Venue, as part of establishing the treasury and custody framework (OA §6.5(d)); thereafter, changes to the designated address require a Treasury & Budget proposal. Until designated, Tier 2 emergency asset movement (Emergency & Safeguards Policy §6) is not available. |
+| Emergency Safe Address             | Must be designated **before the Company receives the principal asset transfer** (OA Schedule 5, conditions 8–9). During the Transition Period, designation is made by Transition RAC resolution published to the Official Venue, as part of establishing the treasury and custody framework (OA §6.5(d)); thereafter, changes to the designated address require a Treasury & Budget proposal. Until designated, Tier 2 emergency asset movement (Emergency & Safeguards Policy §6) is not available. The designated address is recorded in the **On-Chain Identifiers & Verification Policy §5** with its explorer verification link. |
 
 ---
 
@@ -206,6 +206,13 @@ These parameters carry the activation and transition mechanics that the **Charte
 | Multi-account Requirement | Yes         |
 | Multisig Threshold        | See §6A. Post-activation: 3-of-5 standard, 4-of-5 high-risk. Transition Period: 2-of-3 standard; protected/high-risk unanimous among all seated signers, minimum two (3-of-3 at full strength) (3 Transition RAC signers; OA §9.10–9.11) |
 | Audit Requirement         | Mandatory — an independent treasury audit is required annually. The RAC is responsible for scoping the audit and bringing an auditor appointment to governance for approval. The first audit process must be initiated within the first 12 months of entity formation. |
+| Account Architecture Authority | Phase-dependent. **Transition Period:** the Transition RAC establishes and may adjust the account architecture (number of accounts, operational/reserve/grants segmentation, custody, initial signer set) by resolution published to the Official Venue (OA §6.5(d)), each account under multisig at the §9.11 thresholds; signer/threshold changes and material-asset moves are protected matters (OA §9.12). Once the Activation Statement is published, the structure is settled (changes only to remedy a security incident). **Post-activation:** changes by Governance Proposal only. Operative rule: Treasury Signers Rules §10A.1. |
+
+---
+
+### 6.3 On-Chain Identifiers
+
+The concrete on-chain identifiers for the treasury and governance infrastructure — the multi-signature treasury account(s), the Emergency Safe Address, the governance smart-contract component, the Owner Badge, and the voting-power resources — are not held in this registry. They are recorded, with public explorer verification links and their setup and use rules, in the **On-Chain Identifiers & Verification Policy**, which is the operational record referenced by **Operating Agreement §11.4** and **Certificate of Formation Article VII**. This registry holds only the numeric parameters governing those identifiers (§6.1, §6.2, §6A).
 
 ---
 

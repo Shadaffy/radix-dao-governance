@@ -146,7 +146,7 @@ Response:
 
 **Deployment requirement:**
 
-* The custody and recovery arrangement for the Owner Badge is an implementation decision made when the Governance smart contract is deployed, and is recorded with the technical identifiers (Operating Agreement §11.4 / Schedule 4). Whatever arrangement is chosen, it must provide a mechanism by which an elevation or badge rotation can proceed without the Governance Operator's cooperation, sufficient to give effect to this section. A deployment lacking this capability does not satisfy the Minimum Operational State in §7.
+* The custody and recovery arrangement for the Owner Badge is an implementation decision made when the Governance smart contract is deployed, and is recorded in the On-Chain Identifiers & Verification Policy §3 (per Operating Agreement §11.4 / Schedule 4). Whatever arrangement is chosen, it must provide a mechanism by which an elevation or badge rotation can proceed without the Governance Operator's cooperation, sufficient to give effect to this section. A deployment lacking this capability does not satisfy the Minimum Operational State in §7.
 
 ---
 

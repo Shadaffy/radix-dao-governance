@@ -18,8 +18,8 @@ All definitions, authority limits, and obligations remain in their source docume
 | **Transition RAC Members** *(Transition Period only)* | OA Article VI | Community founding mandate; named in OA Schedule 1 (§6.3) | Until the Activation Date | OA Article VI; Emergency Policy §5–6 |
 | **Permanent RAC Members** | RAC Mandate; OA Article VII, Article IV; Charter §8 | Two-stage DAO Election | 6 months (§6B) | RAC Mandate; Elections Policy; Emergency Policy §5–6; CoI Policy §8 |
 | **Members (legal)** | OA Article IV | Admission via RAC seat or Delegate function | While holding qualifying role | OA Article IV |
-| **Delegates — Treasury Signers** | Delegate Mandate §2.1 (OA §11.5); Treasury Signers Rules | DAO Election Proposal | 6 months (§6B) | Delegate Mandate; Treasury Signers Rules; Execution Policy §5.3; DAO Parameters §6A |
-| **Delegate — Governance Operator** | Delegate Mandate §2.2 (OA §11.5) | DAO Election Proposal | 6 months (§6B) | Delegate Mandate; Proposal & Voting Framework; DAO Parameters §3–3.5 |
+| **Delegates — Treasury Signers** | Delegate Mandate §2.1 (OA §11.5); Treasury Signers Rules | DAO Election Proposal | 6 months (§6B) | Delegate Mandate; Treasury Signers Rules; Execution Policy §5.3; DAO Parameters §6A; On-Chain Identifiers & Verification Policy §5 |
+| **Delegate — Governance Operator** | Delegate Mandate §2.2 (OA §11.5) | DAO Election Proposal | 6 months (§6B) | Delegate Mandate; Proposal & Voting Framework; DAO Parameters §3–3.5; On-Chain Identifiers & Verification Policy §3 |
 | **Delegate — Legal Signatory** | Delegate Mandate §2.3 (OA §1.15, §9.2) | DAO Election Proposal | 6 months (§6B) | Delegate Mandate; Compliance Operations Policy §5 |
 | **Delegate — Compliance Liaison** | Delegate Mandate §2.4; OA Article X | DAO Election Proposal | 6 months (§6B) | Delegate Mandate; OA Article X; Compliance Operations Policy §2 |
 | **Delegate — Web2 Custodian** | Delegate Mandate §2.5 | DAO Election Proposal | 6 months (§6B) | Delegate Mandate; Compliance Operations Policy §4 |
@@ -193,6 +193,7 @@ DAO vote at any time (Treasury Signers Rules §7). Immediate emergency suspensio
 - Operating Agreement §12.5 — indemnification (see also Treasury Signers Rules §19A)
 - Elections & Role Governance Policy §11 — vacancy handling and replacement election procedure
 - Governance Continuity Framework §4.2 — Signer Failure procedures and interim coverage (prevails over Delegate Mandate §5 where a vacancy creates immediate operational risk, e.g., signer count falling below execution quorum)
+- On-Chain Identifiers & Verification Policy §5–6 — the treasury account register and how the multisig account(s) are set up, used, and publicly verified
 
 **Conflict of Interest & Disclosure**
 Subject to CoI Policy §2–4. In addition, an execution-specific rule applies: a signer must not approve execution of a payment or agreement that directly benefits them; they must recuse, disclose, and ensure another signer executes (Treasury Signers Rules §14). Where the same Delegate also holds Compliance Liaison, Governance Operator, or Legal Signatory functions, the structural-conflict safeguards in **CoI Policy §3.5** (Delegated Function Consolidation) apply.
@@ -220,6 +221,7 @@ DAO vote at any time (Delegate Mandate §5).
 - Delegate Mandate — Delegate structure (§3), standard of conduct (§4), removal (§5)
 - Proposal & Voting Framework — TC elevation, GP administration
 - DAO Parameters §3–3.5 — governance parameter values maintained by this role
+- On-Chain Identifiers & Verification Policy §3–4 — the governance component / Owner Badge register and how they are set up, used, and publicly verified
 - Elections & Role Governance Policy §11 — vacancy handling and replacement election procedure
 - Conflict of Interest Policy §2–4 — disclosure and recusal obligations
 - Code of Conduct §3–6 — behavioral standards
@@ -398,6 +400,7 @@ This table shows which governance documents apply to each role. References indic
 | **RAC Mandate** | — (subject to) | §1–12 (primary, Permanent RAC) | §3 (subject to) | §3 (subject to) | §3 (subject to) | — |
 | **Delegate Mandate** | — | (if also Delegate) | §2.1, §3–5 | §1–8 (primary) | — | — |
 | **Treasury Signers Rules** | — | §9 (invalid refusal) | §1–20 (primary) | — | — | — |
+| **On-Chain Identifiers & Verification Policy** | §7 (verify) | §8 (records/changes) | §5–6 (treasury accounts) | §3–4 (Governance Operator) | — | — |
 | **Execution & Treasury Actions Policy** | — | §5.1, §11 | §5.3 | — | §5.2 | §7 |
 | **Emergency & Safeguards Policy** | — | §5–6 (primary authority) | §5.1, §8 | Delegate Mandate §2.1 (emergency) | — | — |
 | **Code of Conduct** | §3 (all) | §3–6 | §3–6 | §3–6 | §3–6 | §3.3 |

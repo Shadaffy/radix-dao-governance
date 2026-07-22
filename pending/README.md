@@ -48,6 +48,7 @@ On formation the Operating Agreement recognises and gives legal effect to this f
 | Execution & Treasury Actions Policy | Governance | [governance/execution-and-treasury-actions-policy.md](governance/execution-and-treasury-actions-policy.md) |
 | Emergency & Safeguards Policy | Governance | [governance/emergency-and-safeguards-policy.md](governance/emergency-and-safeguards-policy.md) |
 | Treasury Signers Rules | Governance | [governance/treasury-signers-rules.md](governance/treasury-signers-rules.md) |
+| On-Chain Identifiers & Verification Policy | Governance | [governance/on-chain-identifiers-and-verification-policy.md](governance/on-chain-identifiers-and-verification-policy.md) |
 | RAC Mandate (Permanent RAC) | Governance | [governance/rac-mandate.md](governance/rac-mandate.md) |
 | Delegate Mandate | Governance | [governance/delegate-mandate.md](governance/delegate-mandate.md) |
 | Conflict of Interest Policy | Governance | [governance/conflict-of-interest-policy.md](governance/conflict-of-interest-policy.md) |
