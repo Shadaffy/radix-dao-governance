@@ -222,7 +222,10 @@ source of rules.)*
   governance framework, to be carried into formation and recognised by the Operating Agreement.
 - **NO** — Do not ratify. The framework is not adopted; the standard cooldown applies before
   resubmission.
-- **ABSTAIN** — Participate in quorum without expressing a directional preference.
+- **ABSTAIN** — Participate in quorum without expressing a directional preference. ABSTAIN counts toward
+  the 10% quorum but is excluded from the ≥66% approval calculation, and does not count toward the
+  Minimum Affirmative Support floor (DAO Parameters §3.3A) — ratification requires YES votes of at least
+  3.5% of eligible voting power in their own right.
 
 ---
 

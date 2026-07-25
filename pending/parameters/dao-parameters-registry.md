@@ -56,7 +56,9 @@ Quorum is measured as a percentage of eligible voting power. Eligible voting pow
 | Executable         | 5%                     |
 | Temperature Check (TC) | 3%                 |
 
-**Absolute Participation Floor (Treasury / Budget proposals):** In addition to the percentage quorum above, a Treasury / Budget proposal requires a minimum of 50 unique voting addresses. Both conditions must be met. This floor is not subject to the Governance Continuity Fallback (§9A).
+Quorum is measured as Participation — YES + NO + ABSTAIN — as defined in Proposal & Voting Framework §6.3.
+
+**Absolute Participation Floor (Treasury / Budget proposals):** In addition to the percentage quorum above, a Treasury / Budget proposal requires a minimum of 50 unique voting addresses. An address counts toward this floor if it cast any vote, including ABSTAIN: the floor measures breadth of participation, not direction of support. Both conditions must be met. This floor is not subject to the Governance Continuity Fallback (§9A).
 
 ---
 
@@ -69,6 +71,32 @@ Quorum is measured as a percentage of eligible voting power. Eligible voting pow
 | Treasury / Budget  | ≥ 50% YES |
 | Executable         | ≥ 50% YES |
 | Temperature Check (TC) | ≥ 50% YES |
+
+Approval is measured as the YES share of Decisive Votes — YES + NO, excluding ABSTAIN — as defined in Proposal & Voting Framework §6.3.
+
+---
+
+### 3.3A Minimum Affirmative Support
+
+Because ABSTAIN counts toward quorum but not toward approval (Proposal & Voting Framework §6.2.1), a proposal can in principle be carried over its quorum threshold predominantly by ABSTAIN votes and then decided by a very small base of affirmative support. The floor below sets a minimum level of affirmative support that a Standard vote must reach independently of quorum.
+
+| Proposal Type      | Minimum YES (% of eligible voting power) |
+| ------------------ | ---------------------------------------- |
+| Constitutional     | 3.5% |
+| Governance Process | 2%   |
+| Treasury / Budget  | 1.5% |
+| Executable         | 1%   |
+| Election Stage 2   | 2%   |
+
+**Measurement.** YES voting power as a percentage of eligible voting power at the voting snapshot (§8A). ABSTAIN and NO volume do not enter this calculation. The floor applies in addition to the quorum (§3.2) and approval (§3.3) tests; all applicable tests must be met for the proposal to pass.
+
+**Scope.** Applies to Standard votes (Proposal & Voting Framework §6.2.1) and to Election Stage 2 confirmation votes, which are Standard votes. Does not apply to Temperature Check votes (no ABSTAIN option, and the TC is non-binding), Approval Voting, or Weighted Allocation.
+
+**Derivation.** Each figure is approximately half of the YES share that a zero-ABSTAIN vote clearing its quorum at its approval threshold would produce (e.g. Governance Process: 7% × 60% = 4.2%; floor 2%). ABSTAIN votes may therefore carry at most roughly half of the participation burden. Adjusting that fraction is the intended dial for tuning this section.
+
+**Reduced quorum.** Where the Governance Continuity Fallback (§9A) applies, the floor is halved for that proposal, in step with the reduced quorum. See §9A.
+
+**Not an Entrenched Provision floor.** This section adds a requirement; it does not reduce or weaken any Charter §12.1 Entrenched Provision. The 7% Constitutional quorum floor (Charter §12.1 item 2) is unaffected.
 
 ---
 
@@ -105,7 +133,8 @@ These parameters carry the activation and transition mechanics that the **Charte
 | Parameter | Value | Description |
 | --------- | ----- | ----------- |
 | Ratification Quorum | 10% of eligible voting power | Constitutional-level quorum for the one-time community ratification of the Charter and full policy framework (OA Schedule 5, condition 6) |
-| Ratification Approval | ≥ 66% YES | Constitutional-level approval threshold for ratification |
+| Ratification Approval | ≥ 66% YES | Constitutional-level approval threshold for ratification, measured against Decisive Votes (Proposal & Voting Framework §6.3) |
+| Ratification Minimum Affirmative Support | 3.5% of eligible voting power | The Constitutional floor in §3.3A. Ratification is a Standard vote with an ABSTAIN option, so the floor applies |
 | Scope | Charter **and** the full policy library | Ratification covers the entire community-written framework, not the Charter alone |
 
 ### 3A.2 Activation Vote (sole binding pre-activation vote)
@@ -114,7 +143,8 @@ These parameters carry the activation and transition mechanics that the **Charte
 | --------- | ----- | ----------- |
 | Activation Vote Voting Period | 5–7 days | Duration of the binding Activation Vote (OA §8.6) conducted after publication of the Activation Statement |
 | Activation Vote Quorum | 10% of eligible voting power | Constitutional-level quorum |
-| Activation Vote Approval | ≥ 66% YES | Constitutional-level approval |
+| Activation Vote Approval | ≥ 66% YES | Constitutional-level approval, measured against Decisive Votes (Proposal & Voting Framework §6.3) |
+| Activation Vote Minimum Affirmative Support | 3.5% of eligible voting power | The Constitutional floor in §3.3A. The Activation Vote is a Standard vote with an ABSTAIN option, so the floor applies |
 | Quorum/Majority Failure | Re-run after the standard failed-proposal cooldown (§3.4) | If the Activation Vote fails to reach quorum or majority, it may be re-initiated after cooldown once the Transition RAC re-confirms the Schedule 5 evidence; the Transition RAC's non-discretionary initiation duty (OA §8.5) continues to apply |
 
 ### 3A.3 Advisory-Outcome Recognition Thresholds (OA §5.9)
@@ -130,7 +160,11 @@ These parameters carry the activation and transition mechanics that the **Charte
 | Phase | Requirements |
 | ----- | ------------ |
 | During the Transition Period (OA §12.2(c)) | Unanimous affirmative vote of all **seated** Transition RAC members, being **not fewer than two** (OA §12.2(c)(i)), **and** a concurrent recognised advisory outcome meeting the higher threshold in §3A.3 **and** ≥14 days' prior notice to the registered agent and the Official Venue |
-| Following the Activation Date (OA §12.2(d)) | Quorum **≥ 20%** of eligible voting power (not less than twice the 10% Constitutional quorum); approval **≥ two-thirds** of all Governance Tokens participating; where the amendment affects the Permanent RAC's constitutional role, composition, election mechanics, or removal, the prior written consent of the Permanent RAC by **≥ 2/3 of seated members**; and ≥21 days' prior public disclosure to the Official Venue |
+| Following the Activation Date (OA §12.2(d)) | Quorum **≥ 20%** of eligible voting power (not less than twice the 10% Constitutional quorum); approval **≥ two-thirds** of all Governance Tokens participating (see note below); where the amendment affects the Permanent RAC's constitutional role, composition, election mechanics, or removal, the prior written consent of the Permanent RAC by **≥ 2/3 of seated members**; and ≥21 days' prior public disclosure to the Official Venue |
+
+**Note — ABSTAIN treatment for post-Activation entrenched amendments.** "All Governance Tokens participating" follows the wording of OA §12.2(d)(ii) and means **Participation**, including ABSTAIN, in the denominator. This is a deliberate divergence from the Decisive Votes rule that governs every other approval threshold (Proposal & Voting Framework §6.3): for a post-Activation Entrenched-Provision amendment, an ABSTAIN vote counts against the two-thirds requirement in the same way a NO vote does. The divergence is intended — it raises the practical bar for amending an Entrenched Provision, which is the purpose of entrenchment. The RAC must apply this denominator, not the §6.3 default, when counting such a vote. The Minimum Affirmative Support floor (§3.3A) is subsumed by the higher requirement here and is not separately applied.
+
+---
 
 ### 3A.5 Permanent RAC Election Gating (Activation Condition 7)
 
@@ -164,8 +198,9 @@ These parameters carry the activation and transition mechanics that the **Charte
 | Transition RAC Members           | Exactly 3 (named in GP-PRE-1; constituted under Operating Agreement Article VI) |
 | Permanent RAC Members            | Between 5 and 7 (set per election; defined in RAC Mandate §7). Adjustable by Governance Process proposal; minimum 5. |
 | Term Length (Permanent RAC)      | 6 months                                                               |
-| Routine Decision Quorum          | Simple majority (more than half of seated members)                     |
-| Routine Decision Approval        | Simple majority YES                                                    |
+| Routine Decision Quorum          | Simple majority (more than half of seated members), where "seated members" excludes members recused on the matter — see Recusal and Quorum below |
+| Routine Decision Approval        | Simple majority YES of non-recused seated members participating        |
+| Recusal and Quorum               | A member recused from a matter under **Conflict of Interest Policy §5.1** is excluded from both the quorum denominator and the approval calculation **for that matter only**, in the same way as a vacated seat. A RAC decision may not be taken on a matter where fewer than **3** non-recused members remain (Permanent RAC) or fewer than **2** non-recused members remain (Transition RAC). Where the floor is not met, the matter is escalated under **DAO Parameters §6C** and the RAC publishes a recusal-quorum notice to the Official Venue stating the matter, the number of recusals, and the escalation route. Recusal is recorded in the decision record; it is not an abstention and does not count as a NO |
 | Seat Vacancy Definition          | A seat is immediately vacated upon: (a) confirmed death notified by a pre-registered emergency contact; (b) written resignation; or (c) written declaration from a pre-registered emergency contact that the member is medically incapacitated and unable to perform their function. Vacated seats are excluded from quorum calculations immediately upon notification. |
 | Emergency Contact Requirement    | Each RAC member must register an emergency contact at appointment and update it at each term renewal. Emergency contacts are held by the Compliance Liaison and the Governance & Legal WG. |
 
@@ -263,9 +298,10 @@ The concrete on-chain identifiers for the treasury and governance infrastructure
 | Election Shortlist Multiplier       | 2×        | Stage 1 shortlist slots per open seat (e.g. 3 seats → top 6 advance to Stage 2) |
 | Election Stage 1 Max Selections     | Unrestricted | Voters may approve any number of nominees in the Stage 1 Approval Voting proposal |
 | Election Stage 2 Quorum             | 7% (Governance Process) | Quorum required for each Stage 2 confirmation vote |
-| Election Stage 2 Approval Threshold | ≥ 60% YES (Governance Process) | Approval required for each Stage 2 confirmation vote |
+| Election Stage 2 Approval Threshold | ≥ 60% YES (Governance Process) | Approval required for each Stage 2 confirmation vote. Measured against Decisive Votes (Proposal & Voting Framework §6.3); the Minimum Affirmative Support floor in §3.3A applies in addition |
 | Election Stage 2 Rerun Quorum       | 5%        | Reduced quorum for the single permitted rerun of a **quorum-held-over** Stage 2 candidate — one who met the Election Stage 2 Approval Threshold in the prior round but missed the Election Stage 2 Quorum (Elections & Role Governance Policy §7.3). Applies only to such candidates; a candidate below the approval threshold is rejected and does not rerun, so a quorum shortfall cannot rescue a rejected candidate. |
 | Election Stage 2 Rerun Approval Threshold | ≥ 75% YES | Raised approval threshold for the reduced-quorum rerun, compensating for the lower quorum with a stronger mandate requirement (Elections & Role Governance Policy §7.3) |
+| Election Stage 2 Rerun Minimum Affirmative Support | 1% of eligible voting power | The §3.3A floor halved for the reduced-quorum rerun, mirroring the §9A treatment. Non-binding in most cases (5% quorum × 75% approval = 3.75% YES); operates as a backstop against an ABSTAIN-heavy rerun |
 | Election Stage 2 Rerun Voting Period | Double the standard DAO Proposal Voting Period (§3.1) | Extended voting window for a Stage 2 rerun, giving thin turnout more time to participate |
 | Max Election Stage 2 Reruns         | 1         | A quorum-held-over candidate may be re-run at the reduced rerun quorum at most once; if still short, the seat is filled by fallback advancement or, failing that, the vacancy / founding re-run process (Elections & Role Governance Policy §7.3, §11, §17.1) |
 | Reserve List Validity Period        | 90 days   | Period after an election's completion during which a candidate confirmed at Stage 2 but not seated (Elections & Role Governance Policy §7.2.1) may be seated from the reserve list to fill a same-role vacancy without a replacement election (Elections & Role Governance Policy §7.5). Measured from election completion. |
@@ -348,6 +384,7 @@ The concrete on-chain identifiers for the treasury and governance infrastructure
 | Governance Inactivity Trigger | 3 consecutive quorum failures on the **same proposal** — the same substantive proposal, resubmitted after each failed attempt | Threshold before reduced quorum activates. The trigger is **per-proposal**, not per-category: three unrelated proposals of the same type failing quorum do **not** place other proposals of that type into reduced-quorum mode. Reduced quorum attaches only to the specific proposal that has failed three times in a row |
 | Reduced Quorum Threshold | 50% of the standard quorum for that proposal type (minimum 1%) | Applies after inactivity trigger is met. For Constitutional proposals the reduced quorum may not fall below the entrenched 7% floor (Charter §12.1 item 2); the effective reduced Constitutional quorum is therefore 7% |
 | Reduced-Quorum Approval Uplift | +15 percentage points | A proposal confirmed **under the reduced quorum** must reach a YES share at least 15 percentage points above its standard approval threshold (Governance Process 60% → 75%; Executable 50% → 65%), compensating the lower quorum with a stronger mandate. Constitutional proposals are unaffected — they retain their standard ≥66% approval and the entrenched 7% quorum floor. Does not apply to a proposal that meets its ordinary quorum |
+| Reduced Minimum Affirmative Support | 50% of the standard floor for that proposal type (§3.3A) | The Minimum Affirmative Support floor scales down in step with the reduced quorum, so that the floor cannot defeat the continuity fallback it sits alongside. Governance Process 2% → 1%; Executable 1% → 0.5%; Constitutional 3.5% → 1.75%. In most cases the reduced floor is non-binding, because the Reduced-Quorum Approval Uplift already implies a higher YES share (e.g. Governance Process: 3.5% quorum × 75% uplifted approval = 2.6%); it operates as a backstop against an ABSTAIN-heavy reduced-quorum vote |
 | Extended Voting Period | Double the standard voting duration | Applies alongside reduced quorum during inactivity |
 | Reconstitution Deadline | 30 days after failure event | Maximum time to re-establish a failed role or body |
 

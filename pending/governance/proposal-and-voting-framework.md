@@ -122,7 +122,7 @@ An Approval Voting poll (§6.2.2) is published listing all eligible nominees. Vo
 Each shortlisted candidate is put to a separate Standard (YES/NO/ABSTAIN) proposal (§6.2.1). A candidate is confirmed if they meet the quorum and approval threshold defined by the DAO parameters "Election Stage 2 Quorum" and "Election Stage 2 Approval Threshold" in DAO Parameters §6B. Stage 2 proposals may run concurrently.
 
 **Seating of confirmed candidates**
-Because the shortlist is larger than the number of open seats (DAO Parameters §6B — Election Shortlist Multiplier), more candidates may be confirmed at Stage 2 than there are seats. Where that occurs, seats are filled by confirmed candidates in descending order of total voting power received in Stage 1: Stage 2 confirmation establishes eligibility to be seated, and the Stage 1 ranking determines the order of seating. If two or more confirmed candidates are tied in Stage 1 total voting power for the last available seat, the tie is resolved in favour of the candidate with the higher YES-to-total-votes-cast ratio in their Stage 2 confirmation vote; if the tie persists, the RAC conducts a single runoff Approval Voting poll between the tied candidates using the short Temperature Check period (DAO Parameters §3.1). The Stage 1 tie-expansion rule above does not apply at the seat boundary, where the number of seats is fixed. A confirmed candidate who is not seated is not elected, but is placed on the reserve list for the role and may be seated to fill a later same-role vacancy without a further election (Elections & Role Governance Policy §7.5).
+Because the shortlist is larger than the number of open seats (DAO Parameters §6B — Election Shortlist Multiplier), more candidates may be confirmed at Stage 2 than there are seats. Where that occurs, seats are filled by confirmed candidates in descending order of total voting power received in Stage 1: Stage 2 confirmation establishes eligibility to be seated, and the Stage 1 ranking determines the order of seating. If two or more confirmed candidates are tied in Stage 1 total voting power for the last available seat, the tie is resolved in favour of the candidate with the higher YES share of Decisive Votes (§6.3) in their Stage 2 confirmation vote; if the tie persists, the RAC conducts a single runoff Approval Voting poll between the tied candidates using the short Temperature Check period (DAO Parameters §3.1). The Stage 1 tie-expansion rule above does not apply at the seat boundary, where the number of seats is fixed. A confirmed candidate who is not seated is not elected, but is placed on the reserve list for the role and may be seated to fill a later same-role vacancy without a further election (Elections & Role Governance Policy §7.5).
 
 **Fallback and rerun**
 When a Stage 2 confirmation vote closes, each candidate is classified as **confirmed** (reaches the Election Stage 2 Quorum and meets the Approval Threshold), **rejected** (YES share below the Approval Threshold, whether or not quorum was met — a quorum shortfall never rescues a candidate the voters declined), or **quorum-held-over** (meets the Approval Threshold but misses quorum). A quorum-held-over candidate is re-run once at the reduced Election Stage 2 Rerun Quorum and the raised Election Stage 2 Rerun Approval Threshold, over the extended Rerun Voting Period (DAO Parameters §6B); if the rerun meets both they are confirmed, otherwise they are not elected. Where a candidate is rejected or fails their rerun and seats remain open, the next-highest un-voted candidate from the full Stage 1 result is advanced to a confirmation vote at the standard Stage 2 quorum and threshold, and is entitled to the same single rerun. This continues until all seats are filled or no un-voted Stage 1 candidate remains; if seats remain with no un-voted candidate and no outstanding rerun, remaining vacancies follow the vacancy handling process in the Elections & Role Governance Policy §11 (founding election: §17.1). Where Stage 2 confirmation votes run concurrently, the RAC opens any rerun or fallback confirmation vote only after all concurrent Stage 2 votes for that election have closed.
@@ -167,10 +167,10 @@ The vote type determines how voters express preferences and how results are dete
 
 #### 6.2.1 Standard (YES / NO / ABSTAIN)
 
-* Applies to: Constitutional, Governance Process, Executable proposals
+* Applies to: Constitutional, Governance Process, Treasury & Budget, and Executable proposals. Treasury & Budget proposals distributing funds across multiple recipients use Weighted Allocation (§6.2.3) instead; multi-option Executable proposals use Approval Voting (§6.2.2)
 * Voters cast one of three options: Yes, No, or Abstain
-* Abstain counts toward quorum but not toward the approval threshold
-* Result: proposal passes if the YES share of votes cast (excluding Abstain) meets the approval threshold for the proposal type (see DAO Parameters §3.3)
+* Abstain counts toward Participation (and therefore toward quorum) but is excluded from Decisive Votes (and therefore from the approval threshold). Both terms are defined in §6.3
+* Result: proposal passes if it meets quorum (§6.3), the YES share of Decisive Votes meets the approval threshold for the proposal type (DAO Parameters §3.3), **and** YES voting power meets the Minimum Affirmative Support floor for the proposal type (DAO Parameters §3.3A)
 
 ---
 
@@ -226,7 +226,13 @@ The vote type determines how voters express preferences and how results are dete
 
 ### 6.3 Quorum
 
-A proposal is valid only if quorum is met. Quorum is measured by total voting power cast — Yes, No, and Abstain votes all count toward the quorum threshold. Abstain counts toward quorum but not toward the approval calculation (§6.2.1). For Temperature Check votes (§6.2.6), there is no Abstain option; quorum is measured by YES + NO votes only.
+**Participation** means the total voting power cast on a proposal, including Abstain. Participation is the measure for all quorum tests and for the absolute participation floor in DAO Parameters §3.2.
+
+**Decisive Votes** means Yes + No, excluding Abstain. Decisive Votes is the denominator for every approval threshold, vote share, ratio, and margin calculation in this framework and in DAO Parameters, unless a provision expressly states otherwise. Where a vote type provides no Abstain option (§6.2.2, §6.2.3, §6.2.4, §6.2.6), Participation and Decisive Votes are equal.
+
+A proposal is valid only if quorum is met. Quorum is measured as Participation expressed as a percentage of eligible voting power — Yes, No, and Abstain votes all count toward it. Abstain therefore counts toward quorum but not toward the approval calculation (§6.2.1).
+
+Meeting quorum is necessary but not sufficient. A Standard vote must additionally meet the Minimum Affirmative Support floor (DAO Parameters §3.3A), which is expressed as YES voting power against eligible voting power and is unaffected by Abstain volume. The floor exists so that a proposal carried over quorum largely by Abstain votes cannot pass on a negligible base of affirmative support.
 
 Quorum thresholds are defined in DAO Parameters and may vary by proposal type.
 
@@ -241,6 +247,8 @@ Approval thresholds vary by proposal type:
 * Treasury: standard majority
 * Temperature Check (TC): simple majority — YES / NO only, no Abstain (see §6.2.6)
 
+All approval thresholds are measured against Decisive Votes (§6.3). Standard votes are additionally subject to the Minimum Affirmative Support floor (DAO Parameters §3.3A), measured against eligible voting power.
+
 Exact thresholds defined in DAO Parameters.
 
 ---
@@ -251,9 +259,11 @@ The RAC is responsible for formally determining the outcome of each vote and pub
 
 1. **Retrieve results.** After the voting period closes, the RAC retrieves the raw vote data from the governance platform.
 
-2. **Verify quorum.** The RAC confirms that total voting power cast meets the quorum threshold for the proposal type, expressed as a percentage of eligible voting power (DAO Parameters §3.2). Any quorum indicator displayed by the governance platform is informational; the percentage threshold in DAO Parameters is authoritative.
+2. **Verify quorum.** The RAC confirms that Participation (§6.3) meets the quorum threshold for the proposal type, expressed as a percentage of eligible voting power (DAO Parameters §3.2). Any quorum indicator displayed by the governance platform is informational; the percentage threshold in DAO Parameters is authoritative.
 
-3. **Apply approval threshold (Standard votes).** For Standard votes, the RAC confirms that the YES share of votes cast (excluding Abstain) meets the type-specific approval threshold (DAO Parameters §3.3).
+3. **Apply approval threshold (Standard votes).** For Standard votes, the RAC confirms that the YES share of Decisive Votes (§6.3) meets the type-specific approval threshold (DAO Parameters §3.3).
+
+3A. **Verify Minimum Affirmative Support (Standard votes).** For Standard votes, the RAC confirms that YES voting power, expressed as a percentage of eligible voting power, meets the Minimum Affirmative Support floor for the proposal type (DAO Parameters §3.3A). A proposal that meets quorum and the approval threshold but fails this floor does not pass. The RAC publishes the Abstain volume and the computed affirmative-support percentage alongside the result under step 6.
 
 4. **Determine winner (Approval Voting).** The RAC identifies the option with the highest total voting power and confirms it meets the minimum winner threshold (DAO Parameters §3.5). If no option meets the threshold, the proposal fails.
 
@@ -267,8 +277,8 @@ The RAC is responsible for formally determining the outcome of each vote and pub
 
 If two proposals conflict and cannot both be implemented:
 
-* The proposal with the higher YES vote share (as a percentage of total votes cast) prevails
-* If the margin between them is less than 5 percentage points, both are invalidated and must be resubmitted as a single proposal with clearly defined alternatives
+* The proposal with the higher YES share of Decisive Votes (§6.3) prevails
+* If the margin between them is less than 5 percentage points, both are invalidated and must be resubmitted as a single proposal with clearly defined alternatives. The margin is measured between the two YES shares of Decisive Votes, so differing Abstain volumes cannot by themselves create or remove a conflict
 * If one proposal passed quorum and the other did not, the one that met quorum prevails regardless of vote share
 
 The RAC flags conflicts at the start of the voting period where possible, so the DAO can be aware before voting closes.
@@ -378,6 +388,7 @@ The following are defined separately and may be updated:
 * Quorum thresholds
 * Voting duration
 * Approval thresholds
+* Minimum Affirmative Support floors (DAO Parameters §3.3A)
 * Cooldown periods
 
 ---

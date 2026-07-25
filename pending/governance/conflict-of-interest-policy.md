@@ -130,9 +130,11 @@ Transaction-level declarations must be made:
 
 A covered person must recuse themselves from any decision where they have a material conflict of interest, including:
 
-* Abstaining from vote or sign-off on the conflicted matter
+* Withholding their vote or sign-off on the conflicted matter
 * Withdrawing from deliberations and discussions where their participation could improperly influence the outcome
 * Not acting as a representative of the DAO in negotiations or communications with the conflicted party
+
+Recusal is distinct from an ABSTAIN vote. A recused person casts no vote at all: for RAC decisions they are removed from both the quorum denominator and the approval calculation for that matter, subject to the minimum non-recused floor in **DAO Parameters §5.1**. An ABSTAIN vote, by contrast, is a cast vote that counts toward Participation and quorum (**Proposal & Voting Framework §6.3**). A covered person who is required to recuse must not substitute an ABSTAIN vote for recusal, because doing so would contribute their voting power to the quorum of a matter they are conflicted on.
 
 ---
 
