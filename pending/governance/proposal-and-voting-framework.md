@@ -92,6 +92,8 @@ All governance changes must clearly specify their classification and comply with
 * Funding requests
 * Budget allocations
 
+Treasury & Budget proposals use the Standard vote type (§6.2.1). Where funds are distributed across multiple recipients, the proposal must state the split — the amount or percentage each recipient receives — and voters accept or reject that split as a package.
+
 ---
 
 ### 4.4 Executable Proposals
@@ -167,7 +169,7 @@ The vote type determines how voters express preferences and how results are dete
 
 #### 6.2.1 Standard (YES / NO / ABSTAIN)
 
-* Applies to: Constitutional, Governance Process, Treasury & Budget, and Executable proposals. Treasury & Budget proposals distributing funds across multiple recipients use Weighted Allocation (§6.2.3) instead; multi-option Executable proposals use Approval Voting (§6.2.2)
+* Applies to: Constitutional, Governance Process, Treasury & Budget, and Executable proposals. This includes Treasury & Budget proposals that distribute funds across multiple recipients: the proposal states the split, and voters accept or reject it as a package. Multi-option Executable proposals use Approval Voting (§6.2.2) instead
 * Voters cast one of three options: Yes, No, or Abstain
 * Abstain counts toward Participation (and therefore toward quorum) but is excluded from Decisive Votes (and therefore from the approval threshold). Both terms are defined in §6.3
 * Result: proposal passes if it meets quorum (§6.3), the YES share of Decisive Votes meets the approval threshold for the proposal type (DAO Parameters §3.3), **and** YES voting power meets the Minimum Affirmative Support floor for the proposal type (DAO Parameters §3.3A)
@@ -183,14 +185,13 @@ The vote type determines how voters express preferences and how results are dete
 
 ---
 
-#### 6.2.3 Weighted Allocation
+#### 6.2.3 [Retired — Weighted Allocation]
 
-* Applies to: Treasury / Budget proposals distributing funds across multiple recipients
-* Voters distribute 100 points across the available options
-* The final allocation per option equals the power-weighted average of all voter distributions, normalised by total voting power
-* Options receiving less than the minimum weight threshold (see DAO Parameters §3.5) are excluded and their weight redistributed proportionally across remaining options
-* The overall proposal still requires quorum and approval threshold as defined for Treasury proposals (DAO Parameters §3.2 and §3.3)
-* Weighted Allocation activates once the required tooling is in place; the RAC confirms activation by publishing a notice to the governance forum
+Weighted Allocation — a points-distribution ballot for Treasury proposals splitting funds across multiple recipients — was removed from this framework before ratification. It was never operative: it required platform tooling that was never specified, and its stated approval threshold could not be computed from the ballot it defined.
+
+Treasury & Budget proposals distributing funds across multiple recipients use the Standard vote type (§6.2.1): the proposal states the split and voters accept or reject it as a package.
+
+This section number is retained, rather than renumbered, so that references to §6.2.4–§6.2.7 remain stable.
 
 ---
 
@@ -239,7 +240,7 @@ The vote type determines how voters express preferences and how results are dete
 
 **Participation** means the total voting power cast on a proposal, including Abstain. Participation is the measure for all quorum tests and for the absolute participation floor in DAO Parameters §3.2.
 
-**Decisive Votes** means Yes + No, excluding Abstain. Decisive Votes is the denominator for every approval threshold, vote share, ratio, and margin calculation in this framework and in DAO Parameters, unless a provision expressly states otherwise. Where a vote type provides no Abstain option (§6.2.2, §6.2.3, §6.2.4, §6.2.6, §6.2.7), Participation and Decisive Votes are equal.
+**Decisive Votes** means Yes + No, excluding Abstain. Decisive Votes is the denominator for every approval threshold, vote share, ratio, and margin calculation in this framework and in DAO Parameters, unless a provision expressly states otherwise. Where a vote type provides no Abstain option (§6.2.2, §6.2.4, §6.2.6, §6.2.7), Participation and Decisive Votes are equal.
 
 An Abstain option exists only in the Standard vote type (§6.2.1) — Constitutional, Governance Process, Treasury & Budget, and Executable proposals. No other vote type offers it, and in particular Stage 2 election confirmations do not (§6.2.7).
 
@@ -276,13 +277,11 @@ The RAC is responsible for formally determining the outcome of each vote and pub
 
 3. **Apply approval threshold (Standard votes).** For Standard votes, the RAC confirms that the YES share of Decisive Votes (§6.3) meets the type-specific approval threshold (DAO Parameters §3.3).
 
-3A. **Verify Minimum Affirmative Support (Standard votes).** For Standard votes, the RAC confirms that YES voting power, expressed as a percentage of eligible voting power, meets the Minimum Affirmative Support floor for the proposal type (DAO Parameters §3.3A). A proposal that meets quorum and the approval threshold but fails this floor does not pass. The RAC publishes the Abstain volume and the computed affirmative-support percentage alongside the result under step 6.
+3A. **Verify Minimum Affirmative Support (Standard votes).** For Standard votes, the RAC confirms that YES voting power, expressed as a percentage of eligible voting power, meets the Minimum Affirmative Support floor for the proposal type (DAO Parameters §3.3A). A proposal that meets quorum and the approval threshold but fails this floor does not pass. The RAC publishes the Abstain volume and the computed affirmative-support percentage alongside the result under step 5.
 
 4. **Determine winner (Approval Voting).** The RAC identifies the option with the highest total voting power and confirms it meets the minimum winner threshold (DAO Parameters §3.5). If no option meets the threshold, the proposal fails.
 
-5. **Determine allocation (Weighted Allocation).** The RAC computes the power-weighted average allocation per option, applies the minimum weight threshold exclusion rule (DAO Parameters §3.5), and publishes the final allocation breakdown.
-
-6. **Publish result.** The RAC publishes the official outcome — including raw results, quorum calculation, threshold applied, and winner determination — within the result publication window (DAO Parameters §3.5). Publication constitutes the official record and opens the 48-hour veto window (§8).
+5. **Publish result.** The RAC publishes the official outcome — including raw results, quorum calculation, threshold applied, and winner determination — within the result publication window (DAO Parameters §3.5). Publication constitutes the official record and opens the 48-hour veto window (§8).
 
 ---
 

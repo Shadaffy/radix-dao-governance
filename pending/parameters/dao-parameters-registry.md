@@ -89,7 +89,7 @@ Because ABSTAIN counts toward quorum but not toward approval (Proposal & Voting 
 
 **Measurement.** YES voting power as a percentage of eligible voting power at the voting snapshot (§8A). ABSTAIN and NO volume do not enter this calculation. The floor applies in addition to the quorum (§3.2) and approval (§3.3) tests; all applicable tests must be met for the proposal to pass.
 
-**Scope.** Applies to the Standard vote type only (Proposal & Voting Framework §6.2.1) — Constitutional, Governance Process, Treasury & Budget, and Executable proposals. It is not needed for any other vote type, because the Standard type is the only one offering an ABSTAIN option; where no ABSTAIN option exists, quorum × approval already implies a minimum affirmative share by construction. In particular it does not apply to Temperature Check votes (§6.2.6), Election Stage 2 Confirmation Votes (§6.2.7), Approval Voting (§6.2.2), or Weighted Allocation (§6.2.3).
+**Scope.** Applies to the Standard vote type only (Proposal & Voting Framework §6.2.1) — Constitutional, Governance Process, Treasury & Budget, and Executable proposals. It is not needed for any other vote type, because the Standard type is the only one offering an ABSTAIN option; where no ABSTAIN option exists, quorum × approval already implies a minimum affirmative share by construction. In particular it does not apply to Temperature Check votes (§6.2.6), Election Stage 2 Confirmation Votes (§6.2.7), or Approval Voting (§6.2.2).
 
 **Derivation.** Each figure is approximately half of the YES share that a zero-ABSTAIN vote clearing its quorum at its approval threshold would produce (e.g. Governance Process: 7% × 60% = 4.2%; floor 2%). ABSTAIN votes may therefore carry at most roughly half of the participation burden. Adjusting that fraction is the intended dial for tuning this section.
 
@@ -116,8 +116,6 @@ Because ABSTAIN counts toward quorum but not toward approval (Proposal & Voting 
 | --------- | ----- | ----------- |
 | Approval Voting: Maximum Options | 8 | Maximum number of options on the ballot per multi-option Executable proposal (§4.4). Does not apply to election shortlisting; election ballots list all eligible nominees (§6B). |
 | Approval Voting: Minimum Winner Threshold | ≥ 30% of total votes cast | Minimum voting power an option must receive to be declared winner. Applies to multi-option Executable proposals (§4.4). Does not apply to election Stage 1 shortlisting; Stage 1 ranks candidates by total voting power only (§4.5). |
-| Weighted Allocation: Maximum Options | 12 | Maximum number of options per Treasury / Budget allocation GP |
-| Weighted Allocation: Minimum Option Weight | 5% | Options receiving less than this share of total distributed weight are excluded; weight redistributed proportionally |
 | Majority Judgment: Grade Scale | Excellent / Very Good / Good / Acceptable / Poor | Standard five-grade scale for election votes |
 | Result Publication Window | Within 48 hours of vote close | Deadline for RAC to publish the official outcome, quorum calculation, threshold applied, and winner determination; the veto window (§4) opens upon publication |
 
