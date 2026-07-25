@@ -86,11 +86,10 @@ Because ABSTAIN counts toward quorum but not toward approval (Proposal & Voting 
 | Governance Process | 2%   |
 | Treasury / Budget  | 1.5% |
 | Executable         | 1%   |
-| Election Stage 2   | 2%   |
 
 **Measurement.** YES voting power as a percentage of eligible voting power at the voting snapshot (§8A). ABSTAIN and NO volume do not enter this calculation. The floor applies in addition to the quorum (§3.2) and approval (§3.3) tests; all applicable tests must be met for the proposal to pass.
 
-**Scope.** Applies to Standard votes (Proposal & Voting Framework §6.2.1) and to Election Stage 2 confirmation votes, which are Standard votes. Does not apply to Temperature Check votes (no ABSTAIN option, and the TC is non-binding), Approval Voting, or Weighted Allocation.
+**Scope.** Applies to the Standard vote type only (Proposal & Voting Framework §6.2.1) — Constitutional, Governance Process, Treasury & Budget, and Executable proposals. It is not needed for any other vote type, because the Standard type is the only one offering an ABSTAIN option; where no ABSTAIN option exists, quorum × approval already implies a minimum affirmative share by construction. In particular it does not apply to Temperature Check votes (§6.2.6), Election Stage 2 Confirmation Votes (§6.2.7), Approval Voting (§6.2.2), or Weighted Allocation (§6.2.3).
 
 **Derivation.** Each figure is approximately half of the YES share that a zero-ABSTAIN vote clearing its quorum at its approval threshold would produce (e.g. Governance Process: 7% × 60% = 4.2%; floor 2%). ABSTAIN votes may therefore carry at most roughly half of the participation burden. Adjusting that fraction is the intended dial for tuning this section.
 
@@ -298,11 +297,9 @@ The concrete on-chain identifiers for the treasury and governance infrastructure
 | Election Shortlist Multiplier       | 2×        | Stage 1 shortlist slots per open seat (e.g. 3 seats → top 6 advance to Stage 2) |
 | Election Stage 1 Max Selections     | Unrestricted | Voters may approve any number of nominees in the Stage 1 Approval Voting proposal |
 | Election Stage 2 Quorum             | 7% (Governance Process) | Quorum required for each Stage 2 confirmation vote |
-| Election Stage 2 Approval Threshold | ≥ 60% YES (Governance Process) | Approval required for each Stage 2 confirmation vote. Measured against Decisive Votes (Proposal & Voting Framework §6.3); the Minimum Affirmative Support floor in §3.3A applies in addition |
+| Election Stage 2 Approval Threshold | ≥ 60% YES (Governance Process) | Approval required for each Stage 2 confirmation vote. Stage 2 uses the Confirmation Vote type (Proposal & Voting Framework §6.2.7) with no ABSTAIN option, so quorum and approval share the same YES + NO denominator. The §3.3A Minimum Affirmative Support floor does not apply; the two thresholds together already imply ≥ 4.2% affirmative support (7% × 60%) |
 | Election Stage 2 Rerun Quorum       | 5%        | Reduced quorum for the single permitted rerun of a **quorum-held-over** Stage 2 candidate — one who met the Election Stage 2 Approval Threshold in the prior round but missed the Election Stage 2 Quorum (Elections & Role Governance Policy §7.3). Applies only to such candidates; a candidate below the approval threshold is rejected and does not rerun, so a quorum shortfall cannot rescue a rejected candidate. |
-| Election Stage 2 Rerun Approval Threshold | ≥ 75% YES | Raised approval threshold for the reduced-quorum rerun, compensating for the lower quorum with a stronger mandate requirement (Elections & Role Governance Policy §7.3) |
-| Election Stage 2 Rerun Minimum Affirmative Support | 1% of eligible voting power | The §3.3A floor halved for the reduced-quorum rerun, mirroring the §9A treatment. Non-binding in most cases (5% quorum × 75% approval = 3.75% YES); operates as a backstop against an ABSTAIN-heavy rerun |
-| Election Stage 2 Rerun Voting Period | Double the standard DAO Proposal Voting Period (§3.1) | Extended voting window for a Stage 2 rerun, giving thin turnout more time to participate |
+| Election Stage 2 Rerun Approval Threshold | ≥ 75% YES | Raised approval threshold for the reduced-quorum rerun, compensating for the lower quorum with a stronger mandate requirement (Elections & Role Governance Policy §7.3) || Election Stage 2 Rerun Voting Period | Double the standard DAO Proposal Voting Period (§3.1) | Extended voting window for a Stage 2 rerun, giving thin turnout more time to participate |
 | Max Election Stage 2 Reruns         | 1         | A quorum-held-over candidate may be re-run at the reduced rerun quorum at most once; if still short, the seat is filled by fallback advancement or, failing that, the vacancy / founding re-run process (Elections & Role Governance Policy §7.3, §11, §17.1) |
 | Reserve List Validity Period        | 90 days   | Period after an election's completion during which a candidate confirmed at Stage 2 but not seated (Elections & Role Governance Policy §7.2.1) may be seated from the reserve list to fill a same-role vacancy without a replacement election (Elections & Role Governance Policy §7.5). Measured from election completion. |
 

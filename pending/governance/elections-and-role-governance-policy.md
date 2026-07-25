@@ -127,7 +127,7 @@ An Approval Voting proposal is published listing all eligible nominees.
 
 ### 7.2 Stage 2 — Confirmation
 
-Each shortlisted candidate is put to a separate Standard (YES/NO/ABSTAIN) proposal.
+Each shortlisted candidate is put to a separate Confirmation Vote (YES/NO) proposal (**Proposal & Voting Framework §6.2.7**). There is no Abstain option: a voter with no view on a candidate expresses that at Stage 1 by not selecting them.
 
 * Stage 2 proposals may run concurrently
 * A candidate is confirmed if they meet the quorum and approval threshold for Election proposals (DAO Parameters §6B — Election Stage 2 Quorum and Election Stage 2 Approval Threshold)

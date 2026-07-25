@@ -118,11 +118,11 @@ The current election mechanism is a two-stage Approval Voting → confirmation p
 **Stage 1 — Shortlisting (Approval Voting)**
 An Approval Voting poll (§6.2.2) is published listing all eligible nominees. Voters may select any number of nominees they approve. The top candidates by total voting power — up to the shortlist size defined in DAO Parameters §6B — advance to Stage 2. The Stage 1 result is procedurally binding. Stage 1 has no separate quorum requirement; the Temperature Check result is sufficient. The minimum winner threshold (DAO Parameters §3.5) does not apply; candidates are ranked by total voting power only. If two or more candidates are tied in voting power for the last available shortlist slot, all tied candidates are included in the shortlist; the shortlist size is expanded by the number of additional tied candidates.
 
-**Stage 2 — Confirmation (Standard Vote)**
-Each shortlisted candidate is put to a separate Standard (YES/NO/ABSTAIN) proposal (§6.2.1). A candidate is confirmed if they meet the quorum and approval threshold defined by the DAO parameters "Election Stage 2 Quorum" and "Election Stage 2 Approval Threshold" in DAO Parameters §6B. Stage 2 proposals may run concurrently.
+**Stage 2 — Confirmation (Confirmation Vote)**
+Each shortlisted candidate is put to a separate Confirmation Vote (YES/NO) proposal (§6.2.7). There is no Abstain option at Stage 2: a voter with no view on a candidate expresses that at Stage 1 by not selecting them (§6.2.7). A candidate is confirmed if they meet the quorum and approval threshold defined by the DAO parameters "Election Stage 2 Quorum" and "Election Stage 2 Approval Threshold" in DAO Parameters §6B. Stage 2 proposals may run concurrently.
 
 **Seating of confirmed candidates**
-Because the shortlist is larger than the number of open seats (DAO Parameters §6B — Election Shortlist Multiplier), more candidates may be confirmed at Stage 2 than there are seats. Where that occurs, seats are filled by confirmed candidates in descending order of total voting power received in Stage 1: Stage 2 confirmation establishes eligibility to be seated, and the Stage 1 ranking determines the order of seating. If two or more confirmed candidates are tied in Stage 1 total voting power for the last available seat, the tie is resolved in favour of the candidate with the higher YES share of Decisive Votes (§6.3) in their Stage 2 confirmation vote; if the tie persists, the RAC conducts a single runoff Approval Voting poll between the tied candidates using the short Temperature Check period (DAO Parameters §3.1). The Stage 1 tie-expansion rule above does not apply at the seat boundary, where the number of seats is fixed. A confirmed candidate who is not seated is not elected, but is placed on the reserve list for the role and may be seated to fill a later same-role vacancy without a further election (Elections & Role Governance Policy §7.5).
+Because the shortlist is larger than the number of open seats (DAO Parameters §6B — Election Shortlist Multiplier), more candidates may be confirmed at Stage 2 than there are seats. Where that occurs, seats are filled by confirmed candidates in descending order of total voting power received in Stage 1: Stage 2 confirmation establishes eligibility to be seated, and the Stage 1 ranking determines the order of seating. If two or more confirmed candidates are tied in Stage 1 total voting power for the last available seat, the tie is resolved in favour of the candidate with the higher YES share of votes cast in their Stage 2 confirmation vote (Stage 2 has no Abstain option, so this is YES ÷ (YES + NO); §6.2.7); if the tie persists, the RAC conducts a single runoff Approval Voting poll between the tied candidates using the short Temperature Check period (DAO Parameters §3.1). The Stage 1 tie-expansion rule above does not apply at the seat boundary, where the number of seats is fixed. A confirmed candidate who is not seated is not elected, but is placed on the reserve list for the role and may be seated to fill a later same-role vacancy without a further election (Elections & Role Governance Policy §7.5).
 
 **Fallback and rerun**
 When a Stage 2 confirmation vote closes, each candidate is classified as **confirmed** (reaches the Election Stage 2 Quorum and meets the Approval Threshold), **rejected** (YES share below the Approval Threshold, whether or not quorum was met — a quorum shortfall never rescues a candidate the voters declined), or **quorum-held-over** (meets the Approval Threshold but misses quorum). A quorum-held-over candidate is re-run once at the reduced Election Stage 2 Rerun Quorum and the raised Election Stage 2 Rerun Approval Threshold, over the extended Rerun Voting Period (DAO Parameters §6B); if the rerun meets both they are confirmed, otherwise they are not elected. Where a candidate is rejected or fails their rerun and seats remain open, the next-highest un-voted candidate from the full Stage 1 result is advanced to a confirmation vote at the standard Stage 2 quorum and threshold, and is entitled to the same single rerun. This continues until all seats are filled or no un-voted Stage 1 candidate remains; if seats remain with no un-voted candidate and no outstanding rerun, remaining vacancies follow the vacancy handling process in the Elections & Role Governance Policy §11 (founding election: §17.1). Where Stage 2 confirmation votes run concurrently, the RAC opens any rerun or fallback confirmation vote only after all concurrent Stage 2 votes for that election have closed.
@@ -210,7 +210,7 @@ The vote type determines how voters express preferences and how results are dete
 
 * Applies to: Election Proposals (§4.5) — the operative election mechanism until Majority Judgment (§6.2.4) is activated
 * Stage 1 uses Approval Voting (§6.2.2) for shortlisting — voters may select any number of nominees
-* Stage 2 uses Standard voting (§6.2.1) for confirmation of each shortlisted candidate
+* Stage 2 uses the Confirmation Vote (§6.2.7) for confirmation of each shortlisted candidate
 * Full procedure defined in §4.5 and Elections & Role Governance Policy §7
 
 ---
@@ -224,15 +224,28 @@ The vote type determines how voters express preferences and how results are dete
 
 ---
 
+#### 6.2.7 Confirmation Vote (YES / NO)
+
+* Applies to: Stage 2 candidate confirmation in Two-Stage Elections (§6.2.5, §4.5)
+* Voters cast one of two options: Yes or No. **There is no Abstain option.**
+* Quorum is measured by total voting power cast (YES + NO only), against the Election Stage 2 Quorum (DAO Parameters §6B)
+* Result: the candidate is confirmed if the YES share of votes cast meets the Election Stage 2 Approval Threshold (DAO Parameters §6B)
+
+**Why no Abstain.** Stage 1 (§6.2.2) already gives voters a costless, non-punitive way to express "no view" on a nominee — declining to select them. Stage 2 is a confirmation gate on candidates who have already cleared that filter, and the question at that gate is binary. An Abstain option would therefore duplicate a channel Stage 1 already provides while allowing voting power to be contributed to a candidate's quorum without expressing support for that candidate. Because Stage 2 ballots run concurrently across all shortlisted candidates, that would let a single holder supply the quorum for an entire slate in one action, leaving the outcome to be decided by a small affirmative bloc. The Minimum Affirmative Support floor (DAO Parameters §3.3A) is unnecessary here for the same reason: with no Abstain, the quorum and approval thresholds together guarantee a minimum level of affirmative support by construction.
+
+---
+
 ### 6.3 Quorum
 
 **Participation** means the total voting power cast on a proposal, including Abstain. Participation is the measure for all quorum tests and for the absolute participation floor in DAO Parameters §3.2.
 
-**Decisive Votes** means Yes + No, excluding Abstain. Decisive Votes is the denominator for every approval threshold, vote share, ratio, and margin calculation in this framework and in DAO Parameters, unless a provision expressly states otherwise. Where a vote type provides no Abstain option (§6.2.2, §6.2.3, §6.2.4, §6.2.6), Participation and Decisive Votes are equal.
+**Decisive Votes** means Yes + No, excluding Abstain. Decisive Votes is the denominator for every approval threshold, vote share, ratio, and margin calculation in this framework and in DAO Parameters, unless a provision expressly states otherwise. Where a vote type provides no Abstain option (§6.2.2, §6.2.3, §6.2.4, §6.2.6, §6.2.7), Participation and Decisive Votes are equal.
+
+An Abstain option exists only in the Standard vote type (§6.2.1) — Constitutional, Governance Process, Treasury & Budget, and Executable proposals. No other vote type offers it, and in particular Stage 2 election confirmations do not (§6.2.7).
 
 A proposal is valid only if quorum is met. Quorum is measured as Participation expressed as a percentage of eligible voting power — Yes, No, and Abstain votes all count toward it. Abstain therefore counts toward quorum but not toward the approval calculation (§6.2.1).
 
-Meeting quorum is necessary but not sufficient. A Standard vote must additionally meet the Minimum Affirmative Support floor (DAO Parameters §3.3A), which is expressed as YES voting power against eligible voting power and is unaffected by Abstain volume. The floor exists so that a proposal carried over quorum largely by Abstain votes cannot pass on a negligible base of affirmative support.
+Meeting quorum is necessary but not sufficient. A Standard vote must additionally meet the Minimum Affirmative Support floor (DAO Parameters §3.3A), which is expressed as YES voting power against eligible voting power and is unaffected by Abstain volume. The floor exists so that a proposal carried over quorum largely by Abstain votes cannot pass on a negligible base of affirmative support. It applies only to the Standard vote type; vote types without an Abstain option do not need it, because their quorum and approval thresholds together already imply a minimum affirmative share.
 
 Quorum thresholds are defined in DAO Parameters and may vary by proposal type.
 
