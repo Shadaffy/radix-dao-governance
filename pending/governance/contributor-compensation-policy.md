@@ -195,7 +195,7 @@ An engagement may be renewed for one further term without a new RFP only where *
 * The provider is unchanged, assessed on the same provider-and-affiliated-group basis as the RFP Threshold (§4.3)
 * **The scope is unchanged.** Any expansion of scope voids the exemption: the work is a new engagement and the RFP Threshold applies
 * **The price is the same or lower**, except under §6.5.2
-* The renewal term is no longer than the original term
+* The renewal term is no longer than the **Maximum Engagement Renewal Term** (DAO Parameters §7), regardless of the length of the original term
 * There is no unresolved performance dispute, no missed-milestone finding under §7, and no Code of Conduct or breach finding against the provider arising during the term
 * The original engagement was itself awarded in compliance with this policy — through an RFP where one was required, or as a valid direct award below the RFP Threshold — or is a pre-Activation engagement under §6.5.5. A non-compliant award may not be carried forward by renewal
 * The consecutive renewal cap in §6.5.4 has not been reached
@@ -224,7 +224,7 @@ Any Governance Participant holding at least the **Challenge Filing Threshold** (
 
 #### 6.5.4 Consecutive Renewal Cap
 
-An engagement may be renewed under this section for a maximum of **3 consecutive renewals**, or **36 months** of cumulative continuous engagement with the same provider, whichever comes first (DAO Parameters §7).
+An engagement may be renewed under this section a maximum of **2 consecutive times**, each renewal running for a term of no more than **12 months** (DAO Parameters §7). The renewal entitlement does not vary with the length of the original term: an engagement originally awarded for three months and one awarded for twelve each carry the same two renewals. A single engagement may therefore run for its original term plus a maximum of 24 further months before competition becomes mandatory.
 
 Upon reaching the cap, renewal under this section is unavailable. The engagement may continue only if:
 
