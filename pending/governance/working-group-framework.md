@@ -100,6 +100,30 @@ Minor operational variance is permitted within these limits:
 
 Unspent funds at the end of a budget period must be returned to treasury unless a carry-forward is explicitly approved by Governance Proposal.
 
+### 7.2 Steward Consultation Temperature Check
+
+Budget authority under this section is otherwise binary: a Steward either acts within their approved budget or brings a full proposal. A Steward who is within mandate but genuinely uncertain whether a particular disbursement or engagement is the right call may consult the community first, without surrendering the authority they already hold.
+
+A **Steward Consultation Temperature Check** ("Consultation TC") is a Temperature Check submitted by a Steward of the Working Group holding the budget, before authorizing a disbursement or engagement that is already within the Working Group's approved scope and budget period.
+
+* **Discretionary.** No Steward is required to run one. A Steward who does not consult remains subject to the normal accountability mechanisms — monthly reporting (§8), the Conflict of Interest Policy, and dispute escalation.
+* **Form.** Temperature Check Vote (Proposal & Voting Framework §6.2.6) — YES / NO, no Abstain — at the standard 3% Temperature Check quorum (DAO Parameters §3.2) and ≥50% YES. The Steward publishes the matter to the governance forum with the proposed scope of work and rationale before the vote opens.
+* **Not a proposal stage.** A Consultation TC is not Stage 2 of the proposal pipeline (Proposal & Voting Framework §3.2). It is not preceded by a mandatory Draft Discussion and it does **not** elevate to a Governance Proposal if it passes. The RAC publishes the result under Proposal & Voting Framework §6.5.
+
+**Outcomes**
+
+| Result | Effect |
+| --- | --- |
+| Quorum met, ≥50% YES | The Steward may proceed under existing budget authority. Recorded in the next monthly report |
+| Quorum not met | **Inconclusive — not a decline.** The Steward may proceed under existing budget authority, and must record the Consultation TC as inconclusive in the next monthly report |
+| Quorum met, <50% YES | **Declined.** See below |
+
+**Effect of a decline.** Where a Consultation TC is declined, no Steward of that Working Group may authorize the matter under budget authority. The decline attaches to the **matter**, not to the Steward who submitted it — a co-Steward may not authorize what the community has just declined.
+
+The matter may then proceed only as a full **Treasury & Budget** proposal under the Proposal & Voting Framework, after the standard failed-proposal cooldown (DAO Parameters §3.4), running the complete pipeline including its own Stage 2 Temperature Check.
+
+**Revised scope.** A materially revised scope is a new matter and may be put to a fresh Consultation TC or authorized within budget as normal. The revision and its relationship to the declined matter must be disclosed in the next monthly report, so that a declined matter cannot be re-labelled to escape the decline.
+
 ---
 
 ## 8. Reporting & Transparency

@@ -43,6 +43,8 @@ All proposals follow a three-stage pipeline:
 * A failed TC resets the standard 7-day cooldown (DAO Parameters §3.4) before a new TC may be submitted for the same proposal
 * Duration defined in DAO Parameters §3.1
 
+**Temperature Checks used outside this pipeline.** A Temperature Check is also used as a standalone instrument in two places, neither of which is a Stage 2 pipeline TC and neither of which elevates to a Governance Proposal on passing: the Community Accountability Hearing request (RAC Mandate §11B) and the Steward Consultation Temperature Check (Working Group Framework §7.2). Where a Steward Consultation TC is declined, the matter may proceed only as a full Treasury & Budget proposal after the standard cooldown in DAO Parameters §3.4 — that proposal runs the complete pipeline, including its own Stage 2 Temperature Check under this section.
+
 ---
 
 ### 3.3 Stage 3 — DAO Proposal

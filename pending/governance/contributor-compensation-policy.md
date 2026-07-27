@@ -115,6 +115,8 @@ For specific expertise not available within a Working Group, Stewards may engage
 
 The RFP Threshold is measured **per provider per rolling 12-month period**, aggregating all engagements with the same provider or affiliated group. An engagement may not be split into smaller awards to remain below it. The threshold takes effect on the Activation Date (DAO Parameters §7).
 
+A Steward uncertain whether an engagement is the right call may first submit a Steward Consultation Temperature Check (Working Group Framework §7.2).
+
 ---
 
 ## 5. Payment Denominations
