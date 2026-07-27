@@ -109,9 +109,11 @@ The engagement type, rate, deliverables, and payment schedule must be documented
 
 For specific expertise not available within a Working Group, Stewards may engage external contractors:
 
-* Engagements above the threshold defined in DAO Parameters require a formal RFP process (see §6)
-* Engagements below the threshold may be approved by Stewards within budget and disclosed in reporting
+* Engagements at or above the **RFP Threshold** (DAO Parameters §7) require a formal RFP process (see §6)
+* Engagements below the RFP Threshold may be approved by Stewards within budget and disclosed in reporting
 * All contractor engagements must be documented with a written scope of work
+
+The RFP Threshold is measured **per provider per rolling 12-month period**, aggregating all engagements with the same provider or affiliated group. An engagement may not be split into smaller awards to remain below it. The threshold takes effect on the Activation Date (DAO Parameters §7).
 
 ---
 
@@ -129,7 +131,7 @@ Payment denomination must be specified in the contributor's engagement terms bef
 
 ## 6. RFP Process
 
-For work above the threshold defined in DAO Parameters, Working Groups must use a Request for Proposal (RFP) process.
+For work at or above the **RFP Threshold** (DAO Parameters §7), Working Groups must use a Request for Proposal (RFP) process, measured on the per-provider rolling 12-month basis set out in §4.3.
 
 ### 6.1 RFP Publication
 
@@ -160,7 +162,7 @@ Submissions must include:
 
 ### 6.3 Evaluation and Selection
 
-Working Group Stewards evaluate submissions against the published criteria. For engagements above a higher threshold (defined in DAO Parameters), an independent review panel may be required.
+Working Group Stewards evaluate submissions against the published criteria. For engagements at or above the **Independent Review Panel Threshold** (DAO Parameters §7), an independent review panel may be required.
 
 Selection must be:
 
@@ -175,6 +177,7 @@ Selection must be:
 Once selected, the engagement is confirmed by a written scope of work document signed (or on-chain acknowledged) by both parties. Payment is only released against this confirmed scope.
 
 ---
+
 
 ## 7. Milestone Disbursement
 

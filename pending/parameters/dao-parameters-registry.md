@@ -321,11 +321,15 @@ The concrete on-chain identifiers for the treasury and governance infrastructure
 
 ## 7. Working Group Parameters
 
-| Parameter           | Value    |
-| ------------------- | -------- |
-| Stewards per WG     | 1–3      |
-| Term Length         | 6 months |
-| Reporting Frequency | Monthly  |
+> **Phase scope.** The procurement parameters below — the **RFP Threshold** and the **Independent Review Panel Threshold** — take effect on the **Activation Date**. During the Transition Period no Working Group holds an approved budget (Working Groups are established by binding Governance Proposal, and binding governance begins at Activation), so there is nothing for them to apply to. Composition and reporting parameters apply from the establishment of each Working Group.
+
+| Parameter           | Value    | Description |
+| ------------------- | -------- | ----------- |
+| Stewards per WG     | 1–3      | Number of Steward seats per Working Group |
+| Term Length         | 6 months | Standard Steward appointment term |
+| Reporting Frequency | Monthly  | Progress and spend reporting cadence (Working Group Framework §8) |
+| RFP Threshold | $2,500 USDC | Engagements at or above this value require a formal RFP process (Contributor Compensation Policy §6). Measured **per provider per rolling 12-month period**, aggregating all engagements with the same provider or affiliated group, so a single engagement may not be split into smaller direct awards to remain below it. Effective from the Activation Date |
+| Independent Review Panel Threshold | $10,000 USDC | Engagements at or above this value may require an independent review panel to evaluate RFP submissions (Contributor Compensation Policy §6.3). Same per-provider rolling 12-month measurement basis as the RFP Threshold. Effective from the Activation Date |
 
 ---
 
