@@ -124,6 +124,8 @@ The matter may then proceed only as a full **Treasury & Budget** proposal under 
 
 **Revised scope.** A materially revised scope is a new matter and may be put to a fresh Consultation TC or authorized within budget as normal. The revision and its relationship to the declined matter must be disclosed in the next monthly report, so that a declined matter cannot be re-labelled to escape the decline.
 
+**Renewals.** A Steward uncertain whether to renew an established engagement under Contributor Compensation Policy §6.5 may use a Consultation TC for that decision in the same way.
+
 ---
 
 ## 8. Reporting & Transparency

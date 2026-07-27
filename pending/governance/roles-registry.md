@@ -330,10 +330,13 @@ Subject to CoI Policy §2–4 and the standard of conduct in Delegate Mandate §
 **Authority & Scope**
 Lead operational Working Groups within the scope and budget approved by their WG Charter. Coordinate WG members, manage deliverables, authorize milestone payments to Treasury Signers, and report monthly to the DAO. May not make strategic decisions outside the approved WG mandate.
 
+Within the approved budget, may engage contributors and contracted specialists, subject to the RFP Threshold (DAO Parameters §7; Contributor Compensation Policy §4.3, §6), and may renew a qualifying engagement without a new RFP under Contributor Compensation Policy §6.5 — only at unchanged scope and at the same or lower price, subject to the consecutive renewal cap and the community challenge right in §6.5.3.
+
 May submit a Steward Consultation Temperature Check (Working Group Framework §7.2) before authorizing a disbursement or engagement that is within budget. A declined Consultation TC removes budget authority for that matter from **every** Steward of the Working Group; the matter may then proceed only as a full Treasury & Budget proposal after the standard cooldown. A Consultation TC that fails to reach quorum is inconclusive, not a decline.
 
 **Defined In**
-- DAO Parameters §7 (WG parameters: 1–3 stewards per WG, 6-month terms)
+- DAO Parameters §7 (WG parameters: 1–3 stewards per WG, 6-month terms; RFP and engagement renewal parameters)
+- Contributor Compensation Policy §4.3, §6, §6.5 (contracted specialists, RFP process, engagement renewal)
 - Working Group Framework §7.2 (Steward Consultation Temperature Check)
 - Proposal & Voting Framework §4.5 (election process for WG Stewards)
 - Charter §4.2 (Working Groups as chartered bodies)

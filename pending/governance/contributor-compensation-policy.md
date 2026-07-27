@@ -115,7 +115,7 @@ For specific expertise not available within a Working Group, Stewards may engage
 
 The RFP Threshold is measured **per provider per rolling 12-month period**, aggregating all engagements with the same provider or affiliated group. An engagement may not be split into smaller awards to remain below it. The threshold takes effect on the Activation Date (DAO Parameters §7).
 
-A Steward uncertain whether an engagement is the right call may first submit a Steward Consultation Temperature Check (Working Group Framework §7.2).
+An existing engagement may be renewed without a new RFP where it qualifies under §6.5. A Steward uncertain whether to make or renew an engagement may first submit a Steward Consultation Temperature Check (Working Group Framework §7.2).
 
 ---
 
@@ -133,7 +133,7 @@ Payment denomination must be specified in the contributor's engagement terms bef
 
 ## 6. RFP Process
 
-For work at or above the **RFP Threshold** (DAO Parameters §7), Working Groups must use a Request for Proposal (RFP) process, measured on the per-provider rolling 12-month basis set out in §4.3.
+For work at or above the **RFP Threshold** (DAO Parameters §7), Working Groups must use a Request for Proposal (RFP) process, measured on the per-provider rolling 12-month basis set out in §4.3. An engagement that qualifies for renewal under §6.5 is exempt from this requirement.
 
 ### 6.1 RFP Publication
 
@@ -180,6 +180,64 @@ Once selected, the engagement is confirmed by a written scope of work document s
 
 ---
 
+### 6.5 Engagement Renewal
+
+Re-competing an established provider is not always in the DAO's interest. For infrastructure and specialist services, the cost of transition — onboarding, migration, and lost institutional knowledge — can exceed any benefit from testing the market. This section allows a qualifying engagement to be renewed without a new RFP, on terms the provider has already offered.
+
+It is **not** a route to indefinite uncompeted engagement. The consecutive renewal cap in §6.5.4 is the load-bearing safeguard against that, as the equivalent cap is for role holders under the Elections & Role Governance Policy §9.5.
+
+A renewal under this section does **not** re-trigger the RFP Threshold aggregation in §4.3. Were it otherwise, any ongoing provider above the threshold would have to be competed annually, which is the outcome this section exists to prevent. Renewals are bounded by §6.5.4 instead.
+
+#### 6.5.1 Conditions for Renewal
+
+An engagement may be renewed for one further term without a new RFP only where **all** of the following hold:
+
+* The provider is unchanged, assessed on the same provider-and-affiliated-group basis as the RFP Threshold (§4.3)
+* **The scope is unchanged.** Any expansion of scope voids the exemption: the work is a new engagement and the RFP Threshold applies
+* **The price is the same or lower**, except under §6.5.2
+* The renewal term is no longer than the original term
+* There is no unresolved performance dispute, no missed-milestone finding under §7, and no Code of Conduct or breach finding against the provider arising during the term
+* The original engagement was itself awarded in compliance with this policy — through an RFP where one was required, or as a valid direct award below the RFP Threshold — or is a pre-Activation engagement under §6.5.5. A non-compliant award may not be carried forward by renewal
+* The consecutive renewal cap in §6.5.4 has not been reached
+
+#### 6.5.2 Price Increase Exception
+
+A renewal at a price above the original may be made only where:
+
+* The Steward publishes a written justification stating specifically why re-competing the engagement would cost the DAO more than the proposed increase
+* The RAC confirms under §6.5.3 that the §6.5.1 conditions are met and that the justification addresses that question
+* The renewal notice and challenge window in §6.5.3 apply
+* The scope remains unchanged — this exception covers price only
+* The increase does not take the engagement's rolling 12-month value across the RFP Threshold or the Independent Review Panel Threshold (DAO Parameters §7) for the first time. Where it would, this exception is unavailable and the engagement must be competed under §6
+
+#### 6.5.3 Renewal Notice, Challenge, and Confirmation
+
+The Steward publishes a **renewal notice** to the governance forum before the challenge window opens, stating the provider, scope, term, price, whether §6.5.2 is relied on, and the current consecutive renewal count.
+
+Any Governance Participant holding at least the **Challenge Filing Threshold** (DAO Parameters §6B), verified against the most recent governance snapshot, may file a challenge notice during the **Engagement Renewal Challenge Window** (DAO Parameters §7).
+
+**Filing a challenge is a unilateral right** — it does not require a governance vote and cannot be blocked by any Governance Participant, including those with large voting power.
+
+* A valid challenge voids the renewal. The engagement must then be competed under §6 where it is at or above the RFP Threshold, or may be re-awarded at the Steward's discretion where it is below
+* The RAC acknowledges valid challenges within 2 business days and publishes a notice confirming that the renewal has been voided
+* Before a renewal takes effect, the RAC confirms that the §6.5.1 conditions are met. This is a **process check, not a commercial judgement** — the RAC verifies that scope and price are unchanged, that no disqualifying finding exists, and that the cap has not been reached; it does not assess whether the engagement represents good value
+
+#### 6.5.4 Consecutive Renewal Cap
+
+An engagement may be renewed under this section for a maximum of **3 consecutive renewals**, or **36 months** of cumulative continuous engagement with the same provider, whichever comes first (DAO Parameters §7).
+
+Upon reaching the cap, renewal under this section is unavailable. The engagement may continue only if:
+
+* It is competed under §6 — the incumbent provider may bid, and the evaluation criteria in §6.3 may legitimately weigh transition cost; **or**
+* A Governance Proposal authorises continued sole-source engagement with that provider. This is the route for a provider that genuinely cannot be replaced
+
+A completed RFP resets the consecutive renewal count to zero. A sole-source Governance Proposal authorises only the term stated in that proposal and does **not** reset the count, so each further continuation returns to governance.
+
+#### 6.5.5 Pre-Activation Engagements
+
+An engagement in effect on the Activation Date counts as the initial term for the purposes of §6.5.4, and the cap runs from there. The challenge right in §6.5.3 applies from its first renewal — which is what makes this treatment acceptable, since the community can force competition at any renewal of an award that never faced it.
+
+---
 
 ## 7. Milestone Disbursement
 
