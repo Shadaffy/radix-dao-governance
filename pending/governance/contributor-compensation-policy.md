@@ -107,7 +107,7 @@ The engagement type, rate, deliverables, and payment schedule must be documented
 
 ### 4.3 Contracted Specialists
 
-For specific expertise not available within a Working Group, Stewards may engage external contractors:
+For specific expertise not available within a Working Group, Stewards may engage external contractors — as may the Permanent RAC where no relevant Working Group exists (§6):
 
 * Engagements at or above the **RFP Threshold** (DAO Parameters §7) require a formal RFP process (see §6)
 * Engagements below the RFP Threshold may be approved by Stewards within budget and disclosed in reporting
@@ -134,6 +134,10 @@ Payment denomination must be specified in the contributor's engagement terms bef
 ## 6. RFP Process
 
 For work at or above the **RFP Threshold** (DAO Parameters §7), Working Groups must use a Request for Proposal (RFP) process, measured on the per-provider rolling 12-month basis set out in §4.3. An engagement that qualifies for renewal under §6.5 is exempt from this requirement.
+
+**Engagements made without a Working Group.** These obligations attach to the body spending the money, not to Working Groups as such. Where the **Permanent RAC** engages a provider because no relevant Working Group exists, references to a Working Group or to a Steward in this §6 and in §6.5 are read as references to the Permanent RAC. It is bound by the same thresholds, the same RFP process, the same renewal conditions, and the same challenge right.
+
+**Transition Period exception.** The Transition RAC is not bound by this §6 or §6.5 when selecting contributors under its narrow formation mandate (Operating Agreement §6.5). Formation work is time-limited and precedes the community depth an RFP process assumes. Its engagements remain subject to the publication duties attaching to Transition RAC resolutions, to the cost models and payment documents in the Execution & Treasury Actions Policy §7, and to the KYC requirement in §3.5 of this policy. An engagement so made that is still in effect at the Activation Date is treated under §6.5.5.
 
 ### 6.1 RFP Publication
 
@@ -173,6 +177,15 @@ Working Group Stewards evaluate submissions against the published criteria.
 * Evaluates the submissions against the published criteria and publishes a written recommendation to the governance forum
 
 The Stewards retain the selection decision. Where their selection departs from the panel's recommendation, they must publish their reasons for doing so alongside the selection rationale below.
+
+**Where the Permanent RAC is the engaging body** (§6), it cannot appoint a panel independent of itself. In that case the panel is drawn from the Permanent RAC's own seated members, at no fewer than the **Independent Review Panel Minimum Size (RAC engagements)** (DAO Parameters §7). Panel members:
+
+* May not have prepared the RFP or participated in evaluating the submissions, and may not hold a disclosed conflict in relation to a bidder
+* Recuse themselves from the selection decision, which is taken by the remaining seated members under the RAC's ordinary decision rule (DAO Parameters §5.1)
+
+The reduced panel size is required rather than merely convenient: the Permanent RAC has a minimum of five seated members, and a RAC decision may not be taken with fewer than three non-recused members (DAO Parameters §5.1). A panel of two leaves exactly three to decide at minimum strength; a larger panel would deadlock the body it is meant to advise.
+
+This is a weaker separation than a panel drawn from outside the engaging body. It is accepted because the alternative — no review at all on RAC engagements — is worse, and because it lapses in practice once Working Groups are constituted and the ordinary route applies.
 
 Selection must be:
 

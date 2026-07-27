@@ -376,7 +376,9 @@ Individuals or entities receiving compensation from the DAO for work, services, 
 - Code of Conduct §3.3 (KYC/AML acceptance required before first payment)
 
 **Appointment**
-Selected by the relevant Working Group (within a DAO-approved budget). During the Transition Period, where no relevant Working Group exists, the Transition RAC may select contributors under its narrow formation mandate.
+Selected by the relevant Working Group (within a DAO-approved budget), subject to the RFP Threshold and RFP process in the Contributor Compensation Policy §4.3 and §6.
+
+Where no relevant Working Group exists, the RAC may select contributors. During the **Transition Period** the Transition RAC does so under its narrow formation mandate and is **not** bound by the RFP process (Contributor Compensation Policy §6, Transition Period exception). From the **Activation Date** the Permanent RAC is bound by the same thresholds, RFP process, renewal conditions, and challenge right as a Working Group, with the reduced review-panel arrangement in Contributor Compensation Policy §6.3.
 
 **Term**
 Per engagement or grant agreement.
