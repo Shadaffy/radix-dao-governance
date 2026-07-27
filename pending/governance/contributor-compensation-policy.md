@@ -164,7 +164,15 @@ Submissions must include:
 
 ### 6.3 Evaluation and Selection
 
-Working Group Stewards evaluate submissions against the published criteria. For engagements at or above the **Independent Review Panel Threshold** (DAO Parameters §7), an independent review panel may be required.
+Working Group Stewards evaluate submissions against the published criteria.
+
+**Independent review panel.** For engagements at or above the **Independent Review Panel Threshold** (DAO Parameters §7), an independent review panel **is required**. The panel:
+
+* Is appointed by the RAC, and comprises no fewer than the **Independent Review Panel Minimum Size** (DAO Parameters §7)
+* May not include a Steward of the commissioning Working Group, and may not include any person holding a disclosed conflict under the Conflict of Interest Policy in relation to a bidder
+* Evaluates the submissions against the published criteria and publishes a written recommendation to the governance forum
+
+The Stewards retain the selection decision. Where their selection departs from the panel's recommendation, they must publish their reasons for doing so alongside the selection rationale below.
 
 Selection must be:
 
@@ -208,7 +216,10 @@ A renewal at a price above the original may be made only where:
 * The RAC confirms under §6.5.3 that the §6.5.1 conditions are met and that the justification addresses that question
 * The renewal notice and challenge window in §6.5.3 apply
 * The scope remains unchanged — this exception covers price only
+* The **cumulative** increase across all renewals of the engagement does not exceed the **Engagement Renewal Price Increase Cap** (DAO Parameters §7). The cap is measured against the price at original award, not against the price at the preceding renewal, so successive increases cannot compound past it
 * The increase does not take the engagement's rolling 12-month value across the RFP Threshold or the Independent Review Panel Threshold (DAO Parameters §7) for the first time. Where it would, this exception is unavailable and the engagement must be competed under §6
+
+Where a proposed increase would exceed the cap, this exception is unavailable: the engagement must be competed under §6, or continued under a Governance Proposal as provided in §6.5.4.
 
 #### 6.5.3 Renewal Notice, Challenge, and Confirmation
 
