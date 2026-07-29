@@ -180,6 +180,9 @@ These parameters carry the activation and transition mechanics that the **Charte
 | -------------------------- | ------------------ |
 | Veto Window                | 48 hours from RAC result publication |
 | Veto Filing Threshold      | 0.1% of eligible voting power (all sources per §8A) held by the filer, verified against the most recent governance snapshot. The RAC's review of the challenge grounds (Proposal & Voting Framework §8.4) is the substantive filter; no aggregate participation requirement applies |
+| Veto Filing Channel        | The designated veto filing addresses recorded in the **On-Chain Identifiers & Verification Policy §3** — the Governance Operator mailbox as primary recipient, with the RAC mailbox in copy, so that a filing does not depend on any single role holder. **Interim measure pending a governance filing interface.** This parameter is defined by reference so the Channel may be migrated to an interface by parameter update, without amending Proposal & Voting Framework §8.4. Publication to the Official Venue is an independently valid filing route at all times (Proposal & Voting Framework §8.4) |
+| Channel Publication Window | 6 hours from receipt — the Governance Operator publishes filings received at the Channel verbatim to the Official Venue, with the receipt timestamp (Proposal & Voting Framework §8.4) |
+| Holding Proof Cure Period  | 12 hours from RAC notification — period allowed to complete an incomplete holding proof. Runs inside the RAC's 48-hour determination window and does not extend it (Proposal & Voting Framework §8.3A) |
 | Optional Stake Requirement | None               |
 
 ---

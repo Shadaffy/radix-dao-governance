@@ -194,6 +194,11 @@ Response:
 * No new proposals may enter the voting phase until the primary interface is restored or an alternative interface is confirmed
 * Draft and review periods may continue
 
+**Veto filing is unaffected:**
+
+* Veto filing does not depend on the governance interface. Filings are made to the Veto Filing Channel or by publication to the Official Venue under **Proposal & Voting Framework §8.4**, either of which is independently valid
+* An interface outage therefore does not extend, suspend, or toll a veto window. Where a result has been published and its veto window is running, the window runs to its close on the ordinary timetable
+
 **If outage exceeds 7 days:**
 
 * The RAC may invoke the Emergency & Safeguards Policy if time-sensitive matters (e.g., expiring treasury actions, security incidents) cannot wait for restoration

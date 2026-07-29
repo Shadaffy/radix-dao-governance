@@ -34,6 +34,7 @@ The Permanent RAC may:
 * Instruct remaining Treasury Signers to execute a passed proposal under the forced-execution backstop (Governance Continuity Framework §4.2) when the 10-business-day window from veto window close has elapsed with no valid hold on record
 * Instruct the Governance Operator to elevate an eligible passed Temperature Check under the elevation backstop (Governance Continuity Framework §4.2A) where the TC Elevation Window has elapsed with no documented grounds on record, and trigger backstop execution where the instruction is not complied with
 * Maintain the Tier 2 voting power source register (DAO Parameters §8A), including adding or removing supplementary sources by routine decision, subject to the 30-day advance notice and `effectiveFrom` requirements defined there
+* Hold and monitor the copy address of the **Veto Filing Channel** (On-Chain Identifiers & Verification Policy §3), and publish filings received to the Official Venue where the Governance Operator is unavailable or is the subject of the filing (**Proposal & Voting Framework §8.4**). The RAC may not filter, withhold, delay, or edit a filing, including one directed at its own conduct
 * Provide or withhold the Permanent RAC's prior written consent, by the majority in **DAO Parameters §3A.4**, to any post-activation amendment of an Entrenched Provision that affects the Permanent RAC's constitutional role, composition, election mechanics, or removal procedure (**Operating Agreement §12.2(d)(iii)**)
 
 ---

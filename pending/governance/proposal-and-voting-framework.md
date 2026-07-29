@@ -327,14 +327,31 @@ Any Governance Participant holding at least the Veto Filing Threshold (DAO Param
 
 ---
 
+### 8.3A Identification and Proof of Holding
+
+A veto filing must identify the filer and evidence the Veto Filing Threshold. The filing must state:
+
+* the proposal identifier and the date of RAC result publication
+* each account address relied on to meet the Veto Filing Threshold
+* for each such address, a message signed by that account over the proposal identifier
+
+The RAC verifies the signatures and the aggregate holding against the most recent governance snapshot.
+
+A filing that meets the requirements of §8.2 and §8.4 but carries an incomplete holding proof is not rejected outright. The RAC notifies the filer and allows the **Holding Proof Cure Period** (DAO Parameters §4) to complete it. The cure period runs inside the RAC's determination window under §8.4 and does not extend it. A filing whose proof is not completed within the cure period lapses.
+
+---
+
 ### 8.4 Process
 
-1. A veto challenge must be filed via the governance interface within the veto window defined in **DAO Parameters §4**
-2. The filing must cite the specific Charter section or governance rule being violated
-3. The RAC reviews the challenge and issues a determination within **48 hours** of filing:
+1. **Filing.** A veto challenge is filed either by transmission to the **Veto Filing Channel** (DAO Parameters §4) or by publication of the filing to the **Official Venue**. The two routes are independently valid: a filer who uses the Channel is not required to publish, and a filer who publishes is not required to use the Channel. Filing is effective on the earlier of transmission and publication, and must occur within the veto window defined in **DAO Parameters §4**. Where recorded transmission time and recorded receipt time differ, the earlier governs.
+2. **Content.** The filing must cite the specific Charter section or governance rule alleged to be violated, and must meet the identification and holding-proof requirements in §8.3A.
+3. **Publication of Channel filings.** The Governance Operator publishes every filing received at the Channel verbatim to the Official Venue, together with its receipt timestamp, within the **Channel Publication Window** (DAO Parameters §4). Failure to publish does not invalidate the filing and is a reportable breach of the Governance Operator's duties under the Delegate Mandate. Where the Governance Operator is unavailable, or is the subject of the filing, the RAC publishes.
+4. **Determination.** The RAC reviews the challenge and issues a determination within **48 hours** of the effective filing time:
    - If the RAC determines the proposal violates governance rules, the proposal is **halted** pending a corrective resubmission
    - If the RAC determines no violation exists, the proposal **proceeds** to execution
-4. The DAO may override any RAC determination via a Governance Process proposal
+5. **Override.** The DAO may override any RAC determination via a Governance Process proposal
+
+The Channel is a convenience route, not a gate. Because publication to the Official Venue is independently sufficient at all times, no operator of the Channel — and no failure, filter, or unavailability of it — can prevent a veto from being validly filed.
 
 ---
 
@@ -404,6 +421,7 @@ The following are defined separately and may be updated:
 * Approval thresholds
 * Minimum Affirmative Support floors (DAO Parameters §3.3A)
 * Cooldown periods
+* Veto parameters, including the Veto Filing Channel, Channel Publication Window, and Holding Proof Cure Period (DAO Parameters §4)
 
 ---
 

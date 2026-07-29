@@ -203,7 +203,7 @@ Subject to CoI Policy §2–4. In addition, an execution-specific rule applies: 
 ### 2.5 Delegates — Governance Operator
 
 **Authority & Scope**
-Operates the Governance Platform: elevates approved Temperature Checks to Governance Proposals via the Owner Badge; updates governance parameters per DAO vote; maintains the Governance smart contract. May not elevate a TC that has not met approval conditions, and may not modify, delay, or suppress an eligible elevation without a Governance Proposal (Proposal & Voting Framework §6.2).
+Operates the Governance Platform: elevates approved Temperature Checks to Governance Proposals via the Owner Badge; updates governance parameters per DAO vote; maintains the Governance smart contract. May not elevate a TC that has not met approval conditions, and may not modify, delay, or suppress an eligible elevation without a Governance Proposal (Proposal & Voting Framework §6.2). Holds and monitors the primary Veto Filing Channel address and publishes filings received verbatim to the Official Venue within the Channel Publication Window (Delegate Mandate §2.2; Proposal & Voting Framework §8.4; DAO Parameters §4); may not filter, withhold, delay, or edit a filing.
 
 **Defined In**
 - Delegate Mandate §2.2 (Governance Operations function definition and scope)
@@ -219,9 +219,9 @@ DAO vote at any time (Delegate Mandate §5).
 
 **Policies That Apply**
 - Delegate Mandate — Delegate structure (§3), standard of conduct (§4), removal (§5)
-- Proposal & Voting Framework — TC elevation, GP administration
-- DAO Parameters §3–3.5 — governance parameter values maintained by this role
-- On-Chain Identifiers & Verification Policy §3–4 — the governance component / Owner Badge register and how they are set up, used, and publicly verified
+- Proposal & Voting Framework — TC elevation, GP administration, veto filing and publication (§8.4)
+- DAO Parameters §3–3.5 — governance parameter values maintained by this role; §4 — veto filing parameters
+- On-Chain Identifiers & Verification Policy §3–4 — the governance component / Owner Badge register, the Veto Filing Channel, and how they are set up, used, and publicly verified
 - Elections & Role Governance Policy §11 — vacancy handling and replacement election procedure
 - Conflict of Interest Policy §2–4 — disclosure and recusal obligations
 - Code of Conduct §3–6 — behavioral standards

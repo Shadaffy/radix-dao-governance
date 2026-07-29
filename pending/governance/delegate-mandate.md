@@ -68,6 +68,14 @@ contract and recorded in the **On-Chain Identifiers & Verification Policy §3** 
 whatever arrangement is chosen must enable an elevation or badge rotation to proceed without the
 Governance Operator's cooperation, sufficient to give effect to that backstop.
 
+**Veto Filing Channel.** The Governance Operator holds the primary Veto Filing Channel address
+recorded in the **On-Chain Identifiers & Verification Policy §3**, monitors it, and publishes every
+filing received verbatim to the Official Venue with its receipt timestamp within the Channel
+Publication Window (**DAO Parameters §4**). The Governance Operator may not filter, withhold, delay,
+or edit a filing. Failure to publish does not invalidate the filing (**Proposal & Voting Framework
+§8.4**) and is a breach of the standard of conduct in §4. Where the Governance Operator is unavailable, or is the
+subject of a filing, the RAC publishes from the copy address.
+
 ### 2.3 Legal Signatory
 
 Sign contracts, continuity statements, and other legal instruments on behalf of the Company, only as
