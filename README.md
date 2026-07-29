@@ -47,10 +47,11 @@ See [PROPOSALS.md](PROPOSALS.md) for the full record of proposals, what each one
 
 ## Reading guides (companion, non-operative)
 
-For readers approaching the framework for the first time, two plain-language companion guides explain the **purpose** of each document in non-legal terms. They are **not** part of the governance framework, are not ratified by GP-PRE-1, and have no legal force — where a guide and an operative document differ, the operative document prevails. The authoritative document list lives in [`pending/README.md`](pending/README.md).
+For readers approaching the framework for the first time, three plain-language companion guides explain the **purpose** of each document in non-legal terms, and the reasoning behind one choice the framework leaves open. They are **not** part of the governance framework, are not ratified by GP-PRE-1, and have no legal force — where a guide and an operative document differ, the operative document prevails. The authoritative document list lives in [`pending/README.md`](pending/README.md).
 
 - [Charter Reading Guide](pending/constitutional/charter-reading-guide.md) — why each section of the Charter exists.
 - [Policy Library Reading Guide](pending/policy-library-reading-guide.md) — a one-line purpose for every policy and framework.
+- [Election Methods Guide](pending/governance/election-methods-guide.md) — the considerations bearing on the choice between the two election mechanisms.
 
 ---
 

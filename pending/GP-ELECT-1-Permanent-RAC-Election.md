@@ -25,7 +25,7 @@
 |---|---|
 | **Title** | Permanent RAC Election |
 | **Proposal ID** | GP-ELECT-1 |
-| **Category** | Election (two-stage) |
+| **Category** | Election — mechanism to be selected and stated before submission (see §3) |
 | **Author(s)** | Transition RAC (administering the election during the Transition Period) |
 | **When** | During the Advisory Governance Period, after framework ratification (GP-PRE-1) |
 
@@ -46,10 +46,17 @@ the three binding community acts of the Advisory Governance Period (Charter §4A
 
 ## 3. Rules this election runs on
 
-- **Process:** two-stage Approval Voting → confirmation, per **Elections & Role Governance Policy §§6–7**
-  (and §17 founding provisions).
+- **Process:** an Election Proposal under **Elections & Role Governance Policy §§6–7** (and §17 founding
+  provisions), run under one of the two operative mechanisms — **Majority Judgment** (§7A; Proposal &
+  Voting Framework §6.2.4) or **two-stage Approval Voting → confirmation** (§7.1–§7.3; §6.2.5).
+  **[TODO — the mechanism must be selected and named here before submission.]** The Transition RAC
+  selects it when it creates the election, and it is stated on the Temperature Check ballot. Because this
+  election constitutes the body that replaces the Transition RAC, the selection and the reasons for it
+  should be published with the Nomination & Discussion Window, before the nominee field is known.
 - **Seat minimum, KYC-before-seating, fixed election timing:** **DAO Parameters §3A.5**.
-- **Composition / term / thresholds:** **DAO Parameters §5.1, §6B** (Election Stage 2 quorum/approval).
+- **Composition / term / thresholds:** **DAO Parameters §5.1, §6B** — Election Stage 2 quorum/approval
+  under the two-stage mechanism, or Minimum Participation for Elections and MJ Minimum Median Grade
+  under Majority Judgment.
 - **Mandate of the elected body:** **RAC Mandate**; **OA Article VII**.
 
 ---
@@ -61,7 +68,11 @@ the three binding community acts of the Advisory Governance Period (Charter §4A
 - [ ] Confirm the election timeline within the fixed window (DAO Parameters §3A.5) and the seating date
       relative to the Activation Statement (OA §8.5).
 - [ ] Nomination/candidate list and on-chain addresses.
-- [ ] Stage 1 / Stage 2 ballot configuration per Proposal & Voting Framework §4.5 / §6.2.
+- [ ] Select the election mechanism (Majority Judgment or two-stage) and record the reasons (§3).
+- [ ] Ballot configuration for the selected mechanism per Proposal & Voting Framework §4.5 / §6.2 —
+      grade scale and Minimum Median Grade under Majority Judgment, or Stage 1 / Stage 2 configuration
+      under the two-stage mechanism.
+- [ ] Temperature Check ballot naming the candidate list and the selected mechanism (PVF §3.2).
 - [ ] Voting options and result-determination/publication plan.
 
 ---

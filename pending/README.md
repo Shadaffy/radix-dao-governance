@@ -104,10 +104,11 @@ with the community and a new legal wrapper would similarly recognise it.
 4. **[governance/proposal-and-voting-framework.md](governance/proposal-and-voting-framework.md)** — how decisions are made
 5. **[parameters/dao-parameters-registry.md](parameters/dao-parameters-registry.md)** — all numerical thresholds and limits (incl. §3A activation parameters)
 
-**New to the framework?** Two plain-language companion guides explain the *purpose* of each document for non-lawyers. They are companion aids only — not part of the framework, not ratified by GP-PRE-1, and where a guide and an operative document differ, the operative document prevails.
+**New to the framework?** Three plain-language companion guides explain the *purpose* of each document for non-lawyers, and the reasoning behind one choice the framework leaves open. They are companion aids only — not part of the framework, not ratified by GP-PRE-1, and where a guide and an operative document differ, the operative document prevails.
 
 - [Charter Reading Guide](constitutional/charter-reading-guide.md) — why each section of the Charter exists.
 - [Policy Library Reading Guide](policy-library-reading-guide.md) — a one-line purpose for every policy and framework.
+- [Election Methods Guide](governance/election-methods-guide.md) — the considerations bearing on the choice between the two election mechanisms.
 
 ---
 

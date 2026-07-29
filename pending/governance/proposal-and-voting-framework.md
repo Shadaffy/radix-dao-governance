@@ -43,6 +43,10 @@ All proposals follow a three-stage pipeline:
 * A failed TC resets the standard 7-day cooldown (DAO Parameters §3.4) before a new TC may be submitted for the same proposal
 * Duration defined in DAO Parameters §3.1
 
+**The Temperature Check in an Election proposal.** For Election proposals (§4.5) the Temperature Check carries an additional function: it is the community's approval of the candidate list. The Temperature Check and the election vote are created in a single operation on the governance platform, over one candidate list that is immutable from creation, so the list put to the Temperature Check is provably the list put to the election vote. The Temperature Check ballot states the election mechanism selected for that election (§4.5). A failed Temperature Check is terminal for that election: no election vote opens, no seats are filled, and the standard 7-day cooldown (DAO Parameters §3.4) runs before a new Temperature Check may be submitted for the same role.
+
+The Temperature Check is a **list-level** gate — it asks whether this set of candidates is an acceptable field to hold an election over. Objection to an individual candidate is expressed at the election vote itself, through the Minimum Median Grade under Majority Judgment (§6.2.4) or the Stage 2 approval threshold under the two-stage process (§6.2.7). A voter should not reject an entire field over one candidate they would decline.
+
 **Temperature Checks used outside this pipeline.** A Temperature Check is also used as a standalone instrument in two places, neither of which is a Stage 2 pipeline TC and neither of which elevates to a Governance Proposal on passing: the Community Accountability Hearing request (RAC Mandate §11B) and the Steward Consultation Temperature Check (Working Group Framework §7.2). Where a Steward Consultation TC is declined, the matter may proceed only as a full Treasury & Budget proposal after the standard cooldown in DAO Parameters §3.4 — that proposal runs the complete pipeline, including its own Stage 2 Temperature Check under this section.
 
 ---
@@ -113,11 +117,28 @@ Any Executable proposal that requires compensated work — including fixed-rate 
 
 Selection of candidates for DAO roles: RAC members, Working Group Stewards, Strategic Coordination WG members, and Treasury Signers.
 
-Election proposals use a modified version of the standard pipeline (§3): the Draft Discussion and Nomination Period are merged into a single combined Nomination & Discussion Window (DAO Parameters §3.1 and §6B), and the Temperature Check is compressed to a minimum of 1 day (DAO Parameters §3.1). The election pipeline is therefore: Nomination & Discussion Window → Temperature Check → Stage 1 Shortlisting → Stage 2 Confirmation.
+Election proposals use a modified version of the standard pipeline (§3): the Draft Discussion and Nomination Period are merged into a single combined Nomination & Discussion Window (DAO Parameters §3.1 and §6B), and the Temperature Check is compressed to a minimum of 1 day (DAO Parameters §3.1). The Temperature Check for an Election proposal also serves as the community's approval of the candidate list (§3.2).
+
+**Election mechanisms**
+
+Two election mechanisms are operative, and an election runs under one of them:
+
+* **Majority Judgment** (§6.2.4) — a single graded round in which voters grade every candidate. Pipeline: Nomination & Discussion Window → Temperature Check → Majority Judgment election vote → (single reduced-quorum rerun if the first round misses quorum).
+* **Two-Stage Approval Voting → Confirmation** (§6.2.5) — Approval Voting shortlisting followed by a per-candidate confirmation vote. Pipeline: Nomination & Discussion Window → Temperature Check → Stage 1 Shortlisting → Stage 2 Confirmation.
+
+Neither mechanism is subordinate to the other and neither requires activation. The RAC selects the mechanism for an election when it creates that election on the governance platform, and the selected mechanism is stated on the Temperature Check ballot (§3.2) so that the community approves the candidate list knowing how that list will be voted on. The Election Methods Guide is a companion aid describing the considerations that bear on this choice; it is not part of this framework and imposes no requirement.
+
+Both mechanisms use the same eligible voting power and the same snapshot (§6.1), are preceded by the same Nomination & Discussion Window and Temperature Check, are published by the RAC under the same result determination procedure (§6.5), and refer unfilled seats to the same vacancy handling process (Elections & Role Governance Policy §11; founding election: §17.1).
+
+**Majority Judgment Election Process**
+
+The candidate list approved at the Temperature Check is put to a single graded vote (§6.2.4). Voters assign a grade to every candidate from the scale in DAO Parameters §3.5; a ballot that omits any candidate is invalid. Candidates are ranked by median grade, and a candidate is electable only if their median grade meets the MJ Minimum Median Grade (DAO Parameters §6B).
+
+Seats are filled by electable candidates in descending median-grade order — the median-grade ranking is itself the seating order. Where a candidate ranked within the open seats is not electable, that seat passes to the next-ranked electable candidate. Electable candidates who are not seated are placed on the reserve list for the role (Elections & Role Governance Policy §7.5). If electable candidates are exhausted before the seats are, the election stands for the seats it filled and each remaining seat is referred to vacancy handling.
+
+If the round closes below the Minimum Participation for Elections (DAO Parameters §6B), the RAC either re-runs the election once over the extended MJ Rerun Voting Period — at the same quorum and the same Minimum Median Grade, the remedy being time rather than a lower bar (§6.2.4) — or restarts the election under the two-stage mechanism (§6.2.5), which requires a new Temperature Check. The RAC publishes which route it has taken and its reasons. That choice arises only once a round has closed below quorum; a live election vote may not be halted. At most one rerun is permitted (Max MJ Reruns, DAO Parameters §6B). If the rerun also closes below quorum, no candidate is elected and all seats are referred to vacancy handling.
 
 **Two-Stage Election Process**
-
-The current election mechanism is a two-stage Approval Voting → confirmation process. A Majority Judgment upgrade is described under §6.2.4 and may be activated by future Governance Proposal once the required tooling is available; until activation, the two-stage process below is the operative procedure.
 
 **Stage 1 — Shortlisting (Approval Voting)**
 An Approval Voting poll (§6.2.2) is published listing all eligible nominees. Voters may select any number of nominees they approve. The top candidates by total voting power — up to the shortlist size defined in DAO Parameters §6B — advance to Stage 2. The Stage 1 result is procedurally binding. Stage 1 has no separate quorum requirement; the Temperature Check result is sufficient. The minimum winner threshold (DAO Parameters §3.5) does not apply; candidates are ranked by total voting power only. If two or more candidates are tied in voting power for the last available shortlist slot, all tied candidates are included in the shortlist; the shortlist size is expanded by the number of additional tied candidates.
@@ -154,7 +175,9 @@ All proposals must include:
 ### 6.1 Voting Power
 
 * Voting power is determined at a fixed snapshot
-* Snapshot occurs at start of voting period
+* The snapshot is fixed at proposal creation — the operation that creates the Temperature Check on the governance platform and, for an Election proposal, creates the election and its Temperature Check together (§3.2). It is not taken when voting opens
+* The snapshot is set by the system as a consequence of creation, not chosen by the RAC or the proposer
+* One snapshot governs every stage of a proposal: the Temperature Check, the proposal or election vote, and any rerun of that vote. Stage 2 confirmation votes and a Majority Judgment rerun therefore resolve voting power against the same snapshot as the Temperature Check that preceded them
 * Measured in XRD-equivalent units; eligible holdings include:
   * Eligible holdings are defined in two tiers (DAO Parameters §8A):
     * **Tier 1 — Constitutional floor (always eligible):** Liquid XRD held directly; LSU converted to XRD-equivalent via the LSU redemption rate at snapshot
@@ -199,19 +222,60 @@ This section number is retained, rather than renumbered, so that references to �
 
 #### 6.2.4 Majority Judgment
 
-* Applies to: Election Proposals (§4.5), once tooling is available
-* Voters assign a grade to each candidate from a defined scale (see DAO Parameters §3.5)
-* The winner is the candidate with the highest median grade across all voter submissions
-* In multi-seat elections, the top candidates by median grade fill all open seats — the median-grade ranking is itself the seating order, so the oversubscribed-confirmation question addressed for the two-stage process in §4.5 and Elections & Role Governance Policy §7.2.1 (seating by Stage 1 power), and the reserve-list mechanism that reuses surplus confirmations (Elections & Role Governance Policy §7.5), do not arise here and are specific to the two-stage process
-* Tie-break: one ballot showing the tied candidates' median grade is removed from each tied candidate in turn; repeat until the tie is broken
-* Majority Judgment activates once the required tooling is in place; the RAC confirms activation by publishing a notice to the governance forum. Until activation, elections use the two-stage process in §6.2.5.
-* Because election proposals are excluded from the Governance Continuity Fallback (DAO Parameters §9A), any proposal activating Majority Judgment must define its own low-turnout / quorum-failure handling (the §7.3 quorum-held-over rerun is two-stage-specific) and may define a Majority Judgment reserve list, so activation cannot leave those gaps unfilled.
+**Applies to:** Election Proposals (§4.5), as one of the two operative election mechanisms. Majority Judgment requires no activation vote, activation notice, or feature toggle.
+
+**Definitions.**
+
+**Grade** means one of the five ordered values in the grade scale (DAO Parameters §3.5), from Excellent (highest) to Poor (lowest). The order of the scale is normative: every comparison in this section is a comparison of rank on that scale.
+
+**Median grade** means, for a candidate, the highest grade at which the voting power that graded the candidate at or above that grade reaches or exceeds half the voting power cast for that candidate. It is computed by accumulating voting power from the highest grade downward and taking the first grade at which the running total reaches half. (Where the literature on this method refers to a candidate's "majority grade," it means the same quantity.)
+
+**Minimum Median Grade** means the lowest median grade at which a candidate may be seated (DAO Parameters §6B). It is the Majority Judgment analogue of the approval threshold: a ranking alone does not seat a candidate the electorate broadly grades below the floor.
+
+**Electable** means a candidate whose median grade is at or above the Minimum Median Grade in force for the round.
+
+**Ballot.**
+
+* Voters assign exactly one grade to every candidate in the election. A ballot that leaves any candidate ungraded is invalid and is not counted
+* Each voter's full voting power is applied to each grade that voter assigns
+* Because every valid ballot grades every candidate, the voting power measured is the same for every candidate in the round. Median grades are therefore directly comparable, and a candidate cannot be advantaged by being graded on fewer ballots than a rival
+
+**Result.**
+
+* Each candidate's median grade is computed as defined above, and candidates are ranked by median grade in descending order, ties broken as below
+* A candidate is seated only if electable. The median-grade ranking is itself the seating order, so the oversubscribed-confirmation question addressed for the two-stage process in §4.5 and Elections & Role Governance Policy §7.2.1 — where confirmation establishes eligibility and a separate ranking determines seating — does not arise under Majority Judgment
+* Where a candidate ranked within the open seats is not electable, that seat passes to the next-ranked electable candidate. Where electable candidates are exhausted before the seats are, the election stands for the seats it filled and each remaining seat is referred to vacancy handling (Elections & Role Governance Policy §11; founding election: §17.1)
+* Electable candidates who are not seated are placed on the reserve list for the role, ranked by median grade and by the tie-break order below (Elections & Role Governance Policy §7.5)
+
+**Tie-break.** One ballot showing the tied candidates' median grade is removed from each tied candidate in turn; repeat until the tie is broken. Because voting power is weighted, "one ballot" means one voter's vote record, and the record removed is that of the account with the smallest voting power whose grade for that candidate equals the candidate's current median grade — the removal that least distorts the result. The procedure operates on a copy of the vote data: the recorded grades are not altered by it, only the resulting ranking and seat assignment. Given the same votes and voting powers the procedure must produce the same outcome.
+
+A tie is broken only so far as the outcome requires: a tie that does not straddle the seat boundary or the electable boundary needs no resolution. If the procedure exhausts the ballots of all tied candidates without resolving a tie that does affect the outcome, the RAC adjudicates the tie and records its determination as part of the published result (§6.5). This adjudication is a defined step of this mechanism, not a discretionary power exercised outside it.
+
+**Quorum and low-turnout handling.** Election proposals are excluded from the Governance Continuity Fallback (DAO Parameters §9A), so Majority Judgment carries its own low-turnout handling. It does **not** follow the two-stage pattern of a reduced rerun quorum, for the reason given below.
+
+* The round is valid if participation meets the Minimum Participation for Elections (DAO Parameters §6B)
+* Where a round closes below quorum, the RAC either re-runs the election under this section or restarts it under the two-stage mechanism (§6.2.5), as provided below
+* A rerun under this section runs at the **same** quorum and the **same** Minimum Median Grade as the round it follows, over the extended MJ Rerun Voting Period (DAO Parameters §6B). The remedy the rerun offers is time: the same electorate, the same snapshot (§6.1), the same candidate list and seat count, and the same thresholds, with twice as long to participate
+* The RAC publishes a rerun notice when the rerun opens; the extended voting period runs from that notice
+* At most one rerun is permitted (Max MJ Reruns, DAO Parameters §6B). If the rerun also closes below quorum, no candidate is elected and all seats are referred to vacancy handling (Elections & Role Governance Policy §11; founding election: §17.1)
+
+*Why the quorum is not reduced.* The two-stage rerun can safely lower its quorum because it raises its approval threshold at the same time, and a share-of-votes threshold genuinely constrains a voting block — it must bring a larger fraction of those who voted with it. Majority Judgment has no share threshold to raise. A block holding more than half the voting power cast determines the median grade and may name any grade it chooses, so raising the Minimum Median Grade does not constrain it. Reducing the quorum would therefore lower the voting power needed to control the result with nothing offsetting it, and would make the rerun cheaper to control than the round it exists to rescue — an incentive to suppress turnout in the first round. The quorum and the electability floor accordingly hold constant across both rounds.
+
+**Restarting under the two-stage mechanism.** Where a Majority Judgment round closes below quorum, the RAC may instead restart the election under the two-stage mechanism (§6.2.5) rather than re-run under this section. A restart is a new election: it requires a new Temperature Check approving the candidate list (§3.2), and the Stage 1 and Stage 2 thresholds apply unmodified. It carries nothing over from the Majority Judgment election — not the grades, the medians, or the ranking — and the earlier election is not converted, amended, or continued. The RAC publishes which route it has taken and its reasons.
+
+Neither route is automatic. A round that closes below quorum ends there: the rerun does not open, and the restart does not occur, unless the RAC acts. A governance platform must not schedule, date, or open a rerun of its own motion, because doing so would resolve the choice this section reserves to the RAC before the RAC has made it.
+
+This choice arises **only** after a round has closed below quorum. A Majority Judgment round that is open, or that has closed with quorum met, is not subject to it — there is no power to halt a live election vote or to set aside a result that met quorum.
+
+**Number of candidates.** Majority Judgment places no requirement on the number of candidates relative to the number of seats, and in particular does not require that a candidate be capable of losing on rank. The Minimum Median Grade supplies that possibility independently of the ranking: where the candidates are no more numerous than the seats, the election is a quality test in which any candidate the electorate grades below the floor is not seated and the seat is referred to vacancy handling. An election with as many candidates as seats, or fewer, is therefore a valid Majority Judgment election.
+
+**Denominators.** Majority Judgment produces graded results rather than a Yes/No tally. Participation and the treatment of Decisive Votes for this vote type are defined in §6.3.
 
 ---
 
 #### 6.2.5 Two-Stage Elections
 
-* Applies to: Election Proposals (§4.5) — the operative election mechanism until Majority Judgment (§6.2.4) is activated
+* Applies to: Election Proposals (§4.5), as one of the two operative election mechanisms, alongside Majority Judgment (§6.2.4)
 * Stage 1 uses Approval Voting (§6.2.2) for shortlisting — voters may select any number of nominees
 * Stage 2 uses the Confirmation Vote (§6.2.7) for confirmation of each shortlisted candidate
 * Full procedure defined in §4.5 and Elections & Role Governance Policy §7
@@ -242,9 +306,16 @@ This section number is retained, rather than renumbered, so that references to �
 
 **Participation** means the total voting power cast on a proposal, including Abstain. Participation is the measure for all quorum tests and for the absolute participation floor in DAO Parameters §3.2.
 
-**Decisive Votes** means Yes + No, excluding Abstain. Decisive Votes is the denominator for every approval threshold, vote share, ratio, and margin calculation in this framework and in DAO Parameters, unless a provision expressly states otherwise. Where a vote type provides no Abstain option (§6.2.2, §6.2.4, §6.2.6, §6.2.7), Participation and Decisive Votes are equal.
+**Decisive Votes** means Yes + No, excluding Abstain. Decisive Votes is the denominator for every approval threshold, vote share, ratio, and margin calculation in this framework and in DAO Parameters, unless a provision expressly states otherwise. Where a vote type provides no Abstain option (§6.2.2, §6.2.6, §6.2.7), Participation and Decisive Votes are equal.
 
-An Abstain option exists only in the Standard vote type (§6.2.1) — Constitutional, Governance Process, Treasury & Budget, and Executable proposals. No other vote type offers it, and in particular Stage 2 election confirmations do not (§6.2.7).
+**Graded ballots.** Majority Judgment (§6.2.4) is a graded vote type: a voter assigns each candidate a grade, which is neither a Yes nor a No. Two consequences follow, and this section is the provision that expressly states them.
+
+* **Participation** for a Majority Judgment round means the total voting power of all valid ballots cast in that round. Because a valid ballot grades every candidate, participation is a single figure for the round and is the same for every candidate in it. It is measured against the quorum for the round in the ordinary way (DAO Parameters §6B)
+* **Decisive Votes is not used for Majority Judgment.** There is no Yes share to compute and no ratio or margin measured against Decisive Votes. The function that an approval threshold performs for a Yes/No vote type is performed for Majority Judgment by the Minimum Median Grade (§6.2.4), which is a threshold on rank rather than on share. The RAC must apply that test, not the §6.4 default
+
+This is the same construction used in DAO Parameters §3A.4, where a single provision expressly displaces the default denominator and the RAC is directed to apply the stated one.
+
+An Abstain option exists only in the Standard vote type (§6.2.1) — Constitutional, Governance Process, Treasury & Budget, and Executable proposals. No other vote type offers it, and in particular Stage 2 election confirmations do not (§6.2.7). Majority Judgment has no Abstain grade either: a voter who does not wish to support a candidate grades them low, and the grade scale itself carries that expression.
 
 A proposal is valid only if quorum is met. Quorum is measured as Participation expressed as a percentage of eligible voting power — Yes, No, and Abstain votes all count toward it. Abstain therefore counts toward quorum but not toward the approval calculation (§6.2.1).
 
@@ -263,7 +334,7 @@ Approval thresholds vary by proposal type:
 * Treasury: standard majority
 * Temperature Check (TC): simple majority — YES / NO only, no Abstain (see §6.2.6)
 
-All approval thresholds are measured against Decisive Votes (§6.3). Standard votes are additionally subject to the Minimum Affirmative Support floor (DAO Parameters §3.3A), measured against eligible voting power.
+All approval thresholds are measured against Decisive Votes (§6.3). Standard votes are additionally subject to the Minimum Affirmative Support floor (DAO Parameters §3.3A), measured against eligible voting power. Majority Judgment (§6.2.4) is outside this section: it has no approval threshold measured against a denominator, and its equivalent test is the Minimum Median Grade (§6.3, §6.2.4).
 
 Exact thresholds defined in DAO Parameters.
 
@@ -283,7 +354,9 @@ The RAC is responsible for formally determining the outcome of each vote and pub
 
 4. **Determine winner (Approval Voting).** The RAC identifies the option with the highest total voting power and confirms it meets the minimum winner threshold (DAO Parameters §3.5). If no option meets the threshold, the proposal fails.
 
-5. **Publish result.** The RAC publishes the official outcome — including raw results, quorum calculation, threshold applied, and winner determination — within the result publication window (DAO Parameters §3.5). Publication constitutes the official record and opens the 48-hour veto window (§8).
+4A. **Determine result (Majority Judgment).** For a Majority Judgment election (§6.2.4), the RAC computes each candidate's grade distribution and median grade; applies the Minimum Median Grade in force for the round to determine which candidates are electable; ranks candidates by median grade; applies the tie-break where a tie affects the outcome, and adjudicates any tie the tie-break does not resolve; assigns seats in ranking order with fallback advancement past candidates who are not electable; records the reserve list and the number of seats referred to vacancy handling. Where the round closed below quorum, the RAC instead takes one of the two routes in §6.2.4 — opening the single permitted rerun and publishing the rerun notice required there, or restarting the election under the two-stage mechanism — and publishes which route it has taken and its reasons.
+
+5. **Publish result.** The RAC publishes the official outcome — including raw results, quorum calculation, threshold applied, and winner determination — within the result publication window (DAO Parameters §3.5). For a Majority Judgment election the published result must additionally include each candidate's full grade distribution, each candidate's median grade, the Minimum Median Grade applied, the quorum classification for the round, whether a tie-break or an RAC tie adjudication was applied and to which candidates, the seated candidates in ranking order, the reserve list, and any seats referred to vacancy handling. Publication constitutes the official record and opens the 48-hour veto window (§8).
 
 ---
 
@@ -294,6 +367,8 @@ If two proposals conflict and cannot both be implemented:
 * The proposal with the higher YES share of Decisive Votes (§6.3) prevails
 * If the margin between them is less than 5 percentage points, both are invalidated and must be resubmitted as a single proposal with clearly defined alternatives. The margin is measured between the two YES shares of Decisive Votes, so differing Abstain volumes cannot by themselves create or remove a conflict
 * If one proposal passed quorum and the other did not, the one that met quorum prevails regardless of vote share
+
+These rules turn on a Yes share of Decisive Votes and so apply only to vote types that produce one. They do not apply to an Election proposal (§4.5): an election does not compete with another proposal for the same outcome, and a Majority Judgment result has no Yes share to compare (§6.3). Where a passed proposal would abolish, merge, or alter a role for which an election is running, the RAC publishes the conflict and the DAO resolves it by proposal; the election result stands unless and until it is displaced by that proposal.
 
 The RAC flags conflicts at the start of the voting period where possible, so the DAO can be aware before voting closes.
 

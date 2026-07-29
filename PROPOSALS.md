@@ -42,7 +42,7 @@ Under the Operating Agreement, the framework is adopted and activated through a 
 | Field | Value |
 |---|---|
 | **Title** | Permanent RAC Election (Activation Condition 7) |
-| **Category** | Election (two-stage) |
+| **Category** | Election — mechanism to be selected (Majority Judgment or two-stage) |
 | **Status** | Draft scaffold |
 | **Proposal document** | [pending/GP-ELECT-1-Permanent-RAC-Election.md](pending/GP-ELECT-1-Permanent-RAC-Election.md) |
 

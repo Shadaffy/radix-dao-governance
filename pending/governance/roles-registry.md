@@ -119,7 +119,7 @@ Permanent RAC members hold legal Membership in the LLC under OA Article IV (§§
 - Elections & Role Governance Policy (composition, eligibility, nomination, election procedure, reporting)
 
 **Appointment**
-Two-stage Election Proposal process (Proposal & Voting Framework §4.5): Stage 1 shortlisting by Approval Voting, Stage 2 confirmation by standard vote. The first Permanent RAC election is conducted during the Transition Period under the Elections & Role Governance Policy; the election and seating of at least the minimum number of members is a **precondition to the Activation Vote** (OA Schedule 5, condition 7), not itself the endpoint of the Transition Period — which ends on the Activation Date (OA §1.2).
+Election Proposal process (Proposal & Voting Framework §4.5), under one of the two operative mechanisms: Majority Judgment — a single graded round (§6.2.4) — or the two-stage process of Stage 1 shortlisting by Approval Voting and Stage 2 confirmation by Confirmation Vote (§6.2.5, §6.2.7). The mechanism is selected by the RAC when it creates the election and is stated on the Temperature Check ballot. The first Permanent RAC election is conducted during the Transition Period under the Elections & Role Governance Policy; the election and seating of at least the minimum number of members is a **precondition to the Activation Vote** (OA Schedule 5, condition 7), not itself the endpoint of the Transition Period — which ends on the Activation Date (OA §1.2).
 
 **Term & Renewal**
 6 months (DAO Parameters §5.1). Auto-renewed unless a challenge is filed during the challenge window (DAO Parameters §6B). Maximum 4 consecutive terms in the same role (DAO Parameters §6B).
@@ -172,7 +172,7 @@ Treasury Signers execute treasury transactions approved by governance. They are 
 - Charter §4.3 (binding decisions executed through Treasury Signers)
 
 **Appointment**
-During Transition Period: held by the three Transition RAC members as initial signers per OA §§9.10–9.11 (2-of-3 standard / unanimous-of-seated protected, minimum two). Post-transition: two-stage Election Proposal process (Proposal & Voting Framework §4.5). Exactly 5 signers must be elected to support the post-activation 3-of-5 / 4-of-5 thresholds (Delegate Mandate §3; DAO Parameters §6A). KYC required before assuming function.
+During Transition Period: held by the three Transition RAC members as initial signers per OA §§9.10–9.11 (2-of-3 standard / unanimous-of-seated protected, minimum two). Post-transition: Election Proposal process (Proposal & Voting Framework §4.5), under either operative mechanism. Exactly 5 signers must be elected to support the post-activation 3-of-5 / 4-of-5 thresholds (Delegate Mandate §3; DAO Parameters §6A). KYC required before assuming function.
 
 **Term & Renewal**
 Post-transition: 6 months (DAO Parameters §6A, §6B). Auto-renewed unless challenged. Maximum 4 consecutive terms (DAO Parameters §6B).

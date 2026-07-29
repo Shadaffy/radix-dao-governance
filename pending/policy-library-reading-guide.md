@@ -2,7 +2,7 @@
 
 *A companion to the governance framework for non-lawyers. This guide is **not** part of the framework and has no legal force — if anything here seems to differ from a policy, the policy (and above it, the Charter and Operating Agreement) wins. Its only job is to tell you, in one line, **what each document is for** so you know which one to open.*
 
-*For the Charter itself, see the [Charter Reading Guide](constitutional/charter-reading-guide.md). For how the documents rank against each other, see "Document precedence" in the [README](README.md).*
+*For the Charter itself, see the [Charter Reading Guide](constitutional/charter-reading-guide.md). For the choice between the DAO's two election mechanisms, see the [Election Methods Guide](governance/election-methods-guide.md). For how the documents rank against each other, see "Document precedence" in the [README](README.md).*
 
 ---
 
