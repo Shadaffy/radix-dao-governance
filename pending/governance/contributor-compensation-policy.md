@@ -191,15 +191,62 @@ Selection must be:
 
 * Documented with rationale
 * Published on the governance forum
-* Open to community comment for **7 days** before engagement is confirmed
+* Open to community comment for **7 days** before engagement is confirmed. That period is also the Award Challenge Window under §6.3A
 
 Where the engaging body intends to designate the engagement **continuity-critical** (§6.6), the designation and its reasons are published together with the selection rationale and fall within the same 7-day comment period. A designation may not be made after this point (§6.6.1).
 
 ---
 
+### 6.3A Award Challenge
+
+The 7-day comment period in §6.3 is also the **Award Challenge Window** (DAO Parameters §7). A selection is open to challenge during that window and is not confirmed under §6.4 until the window closes with no challenge filed, or any challenge filed is resolved.
+
+**This challenge is grounds-tested, unlike the renewal challenge in §6.5.3, and the difference is deliberate.** At renewal, a challenge succeeds into competition — an outcome the DAO wants, so no grounds test is needed and none is imposed. At award, a challenge succeeds into *re-running a competition that has already happened*: bidders' work discarded, weeks lost, and frequently the same evaluators reaching the same result. The party best placed to file is also the party that lost. A grounds-free right at award would therefore be an obstruction tool in a way the renewal right is not, which is why the two sections differ.
+
+#### 6.3A.1 Standing
+
+Any Governance Participant holding at least the **Award Challenge Filing Threshold** (DAO Parameters §7), verified against the most recent governance snapshot, may file an award challenge.
+
+A **qualified bidder** may not file, but may **refer** information to the reviewing body, which may act on the referral of its own motion or decline to, with reasons published. A qualified bidder is one whose submission was received before the published deadline, met the §6.2 submission requirements, and was not disqualified for conflict non-disclosure — that is, one that was eligible to be evaluated on the merits.
+
+Bidders hold the best information about how an evaluation was actually conducted, and the referral right captures it. They do not hold a suspensive lever, because the disappointed party in a competition is the participant with both the strongest incentive and the weakest claim to disinterest.
+
+#### 6.3A.2 Grounds
+
+An award challenge may be filed only on one or more of the following grounds:
+
+* the evaluation departed from the criteria published under §6.1
+* an undisclosed conflict affected the evaluation or the selection
+* the panel composition breached §6.3 — a Steward of the commissioning Working Group, a conflicted member, or a panel below the applicable minimum size
+* a submission was accepted after the published deadline, or on terms other than those published
+* the awarded scope differs materially from the scope published in the RFP
+* the engagement evades the RFP Threshold through splitting or through the provider-and-affiliated-group aggregation in §4.3
+
+**That a different bidder was preferable is not a ground.** The selection decision belongs to the Stewards under §6.3, and a challenge is a review of how that decision was reached, not a re-run of the commercial judgement — the same discipline the veto observes under Proposal & Voting Framework §8.2.
+
+#### 6.3A.3 Review and Remedies
+
+The RAC reviews a challenge and determines it within the **Award Challenge Determination Window** (DAO Parameters §7). **Where the Permanent RAC is the engaging body** (§6), it does not review a challenge to its own award: the challenge is escalated directly to **Level 4** of the Dispute Resolution & Arbitration Policy and decided by Governance Proposal.
+
+The remedy is proportionate to the defect:
+
+| Defect | Remedy |
+|---|---|
+| Curable and procedural — selection rationale, panel recommendation, or reasons for departing from that recommendation not published | The reviewing body directs cure; the award proceeds once cured |
+| Outcome-affecting, but the submissions themselves remain sound — conflicted evaluator, panel composition breach, criteria misapplied | **Re-evaluation of the submissions already received**, by a panel constituted free of the defect |
+| The award cannot be salvaged — threshold evasion, submissions accepted outside the published terms, awarded scope materially different from the RFP | The award is void and the work is re-competed under §6 |
+
+**Re-evaluation is the ordinary remedy for a sustained challenge.** Most defects lie in who judged or how the criteria were applied, not in the submissions, and re-scoring existing bids with a clean panel resolves those in days rather than repeating the full cycle. Voiding is reserved for defects that reach the competition itself.
+
+Where an award is void and re-competed, the completed competition resets the consecutive renewal count under §6.5.4 in the ordinary way.
+
+Repeated frivolous filings may result in sanctions under the **Code of Conduct §4** and are subject to the Abuse Threshold in **DAO Parameters §6C**.
+
+---
+
 ### 6.4 Engagement Confirmation
 
-Once selected, the engagement is confirmed by a written scope of work document signed (or on-chain acknowledged) by both parties. Payment is only released against this confirmed scope. Where the engagement is designated continuity-critical under §6.6, the designation and the scope it covers are recorded in that document.
+Once selected, the engagement is confirmed by a written scope of work document signed (or on-chain acknowledged) by both parties. Confirmation may not take place while the Award Challenge Window is open or a challenge under §6.3A is unresolved. Payment is only released against this confirmed scope. Where the engagement is designated continuity-critical under §6.6, the designation and the scope it covers are recorded in that document.
 
 ---
 
@@ -219,7 +266,7 @@ An engagement may be renewed for one further term without a new RFP only where *
 * **The scope is unchanged.** Any expansion of scope voids the exemption: the work is a new engagement and the RFP Threshold applies
 * **The price is the same or lower**, except under §6.5.2
 * The renewal term is no longer than the **Maximum Engagement Renewal Term** (DAO Parameters §7), regardless of the length of the original term
-* There is no unresolved performance dispute, no missed-milestone finding under §7, and no Code of Conduct or breach finding against the provider arising during the term
+* There is no unresolved performance dispute (including a published performance finding under §6.7.3), no missed-milestone finding under §7, and no Code of Conduct or breach finding against the provider arising during the term
 * The original engagement was itself awarded in compliance with this policy — through an RFP where one was required, or as a valid direct award below the RFP Threshold — or is a pre-Activation engagement under §6.5.5. A non-compliant award may not be carried forward by renewal
 * The consecutive renewal cap in §6.5.4 has not been reached
 
@@ -310,7 +357,9 @@ A bridge term:
 * carries no price increase — §6.5.2 is unavailable during a bridge
 * is available **once** per engagement; a completed competition starts the count afresh
 
-**The bridge has a hard edge.** Where the competition has not concluded by expiry of the cap, the engagement **ends**. Failure to conclude the competition within the bridge is a reportable finding, must be disclosed in the engaging body's next report under §3.4 (Working Group Framework §8), and is a relevant consideration in any subsequent designation by that body.
+**Challenge to the replacement award.** Where an award concluding a competition run under this section is challenged under §6.3A, the bridge is extended by the duration of the review, up to the **Bridge Challenge Extension** (DAO Parameters §7). Without this, a challenge timed near the end of a bridge would terminate the service by running the review past expiry — achieving through timing precisely what this section exists to prevent. The extension is non-renewable and runs on the same terms as the bridge itself; a second challenge does not extend it again.
+
+**The bridge has a hard edge.** Where the competition has not concluded by expiry of the cap, or of any extension under the preceding paragraph, the engagement **ends**. Failure to conclude the competition within the bridge is a reportable finding, must be disclosed in the engaging body's next report under §3.4 (Working Group Framework §8), and is a relevant consideration in any subsequent designation by that body.
 
 The bridge applies only to a challenge under §6.5.3. It does **not** apply where a proposal funding the engagement is halted under the veto mechanism (Proposal & Voting Framework §8). A veto is grounds-tested and reviewed by the RAC, and halting the funded action is its intended effect; the DAO accepts the resulting continuity exposure rather than blunt its strongest instrument.
 
@@ -329,6 +378,35 @@ A lapse does not terminate a bridge already running. The competition is by then 
 An engagement in effect on the Activation Date (§6.5.5) may be designated continuity-critical within the **Pre-Activation Designation Window** (DAO Parameters §7), measured from that date. The designation is published with reasons and confirmed by the RAC under §6.6.4.
 
 A designation not made within that window is unavailable thereafter, and the engagement is treated as undesignated until a completed competition under §6 opens the question again.
+
+---
+
+### 6.7 Provider Performance Complaints
+
+§6.5.1 makes renewal unavailable where there is an unresolved performance dispute. Nothing else in this framework lets a Governance Participant outside the engagement raise one. This section supplies that input.
+
+Without it, a participant who believes a live provider is underperforming has no route at all, and the only moment at which anything can be done is the renewal challenge window — which may be eleven months away.
+
+#### 6.7.1 Filing
+
+Any Governance Participant holding at least the **Challenge Filing Threshold** (DAO Parameters §6B) may file a performance complaint with the RAC concerning a live engagement, stating the engagement, the conduct or shortfall complained of, and the basis for it. A qualified bidder (§6.3A.1) and any contributor working alongside the engagement may refer information to the RAC on the same subject.
+
+A complaint is handled at **Level 3** of the Dispute Resolution & Arbitration Policy, with the RAC as the reviewing body. **Where the Permanent RAC is itself the engaging body** (§6), it does not review a complaint about a provider it engaged: the complaint is escalated directly to **Level 4** and decided by Governance Proposal, on the same footing as an award challenge under §6.3A.3 and a designation referral under §6.6.4. A body does not assess the performance of its own supplier, whether or not the assessment suspends anything.
+
+#### 6.7.2 No Suspensive Effect
+
+**A complaint does not suspend the engagement, withhold payment, or alter the scope of work.** This is what makes the route safe to use against a continuity-critical provider: the complaint operates on the engagement's *future*, never on its continuity. A shortfall serious enough to warrant stopping work is a milestone dispute under §7, a breach matter under the Code of Conduct, or an emergency under the Emergency & Safeguards Policy — not this section.
+
+#### 6.7.3 Determination
+
+The RAC triages the complaint within the RAC Review Window (**DAO Parameters §6C**) and either:
+
+* dismisses it as unsubstantiated, with published reasons; or
+* publishes a **performance finding** setting out the shortfall and what would resolve it
+
+A published performance finding is an unresolved performance dispute for the purposes of **§6.5.1** until the RAC publishes confirmation that it has been resolved. Renewal is unavailable while it stands.
+
+Repeated unsubstantiated complaints against the same provider are subject to the Abuse Threshold in **DAO Parameters §6C**.
 
 ---
 
