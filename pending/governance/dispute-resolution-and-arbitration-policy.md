@@ -223,6 +223,7 @@ This policy operates alongside:
 * **Execution & Treasury Actions Policy** — Execution pipeline and authority
 * **Emergency & Safeguards Policy** — Emergency action authority for security and treasury risk
 * **Elections & Role Governance Policy §10** — Removal of role holders confirmed to have engaged in misconduct
+* **Contributor Compensation Policy §6.6.4** — Referral of a continuity-critical designation; where the Permanent RAC is the engaging body the referral bypasses Level 3 and is decided at Level 4, since the RAC does not review its own designation
 * **RAC Mandate** — RAC oversight authority and limits at Level 3
 * **DAO Parameters Registry §6C** — Dispute resolution parameters
 

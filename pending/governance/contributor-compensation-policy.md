@@ -193,11 +193,13 @@ Selection must be:
 * Published on the governance forum
 * Open to community comment for **7 days** before engagement is confirmed
 
+Where the engaging body intends to designate the engagement **continuity-critical** (§6.6), the designation and its reasons are published together with the selection rationale and fall within the same 7-day comment period. A designation may not be made after this point (§6.6.1).
+
 ---
 
 ### 6.4 Engagement Confirmation
 
-Once selected, the engagement is confirmed by a written scope of work document signed (or on-chain acknowledged) by both parties. Payment is only released against this confirmed scope.
+Once selected, the engagement is confirmed by a written scope of work document signed (or on-chain acknowledged) by both parties. Payment is only released against this confirmed scope. Where the engagement is designated continuity-critical under §6.6, the designation and the scope it covers are recorded in that document.
 
 ---
 
@@ -242,8 +244,8 @@ Any Governance Participant holding at least the **Challenge Filing Threshold** (
 
 **Filing a challenge is a unilateral right** — it does not require a governance vote and cannot be blocked by any Governance Participant, including those with large voting power.
 
-* A valid challenge voids the renewal. The engagement must then be competed under §6 where it is at or above the RFP Threshold, or may be re-awarded at the Steward's discretion where it is below
-* The RAC acknowledges valid challenges within 2 business days and publishes a notice confirming that the renewal has been voided
+* A valid challenge voids the renewal. The engagement must then be competed under §6 where it is at or above the RFP Threshold, or may be re-awarded at the Steward's discretion where it is below. Where the engagement was designated continuity-critical at award, the challenge instead takes effect as a requirement to compete and the engagement bridges under **§6.6.3** — the challenge succeeds either way; only the treatment of the interval differs
+* The RAC acknowledges valid challenges within 2 business days and publishes a notice confirming that the renewal has been voided or, for a designated engagement under §6.6, that a continuity bridge has opened — stating in that case the date the bridge expires and the date by which the RFP must be published
 * Before a renewal takes effect, the RAC confirms that the §6.5.1 conditions are met. This is a **process check, not a commercial judgement** — the RAC verifies that scope and price are unchanged, that no disqualifying finding exists, and that the cap has not been reached; it does not assess whether the engagement represents good value
 
 #### 6.5.4 Consecutive Renewal Cap
@@ -257,9 +259,76 @@ Upon reaching the cap, renewal under this section is unavailable. The engagement
 
 A completed RFP resets the consecutive renewal count to zero. A sole-source Governance Proposal authorises only the term stated in that proposal and does **not** reset the count, so each further continuation returns to governance.
 
+**No bridge on cap exhaustion.** The continuity bridge in §6.6.3 is available only on a challenge under §6.5.3. It is **not** available where the consecutive renewal cap is simply reached. The cap is known from the date of award and its expiry is foreseeable a full term in advance; a body that has not competed the engagement in that time has a planning failure, not a continuity event. A genuinely irreplaceable provider is continued by the sole-source Governance Proposal route above, which is the mechanism designed for that case.
+
 #### 6.5.5 Pre-Activation Engagements
 
 An engagement in effect on the Activation Date counts as the initial term for the purposes of §6.5.4, and the cap runs from there. The challenge right in §6.5.3 applies from its first renewal — which is what makes this treatment acceptable, since the community can force competition at any renewal of an award that never faced it.
+
+A pre-Activation engagement had no award-time opportunity to be designated continuity-critical. §6.6.5 provides a single window in which that designation may be made.
+
+---
+
+### 6.6 Continuity-Critical Engagements
+
+Some services cannot be interrupted without harm that outlasts the interruption. Market making, treasury infrastructure, and operational services supporting network infrastructure are the clear cases: a gap of weeks is not a pause in delivery but a loss of position, liquidity, or operational integrity that competing the engagement afterwards does not repair.
+
+The challenge right in §6.5.3 is deliberately unilateral and grounds-free, and this section does not weaken it. What it changes is what happens in the interval. A challenge to a designated engagement still forces competition — it simply does not require the service to stop while that competition runs. The safeguard being protected here is the DAO's ability to compel competition, not any provider's expectation of continuity.
+
+#### 6.6.1 Designation
+
+An engagement may be designated **continuity-critical** by the engaging body at the time of award, published alongside the selection rationale under §6.3 and recorded in the scope of work under §6.4.
+
+A designation may not be made, extended, or broadened at any later time, and in particular may not be made after a renewal notice has been published under §6.5.3. This timing rule is the load-bearing safeguard of this section: a designation available at renewal would let a Steward immunise a provider against a challenge already in prospect, which is precisely the conduct §6.5.3 exists to check.
+
+A completed competition under §6 is a new award, and the question of designation is open again at that point.
+
+#### 6.6.2 Criteria
+
+An engagement may be designated only where **both** of the following hold:
+
+* interruption of the service would materially impair treasury safety, the integrity or liquidity of the DAO's asset positions, the operation of network infrastructure the DAO is responsible for, or the DAO's legal or regulatory standing; **and**
+* the service cannot be re-sourced and transitioned within the period a competition under §6 requires
+
+The second limb is the operative filter. Where a replacement can be selected and onboarded within the competition period, no continuity gap arises and no designation is available, however important the service.
+
+Where an engagement bundles critical and non-critical work, the designation extends only to the critical scope, which must be stated separately in the scope of work. The remainder is treated as an ordinary engagement in all respects.
+
+#### 6.6.3 Effect of a Challenge — the Continuity Bridge
+
+Where a valid challenge is filed under §6.5.3 against the renewal of a designated engagement, the challenge takes effect as a **requirement to compete** rather than as a voiding of the engagement. The engagement continues on **unchanged scope and price** for a **bridge term** ending on the earlier of:
+
+* execution of the scope of work resulting from the competition under §6; or
+* expiry of the **Continuity Bridge Cap** (DAO Parameters §7)
+
+The engaging body must publish the RFP within the **Bridge RFP Publication Deadline** (DAO Parameters §7), measured from the date the RAC acknowledges the challenge under §6.5.3. The Continuity Bridge Cap runs from that acknowledgement regardless of when the RFP is published, so late publication consumes the competition's own time rather than extending the bridge. Missing the deadline is a reportable finding and does not extend the cap.
+
+A bridge term:
+
+* is **non-renewable**, and may not be extended except by Governance Proposal
+* does **not** count toward the consecutive renewal cap in §6.5.4 and does **not** reset it
+* carries no price increase — §6.5.2 is unavailable during a bridge
+* is available **once** per engagement; a completed competition starts the count afresh
+
+**The bridge has a hard edge.** Where the competition has not concluded by expiry of the cap, the engagement **ends**. Failure to conclude the competition within the bridge is a reportable finding, must be disclosed in the engaging body's next report under §3.4 (Working Group Framework §8), and is a relevant consideration in any subsequent designation by that body.
+
+The bridge applies only to a challenge under §6.5.3. It does **not** apply where a proposal funding the engagement is halted under the veto mechanism (Proposal & Voting Framework §8). A veto is grounds-tested and reviewed by the RAC, and halting the funded action is its intended effect; the DAO accepts the resulting continuity exposure rather than blunt its strongest instrument.
+
+#### 6.6.4 Review of a Designation
+
+The RAC confirms at award that the §6.6.2 criteria are met. This is a **process check, not a commercial judgement** — the RAC verifies that both limbs are addressed and that the designated scope is no wider than the critical work; it does not assess whether the service is worth its price.
+
+Any Governance Participant holding at least the **Challenge Filing Threshold** (DAO Parameters §6B) may refer a designation to the RAC for review at any time, including before any renewal is in prospect. Where the RAC finds the criteria unmet, the designation lapses and the engagement reverts to ordinary treatment under §6.5.
+
+A lapse does not terminate a bridge already running. The competition is by then underway and the DAO obtains it either way; ending the engagement mid-bridge would inflict precisely the interruption this section exists to prevent, on a service the community has not yet had the chance to replace. The remedy for a designation that should never have been made is that it lapses for the future and is a relevant consideration in any subsequent designation by that body — not the abrupt severance of a live service.
+
+**Where the Permanent RAC is the engaging body** (§6), it does not review its own designation. A referred designation is escalated directly to **Level 4** of the Dispute Resolution & Arbitration Policy and decided by Governance Proposal. Without this, the body that awards the engagement, staffs the review panel under §6.3, confirms the renewal under §6.5.3, and designates the engagement would also be the body reviewing that designation.
+
+#### 6.6.5 Pre-Activation Engagements
+
+An engagement in effect on the Activation Date (§6.5.5) may be designated continuity-critical within the **Pre-Activation Designation Window** (DAO Parameters §7), measured from that date. The designation is published with reasons and confirmed by the RAC under §6.6.4.
+
+A designation not made within that window is unavailable thereafter, and the engagement is treated as undesignated until a completed competition under §6 opens the question again.
 
 ---
 
@@ -328,6 +397,8 @@ The following are prohibited:
 * **Contributor Onboarding and Offboarding** — Engagement lifecycle and offboarding obligations
 * **Elections & Role Governance Policy** — Steward election and term parameters
 * **Treasury Signers Rules** — How payments are executed from treasury
+* **Dispute Resolution & Arbitration Policy §5** — Level 4 route for a referred continuity-critical designation where the Permanent RAC is the engaging body (§6.6.4)
+* **Proposal & Voting Framework §8** — Veto mechanism; the continuity bridge in §6.6.3 does not extend to a proposal halted under it
 * **Code of Conduct** — Standards of conduct for compensated contributors
 
 ---
