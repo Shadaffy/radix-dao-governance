@@ -255,7 +255,7 @@ This section number is retained, rather than renumbered, so that references to �
 
 The majority gauge is the operative tie-resolution rule, and the iterative middlemost-grade formulation of Majority Judgment is not applied. The two orderings agree, so this is a choice of method rather than of outcome: the gauge is used because it is computed in a single pass over the recorded tallies, alters no vote data, and can be verified by any member from the published result (§6.5). Given the same votes and voting powers it must produce the same outcome.
 
-A tie is broken only so far as the outcome requires: a tie that does not straddle the seat boundary or the electable boundary needs no resolution.
+A tie is broken only so far as the outcome requires: a tie that does not determine which candidate is seated needs no resolution — whether at this election or on a later seating from the reserve list (Elections & Role Governance Policy §7.5) — and until it does, it is published as a tie.
 
 The majority gauge does not separate two candidates who share a median grade where both have p > q and the same p, where both have p < q and the same q, or where both have p = q. In the last case the size of p does not distinguish them: a candidate whose p equals their q sits exactly at their median grade on the gauge, and two candidates who both do so are equally placed however much voting power lies either side of it. Where a tie the gauge does not separate affects the outcome, the RAC adjudicates it and records its determination as part of the published result (§6.5), guided by the principle in Elections & Role Governance Policy §7A.4. This adjudication is a defined step of this mechanism, not a discretionary power exercised outside it.
 
