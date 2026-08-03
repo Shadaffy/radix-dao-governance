@@ -218,9 +218,17 @@ A round that meets quorum but seats nobody — because no candidate is electable
 
 ---
 
-#### 7A.4 Tie Adjudication — Guiding Principle
+#### 7A.4 Tie Adjudication
 
-Where the majority gauge does not separate candidates and the tie affects the outcome (Proposal & Voting Framework §6.2.4), the RAC selects the candidate whose competencies are least represented among the role holders the body will have at term start (§7.4) — the candidate who most broadens the competency available to the body. Competency means capability relevant to the role's mandate: domain knowledge, technical or professional skill, and relevant operating experience. It does not extend to personal characteristics.
+Where the majority gauge does not separate candidates and the tie determines who is seated (Proposal & Voting Framework §6.2.4), the route depends on how many candidates are tied.
+
+* **Two candidates** — the RAC adjudicates under the principle below
+* **More than two, for a remaining seat** — the RAC opens a single runoff: an Approval Voting poll (Proposal & Voting Framework §6.2.2) among the tied candidates only, over the short Temperature Check period (DAO Parameters §3.1), with no new nominations. The candidate with the highest approval power takes the seat. Seats the election already settled are seated on schedule (§7A.2) and do not wait on the runoff. If the runoff is itself tied, the RAC adjudicates under the principle below
+* **In the reserve list** — the RAC adjudicates under the principle below whatever the number of candidates tied, because §7.5 exists so that a vacancy can be filled without a further election
+
+The runoff uses Approval Voting rather than a further graded round because an unresolved tie means the electorate graded these candidates identically; repeating the graded round on the same five-grade scale would be likely to repeat it.
+
+**The principle.** Where the RAC adjudicates a tie, it selects the candidate whose competencies are least represented among the role holders the body will have at term start (§7.4) — the candidate who most broadens the competency available to the body. Competency means capability relevant to the role's mandate: domain knowledge, technical or professional skill, and relevant operating experience. It does not extend to personal characteristics.
 
 The RAC assesses this from the candidates' published submissions under §6.2 and nothing else — not private knowledge, not reputation, not any assessment the community cannot read. Where the principle does not distinguish the candidates, the RAC says so and determines the tie on reasons it publishes. Either way the determination and its reasons form part of the published result (§6.5).
 
