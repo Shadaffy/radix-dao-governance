@@ -37,6 +37,12 @@ The Permanent RAC may:
 * Hold and monitor the copy address of the **Veto Filing Channel** (On-Chain Identifiers & Verification Policy §3), and publish filings received to the Official Venue where the Governance Operator is unavailable or is the subject of the filing (**Proposal & Voting Framework §8.4**). The RAC may not filter, withhold, delay, or edit a filing, including one directed at its own conduct
 * Provide or withhold the Permanent RAC's prior written consent, by the majority in **DAO Parameters §3A.4**, to any post-activation amendment of an Entrenched Provision that affects the Permanent RAC's constitutional role, composition, election mechanics, or removal procedure (**Operating Agreement §12.2(d)(iii)**)
 
+**Delegation.** The Permanent RAC may delegate the operational conduct of its functions under this Mandate to a Working Group that is constituted and operational, or to that Working Group's Stewards, subject to a formal handoff recorded in the Permanent RAC's quarterly accountability report (§6).
+
+Delegation transfers execution only. It does not transfer a determination, adjudication, consent, or selection that this Mandate or another governance document reserves to the RAC; it does not confer the Governance Operator function or the Owner Badge; and it does not displace the RAC's oversight responsibility, which is non-delegable. The RAC remains accountable to the DAO for a delegate's exercise of a delegated function and may revoke a delegation at any time.
+
+This is a general power, and a delegation made under it needs no further authorisation in this Mandate or elsewhere. The transfer of ongoing audit coordination in §12 is an instance of it and remains subject to the additional conditions stated there.
+
 ---
 
 ## 3B. Advisory Governance Period — Acknowledgement of Recognised Outcomes
