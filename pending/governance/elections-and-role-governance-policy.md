@@ -218,6 +218,16 @@ A round that meets quorum but seats nobody — because no candidate is electable
 
 ---
 
+#### 7A.4 Tie Adjudication — Guiding Principle
+
+Where the majority gauge does not separate candidates and the tie affects the outcome (Proposal & Voting Framework §6.2.4), the RAC selects the candidate whose competencies are least represented among the role holders the body will have at term start (§7.4) — the candidate who most broadens the competency available to the body. Competency means capability relevant to the role's mandate: domain knowledge, technical or professional skill, and relevant operating experience. It does not extend to personal characteristics.
+
+The RAC assesses this from the candidates' published submissions under §6.2 and nothing else — not private knowledge, not reputation, not any assessment the community cannot read. Where the principle does not distinguish the candidates, the RAC says so and determines the tie on reasons it publishes. Either way the determination and its reasons form part of the published result (§6.5).
+
+This principle applies at no other point and confers no power to revisit an ordering the gauge settled. It is appropriate here because a tie the gauge cannot separate is the one case where the electorate expressed no preference between the candidates — it completes the vote rather than overriding it.
+
+---
+
 ### 7.4 Term Start
 
 Confirmed role holders begin their term on the defined start date following the completion of the election (all Stage 2 confirmation votes for two-stage elections; final result publication for Majority Judgment elections).
