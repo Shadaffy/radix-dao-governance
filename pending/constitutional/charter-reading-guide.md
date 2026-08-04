@@ -35,7 +35,7 @@ A useful mental model:
 | § | Section | In one sentence |
 |---|---------|-----------------|
 | 4.1 | **Token Holder Sovereignty** | Confirms that *token holders are the ultimate authority* and points to the Operating Agreement for the exact moment their votes become legally binding. |
-| 4.2 | **Established Bodies** | Lets the DAO *create accountable bodies and roles* (the Accountability Council, Working Groups, Committees, elected Delegates) without ever handing them ownership of the DAO. |
+| 4.2 | **Established Bodies** | Lets the DAO *create accountable bodies and roles* (the Accountability Council, Working Groups, Committees, Delegates) without ever handing them ownership of the DAO. |
 | 4.3 | **Binding Decisions** | Says that *once a decision is legally binding, it must actually be carried out* through the proper execution channels (and that before activation, most outcomes are advisory only). |
 | 4A | **Activation and the Advisory Governance Period** | Sets up the *two-phase life of the DAO* — a member-managed start-up phase where votes are advisory, flipping to full community governance on "Activation Date." |
 | 4A.1 | The Advisory Governance Period | Defines the *early phase* where community votes are advice the Transition Council must publicly consider but is not yet bound by. |

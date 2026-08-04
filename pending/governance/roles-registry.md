@@ -16,13 +16,13 @@ All definitions, authority limits, and obligations remain in their source docume
 |------|-----------|--------------|------|--------------------------|
 | **Governance Participants** | OA Article V; Charter §4.1 | Token acquisition | Indefinite (while holding tokens) | Charter; Proposal & Voting Framework §6–8; DAO Parameters §8 |
 | **Transition RAC Members** *(Transition Period only)* | OA Article VI | Community founding mandate; named in OA Schedule 1 (§6.3) | Until the Activation Date | OA Article VI; Emergency Policy §5–6 |
-| **Permanent RAC Members** | RAC Mandate; OA Article VII, Article IV; Charter §8 | Two-stage DAO Election | 6 months (§6B) | RAC Mandate; Elections Policy; Emergency Policy §5–6; CoI Policy §8 |
+| **Permanent RAC Members** | RAC Mandate; OA Article VII, Article IV; Charter §8 | DAO Election Proposal, under either operative mechanism (Proposal & Voting Framework §4.5) | 6 months (§6B) | RAC Mandate; Elections Policy; Emergency Policy §5–6; CoI Policy §8 |
 | **Members (legal)** | OA Article IV | Admission via RAC seat or Delegate function | While holding qualifying role | OA Article IV |
-| **Delegates — Treasury Signers** | Delegate Mandate §2.1 (OA §11.5); Treasury Signers Rules | DAO Election Proposal | 6 months (§6B) | Delegate Mandate; Treasury Signers Rules; Execution Policy §5.3; DAO Parameters §6A; On-Chain Identifiers & Verification Policy §5 |
-| **Delegate — Governance Operator** | Delegate Mandate §2.2 (OA §11.5) | DAO Election Proposal | 6 months (§6B) | Delegate Mandate; Proposal & Voting Framework; DAO Parameters §3–3.5; On-Chain Identifiers & Verification Policy §3 |
-| **Delegate — Legal Signatory** | Delegate Mandate §2.3 (OA §1.15, §9.2) | DAO Election Proposal | 6 months (§6B) | Delegate Mandate; Compliance Operations Policy §5 |
-| **Delegate — Compliance Liaison** | Delegate Mandate §2.4; OA Article X | DAO Election Proposal | 6 months (§6B) | Delegate Mandate; OA Article X; Compliance Operations Policy §2 |
-| **Delegate — Web2 Custodian** | Delegate Mandate §2.5 | DAO Election Proposal | 6 months (§6B) | Delegate Mandate; Compliance Operations Policy §4 |
+| **Delegates — Treasury Signers** | Delegate Mandate §2.1 (OA §11.5); Treasury Signers Rules | RAC allocation from among seated RAC members (Delegate Mandate §3) | Runs with the holder's RAC seat | Delegate Mandate; Treasury Signers Rules; Execution Policy §5.3; DAO Parameters §6A; On-Chain Identifiers & Verification Policy §5 |
+| **Delegate — Governance Operator** | Delegate Mandate §2.2 (OA §11.5) | RAC allocation (Delegate Mandate §3) | Runs with the holder's RAC seat | Delegate Mandate; Proposal & Voting Framework; DAO Parameters §3–3.5; On-Chain Identifiers & Verification Policy §3 |
+| **Delegate — Legal Signatory** | Delegate Mandate §2.3 (OA §1.15, §9.2) | RAC allocation (Delegate Mandate §3) | Runs with the holder's RAC seat | Delegate Mandate; Compliance Operations Policy §5 |
+| **Delegate — Compliance Liaison** | Delegate Mandate §2.4; OA Article X | RAC allocation (Delegate Mandate §3) | Runs with the holder's RAC seat | Delegate Mandate; OA Article X; Compliance Operations Policy §2 |
+| **Delegate — Web2 Custodian** | Delegate Mandate §2.5 | RAC allocation (Delegate Mandate §3) | Runs with the holder's RAC seat | Delegate Mandate; Compliance Operations Policy §4 |
 | **WG Stewards** | DAO Parameters §7; Proposal & Voting Framework §4.5 | DAO Election Proposal (per WG Charter) | 6 months (§7) | Respective WG Charter; Execution Policy §5.2; CoI Policy §2 |
 | **Contributors / Contractors** | Execution Policy §7.3–7.4; Code of Conduct §3.3 | Working Group (or RAC where no WG exists) | Per engagement | Code of Conduct §3.3; Execution Policy §7 |
 
@@ -45,7 +45,7 @@ Governance Participants are the ultimate decision-making authority of the DAO. T
 - Charter §4.1 (Governance Participant sovereignty)
 
 **Appointment**
-Automatic upon acquiring Governance Tokens. No registration or approval required (Charter §4.1; Proposal & Voting Framework §2.5).
+Automatic upon acquiring Governance Tokens. No registration or approval required (Charter §4.1; Proposal & Voting Framework §2).
 
 **Term & Renewal**
 Indefinite — continues while holding Governance Tokens (OA Article V).
@@ -156,7 +156,7 @@ The five entries below are **Delegated Functions** defined in the **Delegate Man
 
 For the role-concentration cap in **DAO Parameters §6B**, a Delegate counts as **one seat** regardless of how many Delegated Functions the Delegate holds.
 
-The total number of elected Delegates is set per election by Governance Proposal within the bounds of **DAO Parameters §6B** (Delegate Count Minimum = 5, Maximum = 12). The minimum may not fall below the number required to staff the Treasury Signing roster under §6A: exactly 5 Delegates must hold Treasury Signing (Delegate Mandate §3). Where the total Delegate count exceeds 5, the additional Delegates hold non-Treasury functions only.
+Delegated Functions are seated by **RAC allocation from among seated RAC members** and run with the holder's RAC seat; they are not separately elected (**Delegate Mandate §3**). Exactly 5 Delegates must hold Treasury Signing to support the §6A thresholds, so at the Permanent RAC minimum of 5 seated members all 5 hold it. The Delegate Count bounds in **DAO Parameters §6B** (Minimum 5, Maximum 12) bind only where the DAO has resolved by Governance Process proposal to fill one or more functions by Election Proposal; otherwise the effective ceiling is the RAC size in §5.1.
 
 ---
 
@@ -203,13 +203,13 @@ Subject to CoI Policy §2–4. In addition, an execution-specific rule applies: 
 ### 2.5 Delegates — Governance Operator
 
 **Authority & Scope**
-Operates the Governance Platform: elevates approved Temperature Checks to Governance Proposals via the Owner Badge; updates governance parameters per DAO vote; maintains the Governance smart contract. May not elevate a TC that has not met approval conditions, and may not modify, delay, or suppress an eligible elevation without a Governance Proposal (Proposal & Voting Framework §6.2). Holds and monitors the primary Veto Filing Channel address and publishes filings received verbatim to the Official Venue within the Channel Publication Window (Delegate Mandate §2.2; Proposal & Voting Framework §8.4; DAO Parameters §4); may not filter, withhold, delay, or edit a filing.
+Operates the Governance Platform: elevates approved Temperature Checks to Governance Proposals via the Owner Badge; updates governance parameters per DAO vote; maintains the Governance smart contract. May not elevate a TC that has not met approval conditions, and may not modify, delay, or suppress an eligible elevation without a Governance Proposal (Proposal & Voting Framework §3.3; Delegate Mandate §2.2). Holds and monitors the primary Veto Filing Channel address and publishes filings received verbatim to the Official Venue within the Channel Publication Window (Delegate Mandate §2.2; Proposal & Voting Framework §8.4; DAO Parameters §4); may not filter, withhold, delay, or edit a filing.
 
 **Defined In**
 - Delegate Mandate §2.2 (Governance Operations function definition and scope)
 
 **Appointment**
-DAO Election Proposal (Delegate Mandate §3). One of the elected Delegates. KYC required before assuming function (Delegate Mandate §3; OA §10.4).
+RAC allocation from among seated RAC members (Delegate Mandate §3); runs with the holder's RAC seat. KYC required before assuming function (Delegate Mandate §3; OA §10.4). During the Transition Period the function is held by the Transition RAC collectively (Delegate Mandate §6).
 
 **Term & Renewal**
 6 months (DAO Parameters §6B). Auto-renewed unless challenged. Maximum 4 consecutive terms.
@@ -241,7 +241,7 @@ Signs contracts, continuity statements, and legal instruments as authorized by G
 - Operating Agreement §1.15 and §9.2 (Legal Signatory); §9.3 (continuity statement authority)
 
 **Appointment**
-DAO Election Proposal (Delegate Mandate §3). KYC required.
+RAC allocation from among seated RAC members (Delegate Mandate §3); runs with the holder's RAC seat. KYC required. During the Transition Period the function is held by the Transition RAC collectively (Delegate Mandate §6).
 
 **Term & Renewal**
 6 months (DAO Parameters §6B). Auto-renewed unless challenged. Maximum 4 consecutive terms.
@@ -274,7 +274,7 @@ Acts as Registered Agent liaison. Files the annual Beneficial Owner Information 
 - Operating Agreement §§10.1–10.6 (BOIR filing, statutory test, KYC, confidentiality, entity standing)
 
 **Appointment**
-DAO Election Proposal (Delegate Mandate §3). KYC required.
+RAC allocation from among seated RAC members (Delegate Mandate §3); runs with the holder's RAC seat. KYC required. During the Transition Period the function is held by the Transition RAC collectively (Delegate Mandate §6).
 
 **Term & Renewal**
 6 months (DAO Parameters §6B). Auto-renewed unless challenged. Maximum 4 consecutive terms.
@@ -305,7 +305,7 @@ Manages social media accounts, GitHub repositories, domain names, and other Web2
 - Delegate Mandate §2.5 (Web2 Custodian function definition and scope)
 
 **Appointment**
-DAO Election Proposal (Delegate Mandate §3). KYC required.
+RAC allocation from among seated RAC members (Delegate Mandate §3); runs with the holder's RAC seat. KYC required. During the Transition Period the function is held by the Transition RAC collectively (Delegate Mandate §6).
 
 **Term & Renewal**
 6 months (DAO Parameters §6B). Auto-renewed unless challenged. Maximum 4 consecutive terms.
@@ -404,7 +404,7 @@ This table shows which governance documents apply to each role. References indic
 |----------------|--------------|-------------|-------------------|-----------|-------------|--------------|
 | **Charter** | All (§4.1) | §8, §12.1 | §4.3 | §4.2 | §4.2 | — |
 | **Operating Agreement** | Art V (§5.7–5.9) | Art IV, Art VI, Art VII | §§9.7–9.11, §12.5 | §11.5 | — | — |
-| **Proposal & Voting Framework** | §6–8 (voters) | §6.5 (result determination) | §8.4 (veto window) | §4.6 (election) | §4.6 (election) | — |
+| **Proposal & Voting Framework** | §6–8 (voters) | §6.5 (result determination) | §8.4 (veto window) | §4.5 (election) | §4.5 (election) | — |
 | **RAC Mandate** | — (subject to) | §1–12 (primary, Permanent RAC) | §3 (subject to) | §3 (subject to) | §3 (subject to) | — |
 | **Delegate Mandate** | — | (if also Delegate) | §2.1, §3–5 | §1–8 (primary) | — | — |
 | **Treasury Signers Rules** | — | §9 (invalid refusal) | §1–20 (primary) | — | — | — |

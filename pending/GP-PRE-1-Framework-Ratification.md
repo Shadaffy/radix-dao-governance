@@ -124,6 +124,7 @@ subordinate governance rules under OA §11.2 / §11.5.
 | Execution & Treasury Actions Policy | How approved decisions are executed and funds moved |
 | Emergency & Safeguards Policy | Response to security events and critical failures |
 | Treasury Signers Rules | Operational rules for those executing treasury actions |
+| On-Chain Identifiers & Verification Policy | The authoritative public register of the governance and treasury identifiers, and the rules for verifying them (OA §11.4 / Schedule 4) |
 | RAC Mandate | Authority and limits of the Permanent RAC |
 | Delegate Mandate | Definition, scope, and operational rules of the Delegates and Delegated Functions |
 | Conflict of Interest Policy | Disclosure and recusal obligations for all role holders |

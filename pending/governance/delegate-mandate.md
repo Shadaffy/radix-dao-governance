@@ -105,24 +105,49 @@ in the **Compliance Operations Policy §4**.
 
 ---
 
-## 3. Composition & Election
+## 3. Composition & Seating
 
-* Delegates are elected by Governance Proposal in accordance with the **Elections & Role Governance
-  Policy**, which governs eligibility, nomination, and election procedure.
-* The minimum and maximum number of Delegates are defined in **DAO Parameters §6B**. The minimum may
-  not fall below the number required to staff the Treasury Signing roster (exactly five Delegates
-  hold Treasury Signing). Where the total Delegate count exceeds five, the additional Delegates hold
-  non-Treasury functions only.
-* The Governance Proposal establishing or modifying the Delegate roster must identify which five
-  Delegates hold Treasury Signing and how the non-Treasury functions are allocated.
-* All Delegates are subject to KYC verification before assuming their function (**Operating
+**Delegated Functions are seated by allocation by the RAC, not by separate election.** The RAC decides
+which of its seated members is best fit for each function and publishes the allocation, with its
+reasons, to the Official Venue (**Charter §3.2**; **RAC Mandate §6**). The RAC may re-allocate a
+function at any time, publishing the change and its reasons in the same way.
+
+* **Who may hold a function.** Only a **seated RAC member** may hold a Delegated Function. There is a
+  single exception: an interim Treasury Signer appointed from the **Emergency Signer Reserve** under
+  the **Governance Continuity Framework §4.2** need not hold a RAC seat, and serves only for the
+  maximum interim period stated there (**Treasury Signers Rules §15**).
+* **How long a function lasts.** An allocated Delegated Function **runs with the holder's RAC seat**.
+  It has no term, renewal cycle, or challenge window of its own: it begins on allocation and ends on
+  the earliest of re-allocation by the RAC, removal under **Elections & Role Governance Policy §10**,
+  and the holder ceasing to be seated. **Elections & Role Governance Policy §8 (Term Lengths)** and
+  **§9 (Term Renewal)** therefore do not run separately for an allocated function.
+* **The community's lever.** Because a function cannot outlive the seat, a challenge to the holder's
+  RAC seat under **Elections & Role Governance Policy §9.2** reaches every function allocated to
+  them, as does removal under §10. No separate function-level challenge exists or is needed.
+* **Switching to election.** The DAO may resolve by **Governance Process proposal** that any or all
+  Delegated Functions be filled by Election Proposal instead. While such a resolution is in force,
+  **Elections & Role Governance Policy §§5–7** govern that function, a holder elected under it may be
+  a person who holds no RAC seat, and that function carries its own term under §8 and its own renewal
+  cycle under §9. This section is displaced to that extent and otherwise continues to apply.
+* **Treasury Signing.** The Treasury Signing function must be held by **exactly five** Delegates to
+  support the signing thresholds in **DAO Parameters §6A** (3-of-5 standard; 4-of-5 high-risk). Where
+  the RAC is at its minimum of five seated members, all five hold Treasury Signing.
+* **KYC.** All holders are subject to KYC verification before assuming their function (**Operating
   Agreement §10.4**).
-* A Delegate may simultaneously hold a Permanent RAC seat. Where the DAO is operating at small
-  scale, holding both is expected and constitutes the default model; as the DAO grows and additional
-  capacity becomes available, separation between RAC oversight and Delegate execution is preferred.
-  Both configurations are valid and the choice is made by Governance Proposal when the Delegate
-  roster is established. The role-concentration limits in **DAO Parameters §6B** and the recusal
-  obligations of the **Conflict of Interest Policy** apply in either configuration.
+* **Role concentration and conflicts.** Holding a Delegated Function alongside a RAC seat is the
+  framework's expected model at small scale. It is **not of itself a material conflict of interest**
+  (**Conflict of Interest Policy §5.1**); case-specific conflicts are disclosed and recused in the
+  ordinary way. For the role-concentration limit in **DAO Parameters §6B**, a RAC seat and a Delegate
+  seat count as two roles, however many Delegated Functions the Delegate holds — so a RAC member
+  holding any Delegated Function is at the cap and may not also hold a Working Group Steward or
+  Strategic Coordination WG seat.
+
+> **A consequence worth stating plainly.** Under this model the body that verifies execution is drawn
+> from the same people who execute, and at minimum RAC strength they are the same people. That is a
+> deliberate choice for a DAO of this size, made in preference to leaving execution roles unfilled.
+> The safeguards that remain are the published allocation, the RAC's own accountability under the
+> **RAC Mandate**, removal and challenge under the **Elections & Role Governance Policy**, and the
+> DAO's power to switch any function to election at any time under this section.
 
 ---
 
@@ -171,22 +196,48 @@ subject to Governance Proposal ratification within 30 days.
 
 ## 6. Membership & Legal Status
 
-Upon election and following the Transition Period, Delegates are admitted to legal Membership of the
+Upon seating and following the Transition Period, Delegates are admitted to legal Membership of the
 Company. Membership is attached to the Delegated Functions under the **Charter** and given legal
-effect by the **Operating Agreement**; this Mandate does not itself confer Membership.
+effect by the **Operating Agreement**; this Mandate does not itself confer Membership. Where the
+Delegate also holds a Permanent RAC seat — which under §3 is the ordinary case — Membership attaches
+to that seat in any event (**RAC Mandate §7**; **Operating Agreement §§4.3, 4.6**).
 
 Delegates qualify as beneficial owners of the Company by virtue of actual control (Marshall Islands
 DAO Act §702(r)) and are reportable on the BOIR regardless of where their function is defined. BOIR
 identification, KYC tiers, and sanctions screening are governed by the **Operating Agreement**
 compliance article and the **Compliance Operations Policy**.
 
-During the Transition Period, the Treasury Signing function is held by the three Transition RAC
-members, who act as the initial signers in respect of that function (**2-of-3** standard;
-protected/high-risk matters require **unanimity of all seated signers, being not fewer than two**)
-as set out in **Operating Agreement Article VI and §§9.10–9.11**. The
-**exactly-five-Delegates** requirement and the 3-of-5 / 4-of-5 thresholds in §3 above take effect on
-the Activation Date, when Treasury Signing passes to the elected Delegates. Article VI-specific
-procedures prevail over the corresponding procedures in this Mandate during the Transition Period.
+**During the Transition Period, all five Delegated Functions are held by the Transition RAC
+collectively.** There is no separate Delegate roster before the Activation Date: the three Transition
+RAC members named in **Operating Agreement Schedule 1** hold every function in §2, and the body acts
+in respect of each of them under the simple-majority-of-seated decision rule in **Operating Agreement
+§6.6**. This gives effect to **Charter §12.2**, which proceeds on the basis that the Delegated
+Functions are held by the Transition RAC during that period. Article VI-specific procedures prevail
+over the corresponding procedures in this Mandate during the Transition Period.
+
+* **Treasury Signing.** The three Transition RAC members act as the initial signers (**2-of-3**
+  standard; protected/high-risk matters require **unanimity of all seated signers, being not fewer
+  than two**) as set out in **Operating Agreement Article VI and §§9.10–9.11**. The
+  **exactly-five-Delegates** requirement and the 3-of-5 / 4-of-5 thresholds in §3 take effect on the
+  Activation Date, when Treasury Signing passes to the five Delegates then holding it.
+* **Governance Operations.** The Transition RAC holds the Owner Badge collectively. Because elevation
+  is a **non-discretionary** duty under §2.2 and must complete inside the TC Elevation Window (**DAO
+  Parameters §3.1**), the body shall adopt a standing resolution, published to the Official Venue,
+  authorising **any seated member to execute an eligible elevation ministerially** without a further
+  decision. The body retains the decision itself: only the Transition RAC acting under §6.6 may
+  record documented grounds for delaying an elevation. The Owner Badge and the standing resolution
+  are recorded in the **On-Chain Identifiers & Verification Policy §3**.
+* **The remaining functions.** Legal Signatory, Compliance Liaison and Web2 Custodian are likewise
+  held by the body and exercised under §6.6, subject to the Article VI mandate limits in **Operating
+  Agreement §§6.5 and 6.7**.
+
+> **Known limitation, accepted.** During the Transition Period the Governance Operator, the RAC that
+> would instruct it, and the Treasury Signers who would execute a backstop elevation are the same
+> three people, so the elevation backstop in **Governance Continuity Framework §4.2A** has no
+> independent actor in it. The same is true of the signer-failure response in §4.2. This is accepted
+> as a consequence of a three-person formation body rather than remedied, and is carried by the
+> publication duties in §2.2 and **Elections & Role Governance Policy §17.2** and by the advisory
+> recognition route in **DAO Parameters §3A.3**.
 
 ---
 

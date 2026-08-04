@@ -134,6 +134,18 @@ A covered person must recuse themselves from any decision where they have a mate
 * Withdrawing from deliberations and discussions where their participation could improperly influence the outcome
 * Not acting as a representative of the DAO in negotiations or communications with the conflicted party
 
+**Holding a role is not of itself a conflict.** Holding a Delegated Function, or holding a Delegated
+Function alongside a RAC seat, is **not of itself a material conflict of interest**, and does not
+require recusal from RAC oversight of the area that function operates in. Under the **Delegate
+Mandate §3** the RAC allocates Delegated Functions from among its own seated members, so a contrary
+reading would require most of the RAC to recuse from most treasury and governance oversight, drop the
+body below the non-recused floor in **DAO Parameters §5.1**, and make routine oversight unperformable.
+Recusal is triggered by a **case-specific** interest — a payment or benefit to the covered person or a
+person or entity connected to them, an engagement they or a connected party bid on, a matter in which
+they are personally the subject of the determination, or any other circumstance in this section.
+Structural role overlap is instead managed by disclosure (§4), the role-concentration limit in **DAO
+Parameters §6B**, and the published allocation required by **Delegate Mandate §3**.
+
 Recusal is distinct from an ABSTAIN vote. A recused person casts no vote at all: for RAC decisions they are removed from both the quorum denominator and the approval calculation for that matter, subject to the minimum non-recused floor in **DAO Parameters §5.1**. An ABSTAIN vote, by contrast, is a cast vote that counts toward Participation and quorum (**Proposal & Voting Framework §6.3**). A covered person who is required to recuse must not substitute an ABSTAIN vote for recusal, because doing so would contribute their voting power to the quorum of a matter they are conflicted on.
 
 ---

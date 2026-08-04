@@ -21,6 +21,8 @@ This policy applies to:
 
 References to "role holders" in this policy mean any person serving in one of the roles above.
 
+**How this policy applies to Delegates.** Delegated Functions are ordinarily seated by RAC allocation rather than by election (**Delegate Mandate §3**). For a function seated that way, §§6–7 (nomination and election), §8 (term lengths) and §9 (term renewal) do **not** apply to the function itself: it runs with the holder's RAC seat, and those sections reach it through that seat. Everything else in this policy applies in full — §5 eligibility, §10 removal and no-confidence, §12 handover, §13 performance, §14 inactivity, §15 conflicts, and §16 multi-role participation. §11 (vacancy handling) reaches an allocated function through the underlying RAC seat: a vacant **seat** triggers §11 in the ordinary way, while a function left unheld — because its holder was removed from it, resigned it, or ceased to be seated — is filled by RAC re-allocation under Delegate Mandate §3, not by a replacement election. Where the DAO has resolved by Governance Proposal to fill a function by Election Proposal (**Delegate Mandate §3**), this policy applies to that function in full, including §§6–9.
+
 ---
 
 ## 3. Guiding Principles
@@ -77,6 +79,10 @@ In summary, all candidates must:
 * Meet role-specific requirements
 * Be able to fulfil the responsibilities of the role
 
+**Members of the administering body standing as candidates.** A seated RAC member may stand as a candidate in an election the RAC administers, but **at least one seated member must not stand**. Before the Nomination & Discussion Window closes, the RAC publishes which of its members are standing and which member or members will discharge the RAC's functions in relation to that election.
+
+A member who stands is conflicted for that election and recuses — under **Conflict of Interest Policy §5.1**, as a matter in which they are personally the subject of the determination — from result determination (**Proposal & Voting Framework §6.5**), tie adjudication (§7A.4), the mechanism route choice (§7A.3), and determination of any veto challenge to the result (**Proposal & Voting Framework §8.4**). Where those recusals leave fewer non-recused members than the floor in **DAO Parameters §5.1**, the RAC may not adjudicate and **§7A.4A** applies instead. The requirement that one member not stand guarantees that a non-recused member always remains to discharge the duties that survive in that state.
+
 Compensated roles, any role with treasury signing authority, and any Accountability Council seat (Transition RAC or Permanent RAC) additionally require KYC completion before term start — and, for Permanent RAC members, **before seating** — per Operating Agreement §10.4, §1.24 ("Seated"), and the Contributor Compensation Policy §3.5. The Permanent RAC seat minimum, KYC-before-seating, and fixed election timing for activation are set in DAO Parameters §3A.5.
 
 ---
@@ -89,7 +95,7 @@ Any eligible person may self-nominate or be nominated by another Governance Part
 
 * Nominations must be published on the governance forum
 * A third-party nomination is not valid until the nominee explicitly accepts it in writing (forum post or signed statement) before the nomination period closes
-* A nominee who does not publish an acceptance confirmation before the nomination period closes is not eligible to appear on the Stage 1 ballot
+* A nominee who does not publish an acceptance confirmation before the nomination period closes is not eligible to appear on the ballot for that election — the Stage 1 ballot under the two-stage mechanism, or the graded ballot under Majority Judgment
 
 ---
 
@@ -115,9 +121,11 @@ Elections follow the procedure defined in the Proposal & Voting Framework §4.5.
 
 Neither mechanism is subordinate to the other and neither requires activation. The RAC selects the mechanism for an election when it creates that election on the governance platform, and the selected mechanism is stated on the Temperature Check ballot for that election (Proposal & Voting Framework §3.2), so the community approves the candidate list knowing how that list will be voted on.
 
-Everything outside the vote itself is common to both mechanisms: eligibility and nomination (§5–§6), the Nomination & Discussion Window and the Temperature Check that approves the candidate list, the voting power and snapshot used, term start (§7.4), the reserve list (§7.5), and the referral of unfilled seats to vacancy handling (§11; founding election: §17.1).
+Everything outside the vote itself is common to both mechanisms: eligibility and nomination (§5–§6), the Nomination & Discussion Window and the Temperature Check that approves the candidate list, the eligible voting power and the snapshot rule that applies to it (Proposal & Voting Framework §6.1), term start (§7.4), the reserve list (§7.5), and the referral of unfilled seats to vacancy handling (§11; founding election: §17.1).
 
 The Election Methods Guide is a companion aid describing the considerations that bear on the choice of mechanism. It is not part of this policy, has no legal force, and imposes no requirement on the RAC.
+
+**Which document governs what.** The **counting mechanics** of each mechanism — ballot form, how a result is computed, thresholds, tie-breaks, and low-turnout handling — are defined in the Proposal & Voting Framework §6.2.4 (Majority Judgment) and §6.2.5 (two-stage), which are authoritative for them. **This section is authoritative for the role consequences** — seating, the reserve list, term start, tie adjudication, and the referral of unfilled seats. Where this policy restates a counting rule it does so for readability; the Proposal & Voting Framework prevails if the two differ.
 
 ---
 
@@ -130,7 +138,7 @@ An Approval Voting proposal is published listing all eligible nominees.
 * Candidates are ranked by total voting power received
 * The top candidates by that ranking advance to Stage 2
 * The Stage 1 result is procedurally binding: no substitution of shortlisted candidates is permitted outside the fallback process in §7.3
-* Tie-handling for the last shortlist slot follows Proposal & Voting Framework §4.5
+* Tie-handling for the last shortlist slot follows Proposal & Voting Framework §6.2.5
 
 ---
 
@@ -147,7 +155,7 @@ Each shortlisted candidate is put to a separate Confirmation Vote (YES/NO) propo
 
 **Seating of confirmed candidates.** Where the number of candidates confirmed at Stage 2 exceeds the number of open seats, seats are filled by confirmed candidates in descending order of total voting power received in Stage 1. Stage 2 confirmation establishes eligibility to be seated; the Stage 1 ranking determines the order of seating. A confirmed candidate who is not seated is not elected to the role, without prejudice to §7.5 (Reserve List).
 
-**Ties.** If two or more confirmed candidates are tied in Stage 1 total voting power for the last available seat, the tie is resolved in favour of the candidate with the higher YES-to-total-votes-cast ratio in their Stage 2 confirmation vote. If the tie persists, the RAC conducts a single runoff Approval Voting poll between the tied candidates, using the short Temperature Check period (DAO Parameters §3.1); the candidate with the higher total voting power in the runoff is seated. The Stage 1 tie-expansion rule (Proposal & Voting Framework §4.5), which expands the shortlist when candidates tie for the last shortlist slot, does not apply at the seat boundary, where the number of seats is fixed and cannot be expanded.
+**Ties.** If two or more confirmed candidates are tied in Stage 1 total voting power for the last available seat, the tie is resolved in favour of the candidate with the higher YES-to-total-votes-cast ratio in their Stage 2 confirmation vote. If the tie persists, the RAC conducts a single runoff Approval Voting poll between the tied candidates, using the short Temperature Check period (DAO Parameters §3.1) and subject to the **Election Tie Runoff Quorum** (DAO Parameters §6B — 3%); the candidate with the higher total voting power in the runoff is seated. **If the runoff fails to reach that quorum, or is itself tied**, no candidate is seated for that seat and it is referred to §11 (founding election: §17.1) — the same outcome as a tied runoff under Majority Judgment (§7A.4A), and for the same reason: the electorate has been asked twice and has not separated these candidates. The Stage 1 tie-expansion rule (Proposal & Voting Framework §6.2.5), which expands the shortlist when candidates tie for the last shortlist slot, does not apply at the seat boundary, where the number of seats is fixed and cannot be expanded.
 
 ---
 
@@ -178,7 +186,7 @@ This section describes the Majority Judgment path, and stands in place of §7.1�
 The candidate list approved at the Temperature Check is put to a single graded vote.
 
 * Each voter assigns exactly one grade to **every** candidate, from the scale in DAO Parameters §3.5 (Excellent, Very Good, Good, Acceptable, Poor). A ballot that leaves any candidate ungraded is invalid and is not counted
-* Each candidate's **median grade** is the highest grade at which the voting power grading that candidate at or above it reaches half the voting power cast (Proposal & Voting Framework §6.2.4)
+* Each candidate's **median grade** is the highest grade at which the voting power grading that candidate at or above it **reaches or exceeds** half the voting power cast (Proposal & Voting Framework §6.2.4). Exact halves resolve **upward**: voting power equal to half of that cast is sufficient to fix a candidate's grade
 * Candidates are ranked by median grade, ties broken under the procedure in the Proposal & Voting Framework §6.2.4
 * A candidate is **electable** only if their median grade meets the MJ Minimum Median Grade (DAO Parameters §6B). This is the Majority Judgment counterpart to the Stage 2 approval threshold: it prevents a candidate the electorate broadly grades poorly from being seated on ranking alone
 * The candidate list is fixed from the creation of the election and may not be substituted or added to, in the same way and for the same reason that the Stage 1 result is procedurally binding under §7.1
@@ -195,6 +203,8 @@ The candidate list approved at the Temperature Check is put to a single graded v
 
 A single election may therefore fill some seats and refer others. Leaving a seat unfilled is a permitted outcome, not a failure of the election: it is the consequence of the Minimum Median Grade doing its work.
 
+This referral applies to **open** seats. In a renewal-challenge election under §9.2 the seat is occupied, and where no challenger is electable the incumbent continues in role rather than the seat falling vacant (§9.2; but see §9.5 at the consecutive renewal cap).
+
 ---
 
 #### 7A.3 Low Turnout and Rerun
@@ -206,11 +216,21 @@ Election proposals are excluded from the Governance Continuity Fallback (DAO Par
 
 **Route 1 — rerun under Majority Judgment.** The election is re-run once over the extended **MJ Rerun Voting Period** (DAO Parameters §6B), at the **same** MJ Rerun Quorum and the **same** MJ Rerun Minimum Median Grade as the first round. The rerun uses the same candidate list, the same number of seats, and the same snapshot (Proposal & Voting Framework §6.1); the only thing that changes is that the electorate has twice as long to participate. The RAC publishes a rerun notice when it opens, and the extended voting period runs from that notice. No election is re-run more than the **Max MJ Reruns** (DAO Parameters §6B). If the rerun also closes below quorum, no candidate is elected and all seats are referred to §11 (founding election: §17.1).
 
-**Route 2 — restart under the two-stage mechanism.** The RAC restarts the election under §7.1–§7.3 instead. This is a new election, not a continuation: it requires a new Temperature Check approving the candidate list, and the Stage 1 and Stage 2 thresholds apply unmodified. Nothing carries over from the Majority Judgment election — not the grades, the medians, or the ranking. The earlier election is not converted or amended; it simply ends unresolved.
+**Route 2 — restart under the two-stage mechanism.** The RAC restarts the election under §7.1–§7.3 instead.
 
-**Neither route is automatic.** A round that closes below quorum ends there until the RAC acts. The rerun under Route 1 opens because the RAC opens it, not because the first round closed, and the governance platform does not schedule or date a rerun on its own — were it to do so, it would settle the choice between the routes before the RAC reached it. An election on which the RAC takes neither route remains unresolved, and its seats fall to §11 in the ordinary way.
+**The candidate list carries over unchanged.** Nominations do **not** reopen and no candidate is added or substituted, so the field the community has already approved is the field it votes on again. A candidate on the carried-over list who no longer wishes to serve may withdraw by notice to the RAC before the new Temperature Check opens — §5 requires a candidate to be willing to serve, so nobody is carried onto a ballot against their wish — and a candidate who does not withdraw stands without any fresh acceptance under §6.1.
 
-*Why the quorum is not reduced on rerun.* The two-stage rerun lowers its quorum only because it raises its approval threshold at the same time, and a share-of-votes threshold is a genuine constraint on a voting block. Majority Judgment has no share threshold to raise: a block holding more than half the voting power cast sets the median grade and may name any grade it likes, so raising the electability floor does not constrain it. A reduced quorum would simply lower the voting power needed to control the result, and would make the rerun cheaper to control than the round it rescues — rewarding a large holder for sitting out the first round. Holding both figures constant removes that incentive.
+**No vote data carries over.** Not the grades, the medians, or the ranking. The earlier election is not converted or amended; it simply ends unresolved.
+
+Everything else is new: the restart requires a new Temperature Check approving that list for the two-stage mechanism (Proposal & Voting Framework §3.2), each vote takes its own snapshot when it opens (Proposal & Voting Framework §6.1), and the Stage 1 and Stage 2 thresholds apply unmodified.
+
+**Neither route is automatic — but the choice is time-limited.** A round that closes below quorum ends there until the RAC acts. The rerun under Route 1 opens because the RAC opens it, not because the first round closed, and the governance platform does not schedule or date a rerun on its own — were it to do so, it would settle the choice between the routes before the RAC reached it.
+
+**Deadline.** The RAC must publish its route within the **Replacement Election Trigger Time** (DAO Parameters §6B — 7 days) of the round closing. Where it does not, the election is treated as **failed**: no rerun opens, no restart occurs, and every seat in that election falls to §11 (founding election: §17.1).
+
+This applies to a seat contested under a renewal challenge as much as to an open seat. The continuity rule in §9.2 — under which an incumbent is renewed where the election produces no successor — operates where an election **seats no one**, not where the RAC leaves an election **unresolved**. Inaction by the RAC therefore does not renew an incumbent, and there is no advantage to be gained by declining to choose a route. The incumbent holds over in office until the §11 replacement election concludes, without renewal and without adding to their consecutive term count (§9.2).
+
+*Why the quorum is not reduced on rerun.* Majority Judgment has no share-of-votes threshold that could be raised to compensate for a lower quorum, so reducing it would make the rerun cheaper to control than the round it exists to rescue. The remedy here is more time, not a lower bar. The full reasoning is set out once, in the **Proposal & Voting Framework §6.2.4**, and is not repeated here.
 
 **Limits on the choice.** The choice between Route 1 and Route 2 arises **only** once a round has closed below quorum. There is no power to halt a Majority Judgment vote while it is open, and no power to set aside a round that met quorum — a result that meets quorum stands, including a result that seats nobody.
 
@@ -223,7 +243,7 @@ A round that meets quorum but seats nobody — because no candidate is electable
 Where the majority gauge does not separate candidates and the tie determines who is seated (Proposal & Voting Framework §6.2.4), the route depends on how many candidates are tied.
 
 * **Two candidates** — the RAC adjudicates under the principle below
-* **More than two, for a remaining seat** — the RAC opens a single runoff: an Approval Voting poll (Proposal & Voting Framework §6.2.2) among the tied candidates only, over the short Temperature Check period (DAO Parameters §3.1), with no new nominations. The candidate with the highest approval power takes the seat. Seats the election already settled are seated on schedule (§7A.2) and do not wait on the runoff. If the runoff is itself tied, the RAC adjudicates under the principle below
+* **More than two, for a remaining seat** — the RAC opens a single runoff: an Approval Voting poll (Proposal & Voting Framework §6.2.2) among the tied candidates only, over the short Temperature Check period (DAO Parameters §3.1), with no new nominations. The runoff must meet the **Election Tie Runoff Quorum** (DAO Parameters §6B — 3%); the minimum winner threshold in DAO Parameters §3.5 does not apply. The candidate with the highest approval power takes the seat. Seats the election already settled are seated on schedule (§7A.2) and do not wait on the runoff. If the runoff fails to reach quorum, the seat is unfilled and referred to §11 (founding election: §17.1). If the runoff is itself tied, the RAC adjudicates under the principle below
 * **In the reserve list** — the RAC adjudicates under the principle below whatever the number of candidates tied, because §7.5 exists so that a vacancy can be filled without a further election
 
 The runoff uses Approval Voting rather than a further graded round because an unresolved tie means the electorate graded these candidates identically; repeating the graded round on the same five-grade scale would be likely to repeat it.
@@ -234,11 +254,35 @@ The RAC assesses this from the candidates' published submissions under §6.2 and
 
 This principle applies at no other point and confers no power to revisit an ordering the gauge settled. It is appropriate here because a tie the gauge cannot separate is the one case where the electorate expressed no preference between the candidates — it completes the vote rather than overriding it.
 
+This section applies only where the RAC retains at least the minimum number of non-recused members required by **DAO Parameters §5.1**. Where it does not, §7A.4A applies and no adjudication takes place.
+
+---
+
+#### 7A.4A Where the RAC Cannot Adjudicate
+
+This section applies to an election in which recusals under §5 and the **Conflict of Interest Policy §5.1** leave the RAC with fewer non-recused members than the floor in **DAO Parameters §5.1** — in practice, an election in which enough seated members are themselves candidates. The RAC may not adjudicate in that state. **No substitute adjudicator is appointed; the discretion is removed instead.**
+
+* **Result determination is arithmetical.** The non-recused member or members compute and publish the result under **Proposal & Voting Framework §6.5**, applying only the counting rules in **§6.2.4** — the grade distributions, the median grades, the Minimum Median Grade, the ranking, and the majority gauge. §5 guarantees at least one non-recused member remains to discharge this duty. The publication carries no judgement and confers no discretion; it records what the tallies produce.
+* **Ties go to a runoff, whatever the number tied.** Where the majority gauge does not separate candidates and the tie determines who is seated, the RAC opens the runoff described in §7A.4 — an Approval Voting poll among the tied candidates only, over the short Temperature Check period, with no new nominations, subject to the **Election Tie Runoff Quorum** (DAO Parameters §6B — 3%). The two-candidate route to RAC adjudication in §7A.4 is **not** available in this state.
+* **A failed or tied runoff leaves the seat unfilled.** Where the runoff does not reach quorum, or is itself tied, no candidate is seated for that seat and it is referred to §11 (founding election: §17.1). This is the same outcome §7A.2 provides where no candidate is electable, and for the same reason: the electorate has been asked twice and has not separated these candidates, and no body may lawfully choose between them on the DAO's behalf.
+* **Reserve list.** A reserve-list tie that the gauge does not separate is **not** resolved under §7A.4 in this state. The vacancy is not filled from the reserve list and §11 applies to it unmodified — §7.5 exists to avoid an election, and a runoff would defeat that purpose.
+
+The competency principle in §7A.4 is unavailable in this state at every point, including on any later seating from the reserve list. This is a deliberate trade: the framework gives up a reasoned adjudication in order to avoid conferring a discretionary power on a body that is materially interested in how it is exercised.
+
 ---
 
 ### 7.4 Term Start
 
-Confirmed role holders begin their term on the defined start date following the completion of the election (all Stage 2 confirmation votes for two-stage elections; final result publication for Majority Judgment elections).
+A role holder's term begins on the **later** of:
+
+1. the close of the 48-hour veto window on the published election result (**Proposal & Voting Framework §6.5, §8**; DAO Parameters §4) or, where a veto challenge is filed within it, the RAC's determination of that challenge in favour of the result; and
+2. satisfaction of every condition precedent to seating for the role — including KYC verification where required (**Operating Agreement §10.4, §1.24**; DAO Parameters §3A.5) and the role-concentration cap (DAO Parameters §6B).
+
+An election is complete for this purpose when every vote it produced has closed and its result has been published: all Stage 2 confirmation votes under the two-stage mechanism, or the graded round under Majority Judgment, in each case including any rerun, fallback-advancement vote, or tie runoff.
+
+**No role holder is seated while the veto window on their election result is open.** A result vetoed and upheld would otherwise unseat a person already exercising the role, and the framework provides no means of undoing acts taken in the interval. This mirrors the pre-execution hold that governs treasury and executable proposals (DAO Parameters §9; Proposal & Voting Framework §12).
+
+Seating from the reserve list under §7.5 is not an election result and does not carry a further veto window; it takes effect on satisfaction of the conditions precedent in paragraph 2 above.
 
 ---
 
@@ -301,7 +345,11 @@ To file a valid challenge:
 
 A filed challenge does not require the incumbent to stand down — the incumbent continues in role until the election concludes.
 
-If a challenge is filed but no eligible challengers are confirmed by the election, the incumbent is renewed and their consecutive term count continues.
+If a challenge is filed but the election produces no successor — no challenger is **confirmed** under the two-stage mechanism, or no challenger is **electable** under Majority Judgment — the incumbent is renewed and their consecutive term count continues.
+
+**A renewal-challenge election contests an occupied seat.** The seat is not vacant, and the referral of an unfilled seat to vacancy handling (§7.3, §7A.2, §11) does **not** apply to it: where the election seats no one, the incumbent continues in role under this section rather than the seat falling vacant. This is so under both mechanisms, and it is the reason a weak challenge field cannot empty a working seat. The exception is a challenge arising at the consecutive renewal cap, where auto-renewal is unavailable — see §9.5.
+
+**Holdover where the election fails without producing a result.** Where a renewal-challenge election ends unresolved rather than seating no one — in particular where the RAC does not publish its route within the deadline in §7A.3 — the incumbent is **not renewed**, but **holds over** in office until the replacement election under §11 concludes. A holdover period confers no renewal and does **not** increase the incumbent's consecutive term count (§9.5). Holding over keeps the body populated, so that an administrative failure by the RAC cannot by itself drop seated membership below the floor in DAO Parameters §5.1 and trigger a continuity event; and because it confers no renewal, it leaves the incumbent no better off than if the election had run.
 
 ---
 
@@ -323,12 +371,13 @@ To prevent simultaneous leadership turnover across all roles, initial term start
 
 | Role | Initial Term Start |
 |---|---|
-| RAC Members | Month 1 (DAO launch) |
-| Treasury Signers | Month 2 (30 days after DAO launch) |
-| WG Stewards — Group A (first cohort of WGs) | Month 1 (DAO launch) |
-| WG Stewards — Group B (second cohort of WGs) | Month 4 (90 days after DAO launch) |
+| RAC Members | Month 1 — term start under §7.4 |
+| WG Stewards — Group A (first cohort of WGs) | Month 1 — term start under §7.4 |
+| WG Stewards — Group B (second cohort of WGs) | Month 4 — 90 days after Month 1 |
 
 The specific Working Groups assigned to Group A and Group B are determined by the order in which each Working Group is established by Governance Proposal — the first cohort of WGs constituted after the Permanent RAC is seated are Group A; subsequent WGs are assigned to Group B unless governance specifies otherwise at establishment. This stagger ensures that no more than half of all role holders face simultaneous renewal at any one time.
+
+**Delegated Functions are not staggered.** A Delegated Function seated by RAC allocation has no term of its own and runs with the holder's RAC seat (**Delegate Mandate §3**), so there is nothing to stagger. Where the DAO has resolved to fill a function by Election Proposal, its initial term start is set in that proposal.
 
 ---
 
@@ -341,7 +390,8 @@ Upon reaching the cap:
 * Auto-renewal is not available for that term end
 * A full election (§7) must be held under either mechanism — the incumbent may stand as a candidate and is subject to the normal nomination process and to the same bar as every other candidate
 * If the incumbent is returned by the election, their consecutive term count **resets to 1**
-* If the incumbent does not stand or is not confirmed, the vacancy is filled by the election winner
+* If the incumbent does not stand, or stands and is not seated — not confirmed under the two-stage mechanism, or not electable under Majority Judgment — the seat is filled by the election winner
+* **If the election seats no one at all**, the incumbent is **not** renewed: auto-renewal is unavailable at the cap, so the renewal-continuity rule in §9.2 does not operate here. The seat falls vacant on term expiry and is handled under §11. This is the intended consequence of the cap — two years of continuous service without a contested election is the limit, and an election that produces no successor does not extend it
 
 The cap applies to consecutive terms in the **same role**. Serving in a different role does not count toward the cap. A gap of one or more full terms resets the consecutive count.
 
@@ -439,15 +489,26 @@ The Transition RAC is constituted under Operating Agreement Article VI, carrying
 
 The **first Permanent RAC election** is the first election conducted under this policy. It is run during the Transition Period by the Transition RAC using the procedures in §6–§7. The election and the formal **seating** of at least the minimum number of Permanent RAC members (DAO Parameters §3A.5) is a **precondition to the Activation Vote** (Operating Agreement Schedule 5, condition 7), not itself the endpoint of the Transition Period; the Transition Period ends on the Activation Date when the Activation Vote passes (Operating Agreement §1.2). Elected members must be KYC-verified before seating, the Transition RAC must open the election within the deadline in DAO Parameters §3A.5, and seating must complete before the Activation Statement is published (Operating Agreement §8.5).
 
-Former Transition RAC members are eligible to stand as candidates for the Permanent RAC on the same basis as any other eligible candidate. Service on the Transition RAC creates no automatic right to a Permanent RAC seat and no preferential treatment in the election.
+Transition RAC members are eligible to stand as candidates for the Permanent RAC on the same basis as any other eligible candidate, subject to §5 — **at least one seated Transition RAC member must not stand**, so that a non-recused member remains to discharge the RAC's functions in relation to the election. With three seats, at most two may stand. Where two stand, the body falls below the non-recused floor in DAO Parameters §5.1 and §7A.4A governs the determination. Service on the Transition RAC creates no automatic right to a Permanent RAC seat and no preferential treatment in the election.
 
 **Interim appointments** under the Governance Continuity Framework (for example, emergency signer appointments from the Emergency Signer Reserve) are not eligible for auto-renewal under §9. A full election under §7 must be held at the end of the appointed term before auto-renewal rights accrue to a holder of that seat.
 
 ### 17.1 Failed Founding Election — Re-run
 
-Where the first Permanent RAC election does not result in the formal seating of at least the minimum number of members required for Activation Condition 7 (DAO Parameters §3A.5; §5.1) — whether because the Stage 1 shortlist is exhausted under §7.3 with fewer than the minimum confirmed, or because Stage 2 confirmation votes fail to reach the Election Stage 2 quorum or approval threshold — **the election does not lapse and the Transition Period does not end.** The Transition RAC must **re-run the election** under §6–§7, opening a fresh nomination round within the Replacement Election Trigger Time (DAO Parameters §6B) measured from the failed result, and must continue to do so until at least the minimum number of members is duly elected and seated.
+Where the first Permanent RAC election does not result in the formal seating of at least the minimum number of members required for Activation Condition 7 (DAO Parameters §3A.5; §5.1), **the election does not lapse and the Transition Period does not end.** The Transition RAC must **re-run the election** under §6–§7, opening a fresh nomination round within the Replacement Election Trigger Time (DAO Parameters §6B) measured from the failed result, and must continue to do so until at least the minimum number of members is duly elected and seated.
 
-The vacancy-handling procedure in §11 presupposes a seated Permanent RAC and does **not** apply to the founding election; this section governs instead. Where a confirmation vote clears the approval threshold but fails for want of participation, the Stage 2 quorum-held-over rerun in §7.3 applies to that candidate (reduced rerun quorum, raised approval threshold, extended voting period); election proposals are excluded from the general Governance Inactivity fallback (DAO Parameters §9A; Governance Continuity Framework §4.3). Where the election still seats fewer than the minimum after all reruns and fallback advancement are exhausted, the Transition RAC re-runs the election under this section.
+**This applies however the shortfall arises, under either mechanism.** It includes in particular:
+
+* **Either mechanism** — a failed Temperature Check, which is terminal for that election (Proposal & Voting Framework §3.2)
+* **Two-stage** — the Stage 1 shortlist is exhausted under §7.3 with fewer than the minimum confirmed; or Stage 2 confirmation votes fail to reach the Election Stage 2 Quorum or the Election Stage 2 Approval Threshold
+* **Majority Judgment** — the round closes below the Minimum Participation for Elections and the single permitted rerun also closes below it; or the RAC takes neither route under §7A.3; or the round meets quorum but fewer than the minimum number of candidates are electable under §7A.1
+* **Either mechanism** — seats left unfilled by a tie that a runoff did not resolve (§7.2.1; §7A.4A)
+
+**Reruns inside an election are exhausted first.** The single rerun permitted under each mechanism — Max MJ Reruns and Max Election Stage 2 Reruns (DAO Parameters §6B) — caps that election, not this section. Where a candidate is entitled to a Stage 2 quorum-held-over rerun under §7.3 (reduced rerun quorum, raised approval threshold, extended voting period), where fallback advancement remains available under §7.3, or where the Majority Judgment rerun under §7A.3 has not yet run, those run to exhaustion before the election is treated as failed for the purposes of this section.
+
+**Choice of mechanism on a re-run.** A re-run under this section is a fresh election, and the Transition RAC selects its mechanism afresh under §7. Because the field from the failed round is known by then, that selection is not left to the administering body alone: the mechanism is stated on the re-run's Temperature Check ballot (Proposal & Voting Framework §3.2), and a failed Temperature Check is terminal. The community therefore approves or rejects the mechanism together with the candidate list, and a switch cannot be imposed over its objection. The Transition RAC must publish its reasons for the selection with the Nomination & Discussion Window, before the new field is known.
+
+The vacancy-handling procedure in §11 presupposes a seated Permanent RAC and does **not** apply to the founding election; this section governs instead. Election proposals are excluded from the general Governance Inactivity fallback (DAO Parameters §9A; Governance Continuity Framework §4.3), under both mechanisms.
 
 ### 17.2 Transparency While Activation Condition 7 Is Unmet
 
@@ -482,6 +543,7 @@ The following parameters are defined in DAO Parameters §6B and are authoritativ
 * Election Stage 2 Rerun Approval Threshold
 * Election Stage 2 Rerun Voting Period
 * Max Election Stage 2 Reruns
+* Election Tie Runoff Quorum
 * Minimum Participation for Elections
 * MJ Minimum Median Grade
 * MJ Rerun Quorum

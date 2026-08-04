@@ -22,7 +22,7 @@ Most of an election is the same either way. The choice is narrower than it first
 |---|---|
 | Who may stand | Same eligibility and nomination rules (Policy §5–§6) |
 | Getting to a ballot | Same Nomination & Discussion Window, same Temperature Check approving the candidate list |
-| Who may vote, with how much weight | Same eligible voting power, same snapshot fixed at election creation (Framework §6.1) |
+| Who may vote, with how much weight | Same eligible voting power, same snapshot rule — each vote takes its own snapshot when it opens, and only a rerun reuses the snapshot of the round it re-runs (Framework §6.1) |
 | Turnout requirement | Same quorum — Minimum Participation for Elections, 7% |
 | If turnout is short | One rerun over a doubled voting period. Two-stage lowers the quorum and raises the approval threshold to compensate; Majority Judgment holds both constant (see principle 4) |
 | If seats go unfilled | Same referral to vacancy handling (Policy §11; founding elections §17.1) |
@@ -101,7 +101,9 @@ Against the 21-day Replacement Completion Time for a vacancy, that difference is
 
 ### 4. The 50% cliff — the most important thing on this page
 
-**Below half the voting power cast, Majority Judgment is very hard to capture. At half plus one, it hands over everything.** Both halves of that sentence follow from the same property, and you cannot have one without the other.
+**Below half the voting power cast, Majority Judgment is very hard to capture. At exactly half, it hands over everything.** Both halves of that sentence follow from the same property, and you cannot have one without the other.
+
+*Exactly half, not half plus one.* The median is the highest grade at which the running total **reaches or exceeds** half (Framework §6.2.4), so a bloc holding precisely half of the voting power cast already fixes the grade — it does not need one more token. A candidate graded Excellent by half the electorate and Poor by the other half has a median of **Excellent**.
 
 A median is fixed by the ballot standing at the halfway point and is completely blind to how extreme the grades on either side of it are. So:
 
@@ -116,7 +118,7 @@ In the first row, a candidate half the DAO rates worst-possible receives the *hi
 
 Two-stage's 60% per-candidate gate *is* a share-of-turnout test, and it is the only place in the whole framework where a large minority can block. The Temperature Check won't do it (≥50% YES) and the veto won't (legality only — §8.2 excludes disagreement with substance).
 
-**What this costs in practice.** Control belongs to whoever holds just over half of *turnout*, not half of the DAO. At the 7% election quorum that is roughly **3.5% of eligible voting power** — enough to set every candidate's grade, and because one ballot grades every candidate, to sweep an entire body in a single action. Under two-stage the same block must win the Stage 1 ranking *and* clear 60% on each candidate separately.
+**What this costs in practice.** Control belongs to whoever holds half of *turnout*, not half of the DAO — and exactly half is enough. At the 7% election quorum that is roughly **3.5% of eligible voting power** — enough to set every candidate's grade, and because one ballot grades every candidate, to sweep an entire body in a single action. Under two-stage the same block must win the Stage 1 ranking *and* clear 60% on each candidate separately.
 
 *The other side, and it is real:* Approval Voting rewards coordination in its own way. A disciplined block that approves exactly its own slate concentrates all its power on those names while unorganised voters spread theirs thin, so a *minority* can dominate a Stage 1 ranking. Stage 2's gate then checks it — but only over the candidates Stage 1 chose to show the electorate.
 

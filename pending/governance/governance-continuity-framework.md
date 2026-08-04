@@ -102,7 +102,7 @@ Response:
 
 **Interim signer appointment (if active signers < 3):**
 
-* The RAC may appoint up to 2 interim signers from the pre-approved Emergency Signer Reserve (maintained by the Governance & Legal Working Group; approved by DAO vote at least annually — Treasury Signers Rules §15)
+* The RAC may appoint up to 2 interim signers from the pre-approved Emergency Signer Reserve (maintained by the Governance & Legal Working Group; approved by DAO vote at least annually — Treasury Signers Rules §15). An interim signer appointed from the Reserve **need not hold a RAC seat**, and is the single exception to the rule in Delegate Mandate §3 that Treasury Signing is held only by seated RAC members. This is what makes the Reserve usable at minimum RAC strength, where every seated member already holds Treasury Signing and the body has no spare capacity to re-allocate to
 * Interim signers are subject to the full Treasury Signers Rules
 * The signing threshold for interim-period actions is raised to **4-of-5** (regardless of whether interim or permanent signers hold the seats)
 * Interim appointment must be disclosed to the governance forum within **24 hours** of appointment
@@ -124,6 +124,8 @@ Response:
 ### 4.2A Governance Operator Failure
 
 The proposal pipeline depends on the Governance Operator elevating eligible Temperature Checks via the Owner Badge (Proposal & Voting Framework §3.3; Delegate Mandate §2.2). Because the removal of a non-compliant Governance Operator itself requires a proposal to pass through that pipeline, operator failure is a continuity event with its own backstop, parallel to the signer forced-execution backstop in §4.2.
+
+> **Scope limit — read this before relying on the backstop.** The response below is written for a configuration in which the Governance Operator, the instructing RAC, and the executing Treasury Signers are **different people**. Under **Delegate Mandate §3** Delegated Functions are allocated from among seated RAC members, and during the Transition Period all functions are held by the three-member Transition RAC (**Delegate Mandate §6**). In both phases, therefore, the three actors below may be — and at minimum RAC strength will be — the same people, and this backstop has no independent party in it. That is a **known and accepted consequence** of the DAO's scale, not an oversight. What survives in that configuration is the published record: the instruction, the compliance window, and the disclosure duties below all still apply and are all public, so a failure is visible even where it cannot be externally compelled. The backstop recovers its full force only where the DAO has switched Governance Operations or Treasury Signing to election under Delegate Mandate §3, or where an interim signer from the Emergency Signer Reserve is serving (§4.2).
 
 Trigger:
 
@@ -166,7 +168,10 @@ Response:
 
 The fallback preserves the DAO's decision-making capability during periods of low engagement without abandoning the quorum principle entirely. Thresholds are defined in the **DAO Parameters Registry §9A**.
 
-Treasury / Budget proposals and **election proposals** are excluded from this fallback. Election low-turnout is handled instead by the Stage 2 quorum-held-over rerun in the Elections & Role Governance Policy §7.3 (reduced rerun quorum, raised approval threshold, extended voting period).
+Treasury / Budget proposals and **election proposals** are excluded from this fallback, under **both** election mechanisms. Each mechanism carries its own low-turnout handling, and the two differ (DAO Parameters §9A):
+
+* **Two-stage** — the Stage 2 quorum-held-over rerun in the Elections & Role Governance Policy §7.3: a reduced rerun quorum paired with a raised approval threshold, over an extended voting period
+* **Majority Judgment** — a single rerun at the **unchanged** quorum and the **unchanged** electability floor over a doubled voting period (Elections & Role Governance Policy §7A.3). This is the one mechanism in the framework whose low-turnout handling does not reduce a quorum, because it has no share-of-votes threshold that could be raised to compensate
 
 ---
 
