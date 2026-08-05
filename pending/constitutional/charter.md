@@ -155,6 +155,8 @@ On the Activation Date the Company becomes Algorithmically Governed, governance 
 
 The DAO operates through a governance system consisting of proposal submission, community deliberation, voting, and execution. Token holders may participate directly or by delegating their voting power to a representative of their choosing.
 
+Funds under the DAO's control may not be used for governance participation. No balance in an account the DAO controls may be voted, delegated, or used to file or support any governance action. This rule determines who may vote; it does not change how quorum is measured.
+
 ---
 
 ## 6. Treasury Stewardship

@@ -39,6 +39,7 @@ Treasury Signers may not:
 * change proposal intent
 * act outside approved mandates
 * withhold execution for political reasons
+* cast or direct any governance vote from a treasury account
 
 These restrictions apply to the exercise of the Treasury Signing function and do not govern conduct in any other role the same person may simultaneously hold.
 
