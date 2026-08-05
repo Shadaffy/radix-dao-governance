@@ -49,7 +49,7 @@ A useful mental model:
 
 | § | Section | In one sentence |
 |---|---------|-----------------|
-| 5 | **Governance System** | Describes *how decisions get made* — propose, discuss, vote, execute — and that you can vote yourself or delegate your vote. |
+| 5 | **Governance System** | Describes *how decisions get made* — propose, discuss, vote, execute — and that you can vote yourself or delegate your vote. Delegation is a Charter right but is **not enabled at launch**, pending platform support (DAO Parameters §8). |
 | 6 | **Treasury Stewardship** | Sets the *rules for the DAO's money* — it must serve the ecosystem, and big spends need a governance vote. |
 | 7 | **Governance Safeguards** | Guarantees there are *brakes and emergency tools* to stop harmful actions, settle disputes, and report misconduct by people in power. |
 | 8 | **Governance Integrity** | Establishes the *Accountability Council as a referee* that makes sure the process is followed — without itself becoming a ruler — and requires officials to disclose conflicts. |

@@ -42,7 +42,18 @@ A conflict exists where a covered person, or a close associate (family member, b
 * A protocol, product, or project that would directly benefit from a DAO decision
 * A competitor of an entity the DAO is evaluating for partnership or investment
 
-**Material financial interest** means equity, tokens, debt, employment, or advisory compensation above a *de minimis* threshold as defined in DAO Parameters.
+**Material financial interest.** There is no numeric threshold, and none is set in DAO Parameters — a figure would need calibrating against operating history the DAO does not have and against volatile token valuations, and would authorise non-disclosure beneath it. An interest is material where either limb below is satisfied.
+
+**(a) Interests deemed material**, without any assessment of size and with no judgement exercised by the covered person:
+
+* equity, tokens, debt, or any other financial instrument issued by a party to the matter or by an entity under common control with a party;
+* employment, a directorship, an advisory engagement, or any officer position with a party, current or ended within the preceding 12 months;
+* any payment, grant, fee, or other benefit received from a party within the preceding 12 months, or expected from it;
+* any of the above held by a close associate.
+
+"A party to the matter" means the entity or person the decision concerns — an applicant for funding, a counterparty to a contract, a project whose position the decision would alter, or a competitor of any of them where the decision bears on their relative position.
+
+**(b) The residual test.** Any other financial interest is material where a reasonable Governance Participant, knowing the interest, would consider it capable of influencing the covered person's exercise of DAO authority — not what the covered person believes about their own impartiality. A dispute is decided under §5.3, not by the person whose interest is in question.
 
 ---
 
@@ -82,6 +93,18 @@ Other Delegated Function combinations are permitted under the standard disclosur
 
 ---
 
+### 3.6 Materiality Across This Section
+
+Recusal under §5.1 is required where a conflict is **material**. §3.1 defines that for financial interests; this section states how it applies to the other four conflict types.
+
+* **§3.2 Organizational Affiliations — material without further assessment.** The section is already scoped to entities with DAO-facing business, so an affiliation within that scope is material by virtue of the scope.
+* **§3.3 Personal Relationships and §3.4 Simultaneous Role Conflicts — the residual test in §3.1(b) applies.** Both are drafted as conflicts that *may* exist, so materiality is the question they turn on.
+* **§3.5 Delegated Function Consolidation — not a recusal trigger.** It is a structural risk managed by the declaration duties in that section and by §5.1's rule that holding a role is not of itself a material conflict. It becomes a recusal matter only where an interest under §3.1 to §3.4 also arises.
+
+Materiality is never determined by the covered person alone: where disputed, §5.3 governs, and where the dispute reaches the body the person sits on, §8 governs.
+
+---
+
 ## 4. Disclosure Requirements
 
 ### 4.1 Initial Disclosure
@@ -93,22 +116,26 @@ All covered persons must submit a Conflicts Disclosure Statement upon:
 
 The disclosure must include:
 
-* All current financial interests in ecosystem entities (above *de minimis* threshold)
+* **All** current financial interests in ecosystem entities — **no threshold applies to disclosure**
 * All current organizational affiliations, including paid roles, directorships, and advisory positions
 * Any personal relationships that could constitute a conflict
 * Any other circumstances the covered person believes could give rise to a perceived conflict
 
 Initial disclosures are reviewed by the RAC and published in the DAO's public records.
 
+**Disclosure and recusal carry different bars, deliberately.** Everything above is disclosable whether or not it is material under §3.1 — materiality governs only whether **recusal** follows (§5). Disclosure is cheap and reversible where recusal costs the DAO a decision-maker, so the bar sits on the expensive act. Disclosing is therefore not an admission of materiality, and a covered person who is unsure should disclose: a recusal request under §5.3 can only be argued from facts on the record, so an undisclosed interest is one nobody but its holder can raise.
+
 ---
 
 ### 4.2 Ongoing Disclosure
 
-Covered persons must update their disclosure within **14 days** of any material change, including:
+Covered persons must update their disclosure within **14 days** of any change to anything §4.1 requires them to disclose, including:
 
 * Accepting a new paid role or advisory position with an ecosystem entity
-* Acquiring a material financial interest in an entity relevant to DAO decisions
+* Acquiring a financial interest in an entity relevant to DAO decisions
 * The emergence of a new personal relationship relevant to this policy
+
+The trigger is a change to a **disclosable** matter, not a change to a **material** one — §4.1's scope and §3.1's materiality test are not the same bar, and the update duty follows the wider of the two. An interest immaterial when acquired can become material as the DAO's business changes, and that reassessment cannot be made by anyone if the acquisition was never recorded.
 
 ---
 

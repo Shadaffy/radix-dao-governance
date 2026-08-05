@@ -125,11 +125,19 @@ From the date of formation to the Activation Date, governance outcomes produced 
 
 ### 4A.2 The three binding community acts
 
-During the Transition Period the community's binding acts are limited to:
+The community's binding acts are limited to the three below. The first precedes formation; the second and third fall within the Transition Period, which commences on formation (**Operating Agreement §1.21**).
 
-1. **Framework ratification** — the constitutional ratification of this Charter and the full policy framework, at the ratification threshold for constitutional matters specified in the **DAO Parameters Registry** (**Operating Agreement Schedule 5, condition 6**);
+1. **Framework ratification** — the constitutional ratification of this Charter and the full policy framework, at the ratification threshold for constitutional matters specified in the **DAO Parameters Registry §3A.1** (**Operating Agreement Schedule 5, condition 6**; and see §4A.2A);
 2. **The Permanent RAC election** — conducted under this Charter and the **Elections & Role Governance Policy**, with the seat minimum, KYC-before-seating, and fixed election timing specified there (**Operating Agreement §7.1 and Schedule 5, condition 7**); and
 3. **The Activation Vote** — the sole binding governance vote of the Advisory Governance Period, whose voting period, quorum, majority, and failure handling are specified in the **DAO Parameters Registry §3A.2** (**Operating Agreement §§1.4, 8.6**).
+
+### 4A.2A Ratification precedes the Company
+
+Framework ratification is a community act taken before the Company exists and is not an exercise of authority under the Operating Agreement. It fixes the version of this Charter and the policy framework on which the founding sequence proceeds.
+
+It is recognised twice: by the Transition RAC's unanimous written resolution on formation (**Operating Agreement Schedule 5, condition 6(a)**; **§§11.1, 11.2, 11.5**), and by the **Activation Vote**, which in confirming the Activation Conditions recognises the ratification, the formation, and the Transition RAC's completed tasks.
+
+The version ratified is the version that binds. Recognition confers no power to alter it; amendment before the Activation Date is made under §12 or §12.2.
 
 ### 4A.3 Activation Conditions
 
@@ -247,7 +255,8 @@ This power is strictly limited. An emergency amendment:
 2. may not amend, weaken, reduce, or remove any Entrenched Provision (§12.1), and may not alter the Activation framework (§4A);
 3. takes effect only as a temporary measure pending ratification and confers no authority to make a permanent change without the ratifying Governance Proposal required by this section, consistent with the governance-sovereignty constraint (§12.1 item 3);
 4. must be publicly disclosed on adoption in accordance with the Transparency principle (§3.2); and
-5. confers no protection on actions taken in reliance on it if ratification fails: where an emergency amendment is not ratified, any action taken under it that would not have been valid under the unamended document must be reported and reviewed under the **Emergency & Safeguards Policy §10**, and any treasury disbursement so made is recoverable by the Company unless separately ratified by Governance Proposal.
+5. confers no protection on actions taken in reliance on it if ratification fails: where an emergency amendment is not ratified, any action taken under it that would not have been valid under the unamended document must be reported and reviewed under the **Emergency & Safeguards Policy §10**, and any treasury disbursement so made is recoverable by the Company unless separately ratified by Governance Proposal; and
+6. does not authorise, before ratification, the **seating of a person in a role**, a change to the **treasury signer set or its thresholds**, or a transfer of the **Owner Badge or the Governance Operations function**. Unlike a disbursement under item 5, these cannot be undone (**Emergency & Safeguards Policy §10**).
 
 For the purposes of this section, "written consent" has the meaning given in the **Emergency & Safeguards Policy**.
 

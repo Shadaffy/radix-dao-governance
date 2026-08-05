@@ -19,7 +19,21 @@ The Permanent RAC is responsible for:
 * Monitoring treasury operations for compliance with approved decisions
 * Coordinating responses to emergencies and governance failures
 * Flagging inconsistencies, risks, or violations to the DAO
-* Receiving Treasury Outflow Alert signals from the Strategic Coordination WG and pausing the next Treasury / Budget proposal's voting period until community acknowledgement is recorded on the governance forum (see Strategic Coordination WG Charter §3)
+* Receiving Treasury Outflow Alert signals from a Working Group chartered to issue them, and pausing the next Treasury / Budget proposal's voting period until community acknowledgement is recorded on the governance forum, subject to §2.1
+
+---
+
+### 2.1 The Treasury Outflow Alert pause
+
+The power is exercisable only on an Outflow Alert from a Working Group chartered to issue one, and is therefore **dormant until such a Charter is adopted** (**Working Group Framework**; **Roles Registry §4**). Until then no alert can be issued, by any body, and the RAC has no power to pause on this ground.
+
+When exercisable, the power is bounded as follows. A Working Group Charter may narrow these limits, not widen them.
+
+* **One pause per proposal**, non-renewable.
+* **Five business days maximum.** The voting period resumes automatically on acknowledgement being recorded or on expiry, for the balance unexpired at the pause; it does not restart.
+* **Reasons published at the pause** to the Official Venue — the alert relied on, the outflow it concerns, and what would constitute acknowledgement.
+* **No pause** on a proposal the RAC opposed at Draft Discussion or Temperature Check, or in which a member is a named recipient or executor (**Conflict of Interest Policy §3.1**).
+* **Immediately challengeable** under the **Dispute Resolution & Arbitration Policy**. The veto in **Proposal & Voting Framework §8** runs from result publication, and a paused vote produces none.
 
 ---
 

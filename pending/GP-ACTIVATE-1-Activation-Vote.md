@@ -39,6 +39,23 @@ The **Activation Vote** is the vote by which Governance Participants confirm tha
 Condition in Operating Agreement Schedule 5 has been satisfied** (OA §§1.4, 8.6). It is the **sole
 binding governance vote** of the Advisory Governance Period.
 
+**It is also the act of recognition that completes the founding sequence** (Charter §4A.2A). GP-PRE-1 was
+taken before the Company existed, when no Operating Agreement was in force and no body held authority
+under the Charter. Confirming the Activation Conditions is therefore the point at which the community,
+now voting inside the recognised governance system of a formed Company, adopts within that legal order
+what it resolved before the order existed — necessarily recognising:
+
+1. **The constitutional ratification** of the framework (condition 6), the version ratified being the
+   version that binds;
+2. **The formation of the Company** on that framework, and the Transition RAC's adoption of it by
+   unanimous written resolution (condition 6(a)); and
+3. **The Transition RAC's completion of the tasks the Operating Agreement assigns it** — the Permanent RAC
+   election and seating (condition 7) and the remaining Schedule 5 conditions, as evidenced in the
+   Activation Statement.
+
+A voter is accordingly asked to accept a framework visible and unchanged since ratification, on the record
+of what was done under it.
+
 On passage it sets the **Activation Date**: the Company becomes **Algorithmically Governed**, governance
 outcomes become **binding decisions of the Company** (OA §5.7, §8.8), and the **Transition RAC sunsets**
 (OA §6.10), with the Permanent RAC already seated.

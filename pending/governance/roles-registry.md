@@ -163,7 +163,7 @@ Delegated Functions are seated by **RAC allocation from among seated RAC members
 ### 2.4 Delegates — Treasury Signers
 
 **Authority & Scope**
-Treasury Signers execute treasury transactions approved by governance. They are execution agents, not decision-makers. During the Transition Period, this function is held by the three Transition RAC members as the initial signers, operating a 2-of-3 multisig (protected/high-risk matters require unanimity of all seated signers, minimum two) per OA §§9.10–9.11; from the Activation Date it is held by the five elected Treasury Signing Delegates operating a 3-of-5 multisig (4-of-5 for high-risk transactions). They may refuse or delay execution only on the specific grounds defined in Treasury Signers Rules §9. They may take protective emergency actions when triggered under the Emergency Policy (Treasury Signers Rules §17).
+Treasury Signers execute treasury transactions approved by governance. They are execution agents, not decision-makers. During the Transition Period, this function is held by the three Transition RAC members as the initial signers, operating a 2-of-3 multisig (protected/high-risk matters require unanimity of all seated signers, minimum two) per OA §§9.10–9.11; from the Activation Date it is held by five Treasury Signing Delegates allocated by the RAC from among its seated members, operating a 3-of-5 multisig (4-of-5 for high-risk transactions). They may refuse or delay execution only on the specific grounds defined in Treasury Signers Rules §9. They may take protective emergency actions when triggered under the Emergency Policy (Treasury Signers Rules §17).
 
 **Defined In**
 - Delegate Mandate §2.1 (Treasury Signing function definition and scope)
@@ -172,10 +172,10 @@ Treasury Signers execute treasury transactions approved by governance. They are 
 - Charter §4.3 (binding decisions executed through Treasury Signers)
 
 **Appointment**
-During Transition Period: held by the three Transition RAC members as initial signers per OA §§9.10–9.11 (2-of-3 standard / unanimous-of-seated protected, minimum two). Post-transition: Election Proposal process (Proposal & Voting Framework §4.5), under either operative mechanism. Exactly 5 signers must be elected to support the post-activation 3-of-5 / 4-of-5 thresholds (Delegate Mandate §3; DAO Parameters §6A). KYC required before assuming function.
+During Transition Period: held by the three Transition RAC members as initial signers per OA §§9.10–9.11 (2-of-3 standard / unanimous-of-seated protected, minimum two). Post-transition: **RAC allocation from among seated RAC members** (Delegate Mandate §3); runs with the holder's RAC seat. Five holders are required to support the post-activation 3-of-5 / 4-of-5 thresholds (DAO Parameters §6A), so at the five-seat RAC minimum every seated member holds Treasury Signing. KYC required before assuming function. The DAO may resolve by Governance Process proposal that this function be filled by Election Proposal instead (Delegate Mandate §3; DAO Parameters §6B), in which case it carries its own term and Elections & Role Governance Policy §§5–9 apply to it in full.
 
 **Term & Renewal**
-Post-transition: 6 months (DAO Parameters §6A, §6B). Auto-renewed unless challenged. Maximum 4 consecutive terms (DAO Parameters §6B).
+None of its own. An allocated Delegated Function runs with the holder's RAC seat and has no term, renewal cycle, or challenge window of its own (Delegate Mandate §3). It ends on re-allocation by the RAC, on removal under Elections & Role Governance Policy §10, or when the holder's RAC seat ends. The RAC seat itself carries the 6-month term, auto-renewal and consecutive-term cap in DAO Parameters §6B.
 
 **Removal**
 DAO vote at any time (Treasury Signers Rules §7). Immediate emergency suspension may occur for: key compromise, credibly alleged misconduct, or unavailability that threatens operations (Treasury Signers Rules §7). Inactivity threshold: 21 days without excused absence (DAO Parameters §6B).
@@ -212,7 +212,7 @@ Operates the Governance Platform: elevates approved Temperature Checks to Govern
 RAC allocation from among seated RAC members (Delegate Mandate §3); runs with the holder's RAC seat. KYC required before assuming function (Delegate Mandate §3; OA §10.4). During the Transition Period the function is held by the Transition RAC collectively (Delegate Mandate §6).
 
 **Term & Renewal**
-6 months (DAO Parameters §6B). Auto-renewed unless challenged. Maximum 4 consecutive terms.
+None of its own. An allocated Delegated Function runs with the holder's RAC seat and has no term, renewal cycle, or challenge window of its own (Delegate Mandate §3). It ends on re-allocation by the RAC, on removal under Elections & Role Governance Policy §10, or when the holder's RAC seat ends. The RAC seat itself carries the 6-month term, auto-renewal and consecutive-term cap in DAO Parameters §6B.
 
 **Removal**
 DAO vote at any time (Delegate Mandate §5).
@@ -244,7 +244,7 @@ Signs contracts, continuity statements, and legal instruments as authorized by G
 RAC allocation from among seated RAC members (Delegate Mandate §3); runs with the holder's RAC seat. KYC required. During the Transition Period the function is held by the Transition RAC collectively (Delegate Mandate §6).
 
 **Term & Renewal**
-6 months (DAO Parameters §6B). Auto-renewed unless challenged. Maximum 4 consecutive terms.
+None of its own. An allocated Delegated Function runs with the holder's RAC seat and has no term, renewal cycle, or challenge window of its own (Delegate Mandate §3). It ends on re-allocation by the RAC, on removal under Elections & Role Governance Policy §10, or when the holder's RAC seat ends. The RAC seat itself carries the 6-month term, auto-renewal and consecutive-term cap in DAO Parameters §6B.
 
 **Removal**
 DAO vote at any time (Delegate Mandate §5).
@@ -277,7 +277,7 @@ Acts as Registered Agent liaison. Files the annual Beneficial Owner Information 
 RAC allocation from among seated RAC members (Delegate Mandate §3); runs with the holder's RAC seat. KYC required. During the Transition Period the function is held by the Transition RAC collectively (Delegate Mandate §6).
 
 **Term & Renewal**
-6 months (DAO Parameters §6B). Auto-renewed unless challenged. Maximum 4 consecutive terms.
+None of its own. An allocated Delegated Function runs with the holder's RAC seat and has no term, renewal cycle, or challenge window of its own (Delegate Mandate §3). It ends on re-allocation by the RAC, on removal under Elections & Role Governance Policy §10, or when the holder's RAC seat ends. The RAC seat itself carries the 6-month term, auto-renewal and consecutive-term cap in DAO Parameters §6B.
 
 **Removal**
 DAO vote at any time (Delegate Mandate §5).
@@ -308,7 +308,7 @@ Manages social media accounts, GitHub repositories, domain names, and other Web2
 RAC allocation from among seated RAC members (Delegate Mandate §3); runs with the holder's RAC seat. KYC required. During the Transition Period the function is held by the Transition RAC collectively (Delegate Mandate §6).
 
 **Term & Renewal**
-6 months (DAO Parameters §6B). Auto-renewed unless challenged. Maximum 4 consecutive terms.
+None of its own. An allocated Delegated Function runs with the holder's RAC seat and has no term, renewal cycle, or challenge window of its own (Delegate Mandate §3). It ends on re-allocation by the RAC, on removal under Elections & Role Governance Policy §10, or when the holder's RAC seat ends. The RAC seat itself carries the 6-month term, auto-renewal and consecutive-term cap in DAO Parameters §6B.
 
 **Removal**
 DAO vote at any time (Delegate Mandate §5).

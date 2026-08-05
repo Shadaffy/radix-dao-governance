@@ -47,16 +47,19 @@ the three binding community acts of the Advisory Governance Period (Charter §4A
 ## 3. Rules this election runs on
 
 - **Process:** an Election Proposal under **Elections & Role Governance Policy §§6–7** (and §17 founding
-  provisions), run under one of the two operative mechanisms — **Majority Judgment** (§7A; Proposal &
-  Voting Framework §6.2.4) or **two-stage Approval Voting → confirmation** (§7.1–§7.3; §6.2.5).
-  **[TODO — the mechanism must be selected and named here before submission.]** The Transition RAC
-  selects it when it creates the election, and it is stated on the Temperature Check ballot. Because this
-  election constitutes the body that replaces the Transition RAC, the selection and the reasons for it
-  should be published with the Nomination & Discussion Window, before the nominee field is known.
+  provisions). **Mechanism: Majority Judgment** (§7A; Proposal & Voting Framework §6.2.4). This is not a
+  selection — Majority Judgment is the default under §7 and applies unless the DAO has resolved otherwise
+  by Governance Process proposal, in force before the Nomination & Discussion Window opens. The Transition
+  RAC has no power to choose the mechanism or to depart from the default; it states the mechanism in force
+  on the Temperature Check ballot. Grades are settled at the **Grade Quantile — three-fifths** of the
+  voting power cast (§6.2.4), not at the median. Running this election under the two-stage mechanism
+  instead would require a Governance Process proposal in force before the Nomination & Discussion Window
+  opens (§7); it cannot be arranged within this proposal.
 - **Seat minimum, KYC-before-seating, fixed election timing:** **DAO Parameters §3A.5**.
 - **Composition / term / thresholds:** **DAO Parameters §5.1, §6B** — Election Stage 2 quorum/approval
-  under the two-stage mechanism, or Minimum Participation for Elections and MJ Minimum Median Grade
-  under Majority Judgment.
+  under the two-stage mechanism, or Minimum Participation for Elections and MJ Minimum Qualifying Grade
+  under Majority Judgment. Under Majority Judgment the Grade Quantile (three-fifths) is fixed by
+  Proposal & Voting Framework §6.2.4 and is not selected or configured for this election.
 - **Mandate of the elected body:** **RAC Mandate**; **OA Article VII**.
 
 ---
@@ -68,11 +71,10 @@ the three binding community acts of the Advisory Governance Period (Charter §4A
 - [ ] Confirm the election timeline within the fixed window (DAO Parameters §3A.5) and the seating date
       relative to the Activation Statement (OA §8.5).
 - [ ] Nomination/candidate list and on-chain addresses.
-- [ ] Select the election mechanism (Majority Judgment or two-stage) and record the reasons (§3).
-- [ ] Ballot configuration for the selected mechanism per Proposal & Voting Framework §4.5 / §6.2 —
-      grade scale and Minimum Median Grade under Majority Judgment, or Stage 1 / Stage 2 configuration
-      under the two-stage mechanism.
-- [ ] Temperature Check ballot naming the candidate list and the selected mechanism (PVF §3.2).
+- [ ] Ballot configuration per Proposal & Voting Framework §4.5 / §6.2 — grade scale (§3.5) and
+      Minimum Qualifying Grade (§6B). The Grade Quantile is fixed at three-fifths by §6.2.4 and is not
+      configured.
+- [ ] Temperature Check ballot naming the candidate list and stating the mechanism in force (PVF §3.2).
 - [ ] Voting options and result-determination/publication plan.
 
 ---

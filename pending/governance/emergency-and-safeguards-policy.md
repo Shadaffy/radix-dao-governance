@@ -146,6 +146,10 @@ After resolution:
   * reverse actions where possible
   * impose consequences including RAC member removal
 
+**Acts that cannot be reversed are deferred instead of reviewed.** "Reverse actions where possible" is the operative limit of this section. **Charter §12.2 item 6** accordingly withholds authority, until an emergency amendment is ratified, for the three acts that cannot be undone: **seating a person in a role** (a condition precedent under Elections & Role Governance Policy §7.4, reaching reserve-list seating too), **changing the treasury signer set or its thresholds**, and **transferring the Owner Badge or the Governance Operations function**. Each is on-chain or personal state that a failed ratification cannot restore — most acutely the badge, which governs the very mechanism an unwinding would run through. For these the review takes place **before** the act, and the remedies above are addressed to what remains.
+
+This does not slow a genuine emergency. An emergency amendment changes a *rule*; urgent operational action runs on the powers the framework already confers within its rules — interim signers under **Governance Continuity Framework §4.2**, suspension under **Code of Conduct §6.2**, the protective measures in §6 above — none of which requires an amendment.
+
 ---
 
 ### 11. Post-Emergency Recovery
