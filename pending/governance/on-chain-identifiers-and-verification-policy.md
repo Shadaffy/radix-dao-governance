@@ -36,14 +36,15 @@ The following identifiers constitute the governance system. On-chain entries are
 
 | Function | Network | Identifier | Verify |
 |---|---|---|---|
-| Governance smart-contract component | Radix Mainnet | `[component_rdx1… — to be recorded at deployment]` | `https://dashboard.radixdlt.com/component/[component_rdx1…]` |
-| Owner Badge (governance control) | Radix Mainnet | `[resource_rdx1… — to be recorded at deployment]` | `https://dashboard.radixdlt.com/resource/[resource_rdx1…]` |
-| Governance package | Radix Mainnet | `[package_rdx1… — to be recorded at deployment]` | `https://dashboard.radixdlt.com/package/[package_rdx1…]` |
-| Voting-power resource — XRD | Radix Mainnet | `resource_rdx1tknxxxxxxxxxxxradxrdxxxxxxxxx009923554798xxxxxxxxxxxxxx` | `https://dashboard.radixdlt.com/resource/resource_rdx1tknxxxxxxxxxxxradxrdxxxxxxxxx009923554798xxxxxxxxxxxxxx` |
-| Recognised Governance Platform | — | `[https://… — to be recorded]` | Live URL, publicly accessible |
-| Official Venue(s) | — | `[https://… — to be recorded]` | Live URL, publicly accessible |
-| Veto Filing Channel — primary (Governance Operator) | — | `[veto@… — to be recorded]` | Published to the Official Venue; monitored mailbox, open to any sender |
-| Veto Filing Channel — copy (RAC) | — | `[rac@… — to be recorded]` | Published to the Official Venue; monitored mailbox, open to any sender |
+| Governance smart-contract component | Radix Mainnet | `[component_rdx1cp90ys553uwxuckev249x5wezucqru0u4qr7qdxdc9tlpmnh93242k]` | `https://dashboard.radixdlt.com/component/component_rdx1cp90ys553uwxuckev249x5wezucqru0u4qr7qdxdc9tlpmnh93242k` |
+| Master Badge (governance issuer) | Radix Mainnet | `[resource_rdx1nt4gugcmzpajreu75g2ul2whcpa48cdyn0h8n8x8zl5c0gstxn8gvd]` | `https://dashboard.radixdlt.com/resource/resource_rdx1nt4gugcmzpajreu75g2ul2whcpa48cdyn0h8n8x8zl5c0gstxn8gvd` |
+| Owner Badge (governance admin) | Radix Mainnet | `[resource_rdx1ng4c5k872hvhr379n0z0x6ht2n0guugns4jeh6mck9y28cu432xvc4]` | `https://dashboard.radixdlt.com/resource/resource_rdx1ng4c5k872hvhr379n0z0x6ht2n0guugns4jeh6mck9y28cu432xvc4` |
+| Governance package | Radix Mainnet | `[package_rdx1p49s2442esdzs7wet7wucpagnftctml8aecc6a74q67r8r023u4dzn]` | `https://dashboard.radixdlt.com/package/package_rdx1p49s2442esdzs7wet7wucpagnftctml8aecc6a74q67r8r023u4dzn` |
+| Voting-power resource — XRD | Radix Mainnet | `resource_rdx1tknxxxxxxxxxradxrdxxxxxxxxx009923554798xxxxxxxxxradxrd` | `https://dashboard.radixdlt.com/resource/resource_rdx1tknxxxxxxxxxradxrdxxxxxxxxx009923554798xxxxxxxxxradxrd` |
+| Recognised Governance Platform | — | `[https://vote.radixdao.org/]` | Live URL, publicly accessible |
+| Official Venue(s) | — | `[https://www.radixdao.org]` | Live URL, publicly accessible |
+| Veto Filing Channel — primary (Governance Operator) | — | `[veto@radix.community]` | Published to the Official Venue; monitored mailbox, open to any sender |
+| Veto Filing Channel — copy (RAC) | — | `[rac@radix.community]` | Published to the Official Venue; monitored mailbox, open to any sender |
 
 **Voting-power sources are not all single resources.** XRD has one fixed resource address across all of Radix Mainnet and is therefore recorded above with its address and a working verification link. **LSUs (Liquid Staking Units) are not a single shared resource:** each validator mints its own distinct LSU resource with its own resource address, so there is no single "LSU address" to record. LSUs are recognised as a *class* of eligible voting power and converted to their XRD-equivalent at the redemption rate at snapshot; their identification is governed by the snapshot methodology (**DAO Parameters §8 and §8A**; **Proposal & Voting Framework §6**), not by a resource entry in this register. The same applies to any other supplementary source (**DAO Parameters §8A**) that is per-validator or per-pool rather than a single resource: where such a source *does* resolve to a single fixed resource address it may be recorded above for convenience; where it does not, it is verified through the snapshot methodology, not this register. XRD and LSU together are the entrenched constitutional floor of eligible voting power (**Charter §12.1 item 4**), whether or not each carries a register entry.
 
