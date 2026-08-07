@@ -131,24 +131,26 @@ Trigger:
 
 * an eligible passed Temperature Check remains unelevated beyond the TC Elevation Window (DAO Parameters §3.1) with no documented grounds on record with the RAC
 * the Governance Operator is unavailable, unresponsive, or refuses to perform an elevation or governance-parameter update required by a valid governance outcome
-* compromise of the Owner Badge or the Governance Operator's keys is confirmed or credibly suspected
+* compromise of the Master Badge, the Owner Badge, or the Governance Operator's keys is confirmed or credibly suspected
 
 Response:
 
 **Elevation backstop:**
 
 * The RAC may formally instruct the Governance Operator to perform the elevation. The instruction must be published to the governance forum within 24 hours of being issued.
-* If the Governance Operator does not comply within the Elevation Backstop Compliance Window (DAO Parameters §3.1), or is unavailable or compromised, the elevation is executed through the Owner Badge recovery or custody arrangement established for the Governance smart contract, by the Treasury Signers at the standard signing threshold for the current phase (DAO Parameters §6A).
+* If the Governance Operator does not comply within the Elevation Backstop Compliance Window (DAO Parameters §3.1), or is unavailable or compromised, the elevation is executed through the Owner Badge recovery or custody arrangement established for the Governance smart contract, by the Treasury Signers at the standard signing threshold for the current phase (DAO Parameters §6A). Where that arrangement operates by reissuing the Owner Badge, the exercise of the Master Badge required to do so is authorised by this section and by that threshold alone — this is the one route by which the Master Badge is exercised without the higher authority otherwise required for it (On-Chain Identifiers & Verification Policy §4), because a backstop that required unanimity could not fire in the circumstances that trigger it.
 * A backstop elevation is treated as a continuity event for reporting purposes and must be disclosed to the governance forum within 24 hours of execution.
 * Non-compliance with a valid RAC elevation instruction without documented grounds is a breach of duty and grounds for immediate suspension under the Elections & Role Governance Policy §10.3 and removal under §10.
 
 **Badge compromise:**
 
 * A confirmed or credibly suspected compromise of the Owner Badge or the Governance Operator's keys is handled as a key-compromise continuity event: the badge must be rotated or reclaimed through the recovery arrangement, the affected Delegate suspended pending review, and the incident disclosed and reviewed per the Emergency & Safeguards Policy.
+* **Compromise of the Master Badge is a different and graver event, and rotation does not answer it.** An attacker holding the Master Badge can re-mint, recall, or invalidate any Owner Badge issued to replace one it has taken, so reissuing the Owner Badge recovers nothing while the Master Badge remains compromised. The response is redeployment: the governance component and its badges must be redeployed and the new identifiers recorded as a Governance-critical change (On-Chain Identifiers & Verification Policy §8), with the compromised identifiers marked superseded in the register so that no verification link resolves to an instrument still under an attacker's control. Until redeployment completes, no elevation may be treated as authoritative.
 
 **Deployment requirement:**
 
 * The custody and recovery arrangement for the Owner Badge is an implementation decision made when the Governance smart contract is deployed, and is recorded in the On-Chain Identifiers & Verification Policy §3 (per Operating Agreement §11.4 / Schedule 4). Whatever arrangement is chosen, it must provide a mechanism by which an elevation or badge rotation can proceed without the Governance Operator's cooperation, sufficient to give effect to this section. A deployment lacking this capability does not satisfy the Minimum Operational State in §7.
+* The custody arrangement for the **Master Badge** is recorded in the same register and is subject to the same test, with one addition: it must not be exercisable by any single person (On-Chain Identifiers & Verification Policy §4). A deployment in which one person can mint, recall, or invalidate the Owner Badge alone does not satisfy the Minimum Operational State, whatever the Owner Badge's own custody arrangement provides — the weaker of the two arrangements is the one that governs in practice.
 
 ---
 

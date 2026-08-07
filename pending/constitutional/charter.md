@@ -258,7 +258,7 @@ This power is strictly limited. An emergency amendment:
 3. takes effect only as a temporary measure pending ratification and confers no authority to make a permanent change without the ratifying Governance Proposal required by this section, consistent with the governance-sovereignty constraint (§12.1 item 3);
 4. must be publicly disclosed on adoption in accordance with the Transparency principle (§3.2); and
 5. confers no protection on actions taken in reliance on it if ratification fails: where an emergency amendment is not ratified, any action taken under it that would not have been valid under the unamended document must be reported and reviewed under the **Emergency & Safeguards Policy §10**, and any treasury disbursement so made is recoverable by the Company unless separately ratified by Governance Proposal; and
-6. does not authorise, before ratification, the **seating of a person in a role**, a change to the **treasury signer set or its thresholds**, or a transfer of the **Owner Badge or the Governance Operations function**. Unlike a disbursement under item 5, these cannot be undone (**Emergency & Safeguards Policy §10**).
+6. does not authorise, before ratification, the **seating of a person in a role**, a change to the **treasury signer set or its thresholds**, or a transfer or exercise of the **Master Badge, the Owner Badge, or the Governance Operations function**. Unlike a disbursement under item 5, these cannot be undone (**Emergency & Safeguards Policy §10**) — and an exercise of the Master Badge is the least undoable of them, since it can mint, recall, or invalidate the Owner Badge itself.
 
 For the purposes of this section, "written consent" has the meaning given in the **Emergency & Safeguards Policy**.
 
