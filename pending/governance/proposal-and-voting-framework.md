@@ -9,7 +9,7 @@ This document defines:
 * How proposals are created, discussed, and approved
 * Voting mechanisms and thresholds
 * Proposal categories and requirements
-* Safeguards such as veto and resubmission rules
+* Safeguards such as the Compliance Challenge and resubmission rules
 
 **Binding effect and the Advisory Governance Period.** This framework describes the DAO's governance mechanics. The point at which a passed DAO Proposal becomes a **legally binding decision of the Company** is governed by the Operating Agreement: during the **Advisory Governance Period** (formation to the Activation Date) governance outcomes are **advisory** (OA §§5.8–5.9), save for the three binding community acts in Charter §4A.2 (framework ratification, the Permanent RAC election, and the Activation Vote); from the **Activation Date** they are binding decisions of the Company (OA §5.7). References to a "binding" proposal in this document mean binding within the DAO's governance process and take legal effect on this timeline. The Activation Vote itself runs on the parameters in DAO Parameters §3A.2.
 
@@ -169,7 +169,7 @@ All proposals must include:
 * Budget (if applicable)
 * Execution plan (if applicable)
 * **Executor commitment declaration** *(required for all Executable and combined Executable + Treasury proposals)* — Named executor(s) must be identified by name and wallet address, and must have confirmed in writing (forum post or signed statement) that they accept the execution responsibility before the TC voting period opens. Where the proposer is also the executor, this must be declared as a conflict of interest.
-* **Cumulative recipient disclosure** (Treasury & Budget proposals only): total disbursements to the same recipient, entity, or affiliated group over the trailing 90 days. The RAC verifies this field before opening the veto window. A missing or materially incorrect disclosure is valid grounds for a veto filing (Charter / rule violation: failure to meet required proposal content).
+* **Cumulative recipient disclosure** (Treasury & Budget proposals only): total disbursements to the same recipient, entity, or affiliated group over the trailing 90 days. The RAC verifies this field before opening the Compliance Challenge Window. A missing or materially incorrect disclosure is valid grounds for a Compliance Challenge (Charter / rule violation: failure to meet required proposal content).
 
 ---
 
@@ -401,7 +401,7 @@ The RAC is responsible for formally determining the outcome of each vote and pub
 
 **This section does not govern the framework ratification vote.** That vote is taken before the Company is formed (Charter §4A.2A), so no RAC holds authority to determine it. Its result is determined arithmetically from the record of the system on which it was taken, by applying the thresholds in DAO Parameters §3A.1, and published by the persons named as the Transition RAC in Operating Agreement Schedule 1. That publication is **ministerial** — it records what the tallies produce and is not an exercise of any power under this framework, which the vote is itself adopting. Anyone may verify it from the same public record.
 
-**There is no power to exclude a vote.** The RAC may not decline to count, discount, or set aside voting power that §6.1 and DAO Parameters §8A recognise, on any ground — including a sanction or finding under the Code of Conduct, whose sanctions do not reach the vote (Code of Conduct §6.3). Where the RAC believes voting power was cast improperly its remedies lie elsewhere: the veto route in §8, a removal proposal, or a report under the Code. None is a discretion exercised at the point of counting.
+**There is no power to exclude a vote.** The RAC may not decline to count, discount, or set aside voting power that §6.1 and DAO Parameters §8A recognise, on any ground — including a sanction or finding under the Code of Conduct, whose sanctions do not reach the vote (Code of Conduct §6.3). Where the RAC believes voting power was cast improperly its remedies lie elsewhere: the Compliance Challenge route in §8, a removal proposal, or a report under the Code. None is a discretion exercised at the point of counting.
 
 1. **Retrieve results.** After the voting period closes, the RAC retrieves the raw vote data from the governance platform.
 
@@ -417,7 +417,7 @@ The RAC is responsible for formally determining the outcome of each vote and pub
 
 5. **Publish result.** The RAC publishes the official outcome — including raw results, quorum calculation, threshold applied, and winner determination — within the result publication window (DAO Parameters §3.5). For a Majority Judgment election the published result must additionally include each candidate's full grade distribution, each candidate's qualifying grade, the Grade Quantile applied, the Minimum Qualifying Grade applied, the quorum classification for the round, whether a tie-break or an RAC tie adjudication was applied and to which candidates, the seated candidates in ranking order, the reserve list, and any seats referred to vacancy handling. The Grade Quantile is stated on every such result even though it does not vary: a reader who assumes the median is at work must be able to see from the result itself that it is not.
 
-Where any rule governing the election was altered by an emergency amendment under Charter §12.2 between the opening of its Nomination & Discussion Window and this publication, the published result must say so, identify the amendment, and state that seating is deferred until the amendment is ratified (Elections & Role Governance Policy §7.4). Publication constitutes the official record and opens the 48-hour veto window (§8).
+Where any rule governing the election was altered by an emergency amendment under Charter §12.2 between the opening of its Nomination & Discussion Window and this publication, the published result must say so, identify the amendment, and state that seating is deferred until the amendment is ratified (Elections & Role Governance Policy §7.4). Publication constitutes the official record and opens the 48-hour Compliance Challenge Window (§8).
 
 ---
 
@@ -435,40 +435,42 @@ The RAC flags conflicts at the start of the voting period where possible, so the
 
 ---
 
-## 8. Veto Mechanism
+## 8. Compliance Challenge
 
 ### 8.1 Purpose
 
-The veto mechanism exists to:
+The Compliance Challenge exists to:
 
 * Prevent proposals that violate governance rules
 * Protect against malicious or invalid proposals
+
+**Why this is a challenge and not a veto.** Charter §12.1 item 3 bars any grant of unilateral authority to override a valid vote outcome without a subsequent community approval process, so a minority veto is constitutionally unavailable; the DAO override in §8.4 is that process. The framework confers a unilateral right only where no vote has been taken — a term or engagement renewal (Elections & Role Governance Policy §9.2; Contributor Compensation Policy §6.5.3) — and tests every objection to a vote on its grounds.
 
 ---
 
 ### 8.2 Conditions
 
-A veto may only be filed if the proposal:
+A Compliance Challenge may only be filed if the proposal:
 
 * Violates the Charter, or
 * Violates an existing governance process document
 
-Disagreement with the policy substance of a proposal is not grounds for veto.
+Disagreement with the policy substance of a proposal is not grounds for a Compliance Challenge.
 
 ---
 
 ### 8.3 Who May File
 
-Any Governance Participant holding at least the Veto Filing Threshold (DAO Parameters §4 — 0.1% of eligible voting power, verified against the most recent governance snapshot) may file a veto challenge. No aggregate participation or co-signature requirement applies: a single valid filing triggers RAC review under §8.4, which is the substantive filter on veto grounds.
+Any Governance Participant holding at least the Compliance Challenge Filing Threshold (DAO Parameters §4 — 0.1% of eligible voting power, verified against the most recent governance snapshot) may file a Compliance Challenge. No aggregate participation or co-signature requirement applies: a single valid filing triggers RAC review under §8.4, which is the substantive filter on the grounds relied on.
 
 ---
 
 ### 8.3A Identification and Proof of Holding
 
-A veto filing must identify the filer and evidence the Veto Filing Threshold. The filing must state:
+A Compliance Challenge filing must identify the filer and evidence the Compliance Challenge Filing Threshold. The filing must state:
 
 * the proposal identifier and the date of RAC result publication
-* each account address relied on to meet the Veto Filing Threshold
+* each account address relied on to meet the Compliance Challenge Filing Threshold
 * for each such address, a message signed by that account over the proposal identifier
 
 The RAC verifies the signatures and the aggregate holding against the most recent governance snapshot.
@@ -479,7 +481,7 @@ A filing that meets the requirements of §8.2 and §8.4 but carries an incomplet
 
 ### 8.4 Process
 
-1. **Filing.** A veto challenge is filed either by transmission to the **Veto Filing Channel** (DAO Parameters §4) or by publication of the filing to the **Official Venue**. The two routes are independently valid: a filer who uses the Channel is not required to publish, and a filer who publishes is not required to use the Channel. Filing is effective on the earlier of transmission and publication, and must occur within the veto window defined in **DAO Parameters §4**. Where recorded transmission time and recorded receipt time differ, the earlier governs.
+1. **Filing.** A Compliance Challenge is filed either by transmission to the **Compliance Challenge Filing Channel** (DAO Parameters §4) or by publication of the filing to the **Official Venue**. The two routes are independently valid: a filer who uses the Channel is not required to publish, and a filer who publishes is not required to use the Channel. Filing is effective on the earlier of transmission and publication, and must occur within the Compliance Challenge Window defined in **DAO Parameters §4**. Where recorded transmission time and recorded receipt time differ, the earlier governs.
 2. **Content.** The filing must cite the specific Charter section or governance rule alleged to be violated, and must meet the identification and holding-proof requirements in §8.3A.
 3. **Publication of Channel filings.** The Governance Operator publishes every filing received at the Channel verbatim to the Official Venue, together with its receipt timestamp, within the **Channel Publication Window** (DAO Parameters §4). Failure to publish does not invalidate the filing and is a reportable breach of the Governance Operator's duties under the Delegate Mandate. Where the Governance Operator is unavailable, or is the subject of the filing, the RAC publishes.
 4. **Determination.** The RAC reviews the challenge and issues a determination within **48 hours** of the effective filing time:
@@ -487,7 +489,7 @@ A filing that meets the requirements of §8.2 and §8.4 but carries an incomplet
    - If the RAC determines no violation exists, the proposal **proceeds** to execution
 5. **Override.** The DAO may override any RAC determination via a Governance Process proposal
 
-The Channel is a convenience route, not a gate. Because publication to the Official Venue is independently sufficient at all times, no operator of the Channel — and no failure, filter, or unavailability of it — can prevent a veto from being validly filed.
+The Channel is a convenience route, not a gate. Because publication to the Official Venue is independently sufficient at all times, no operator of the Channel — and no failure, filter, or unavailability of it — can prevent a Compliance Challenge from being validly filed.
 
 ---
 
@@ -541,7 +543,7 @@ Exceptions allowed only under defined confidentiality rules.
 Once a proposal passes, the execution handoff proceeds as follows:
 
 1. The RAC publishes the official result (§6.5).
-2. The veto window closes with no valid veto filed, or any veto challenge is resolved in favour of the proposal (§8; DAO Parameters §4).
+2. The Compliance Challenge Window closes with no valid challenge filed, or any Compliance Challenge is resolved in favour of the proposal (§8; DAO Parameters §4).
 3. The pre-execution hold elapses (DAO Parameters §9).
 4. The RAC or named executor confirms execution readiness and notifies the relevant execution body (Treasury Signers, Working Group, or smart contract).
 5. Execution follows the workflow defined in **Execution & Treasury Actions Policy §9**.
@@ -557,7 +559,7 @@ The following are defined separately and may be updated:
 * Approval thresholds
 * Minimum Affirmative Support floors (DAO Parameters §3.3A)
 * Cooldown periods
-* Veto parameters, including the Veto Filing Channel, Channel Publication Window, and Holding Proof Cure Period (DAO Parameters §4)
+* Compliance Challenge parameters, including the Compliance Challenge Filing Channel, Channel Publication Window, and Holding Proof Cure Period (DAO Parameters §4)
 
 ---
 

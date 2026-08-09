@@ -33,7 +33,7 @@ When exercisable, the power is bounded as follows. A Working Group Charter may n
 * **Five business days maximum.** The voting period resumes automatically on acknowledgement being recorded or on expiry, for the balance unexpired at the pause; it does not restart.
 * **Reasons published at the pause** to the Official Venue — the alert relied on, the outflow it concerns, and what would constitute acknowledgement.
 * **No pause** on a proposal the RAC opposed at Draft Discussion or Temperature Check, or in which a member is a named recipient or executor (**Conflict of Interest Policy §3.1**).
-* **Immediately challengeable** under the **Dispute Resolution & Arbitration Policy**. The veto in **Proposal & Voting Framework §8** runs from result publication, and a paused vote produces none.
+* **Immediately challengeable** under the **Dispute Resolution & Arbitration Policy**. The Compliance Challenge in **Proposal & Voting Framework §8** runs from result publication, and a paused vote produces none.
 
 ---
 
@@ -42,13 +42,13 @@ When exercisable, the power is bounded as follows. A Working Group Charter may n
 The Permanent RAC may:
 
 * Validate whether proposals meet formal submission requirements
-* Trigger defined governance processes (e.g., emergency procedures, veto processes where applicable)
+* Trigger defined governance processes (e.g., emergency procedures, Compliance Challenge processes where applicable)
 * Execute DAO-approved actions where explicitly authorized
 * Take **temporary emergency actions** within defined limits
-* Instruct remaining Treasury Signers to execute a passed proposal under the forced-execution backstop (Governance Continuity Framework §4.2) when the 10-business-day window from veto window close has elapsed with no valid hold on record
+* Instruct remaining Treasury Signers to execute a passed proposal under the forced-execution backstop (Governance Continuity Framework §4.2) when the 10-business-day window from Compliance Challenge Window close has elapsed with no valid hold on record
 * Instruct the Governance Operator to elevate an eligible passed Temperature Check under the elevation backstop (Governance Continuity Framework §4.2A) where the TC Elevation Window has elapsed with no documented grounds on record, and trigger backstop execution where the instruction is not complied with
 * Maintain the Tier 2 voting power source register (DAO Parameters §8A), including adding or removing supplementary sources by routine decision, subject to the 30-day advance notice and `effectiveFrom` requirements defined there
-* Hold and monitor the copy address of the **Veto Filing Channel** (On-Chain Identifiers & Verification Policy §3), and publish filings received to the Official Venue where the Governance Operator is unavailable or is the subject of the filing (**Proposal & Voting Framework §8.4**). The RAC may not filter, withhold, delay, or edit a filing, including one directed at its own conduct
+* Hold and monitor the copy address of the **Compliance Challenge Filing Channel** (On-Chain Identifiers & Verification Policy §3), and publish filings received to the Official Venue where the Governance Operator is unavailable or is the subject of the filing (**Proposal & Voting Framework §8.4**). The RAC may not filter, withhold, delay, or edit a filing, including one directed at its own conduct
 * Provide or withhold the Permanent RAC's prior written consent, by the majority in **DAO Parameters §3A.4**, to any post-activation amendment of an Entrenched Provision that affects the Permanent RAC's constitutional role, composition, election mechanics, or removal procedure (**Operating Agreement §12.2(d)(iii)**)
 
 **Delegation.** The Permanent RAC may delegate the operational conduct of its functions under this Mandate to a Working Group that is constituted and operational, or to that Working Group's Stewards, subject to a formal handoff recorded in the Permanent RAC's quarterly accountability report (§6).

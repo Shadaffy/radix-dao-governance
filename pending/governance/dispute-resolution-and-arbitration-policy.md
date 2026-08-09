@@ -17,7 +17,7 @@ This policy applies to disputes involving:
 * Working Groups (intra-group and inter-group)
 * Treasury Signers (refusals, delays, or contested execution decisions)
 * RAC members (recusal disputes, interpretation challenges)
-* Governance processes (proposal validity, voting procedure, veto application)
+* Governance processes (proposal validity, voting procedure, Compliance Challenge application)
 * Proposal interpretation (where a passed proposal admits more than one reasonable execution path)
 * Execution disagreements between role holders
 
@@ -85,13 +85,13 @@ Examples:
 
 ### 4.3 Governance Disputes
 
-Governance disputes question the validity or interpretation of governance processes themselves — whether a proposal was correctly classified, whether a vote met its requirements, whether a veto was filed on valid grounds, or whether a governance document has been correctly applied.
+Governance disputes question the validity or interpretation of governance processes themselves — whether a proposal was correctly classified, whether a vote met its requirements, whether a Compliance Challenge was filed on valid grounds, or whether a governance document has been correctly applied.
 
 Examples:
 
 * Proposal validity challenges
 * Voting procedure concerns
-* Veto disagreements (interaction with §13)
+* Compliance Challenge disagreements (interaction with §13)
 
 ---
 
@@ -199,9 +199,14 @@ The dispute process exists to be used and must not be weaponised to obstruct leg
 
 ---
 
-## 13. Interaction with Veto Mechanism
+## 13. Interaction with the Compliance Challenge
 
-The veto is a specific governance safeguard defined in the Proposal & Voting Framework, with its own filing thresholds, windows, and procedural requirements. Disputes and vetoes are distinct mechanisms: a dispute is a procedural review of how the rules were applied, while a veto is a substantive challenge to a specific decision. Filing a dispute does not toll the veto window, and the existence of an open dispute does not automatically grant standing to veto. Veto procedure remains exclusively defined by the Proposal & Voting Framework.
+The Compliance Challenge is a specific governance safeguard defined in the Proposal & Voting Framework, with its own filing thresholds, windows, and procedural requirements. Both mechanisms are procedural and neither reaches the substance of a decision; they differ in timing and target.
+
+* A **Compliance Challenge** attacks a specific published decision, within a 48-hour window, on the sole ground that it breaches the Charter or a governance process document (**Proposal & Voting Framework §8.2**).
+* A **dispute** is the broader review of how the rules were applied — including by role holders, between bodies, and outside any decision window — under §4 of this policy.
+
+Filing a dispute does not toll the Compliance Challenge Window, and the existence of an open dispute does not automatically grant standing to file a Compliance Challenge. Compliance Challenge procedure remains exclusively defined by the Proposal & Voting Framework.
 
 ---
 
@@ -215,7 +220,7 @@ Response times, escalation windows, and resolution expectations are defined in D
 
 This policy operates alongside:
 
-* **Proposal & Voting Framework** — Governance pipeline for Level 4 disputes; veto procedure (§13)
+* **Proposal & Voting Framework** — Governance pipeline for Level 4 disputes; Compliance Challenge procedure (§13)
 * **Code of Conduct** — Behavioural standards and the enforcement process for misconduct findings
 * **Conflict of Interest Policy** — Recusal grounds for facilitators and reviewers
 * **Treasury Signers Rules §9, §9A, §15** — Valid refusal grounds, Selective Obstruction, and Emergency Signer Reserve

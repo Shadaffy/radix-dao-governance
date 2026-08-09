@@ -29,7 +29,7 @@ Most of an election is the same either way. The choice is narrower than it first
 | If turnout is short | One rerun over a doubled voting period. Two-stage lowers the quorum and raises the approval threshold to compensate; Majority Judgment holds both constant (see principle 4) |
 | If seats go unfilled | Same referral to vacancy handling (Policy §11; founding elections §17.1) |
 | Candidates who cleared the bar but missed a seat | Same 90-day reserve list (Policy §7.5) |
-| Who declares the result | The RAC, under the same publication duty and the same 48-hour veto window |
+| Who declares the result | The RAC, under the same publication duty and the same 48-hour Compliance Challenge Window |
 
 *Why this is here:* if you are weighing the two mechanisms, weigh only what actually differs. Nothing in the list above should enter the decision.
 

@@ -37,7 +37,7 @@ All definitions, authority limits, and obligations remain in their source docume
 ### 2.1 Governance Participants
 
 **Authority & Scope**
-Governance Participants are the ultimate decision-making authority of the DAO. They submit and vote on all governance proposals, may file veto challenges, and can remove any elected role-holder by vote. They hold no economic ownership in DAO assets and are not legal Members of the LLC by virtue of governance participation (OA Article V; Charter §4.1). Governance outcomes are **advisory** during the Advisory Governance Period (OA §§5.8–5.9) and become **binding decisions of the Company from the Activation Date** (OA §5.7), save for the three binding community acts during the Transition Period (Charter §4A.2).
+Governance Participants are the ultimate decision-making authority of the DAO. They submit and vote on all governance proposals, may file Compliance Challenges, and can remove any elected role-holder by vote. They hold no economic ownership in DAO assets and are not legal Members of the LLC by virtue of governance participation (OA Article V; Charter §4.1). Governance outcomes are **advisory** during the Advisory Governance Period (OA §§5.8–5.9) and become **binding decisions of the Company from the Activation Date** (OA §5.7), save for the three binding community acts during the Transition Period (Charter §4A.2).
 
 **Defined In**
 - Operating Agreement Article V (Governance Participation and governance effect)
@@ -55,9 +55,9 @@ Governance Participation ceases automatically when the holder no longer holds an
 
 **Policies That Apply**
 - Charter — constitutional authority and principles
-- Proposal & Voting Framework §6–8 — voting mechanics, veto mechanism
+- Proposal & Voting Framework §6–8 — voting mechanics, Compliance Challenge
 - DAO Parameters §8 — voting power basis (XRD and LSU-equivalent)
-- DAO Parameters §4 — veto window and participation threshold
+- DAO Parameters §4 — Compliance Challenge Window and filing threshold
 - Operating Agreement §10.2 — UBO statutory test (≥25% of membership interests or voting rights, or actual/effective control)
 - Compliance Operations Policy §2 — UBO monitoring procedures
 - Code of Conduct §3 — behavioral standards for all participants
@@ -203,7 +203,7 @@ Subject to CoI Policy §2–4. In addition, an execution-specific rule applies: 
 ### 2.5 Delegates — Governance Operator
 
 **Authority & Scope**
-Operates the Governance Platform: elevates approved Temperature Checks to Governance Proposals via the Owner Badge; updates governance parameters per DAO vote; maintains the Governance smart contract. May not elevate a TC that has not met approval conditions, and may not modify, delay, or suppress an eligible elevation without a Governance Proposal (Proposal & Voting Framework §3.3; Delegate Mandate §2.2). Holds and monitors the primary Veto Filing Channel address and publishes filings received verbatim to the Official Venue within the Channel Publication Window (Delegate Mandate §2.2; Proposal & Voting Framework §8.4; DAO Parameters §4); may not filter, withhold, delay, or edit a filing.
+Operates the Governance Platform: elevates approved Temperature Checks to Governance Proposals via the Owner Badge; updates governance parameters per DAO vote; maintains the Governance smart contract. May not elevate a TC that has not met approval conditions, and may not modify, delay, or suppress an eligible elevation without a Governance Proposal (Proposal & Voting Framework §3.3; Delegate Mandate §2.2). Holds and monitors the primary Compliance Challenge Filing Channel address and publishes filings received verbatim to the Official Venue within the Channel Publication Window (Delegate Mandate §2.2; Proposal & Voting Framework §8.4; DAO Parameters §4); may not filter, withhold, delay, or edit a filing.
 
 **Defined In**
 - Delegate Mandate §2.2 (Governance Operations function definition and scope)
@@ -219,9 +219,9 @@ DAO vote at any time (Delegate Mandate §5).
 
 **Policies That Apply**
 - Delegate Mandate — Delegate structure (§3), standard of conduct (§4), removal (§5)
-- Proposal & Voting Framework — TC elevation, GP administration, veto filing and publication (§8.4)
-- DAO Parameters §3–3.5 — governance parameter values maintained by this role; §4 — veto filing parameters
-- On-Chain Identifiers & Verification Policy §3–4 — the governance component / Owner Badge register, the Veto Filing Channel, and how they are set up, used, and publicly verified
+- Proposal & Voting Framework — TC elevation, GP administration, Compliance Challenge filing and publication (§8.4)
+- DAO Parameters §3–3.5 — governance parameter values maintained by this role; §4 — Compliance Challenge parameters
+- On-Chain Identifiers & Verification Policy §3–4 — the governance component / Owner Badge register, the Compliance Challenge Filing Channel, and how they are set up, used, and publicly verified
 - Elections & Role Governance Policy §11 — vacancy handling and replacement election procedure
 - Conflict of Interest Policy §2–4 — disclosure and recusal obligations
 - Code of Conduct §3–6 — behavioral standards
@@ -404,7 +404,7 @@ This table shows which governance documents apply to each role. References indic
 |----------------|--------------|-------------|-------------------|-----------|-------------|--------------|
 | **Charter** | All (§4.1) | §8, §12.1 | §4.3 | §4.2 | §4.2 | — |
 | **Operating Agreement** | Art V (§5.7–5.9) | Art IV, Art VI, Art VII | §§9.7–9.11, §12.5 | §11.5 | — | — |
-| **Proposal & Voting Framework** | §6–8 (voters) | §6.5 (result determination) | §8.4 (veto window) | §4.5 (election) | §4.5 (election) | — |
+| **Proposal & Voting Framework** | §6–8 (voters) | §6.5 (result determination) | §8.4 (Compliance Challenge) | §4.5 (election) | §4.5 (election) | — |
 | **RAC Mandate** | — (subject to) | §1–12 (primary, Permanent RAC) | §3 (subject to) | §3 (subject to) | §3 (subject to) | — |
 | **Delegate Mandate** | — | (if also Delegate) | §2.1, §3–5 | §1–8 (primary) | — | — |
 | **Treasury Signers Rules** | — | §9 (invalid refusal) | §1–20 (primary) | — | — | — |

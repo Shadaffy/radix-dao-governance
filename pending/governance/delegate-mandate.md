@@ -68,7 +68,7 @@ contract and recorded in the **On-Chain Identifiers & Verification Policy §3** 
 whatever arrangement is chosen must enable an elevation or badge rotation to proceed without the
 Governance Operator's cooperation, sufficient to give effect to that backstop.
 
-**Veto Filing Channel.** The Governance Operator holds the primary Veto Filing Channel address
+**Compliance Challenge Filing Channel.** The Governance Operator holds the primary Compliance Challenge Filing Channel address
 recorded in the **On-Chain Identifiers & Verification Policy §3**, monitors it, and publishes every
 filing received verbatim to the Official Venue with its receipt timestamp within the Channel
 Publication Window (**DAO Parameters §4**). The Governance Operator may not filter, withhold, delay,

@@ -222,7 +222,7 @@ An award challenge may be filed only on one or more of the following grounds:
 * the awarded scope differs materially from the scope published in the RFP
 * the engagement evades the RFP Threshold through splitting or through the provider-and-affiliated-group aggregation in §4.3
 
-**That a different bidder was preferable is not a ground.** The selection decision belongs to the Stewards under §6.3, and a challenge is a review of how that decision was reached, not a re-run of the commercial judgement — the same discipline the veto observes under Proposal & Voting Framework §8.2.
+**That a different bidder was preferable is not a ground.** The selection decision belongs to the Stewards under §6.3, and a challenge is a review of how that decision was reached, not a re-run of the commercial judgement — the same discipline the Compliance Challenge observes under Proposal & Voting Framework §8.2.
 
 #### 6.3A.3 Review and Remedies
 
@@ -361,7 +361,7 @@ A bridge term:
 
 **The bridge has a hard edge.** Where the competition has not concluded by expiry of the cap, or of any extension under the preceding paragraph, the engagement **ends**. Failure to conclude the competition within the bridge is a reportable finding, must be disclosed in the engaging body's next report under §3.4 (Working Group Framework §8), and is a relevant consideration in any subsequent designation by that body.
 
-The bridge applies only to a challenge under §6.5.3. It does **not** apply where a proposal funding the engagement is halted under the veto mechanism (Proposal & Voting Framework §8). A veto is grounds-tested and reviewed by the RAC, and halting the funded action is its intended effect; the DAO accepts the resulting continuity exposure rather than blunt its strongest instrument.
+The bridge applies only to a challenge under §6.5.3. It does **not** apply where a proposal funding the engagement is halted under the Compliance Challenge (Proposal & Voting Framework §8). A Compliance Challenge is grounds-tested and reviewed by the RAC, and halting the funded action is its intended effect; the DAO accepts the resulting continuity exposure rather than blunt its strongest instrument.
 
 #### 6.6.4 Review of a Designation
 
@@ -476,7 +476,7 @@ The following are prohibited:
 * **Elections & Role Governance Policy** — Steward election and term parameters
 * **Treasury Signers Rules** — How payments are executed from treasury
 * **Dispute Resolution & Arbitration Policy §5** — Level 4 route for a referred continuity-critical designation where the Permanent RAC is the engaging body (§6.6.4)
-* **Proposal & Voting Framework §8** — Veto mechanism; the continuity bridge in §6.6.3 does not extend to a proposal halted under it
+* **Proposal & Voting Framework §8** — Compliance Challenge; the continuity bridge in §6.6.3 does not extend to a proposal halted under it
 * **Code of Conduct** — Standards of conduct for compensated contributors
 
 ---

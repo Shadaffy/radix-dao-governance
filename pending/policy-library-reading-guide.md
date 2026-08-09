@@ -83,6 +83,10 @@ The **Charter** is the constitution — it sets the principles and the structure
 
 Across almost every policy you'll see the same boundary repeated: **execution bodies execute, they do not govern.** Treasury Signers, Delegates, Working Groups, and even the Accountability Council all *carry out* the community's decisions or *guard the process* — none of them can make or override the community's decisions. That single idea is what keeps power with token holders, exactly as the Charter promises.
 
+## What you can't do
+
+**There is no veto.** Holding 0.1% of voting power lets you file a **Compliance Challenge** within 48 hours of a result — the right to say *this decision breaks a specific rule*, not to block a decision you dislike. The Accountability Council decides whether a rule was broken; if none was, the decision proceeds. The Charter forbids giving anyone unilateral power to override a valid vote, so a decision that is unwise but properly made will stand, and the remedy is votes, elections, and removals. Two rights *are* unilateral, because no vote is involved: a 0.1% holder can force an election rather than let a role holder auto-renew, and can void a proposed renewal of a paid engagement.
+
 ## If you only want to read a few
 
 1. **[Proposal & Voting Framework](governance/proposal-and-voting-framework.md)** — how decisions are made.

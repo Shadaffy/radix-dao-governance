@@ -196,9 +196,9 @@ To prevent misuse:
 
 ---
 
-## 15. Veto Interaction
+## 15. Compliance Challenge Interaction
 
-* Emergency actions cannot be vetoed during execution
+* Emergency actions are not open to Compliance Challenge during execution
 * Post-action review may override or invalidate outcomes
 
 ---

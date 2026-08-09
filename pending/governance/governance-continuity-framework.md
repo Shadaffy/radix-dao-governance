@@ -98,7 +98,7 @@ Response:
 * All non-urgent treasury execution is suspended until quorum is restored
 * Emergency actions under the Emergency & Safeguards Policy remain available if required thresholds can be met with available signers
 
-**Forced-execution backstop:** If a passed proposal has not been executed within 10 business days from the close of the veto window (DAO Parameters §4), and no valid refusal is currently on record with the RAC (i.e., the RAC has not acknowledged a legitimate hold under Treasury Signers Rules §9), the RAC may instruct the remaining available signers to proceed with execution using the minimum 3-of-5 threshold, bypassing the unresponsive or non-compliant signer. This instruction must be published publicly on the governance forum within 24 hours of being issued and is treated as a signer continuity event for reporting purposes. The 10-business-day clock runs from veto window close, not from proposal passage.
+**Forced-execution backstop:** If a passed proposal has not been executed within 10 business days from the close of the Compliance Challenge Window (DAO Parameters §4), and no valid refusal is currently on record with the RAC (i.e., the RAC has not acknowledged a legitimate hold under Treasury Signers Rules §9), the RAC may instruct the remaining available signers to proceed with execution using the minimum 3-of-5 threshold, bypassing the unresponsive or non-compliant signer. This instruction must be published publicly on the governance forum within 24 hours of being issued and is treated as a signer continuity event for reporting purposes. The 10-business-day clock runs from Compliance Challenge Window close, not from proposal passage.
 
 **Interim signer appointment (if active signers < 3):**
 
@@ -201,10 +201,10 @@ Response:
 * No new proposals may enter the voting phase until the primary interface is restored or an alternative interface is confirmed
 * Draft and review periods may continue
 
-**Veto filing is unaffected:**
+**Compliance Challenge filing is unaffected:**
 
-* Veto filing does not depend on the governance interface. Filings are made to the Veto Filing Channel or by publication to the Official Venue under **Proposal & Voting Framework §8.4**, either of which is independently valid
-* An interface outage therefore does not extend, suspend, or toll a veto window. Where a result has been published and its veto window is running, the window runs to its close on the ordinary timetable
+* Compliance Challenge filing does not depend on the governance interface. Filings are made to the Compliance Challenge Filing Channel or by publication to the Official Venue under **Proposal & Voting Framework §8.4**, either of which is independently valid
+* An interface outage therefore does not extend, suspend, or toll a Compliance Challenge Window. Where a result has been published and its window is running, the window runs to its close on the ordinary timetable
 
 **If outage exceeds 7 days:**
 

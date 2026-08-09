@@ -18,7 +18,7 @@ This policy covers:
 
 * the governance smart-contract component(s), the Master Badge, and the Owner Badge;
 * the resources that constitute eligible voting power;
-* the recognised Governance Platform, the Official Venue(s), and the Veto Filing Channel;
+* the recognised Governance Platform, the Official Venue(s), and the Compliance Challenge Filing Channel;
 * the treasury multi-signature account(s), any segmented pool accounts, and the Emergency Safe Address.
 
 This policy does **not** cover:
@@ -32,7 +32,7 @@ This policy records *what the identifiers are and how they are verified*; the op
 
 ## 3. Identifier Register — Governance
 
-The following identifiers constitute the governance system. On-chain entries are recorded on the Radix network and each carries a public verification link; off-chain entries — the governance platform, the Official Venue(s), and the Veto Filing Channel — carry a published, publicly reachable location. Values marked *[to be recorded at deployment]* are completed when the corresponding entity is deployed and confirmed, in accordance with §8.
+The following identifiers constitute the governance system. On-chain entries are recorded on the Radix network and each carries a public verification link; off-chain entries — the governance platform, the Official Venue(s), and the Compliance Challenge Filing Channel — carry a published, publicly reachable location. Values marked *[to be recorded at deployment]* are completed when the corresponding entity is deployed and confirmed, in accordance with §8.
 
 | Function | Network | Identifier | Verify |
 |---|---|---|---|
@@ -43,8 +43,10 @@ The following identifiers constitute the governance system. On-chain entries are
 | Voting-power resource — XRD | Radix Mainnet | `resource_rdx1tknxxxxxxxxxradxrdxxxxxxxxx009923554798xxxxxxxxxradxrd` | `https://dashboard.radixdlt.com/resource/resource_rdx1tknxxxxxxxxxradxrdxxxxxxxxx009923554798xxxxxxxxxradxrd` |
 | Recognised Governance Platform | — | `https://vote.radixdao.org/` | Live URL, publicly accessible |
 | Official Venue(s) | — | `https://www.radixdao.org` | Live URL, publicly accessible |
-| Veto Filing Channel — primary (Governance Operator) | — | `veto@radix.community` | Published to the Official Venue; monitored mailbox, open to any sender |
-| Veto Filing Channel — copy (RAC) | — | `rac@radix.community` | Published to the Official Venue; monitored mailbox, open to any sender |
+| Compliance Challenge Filing Channel — primary (Governance Operator) | — | `veto@radix.community` | Published to the Official Venue; monitored mailbox, open to any sender |
+| Compliance Challenge Filing Channel — copy (RAC) | — | `rac@radix.community` | Published to the Official Venue; monitored mailbox, open to any sender |
+
+**The `veto@` local part is retained deliberately.** The mechanism was renamed (**Proposal & Voting Framework §8**) but the address is already published, and a filer who remembers the former name must still reach a monitored mailbox. Changing it is Routine under §8 if the DAO later prefers to.
 
 **Voting-power sources are not all single resources.** XRD has one fixed resource address across all of Radix Mainnet and is therefore recorded above with its address and a working verification link. **LSUs (Liquid Staking Units) are not a single shared resource:** each validator mints its own distinct LSU resource with its own resource address, so there is no single "LSU address" to record. LSUs are recognised as a *class* of eligible voting power and converted to their XRD-equivalent at the redemption rate at snapshot; their identification is governed by the snapshot methodology (**DAO Parameters §8 and §8A**; **Proposal & Voting Framework §6**), not by a resource entry in this register. The same applies to any other supplementary source (**DAO Parameters §8A**) that is per-validator or per-pool rather than a single resource: where such a source *does* resolve to a single fixed resource address it may be recorded above for convenience; where it does not, it is verified through the snapshot methodology, not this register. XRD and LSU together are the entrenched constitutional floor of eligible voting power (**Charter §12.1 item 4**), whether or not each carries a register entry.
 
@@ -73,7 +75,7 @@ Each governance identifier is used strictly as provided by the governance framew
 
 * **Snapshot handling.** Each vote takes its own snapshot when it opens (**Proposal & Voting Framework §6.1**). The one exception is a **rerun**, which reuses the stored snapshot of the round it re-runs — a Majority Judgment rerun, and a Stage 2 quorum-held-over rerun. The governance component must therefore be capable of opening a vote against a stored snapshot belonging to an earlier round; a deployment without that capability cannot run the rerun provisions as specified. No other vote inherits a snapshot, so no broader capability is required.
 * **Voting-power resources.** Eligible voting power is measured at the voting snapshot from the sources defined in **DAO Parameters §8 and §8A**, subject to the entrenched XRD + LSU floor (**Charter §12.1 item 4**). Only single-resource sources (such as XRD) carry a fixed resource address in §3; class-based sources such as LSUs are per-validator and are identified and converted to XRD-equivalent through the snapshot methodology, not through a register address (see the note in §3).
-* **Veto Filing Channel.** The two addresses recorded in §3 receive veto filings under **Proposal & Voting Framework §8.4**. Both are monitored: the Governance Operator address is the primary recipient and the RAC address is in copy, so that receipt does not depend on any single role holder and a filing directed at the conduct of one is still received by the other. Neither address may be placed behind a sender allowlist, a subscription or registration requirement, or any other filter that would cause a filing from an unknown sender to be rejected, quarantined, or withheld. Filings received are published verbatim to the Official Venue within the Channel Publication Window (**DAO Parameters §4**). The Channel is an interim measure pending a governance filing interface; it is a convenience route, not a gate, because publication to the Official Venue is an independently valid filing route at all times (**Proposal & Voting Framework §8.4**).
+* **Compliance Challenge Filing Channel.** The two addresses recorded in §3 receive Compliance Challenge filings under **Proposal & Voting Framework §8.4**. Both are monitored: the Governance Operator address is the primary recipient and the RAC address is in copy, so that receipt does not depend on any single role holder and a filing directed at the conduct of one is still received by the other. Neither address may be placed behind a sender allowlist, a subscription or registration requirement, or any other filter that would cause a filing from an unknown sender to be rejected, quarantined, or withheld. Filings received are published verbatim to the Official Venue within the Channel Publication Window (**DAO Parameters §4**). The Channel is an interim measure pending a governance filing interface; it is a convenience route, not a gate, because publication to the Official Venue is an independently valid filing route at all times (**Proposal & Voting Framework §8.4**).
 * **Security review.** No governance or on-chain system is relied upon before it has been subject to the security-review standard the DAO maintains for smart contracts and on-chain systems it governs (**Charter §9**).
 
 ---
@@ -95,7 +97,7 @@ Each governance identifier is used strictly as provided by the governance framew
 * **Multi-signature control.** Treasury assets are held in the multi-signature account(s) recorded in §5, under the phase-dependent threshold structure in **DAO Parameters §6.2 and §6A** and **Treasury Signers Operational Rules §10A** — during the Transition Period 2-of-3 for ordinary actions and unanimity of all seated signers (not fewer than two) for protected matters, and from the Activation Date 3-of-5 standard and 4-of-5 high-risk. High-risk transactions correspond to the protected matters in **Operating Agreement §9.12**.
 * **Segmentation & account architecture.** Establishing and changing the treasury account architecture is phase-dependent (**Treasury Signers Operational Rules §10A.1**; **DAO Parameters §6.2**): during the Transition Period the Transition RAC establishes and may adjust it by resolution published to the Official Venue under **Operating Agreement §6.5(d)**, settling once the Activation Statement is published so the Permanent RAC inherits a reviewed structure; from the Activation Date it may be changed only by Governance Proposal. Each account remains under multi-signature control on the same threshold structure. A new or changed account is recorded in §5 on establishment.
 * **Emergency Safe Address.** The Emergency Safe Address must be designated before the Company receives the principal asset transfer; designation and any later change follow **DAO Parameters §6.1** and the Tier 2 emergency asset-movement rule in **Emergency & Safeguards Policy §6**.
-* **Execution discipline.** All movement of treasury assets is subject to the pre-execution hold and irreversible-action controls in **Execution & Treasury Actions Policy §14** and the veto window in **Proposal & Voting Framework §8**.
+* **Execution discipline.** All movement of treasury assets is subject to the pre-execution hold and irreversible-action controls in **Execution & Treasury Actions Policy §14** and the Compliance Challenge Window in **Proposal & Voting Framework §8**.
 
 ---
 
@@ -111,10 +113,10 @@ The current register is published to the **Official Venue** and kept accurate. I
 
 A change to a recorded identifier is classified by the identifier's significance:
 
-* **Routine.** Recording a newly deployed non-critical identifier, correcting a link, or recording a segmented account already authorised by a passed Governance Proposal — recorded by the Governance Operator or RAC and published to the Official Venue, with the standard 48-hour DAO veto window (**Proposal & Voting Framework §8**) applying.
-* **Governance-critical.** A change to the Governance smart-contract component, the Master Badge, the Owner Badge, a voting-power resource, or the primary treasury account requires an approved Governance Proposal of the applicable class, published to the Official Venue with prior notice, before the change takes effect. Modelled on the RAC source-change discipline in **DAO Parameters §8A**: notice to Governance Participants and the standard veto window apply.
+* **Routine.** Recording a newly deployed non-critical identifier, correcting a link, or recording a segmented account already authorised by a passed Governance Proposal — recorded by the Governance Operator or RAC and published to the Official Venue, with the standard 48-hour Compliance Challenge Window (**Proposal & Voting Framework §8**) applying.
+* **Governance-critical.** A change to the Governance smart-contract component, the Master Badge, the Owner Badge, a voting-power resource, or the primary treasury account requires an approved Governance Proposal of the applicable class, published to the Official Venue with prior notice, before the change takes effect. Modelled on the RAC source-change discipline in **DAO Parameters §8A**: notice to Governance Participants and the standard Compliance Challenge Window apply.
 
-A change to either **Veto Filing Channel** address is **Routine**, and takes effect only on publication of the new address to the Official Venue — an unpublished change is not effective, and a filing sent to the superseded address during the veto window remains validly filed. This lighter treatment is acceptable because the Channel cannot be used to suppress a filing: publication to the Official Venue is an independently valid filing route at all times (**Proposal & Voting Framework §8.4**), so control of the addresses carries no power to block a veto.
+A change to either **Compliance Challenge Filing Channel** address is **Routine**, and takes effect only on publication of the new address to the Official Venue — an unpublished change is not effective, and a filing sent to the superseded address during the Compliance Challenge Window remains validly filed. This lighter treatment is acceptable because the Channel cannot be used to suppress a filing: publication to the Official Venue is an independently valid filing route at all times (**Proposal & Voting Framework §8.4**), so control of the addresses carries no power to block a challenge.
 
 On any change, the Company updates the record held with the Registered Agent and, to the extent required by section 106(2) or section 107 of the DAO Act, notifies MIDAO and procures an amendment to the Certificate of Formation to reflect the updated identifier (**Operating Agreement §11.4**).
 
@@ -128,7 +130,7 @@ This policy operates alongside:
 
 * Operating Agreement (§9.10–§9.12, §11.4, Schedules 2, 4 and 5)
 * Charter (§6A, §9, §12.1)
-* Proposal & Voting Framework (§8 — veto filing, and the Veto Filing Channel recorded in §3)
+* Proposal & Voting Framework (§8 — Compliance Challenge filing, and the Compliance Challenge Filing Channel recorded in §3)
 * Execution & Treasury Actions Policy
 * Treasury Signers Operational Rules
 * Delegate Mandate

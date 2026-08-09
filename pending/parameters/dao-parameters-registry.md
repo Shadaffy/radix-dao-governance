@@ -117,7 +117,7 @@ Because ABSTAIN counts toward quorum but not toward approval (Proposal & Voting 
 | Approval Voting: Maximum Options | 8 | Maximum number of options on the ballot per multi-option Executable proposal (§4.4). Does not apply to election shortlisting; election ballots list all eligible nominees (§6B). |
 | Approval Voting: Minimum Winner Threshold | ≥ 30% of total votes cast | Minimum voting power an option must receive to be declared winner. Applies to multi-option Executable proposals (§4.4). Does not apply to election Stage 1 shortlisting; Stage 1 ranks candidates by total voting power only (§6.2.5). |
 | Majority Judgment: Grade Scale | Excellent / Very Good / Good / Acceptable / Poor | The five-grade scale for Majority Judgment election votes (§6.2.4). **The order is normative** — Excellent is the highest grade and Poor the lowest, and every qualifying-grade, ranking, and Minimum Qualifying Grade comparison is a comparison of rank on this scale. For implementation the grades carry the fixed indices Excellent = 4, Very Good = 3, Good = 2, Acceptable = 1, Poor = 0; the indices are an encoding of the order, not scores to be averaged. A voter assigns exactly one grade to every candidate, and there is no Abstain grade |
-| Result Publication Window | Within 48 hours of vote close | Deadline for RAC to publish the official outcome, quorum calculation, threshold applied, and winner determination; the veto window (§4) opens upon publication |
+| Result Publication Window | Within 48 hours of vote close | Deadline for RAC to publish the official outcome, quorum calculation, threshold applied, and winner determination; the Compliance Challenge Window (§4) opens upon publication |
 
 ---
 
@@ -177,13 +177,15 @@ These parameters carry the activation and transition mechanics that the **Charte
 
 ---
 
-## 4. Veto Parameters
+## 4. Compliance Challenge Parameters
+
+*Formerly styled the "veto" (Proposal & Voting Framework §8); the name changed, the mechanism did not.*
 
 | Parameter                  | Value              |
 | -------------------------- | ------------------ |
-| Veto Window                | 48 hours from RAC result publication |
-| Veto Filing Threshold      | 0.1% of eligible voting power (all sources per §8A) held by the filer, verified against the most recent governance snapshot. The RAC's review of the challenge grounds (Proposal & Voting Framework §8.4) is the substantive filter; no aggregate participation requirement applies |
-| Veto Filing Channel        | The designated veto filing addresses recorded in the **On-Chain Identifiers & Verification Policy §3** — the Governance Operator mailbox as primary recipient, with the RAC mailbox in copy, so that a filing does not depend on any single role holder. **Interim measure pending a governance filing interface.** This parameter is defined by reference so the Channel may be migrated to an interface by parameter update, without amending Proposal & Voting Framework §8.4. Publication to the Official Venue is an independently valid filing route at all times (Proposal & Voting Framework §8.4) |
+| Compliance Challenge Window | 48 hours from RAC result publication |
+| Compliance Challenge Filing Threshold | 0.1% of eligible voting power (all sources per §8A) held by the filer, verified against the most recent governance snapshot. The RAC's review of the challenge grounds (Proposal & Voting Framework §8.4) is the substantive filter; no aggregate participation requirement applies |
+| Compliance Challenge Filing Channel | The designated filing addresses recorded in the **On-Chain Identifiers & Verification Policy §3** — the Governance Operator mailbox as primary recipient, with the RAC mailbox in copy, so that a filing does not depend on any single role holder. **Interim measure pending a governance filing interface.** This parameter is defined by reference so the Channel may be migrated to an interface by parameter update, without amending Proposal & Voting Framework §8.4. Publication to the Official Venue is an independently valid filing route at all times (Proposal & Voting Framework §8.4) |
 | Channel Publication Window | 6 hours from receipt — the Governance Operator publishes filings received at the Channel verbatim to the Official Venue, with the receipt timestamp (Proposal & Voting Framework §8.4) |
 | Holding Proof Cure Period  | 12 hours from RAC notification — period allowed to complete an incomplete holding proof. Runs inside the RAC's 48-hour determination window and does not extend it (Proposal & Voting Framework §8.3A) |
 | Optional Stake Requirement | None               |
@@ -353,7 +355,7 @@ The concrete on-chain identifiers for the treasury and governance infrastructure
 | Engagement Renewal Challenge Window | Same as **Term Renewal Challenge Window** (§6B) | Period during which a Governance Participant may file a unilateral challenge notice voiding a proposed engagement renewal (Contributor Compensation Policy §6.5.3). Defined by reference so the two windows cannot diverge |
 | Engagement Renewal Challenge Filing Threshold | Same as **Challenge Filing Threshold** (§6B) | Minimum holding required to file a valid engagement-renewal challenge. Defined by reference so the two thresholds cannot diverge |
 | Award Challenge Window | Same as the §6.3 community comment period — **7 days** | Period during which a selection under an RFP may be challenged (Contributor Compensation Policy §6.3A). Defined by reference to the existing comment period so the two cannot diverge and so arming the window adds no delay to an unchallenged award. Engagement confirmation under §6.4 may not take place while the window is open. Effective from the Activation Date |
-| Award Challenge Filing Threshold | Same as **Challenge Filing Threshold** (§6B) | Minimum holding required to file a valid award challenge (Contributor Compensation Policy §6.3A.1). Defined by reference so it cannot diverge from the renewal-challenge and veto thresholds. A qualified bidder holds a referral right only and does not file, so no separate bidder threshold applies |
+| Award Challenge Filing Threshold | Same as **Challenge Filing Threshold** (§6B) | Minimum holding required to file a valid award challenge (Contributor Compensation Policy §6.3A.1). Defined by reference so it cannot diverge from the renewal-challenge and Compliance Challenge thresholds. A qualified bidder holds a referral right only and does not file, so no separate bidder threshold applies |
 | Award Challenge Determination Window | 10 business days | Period within which the reviewing body determines an award challenge (Contributor Compensation Policy §6.3A.3). Set to accommodate the ordinary remedy — re-evaluation of submissions already received by a panel constituted free of the defect — rather than only a documentary review. Engagement confirmation is suspended for its duration. Effective from the Activation Date |
 | Bridge Challenge Extension | 30 days | Maximum extension of a continuity bridge where the award concluding the competition is itself challenged under §6.3A (Contributor Compensation Policy §6.6.3). Prevents a challenge timed near bridge expiry from terminating the service by running the review past the cap. Non-renewable; a second challenge does not extend the bridge again. Effective from the Activation Date |
 | Continuity Bridge Cap | 60 days | Maximum duration of a continuity bridge, during which a challenged renewal of a **continuity-critical** engagement continues on unchanged scope and price while the engagement is competed (Contributor Compensation Policy §6.6.3). Set at roughly twice the minimum §6 competition path (14-day RFP open period, evaluation, independent review panel above the Independent Review Panel Threshold, 7-day comment, contracting) — long enough to absorb one round of slippage, short enough that the bridge cannot substitute for competing on time. Where the competition has not concluded by expiry, the engagement ends; extension requires a Governance Proposal. Non-renewable; one bridge per engagement. Effective from the Activation Date |
@@ -390,7 +392,7 @@ The concrete on-chain identifiers for the treasury and governance infrastructure
 
 - Any change must specify an `effectiveFrom` date at least 30 days in the future, ensuring no active proposal is caught between source configurations.
 - The RAC must publish the change to the governance forum and notify Governance Participants at least 30 days before `effectiveFrom`.
-- The standard 48-hour DAO veto window (§4) applies to all RAC source-list decisions.
+- The standard 48-hour Compliance Challenge Window (§4) applies to all RAC source-list decisions.
 - Adding a new source requires a written rationale demonstrating that the source represents genuine XRD-network economic alignment.
 - Removing a Tier 2 source follows the same process as adding one.
 
@@ -400,7 +402,7 @@ The concrete on-chain identifiers for the treasury and governance infrastructure
 
 | Parameter                 | Value          |
 | ------------------------- | -------------- |
-| Pre-Execution Hold        | 48 hours after RAC result publication (mandatory) — Treasury Signers may not initiate execution of any Treasury / Budget or Executable proposal until the veto window (§4) has fully closed |
+| Pre-Execution Hold        | 48 hours after RAC result publication (mandatory) — Treasury Signers may not initiate execution of any Treasury / Budget or Executable proposal until the Compliance Challenge Window (§4) has fully closed |
 | High-Risk Execution Delay | 24 hours additional after the pre-execution hold (mandatory) — applies to transactions classified as high-risk (4-of-5 signing threshold post-activation; unanimous-of-seated, minimum two, during the Transition Period, per §6A); total minimum 72 hours after RAC result publication |
 
 ---
