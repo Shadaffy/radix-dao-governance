@@ -42,7 +42,7 @@ The following identifiers constitute the governance system. On-chain entries are
 | Governance package | Radix Mainnet | `package_rdx1p49s2442esdzs7wet7wucpagnftctml8aecc6a74q67r8r023u4dzn` | `https://dashboard.radixdlt.com/package/package_rdx1p49s2442esdzs7wet7wucpagnftctml8aecc6a74q67r8r023u4dzn` |
 | Voting-power resource — XRD | Radix Mainnet | `resource_rdx1tknxxxxxxxxxradxrdxxxxxxxxx009923554798xxxxxxxxxradxrd` | `https://dashboard.radixdlt.com/resource/resource_rdx1tknxxxxxxxxxradxrdxxxxxxxxx009923554798xxxxxxxxxradxrd` |
 | Recognised Governance Platform | — | `https://vote.radixdao.org/` | Live URL, publicly accessible |
-| Official Venue(s) | — | `https://www.radixdao.org` | Live URL, publicly accessible |
+| Official Venue(s) | — | `https://radixdao.org` | Live URL, publicly accessible |
 | Compliance Challenge Filing Channel — primary (Governance Operator) | — | `veto@radix.community` | Published to the Official Venue; monitored mailbox, open to any sender |
 | Compliance Challenge Filing Channel — copy (RAC) | — | `rac@radix.community` | Published to the Official Venue; monitored mailbox, open to any sender |
 
@@ -84,7 +84,7 @@ Each governance identifier is used strictly as provided by the governance framew
 
 | Function | Network | Identifier | Verify |
 |---|---|---|---|
-| Primary multi-signature treasury account | Radix Mainnet | `[account_rdx1… — to be recorded at deployment]` | `https://dashboard.radixdlt.com/account/[account_rdx1…]` |
+| Primary multi-signature treasury account | Radix Mainnet | `account_rdx1c9l27suy4nte9ymge5c3eqqnnfepgf9p28d9lcsv3jvmd0f0z8j2fx` | `https://dashboard.radixdlt.com/account/account_rdx1c9l27suy4nte9ymge5c3eqqnnfepgf9p28d9lcsv3jvmd0f0z8j2fx` |
 | Operational treasury pool (if segmented) | Radix Mainnet | `[account_rdx1… — if established by Governance Proposal]` | `https://dashboard.radixdlt.com/account/[account_rdx1…]` |
 | Reserve treasury pool (if segmented) | Radix Mainnet | `[account_rdx1… — if established by Governance Proposal]` | `https://dashboard.radixdlt.com/account/[account_rdx1…]` |
 | Grants pool (if segmented) | Radix Mainnet | `[account_rdx1… — if established by Governance Proposal]` | `https://dashboard.radixdlt.com/account/[account_rdx1…]` |
