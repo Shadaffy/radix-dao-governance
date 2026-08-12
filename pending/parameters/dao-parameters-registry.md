@@ -48,8 +48,8 @@ This registry defines:
 
 Quorum is measured as a percentage of eligible voting power. Eligible voting power is determined at the voting snapshot and includes all sources listed in §8A — at minimum liquid XRD holdings and LSU holdings converted to their XRD equivalent (the constitutional floor per Charter §12.1 item 4).
 
-| Proposal Type      | Quorum                      |
-| ------------------ | --------------------------- |
+| Proposal Type / Vote | Quorum                      |
+| -------------------- | --------------------------- |
 | Constitutional     | 10% of eligible voting power |
 | Governance Process | 7%                     |
 | Treasury / Budget  | 7%                     |
@@ -58,14 +58,16 @@ Quorum is measured as a percentage of eligible voting power. Eligible voting pow
 
 Quorum is measured as Participation — YES + NO + ABSTAIN — as defined in Proposal & Voting Framework §6.3.
 
+**Election proposals** (Proposal & Voting Framework §4.5) are not listed above. Their quorum is set in **§6B** — Minimum Participation for Elections, and the Election Stage 2 Quorum — which adopts the Governance Process figure of 7%. The Temperature Check row does apply to an Election proposal's Temperature Check, which runs over the shortened period in §3.1.
+
 **Absolute Participation Floor (Treasury / Budget proposals):** In addition to the percentage quorum above, a Treasury / Budget proposal requires a minimum of 50 unique voting addresses. An address counts toward this floor if it cast any vote, including ABSTAIN: the floor measures breadth of participation, not direction of support. Both conditions must be met. This floor is not subject to the Governance Continuity Fallback (§9A).
 
 ---
 
 ### 3.3 Approval Thresholds
 
-| Proposal Type      | Approval  |
-| ------------------ | --------- |
+| Proposal Type / Vote | Approval  |
+| -------------------- | --------- |
 | Constitutional     | ≥ 66% YES |
 | Governance Process | ≥ 60% YES |
 | Treasury / Budget  | ≥ 50% YES |
@@ -73,6 +75,8 @@ Quorum is measured as Participation — YES + NO + ABSTAIN — as defined in Pro
 | Temperature Check (TC) | ≥ 50% YES |
 
 Approval is measured as the YES share of Decisive Votes — YES + NO, excluding ABSTAIN — as defined in Proposal & Voting Framework §6.3.
+
+**Election proposals** (Proposal & Voting Framework §4.5) have no single approval threshold and are not listed above, because neither election mechanism decides on a YES share of the whole vote. Majority Judgment turns on the qualifying grade and the Minimum Qualifying Grade (Proposal & Voting Framework §6.2.4; §6B); the two-stage mechanism ranks by voting power at Stage 1 and applies the Election Stage 2 Approval Threshold per candidate at Stage 2 (§6.2.5; §6B). The Temperature Check row does apply to an Election proposal's Temperature Check.
 
 ---
 
