@@ -83,7 +83,9 @@ Persons managing the Company's Web2 assets and credentials must:
 * Use controlled access systems with audit logging
 * Maintain recovery procedures for credential loss or compromise
 
-Individuals managing credentials may be subject to KYC where required by their Delegated Function. Credential management responsibilities are assigned through the Web2 Custodian Delegated Function (Delegate Mandate; delegated functions are established under Operating Agreement §11.5).
+**Recovery independence.** Recovery access to the credential store, and to the domain registrar and platform accounts holding the Company's Web2 assets, must be capable of being exercised **without the cooperation of the person holding the credentials**. No individual may hold sole recovery access. The arrangement is held by the RAC and recorded in the confidential implementation record maintained under **Operating Agreement §9.13**, and is verified at each key rotation review (**DAO Parameters §6A**), the fact of verification being reported to the Official Venue. Repository access is additionally governed by the **Source Code Stewardship Policy §3.2**.
+
+Individuals managing credentials may be subject to KYC where required by their Delegated Function. Credential management responsibilities are assigned through the Web2 Custodian Delegated Function (Delegate Mandate §2.5; delegated functions are established under Operating Agreement §11.5).
 
 ---
 

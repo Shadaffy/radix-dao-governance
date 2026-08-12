@@ -48,9 +48,12 @@ subject to Governance Proposal ratification within the period specified in the *
 Safeguards Policy §10**.
 
 The Treasury Signing function must be held by **exactly five Delegates** to support the signing
-thresholds in **DAO Parameters §6A** (3-of-5 standard; 4-of-5 high-risk). The comprehensive
-operational rules — refusal grounds, custody standards, availability, emergency actions, and breach
-of duty — are defined in the **Treasury Signers Rules**.
+thresholds in **DAO Parameters §6A** (3-of-5 standard; 4-of-5 high-risk). Those five seats are
+ordinarily allocated in full from among seated RAC members; where the DAO or, before the Activation
+Date, the Transition RAC has designated one or more of them as **elected seats**, the balance is
+allocated and the remainder filled by election under §3.1–§3.2. The comprehensive operational rules —
+refusal grounds, custody standards, availability, emergency actions, and breach of duty — are defined
+in the **Treasury Signers Rules**.
 
 ### 2.2 Governance Operations
 
@@ -96,26 +99,46 @@ sanctions records in accordance with applicable law; and maintain the Company's 
 the Registered Agent. UBO identification, threshold monitoring, BOIR onboarding, and confidentiality
 procedures are defined in the **Compliance Operations Policy §2**.
 
+**The Compliance Liaison is not the verifier of their own compliance.** The Compliance Liaison may not
+verify their own KYC, record their own sanctions screening, or act in any compliance matter in which
+they are the subject. Where the Compliance Liaison is unavailable, or is the subject of such a matter,
+the RAC coordinates the verification, record, or filing directly with the Registered Agent and the
+Company's designated KYC provider, and discloses that it has done so to the Official Venue. Records
+created under this paragraph are held on the same confidential basis as any other (**Compliance
+Operations Policy §2, §3**).
+
 ### 2.5 Web2 Custodian
 
 Manage social media accounts, source-code repositories, domain names, and other Web2 assets using an
 enterprise password manager. The Web2 Custodian may not transfer domain ownership or delete
 repositories without a Governance Proposal. Credential and Web2 asset security standards are defined
-in the **Compliance Operations Policy §4**.
+in the **Compliance Operations Policy §4**; repository access standards are defined in the **Source
+Code Stewardship Policy §3.2**.
+
+**Recovery must not depend on the Custodian.** Recovery access to the credential store, and to the
+domain registrar and platform accounts holding the Company's Web2 assets, must be arranged so that
+recovery and re-assignment can proceed **without the Web2 Custodian's cooperation**. No individual may
+hold sole recovery access. The arrangement is established before the Custodian assumes the function,
+is held by the RAC, and is recorded in the confidential implementation record maintained under
+**Operating Agreement §9.13**; it is verified at each key rotation review (**DAO Parameters §6A**) and
+the fact of verification reported to the Official Venue.
 
 ---
 
 ## 3. Composition & Seating
 
-**Delegated Functions are seated by allocation by the RAC, not by separate election.** The RAC decides
+**Delegated Functions are seated by allocation by the RAC, not by separate election, unless the DAO or
+the Transition RAC has provided otherwise for a particular function or seat under §3.1 or §3.2.** The RAC decides
 which of its seated members is best fit for each function and publishes the allocation, with its
 reasons, to the Official Venue (**Charter §3.2**; **RAC Mandate §6**). The RAC may re-allocate a
 function at any time, publishing the change and its reasons in the same way.
 
-* **Who may hold a function.** Only a **seated RAC member** may hold a Delegated Function. There is a
-  single exception: an interim Treasury Signer appointed from the **Emergency Signer Reserve** under
-  the **Governance Continuity Framework §4.2** need not hold a RAC seat, and serves only for the
-  maximum interim period stated there (**Treasury Signers Rules §15**).
+* **Who may hold a function.** Only a **seated RAC member** may hold an allocated Delegated Function.
+  There are two exceptions, and only two. An interim Treasury Signer appointed from the **Emergency
+  Signer Reserve** under the **Governance Continuity Framework §4.2** need not hold a RAC seat, and
+  serves only for the maximum interim period stated there (**Treasury Signers Rules §15**). A holder
+  of an **elected seat** under the switching bullet below, §3.1 or §3.2 need not hold a RAC seat, and
+  holds for the term they were elected to.
 * **How long a function lasts.** An allocated Delegated Function **runs with the holder's RAC seat**.
   It has no term, renewal cycle, or challenge window of its own: it begins on allocation and ends on
   the earliest of re-allocation by the RAC, removal under **Elections & Role Governance Policy §10**,
@@ -124,14 +147,24 @@ function at any time, publishing the change and its reasons in the same way.
 * **The community's lever.** Because a function cannot outlive the seat, a challenge to the holder's
   RAC seat under **Elections & Role Governance Policy §9.2** reaches every function allocated to
   them, as does removal under §10. No separate function-level challenge exists or is needed.
-* **Switching to election.** The DAO may resolve by **Governance Process proposal** that any or all
-  Delegated Functions be filled by Election Proposal instead. While such a resolution is in force,
-  **Elections & Role Governance Policy §§5–7** govern that function, a holder elected under it may be
-  a person who holds no RAC seat, and that function carries its own term under §8 and its own renewal
-  cycle under §9. This section is displaced to that extent and otherwise continues to apply.
-* **Treasury Signing.** The Treasury Signing function must be held by **exactly five** Delegates to
-  support the signing thresholds in **DAO Parameters §6A** (3-of-5 standard; 4-of-5 high-risk). Where
-  the RAC is at its minimum of five seated members, all five hold Treasury Signing.
+* **Switching to election.** The DAO may resolve by **Governance Process proposal** that a Delegated
+  Function be filled by Election Proposal instead of by allocation. For Treasury Signing, which is
+  held by five Delegates, a resolution operates **seat by seat**: it states how many of the five seats
+  are elected seats, and the balance continue to be allocated (§3.1). For every other Delegated
+  Function, a resolution converts the function as a whole. While such a resolution is in force, **Elections & Role Governance Policy §§5–7** govern each
+  elected seat, a holder elected to it may be a person who holds no RAC seat, and that seat carries
+  its own term under §8 and its own renewal cycle under §9. This section is displaced to that extent
+  and otherwise continues to apply.
+* **Treasury Signing.** The Treasury Signing roster must comprise **exactly five** Delegates at all
+  times, to support the signing thresholds in **DAO Parameters §6A** (3-of-5 standard; 4-of-5
+  high-risk). The five seats are **allocated seats** and **elected seats**: the number of allocated
+  seats is five minus the number of elected seats, and the default number of elected seats is
+  **zero** (§3.1). Where there are no elected seats and the RAC is at its minimum of five seated
+  members, all five hold Treasury Signing.
+* **Function coverage.** Governance Operations, Legal Signatory, Compliance Liaison and Web2 Custodian
+  are each held by **one** Delegate. Every Delegated Function must be held at all times. Where a
+  function or Treasury Signing seat is unheld, the RAC re-allocates it without delay; where it cannot,
+  §3.3 applies.
 * **KYC.** All holders are subject to KYC verification before assuming their function (**Operating
   Agreement §10.4**).
 * **Role concentration and conflicts.** Holding a Delegated Function alongside a RAC seat is the
@@ -147,7 +180,87 @@ function at any time, publishing the change and its reasons in the same way.
 > deliberate choice for a DAO of this size, made in preference to leaving execution roles unfilled.
 > The safeguards that remain are the published allocation, the RAC's own accountability under the
 > **RAC Mandate**, removal and challenge under the **Elections & Role Governance Policy**, and the
-> DAO's power to switch any function to election at any time under this section.
+> DAO's power to switch any function or seat to election at any time under this section and §3.1.
+
+---
+
+### 3.1 Elected Treasury Signing Seats
+
+The default number of elected Treasury Signing seats is **zero**. The roster is allocated in full from
+among seated RAC members unless the DAO has resolved otherwise under the switching bullet in §3, a
+seat has converted under the conversion duty below, or the Transition RAC has designated an elected
+seat under §3.2.
+
+**Setting the number.** After the Activation Date the number is set by Governance Process proposal,
+which must state the number of elected seats and the date from which it applies. Before the Activation
+Date it is set by the Transition RAC under §3.2. The number may be raised or lowered by the same route
+that set it, and a resolution reducing it to zero returns the roster to allocation in full.
+
+**When a change takes effect.** A resolution altering the number of elected seats does not of itself
+unseat anyone.
+
+* Where the number **increases**, the RAC identifies which allocated seats are affected and publishes
+  them with its reasons. The allocated holders continue to hold those seats until the elected holders
+  are seated, and the RAC may not re-allocate an affected seat in the meantime except under the
+  **Governance Continuity Framework §4.2**.
+* Where the number **decreases**, a sitting elected holder serves out the term they were elected to,
+  and the seat becomes an allocated seat on that term's expiry.
+
+**Where the RAC cannot allocate a seat**, §3.3 applies.
+
+---
+
+### 3.2 Initial Composition of the Treasury Signing Roster
+
+The composition of the Treasury Signing roster that takes effect on the **Activation Date** is
+established by the Transition RAC as part of its mandate to establish the treasury, custody and signer
+framework (**Operating Agreement §6.5(d)**) and to coordinate the constitution of the Permanent RAC
+and the post-transition governance framework (**§6.5(g)**). The Transition RAC may designate one or
+more of the five seats as **elected seats**.
+
+Where it does so:
+
+* the holder of each elected seat is identified by a **recognised community advisory outcome** at the
+  recognition threshold in **DAO Parameters §3A.3**, conducted under the eligibility, nomination and
+  candidacy requirements in **Elections & Role Governance Policy §§5–6**;
+* the person so identified is **seated by Transition RAC resolution** published to the Official Venue,
+  and holds the seat from the Activation Date;
+* seating is subject to KYC verification (**Operating Agreement §10.4**) and to every other condition
+  precedent for the function; and
+* the designation and the seating must both complete **before the Activation Statement is published**
+  (**Operating Agreement §8.5**; **Treasury Signers Rules §10A.1**).
+
+The community outcome is advisory and the seating is the Transition RAC's own act, the binding
+community acts of the Advisory Governance Period being limited to the three in **Charter §4A.2**
+(**Operating Agreement §5.8(b)**). An elected seat established under this section carries its own term
+from the Activation Date under **Elections & Role Governance Policy §8** and its own renewal cycle
+under §9.
+
+Where the Transition RAC designates no elected seat, the roster passes to the Permanent RAC allocated
+in full, and elected seats may arise afterwards only under §3.1 or §3.3.
+
+---
+
+### 3.3 Conversion Where the RAC Cannot Allocate
+
+This section applies to every Delegated Function and, for Treasury Signing, to each allocated seat.
+
+Where the RAC cannot fill a function or allocated seat from among its seated members — because no
+seated member is eligible, willing, or able to hold it, or because a seated member is suspended under
+**Elections & Role Governance Policy §10.3**, permanently recused, or otherwise unable to act in it —
+the RAC **must** publish a certificate to the Official Venue identifying the function or seat and
+stating the reason. On publication:
+
+* the function or seat becomes an **elected seat**, and the RAC opens an election for it within the
+  **Replacement Election Trigger Time** (**DAO Parameters §6B**); and
+* interim coverage until the elected holder is seated is provided under the **Governance Continuity
+  Framework §4**, and for Treasury Signing from the **Emergency Signer Reserve** (**Treasury Signers
+  Rules §15**).
+
+Conversion is mandatory. For Treasury Signing, the RAC may not decline it on the ground that the
+remaining holders can meet the signing thresholds. A function or seat converted under this section
+reverts to allocation on expiry of the elected term, unless a resolution under §3 or §3.1 provides
+otherwise.
 
 ---
 
@@ -177,20 +290,36 @@ for the purposes of Operating Agreement §12.7 and the indemnification in §12.5
 ## 5. Removal & Replacement
 
 * Any Delegate may be removed by Governance Proposal at any time.
-* If a Delegate vacates their function, the remaining Delegates may appoint a temporary replacement
-  from among eligible Governance Participants to provide interim coverage pending the formal
-  replacement election conducted under the **Elections & Role Governance Policy §11**. Interim
-  appointments are subject to Governance Proposal ratification within 30 days and terminate
-  automatically upon the elected successor taking up their seat.
+* **How a function is refilled depends on how it was seated.**
+  * An **allocated** function left unheld — because its holder was removed from it, resigned it, or
+    ceased to be seated — is refilled by **RAC re-allocation** under §3. It does not go to a
+    replacement election, and **Elections & Role Governance Policy §11** reaches it only through the
+    underlying RAC seat (**Elections & Role Governance Policy §2**). Where the RAC cannot re-allocate
+    a Treasury Signing seat from among its seated members, the conversion duty in §3.3 applies.
+  * An **elected** seat left unheld is refilled by **replacement election** under **Elections & Role
+    Governance Policy §11**, on the trigger and completion times in **DAO Parameters §6B**. Where a
+    reserve list for that seat is in effect under **Elections & Role Governance Policy §7.5** and the vacancy did not arise through removal,
+    the reserve list is offered first in the ordinary way.
 * Where a vacancy creates an immediate operational risk (for example, Treasury Signers falling below
   execution quorum), the **Governance Continuity Framework §4.2** governs interim coverage and
-  prevails over this section.
+  prevails over this section. Interim appointments made under it are subject to the conditions stated
+  there and terminate automatically on the seating of a successor.
 
 **Legal Signatory continuity.** If the Legal Signatory is unavailable, conflicted, or unresponsive
 for more than 24 hours in circumstances requiring time-critical legal action, the Compliance Liaison
 is authorised to act as interim Legal Signatory for protective or time-critical purposes only. Any
 action taken under this provision must be disclosed to the governance forum within 24 hours and is
 subject to Governance Proposal ratification within 30 days.
+
+**Compliance Liaison continuity.** If the Compliance Liaison is unavailable, conflicted, or
+unresponsive for more than 24 hours in circumstances requiring a time-critical filing or regulatory
+response, the Legal Signatory is authorised to act as interim Compliance Liaison for that purpose
+only, on the same disclosure and ratification conditions. Where neither Delegate is available, or
+where both are the subject of the matter, the RAC acts directly with the Registered Agent under §2.4.
+
+**Web2 Custodian continuity.** If the Web2 Custodian is unavailable, unresponsive, or removed, the RAC
+invokes the recovery arrangement under §2.5 and appoints an interim holder pending re-allocation under
+§3 or conversion under §3.3. Invocation must be disclosed to the Official Venue within 24 hours.
 
 ---
 
@@ -219,7 +348,10 @@ over the corresponding procedures in this Mandate during the Transition Period.
   standard; protected/high-risk matters require **unanimity of all seated signers, being not fewer
   than two**) as set out in **Operating Agreement Article VI and §§9.10–9.11**. The
   **exactly-five-Delegates** requirement and the 3-of-5 / 4-of-5 thresholds in §3 take effect on the
-  Activation Date, when Treasury Signing passes to the five Delegates then holding it.
+  Activation Date, when Treasury Signing passes to the five Delegates then holding it. Which of those
+  five seats are allocated and which are elected is established by the Transition RAC under §3.2
+  before the Activation Statement is published; where it designates none, all five pass to the
+  Permanent RAC as allocated seats.
 * **Governance Operations.** The Transition RAC holds the Owner Badge collectively. Because elevation
   is a **non-discretionary** duty under §2.2 and must complete inside the TC Elevation Window (**DAO
   Parameters §3.1**), the body shall adopt a standing resolution, published to the Official Venue,

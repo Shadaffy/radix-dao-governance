@@ -21,6 +21,7 @@ This framework applies to failures affecting:
 * The Accountability Council (RAC)
 * Treasury Signers
 * The Governance Operator and the Owner Badge (operator failure or badge compromise)
+* The Legal Signatory, the Compliance Liaison, and the Web2 Custodian (Delegate failure or loss of control of the Web2 estate)
 * Working Groups
 * Governance participation (sustained quorum failure)
 * The governance interface itself (interface unavailability)
@@ -102,7 +103,7 @@ Response:
 
 **Interim signer appointment (if active signers < 3):**
 
-* The RAC may appoint up to 2 interim signers from the pre-approved Emergency Signer Reserve (maintained by the Governance & Legal Working Group; approved by DAO vote at least annually — Treasury Signers Rules §15). An interim signer appointed from the Reserve **need not hold a RAC seat**, and is the single exception to the rule in Delegate Mandate §3 that Treasury Signing is held only by seated RAC members. This is what makes the Reserve usable at minimum RAC strength, where every seated member already holds Treasury Signing and the body has no spare capacity to re-allocate to
+* The RAC may appoint up to 2 interim signers from the pre-approved Emergency Signer Reserve (maintained by the Governance & Legal Working Group and approved by DAO vote at least annually, or constituted by the founding Permanent RAC election for the Reserve List Validity Period — Treasury Signers Rules §15; Elections & Role Governance Policy §17.4). An interim signer appointed from the Reserve **need not hold a RAC seat**, and is one of the two exceptions to the rule in Delegate Mandate §3 that an allocated Treasury Signing seat is held only by seated RAC members — the other being the holder of an elected seat (Delegate Mandate §3.1). This is what makes the Reserve usable at minimum RAC strength, where every seated member may already hold Treasury Signing and the body has no spare capacity to re-allocate to
 * Interim signers are subject to the full Treasury Signers Rules
 * The signing threshold for interim-period actions is raised to **4-of-5** (regardless of whether interim or permanent signers hold the seats)
 * Interim appointment must be disclosed to the governance forum within **24 hours** of appointment
@@ -151,6 +152,26 @@ Response:
 
 * The custody and recovery arrangement for the Owner Badge is an implementation decision made when the Governance smart contract is deployed, and is recorded in the On-Chain Identifiers & Verification Policy §3 (per Operating Agreement §11.4 / Schedule 4). Whatever arrangement is chosen, it must provide a mechanism by which an elevation or badge rotation can proceed without the Governance Operator's cooperation, sufficient to give effect to this section. A deployment lacking this capability does not satisfy the Minimum Operational State in §7.
 * The custody arrangement for the **Master Badge** is recorded in the same register and is subject to the same test, with one addition: it must not be exercisable by any single person (On-Chain Identifiers & Verification Policy §4). A deployment in which one person can mint, recall, or invalidate the Owner Badge alone does not satisfy the Minimum Operational State, whatever the Owner Badge's own custody arrangement provides — the weaker of the two arrangements is the one that governs in practice.
+
+---
+
+### 4.2B Legal Signatory, Compliance Liaison, or Web2 Custodian Failure
+
+Each of these functions is held by one Delegate (Delegate Mandate §3) and has no threshold mechanism by which the holder can be routed around.
+
+Trigger:
+
+* the holder is unavailable, unresponsive, or unable to act for longer than the Max Unexcused Inactivity Period (DAO Parameters §6A), or for more than 24 hours where a time-critical filing, regulatory response, or legal action is required
+* the holder refuses to perform an act required by a valid governance outcome
+* the function is unheld and the RAC cannot re-allocate it from among its seated members
+* for the Web2 Custodian: loss of, or loss of control over, any credential store, domain registrar account, or platform account holding a Company Web2 asset
+
+Response:
+
+* **Interim cover.** The substitutions in Delegate Mandate §5 apply — the Compliance Liaison acts as interim Legal Signatory, the Legal Signatory as interim Compliance Liaison, in each case for protective or time-critical purposes only, with disclosure within 24 hours and Governance Proposal ratification within 30 days. Where neither is available, or both are the subject of the matter, the RAC acts directly with the Registered Agent (Delegate Mandate §2.4).
+* **Web2 recovery.** The RAC invokes the recovery arrangement under Delegate Mandate §2.5 and Compliance Operations Policy §4, appoints an interim holder, and discloses the invocation to the Official Venue within 24 hours. Recovery must be exercisable without the Custodian's cooperation; where it is not, the Minimum Operational State in §7 is not satisfied and the failure is reported as such.
+* **Restoration.** The RAC re-allocates the function under Delegate Mandate §3, or where it cannot, converts it to an elected seat under Delegate Mandate §3.3. Interim authority ends on the seating of a holder.
+* **Refusal or compromise.** Refusal to perform an act required by a valid governance outcome, without documented grounds on record with the RAC, is a breach of duty and grounds for immediate suspension under the Elections & Role Governance Policy §10.3 and removal under §10. Credential compromise is handled as a key-compromise continuity event and reviewed per the Emergency & Safeguards Policy.
 
 ---
 
@@ -253,7 +274,7 @@ After any continuity event, the affected roles must be re-established through st
 
 ## 7. Minimum Operational State
 
-The DAO is considered operational when proposals can be submitted and voted on through the governance interface, signers can execute approved actions, and governance processes (including the RAC's oversight function) are functional. A state in which any of these capabilities is missing is a continuity event triggering the response procedures in §4.
+The DAO is considered operational when proposals can be submitted and voted on through the governance interface, signers can execute approved actions, every Delegated Function is held (Delegate Mandate §3), the Owner Badge and Master Badge arrangements satisfy §4.2A, the Web2 recovery arrangement satisfies §4.2B, and governance processes (including the RAC's oversight function) are functional. A state in which any of these capabilities is missing is a continuity event triggering the response procedures in §4.
 
 ---
 
@@ -272,7 +293,11 @@ This framework operates alongside:
 * **Execution & Treasury Actions Policy** — execution mechanics and forced-execution backstop
 * **Treasury Signers Rules §9, §15** — valid refusal grounds and the Emergency Signer Reserve
 * **RAC Mandate** — RAC authority limits, including in continuity events
-* **Delegate Mandate §5** — Legal Signatory continuity (Compliance Liaison interim authority)
+* **Delegate Mandate §2.4, §2.5** — Compliance Liaison subject rule; Web2 recovery independence
+* **Delegate Mandate §3, §3.3** — Function coverage and conversion where the RAC cannot allocate
+* **Delegate Mandate §5** — Legal Signatory, Compliance Liaison, and Web2 Custodian continuity
+* **Compliance Operations Policy §4** — Credential and Web2 asset security, recovery independence
+* **Source Code Stewardship Policy §3.2** — Repository access standards
 * **Working Group Framework §4** — Working Group dissolution
 * **DAO Parameters Registry §6, §6B, §9A** — Governance Reconstitution Limit, replacement timing, and continuity fallback parameters
 

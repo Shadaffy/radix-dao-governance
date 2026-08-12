@@ -21,7 +21,9 @@ This policy applies to:
 
 References to "role holders" in this policy mean any person serving in one of the roles above.
 
-**How this policy applies to Delegates.** Delegated Functions are ordinarily seated by RAC allocation rather than by election (**Delegate Mandate §3**). For a function seated that way, §§6–7 (nomination and election), §8 (term lengths) and §9 (term renewal) do **not** apply to the function itself: it runs with the holder's RAC seat, and those sections reach it through that seat. Everything else in this policy applies in full — §5 eligibility, §10 removal and no-confidence, §12 handover, §13 performance, §14 inactivity, §15 conflicts, and §16 multi-role participation. §11 (vacancy handling) reaches an allocated function through the underlying RAC seat: a vacant **seat** triggers §11 in the ordinary way, while a function left unheld — because its holder was removed from it, resigned it, or ceased to be seated — is filled by RAC re-allocation under Delegate Mandate §3, not by a replacement election. Where the DAO has resolved by Governance Proposal to fill a function by Election Proposal (**Delegate Mandate §3**), this policy applies to that function in full, including §§6–9.
+**How this policy applies to Delegates.** Delegated Functions are ordinarily seated by RAC allocation rather than by election (**Delegate Mandate §3**). For a function seated that way, §§6–7 (nomination and election), §8 (term lengths) and §9 (term renewal) do **not** apply to the function itself: it runs with the holder's RAC seat, and those sections reach it through that seat. Everything else in this policy applies in full — §5 eligibility, §10 removal and no-confidence, §12 handover, §13 performance, §14 inactivity, §15 conflicts, and §16 multi-role participation. §11 (vacancy handling) reaches an allocated function through the underlying RAC seat: a vacant **seat** triggers §11 in the ordinary way, while a function left unheld — because its holder was removed from it, resigned it, or ceased to be seated — is filled by RAC re-allocation under Delegate Mandate §3, not by a replacement election.
+
+**Elected Delegated Function seats.** Where the DAO has resolved by Governance Process proposal to fill a function by Election Proposal, where a Treasury Signing seat has converted under the conversion duty, or where the Transition RAC has designated an elected seat in the initial roster (**Delegate Mandate §3, §3.3, §3.2**), this policy applies to that **seat** in full, including §§6–9. Treasury Signing is held by five Delegates and a resolution operates seat by seat, so the roster may comprise allocated and elected seats at the same time; each elected seat runs its own term, renewal cycle, and vacancy handling independently of the RAC seats, and its holder need not hold a RAC seat. An allocated seat on the same roster continues to be governed by the preceding paragraph.
 
 ---
 
@@ -64,7 +66,9 @@ Nominations, election outcomes, censures, removals, and resignations are all pub
 | RAC Members            | Oversight & governance integrity |
 | Working Group Stewards | Execution coordination           |
 | Strategic WG           | Cross-DAO coordination           |
-| Treasury Signers       | Treasury & legal execution       |
+| Delegates              | Treasury & legal execution       |
+
+Delegates hold the Delegated Functions defined in the **Delegate Mandate §2**, of which Treasury Signing is one. An allocated function is held by a seated RAC member and reaches this policy through that seat (§2); an elected seat is a role in its own right for every purpose of this policy.
 
 ---
 
@@ -107,8 +111,11 @@ Each candidate must publish, before the nomination period closes:
 * Role-specific experience
 * Conflict disclosures (per Conflict of Interest Policy)
 * Intended contribution and priorities for the term
+* **Declared Delegated Function willingness** — in an election for RAC seats, which Delegated Functions (if any) the candidate is willing to hold, and whether the candidate is willing to serve on the **Emergency Signer Reserve** if not seated (§17.4)
 
 The candidate submission constitutes acceptance for self-nominations. For third-party nominations, the acceptance confirmation (§6.1) and the candidate submission must both be published before the nomination period closes.
+
+A declaration of Delegated Function willingness is a condition of the consequences that attach to it under §17.4 and **Delegate Mandate §3**, and of nothing else. A candidate who declares no willingness remains eligible for every seat on the ballot.
 
 ---
 
@@ -328,14 +335,16 @@ Seating from the reserve list remains subject to all conditions precedent for th
 
 ## 8. Term Lengths
 
-| Role                   | Term     |
-| ---------------------- | -------- |
-| RAC Members            | 6 months |
-| Working Group Stewards | 6 months |
-| Strategic WG           | 6 months |
-| Treasury Signers       | 6 months |
+| Role                            | Term     |
+| ------------------------------- | -------- |
+| RAC Members                     | 6 months |
+| Working Group Stewards          | 6 months |
+| Strategic WG                    | 6 months |
+| Delegated Function — elected seat | 6 months |
 
 Term lengths are defined in DAO Parameters §6B and may be adjusted by Governance Proposal amending that registry.
+
+**An allocated Delegated Function has no term of its own** and does not appear in this table. It runs with the holder's RAC seat and ends on re-allocation, removal, or the holder ceasing to be seated (**Delegate Mandate §3**; §2 above). The 6-month term applies only to a seat filled by election — under a switching resolution, the conversion duty, or the initial roster designation (**Delegate Mandate §3, §3.3, §3.2**).
 
 ---
 
@@ -402,7 +411,7 @@ To prevent simultaneous leadership turnover across all roles, initial term start
 
 The specific Working Groups assigned to Group A and Group B are determined by the order in which each Working Group is established by Governance Proposal — the first cohort of WGs constituted after the Permanent RAC is seated are Group A; subsequent WGs are assigned to Group B unless governance specifies otherwise at establishment. This stagger ensures that no more than half of all role holders face simultaneous renewal at any one time.
 
-**Delegated Functions are not staggered.** A Delegated Function seated by RAC allocation has no term of its own and runs with the holder's RAC seat (**Delegate Mandate §3**), so there is nothing to stagger. Where the DAO has resolved to fill a function by Election Proposal, its initial term start is set in that proposal.
+**Allocated Delegated Functions are not staggered.** A Delegated Function seated by RAC allocation has no term of its own and runs with the holder's RAC seat (**Delegate Mandate §3**), so there is nothing to stagger. An **elected** seat carries its own term, and its initial term start is set in the proposal or resolution creating it — the Election Proposal, the RAC's certificate under the conversion duty, or the Transition RAC's designation under **Delegate Mandate §3.2**, in which last case the term runs from the Activation Date.
 
 ---
 
@@ -436,7 +445,7 @@ Any role holder may be removed by Governance Proposal at any time. The proposal 
 
 ### 10.1A Floor-Protected Removal
 
-This section applies to any removal that would reduce **seated RAC members below the applicable floor** — Permanent RAC **5**, Transition RAC **3** (DAO Parameters §5.1) — or, where the removed member holds a Treasury Signing function, active Treasury Signers below the applicable execution quorum (DAO Parameters §6A). It mirrors the protection §11.2 gives a resignation.
+This section applies to any removal that would reduce **seated RAC members below the applicable floor** — Permanent RAC **5**, Transition RAC **3** (DAO Parameters §5.1) — or that would reduce **active Treasury Signers below the applicable execution quorum** (DAO Parameters §6A). The second limb applies to the removal of **any Treasury Signing role holder**, whether they hold the seat by allocation as a seated RAC member or by election under **Delegate Mandate §3.1 or §3.2** without a RAC seat. It mirrors the protection §11.2 gives a resignation.
 
 **(a) The removal is binding; its effect on the seat is deferred.** The result stands and is not revisited. The replacement process under §11 begins on the date the removal would otherwise have taken effect, as though the seat were vacant; that process is a **replacement election**, since a seat vacated by removal is not offered to the reserve list (§7.5). The removal takes effect on the earlier of (i) a qualified replacement being seated, or (ii) expiry of the **Replacement Completion Time** (DAO Parameters §6B) from that date.
 
@@ -488,13 +497,23 @@ If a role becomes vacant — through resignation, removal, incapacitation, or en
 
 ### 11.2 Floor-Protected Resignation
 
-This section applies to any resignation that would reduce **seated RAC members below the applicable floor** — the Permanent RAC floor of **5**, or the Transition RAC floor of **3** (DAO Parameters §5.1) — or — where the resigning member also holds a Treasury Signer role — reduce **active Treasury Signers below the applicable execution quorum** (post-activation 3-of-5; Transition Period 2-of-3 — DAO Parameters §6A). This is the circumstance contemplated by the Operating Agreement's "where resignation is permitted" qualifier (Operating Agreement §4.7(b); current OA §4.1(d)): such a resignation is permitted, but its effect is conditioned as set out below. A resignation that leaves the body **at or above** the floor is unaffected by this section and takes effect immediately on written notice (DAO Parameters §5.1). The notice and no-compelled-service mechanics in (a)–(b) apply to both bodies; for a **Transition RAC** seat the seat is not refilled by replacement election (§11.1) but is handled under the **Governance Continuity Framework §4.6**, the Transition RAC seats being fixed by the Operating Agreement.
+This section applies to any resignation that would reduce **seated RAC members below the applicable floor** — the Permanent RAC floor of **5**, or the Transition RAC floor of **3** (DAO Parameters §5.1) — or that would reduce **active Treasury Signers below the applicable execution quorum** (post-activation 3-of-5; Transition Period 2-of-3 — DAO Parameters §6A). The second limb applies to the resignation of **any Treasury Signing role holder**, whether they hold the seat by allocation as a seated RAC member or by election under **Delegate Mandate §3.1 or §3.2** without a RAC seat; where an elected signer resigns, the replacement process referred to in (a) is the replacement election for that seat under §11. This is the circumstance contemplated by the Operating Agreement's "where resignation is permitted" qualifier (Operating Agreement §4.7(b); current OA §4.1(d)): such a resignation is permitted, but its effect is conditioned as set out below. A resignation that leaves the body **at or above** the floor is unaffected by this section and takes effect immediately on written notice (DAO Parameters §5.1). The notice and no-compelled-service mechanics in (a)–(b) apply to both bodies; for a **Transition RAC** seat the seat is not refilled by replacement election (§11.1) but is handled under the **Governance Continuity Framework §4.6**, the Transition RAC seats being fixed by the Operating Agreement.
 
 **(a) Notice and overlap.** The resigning member must give the Floor-Protected Resignation Notice (DAO Parameters §6B) to the RAC and the Governance & Legal Working Group. The resignation takes effect on the earlier of (i) a qualified replacement being seated, or (ii) expiry of the notice period. During the notice period the member remains in office, completes handover under §12, and the replacement election begins under §11.1.
 
 **(b) No compelled service.** A member may not be compelled to serve beyond the notice period. If the member declines to serve the notice, becomes inactive (DAO Parameters §6B), or is otherwise unable to act, the seat vacates immediately and the resulting sub-floor condition is escalated as a continuity event under the Governance Continuity Framework §4.1 (RAC) or §4.2 (signers). A vacated seat — and the seat of a member who is inactive during a notice period — is excluded from quorum immediately (DAO Parameters §5.1), so a disengaged member cannot block quorum while notice runs.
 
 **(c) Simultaneous resignations.** Where concurrent resignations would breach the floor, this section applies to each; the floor is protected by the notice overlap in (a) and, failing that, by the continuity escalation in (b).
+
+---
+
+### 11.3 No Trading of Seats
+
+A role holder may not resign a seat, and no person may accept one, as part of an arrangement or understanding under which the resigning person is to receive any other role, Delegated Function, or compensated engagement in the DAO.
+
+**Effect.** Where a resignation forms part of such an arrangement, any seating from the reserve list under §7.5 in consequence of that resignation is **void** and the seat is referred to a replacement election under §11.1. The resignation itself stands. Any role the resigning person received under the arrangement is void from the outset. Entering into such an arrangement is a breach of duty reportable under the **Code of Conduct §6** and grounds for removal under §10.2.
+
+**Scope.** This section reaches the arrangement, not the sequence. A person who resigns a seat and later stands for election to another role, or is allocated a Delegated Function on being seated elsewhere, does not contravene it. Where a role holder resigns within the Reserve List Validity Period (DAO Parameters §6B) of an election and takes another DAO role within that period, they must confirm to the RAC that no such arrangement existed, and the RAC publishes the confirmation with the seating.
 
 ---
 
@@ -563,6 +582,23 @@ A failed founding election is a matter within the Company's own control and is *
 
 Activation with fewer than the minimum number of seated Permanent RAC members is possible **only** by a formal waiver of Activation Condition 7 under the Schedule 5 Waiver clause, which requires the Entrenched-Provision amendment threshold for the Transition Period (Operating Agreement §12.2(c); DAO Parameters §3A.4), including a concurrent recognised community advisory outcome. The Transition RAC has no authority to lower the minimum or waive the condition on its own, and the emergency-amendment power (Charter §12.2) may not be used for this purpose because it may not alter the Activation framework (Charter §4A).
 
+### 17.4 The Founding Election and the Emergency Signer Reserve
+
+The first Permanent RAC election constitutes the **Emergency Signer Reserve** (**Treasury Signers Rules §15**) for the **Reserve List Validity Period** (DAO Parameters §6B) measured from the completion of that election.
+
+A candidate who is electable but not seated, and who is placed on the reserve list under §7.5, is a member of the Reserve for that period where the candidate:
+
+* declared willingness to hold Treasury Signing and to serve on the Reserve in their candidate submission under §6.2; **and**
+* has completed KYC verification (**Operating Agreement §10.4**).
+
+KYC is a condition of Reserve membership, not of candidacy. A candidate who does not complete it is on the reserve list under §7.5 but not on the Reserve.
+
+**What Reserve membership confers.** No seat, no signing authority, and no claim on any role. It makes a person available for interim appointment under the **Governance Continuity Framework §4.2** only, for the maximum interim period stated there, and subject to the **Treasury Signers Rules** in full while appointed. A Treasury Signing seat is seated by election under **Delegate Mandate §3.1 or §3.2** or by RAC allocation; Reserve membership is not a route to a seat.
+
+**Contingency and expiry.** Where the election produces no reserve candidates, or none satisfying both conditions above, no Reserve arises under this section. A Reserve constituted under this section lapses on expiry of the Reserve List Validity Period, after which **Treasury Signers Rules §15** governs. The Governance & Legal Working Group may constitute a Reserve under §15 at any time, and memberships under the two routes are cumulative.
+
+Nothing in this section qualifies §5. A nomination made without willingness to serve in the role nominated for is invalid, whatever the candidate intends to obtain from the outcome.
+
 ---
 
 ## 18. Governance Parameters
@@ -616,6 +652,7 @@ Changes to these parameters require a Governance Proposal amending the DAO Param
 * **Code of Conduct** — Behavioural standards; censure and breach findings
 * **Governance Continuity Framework §4.1, §4.2** — Continuity events, interim appointments, fallback authority
 * **RAC Mandate** — RAC eligibility and oversight role
+* **Delegate Mandate §3, §3.1–§3.3** — How Delegated Functions are seated: allocation from among seated RAC members, elected seats, the conversion duty, and the initial Treasury Signing roster
 * **Treasury Signers Rules** — Signer-specific eligibility, declared unavailability, and inactivity treatment
 * **Dispute Resolution & Arbitration Policy** — Escalation path for contested renewals, removals, or recusals
 

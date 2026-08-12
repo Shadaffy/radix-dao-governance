@@ -156,7 +156,11 @@ The five entries below are **Delegated Functions** defined in the **Delegate Man
 
 For the role-concentration cap in **DAO Parameters §6B**, a Delegate counts as **one seat** regardless of how many Delegated Functions the Delegate holds.
 
-Delegated Functions are seated by **RAC allocation from among seated RAC members** and run with the holder's RAC seat; they are not separately elected (**Delegate Mandate §3**). Exactly 5 Delegates must hold Treasury Signing to support the §6A thresholds, so at the Permanent RAC minimum of 5 seated members all 5 hold it. The Delegate Count bounds in **DAO Parameters §6B** (Minimum 5, Maximum 12) bind only where the DAO has resolved by Governance Process proposal to fill one or more functions by Election Proposal; otherwise the effective ceiling is the RAC size in §5.1.
+Delegated Functions are ordinarily seated by **RAC allocation from among seated RAC members** and run with the holder's RAC seat (**Delegate Mandate §3**). Exactly 5 Delegates must hold Treasury Signing to support the §6A thresholds; where none of those seats is an elected seat and the Permanent RAC is at its minimum of 5 seated members, all 5 hold it.
+
+**Function coverage.** Governance Operations, Legal Signatory, Compliance Liaison and Web2 Custodian are each held by **one** Delegate. Every Delegated Function must be held at all times; where the RAC cannot allocate one from among its seated members, it converts to an elected seat under **Delegate Mandate §3.3**.
+
+**Elected seats.** A Delegated Function, or an individual Treasury Signing seat, may instead be filled by election — where the DAO has so resolved by Governance Process proposal, where an allocated Treasury Signing seat has converted under the conversion duty, or where the Transition RAC designated one in the initial roster (**Delegate Mandate §3, §3.3, §3.2**). The holder of an elected seat need not hold a RAC seat and carries their own term under the **Elections & Role Governance Policy §8**. The default number of elected Treasury Signing seats is **zero** (**DAO Parameters §6A**). The Delegate Count bounds in **DAO Parameters §6B** (Minimum 5, Maximum 12) bind only where one or more functions or seats are filled by election; otherwise the effective ceiling is the RAC size in §5.1.
 
 ---
 
