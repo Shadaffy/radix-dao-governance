@@ -139,7 +139,7 @@ These parameters carry the activation and transition mechanics that the **Charte
 | Scope | Charter **and** the full policy library | Ratification covers the entire community-written framework, not the Charter alone |
 | Timing | **Before formation** | Ratification is taken before the Company exists, on the community's own governance system, and is not an act of the Company or an exercise of authority under the Operating Agreement (Charter §4A.2A). It fixes the version of the framework the founding sequence proceeds on |
 | Result determination | Arithmetical, from the record of the system on which the vote was taken | No RAC holds authority to determine this vote when it closes. The thresholds above are applied to the public record and the outcome is published ministerially — see Proposal & Voting Framework §6.5, which governs every other vote but expressly not this one |
-| Recognition | Twice: Transition RAC resolution on formation (OA Schedule 5, condition 6(a)), then the Activation Vote | The Activation Vote is the act by which the community adopts the pre-formation ratification within the Company's legal order (Charter §4A.2A; GP-ACTIVATE-1 §2) |
+| Recognition | Twice: on formation — the Company's ratification and adoption on execution of the Operating Agreement (OA §11.1A) and the Transition RAC resolution (OA Schedule 5, condition 6(a)) — then the Activation Vote | The Activation Vote is the act by which the community adopts the pre-formation ratification within the Company's legal order (Charter §4A.2A; GP-ACTIVATE-1 §2) |
 
 ### 3A.2 Activation Vote (sole binding pre-activation vote)
 

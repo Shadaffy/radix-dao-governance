@@ -76,7 +76,7 @@ the Operating Agreement is the master instrument that recognises the ratified fr
 | Document | Category | File |
 |---|---|---|
 | Operating Agreement | Primary legal instrument | [legal/operating-agreement.md](legal/operating-agreement.md) |
-| Certificate of Formation | Formation filing | [legal/certificate-of-formation.md](legal/certificate-of-formation.md) |
+| Certificate of Formation | Formation filing | [legal/Non-Profit_DAO_LLC_Certificate_of_Formation_RadixDAO_130826_v1_01.md](legal/Non-Profit_DAO_LLC_Certificate_of_Formation_RadixDAO_130826_v1_01.md) |
 | BOIR Template | Compliance filing | [legal/BOIR-Template.md](legal/BOIR-Template.md) |
 
 ---

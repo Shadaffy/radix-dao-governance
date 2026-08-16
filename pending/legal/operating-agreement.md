@@ -6,8 +6,6 @@
 
 ### a Marshall Islands Non-Profit DAO LLC
 
-*9 July 2026*
-
 ---
 
 ## NOTICE OF RESTRICTIONS ON DUTIES AND TRANSFERS
@@ -50,13 +48,15 @@ NOW, THEREFORE, the parties agree as follows.
 
 **1.8 "Charter"** means the constitutional governance document of the Company, as adopted and amended in accordance with this Agreement, setting out the more detailed governance framework of the Company.
 
+**1.8A "On-Chain Identifiers & Verification Policy"** means the operational policy of that name forming part of the DAO's governance framework and recognised under the Charter, which carries the authoritative register of the Company's governance and treasury on-chain identifiers, the rules for their configuration and use, and the means of their public verification, as in force from time to time in accordance with clause 11.4.
+
 **1.9 "Company"** means Radix DAO LLC, a Marshall Islands non-profit DAO LLC formed pursuant to the Marshall Islands DAO Act 2022 and the applicable laws of the Republic of the Marshall Islands.
 
 **1.10 "Founding Transferor"** means the principal transferor of assets, rights, funds, credentials, and control positions to the Company at or around the time of formation, the identity of whom is recorded in the Continuity Statement executed pursuant to Article IX of this Agreement and is not required to be named in this Agreement. References in this Agreement to the Founding Transferor shall be construed as references to the person whose identity is so recorded and shall remain valid notwithstanding any subsequent change of name, corporate restructuring, dissolution or replacement of that person, provided always that the Continuity Statement is updated accordingly.
 
-**1.11 "Governance Mechanism"** means the on-chain or hybrid governance system recognised by this Agreement and the Charter through which Governance Participants submit proposals, vote, and determine governance outcomes binding on the Company in accordance with the applicable rules, thresholds, and procedures.
+**1.11 "Governance Mechanism"** means the on-chain or hybrid governance system recognised by this Agreement and the Charter through which Governance Participants submit proposals, vote, and determine governance outcomes binding on the Company in accordance with the applicable rules, thresholds, and procedures. For the purposes of Schedule 5 condition 6(b) only, "Governance Mechanism" also includes the community's pre-existing governance system in use for the constitutional ratification vote conducted before the Company's formation, the record of which is recognised and adopted by the Company under clause 11.1A.
 
-**1.12 "Governance Participant"** means a Person who holds Governance Tokens and participates in the governance system of the Company in accordance with this Agreement, the Charter, and any subordinate governance rules validly adopted thereunder. Governance Participation does not, of itself, confer Membership.
+**1.12 "Governance Participant"** means a Person, other than the Company in respect of Governance Tokens beneficially owned by it, who holds Governance Tokens and participates in the governance system of the Company in accordance with this Agreement, the Charter, and any subordinate governance rules validly adopted thereunder. Governance Participation does not, of itself, confer Membership.
 
 **1.13 "Governance Participation"** means participation in the governance system of the Company by a Governance Participant through the Governance Mechanism recognised by this Agreement and the Charter.
 
@@ -304,7 +304,9 @@ NOW, THEREFORE, the parties agree as follows.
 
 (d) Membership and all signer and signatory rights of the replacement member shall commence upon satisfaction of the conditions in clause 6.11(c) and not before; and
 
-(e) where no seated Transition RAC members remain to declare a vacancy, the Registered Agent may publish notice of the vacancy to the Official Venue on behalf of the Company, and the community advisory outcome procedure in clause 6.11(b) shall apply accordingly.
+(e) where no seated Transition RAC members remain to declare a vacancy, the Registered Agent may publish notice of the vacancy to the Official Venue on behalf of the Company, and the community advisory outcome procedure in clause 6.11(b) shall apply accordingly; and
+
+(f) a seat is deemed vacant for the purposes of this clause 6.11 where the member holding it has been wholly uncontactable or non-participating in the business of the Transition RAC for a continuous period of not less than twenty-one days, following not fewer than three documented attempts at contact through all known communication channels made by the remaining seated Transition RAC members and recorded, together with their dates, methods, and outcomes, to the Official Venue. A declaration of vacancy under this clause 6.11(f) is made by unanimous written resolution of the remaining seated Transition RAC members and does not, of itself, terminate the Membership of the relevant member, but has the effect that the relevant member is not treated as Seated for the purposes of clauses 9.11 and 12.2(c) until the vacancy is filled in accordance with this clause 6.11 or the member resumes active participation and notifies the Company accordingly, whichever first occurs.
 
 ---
 
@@ -454,11 +456,13 @@ shall not constitute a breach of any obligation of the Transition RAC under this
 
 **11.1 Charter.** The Company shall adopt a Charter or Constitution containing the detailed governance framework, including transition governance principles and internal process rules for the Transition RAC, reporting obligations and transparency requirements, the detailed framework for the Permanent RAC, candidacy, nomination and election rules for the Permanent RAC, detailed governance process mechanics, algorithmic-governance activation mechanics, recognised governance platform and smart-contract architecture, protected-matter categorisation, and such other governance provisions as are consistent with this Agreement.
 
+**11.1A Recognition of Pre-Formation Ratification.** The constitutional ratification of the Charter and the full policy framework referred to in Schedule 5 condition 6(b) is a community act taken before the Company's formation, conducted through the community's governance system in use at the time of that vote. The Company, on execution of this Agreement, ratifies and adopts that vote and the version of the Charter and policy framework it approved, and recognises the record of that vote as satisfying Schedule 5 condition 6(b) for all purposes of this Agreement. For the avoidance of doubt, this clause confers no power to alter the ratified Charter or policy framework, and any amendment to them before the Activation Date is made only in accordance with clause 12.1 or clause 12.2.
+
 **11.2 Subordinate Governance Rules.** Operational rules, parameters, procedures and policies may be adopted pursuant to the Charter to supplement this Agreement and the Charter.
 
 **11.3 Hierarchy.** The Republic of Marshall Islands law and the Certificate of Formation prevail by operation of law. Subject thereto, this Agreement prevails over the Charter, and the Charter prevails over any subordinate governance rule or policy.
 
-**11.4 Governance and Technical Identifiers.** The recognised Governance Platform, governance contracts, smart-contract identifiers, treasury wallet identifiers, and any related technical identifiers material to the Governance Mechanism shall be recorded in the On-Chain Identifiers & Verification Policy forming part of the governance framework, which is the authoritative operational register of those identifiers. Schedule 4 of this Agreement incorporates that register by reference. Where any identifier first comes into operational use, or any recorded identifier changes, after the date of this Agreement, the Company shall update the register accordingly in accordance with clause 12.1 and the change procedure in that policy, and shall, to the extent required by section 106(2) or section 107 of the DAO Act, notify MIDAO and procure an amendment to the Certificate of Formation to reflect the updated identifier. The Company shall notify the registered agent or such other persons as may be required by law or operational necessity of any update to the identifiers recorded in the register. Nothing in this clause subordinates this Agreement or the Charter to that policy; the hierarchy in clause 11.3 continues to apply.
+**11.4 Governance and Technical Identifiers.** The recognised Governance Platform, governance contracts, smart-contract identifiers, treasury wallet identifiers, and any related technical identifiers material to the Governance Mechanism shall be recorded in the On-Chain Identifiers & Verification Policy, which is the authoritative operational record of those identifiers and is incorporated by reference in Schedule 4 of this Agreement. Where those identifiers exist at the date of this Agreement, the On-Chain Identifiers & Verification Policy shall be completed before execution to the extent then available. Where any identifier first comes into operational use, or any recorded identifier changes, after the date of this Agreement, the Company shall update the On-Chain Identifiers & Verification Policy accordingly in accordance with the change and update procedure set out in that Policy, and shall, to the extent required by section 106(2) or section 107 of the DAO Act, notify MIDAO and procure an amendment to the Certificate of Formation to reflect the updated identifier. Such identifiers may further be recorded in the Charter or the recognised governance records of the Company. The Company shall notify the registered agent or such other persons as may be required by law or operational necessity of any update to the identifiers recorded in the On-Chain Identifiers & Verification Policy. For the avoidance of doubt: (a) the On-Chain Identifiers & Verification Policy is subordinate to this Agreement and the Charter, and nothing in it, or in this clause, alters the hierarchy in clause 11.3; and (b) nothing in this clause displaces the requirement in clause 12.1 for any amendment that alters the text of this Agreement itself, as distinct from the recording of an identifier update in the On-Chain Identifiers & Verification Policy in accordance with that Policy's change and update procedure.
 
 **11.5 Operational and Delegated Functions.** The Charter or subordinate governance rules may establish operational functions, delegated functions, or role-based responsibilities to support the governance, administration, compliance, execution, custody, and maintenance of the Company, provided always that such functions remain subordinate to this Agreement and the Charter and do not alter the constitutional role of the Transition RAC, the Permanent RAC, or the Membership structure except in accordance with a valid amendment to this Agreement where required.
 
@@ -684,6 +688,8 @@ Any such request shall be determined by the LCIA Court, whose decision shall be 
 
 **14.4 Governance Participants — Dispute Resolution.** Without prejudice to clause 14.2, disputes brought by or against Governance Participants in their capacity as such – including disputes arising from the exercise of governance rights through the Governance Mechanism, the outcome of any governance vote or proposal, or the application of the Charter or subordinate governance rules to a Governance Participant – shall, as a first resort and to the fullest extent applicable, be submitted to the governance or dispute-resolution process established by the Charter. The Charter shall include an express agreement on the part of Governance Participants, as a condition of participating in the governance system of the Company, to submit disputes of this nature to that process before commencing any other legal proceedings or arbitration. Nothing in this clause limits the right of any party to commence arbitration under clause 14.2 where the pre-arbitration process has been exhausted or an exception under clause 14.1A applies.
 
+**14.5 Severability.** If any provision of this Agreement is held by a court or arbitral tribunal of competent jurisdiction to be invalid, illegal, or unenforceable under applicable law, that provision shall be severed from this Agreement to the minimum extent necessary, and the remaining provisions shall continue in full force and effect. The parties shall, so far as lawfully possible, seek to replace any severed provision with a valid, legal, and enforceable provision that most closely reflects the original commercial and constitutional intent of the severed provision, provided that no such replacement may weaken, reduce, or remove an Entrenched Provision except in accordance with clause 12.2.
+
 ---
 
 ## EXECUTION
@@ -721,25 +727,31 @@ Date: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 ## SCHEDULES
 
-**Schedule 1 — Current Three Members of the Transition RAC**
+## SCHEDULE 1 — Current Three Members of the Transition RAC
 
-*[To be completed by the Transition RAC]*
+The following are the current three members of the Transition RAC, constituted under clause 6.2 and clause 6.3 of this Agreement:
 
-**Schedule 2 — Initial Signers / Signer Set**
+1. Tadkis — appointed February 7, 2026. Category and role: see Schedule 6.
 
-*[To be completed by the Transition RAC by written resolution or confidential implementation record]*
+2. Mr. Peanutbutter — appointed February 7, 2026. Category and role: see Schedule 6.
 
-**Schedule 3 — Official Online Venue(s)**
+3. projectShift — appointed February 7, 2026. Category and role: see Schedule 6.
 
-*[To be completed and publicly designated in accordance with this Agreement and the Charter]*
+Personal identifying information (date of birth, residential or business address, passport or identification details) for each member is recorded exclusively in the Form 2 BOIR filed with MIDAO and the Registrar held on a confidential basis in accordance with clause 10.5 of this Agreement, and is not restated in this Schedule.
 
-**Schedule 4 — Governance / Smart Contract Identifier(s)**
+## SCHEDULE 2 — Initial Signers / Signer Set
 
-The Governance Platform, governance contracts, smart-contract identifiers, treasury wallet identifiers, and related technical identifiers material to the Governance Mechanism are recorded in, and maintained under, the **On-Chain Identifiers & Verification Policy**, which this Schedule incorporates by reference (clause 11.4). That register is published to the Official Venue and carries a public explorer verification link for each identifier.
+The initial signers for the transition treasury will be designated by the Transition RAC by written resolution upon establishment of the treasury and custody framework under clause 6.5(d) and clause 9.9 of this Agreement, and recorded in this Schedule or in a confidential implementation record maintained by the Company, as the Transition RAC may determine.
 
-**Schedule 5 — Activation Conditions Checklist** *(see below)*
+## SCHEDULE 3 — Official Online Venue(s)
 
-**Schedule 6 — KYC / BOIR Control Analysis Framework** *(to be completed)*
+The Official Venue of the Company is: https://radixdao.org
+
+This is the venue at which governance records, activation statements, status reports, advisory acknowledgements, and other official communications of the Company are published, in accordance with clause 1.18 and clause 2.5 of this Agreement.
+
+## SCHEDULE 4 — Governance / Smart Contract Identifier(s)
+
+The Company's governance and technical identifiers — including the governance smart-contract component, the Master Badge, the Owner Badge, the governance package, the resources constituting eligible voting power, the recognised Governance Platform, the Official Venue(s), the Compliance Challenge Filing Channels, and the treasury accounts — are recorded in, and this Schedule incorporates by reference, the **On-Chain Identifiers & Verification Policy** as in force from time to time in accordance with clause **11.4**. This Schedule does not itself enumerate those identifiers or eligible voting power.
 
 ---
 
@@ -757,12 +769,12 @@ The Transition RAC shall use this Schedule as the basis for publishing the Activ
 | 2 | The initial Beneficial Owner Information Report (BOIR) has been filed with the Registrar in accordance with the Marshall Islands DAO Act 2022 | Written confirmation from the registered agent or, where applicable, the Registrar, of successful submission and acceptance of the BOIR | Yes. Registrar; Registered Agent |
 | 3 | KYC has been completed for all persons required to be KYC'd under applicable law, the Asset Transferor's transfer requirements, custody requirements, or the Charter | Written confirmation from the KYC provider or registered agent that all required KYC files are complete, verified, and accepted | Yes. KYC provider; Registered Agent |
 | 4 | The treasury and custody framework has been established, including activation of the transition multi-signature wallet and any approved institutional custody arrangements | Executed custody agreement(s) and written confirmation from the custody provider of activation of the multi-signature wallet and establishment of the approved signer set | Yes. Custody provider |
-| 5 | The Governance Mechanism, governance contracts and smart contracts, voting mechanism, and Official Venue(s) have been identified, documented, and recorded in the On-Chain Identifiers & Verification Policy register incorporated by reference into Schedule 4 of this Agreement. The identifiers recorded in that register are confirmed as current and accurate as at the Activation Statement date. The recognised governance platform and all Official Venue(s) are operational and publicly accessible to Governance Participants. | (a) Confirmation by the Transition RAC, by written resolution published to the Official Venue, that the identifiers recorded in the register (Schedule 4) remain current, complete, and accurate as at the date of the Activation Statement; (b) the publicly accessible register, demonstrating that the governance smart contract component address, governance token identifier, governance platform, and Official Venue address(es) are recorded therein with their explorer verification links; and (c) evidence of operational accessibility of the governance platform and Official Venue(s), including a live URL or equivalent accessible identifier for each Official Venue. | No |
+| 5 | The Governance Mechanism, governance contracts and smart contracts, voting mechanism, and Official Venue(s) have been identified, documented, and recorded in Schedule 4 of this Agreement. The identifiers recorded in Schedule 4 are confirmed as current and accurate as at the Activation Statement date. The recognised governance platform and all Official Venue(s) are operational and publicly accessible to Governance Participants. | (a) Confirmation by the Transition RAC, by written resolution published to the Official Venue, that the identifiers recorded in the On-Chain Identifiers & Verification Policy remain current, complete, and accurate as at the date of the Activation Statement; (b) the publicly accessible On-Chain Identifiers & Verification Policy, demonstrating that the governance smart contract component address, governance token identifier, governance platform, and Official Venue address(es) are recorded therein; and (c) evidence of operational accessibility of the governance platform and Official Venue(s), including a live URL or equivalent accessible identifier for each Official Venue. | No |
 | 6 | The Charter and the full policy framework of the Company, as prepared and written by the community during the pre-formation process, have been: (a) adopted by the Transition RAC by unanimous written resolution in its capacity as member-manager of the Company; and (b) formally ratified by the community through a constitutional ratification vote conducted through the Governance Mechanism, achieving the ratification threshold specified in the Charter for constitutional matters. | (a) Signed Transition RAC resolution adopting the Charter and full policy framework, published to the Official Venue; (b) Governance Mechanism record of the constitutional ratification vote, showing the participation level achieved, the majority achieved, and confirmation that the applicable ratification threshold was met; and (c) publication of the ratified Charter and full policy framework to the Official Venue. | No |
 | 7 | The Permanent RAC election has been completed under and in accordance with the community-ratified Charter and Elections Policy (condition 6 having been satisfied), and at least the minimum number of Permanent RAC members specified in the Charter have been duly elected by the community through the Governance Mechanism and formally seated. | (a) Governance Mechanism record of the Permanent RAC election, showing the candidates who stood, the participation level achieved, the votes cast, and the identity of each member elected; (b) confirmation that the election was conducted in accordance with the Elections Policy forming part of the ratified Charter; (c) written acceptance of appointment from each elected Permanent RAC member; and (d) publication of the election outcome and the identity of the seated Permanent RAC members to the Official Venue. | No |
 | 8 | The Continuity Statement(s) required under Article IX of this Agreement and the Charter have been duly executed | Executed Continuity Statement(s), made available to the Transition RAC and referenced or recorded in accordance with clause 9.14 of this Agreement | Yes. Asset Transferor / Founding Transferor |
 | 9 | The principal asset-transfer steps required for handover have been completed or formally initiated by the Asset Transferor | Written confirmation from the Asset Transferor that the transfer of principal assets has been completed or formally initiated pursuant to the terms of the Continuity Statement and applicable transfer documentation | Yes. Asset Transferor / Founding Transferor |
-| 10 | All handover conditions specified in the Charter have been satisfied | Written confirmation by the Transition RAC, by the resolution threshold applicable to handover matters under the Charter, that each Charter-specified handover condition has been completed, with each supporting document identified by reference | No |
+| 10 | All handover conditions specified in this Agreement and the Charter have been satisfied | Written confirmation by the Transition RAC, by the resolution threshold applicable to handover matters under this Agreement and the Charter, that each handover condition specified in this Agreement (including clauses 6.5(h) and 6.10) and the Charter has been completed, with each supporting document identified by reference | No |
 
 ### Notes on External Dependencies
 
@@ -771,3 +783,45 @@ Where satisfaction of a condition is marked as dependent on a third party (in pa
 ### Waiver
 
 A condition in this Schedule may be formally waived only by a governance decision satisfying the applicable Entrenched Provision amendment threshold set out in clause 12.2(c) of this Agreement during the Transition Period, or clause 12.2(d) following the Activation Date, as applicable. Any purported waiver that does not satisfy the applicable threshold shall be of no force or effect. Any valid waiver shall be recorded in the Activation Statement together with the basis for the waiver and the governance decision authorising it.
+
+---
+
+## SCHEDULE 6 — KYC / BOIR Control Analysis Framework
+
+This Schedule sets out the BOIR control analysis framework for the three members of the Transition RAC identified in Schedule 1, for the purposes of Article X of this Agreement and Regulation 8 of the DAO Regulations 2024.
+
+**BOIR Category Analysis.** Applying the statutory test in clause 10.2 of this Agreement to the Members of the Company: no single Member (each being a member of the Transition RAC identified in Schedule 1) holds 25% or more of membership interests or voting rights in the Company on an individual basis, so Category A of the BOIR Form 2 does not apply. Because no individual Member meets the Category A threshold, the test proceeds to the second limb of clause 10.2 — who has actual, effective, or sufficient responsibility or control. On that basis, the three members of the Transition RAC are identified as beneficial owners under **Category B**, by reason of their joint authority over the Company during the Transition Period as the member-managers and signers.
+
+**BOIR Entries.** The full identification details of each Transition RAC member identified as a beneficial owner under this Schedule are as set out in the Form 2 BOIR filed with MIDAO and the Registrar, a copy of which is held on a confidential basis in accordance with clause 10.5 of this Agreement. This Schedule does not restate that personal information; it records only the role, category, and wallet identifiers relevant to the control analysis above.
+
+**Member 1**: Tadkis.
+
+This member executes the BOIR Form 2 referred to in the Note on Declaration below in their capacity as Representative Agent, a capacity distinct from their status as a named beneficial owner under this Schedule. This dual capacity does not alter the Category B analysis above.
+
+Radix Blockchain wallet(s) associated with the DAO LLC owned by or held on behalf of this person:
+
+Blockchain: Radix Babylon Ledger Governance wallet address (Radix account):
+
+account_ rdx1299hgmssdhymck9d9903a5xpfedpyf3fcfmtk2j5nte6f8nhdpxset
+
+**Member 2**: Mr. Peanutbutter.
+
+Radix Blockchain wallet(s) associated with the DAO LLC owned by or held on behalf of this person:
+
+Blockchain: Radix Babylon Ledger Governance wallet address (Radix account):
+
+account_ rdx12yu55zy3cx3lx3xjkp9f2vzp2ye2mql5vzhxvq0tks74d5hcp0xkvs
+
+**Member 3**: projectShift.
+
+Radix Blockchain wallet(s) associated with the DAO LLC owned by or held on behalf of this person:
+
+Blockchain: Radix Babylon Ledger Governance wallet address (Radix account):
+
+account_ rdx12y5gnf54z0auwjjfz7yss9ky4qrgw7c4xyu63a6s4edhhc5vctejyk
+
+**Treasury Wallet:** The transition multi-sig treasury wallet address is as recorded at §5 of the On-Chain Identifiers & Verification Policy.
+
+**Note on Declaration**: The full legal name, date of birth, residential or business address, passport or identification details, and any other personal identifying information of each beneficial owner named in this Schedule are recorded exclusively in the Form 2 BOIR submitted to MIDAO under section 112 of the DAO Act 2022 and in accordance with the DAO Regulations 2024 by the Representative Agent of the Company, and are not restated in this Schedule. The designation of the Representative Agent and Legal Signatory is recorded in the Transition RAC's written resolution referred to in clauses 2.6 and 9.2 of this Agreement, a copy of which shall be retained with the Company's governance records and made available to the registered agent and Registrar on request.
+
+Each member confirms that the information provided is accurate and complete. The BOIR declaration is made under penalty of perjury under the laws of the Republic of the Marshall Islands.

@@ -1,4 +1,4 @@
-# On-Chain Identifiers & Verification Policy
+# RADIX DAO LLC -- this is the On-Chain Identifiers & Verification Policy incorporated by reference in Schedule 4 of the Operating Agreement of Radix DAO LLC, in accordance with clause 11.4 of that Agreement.
 
 ---
 
@@ -8,7 +8,7 @@ This policy establishes the single authoritative operational register of the Com
 
 It exists so that the governance and treasury infrastructure of the Company is publicly recorded, independently verifiable, and maintained by the community through governance rather than embedded in the Company's legal instruments.
 
-The identifiers recorded in this policy are the operational record referred to in **Operating Agreement §11.4** and **Certificate of Formation Article VII**. Those instruments incorporate this register by reference; this policy does not alter, and remains subordinate to, the Operating Agreement and the Charter.
+The identifiers recorded in this policy are the operational record referred to in **Operating Agreement §11.4**, and correspond to the smart contracts listed in **Exhibit A of the Certificate of Formation**, which **clause 10** of that Certificate requires to be kept current. The Operating Agreement incorporates this register by reference; this policy does not alter, and remains subordinate to, the Operating Agreement and the Charter.
 
 ---
 
@@ -118,7 +118,7 @@ A change to a recorded identifier is classified by the identifier's significance
 
 A change to either **Compliance Challenge Filing Channel** address is **Routine**, and takes effect only on publication of the new address to the Official Venue — an unpublished change is not effective, and a filing sent to the superseded address during the Compliance Challenge Window remains validly filed. This lighter treatment is acceptable because the Channel cannot be used to suppress a filing: publication to the Official Venue is an independently valid filing route at all times (**Proposal & Voting Framework §8.4**), so control of the addresses carries no power to block a challenge.
 
-On any change, the Company updates the record held with the Registered Agent and, to the extent required by section 106(2) or section 107 of the DAO Act, notifies MIDAO and procures an amendment to the Certificate of Formation to reflect the updated identifier (**Operating Agreement §11.4**).
+On any change, the Company updates the record held with the Registered Agent and, to the extent required by section 106(2) or section 107 of the DAO Act, notifies MIDAO and procures an amendment to the Certificate of Formation — a new Certificate or an amendment carrying an updated **Exhibit A** — to reflect the updated identifier (**Operating Agreement §11.4**; **Certificate of Formation clause 10**).
 
 During the Transition Period, identifier recording and changes are made by the Transition RAC by written resolution published to the Official Venue (**Operating Agreement §6.5**); from the Activation Date, authority passes to the standing governance process and the Governance Operator as set out above.
 

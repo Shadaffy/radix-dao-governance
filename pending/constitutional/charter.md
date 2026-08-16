@@ -135,9 +135,9 @@ The community's binding acts are limited to the three below. The first precedes 
 
 Framework ratification is a community act taken before the Company exists and is not an exercise of authority under the Operating Agreement. It fixes the version of this Charter and the policy framework on which the founding sequence proceeds.
 
-It is recognised twice: by the Transition RAC's unanimous written resolution on formation (**Operating Agreement Schedule 5, condition 6(a)**; **§§11.1, 11.2, 11.5**), and by the **Activation Vote**, which in confirming the Activation Conditions recognises the ratification, the formation, and the Transition RAC's completed tasks.
+It is recognised twice: on formation — by the Company's ratification and adoption of the vote and its record on execution of the Operating Agreement (**Operating Agreement §11.1A**) and by the Transition RAC's unanimous written resolution (**Operating Agreement Schedule 5, condition 6(a)**) — and by the **Activation Vote**, which in confirming the Activation Conditions recognises the ratification, the formation, and the Transition RAC's completed tasks.
 
-The version ratified is the version that binds. Recognition confers no power to alter it; amendment before the Activation Date is made under §12 or §12.2.
+The version ratified is the version that binds. Recognition confers no power to alter it (**Operating Agreement §11.1A**); amendment before the Activation Date is made under §12 or §12.2 of this Charter, subject always to the amendment rules of the Operating Agreement — the transition thresholds and protected-matter rules to which **Operating Agreement §§11.1A and 12.1(a)** subject such amendments, including the protected-matter rule in **Operating Agreement §9.12(e)** and, where an Entrenched Provision is engaged, the elevated threshold in **Operating Agreement §12.2(c)**.
 
 ### 4A.3 Activation Conditions
 
