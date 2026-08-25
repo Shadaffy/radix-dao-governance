@@ -151,4 +151,4 @@ If a conflict arises, the Operating Agreement prevails, followed by the Charter,
 
 ## 10. Amendments
 
-_Amendment procedures and classification requirements are defined in the **Governance Maintenance & Upgrade Framework**._
+_A change to a recorded identifier is made under §8, not by amendment. Amendment of this policy's text follows the **Governance Maintenance & Upgrade Framework §3.2**._

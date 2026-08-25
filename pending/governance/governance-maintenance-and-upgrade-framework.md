@@ -17,9 +17,14 @@ This document defines how governance documents are:
 
 ---
 
-## 2. [Reserved]
+## 2. Binding Effect
 
-*This section number is retained, rather than renumbered, so that references to the sections below remain stable.*
+During the Advisory Governance Period (formation to the Activation Date) governance outcomes are advisory (**OA §§5.8–5.9**), save for the three binding acts in **Charter §4A.2**; from the Activation Date they are binding (**OA §5.7**).
+
+Before the Activation Date, a change under §4 requires:
+
+1. a vote at the threshold §4 assigns it; and
+2. adoption by the Transition RAC by written resolution published to the Official Venue (**OA §5.9**).
 
 ---
 
@@ -27,14 +32,32 @@ This document defines how governance documents are:
 
 The Company's document hierarchy is defined in **Operating Agreement §11.3** and restated constitutionally in **Charter §13**. This Framework is an operational policy and is subordinate to both.
 
-### 3.1 Legal Formation Documents
+### 3.1 Legal and Formation Documents
 
-The Formation Documents (Operating Agreement, Certificate of Formation, BOIR Template, Asset Transfer Agreement, IP Schedule, and Continuity Statement) are legal instruments filed with the Registered Agent. They may be amended only by the process specified in **Operating Agreement Article XII**:
+These sit outside the policy library and are not amended under §4.
 
-* **General rule (OA §12.1).** The Operating Agreement is amended only in accordance with the governance process validly applicable at the time — during the Transition Period subject to the transition thresholds and protected-matter rules, and following the Activation Date subject to the long-term governance framework.
-* **Entrenched Provisions (OA §12.2).** Provisions designated as Entrenched Provisions may be amended only at the elevated thresholds in OA §12.2(c) (during the Transition Period) or §12.2(d) (following the Activation Date), as carried in **DAO Parameters §3A.4**. Certain amendments are prohibited absolutely during the Transition Period (OA §12.2(b)).
-* **Charter and operational policies.** Amendments to the Charter require a Constitutional proposal and amendments to operational policies require a Governance Process proposal, at the thresholds in **DAO Parameters §3.2–§3.3**, per §4 below.
-* **Other Formation Documents** (Certificate of Formation, BOIR Template, Asset Transfer Agreement, IP Schedule, Continuity Statement) are amended as required by applicable law and the Operating Agreement, and re-filed with the Registered Agent.
+| Document | Amended by |
+|---|---|
+| Operating Agreement | OA Article XII; an Entrenched Provision only at the OA §12.2(c)/(d) thresholds (DAO Parameters §3A.4). Schedules 1–4 are maintained as the Agreement provides (OA §9.9, §11.4); doing so is not an amendment |
+| Certificate of Formation | Filing with MIDAO / the Registrar under the DAO Act, including where OA §11.4 requires it. Not by governance proposal |
+| BOIR | Compliance filing under OA §10.1; re-filed when the underlying facts change |
+| Continuity Statement | Executed under OA §9.3, updated per §1.10, recorded per §9.14. Not by governance proposal |
+| Asset Transfer Agreements and IP Schedules | Transaction documents under OA §9.4 and the Open Source & IP Policy. The template is amended under §4; an executed agreement is not amendable |
+
+**"Formation Document"** means any instrument by which the Company is formed, registered, or maintains its legal existence, and any instrument the Company executes as a legal person with a third party. A document's absence from this section does not place it outside the term.
+
+### 3.2 Bespoke Change Procedures
+
+Where the Operating Agreement or Charter preserves a change procedure specific to a document, that procedure governs and §4 does not apply.
+
+**On-Chain Identifiers & Verification Policy** (OA §11.4; Schedule 4):
+
+* A change to a **recorded identifier** is not an amendment. It is made under that Policy §8, with the MIDAO notification and Certificate of Formation amendment OA §11.4 requires.
+* A change to the **text** of that Policy is an amendment under §4.
+
+### 3.3 Policy Library
+
+Amendments to the Charter require a Constitutional proposal and amendments to operational policies require a Governance Process proposal, at the thresholds in **DAO Parameters §3.2–§3.3A**, per §4.
 
 ---
 
@@ -49,7 +72,7 @@ The Formation Documents (Operating Agreement, Certificate of Formation, BOIR Tem
 
 Approval:
 
-* **Governance Process proposal** — standard threshold (≥60% YES, ≥7% quorum)
+* **Governance Process proposal** — standard threshold (≥60% YES, ≥7% quorum, ≥2% minimum affirmative support)
 
 ---
 
@@ -61,7 +84,7 @@ Approval:
 
 Approval:
 
-* **Governance Process proposal** — standard threshold (≥60% YES, ≥7% quorum)
+* **Governance Process proposal** — standard threshold (≥60% YES, ≥7% quorum, ≥2% minimum affirmative support)
 
 ---
 
@@ -73,9 +96,15 @@ Approval:
 
 Approval:
 
-* **Constitutional proposal** — supermajority threshold (≥66% YES, ≥10% quorum)
+* **Constitutional proposal** — supermajority threshold (≥66% YES, ≥10% quorum, ≥3.5% minimum affirmative support)
 
-All thresholds are defined in DAO Parameters §3.2 and §3.3.
+**Overlay.** A Constitutional proposal is the floor, not always the whole requirement:
+
+* An Entrenched Provision (OA §12.2(a); Charter §12.1) additionally requires the thresholds in **DAO Parameters §3A.4**.
+* A change altering the Activation framework is a **Protected Matter** (**OA §9.12(e)–(g)**) and additionally requires the unanimous signing threshold in **OA §9.11**.
+* **OA §12.2(b)** prohibits certain amendments absolutely during the Transition Period.
+
+All thresholds are defined in DAO Parameters §3.2, §3.3 and §3.3A.
 
 ---
 
@@ -87,6 +116,8 @@ All changes must:
 * include clear rationale
 * specify change type (patch / minor / major)
 * include version updates
+
+Where §4.3's overlay applies, its notice, consent, and disclosure requirements must be satisfied before the change takes effect (**DAO Parameters §3A.4**).
 
 ---
 
@@ -122,9 +153,22 @@ Changes must:
 
 ## 9. Emergency Amendments
 
-The Operating Agreement does not provide an emergency-amendment power. The emergency-amendment power is established constitutionally by **Charter §12.2**; this section is the operational procedure giving effect to it under **Operating Agreement §11.5**, and applies **only to documents in the policy library** (the Charter and operational policies), not to the Operating Agreement, the Certificate of Formation, or any other Formation Document, and never to an Entrenched Provision.
+Charter §12.2 governs this power; where this section differs from it, Charter §12.2 prevails.
 
-Where an emergency requires a temporary amendment to a policy-library document before the standard process in §5 can complete, the amendment may be adopted by **unanimous written consent of all Delegates**, subject to Governance Proposal ratification within 30 days. An amendment not ratified within 30 days is void and of no effect. Actions taken under an unratified amendment are subject to the clawback rule in **Charter §12.2 item 5**: any action that would not have been valid under the unamended document must be reported and reviewed under the **Emergency & Safeguards Policy §10**, and any treasury disbursement so made is recoverable unless separately ratified by Governance Proposal. During the Transition Period, "all Delegates" means all seated Transition RAC members and the ratification requirement is satisfied by a recognised advisory outcome (**Charter §12.2**; **DAO Parameters §3A.3**). "Written consent" has the meaning given in the **Emergency & Safeguards Policy**, which governs the procedural detail and applies where an emergency action is required before a written-consent process can be completed. An emergency amendment may not weaken, reduce, or remove any entrenched provision (Charter §12.1) or alter the Activation framework (Charter §4A).
+The Operating Agreement does not provide an emergency-amendment power. The emergency-amendment power is established constitutionally by **Charter §12.2**; this section is the operational procedure giving effect to it under **Operating Agreement §11.5**, and applies **only to documents in the policy library** (the Charter and operational policies).
+
+Where an emergency requires a temporary amendment to a policy-library document before the standard process in §5 can complete, the amendment may be adopted by **unanimous written consent of all Delegates**, subject to Governance Proposal ratification within 30 days. An amendment not ratified within 30 days is void and of no effect **from the expiry of that period**.
+
+During the Transition Period, "all Delegates" means all seated Transition RAC members and the ratification requirement is satisfied by a recognised advisory outcome (**Charter §12.2**; **DAO Parameters §3A.3**). "Written consent" has the meaning given in the **Emergency & Safeguards Policy §19**, which governs the procedural detail and applies where an emergency action is required before a written-consent process can be completed.
+
+An emergency amendment is subject to every limit in Charter §12.2:
+
+1. it may amend only the Charter or an operational policy, not the Operating Agreement, the Certificate of Formation, or any other Formation Document (§3.1);
+2. it may not touch an Entrenched Provision (Charter §12.1) or the Activation framework (Charter §4A);
+3. it is temporary pending ratification and confers no power to make the change permanent;
+4. it must be publicly disclosed on adoption;
+5. if ratification fails, any action invalid under the unamended document is reported and reviewed under **Emergency & Safeguards Policy §10**, and any treasury disbursement so made is recoverable unless separately ratified; and
+6. before ratification it does not authorise **seating a person in a role**, a change to the **treasury signer set or its thresholds**, or a transfer or exercise of the **Master Badge, Owner Badge, or Governance Operations function**.
 
 ---
 
@@ -140,4 +184,8 @@ All changes must be:
 
 ## 11. Amendments
 
-Changes to this framework follow the same process defined within it. A change that affects amendment thresholds or the document hierarchy is a Major Change (§4.3) and requires a Constitutional proposal.
+Changes to this Framework follow the process defined within it, subject to:
+
+* **Hierarchy.** Established by **OA §11.3**, an Entrenched Provision (**OA §12.2(a)(iii)**). No amendment to this Framework can alter it; any provision purporting to do so is void to that extent.
+* **Thresholds.** Values are carried in the **DAO Parameters Registry**; changing one amends that Registry, not this Framework. The floors in **Charter §12.1 items 2 and 4** cannot be reduced by any proposal.
+* **Otherwise.** A change to §4, §5, or §9 is a Major Change (§4.3).
