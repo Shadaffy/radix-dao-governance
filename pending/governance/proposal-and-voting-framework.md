@@ -1,5 +1,10 @@
 # Proposal & Voting Framework
 
+| Field | Value |
+|---|---|
+| **Version** | v1.0.0 |
+| **Last updated** | 2026-08-25 |
+
 ---
 
 ## 1. Scope
@@ -401,7 +406,7 @@ The RAC is responsible for formally determining the outcome of each vote and pub
 
 **This section does not govern the framework ratification vote.** That vote is taken before the Company is formed (Charter §4A.2A), so no RAC holds authority to determine it. Its result is determined arithmetically from the record of the system on which it was taken, by applying the thresholds in DAO Parameters §3A.1, and published by the persons named as the Transition RAC in Operating Agreement Schedule 1. That publication is **ministerial** — it records what the tallies produce and is not an exercise of any power under this framework, which the vote is itself adopting. Anyone may verify it from the same public record.
 
-**There is no power to exclude a vote.** The RAC may not decline to count, discount, or set aside voting power that §6.1 and DAO Parameters §8A recognise, on any ground — including a sanction or finding under the Code of Conduct, whose sanctions do not reach the vote (Code of Conduct §6.3). Where the RAC believes voting power was cast improperly its remedies lie elsewhere: the Compliance Challenge route in §8, a removal proposal, or a report under the Code. None is a discretion exercised at the point of counting.
+**There is no power to exclude a vote, save on statutory compliance grounds.** The RAC may not decline to count, discount, or set aside voting power that §6.1 and DAO Parameters §8A recognise, on any ground other than a suspension in force under the Compliance Operations Policy §2.4A — including a sanction or finding under the Code of Conduct, whose sanctions do not reach the vote (Code of Conduct §6.3). Where the RAC believes voting power was cast improperly its remedies lie elsewhere: the Compliance Challenge route in §8, a removal proposal, or a report under the Code. None is a discretion exercised at the point of counting.
 
 1. **Retrieve results.** After the voting period closes, the RAC retrieves the raw vote data from the governance platform.
 

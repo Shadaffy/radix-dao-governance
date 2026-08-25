@@ -1,5 +1,10 @@
 # Elections & Role Governance Policy
 
+| Field | Value |
+|---|---|
+| **Version** | v1.0.0 |
+| **Last updated** | 2026-08-25 |
+
 ---
 
 ## 1. Purpose
@@ -497,7 +502,7 @@ If a role becomes vacant — through resignation, removal, incapacitation, or en
 
 ### 11.2 Floor-Protected Resignation
 
-This section applies to any resignation that would reduce **seated RAC members below the applicable floor** — the Permanent RAC floor of **5**, or the Transition RAC floor of **3** (DAO Parameters §5.1) — or that would reduce **active Treasury Signers below the applicable execution quorum** (post-activation 3-of-5; Transition Period 2-of-3 — DAO Parameters §6A). The second limb applies to the resignation of **any Treasury Signing role holder**, whether they hold the seat by allocation as a seated RAC member or by election under **Delegate Mandate §3.1 or §3.2** without a RAC seat; where an elected signer resigns, the replacement process referred to in (a) is the replacement election for that seat under §11. This is the circumstance contemplated by the Operating Agreement's "where resignation is permitted" qualifier (Operating Agreement §4.7(b); current OA §4.1(d)): such a resignation is permitted, but its effect is conditioned as set out below. A resignation that leaves the body **at or above** the floor is unaffected by this section and takes effect immediately on written notice (DAO Parameters §5.1). The notice and no-compelled-service mechanics in (a)–(b) apply to both bodies; for a **Transition RAC** seat the seat is not refilled by replacement election (§11.1) but is handled under the **Governance Continuity Framework §4.6**, the Transition RAC seats being fixed by the Operating Agreement.
+This section applies to any resignation that would reduce **seated RAC members below the applicable floor** — the Permanent RAC floor of **5**, or the Transition RAC floor of **3** (DAO Parameters §5.1) — or that would reduce **active Treasury Signers below the applicable execution quorum** (post-activation 3-of-5; Transition Period 2-of-3 — DAO Parameters §6A). The second limb applies to the resignation of **any Treasury Signing role holder**, whether they hold the seat by allocation as a seated RAC member or by election under **Delegate Mandate §3.1 or §3.2** without a RAC seat; where an elected signer resigns, the replacement process referred to in (a) is the replacement election for that seat under §11. This is the circumstance contemplated by the Operating Agreement's "where resignation is permitted" qualifier (Operating Agreement §4.7(b)): such a resignation is permitted, but its effect is conditioned as set out below. A resignation that leaves the body **at or above** the floor is unaffected by this section and takes effect immediately on written notice (DAO Parameters §5.1). The notice and no-compelled-service mechanics in (a)–(b) apply to both bodies; for a **Transition RAC** seat the seat is not refilled by replacement election (§11.1) but is handled under the **Governance Continuity Framework §4.6**, the Transition RAC seats being fixed by the Operating Agreement.
 
 **(a) Notice and overlap.** The resigning member must give the Floor-Protected Resignation Notice (DAO Parameters §6B) to the RAC and the Governance & Legal Working Group. The resignation takes effect on the earlier of (i) a qualified replacement being seated, or (ii) expiry of the notice period. During the notice period the member remains in office, completes handover under §12, and the replacement election begins under §11.1.
 
@@ -631,9 +636,9 @@ The following parameters are defined in DAO Parameters §6B and are authoritativ
 * MJ Rerun Minimum Qualifying Grade
 * MJ Rerun Voting Period
 * Max MJ Reruns
+* Reserve List Validity Period
 
 The **Grade Quantile** is not in this list. It is fixed in the Proposal & Voting Framework §6.2.4 rather than held as a parameter, and is not adjustable through DAO Parameters.
-* Reserve List Validity Period
 
 The Majority Judgment grade scale is defined in DAO Parameters §3.5.
 

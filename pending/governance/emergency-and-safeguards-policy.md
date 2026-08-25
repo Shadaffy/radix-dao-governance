@@ -1,5 +1,10 @@
 # Emergency & Safeguards Policy
 
+| Field | Value |
+|---|---|
+| **Version** | v1.0.0 |
+| **Last updated** | 2026-08-25 |
+
 ---
 
 ## 1. Scope
@@ -11,6 +16,12 @@ This document defines:
 * What actions are permitted
 * Safeguards against misuse
 * Post-emergency accountability
+
+---
+
+## 2. [Reserved]
+
+*This section number is retained, rather than renumbered, so that references to the sections below remain stable.*
 
 ---
 
@@ -36,7 +47,13 @@ An emergency is a situation where immediate action is required to prevent:
 * Severe disruption to DAO operations
 * Governance capture — a passed proposal that would result in material and irreversible misappropriation of treasury assets in a manner that is plainly contrary to the non-distribution principle (Charter §10–11, Operating Agreement §§3.4–3.5), where the RAC has reasonable grounds to believe the proposal was advanced through coordinated bad-faith token accumulation rather than legitimate community governance
 
-**Governance capture pre-action notice:** Before invoking emergency powers on governance capture grounds, the RAC must publish a public notice to the governance forum stating the specific evidence of bad-faith accumulation. Token holders have 24 hours from that notice to file a Governance Process challenge. If a challenge is filed within that window, the emergency action is suspended pending a fast-track community vote (48-hour voting period, standard Treasury / Budget quorum and approval threshold). If no challenge is filed within 24 hours, the RAC may proceed.
+**Governance capture pre-action notice:** Before invoking emergency powers on governance capture grounds, the RAC must publish a pre-action notice to the governance forum stating the specific evidence of bad-faith accumulation.
+
+Any Governance Participant holding at least the Challenge Filing Threshold (DAO Parameters §6B), verified against the most recent governance snapshot, may file an objection notice within the Governance Capture Notice Period (DAO Parameters §10).
+
+Where an objection notice is filed, the RAC opens a fast-track vote over the Governance Capture Fast-Track Voting Period (DAO Parameters §10), at the Treasury / Budget quorum and approval threshold (DAO Parameters §3.2, §3.3), the question being whether the RAC may invoke emergency powers on those grounds. The RAC may invoke them only if that vote passes. Where no objection notice is filed within the notice period, the RAC may proceed.
+
+Execution of the proposal to which the pre-action notice relates is suspended from publication of that notice until the notice period expires with no objection notice filed, or the fast-track vote closes. Treasury Signers must not initiate or complete execution during the suspension.
 
 ---
 
@@ -152,7 +169,7 @@ This does not slow a genuine emergency. An emergency amendment changes a *rule*;
 
 ---
 
-### 11. Post-Emergency Recovery
+## 11. Post-Emergency Recovery
 
 Emergency actions are intended to stabilize the system and mitigate immediate risks.
 
@@ -165,6 +182,8 @@ This ensures that:
 * temporary emergency measures are removed
 
 Emergency powers must not be used to establish permanent governance changes.
+
+---
 
 ## 12. Sunset of Emergency Actions
 

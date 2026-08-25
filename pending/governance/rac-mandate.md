@@ -1,12 +1,17 @@
 # Radix DAO Permanent RAC Mandate
 
+| Field | Value |
+|---|---|
+| **Version** | v1.0.0 |
+| **Last updated** | 2026-08-25 |
+
 > **Scope of this document.** This Mandate governs the **Permanent RAC**, the standing governance-process oversight body of the Company, constituted following the Transition Period in accordance with **Operating Agreement Article VII** and the **Elections & Role Governance Policy**. The Transition RAC and its limited formation-period authority are governed by Operating Agreement Article VI.
 
 ## 1. Purpose
 
 The Permanent RAC exists to **ensure the integrity, continuity, and correct execution of DAO governance processes**.
 
-The Permanent RAC acts as a **guardian of process**, not a decision-making authority. It is not, unless expressly stated otherwise in this Mandate or the Operating Agreement, a general executive, treasury-management, or policy-making authority.
+The Permanent RAC acts as a **guardian of process**, not a decision-making authority. It is not, unless expressly stated otherwise in this Mandate, the Operating Agreement, or another document forming part of the ratified governance framework, a general executive, treasury-management, or policy-making authority.
 
 ---
 
@@ -59,7 +64,7 @@ This is a general power, and a delegation made under it needs no further authori
 
 ---
 
-## 3B. Advisory Governance Period — Acknowledgement of Recognised Outcomes
+## 3A. Advisory Governance Period — Acknowledgement of Recognised Outcomes
 
 During the **Advisory Governance Period** (formation to the Activation Date), the RAC — constituted as the **Transition RAC** under Operating Agreement Article VI — must, where an advisory governance outcome meets the recognition thresholds in **DAO Parameters §3A.3**, publish to the Official Venue within **14 days** an acknowledgement of the outcome and, where it determines not to act in accordance with it, a written explanation (**Operating Agreement §5.9**). This is the period referred to in **Charter §4A.1**. Advisory outcomes do not bind the Company during this period (Operating Agreement §§5.8–5.9).
 
@@ -73,7 +78,9 @@ The Permanent RAC **must not**:
 * Block or suppress proposals arbitrarily
 * Make unilateral strategic or treasury decisions outside approved mandates
 * Introduce new rules without governance approval
-* Exercise general executive, treasury-management, or policy-making authority beyond the express functions in this Mandate
+* Exercise general executive, treasury-management, or policy-making authority beyond the express functions conferred by this Mandate or another document forming part of the ratified governance framework
+
+A function conferred by another document is limited to its express terms and confers no general authority beyond it.
 
 ---
 
@@ -133,6 +140,12 @@ The Permanent RAC operates **on behalf of the DAO** and remains fully subordinat
 
 ---
 
+## 11. [Reserved]
+
+*This section number is retained, rather than renumbered, so that references to §11A and §11B remain stable.*
+
+---
+
 ## 11A. Selective Obstruction
 
 A documented pattern by a Permanent RAC member of delaying governance process verification, or selectively enforcing rules without documented grounds on record, constitutes misconduct independent of the inactivity clause (DAO Parameters §6B). Any Permanent RAC member may flag this pattern in another member. Any Governance Participant may trigger a misconduct review via Governance Process proposal. This provision is enforced under the **Code of Conduct §6** (see also the parallel provision at Treasury Signers Rules §9A).
@@ -161,5 +174,5 @@ The Permanent RAC may not delegate this responsibility to a Working Group until 
 **Governance & Legal Working Group — mandatory early deliverable:**
 
 * Bring the establishment proposal for the **Governance & Legal Working Group** (Working Group Framework §3) to governance within the **first quarter** of the Permanent RAC's term
-* This Working Group holds the Tier 2 fallback authority in the **Governance Continuity Framework §4.1** and maintains the **Emergency Signer Reserve** (Treasury Signers Rules §15); until it is constituted, both functions are unstaffed. Constituting it closes a known continuity gap and takes priority over discretionary workstreams
+* This Working Group holds the Tier 2 fallback authority in the **Governance Continuity Framework §4.1** and maintains the **Emergency Signer Reserve** (Treasury Signers Rules §15); until it is constituted, the Tier 2 fallback authority is unstaffed and the Reserve subsists only as constituted by the founding election (Elections & Role Governance Policy §17.4), lapsing on expiry of the Reserve List Validity Period. Constituting it closes a known continuity gap and takes priority over discretionary workstreams
 * The proposal must include the initial Emergency Signer Reserve process (candidate criteria, KYC readiness, and the schedule for the first Reserve approval vote)

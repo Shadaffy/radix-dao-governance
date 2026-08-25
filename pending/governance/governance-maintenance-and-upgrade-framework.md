@@ -1,5 +1,10 @@
 # Governance Maintenance & Upgrade Framework
 
+| Field | Value |
+|---|---|
+| **Version** | v1.0.0 |
+| **Last updated** | 2026-08-25 |
+
 ---
 
 ## 1. Purpose
@@ -9,6 +14,12 @@ This document defines how governance documents are:
 * maintained
 * updated
 * evolved over time
+
+---
+
+## 2. [Reserved]
+
+*This section number is retained, rather than renumbered, so that references to the sections below remain stable.*
 
 ---
 

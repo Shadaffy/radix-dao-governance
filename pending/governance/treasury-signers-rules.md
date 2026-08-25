@@ -1,5 +1,10 @@
 # Treasury Signers Operational Rules
 
+| Field | Value |
+|---|---|
+| **Version** | v1.0.0 |
+| **Last updated** | 2026-08-25 |
+
 ---
 
 ## 1. Purpose
@@ -325,7 +330,7 @@ Failure to comply with these rules may result in:
 
 These rules operate alongside:
 
-* Operating Agreement (Articles V, VII, XIII)
+* Operating Agreement (Articles V, VII, IX)
 * Charter
 * Compliance Operations Policy
 * Execution & Treasury Actions Policy

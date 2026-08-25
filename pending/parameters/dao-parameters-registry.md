@@ -1,5 +1,10 @@
 # DAO Parameters Registry
 
+| Field | Value |
+|---|---|
+| **Version** | v1.0.0 |
+| **Last updated** | 2026-08-25 |
+
 ---
 
 ## 1. Purpose
@@ -204,7 +209,7 @@ These parameters carry the activation and transition mechanics that the **Charte
 
 | Parameter                        | Value                                                                  |
 | -------------------------------- | ---------------------------------------------------------------------- |
-| Transition RAC Members           | Exactly 3 (named in GP-PRE-1; constituted under Operating Agreement Article VI) |
+| Transition RAC Members           | Exactly 3 (named in Operating Agreement Schedule 1 (§6.3); constituted under Operating Agreement Article VI) |
 | Permanent RAC Members            | Between 5 and 7 (set per election; defined in RAC Mandate §7). Adjustable by Governance Process proposal; minimum 5. |
 | Term Length (Permanent RAC)      | 6 months                                                               |
 | Routine Decision Quorum          | Simple majority (more than half of seated members), where "seated members" excludes members recused on the matter — see Recusal and Quorum below |
@@ -235,6 +240,7 @@ These parameters carry the activation and transition mechanics that the **Charte
 | ---------------------------------- | -------------------- |
 | Working Group Budget Cap           | Defined per proposal |
 | Single Transaction Limit           | $12,000 USDC |
+| Expense Pre-Authorisation Threshold | $500 USDC — expenses at or above this value require advance approval by the body holding the budget (Contributor Compensation Policy §8). Measured per claim |
 | Emergency Spend Limit              | $5,000 USDC — for operational emergencies (asset security, key rotation, critical infrastructure) |
 | Governance Reconstitution Limit    | $25,000 USDC — available only when a RAC or signer continuity event has been declared under Governance Continuity §4.1 or §4.2; covers emergency election costs, legal filings, and Registered Agent compliance fees; subject to GP ratification within 30 days |
 | Legal Defense Advancement Limit    | $25,000 USDC per legal proceeding — a bridging pool covering immediate legal response costs for one or more Delegates or RAC members named in the same proceeding arising from their role, before a GP can authorize ongoing funding; the $12,000 Single Transaction Limit does not apply within this pool; does not require a declared continuity event; subject to GP ratification within 30 days and the repayment undertaking in OA §12.5 |
@@ -338,7 +344,6 @@ The concrete on-chain identifiers for the treasury and governance infrastructure
 | Signer Response Time            | 48 hours  | Time to respond to execution request |
 | Signer Dispute Escalation Time  | 48 hours  | Time before escalation allowed       |
 | Misconduct Review Window        | 7–14 days | Time to review misconduct claims     |
-| Governance Escalation Threshold | quorum    | Participation required to escalate   |
 | Abuse Threshold                 | Case by case (RAC discretion, subject to DAO review) | Limit on repeated frivolous disputes |
 
 ---
@@ -361,13 +366,13 @@ The concrete on-chain identifiers for the treasury and governance infrastructure
 | Engagement Renewal Price Increase Cap | 10% cumulative, measured against the price at original award | Maximum total price increase permitted across all renewals of a single engagement under the price increase exception (Contributor Compensation Policy §6.5.2). Measured against the original award price rather than the preceding renewal, so successive increases cannot compound past the cap. Where a proposed increase would exceed it, the engagement must be competed or continued under a Governance Proposal. Effective from the Activation Date |
 | Engagement Renewal Challenge Window | Same as **Term Renewal Challenge Window** (§6B) | Period during which a Governance Participant may file a unilateral challenge notice voiding a proposed engagement renewal (Contributor Compensation Policy §6.5.3). Defined by reference so the two windows cannot diverge |
 | Engagement Renewal Challenge Filing Threshold | Same as **Challenge Filing Threshold** (§6B) | Minimum holding required to file a valid engagement-renewal challenge. Defined by reference so the two thresholds cannot diverge |
-| Award Challenge Window | Same as the §6.3 community comment period — **7 days** | Period during which a selection under an RFP may be challenged (Contributor Compensation Policy §6.3A). Defined by reference to the existing comment period so the two cannot diverge and so arming the window adds no delay to an unchallenged award. Engagement confirmation under §6.4 may not take place while the window is open. Effective from the Activation Date |
+| Award Challenge Window | Same as the Contributor Compensation Policy §6.3 community comment period — **7 days** | Period during which a selection under an RFP may be challenged (Contributor Compensation Policy §6.3A). Defined by reference to the existing comment period so the two cannot diverge and so arming the window adds no delay to an unchallenged award. Engagement confirmation under §6.4 may not take place while the window is open. Effective from the Activation Date |
 | Award Challenge Filing Threshold | Same as **Challenge Filing Threshold** (§6B) | Minimum holding required to file a valid award challenge (Contributor Compensation Policy §6.3A.1). Defined by reference so it cannot diverge from the renewal-challenge and Compliance Challenge thresholds. A qualified bidder holds a referral right only and does not file, so no separate bidder threshold applies |
 | Award Challenge Determination Window | 10 business days | Period within which the reviewing body determines an award challenge (Contributor Compensation Policy §6.3A.3). Set to accommodate the ordinary remedy — re-evaluation of submissions already received by a panel constituted free of the defect — rather than only a documentary review. Engagement confirmation is suspended for its duration. Effective from the Activation Date |
-| Bridge Challenge Extension | 30 days | Maximum extension of a continuity bridge where the award concluding the competition is itself challenged under §6.3A (Contributor Compensation Policy §6.6.3). Prevents a challenge timed near bridge expiry from terminating the service by running the review past the cap. Non-renewable; a second challenge does not extend the bridge again. Effective from the Activation Date |
-| Continuity Bridge Cap | 60 days | Maximum duration of a continuity bridge, during which a challenged renewal of a **continuity-critical** engagement continues on unchanged scope and price while the engagement is competed (Contributor Compensation Policy §6.6.3). Set at roughly twice the minimum §6 competition path (14-day RFP open period, evaluation, independent review panel above the Independent Review Panel Threshold, 7-day comment, contracting) — long enough to absorb one round of slippage, short enough that the bridge cannot substitute for competing on time. Where the competition has not concluded by expiry, the engagement ends; extension requires a Governance Proposal. Non-renewable; one bridge per engagement. Effective from the Activation Date |
+| Bridge Challenge Extension | 30 days | Maximum extension of a continuity bridge where the award concluding the competition is itself challenged under Contributor Compensation Policy §6.3A (Contributor Compensation Policy §6.6.3). Prevents a challenge timed near bridge expiry from terminating the service by running the review past the cap. Non-renewable; a second challenge does not extend the bridge again. Effective from the Activation Date |
+| Continuity Bridge Cap | 60 days | Maximum duration of a continuity bridge, during which a challenged renewal of a **continuity-critical** engagement continues on unchanged scope and price while the engagement is competed (Contributor Compensation Policy §6.6.3). Set at roughly twice the minimum Contributor Compensation Policy §6 competition path (14-day RFP open period, evaluation, independent review panel above the Independent Review Panel Threshold, 7-day comment, contracting) — long enough to absorb one round of slippage, short enough that the bridge cannot substitute for competing on time. Where the competition has not concluded by expiry, the engagement ends; extension requires a Governance Proposal. Non-renewable; one bridge per engagement. Effective from the Activation Date |
 | Bridge RFP Publication Deadline | 10 business days | Period within which the engaging body must publish the RFP after the RAC acknowledges a challenge to a continuity-critical engagement (Contributor Compensation Policy §6.6.3). Measured from the acknowledgement so the bridge cannot be consumed by delay in starting the competition it exists to accommodate. Effective from the Activation Date |
-| Pre-Activation Designation Window | 30 days from the Activation Date | Single window in which an engagement already in effect on the Activation Date may be designated continuity-critical (Contributor Compensation Policy §6.6.5). A pre-Activation engagement had no award-time opportunity to be designated; a designation not made within this window is unavailable until a completed competition under §6 opens the question again |
+| Pre-Activation Designation Window | 30 days from the Activation Date | Single window in which an engagement already in effect on the Activation Date may be designated continuity-critical (Contributor Compensation Policy §6.6.5). A pre-Activation engagement had no award-time opportunity to be designated; a designation not made within this window is unavailable until a completed competition under Contributor Compensation Policy §6 opens the question again |
 
 ---
 
@@ -443,6 +448,8 @@ The concrete on-chain identifiers for the treasury and governance infrastructure
 | Emergency Duration  | Max 7 days      |
 | Disclosure Deadline | Within 48 hours |
 | Post-Review Window  | 7 days          |
+| Governance Capture Notice Period | 24 hours from publication of the RAC's pre-action notice — period within which an objection notice may be filed (Emergency & Safeguards Policy §4) |
+| Governance Capture Fast-Track Voting Period | 48 hours — duration of the fast-track vote opened where an objection notice is filed (Emergency & Safeguards Policy §4) |
 
 ---
 

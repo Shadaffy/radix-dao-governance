@@ -1,5 +1,10 @@
 # Execution & Treasury Actions Policy
 
+| Field | Value |
+|---|---|
+| **Version** | v1.0.0 |
+| **Last updated** | 2026-08-25 |
+
 ---
 
 ## 1. Scope
@@ -10,6 +15,12 @@ This document defines:
 * How treasury actions are carried out
 * Who is authorized to execute decisions
 * Safeguards around execution and fund usage
+
+---
+
+## 2. [Reserved]
+
+*This section number is retained, rather than renumbered, so that references to the sections below remain stable.*
 
 ---
 
@@ -102,7 +113,7 @@ Every approved proposal that creates a paid role must designate an executing bod
 
 **When the RAC is the designated executor:**
 
-The RAC must publicly document the selection process and publish its selection decision to the governance forum for a 7-day acknowledgement period before the engagement is binding. During this period, any Governance Participant may file a Compliance Challenge under the standard mechanism (Proposal & Voting Framework §8) on the grounds that the selection does not comply with the approved proposal.
+The RAC must publicly document the selection process and publish its selection decision to the governance forum for a 7-day acknowledgement period before the engagement is binding. During this period, any Governance Participant holding at least the Compliance Challenge Filing Threshold (DAO Parameters §4) may file a Compliance Challenge (Proposal & Voting Framework §8) on the grounds that the selection does not comply with the approved proposal. The acknowledgement period is the filing window for a challenge under this section.
 
 The RAC may not act as both executor and compliance verifier for the same role. Where the RAC executes a hire, compliance verification responsibility passes to the DAO via the acknowledgement period above.
 

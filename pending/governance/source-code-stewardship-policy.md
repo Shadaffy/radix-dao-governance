@@ -1,5 +1,10 @@
 # Source Code Stewardship Policy
 
+| Field | Value |
+|---|---|
+| **Version** | v1.0.0 |
+| **Last updated** | 2026-08-25 |
+
 ---
 
 ## 1. Purpose
@@ -169,7 +174,7 @@ An emergency patch may be initiated when:
 
 ### 7.2 Authority
 
-The RAC, in coordination with the relevant Working Group maintainers, may authorize an emergency patch without the standard RFC and review periods in §5.2. Emergency patches still require:
+The RAC, in coordination with the relevant Working Group maintainers, may authorize an emergency patch without the standard RFC and review periods in §5.2, by RAC decision at the emergency decision threshold (**DAO Parameters §5.2**). Emergency patches still require:
 
 * minimum 2 approving reviews from designated maintainers
 * documentation of the vulnerability and the fix before deployment

@@ -1,5 +1,10 @@
 # Code of Conduct
 
+| Field | Value |
+|---|---|
+| **Version** | v1.0.0 |
+| **Last updated** | 2026-08-25 |
+
 ---
 
 ## 1. Scope
@@ -163,7 +168,7 @@ Sanctions are proportionate to the severity and circumstances of the violation. 
 
 **No sanction under this Code reaches the vote.** No finding, sanction or interim measure affects a Governance Participant's eligible voting power, their entitlement to cast a vote, or the counting of a vote cast. "Participation in DAO spaces and processes" means forums, calls, working groups, repositories, communication channels, grant and compensation processes, and candidacy for role — not voting. The franchise is not this policy's to remove: **Charter §12.1** entrenches XRD and LSU as eligible voting power sources for **all** DAO governance votes, and **Charter §13** makes a conflicting policy provision void to that extent, so a sanction reaching the vote would be unenforceable rather than severe.
 
-This governs sanctions under **this Code** only, and does not address any suspension of voting rights on compliance grounds (**Compliance Operations Policy §2.4**), which is reserved for legal advice.
+This governs sanctions under **this Code** only. Suspension of voting rights on statutory compliance grounds is governed by the **Compliance Operations Policy §2.4A**.
 
 **Decision thresholds.** A **warning** or **temporary suspension** is decided under the RAC's routine decision rule (DAO Parameters §5.1). **Permanent exclusion**, and any interim measure under §6.2 step 5, require the emergency decision threshold (**DAO Parameters §5.2**) — the bar at which the framework fences its most serious powers.
 
@@ -176,7 +181,7 @@ Any participant subject to a sanction may appeal the determination by:
 * Submitting a written appeal to the RAC within **14 days** of the finding
 * Requesting that the appeal be reviewed by a panel that excludes any RAC members involved in the original finding
 
-**Escalation is the appellant's right, not the RAC's judgement.** An appellant may instead elect, in the notice of appeal, to have the appeal determined under the **Dispute Resolution & Arbitration Policy** rather than by the RAC. That election is not refusable. The previous rule made escalation available only where the RAC decided it could not form an impartial panel — a judgement the RAC made about itself, in permissive terms, on an appeal against its own finding.
+**Escalation is the appellant's right, not the RAC's judgement.** An appellant may instead elect, in the notice of appeal, to have the appeal determined under the **Dispute Resolution & Arbitration Policy** rather than by the RAC. That election is not refusable.
 
 **Escalation is automatic where an impartial panel cannot be formed.** A panel excluding every member involved in the original finding must still meet the non-recused floor in **DAO Parameters §5.1**. Where it cannot — which at the five-seat minimum is the ordinary case, since a finding carried by three members leaves at most two — the appeal proceeds under the Dispute Resolution & Arbitration Policy without any further decision by the RAC.
 

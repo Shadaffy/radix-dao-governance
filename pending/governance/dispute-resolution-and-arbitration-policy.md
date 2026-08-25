@@ -1,5 +1,10 @@
 # Dispute Resolution & Arbitration Policy
 
+| Field | Value |
+|---|---|
+| **Version** | v1.0.0 |
+| **Last updated** | 2026-08-25 |
+
 ---
 
 ## 1. Purpose
@@ -212,7 +217,7 @@ Filing a dispute does not toll the Compliance Challenge Window, and the existenc
 
 ## 14. Timeframes
 
-Response times, escalation windows, and resolution expectations are defined in DAO Parameters §6C. The parameters cover Level 1 Resolution Window, Level 2 Mediation Window, RAC Review Window, Max Escalation Time, Signer Response Time, Signer Dispute Escalation Time, Misconduct Review Window, Governance Escalation Threshold, and Abuse Threshold. Changes to these timeframes require a Governance Proposal amending DAO Parameters §6C.
+Response times, escalation windows, and resolution expectations are defined in DAO Parameters §6C. The parameters cover Level 1 Resolution Window, Level 2 Mediation Window, RAC Review Window, Max Escalation Time, Signer Response Time, Signer Dispute Escalation Time, Misconduct Review Window, and Abuse Threshold. Changes to these timeframes require a Governance Proposal amending DAO Parameters §6C.
 
 ---
 

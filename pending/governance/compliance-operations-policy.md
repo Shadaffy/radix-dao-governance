@@ -1,5 +1,10 @@
 # Compliance Operations Policy
 
+| Field | Value |
+|---|---|
+| **Version** | v1.0.0 |
+| **Last updated** | 2026-08-25 |
+
 ---
 
 ## 1. Purpose
@@ -46,9 +51,26 @@ UBO records are maintained confidentially with the Registered Agent and are not 
 
 Failure to complete required KYC upon crossing the 25% threshold may result in:
 
-* Suspension of voting rights associated with the affected holdings, pending compliance
+* Suspension of voting rights associated with the affected holdings, pending compliance (§2.4A)
 * Referral to legal authorities as required by applicable law
 * Civil and criminal penalties under Marshall Islands law (up to USD 500/day civil penalty; up to USD 10,000 criminal fine; up to 2 years imprisonment; possible entity revocation)
+
+### 2.4A Suspension of Voting Rights
+
+The RAC may suspend the voting rights attaching to holdings whose holder has not satisfied a KYC, beneficial-owner identification, or BOIR reporting requirement applicable to that holder under Marshall Islands law and **Operating Agreement Article X** (§10.1, §10.2, §10.4).
+
+A suspension under this section:
+
+* is made by RAC decision at the emergency decision threshold (**DAO Parameters §5.2**), recording the statutory requirement relied on;
+* requires prior written notice to the holder and a cure period of **14 days** from that notice;
+* extends only to the holdings of the non-compliant holder, and to no voting power source (**Charter §12.1** item 4);
+* takes effect on publication to the Official Venue, without disclosure of information held confidentially under §2.3;
+* lapses on the holder satisfying the requirement, or on its being established that the requirement did not apply; and
+* is subject to the Compliance Challenge (**Proposal & Voting Framework §8**) and to escalation under the **Dispute Resolution & Arbitration Policy**.
+
+A suspension determines who may vote; it does not change how eligible voting power is measured.
+
+This section is the only ground on which voting power recognised under **Proposal & Voting Framework §6.1** may be set aside.
 
 ### 2.5 Continuity of the Compliance Liaison Role
 

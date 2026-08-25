@@ -1,5 +1,10 @@
 # Contributor Compensation Policy
 
+| Field | Value |
+|---|---|
+| **Version** | v1.0.0 |
+| **Last updated** | 2026-08-25 |
+
 ---
 
 ## 1. Purpose
@@ -425,10 +430,9 @@ For milestone-based engagements:
 
 Stewards and contributors may be reimbursed for reasonable out-of-pocket expenses incurred in service of the DAO:
 
-* Expenses must be pre-authorized or within a defined per-person allowance (set in DAO Parameters)
+* Expenses at or above the Expense Pre-Authorisation Threshold (DAO Parameters §6.1) require advance approval by the body holding the budget; expenses below it are reimbursable on receipts
 * Claims must be submitted with receipts within **60 days** of the expense
 * Claims are reviewed and approved by the relevant Working Group Stewards (or the RAC for Steward claims)
-* Travel and event expenses above the threshold in DAO Parameters require advance approval
 
 ---
 

@@ -1,5 +1,10 @@
 # Working Group Framework
 
+| Field | Value |
+|---|---|
+| **Version** | v1.0.0 |
+| **Last updated** | 2026-08-25 |
+
 ---
 
 ## 1. Purpose
@@ -46,6 +51,8 @@ Each Working Group establishment proposal must include:
 * Proposed term — start date and term length, aligned with the Elections & Role Governance Policy
 
 A Working Group does not exist as a chartered body until its establishment proposal has passed and its Stewards have been elected under the Elections & Role Governance Policy.
+
+Where a governance document assigns a function to a Working Group that is not yet constituted, the function is discharged by the RAC until that Working Group is constituted and operational.
 
 ---
 

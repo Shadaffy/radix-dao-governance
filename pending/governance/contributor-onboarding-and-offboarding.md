@@ -1,5 +1,10 @@
 # Contributor Onboarding and Offboarding
 
+| Field | Value |
+|---|---|
+| **Version** | v1.0.0 |
+| **Last updated** | 2026-08-25 |
+
 ---
 
 ## 1. Purpose

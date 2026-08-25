@@ -53,7 +53,7 @@
 
 This proposal is the community's **constitutional ratification** of the complete governance framework of
 Radix DAO LLC — the **Charter** (as the DAO's governance constitution) and the **full operational policy
-library**, listed by name in §5. It is conducted **before** the legal entity is formed, on the
+library**, identified by file, version and content hash in §5. It is conducted **before** the legal entity is formed, on the
 community's own Consultation V2 system.
 
 Ratification establishes the framework that the Transition RAC carries into formation. It satisfies
@@ -142,6 +142,34 @@ subordinate governance rules under OA §11.2 / §11.5.
 
 *(The Roles Registry is a navigation aid that maps roles to the documents above; it is not a separate
 source of rules.)*
+
+**Ratified documents — manifest:**
+
+The documents ratified by this proposal are those listed below, at the versions stated. Each is published to the Official Venue as a signed PDF, and the hash recorded is the SHA-256 of that signed PDF. The file paths identify the source document in the governance repository.
+
+| # | Document | File | Version | SHA-256 |
+|---|---|---|---|---|
+| 1 | Charter | `constitutional/charter.md` | v1.0.0 | `[to be recorded at signing]` |
+| 2 | DAO Parameters Registry | `parameters/dao-parameters-registry.md` | v1.0.0 | `[to be recorded at signing]` |
+| 3 | Proposal & Voting Framework | `governance/proposal-and-voting-framework.md` | v1.0.0 | `[to be recorded at signing]` |
+| 4 | Execution & Treasury Actions Policy | `governance/execution-and-treasury-actions-policy.md` | v1.0.0 | `[to be recorded at signing]` |
+| 5 | Emergency & Safeguards Policy | `governance/emergency-and-safeguards-policy.md` | v1.0.0 | `[to be recorded at signing]` |
+| 6 | Treasury Signers Rules | `governance/treasury-signers-rules.md` | v1.0.0 | `[to be recorded at signing]` |
+| 7 | On-Chain Identifiers & Verification Policy | `governance/on-chain-identifiers-and-verification-policy.md` | v1.0.0 | `[to be recorded at signing]` |
+| 8 | RAC Mandate | `governance/rac-mandate.md` | v1.0.0 | `[to be recorded at signing]` |
+| 9 | Delegate Mandate | `governance/delegate-mandate.md` | v1.0.0 | `[to be recorded at signing]` |
+| 10 | Conflict of Interest Policy | `governance/conflict-of-interest-policy.md` | v1.0.0 | `[to be recorded at signing]` |
+| 11 | Code of Conduct | `governance/code-of-conduct.md` | v1.0.0 | `[to be recorded at signing]` |
+| 12 | Compliance Operations Policy | `governance/compliance-operations-policy.md` | v1.0.0 | `[to be recorded at signing]` |
+| 13 | Governance Maintenance & Upgrade Framework | `governance/governance-maintenance-and-upgrade-framework.md` | v1.0.0 | `[to be recorded at signing]` |
+| 14 | Working Group Framework | `governance/working-group-framework.md` | v1.0.0 | `[to be recorded at signing]` |
+| 15 | Elections & Role Governance Policy | `governance/elections-and-role-governance-policy.md` | v1.0.0 | `[to be recorded at signing]` |
+| 16 | Governance Continuity Framework | `governance/governance-continuity-framework.md` | v1.0.0 | `[to be recorded at signing]` |
+| 17 | Dispute Resolution & Arbitration Policy | `governance/dispute-resolution-and-arbitration-policy.md` | v1.0.0 | `[to be recorded at signing]` |
+| 18 | Contributor Compensation Policy | `governance/contributor-compensation-policy.md` | v1.0.0 | `[to be recorded at signing]` |
+| 19 | Contributor Onboarding and Offboarding | `governance/contributor-onboarding-and-offboarding.md` | v1.0.0 | `[to be recorded at signing]` |
+| 20 | Source Code Stewardship Policy | `governance/source-code-stewardship-policy.md` | v1.0.0 | `[to be recorded at signing]` |
+| 21 | Open Source & Intellectual Property Policy | `governance/open-source-and-ip-policy.md` | v1.0.0 | `[to be recorded at signing]` |
 
 ---
 

@@ -1,5 +1,10 @@
 # RADIX DAO LLC -- this is the On-Chain Identifiers & Verification Policy incorporated by reference in Schedule 4 of the Operating Agreement of Radix DAO LLC, in accordance with clause 11.4 of that Agreement.
 
+| Field | Value |
+|---|---|
+| **Version** | v1.0.0 |
+| **Last updated** | 2026-08-25 |
+
 ---
 
 ## 1. Purpose
@@ -32,7 +37,9 @@ This policy records *what the identifiers are and how they are verified*; the op
 
 ## 3. Identifier Register — Governance
 
-The following identifiers constitute the governance system. On-chain entries are recorded on the Radix network and each carries a public verification link; off-chain entries — the governance platform, the Official Venue(s), and the Compliance Challenge Filing Channel — carry a published, publicly reachable location. Values marked *[to be recorded at deployment]* are completed when the corresponding entity is deployed and confirmed, in accordance with §8.
+The following identifiers constitute the governance system. On-chain entries are recorded on the Radix network and each carries a public verification link; off-chain entries — the governance platform, the Official Venue(s), and the Compliance Challenge Filing Channel — carry a published, publicly reachable location.
+
+An entry shown in square brackets in this section or in §5 is not yet recorded. Each is completed when the corresponding entity is deployed, established, or designated, in accordance with §8. An identifier that has not been recorded may not be relied upon in governance (Charter §6A).
 
 | Function | Network | Identifier | Verify |
 |---|---|---|---|
