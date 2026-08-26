@@ -166,10 +166,10 @@ Where the breach arises from the **timing** of an otherwise valid disbursement r
 
 A disbursement exceeding the Single Transaction Limit may be executed only where the signers verify each of the following — conditions 1 to 4 and 6 giving effect to **DAO Parameters §6.1A**, and condition 5 to **Contributor Compensation Policy §6.4**:
 
-1. the authorising Treasury & Budget proposal expressly invokes §6.1A and states the amount, the recipient, and the obligation discharged — an authorisation may not be inferred from a general budget approval;
+1. the authorising Treasury & Budget proposal expressly invokes §6.1A and states the amount, the recipient, and the obligation discharged — an authorisation may not be inferred from a general budget approval, nor left to any other body to fix later;
 2. the RAC's published result records approval at or above the **Large Milestone Approval Threshold**;
 3. the verification event stated in the proposal has occurred — for a milestone, Steward sign-off under Contributor Compensation Policy §7;
-4. the **High-Risk Signing Threshold** is met and the **High-Risk Execution Delay** has elapsed, regardless of how the transaction would otherwise be classified; and
+4. the **High-Risk Signing Threshold** is met and the **High-Risk Execution Delay** has elapsed, regardless of how the transaction would otherwise be classified;
 5. the scope of work confirmed under Contributor Compensation Policy §6.4 does not condition the payment on an authorization not yet given, or, where it does, that condition is satisfied; and
 6. the disbursement, counted in full and **valued at execution**, does not carry the trailing 30-day total past the **Rolling 30-Day Outflow Cap** — or, where the same proposal granted a one-time uplift under DAO Parameters §6.1B, past the uplifted figure, applied only within that uplift's window.
 
@@ -270,7 +270,7 @@ Treasury Signers must maintain records of:
 * the **rolling 30-day disbursement total** maintained under §8.2, including the treasury valuation used at each verification and the leg of the Rolling 30-Day Outflow Cap that bound
 * each **one-time outflow uplift** applied under §8.2, with its uplifted figure and the opening and closing dates of the window it governed
 * each **mandatory refusal** under §8.2, with the limit engaged and the determination relied on
-* for each **Large Milestone Authorization** executed under §8.2A, the verification of each of its five conditions
+* for each **Large Milestone Authorization** executed under §8.2A, the verification of each of its six conditions
 
 ---
 
