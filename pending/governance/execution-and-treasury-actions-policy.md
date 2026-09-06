@@ -100,6 +100,8 @@ They:
 
 Where RAC determines that a refusal is invalid, or where a proposal remains unexecuted beyond the 10-business-day backstop window defined in the Governance Continuity Framework §4.2, RAC may instruct remaining signers to proceed with execution directly.
 
+**"Directly" means without a further authorising vote, not below threshold.** An instruction under this paragraph bypasses the refusing or unresponsive signer; it does not lower, waive, or dispense with any signing threshold. Execution proceeds with the remaining signers at the applicable multi-signature threshold (**DAO Parameters §6A**; Governance Continuity Framework §4.2, which states the standard threshold for its backstop), and where the disbursement is executed under a **Large Milestone Authorization** the High-Risk Signing Threshold applies unchanged (**Treasury Signers Rules §8.2A**, condition 4). Where the remaining signers cannot meet the applicable threshold, the instruction cannot be carried out and the matter is a signer continuity event under Governance Continuity Framework §4.2. Nor does the instruction displace verification against the budget limits in DAO Parameters §6.1: meeting a threshold does not by itself authorise a disbursement (**Treasury Signers Rules §10**).
+
 Detailed operational rules are defined in the Treasury Signers Operational Rules.
 
 ---
