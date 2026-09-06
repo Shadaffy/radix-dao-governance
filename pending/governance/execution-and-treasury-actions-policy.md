@@ -95,10 +95,10 @@ Treasury Signers are responsible for carrying out treasury execution actions app
 They:
 * execute approved actions within defined time limits
 * operate under multi-signature controls
-* may refuse or delay execution only on the grounds defined in **Treasury Signers Rules §9**
+* may refuse or delay execution on the discretionary grounds defined in **Treasury Signers Rules §9**, and **must** refuse it where a disbursement would breach a budget limit in DAO Parameters §6.1 (**Treasury Signers Rules §8.2**)
 * remain accountable to DAO governance
 
-Where RAC determines that a refusal is invalid, or where a proposal remains unexecuted beyond the 10-business-day backstop window defined in the Governance Continuity Framework §4.2, RAC may instruct remaining signers to proceed with execution directly.
+Where RAC determines that a refusal grounded in Treasury Signers Rules §9 is invalid, or where a proposal remains unexecuted beyond the 10-business-day backstop window defined in the Governance Continuity Framework §4.2, RAC may instruct remaining signers to proceed with execution directly. This does not reach a **mandatory refusal under Treasury Signers Rules §8.2**, which is compulsory rather than discretionary and to which the invalid-refusal consequence in §9 does not apply: a disbursement that would breach a budget limit in DAO Parameters §6.1 is not executable on a RAC instruction, and the remedy is a further governance decision, not an override.
 
 **"Directly" means without a further authorising vote, not below threshold.** An instruction under this paragraph bypasses the refusing or unresponsive signer; it does not lower, waive, or dispense with any signing threshold. Execution proceeds with the remaining signers at the applicable multi-signature threshold (**DAO Parameters §6A**; Governance Continuity Framework §4.2, which states the standard threshold for its backstop), and where the disbursement is executed under a **Large Milestone Authorization** the High-Risk Signing Threshold applies unchanged (**Treasury Signers Rules §8.2A**, condition 4). Where the remaining signers cannot meet the applicable threshold, the instruction cannot be carried out and the matter is a signer continuity event under Governance Continuity Framework §4.2. Nor does the instruction displace verification against the budget limits in DAO Parameters §6.1: meeting a threshold does not by itself authorise a disbursement (**Treasury Signers Rules §10**).
 
