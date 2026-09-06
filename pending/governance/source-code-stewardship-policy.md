@@ -134,7 +134,7 @@ Reviewers are expected to assess:
 
 The DAO operates a responsible disclosure process for security vulnerabilities in DAO-controlled software. Vulnerability reports should be submitted to the RAC via the channel published in the governance forum (not in public channels).
 
-The RAC acknowledges receipt within 48 hours and assesses severity within 7 days.
+The RAC acknowledges receipt within 48 hours and assesses severity within 7 days, or within 48 hours where the report on its face indicates Critical severity. The patch timelines in §6.2 run from receipt of the report.
 
 ### 6.2 Severity Classification
 
