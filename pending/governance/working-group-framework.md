@@ -102,7 +102,7 @@ Working Groups may not:
 Minor operational variance is permitted within these limits:
 
 * Up to **10%** of the approved budget may be exceeded without prior approval, provided it is disclosed in the next monthly report
-* Variance between **10% and 20%** requires RAC notification within 10 business days and must be ratified with documented rationale; a new Treasury proposal is only required if the variance is not resolved within the current budget period
+* Variance between **10% and 20%** requires RAC notification within 10 business days and must be ratified by the RAC with documented rationale, as budget oversight under §10; a new Treasury proposal is only required if the variance is not resolved within the current budget period
 * Any variance **exceeding 20%** constitutes a breach of mandate and requires immediate suspension of non-essential spending until a new Treasury proposal is approved
 
 Unspent funds at the end of a budget period must be returned to treasury unless a carry-forward is explicitly approved by Governance Proposal.
