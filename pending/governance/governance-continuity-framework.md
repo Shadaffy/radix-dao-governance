@@ -191,6 +191,7 @@ Response:
 * extended voting periods (double standard duration)
 * reduced quorum threshold (50% of standard quorum, minimum 1%) — except that the quorum for Constitutional proposals may not be reduced below the entrenched 7% floor (Charter §12.1 item 2), so the effective reduced Constitutional quorum is 7%
 * a raised approval threshold for any proposal confirmed under the reduced quorum (Reduced-Quorum Approval Uplift, DAO Parameters §9A: +15 percentage points above the standard threshold — Governance Process 60% → 75%, Executable 50% → 65%; Constitutional unchanged)
+* a reduced Minimum Affirmative Support floor, scaling with the quorum (DAO Parameters §9A: 50% of the standard floor for that proposal type — Governance Process 2% → 1%, Executable 1% → 0.5%, Constitutional 3.5% → 1.75%)
 * a reduced-quorum activation notice, published by the RAC to the Official Venue at the opening of the reduced-quorum voting window, before the extended voting period runs
 
 The reduced quorum applies once. A proposal that fails to meet it has failed and is subject to the standard cooldown (DAO Parameters §3.4); the quorum is not further reduced.
